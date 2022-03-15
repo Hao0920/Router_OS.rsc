@@ -1,4 +1,12 @@
-
+/ip firewall address-list
+remove [find list=china]
+remove [find list=china_telecom]
+remove [find list=china_unicom]
+remove [find list=china_mobile]
+remove [find list=china_tietong]
+remove [find list=china_education_and_research_network]
+remove [find list=great_wall_broadband_network]
+remove [find list=othernet]
 add list=china address=1.0.1.0/24
 add list=china address=1.0.2.0/23
 add list=china address=1.0.8.0/21
