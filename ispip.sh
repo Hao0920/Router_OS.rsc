@@ -19,15 +19,16 @@ wget --no-check-certificate -c -O gwbn_cidr.txt https://ispip.clang.cn/gwbn_cidr
 wget --no-check-certificate -c -O othernet_cidr.txt https://ispip.clang.cn/othernet_cidr.txt
 
 {
-echo "/ip firewall address-list 
-       remove [find list="china"]
-       remove [find list="china_telecom"]
-       remove [find list="china_unicom"]
-       remove [find list="china_mobile"]
-       remove [find list="china_tietong"]
-       remove [find list="china_education_and_research_network"]
-       remove [find list="great_wall_broadband_network"]
-       remove [find list="othernet"]"
+echo
+"/ip firewall address-list 
+remove [find list="china"]
+remove [find list="china_telecom"]
+remove [find list="china_unicom"]
+remove [find list="china_mobile"]
+remove [find list="china_tietong"]
+remove [find list="china_education_and_research_network"]
+remove [find list="great_wall_broadband_network"]
+remove [find list="othernet"]"
 
 for net in $(cat all_cn_cidr.txt) ; do
   echo "add list=china address=$net"
