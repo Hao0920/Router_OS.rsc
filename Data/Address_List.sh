@@ -1,5 +1,5 @@
-mkdir -p ./ISP-IP
-cd ./ISP-IP
+mkdir -p ./Data/ISP-IP
+cd ./Data/ISP-IP
 
 # 获取 IP 列表
 # 中国大陆所有 IP 地址
@@ -65,4 +65,4 @@ done
 } > ../Address_List.rsc
 
 #cd ..
-#rm -rf ./ISP-IP
+#rm -rf ./Data/ISP-IP
