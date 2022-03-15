@@ -65,4 +65,4 @@ done
 } > ../Address_List.rsc
 
 cd ..
-mv -rf ./Data/Address_List.rsc ./
+mv ./Data/Address_List.rsc ./
