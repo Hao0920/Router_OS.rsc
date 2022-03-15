@@ -1,9 +1,15 @@
-代码取自 [jacyl4/chnroute](https://github.com/jacyl4/chnroute)
+IPS-IP
+=
+为Router OS生成策略路由规则
 
-ip段信息取自 [Clang.CN](https://ispip.clang.cn)
-
-使用方法:
-**.rsc** 是往Firewall - address lists 里生ip段列表。
+## 感谢
+- 代码 : [jacyl4/chnroute](https://github.com/jacyl4/chnroute)
+- 数据源 : [Clang.CN](https://ispip.clang.cn)
+- Github Action 自动构建
+## 使用方法
+### 通过 `WinBox-System-Scheduler` 添加脚本实现自动更新
+### Github Action 构建的文件自带删除原 IP 列表代码
+`Firewall - Address List` 导入 IP 列表
 ```
 /file remove [find name="isp-all.rsc"]
 /tool fetch url="https://cdn.jsdelivr.net/gh/Hao0920/ISP-IP@main/isp-all.rsc"
@@ -11,5 +17,3 @@ ip段信息取自 [Clang.CN](https://ispip.clang.cn)
 /import isp-all.rsc
 }
 ```
-
-通过Firewall - mangle页，dst-addrss= 引用
