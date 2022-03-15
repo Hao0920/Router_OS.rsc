@@ -30,35 +30,35 @@ echo "remove [find list="china_education_and_research_network"]"
 echo "remove [find list="great_wall_broadband_network"]"
 echo "remove [find list="othernet"]"
 
-for net in $(cat ./ISP-IP/Data/all_cn_cidr.txt) ; do
+for net in $(cat ./ISP-IP/Cache/all_cn_cidr.txt) ; do
   echo "add list=china address=$net"
 done
 
-for net in $(cat ./ISP-IP/Data/chinatelecom_cidr.txt) ; do
+for net in $(cat ./ISP-IP/Cache/chinatelecom_cidr.txt) ; do
   echo "add list=china_telecom address=$net"
 done
 
-for net in $(cat ./ISP-IP/Data/unicom_cnc_cidr.txt) ; do
+for net in $(cat ./ISP-IP/Cache/unicom_cnc_cidr.txt) ; do
   echo "add list=china_unicom address=$net"
 done
 
-for net in $(cat ./ISP-IP/Data/cmcc_cidr.txt) ; do
+for net in $(cat ./ISP-IP/Cache/cmcc_cidr.txt) ; do
   echo "add list=china_mobile address=$net"
 done
 
-for net in $(cat ./ISP-IP/Data/crtc_cidr.txt) ; do
+for net in $(cat ./ISP-IP/Cache/crtc_cidr.txt) ; do
   echo "add list=china_tietong address=$net"
 done
 
-for net in $(cat ./ISP-IP/Data/cernet_cidr.txt) ; do
+for net in $(cat ./ISP-IP/Cache/cernet_cidr.txt) ; do
   echo "add list=china_education_and_research_network address=$net"
 done
 
-for net in $(cat ./ISP-IP/Data/gwbn_cidr.txt) ; do
+for net in $(cat ./ISP-IP/Cache/gwbn_cidr.txt) ; do
   echo "add list=great_wall_broadband_network address=$net"
 done
 
-for net in $(cat ./ISP-IP/Data/othernet_cidr.txt) ; do
+for net in $(cat ./ISP-IP/Cache/othernet_cidr.txt) ; do
   echo "add list=othernet address=$net"
 done
 } > ./ISP-IP.rsc
