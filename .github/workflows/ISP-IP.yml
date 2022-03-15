@@ -11,9 +11,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Download
-        run: chmod +x ./Appdata/ISP-IP/Address_List.sh&&./Appdata/ISP-IP/Address_List.sh
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Download address-list
+        run: chmod +x ./ISP-IP/ISP-IP.sh&&./ISP-IP/ISP-IP.sh
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
