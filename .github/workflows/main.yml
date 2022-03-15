@@ -1,0 +1,20 @@
+name: Build ISP-IP
+on:
+  schedule:
+    - cron: "0 17 * * *"
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Download
+        run: chmod +x ispip.sh&&./ispip.sh
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
