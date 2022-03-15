@@ -62,3 +62,5 @@ for net in $(cat ./Appdata/ISP-IP/Data/othernet_cidr.txt) ; do
   echo "add list=othernet address=$net"
 done
 } > ./Address_List.rsc
+
+rm -rf ./Appdata/ISP-IP/Data
