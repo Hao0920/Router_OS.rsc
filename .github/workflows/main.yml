@@ -13,6 +13,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download
-        run: |
-        chmod +x ./ispip.sh
-        ./ispip.sh
+        run: chmod +x ispip.sh&&./ispip.sh
