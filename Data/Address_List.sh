@@ -64,5 +64,5 @@ for net in $(cat othernet_cidr.txt) ; do
 done
 } > ../Address_List.rsc
 
-#cd ..
-#rm -rf ./Data/ISP-IP
+cd ..
+mv -rf ./Data/Address_List.rsc ./
