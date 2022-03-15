@@ -1,6 +1,6 @@
 IPS-IP
 =
-为Router OS生成策略路由规则
+为 `Router OS` 生成策略路由规则
 
 ## 感谢
 - 代码 : [jacyl4/chnroute](https://github.com/jacyl4/chnroute)
