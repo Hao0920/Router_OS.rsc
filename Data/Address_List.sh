@@ -1,5 +1,5 @@
-mkdir -p ./ispip
-cd ./ispip
+mkdir -p ./ISP-IP
+cd ./ISP-IP
 
 #中国大陆所有IP地址
 wget --no-check-certificate -c -O all_cn_cidr.txt https://ispip.clang.cn/all_cn_cidr.txt
@@ -18,6 +18,7 @@ wget --no-check-certificate -c -O gwbn_cidr.txt https://ispip.clang.cn/gwbn_cidr
 #中国其他ISP
 wget --no-check-certificate -c -O othernet_cidr.txt https://ispip.clang.cn/othernet_cidr.txt
 
+#构建 Address List
 {
 echo "/ip firewall address-list"
 echo "remove [find list="china"]"
@@ -60,7 +61,7 @@ done
 for net in $(cat othernet_cidr.txt) ; do
   echo "add list=othernet address=$net"
 done
-} > ../isp-all.rsc
+} > ../Address_List.rsc
 
 cd ..
-rm -rf ./ispip
+rm -rf ./ISP-IP
