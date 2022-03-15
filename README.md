@@ -1,7 +1,6 @@
 IPS-IP
 =
 > 为 `Router OS` 生成策略路由规则
-
 ## 感谢
 - 源码 : [jacyl4/chnroute](https://github.com/jacyl4/chnroute)
 - 数据源 : [Clang.CN](https://ispip.clang.cn)
@@ -11,7 +10,7 @@ IPS-IP
 - **本规则是在`Firewall - Address List` 导入 IP 列表**
 - **Github Action 构建的文件包含删除原 IP 列表命令**
 - **如果无法访问域名 `raw.githubusercontent.com`，可以使用第二个地址 `cdn.jsdelivr.net`。**
-
+- **导入完成后通过 `WinBox - IP - Firewall - Mangle` 添加规则，通过 `Dst. Address List` 引用。**
 ### 脚本
 - **`raw.githubusercontent.com`**
 ```
