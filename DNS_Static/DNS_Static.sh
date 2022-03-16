@@ -23,6 +23,5 @@ native=(
 # 整理
 
 cat native | grep -v -E "^((#.*)|(\s*))$" \
- | grep -v -E "^#|^$" \
- | sed -i -e '/#/d;/^$/d' | sort \
+ | sort \
  | uniq >native.txt
