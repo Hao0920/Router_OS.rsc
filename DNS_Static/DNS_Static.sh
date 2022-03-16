@@ -22,6 +22,8 @@ native=(
 
 # 整理
 
-cat native | grep -v -E "^(#)$" \
+cat native | grep -v "^#"
+ | grep -v "^$" \
  | sort \
  | uniq >native.txt
+
