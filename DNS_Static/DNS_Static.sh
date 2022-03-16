@@ -3,28 +3,28 @@ mkdir -p ./DNS_Static/Cache
 # 获取 DNS_Static 列表
 # 亚马逊 Alexa 助手
 wget --no-check-certificate -c -O ./DNS_Static/Cache/alexa.txt https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/alexa
-grep -v "^#" alexa.txt | grep -v "^$" >> alexa.txt
+grep -v "^#" ./DNS_Static/Cache/alexa.txt | grep -v "^$" >> ./DNS_Static/Cache/alexa.txt
 # 苹果
 wget --no-check-certificate -c -O ./DNS_Static/Cache/apple.txt https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/apple
-grep -v "^#" apple.txt | grep -v "^$" >> apple.txt
+grep -v "^#" ./DNS_Static/Cache/apple.txt | grep -v "^$" >> ./DNS_Static/Cache/apple.txt
 # 华为
 wget --no-check-certificate -c -O ./DNS_Static/Cache/huawei.txt https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/huawei
-grep -v "^#" huawei.txt | grep -v "^$" >> huawei.txt
+grep -v "^#" ./DNS_Static/Cache/huawei.txt | grep -v "^$" >> ./DNS_Static/Cache/huawei.txt
 # Roku
 wget --no-check-certificate -c -O ./DNS_Static/Cache/roku.txt https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/roku
-grep -v "^#" roku.txt | grep -v "^$" >> roku.txt
+grep -v "^#" ./DNS_Static/Cache/roku.txt | grep -v "^$" >> ./DNS_Static/Cache/roku.txt
 # 三星
 wget --no-check-certificate -c -O ./DNS_Static/Cache/samsung.txt https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/samsung
-grep -v "^#" samsung.txt | grep -v "^$" >> samsung.txt
+grep -v "^#" ./DNS_Static/Cache/samsung.txt | grep -v "^$" >> ./DNS_Static/Cache/samsung.txt
 # Sonos
 wget --no-check-certificate -c -O ./DNS_Static/Cache/sonos.txt https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/sonos
-grep -v "^#" sonos.txt | grep -v "^$" >> sonos.txt
+grep -v "^#" ./DNS_Static/Cache/sonos.txt | grep -v "^$" >> ./DNS_Static/Cache/sonos.txt
 # Windows
 wget --no-check-certificate -c -O ./DNS_Static/Cache/windows.txt https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/windows
 grep -v "^#" windows.txt | grep -v "^$" >> windows.txt
 # 小米
 wget --no-check-certificate -c -O ./DNS_Static/Cache/xiaomi.txt https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/xiaomi
-grep -v "^#" xiaomi.txt | grep -v "^$" >> xiaomi.txt
+grep -v "^#" ./DNS_Static/Cache/xiaomi.txt | grep -v "^$" >> ./DNS_Static/Cache/xiaomi.txt
 
 #构建 DNS Static
 {
