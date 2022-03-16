@@ -1,7 +1,7 @@
 mkdir -p ./DNS_Static/Cache
 cd ./DNS_Static/Cache
 # 获取 DNS_Static 列表
-native=(
+native.txt=(
   # 亚马逊 Alexa 助手
   "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/alexa"
   # 苹果
@@ -22,7 +22,7 @@ native=(
 
 # 整理
 
-cat native | grep -v "^#" \
+cat native.txt | grep -v "^#" \
  | grep -v "^$" \
  | sort \
  | uniq >native.txt
