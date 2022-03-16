@@ -50,6 +50,7 @@
 ```
 
 ### 感谢
-- 源码 : [jacyl4/chnroute](https://github.com/jacyl4/chnroute)
-- 数据源 : [Clang.CN](https://ispip.clang.cn)
-- 文件 : [Github Action](https://github.com/features/actions)
+- [JacyL4](https://github.com/jacyl4)
+- [Clang.CN](https://ispip.clang.cn)
+- [Github Action](https://github.com/features/actions)
+- [NextDNS](https://github.com/nextdns)
