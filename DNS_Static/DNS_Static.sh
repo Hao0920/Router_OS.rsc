@@ -1,27 +1,28 @@
 mkdir -p ./DNS_Static/Cache
-
+cd ./DNS_Static/Cache
 # 获取 DNS_Static 列表
-# 亚马逊 Alexa 助手
-wget --no-check-certificate -c -O ./DNS_Static/Cache/alexa.txt https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/alexa
+native=(
+  # 亚马逊 Alexa 助手
+  "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/alexa"
+  # 苹果
+  "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/apple"
+  # 华为
+  "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/huawei"
+  # Roku
+  "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/roku"
+  # 三星
+  "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/samsung"
+  # Sonos
+  "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/sonos"
+  # Windows
+  "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/windows"
+  # 小米
+  "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/xiaomi"
+  )
 
-# 苹果
-wget --no-check-certificate -c -O ./DNS_Static/Cache/apple.txt https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/apple
+# 整理
 
-# 华为
-wget --no-check-certificate -c -O ./DNS_Static/Cache/huawei.txt https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/huawei
-
-# Roku
-wget --no-check-certificate -c -O ./DNS_Static/Cache/roku.txt https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/roku
-
-# 三星
-wget --no-check-certificate -c -O ./DNS_Static/Cache/samsung.txt https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/samsung
-
-# Sonos
-wget --no-check-certificate -c -O ./DNS_Static/Cache/sonos.txt https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/sonos
-
-# Windows
-wget --no-check-certificate -c -O ./DNS_Static/Cache/windows.txt https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/windows
-
-# 小米
-wget --no-check-certificate -c -O ./DNS_Static/Cache/xiaomi.txt https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/xiaomi
-
+cat native | grep -v -E "^((#.*)|(\s*))$" \
+ | grep -v -E "^#|^$" \
+ | sed -i -e '/#/d;/^$/d' | sort \
+ | uniq >native.txt
