@@ -1,11 +1,2 @@
 /ip dns static
 remove [find address=240.0.0.1]
-add address=240.0.0.1 name=data.mistat.india.xiaomi.com
-add address=240.0.0.1 name=data.mistat.intl.xiaomi.com
-add address=240.0.0.1 name=data.mistat.rus.xiaomi.com
-add address=240.0.0.1 name=data.mistat.xiaomi.com
-add address=240.0.0.1 name=sa.api.intl.miui.com
-add address=240.0.0.1 name=tracking.india.miui.com
-add address=240.0.0.1 name=tracking.intl.miui.com
-add address=240.0.0.1 name=tracking.miui.com
-add address=240.0.0.1 name=tracking.rus.miui.com
