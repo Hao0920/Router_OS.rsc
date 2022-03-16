@@ -22,28 +22,28 @@ wget --no-check-certificate -c -O ./DNS_Static/Cache/xiaomi.txt "https://raw.git
   echo "/ip dns static"
   echo "remove [find address=240.0.0.1]"
   for name in $(cat ./DNS_Static/Cache/alexa.txt) ; do
-    sort | sort | grep -Ev '(#.*$)|(^$)' | echo "add address=240.0.0.1 name=$name"
+    sort | uniq | grep -Ev '(#.*$)|(^$)' | echo "add address=240.0.0.1 name=$name"
   done
   for name in $(cat ./DNS_Static/Cache/apple.txt) ; do
-    sort | sort | grep -Ev '(#.*$)|(^$)' | echo "add address=240.0.0.1 name=$name"
+    sort | uniq | grep -Ev '(#.*$)|(^$)' | echo "add address=240.0.0.1 name=$name"
   done
   for name in $(cat ./DNS_Static/Cache/huawei.txt) ; do
-    sort | sort | grep -Ev '(#.*$)|(^$)' | echo "add address=240.0.0.1 name=$name"
+    sort | uniq | grep -Ev '(#.*$)|(^$)' | echo "add address=240.0.0.1 name=$name"
   done
   for name in $(cat ./DNS_Static/Cache/roku.txt) ; do
-    sort | sort | grep -Ev '(#.*$)|(^$)' | echo "add address=240.0.0.1 name=$name"
+    sort | uniq | grep -Ev '(#.*$)|(^$)' | echo "add address=240.0.0.1 name=$name"
   done
   for name in $(cat ./DNS_Static/Cache/samsung.txt) ; do
-    sort | sort | grep -Ev '(#.*$)|(^$)' | echo "add address=240.0.0.1 name=$name"
+    sort | uniq | grep -Ev '(#.*$)|(^$)' | echo "add address=240.0.0.1 name=$name"
   done
   for name in $(cat ./DNS_Static/Cache/sonos.txt) ; do
-    sort | sort | grep -Ev '(#.*$)|(^$)' | echo "add address=240.0.0.1 name=$name"
+    sort | uniq | grep -Ev '(#.*$)|(^$)' | echo "add address=240.0.0.1 name=$name"
   done
   for name in $(cat ./DNS_Static/Cache/windows.txt) ; do
-    sort | sort | grep -Ev '(#.*$)|(^$)' | echo "add address=240.0.0.1 name=$name"
+    sort | uniq | grep -Ev '(#.*$)|(^$)' | echo "add address=240.0.0.1 name=$name"
   done
   for name in $(cat ./DNS_Static/Cache/xiaomi.txt) ; do
-    sort | sort | grep -Ev '(#.*$)|(^$)' | echo "add address=240.0.0.1 name=$name"
+    sort | uniq | grep -Ev '(#.*$)|(^$)' | echo "add address=240.0.0.1 name=$name"
   done
 
 } > ./DNS_Static.rsc
