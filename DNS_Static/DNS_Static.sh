@@ -24,34 +24,42 @@ echo "/ip dns static"
 echo "remove [find address="240.0.0.1"]"
 
 for name in $(cat ./DNS_Static/Cache/alexa.txt) ; do
+  sed -i -e '/#/d;/^$/d'
   echo "add address="240.0.0.1" name=$name"
 done
 
 for name in $(cat ./DNS_Static/Cache/apple.txt) ; do
+  sed -i -e '/#/d;/^$/d'
   echo "add address="240.0.0.1" name=$name"
 done
 
 for name in $(cat ./DNS_Static/Cache/huawei.txt) ; do
+  sed -i -e '/#/d;/^$/d'
   echo "add address="240.0.0.1" name=$name"
 done
 
 for name in $(cat ./DNS_Static/Cache/roku.txt) ; do
+  sed -i -e '/#/d;/^$/d'
   echo "add address="240.0.0.1" name=$name"
 done
 
 for name in $(cat ./DNS_Static/Cache/samsung.txt) ; do
+  sed -i -e '/#/d;/^$/d'
   echo "add address="240.0.0.1" name=$name"
 done
 
 for name in $(cat ./DNS_Static/Cache/sonos.txt) ; do
+  sed -i -e '/#/d;/^$/d'
   echo "add address="240.0.0.1" name=$name"
 done
 
 for name in $(cat ./DNS_Static/Cache/windows.txt) ; do
+  sed -i -e '/#/d;/^$/d'
   echo "add address="240.0.0.1" name=$name"
 done
 
 for name in $(cat ./DNS_Static/Cache/xiaomi.txt) ; do
+  sed -i -e '/#/d;/^$/d'
   echo "add address="240.0.0.1" name=$name"
 done
 } > ./DNS_Static.rsc
