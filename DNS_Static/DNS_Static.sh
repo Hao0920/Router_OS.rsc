@@ -71,6 +71,7 @@ done
 for name in $(cat ./DNS_Static/Cache/xiaomi.txt) ; do
   echo "add address="240.0.0.1" name=$name"
 done
-} > ./DNS_Static.rsc
 
+} > ./DNS_Static.rsc
+sort ./DNS_Static.rsc | uniq
 rm -rf ./DNS_Static/Cache
