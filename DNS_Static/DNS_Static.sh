@@ -22,7 +22,7 @@ native=(
 
 # 整理
 
-cat native | grep -v "^#"
+cat native | grep -v "^#" \
  | grep -v "^$" \
  | sort \
  | uniq >native.txt
