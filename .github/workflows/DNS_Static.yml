@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Download address-list
+      - name: Download DNS Static
         run: chmod +x ./DNS_Static/DNS_Static.sh&&./DNS_Static/DNS_Static.sh
       - name: Commit & Push changes
         uses: actions-js/push@master
