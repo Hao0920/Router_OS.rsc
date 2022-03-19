@@ -311,4 +311,4 @@ done
 } > ./Config/ISP/china_mobile-unicom.rsc
 
 ### 清除缓存 ###
-rm -rf ./Config/ISP-IP/Cache
+rm -rf ./Config/ISP/Cache
