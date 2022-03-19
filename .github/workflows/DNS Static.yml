@@ -16,8 +16,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Build ISP IP Address
         run:  |
-          chmod +x ./Config/DNS Static/DNS Static.sh
-          ./Config/DNS Static/DNS Static.sh
+          chmod +x ./Config/DNS_Static/DNS_Static.sh
+          ./Config/DNS_Static/DNS_Static.sh
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
