@@ -54,3 +54,259 @@ for address in $(cat ./Config/ISP/Cache/othernet.txt) ; do
   echo "add list=othernet address=$address"
 done
 } > ./Config/ISP/ISP.rsc
+
+# VPN借线
+{
+echo "/ip firewall address-list"
+echo "remove [find list="china"]"
+for address in $(cat ./Config/ISP/Cache/all_cn.txt) ; do
+  echo "add list=china address=$address"
+done
+} > ./Config/ISP/china.rsc
+# 电信 + 联通 + 移动
+{
+echo "/ip firewall address-list"
+echo "remove [find list="china_telecom"]"
+echo "remove [find list="china_unicom"]"
+echo "remove [find list="china_mobile"]"
+for address in $(cat ./Config/ISP/Cache/chinatelecom.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/unicom_cnc.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/cmcc.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/crtc.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/cernet.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/gwbn.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/othernet.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+} > ./Config/ISP/china_telecom-unicom-mobile.rsc
+# 联通 + 移动 + 电信
+{
+echo "/ip firewall address-list"
+echo "remove [find list="china_telecom"]"
+echo "remove [find list="china_unicom"]"
+echo "remove [find list="china_mobile"]"
+for address in $(cat ./Config/ISP/Cache/chinatelecom.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/unicom_cnc.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/cmcc.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/crtc.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/cernet.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/gwbn.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/othernet.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+} > ./Config/ISP/china_unicom-mobile-telecom.rsc
+# 移动 + 电信 + 联通
+{
+echo "/ip firewall address-list"
+echo "remove [find list="china_telecom"]"
+echo "remove [find list="china_unicom"]"
+echo "remove [find list="china_mobile"]"
+for address in $(cat ./Config/ISP/Cache/chinatelecom.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/unicom_cnc.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/cmcc.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/crtc.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/cernet.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/gwbn.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/othernet.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+} > ./Config/ISP/china_mobile-telecom-unicom.rsc
+# 电信 + 联通
+{
+echo "/ip firewall address-list"
+echo "remove [find list="china_telecom"]"
+echo "remove [find list="china_unicom"]"
+for address in $(cat ./Config/ISP/Cache/chinatelecom.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/unicom_cnc.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/cmcc.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/crtc.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/cernet.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/gwbn.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/othernet.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+} > ./Config/ISP/china_telecom-unicom.rsc
+
+# 电信 + 移动
+{
+echo "/ip firewall address-list"
+echo "remove [find list="china_telecom"]"
+echo "remove [find list="china_mobile"]"
+for address in $(cat ./Config/ISP/Cache/chinatelecom.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/unicom_cnc.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/cmcc.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/crtc.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/cernet.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/gwbn.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/othernet.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+} > ./Config/ISP/china_telecom-mobile.rsc
+# 联通 + 电信
+{
+echo "/ip firewall address-list"
+echo "remove [find list="china_telecom"]"
+echo "remove [find list="china_unicom"]"
+for address in $(cat ./Config/ISP/Cache/chinatelecom.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/unicom_cnc.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/cmcc.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/crtc.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/cernet.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/gwbn.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/othernet.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+} > ./Config/ISP/china_unicom-telecom.rsc
+# 联通 + 移动
+{
+echo "/ip firewall address-list"
+echo "remove [find list="china_unicom"]"
+echo "remove [find list="china_mobile"]"
+for address in $(cat ./Config/ISP/Cache/chinatelecom.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/unicom_cnc.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/cmcc.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/crtc.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/cernet.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/gwbn.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/othernet.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+} > ./Config/ISP/china_unicom-mobile.rsc
+# 移动 + 电信
+{
+echo "/ip firewall address-list"
+echo "remove [find list="china_telecom"]"
+echo "remove [find list="china_mobile"]"
+for address in $(cat ./Config/ISP/Cache/chinatelecom.txt) ; do
+  echo "add list=china_telecom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/unicom_cnc.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/cmcc.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/crtc.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/cernet.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/gwbn.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/othernet.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+} > ./Config/ISP/china_mobile-telecom.rsc
+# 移动 + 联通
+{
+echo "/ip firewall address-list"
+echo "remove [find list="china_unicom"]"
+echo "remove [find list="china_mobile"]"
+for address in $(cat ./Config/ISP/Cache/chinatelecom.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/unicom_cnc.txt) ; do
+  echo "add list=china_unicom address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/cmcc.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/crtc.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/cernet.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/gwbn.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+for address in $(cat ./Config/ISP/Cache/othernet.txt) ; do
+  echo "add list=china_mobile address=$address"
+done
+} > ./Config/ISP/china_mobile-unicom.rsc
