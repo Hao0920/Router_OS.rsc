@@ -1,15 +1,17 @@
 name: Router_OS.rsc
 on:
   schedule:
-    - cron: "0 17 * * *"
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    - cron: "0 0 0 * *"
+#  push:
+#    branches: [ main ]
+#  pull_request:
+#    branches: [ main ]
+  watch:
+    types: [started]
   workflow_dispatch:
 jobs:
   build:
-    name: Build Router_OS.rsc
+    name: Build ISP.rsc
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
