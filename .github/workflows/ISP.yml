@@ -16,7 +16,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Build ISP IP Address
         run:  |
-          sudo -E apt-get -y install whois 
           chmod +x ./Config/ISP/ISP.sh
           ./Config/ISP/ISP.sh
       - name: Commit & Push changes
