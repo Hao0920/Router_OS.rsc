@@ -63,5 +63,5 @@ sort ./Config/DNS_Static/Cache/xiaomi2.txt -u > ./Config/DNS_Static/Cache/xiaomi
   for name in $(cat ./Config/DNS_Static/Cache/xiaomi3.txt) ; do
     echo "add address=240.0.0.1 name=$name"
   done
-} > ./DNS_Static.rsc
+} > ./Config/DNS_Static/DNS_Static.rsc
 rm -rf ./Config/DNS_Static/Cache
