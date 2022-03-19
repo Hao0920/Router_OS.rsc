@@ -8,7 +8,18 @@ on:
     branches: [ main ]
   workflow_dispatch:
 jobs:
-  build: 
+  build:
+    name: Build DNS Static
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Download DNS Static
+        run: chmod +x ./Config/DNS_Static/DNS_Static.sh&&./Config/DNS_Static/DNS_Static.sh
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
     name: Build ISP-IP
     runs-on: ubuntu-latest
     steps:
