@@ -1,4 +1,4 @@
-name: Build ISP-IP
+name: Router_OS.rsc
 on:
   schedule:
     - cron: "0 17 * * *"
@@ -8,7 +8,8 @@ on:
     branches: [ main ]
   workflow_dispatch:
 jobs:
-  build:
+  build: 
+    name: Build ISP-IP
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
