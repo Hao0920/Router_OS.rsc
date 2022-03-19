@@ -15,7 +15,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Build ISP-IP
-        run:  chmod +x ./Config/ISP/ISP.sh&&./Config/ISP/ISP.sh
+        run:  |
+          sudo -E apt-get -y install whois 
+          chmod +x ./Config/ISP/ISP.sh
+          ./Config/ISP/ISP.sh
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
