@@ -1,4 +1,4 @@
-name: Router_OS.rsc
+name: Build DNS Static.rsc
 on:
   schedule:
     - cron: "* 18 * * *"
