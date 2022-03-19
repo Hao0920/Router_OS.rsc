@@ -14,7 +14,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Download address-list
-        run: chmod +x ./Config/ISP-IP/ISP-IP.sh&&./Config/ISP-IP/ISP-IP.sh
+        run:
+          chmod +x ./Config/ISP-IP/ISP-IP.sh
+          ./Config/ISP-IP/ISP-IP.sh
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
