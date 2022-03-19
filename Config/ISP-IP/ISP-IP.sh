@@ -5,7 +5,7 @@ export PATH
 # discriminate per isp from apnic.
 
 # define save ip result directory.
-save_dir="$HOME/ispip"
+save_dir="./Config/ISP-IP/Cache"
 
 # download ip info from apnic website.
 apnic_ip_info="$save_dir/apnic_ip_info"
@@ -18,7 +18,7 @@ if [ ! -d "$save_dir" ]; then
 mkdir "$save_dir"
 fi
 
-Local_Dir="/home/ispip.clang.cn"
+Local_Dir="./Config/ISP-IP/"
 
 
 Old_unicom_cnc=$(date -d -30day +"%Y%m%d")_unicom_cnc.html
