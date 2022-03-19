@@ -1,11 +1,24 @@
-save_dir="./Config/ISP-IP/Data/ISPIP"
+#!/bin/bash
+PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
+export PATH
+# this scrip write by Clang at 2014-08-12.
+# discriminate per isp from apnic.
+
+# define save ip result directory.
+save_dir="$HOME/ispip"
+
+# download ip info from apnic website.
 apnic_ip_info="$save_dir/apnic_ip_info"
+
+# get all ip list values from apnic.
 apnic_all_ip="$save_dir/apnic_all_ip"
+
+
 if [ ! -d "$save_dir" ]; then
 mkdir "$save_dir"
 fi
 
-Local_Dir="/home/ispip"
+Local_Dir="/home/ispip.clang.cn"
 
 
 Old_unicom_cnc=$(date -d -30day +"%Y%m%d")_unicom_cnc.html
@@ -27,10 +40,14 @@ re_othernet=$(date -d -1day +"%Y%m%d")_othernet.html
 # delete old exist file.
 rm -f $save_dir/*
 
+
 wget -c --progress=bar:force --prefer-family=IPv4 --no-check-certificate http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest -O $apnic_ip_info
+
 grep "apnic|CN|ipv4|" "$apnic_ip_info" | awk -F'|' '{print $4"/"32-log($5)/log(2)}' > "$apnic_all_ip"
+
 while read line
 do
+
 isp_ip=`echo $line | awk -F'/' '{print $1}'`
 isp_info=`whois -h whois.apnic.net $isp_ip | grep -E "(mnt-|netname|e-mail)" | awk '{print $2}' | xargs`
 
@@ -59,6 +76,7 @@ into_crtc=`echo $isp_info | sed -n '/CRTC/p'`
 # CHINAMOBILE
 into_cmcc=`echo $isp_info | sed -n '/CMCC/p'`
 into_cmnet=`echo $isp_info | sed -n '/CMNET/p'`
+
 
 if [ "${into_gwbn}" != "" ];then
    echo "$line<br>" >> ${save_dir}/gwbn.html
@@ -90,6 +108,9 @@ fi
 
 done<$apnic_all_ip
 
+
+
+
 sed -i "s/strTime<br>$/$(date +"%Y-%m-%d %H:%M:%S")<br>/g" ${save_dir}/chinatelecom.html
 sed -i "s/strTime<br>$/$(date +"%Y-%m-%d %H:%M:%S")<br>/g" ${save_dir}/unicom_cnc.html
 sed -i "s/strTime<br>$/$(date +"%Y-%m-%d %H:%M:%S")<br>/g" ${save_dir}/cmcc.html
@@ -98,6 +119,8 @@ sed -i "s/strTime<br>$/$(date +"%Y-%m-%d %H:%M:%S")<br>/g" ${save_dir}/cernet.ht
 sed -i "s/strTime<br>$/$(date +"%Y-%m-%d %H:%M:%S")<br>/g" ${save_dir}/gwbn.html
 sed -i "s/strTime<br>$/$(date +"%Y-%m-%d %H:%M:%S")<br>/g" ${save_dir}/othernet.html
 
+#本地服务器复制
+#{
 #删除N天前的旧IP文件
 rm -f ${Local_Dir}/$Old_unicom_cnc
 rm -f ${Local_Dir}/$Old_chinatelecom
@@ -118,3 +141,5 @@ mv -f ${Local_Dir}/othernet.html ${Local_Dir}/$re_othernet
 cp -f ${save_dir}/*.html ${Local_Dir}/
 #更改权限
 chown -R www:www ${Local_Dir}/*
+#}
+
