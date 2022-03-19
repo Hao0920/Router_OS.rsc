@@ -2,12 +2,10 @@ name: Router_OS.rsc
 on:
   schedule:
     - cron: "0 0 0 * *"
-#  push:
-#    branches: [ main ]
-#  pull_request:
-#    branches: [ main ]
-  watch:
-    types: [started]
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
   workflow_dispatch:
 jobs:
   build:
