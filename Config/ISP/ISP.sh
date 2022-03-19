@@ -1,6 +1,7 @@
-# 建立缓存
+### 建立缓存 ###
 mkdir -p ./Config/ISP/Cache
-# 获取 IP 列表
+
+### 获取 IP 列表 ###
 # 中国大陆所有 IP 地址
 wget --no-check-certificate -c -O ./Config/ISP/Cache/all_cn.txt https://ispip.clang.cn/all_cn_cidr.txt
 # 中国电信
@@ -18,7 +19,7 @@ wget --no-check-certificate -c -O ./Config/ISP/Cache/gwbn.txt https://ispip.clan
 # 中国其他 ISP
 wget --no-check-certificate -c -O ./Config/ISP/Cache/othernet.txt https://ispip.clang.cn/othernet_cidr.txt
 
-# 构建 Address List
+### 构建 Address List ###
 {
 echo "/ip firewall address-list"
 echo "remove [find list="china"]"
@@ -54,7 +55,6 @@ for address in $(cat ./Config/ISP/Cache/othernet.txt) ; do
   echo "add list=othernet address=$address"
 done
 } > ./Config/ISP/ISP.rsc
-
 # VPN借线
 {
 echo "/ip firewall address-list"
@@ -174,7 +174,6 @@ for address in $(cat ./Config/ISP/Cache/othernet.txt) ; do
   echo "add list=china_telecom address=$address"
 done
 } > ./Config/ISP/china_telecom-unicom.rsc
-
 # 电信 + 移动
 {
 echo "/ip firewall address-list"
@@ -310,3 +309,6 @@ for address in $(cat ./Config/ISP/Cache/othernet.txt) ; do
   echo "add list=china_mobile address=$address"
 done
 } > ./Config/ISP/china_mobile-unicom.rsc
+
+### 清除缓存 ###
+rm -rf ./Config/ISP-IP/Cache

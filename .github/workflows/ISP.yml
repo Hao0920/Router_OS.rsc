@@ -1,7 +1,7 @@
 name: Router_OS.rsc
 on:
   schedule:
-    - cron: "* 0 * * *"
+    - cron: "* 18 * * *"
   push:
     branches: [ main ]
   pull_request:
@@ -22,5 +22,3 @@ jobs:
         uses: actions-js/push@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-
-
