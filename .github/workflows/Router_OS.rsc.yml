@@ -9,25 +9,18 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    name: Build DNS Static
+    name: Build Router_OS.rsc
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Download DNS Static
+      - name: Build DNS Static
         run: chmod +x ./Config/DNS_Static/DNS_Static.sh&&./Config/DNS_Static/DNS_Static.sh
-      - name: Commit & Push changes
-        uses: actions-js/push@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-    name: Build ISP-IP
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Download address-list
+      - name: Build ISP-IP
         run:  chmod +x ./Config/ISP-IP/ISP-IP.sh&&./Config/ISP-IP/ISP-IP.sh
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+
