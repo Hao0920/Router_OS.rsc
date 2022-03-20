@@ -1,4 +1,4 @@
-name: Build DNS Static.rsc
+name: Build Adblock.rsc
 on:
   schedule:
     - cron: "* 18 * * *"
@@ -9,17 +9,17 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    name: Build DNS Static.rsc
+    name: Build Adblock.rsc
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Build ISP IP Address
+      - name: Build Adblock Address
         run:  |
-          chmod +x ./DNS_Static/Source.sh
-          ./DNS_Static/Source.sh
-          chmod +x ./DNS_Static/Building.sh
-          ./DNS_Static/Building.sh
+          chmod +x ./Adblock/Source.sh
+          ./Adblock/Source.sh
+          chmod +x ./Adblock/Building.sh
+          ./Adblock/Building.sh
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
