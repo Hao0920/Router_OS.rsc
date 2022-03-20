@@ -1,5 +1,6 @@
 ### 建立缓存 ### 
 mkdir -p ./Config/DNS_Static/Cache/Building/
+
 ### 整理 ###
 find ./Config/DNS_Static/Cache/Source -type f -name "*.txt" | xargs cat > ./Config/DNS_Static/Cache/Building/1.txt
 # 删除注释行
@@ -16,3 +17,15 @@ sed -e 's/full://' ./Config/DNS_Static/Cache/Building/5.txt > ./Config/DNS_Stati
 sed -e '/^$/d' ./Config/DNS_Static/Cache/Building/6.txt > ./Config/DNS_Static/Cache/Building/7.txt
 # 去重
 sort -u ./Config/DNS_Static/Cache/Building/7.txt > ./Config/DNS_Static/Cache/Building/8.txt
+
+### 构建 ###
+{
+  echo "/ip dns static"
+  echo "remove [find address=240.0.0.1]"
+  for name in $(cat ./Config/DNS_Static/Cache/Building/8.txt) ; do
+    echo "add address=240.0.0.1 name=$name"
+  done
+} > ./Config/DNS_Static/DNS_Static.rsc
+
+### 清除缓存 ###
+rm -rf ./Config/DNS_Static/Cache
