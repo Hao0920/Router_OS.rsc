@@ -834,6 +834,7 @@ add list=scanners address=153.231.195.67
 add list=scanners address=154.209.76.168
 add list=scanners address=154.214.4.199
 add list=scanners address=154.221.16.131
+add list=scanners address=154.221.23.109
 add list=scanners address=154.222.232.109
 add list=scanners address=154.68.15.57
 add list=scanners address=154.8.211.121
