@@ -1,10 +1,10 @@
 ### 建立缓存 ### 
-mkdir -p ./Config/DNS_Static/Cache
+mkdir -p ./Config/DNS_Static/Cache/Source
 #### 获取 DNS Static 列表 ###
 # alexa
-wget --no-check-certificate -c -O ./Config/DNS_Static/Cache/Source/alexa.txt "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/alexa"
+wget --no-check-certificate -c -O ./Config/DNS_Static/Cache/Source/alexa "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/alexa"
 # apple
-wget --no-check-certificate -c -O ./Config/DNS_Static/Cache/Source/apple.txt "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/apple"
+wget --no-check-certificate -c -O ./Config/DNS_Static/Cache/Source/ "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/apple"
 # huawei
 wget --no-check-certificate -c -O ./Config/DNS_Static/Cache/Source/huawei.txt "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/huawei"
 # roku
