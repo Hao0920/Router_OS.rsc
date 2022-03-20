@@ -1,6 +1,5 @@
 ### 建立缓存 ### 
 mkdir -p ./Config/DNS_Static/Cache/Source/
-
 #### 获取 DNS Static 列表 ###
 # alexa
 wget --no-check-certificate -c -O ./Config/DNS_Static/Cache/Source/alexa.txt "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/alexa"
