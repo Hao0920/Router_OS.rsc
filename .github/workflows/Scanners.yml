@@ -1,23 +1,25 @@
-name: Build Scaners.rsc
+name: Build Scanners.rsc
 on:
   schedule:
     - cron: "* 18 * * *"
-#  push:
-#    branches: [ main ]
-#  pull_request:
-#    branches: [ main ]
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
   workflow_dispatch:
 jobs:
   build:
-    name: Build Scaners.rsc
+    name: Build Scanners.rsc
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Build Scaners Address
+      - name: Build Scanners Address
         run:  |
-          chmod +x ./Scaners/Source.sh
-          ./Scaners/Source.sh
+          chmod +x ./Scanners/Source.sh
+          ./Scanners/Source.sh
+          chmod +x ./Scanners/Build.sh
+          ./Scanners/Build.sh
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
