@@ -560,7 +560,6 @@ googletagservices.com @ads
 googletraveladservices.com @ads
 urchin.com @ads
 
-regexp:^adservice\.google\.([a-z]{2}|com?)(\.[a-z]{2})?$ @ads
 ads.wteam.xyz @ads
 
 
@@ -639,7 +638,6 @@ adx.36kr.com
 click.ali213.net
 pbmp.ali213.net
 
-regexp:^pinggai\d\.caixin\.com$
 
 adq.chinaso.com
 stat.chinaso.com
@@ -654,7 +652,6 @@ das-rpt-log.ucloud.cn
 full:adeventtracker.spotify.com @ads
 full:adstudio-assets.scdn.co @ads
 full:bloodhound.spotify.com @ads
-regexp:^speed\.(coe|open)\.ad\.[a-z]{2,6}\.prod\.hosts\.ooklaserver\.net$ @ads
 mopub.com @ads
 bds.snssdk.com @ads
 ctobsnssdk.com @ads
