@@ -18,8 +18,8 @@ jobs:
         run:  |
           chmod +x ./Adblock/Source.sh
           ./Adblock/Source.sh
-          chmod +x ./Adblock/Building.sh
-          ./Adblock/Building.sh
+          chmod +x ./Adblock/Build.sh
+          ./Adblock/Build.sh
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:

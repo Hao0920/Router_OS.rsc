@@ -1,4 +1,4 @@
-name: Build ISP.rsc
+name: Build Scaners.rsc
 on:
   schedule:
     - cron: "* 18 * * *"
@@ -9,15 +9,15 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    name: Build ISP.rsc
+    name: Build Scaners.rsc
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Build ISP IP Address
+      - name: Build Scaners Address
         run:  |
-          chmod +x ./ISP/Build.sh
-          ./ISP/Build.sh
+          chmod +x ./Scaners/Source.sh
+          ./Scaners/Source.sh
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
