@@ -2,10 +2,10 @@ name: Build DNS Static.rsc
 on:
   schedule:
     - cron: "* 18 * * *"
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+#  push:
+#    branches: [ main ]
+#  pull_request:
+#    branches: [ main ]
   workflow_dispatch:
 jobs:
   build:
@@ -16,10 +16,10 @@ jobs:
         uses: actions/checkout@v2
       - name: Build ISP IP Address
         run:  |
-          chmod +x ./Config/DNS_Static/Source.sh
-          ./Config/DNS_Static/Source.sh
-          chmod +x ./Config/DNS_Static/Building.sh
-          ./Config/DNS_Static/Building.sh
+          chmod +x ./DNS_Static/Source.sh
+          ./DNS_Static/Source.sh
+          chmod +x ./DNS_Static/Building.sh
+          ./DNS_Static/Building.sh
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
