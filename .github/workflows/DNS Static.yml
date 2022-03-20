@@ -18,6 +18,8 @@ jobs:
         run:  |
           chmod +x ./Config/DNS_Static/Source.sh
           ./Config/DNS_Static/Source.sh
+          chmod +x ./Config/DNS_Static/Building.sh
+          ./Config/DNS_Static/Building.sh
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
