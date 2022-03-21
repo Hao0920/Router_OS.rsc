@@ -1,24 +1,24 @@
-mobile.da.mgtv.com
-mobile2.da.mgtv.com
-ott.da.mgtv.com
-ott2.da.mgtv.com
-ott3.da.mgtv.com
-ott-v0-al.data.mgtv.com
-ott.v1.data.mgtv.com
-ys.da.mgtv.com
-ynet.da.mgtv.com
-pc.da.mgtv.com
-pc1.da.mgtv.com
-pcweb-v1.log.mgtv.com
-pcweb.v1.mgtv.com
-py.da.mgtv.com
-v1-play.log.mgtv.com
-v2.da.mgtv.com
-v2.log.mgtv.com
-web.da.mgtv.com
-x.da.mgtv.com
-y.da.mgtv.com
-zx.da.mgtv.com
-apperr.log.mgtv.com
-m2.da.mgtv.com
-m.da.mgtv.com
+0.0.0.0 mobile.da.mgtv.com
+0.0.0.0 mobile2.da.mgtv.com
+0.0.0.0 ott.da.mgtv.com
+0.0.0.0 ott2.da.mgtv.com
+0.0.0.0 ott3.da.mgtv.com
+0.0.0.0 ott-v0-al.data.mgtv.com
+0.0.0.0 ott.v1.data.mgtv.com
+0.0.0.0 ys.da.mgtv.com
+0.0.0.0 ynet.da.mgtv.com
+0.0.0.0 pc.da.mgtv.com
+0.0.0.0 pc1.da.mgtv.com
+0.0.0.0 pcweb-v1.log.mgtv.com
+0.0.0.0 pcweb.v1.mgtv.com
+0.0.0.0 py.da.mgtv.com
+0.0.0.0 v1-play.log.mgtv.com
+0.0.0.0 v2.da.mgtv.com
+0.0.0.0 v2.log.mgtv.com
+0.0.0.0 web.da.mgtv.com
+0.0.0.0 x.da.mgtv.com
+0.0.0.0 y.da.mgtv.com
+0.0.0.0 zx.da.mgtv.com
+0.0.0.0 apperr.log.mgtv.com
+0.0.0.0 m2.da.mgtv.com
+0.0.0.0 m.da.mgtv.com

@@ -1,47 +1,47 @@
-api.cupid.iqiyi.com
-api.yuedu.iqiyi.com
-c.uaa.iqiyi.com
-cloudpush.iqiyi.com
-cm.passport.iqiyi.com
-gamecenter.iqiyi.com
-ifacelog.iqiyi.com
-mbdlog.iqiyi.com
-msg.iqiyi.com
-msga.cupid.iqiyi.com
-nl.notice.iqiyi.com
-notice.iqiyi.com
-policy.video.iqiyi.com
-static.g.iqiyi.com
-store.iqiyi.com
-nl.rcd.iqiyi.com
-emoticon.sns.iqiyi.com
-hotchat-im.iqiyi.com
-tracker.sns.iqiyi.com
-paopao.iqiyi.com
-paopao-monitor.iqiyi.com
-paopao0.qiyipic.com
-paopao1.qiyipic.com
-paopao2.qiyipic.com
-paopao3.qiyipic.com
-count.game.pps.tv
-game.pps.tv
-static.g.ppstream.com
-qosp.msg.71.am
-msga.71.am
-androidgo.duapp.com
-noxagile.duapp.com
-api.cupid.qiyi.com
-msg.video.qiyi.com
-msg2.video.qiyi.com
-t7z.cupid.ptqy.gitv.tv
-g.dtv.cn.miaozhen.com
-baiducdncmn.inter.iqiyi.com
-msgv6.qy.net
-api.ts.feedback.qy.net
-puma.api.iqiyi.com
-puma-api.iqiyi.com
-rd596n.jomodns.com
-baiducdncmn-gd.inter.iqiyi.com
-bdcdncmn-gd.inter.71edge.com
-mixer.cupid.ptqy.gitv.tv
-msg.ptqy.gitv.tv
+0.0.0.0 api.cupid.iqiyi.com
+0.0.0.0 api.yuedu.iqiyi.com
+0.0.0.0 c.uaa.iqiyi.com
+0.0.0.0 cloudpush.iqiyi.com
+0.0.0.0 cm.passport.iqiyi.com
+0.0.0.0 gamecenter.iqiyi.com
+0.0.0.0 ifacelog.iqiyi.com
+0.0.0.0 mbdlog.iqiyi.com
+0.0.0.0 msg.iqiyi.com
+0.0.0.0 msga.cupid.iqiyi.com
+0.0.0.0 nl.notice.iqiyi.com
+0.0.0.0 notice.iqiyi.com
+0.0.0.0 policy.video.iqiyi.com
+0.0.0.0 static.g.iqiyi.com
+0.0.0.0 store.iqiyi.com
+0.0.0.0 nl.rcd.iqiyi.com
+0.0.0.0 emoticon.sns.iqiyi.com
+0.0.0.0 hotchat-im.iqiyi.com
+0.0.0.0 tracker.sns.iqiyi.com
+0.0.0.0 paopao.iqiyi.com
+0.0.0.0 paopao-monitor.iqiyi.com
+0.0.0.0 paopao0.qiyipic.com
+0.0.0.0 paopao1.qiyipic.com
+0.0.0.0 paopao2.qiyipic.com
+0.0.0.0 paopao3.qiyipic.com
+0.0.0.0 count.game.pps.tv
+0.0.0.0 game.pps.tv
+0.0.0.0 static.g.ppstream.com
+0.0.0.0 qosp.msg.71.am
+0.0.0.0 msga.71.am
+0.0.0.0 androidgo.duapp.com
+0.0.0.0 noxagile.duapp.com
+0.0.0.0 api.cupid.qiyi.com
+0.0.0.0 msg.video.qiyi.com
+0.0.0.0 msg2.video.qiyi.com
+0.0.0.0 t7z.cupid.ptqy.gitv.tv
+0.0.0.0 g.dtv.cn.miaozhen.com
+0.0.0.0 baiducdncmn.inter.iqiyi.com
+0.0.0.0 msgv6.qy.net
+0.0.0.0 api.ts.feedback.qy.net
+0.0.0.0 puma.api.iqiyi.com
+0.0.0.0 puma-api.iqiyi.com
+0.0.0.0 rd596n.jomodns.com
+0.0.0.0 baiducdncmn-gd.inter.iqiyi.com
+0.0.0.0 bdcdncmn-gd.inter.71edge.com
+0.0.0.0 mixer.cupid.ptqy.gitv.tv
+0.0.0.0 msg.ptqy.gitv.tv

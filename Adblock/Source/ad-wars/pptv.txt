@@ -1,22 +1,22 @@
-de.as.cp61.ott.cibntv.net
-lives.l.cp81.ott.cibntv.net
-mtrace.play.cp81.ott.cibntv.net
-ad.advst.cp33.ott.cibntv.net
-sltint.adv.ott.cibntv.net
-topapi.cp12.ott.cibntv.net
-ad.video.51togic.com
-ssp.cibn.starschina.com
-clickc.admaster.com.cn
-vpptv.admaster.com.cn
-pptv.m.cn.miaozhen.com
-ads.aplus.pptv.com
-app.aplus.pptv.com
-as.aplus.pptv.com
-de.as.pptv.com
-jp.as.pptv.com
-static.g.pptv.com
-tj.g.pptv.com
-ads.data.pplive.com
-gas.data.pplive.com
-plt.data.pplive.com
-web.data.pplive.com
+0.0.0.0 de.as.cp61.ott.cibntv.net
+0.0.0.0 lives.l.cp81.ott.cibntv.net
+0.0.0.0 mtrace.play.cp81.ott.cibntv.net
+0.0.0.0 ad.advst.cp33.ott.cibntv.net
+0.0.0.0 sltint.adv.ott.cibntv.net
+0.0.0.0 topapi.cp12.ott.cibntv.net
+0.0.0.0 ad.video.51togic.com
+0.0.0.0 ssp.cibn.starschina.com
+0.0.0.0 clickc.admaster.com.cn
+0.0.0.0 vpptv.admaster.com.cn
+0.0.0.0 pptv.m.cn.miaozhen.com
+0.0.0.0 ads.aplus.pptv.com
+0.0.0.0 app.aplus.pptv.com
+0.0.0.0 as.aplus.pptv.com
+0.0.0.0 de.as.pptv.com
+0.0.0.0 jp.as.pptv.com
+0.0.0.0 static.g.pptv.com
+0.0.0.0 tj.g.pptv.com
+0.0.0.0 ads.data.pplive.com
+0.0.0.0 gas.data.pplive.com
+0.0.0.0 plt.data.pplive.com
+0.0.0.0 web.data.pplive.com

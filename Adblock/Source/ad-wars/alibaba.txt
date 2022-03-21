@@ -1,36 +1,36 @@
-adash.man.aliyuncs.com
-cdn-ads.oss-cn-shanghai.aliyuncs.com
-ynuf.aliapp.org
-unidesk.alicdn.com
-nbsdk-baichuan.alicdn.com
-baichuan-sdk.alicdn.com
-ilce.alicdn.com
-abtest.alibaba.com
-proxy-mob-cld.alicdn.com
-www.uyunad.com
-ali-ad.a.yximgs.com
-adashbc.m.taobao.com
-adashbc.ut.taobao.com
-adashxgc.ut.taobao.com
-adashx.m.taobao.com
-c-adash.m.taobao.com
-m-adash.m.taobao.com
-adashbc.m.taobao.com
-adash.m.taobao.com
-h-adashx.ut.taobao.com
-tunion-api.m.taobao.com
-acs4baichuan.m.taobao.com
-amdc.m.taobao.com
-amdcopen.m.taobao.com
-eco.taobao.com
-umengacs.m.taobao.com
-umengjmacs.m.taobao.com
-openjmacs.m.taobao.com
-dsp.simba.taobao.com
-sjarvis.taobao.com
-audid-api.taobao.com
-adashx4yt.m.taobao.com
-h-adashx4yt.ut.taobao.com
-umdc.aliapp.org
-gaode-acs.m.taobao.com
-gaode-jmacs.m.taobao.com
+0.0.0.0 adash.man.aliyuncs.com
+0.0.0.0 cdn-ads.oss-cn-shanghai.aliyuncs.com
+0.0.0.0 ynuf.aliapp.org
+0.0.0.0 unidesk.alicdn.com
+0.0.0.0 nbsdk-baichuan.alicdn.com
+0.0.0.0 baichuan-sdk.alicdn.com
+0.0.0.0 ilce.alicdn.com
+0.0.0.0 abtest.alibaba.com
+0.0.0.0 proxy-mob-cld.alicdn.com
+0.0.0.0 www.uyunad.com
+0.0.0.0 ali-ad.a.yximgs.com
+0.0.0.0 adashbc.m.taobao.com
+0.0.0.0 adashbc.ut.taobao.com
+0.0.0.0 adashxgc.ut.taobao.com
+0.0.0.0 adashx.m.taobao.com
+0.0.0.0 c-adash.m.taobao.com
+0.0.0.0 m-adash.m.taobao.com
+0.0.0.0 adashbc.m.taobao.com
+0.0.0.0 adash.m.taobao.com
+0.0.0.0 h-adashx.ut.taobao.com
+0.0.0.0 tunion-api.m.taobao.com
+0.0.0.0 acs4baichuan.m.taobao.com
+0.0.0.0 amdc.m.taobao.com
+0.0.0.0 amdcopen.m.taobao.com
+0.0.0.0 eco.taobao.com
+0.0.0.0 umengacs.m.taobao.com
+0.0.0.0 umengjmacs.m.taobao.com
+0.0.0.0 openjmacs.m.taobao.com
+0.0.0.0 dsp.simba.taobao.com
+0.0.0.0 sjarvis.taobao.com
+0.0.0.0 audid-api.taobao.com
+0.0.0.0 adashx4yt.m.taobao.com
+0.0.0.0 h-adashx4yt.ut.taobao.com
+0.0.0.0 umdc.aliapp.org
+0.0.0.0 gaode-acs.m.taobao.com
+0.0.0.0 gaode-jmacs.m.taobao.com

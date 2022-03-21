@@ -1,57 +1,57 @@
-ggx.cmvideo.cn
-adxserver.ad.cmvideo.cn
-openstorage.ad.cmvideo.cn
-ggx01.miguvideo.com
-ggx02.miguvideo.com
-ggx10.miguvideo.com
-at-img1.tdimg.com
-at-img2.tdimg.com
-at-img3.tdimg.com
-dcads.sina.com.cn
-acs.56.com
-acs.agent.56.com
-acs.agent.v-56.com
-bill.agent.56.com
-bill.agent.v-56.com
-stat.56.com
-stat2.corp.56.com
-union.56.com
-uvimage.56.com
-v16.56.com
-pole.6rooms.com
-shrek.6.cn
-simba.6.cn
-union.6.cn
-mcfg.sandai.net
-biz5.sandai.net
-3.iscrv.com
-www.wjxcdn.com
-adsmis.duxiaoman.com
-ebp.renren.com
-bolt.jebe.renren.com
-static.jebe.renren.com
-xray.jebe.renren.com
-pat.farvd.com
-dc.sigmob.cn
-cdn.adm.myhayo.com
-engine.tuia.cn
-ad-cache.dopool.com
-analytics3.dopool.com
-analytics3.starschina.com
-app.starschina.com
-ssp.tadseeker.com
-ad.molitv.cn
-vyk.admaster.com.cn
-ems.cp12.wasu.tv
-pl.cp12.wasu.tv
-valatm.cp12.wasu.tv
-adlog.molitv.cn
-ipmatm.cp12.wasu.tv
-topapi.cp12.wasu.tv
-adservice.sigmob.cn
-stadig.ifeng.com
-api.newad.ifeng.com
-ifengad.3g.ifeng.com
-adv.fjtv.net
-dsa-mfp.fengshows.cn
-sdk.cferw.com
+0.0.0.0 ggx.cmvideo.cn
+0.0.0.0 adxserver.ad.cmvideo.cn
+0.0.0.0 openstorage.ad.cmvideo.cn
+0.0.0.0 ggx01.miguvideo.com
+0.0.0.0 ggx02.miguvideo.com
+0.0.0.0 ggx10.miguvideo.com
+0.0.0.0 at-img1.tdimg.com
+0.0.0.0 at-img2.tdimg.com
+0.0.0.0 at-img3.tdimg.com
+0.0.0.0 dcads.sina.com.cn
+0.0.0.0 acs.56.com
+0.0.0.0 acs.agent.56.com
+0.0.0.0 acs.agent.v-56.com
+0.0.0.0 bill.agent.56.com
+0.0.0.0 bill.agent.v-56.com
+0.0.0.0 stat.56.com
+0.0.0.0 stat2.corp.56.com
+0.0.0.0 union.56.com
+0.0.0.0 uvimage.56.com
+0.0.0.0 v16.56.com
+0.0.0.0 pole.6rooms.com
+0.0.0.0 shrek.6.cn
+0.0.0.0 simba.6.cn
+0.0.0.0 union.6.cn
+0.0.0.0 mcfg.sandai.net
+0.0.0.0 biz5.sandai.net
+0.0.0.0 3.iscrv.com
+0.0.0.0 www.wjxcdn.com
+0.0.0.0 adsmis.duxiaoman.com
+0.0.0.0 ebp.renren.com
+0.0.0.0 bolt.jebe.renren.com
+0.0.0.0 static.jebe.renren.com
+0.0.0.0 xray.jebe.renren.com
+0.0.0.0 pat.farvd.com
+0.0.0.0 dc.sigmob.cn
+0.0.0.0 cdn.adm.myhayo.com
+0.0.0.0 engine.tuia.cn
+0.0.0.0 ad-cache.dopool.com
+0.0.0.0 analytics3.dopool.com
+0.0.0.0 analytics3.starschina.com
+0.0.0.0 app.starschina.com
+0.0.0.0 ssp.tadseeker.com
+0.0.0.0 ad.molitv.cn
+0.0.0.0 vyk.admaster.com.cn
+0.0.0.0 ems.cp12.wasu.tv
+0.0.0.0 pl.cp12.wasu.tv
+0.0.0.0 valatm.cp12.wasu.tv
+0.0.0.0 adlog.molitv.cn
+0.0.0.0 ipmatm.cp12.wasu.tv
+0.0.0.0 topapi.cp12.wasu.tv
+0.0.0.0 adservice.sigmob.cn
+0.0.0.0 stadig.ifeng.com
+0.0.0.0 api.newad.ifeng.com
+0.0.0.0 ifengad.3g.ifeng.com
+0.0.0.0 adv.fjtv.net
+0.0.0.0 dsa-mfp.fengshows.cn
+0.0.0.0 sdk.cferw.com

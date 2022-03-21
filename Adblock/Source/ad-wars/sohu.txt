@@ -1,26 +1,26 @@
-sohu-dtv.m.cn.miaozhen.com
-agn.aty.snmsohu.aisee.tv
-agn.aty.sohu.com
-f.aty.sohu.com
-m.aty.sohu.com
-fmg.aty.sohu.com
-mmg.aty.sohu.com
-p.aty.sohu.com
-pg.aty.sohu.com
-pm.aty.sohu.com
-v.aty.sohu.com
-vg.aty.sohu.com
-vm.aty.sohu.com
-da.mmarket.com
-click.hd.sohu.com.cn
-click2.hd.sohu.com
-count.vrs.sohu.com
-ctr.hd.sohu.com
-pb.hd.sohu.com.cn
-pv.hd.sohu.com
-vstat.my.tv.sohu.com
-vstat.v.blog.sohu.com
-wl.hd.sohu.com
-download.wan.sohu.com
-g.jssdk.net
-changyan.sohu.com
+0.0.0.0 sohu-dtv.m.cn.miaozhen.com
+0.0.0.0 agn.aty.snmsohu.aisee.tv
+0.0.0.0 agn.aty.sohu.com
+0.0.0.0 f.aty.sohu.com
+0.0.0.0 m.aty.sohu.com
+0.0.0.0 fmg.aty.sohu.com
+0.0.0.0 mmg.aty.sohu.com
+0.0.0.0 p.aty.sohu.com
+0.0.0.0 pg.aty.sohu.com
+0.0.0.0 pm.aty.sohu.com
+0.0.0.0 v.aty.sohu.com
+0.0.0.0 vg.aty.sohu.com
+0.0.0.0 vm.aty.sohu.com
+0.0.0.0 da.mmarket.com
+0.0.0.0 click.hd.sohu.com.cn
+0.0.0.0 click2.hd.sohu.com
+0.0.0.0 count.vrs.sohu.com
+0.0.0.0 ctr.hd.sohu.com
+0.0.0.0 pb.hd.sohu.com.cn
+0.0.0.0 pv.hd.sohu.com
+0.0.0.0 vstat.my.tv.sohu.com
+0.0.0.0 vstat.v.blog.sohu.com
+0.0.0.0 wl.hd.sohu.com
+0.0.0.0 download.wan.sohu.com
+0.0.0.0 g.jssdk.net
+0.0.0.0 changyan.sohu.com

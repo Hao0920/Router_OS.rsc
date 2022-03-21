@@ -1,44 +1,44 @@
-aiseet.aa.atianqi.com
-livep.l.aiseet.atianqi.com
-lives.l.aiseet.atianqi.com
-lives.l.ott.video.qq.com
-dp3.play.aiseet.atianqi.com
-p-l.play.aiseet.atianqi.com
-t-l.play.aiseet.atianqi.com
-news-l.play.ott.video.qq.com
-omgmta.play.ott.video.qq.com
-andrqd.play.aiseet.atianqi.com
-otheve.play.aiseet.atianqi.com
-othstr.play.aiseet.atianqi.com
-omgmta.play.aiseet.atianqi.com
-mtrace.play.aiseet.atianqi.com
-btrace.play.aiseet.atianqi.com
-news-l.play.aiseet.atianqi.com
-sdkconfig.play.aiseet.atianqi.com
-monitor-uu.play.aiseet.atianqi.com
-mdevstat.qqlive.qq.com
-tencent-dtv.m.cn.miaozhen.com
-vmindhls.tc.qq.com
-c.l.qq.com
-bs.l.qq.com
-c2.l.qq.com
-cb.l.qq.com
-cm.l.qq.com
-hm.l.qq.com
-l.qq.com
-l2.l.qq.com
-lb.l.qq.com
-livec.l.qq.com
-livem.l.qq.com
-livep.l.qq.com
-lives.l.qq.com
-ls.l.qq.com
-p2.l.qq.com
-p3.l.qq.com
-t.l.qq.com
-vd.l.qq.com
-w.l.qq.com
-news.l.qq.com
-mcgi.v.qq.com
-soup.v.qq.com
-bksoup.v.qq.com
+0.0.0.0 aiseet.aa.atianqi.com
+0.0.0.0 livep.l.aiseet.atianqi.com
+0.0.0.0 lives.l.aiseet.atianqi.com
+0.0.0.0 lives.l.ott.video.qq.com
+0.0.0.0 dp3.play.aiseet.atianqi.com
+0.0.0.0 p-l.play.aiseet.atianqi.com
+0.0.0.0 t-l.play.aiseet.atianqi.com
+0.0.0.0 news-l.play.ott.video.qq.com
+0.0.0.0 omgmta.play.ott.video.qq.com
+0.0.0.0 andrqd.play.aiseet.atianqi.com
+0.0.0.0 otheve.play.aiseet.atianqi.com
+0.0.0.0 othstr.play.aiseet.atianqi.com
+0.0.0.0 omgmta.play.aiseet.atianqi.com
+0.0.0.0 mtrace.play.aiseet.atianqi.com
+0.0.0.0 btrace.play.aiseet.atianqi.com
+0.0.0.0 news-l.play.aiseet.atianqi.com
+0.0.0.0 sdkconfig.play.aiseet.atianqi.com
+0.0.0.0 monitor-uu.play.aiseet.atianqi.com
+0.0.0.0 mdevstat.qqlive.qq.com
+0.0.0.0 tencent-dtv.m.cn.miaozhen.com
+0.0.0.0 vmindhls.tc.qq.com
+0.0.0.0 c.l.qq.com
+0.0.0.0 bs.l.qq.com
+0.0.0.0 c2.l.qq.com
+0.0.0.0 cb.l.qq.com
+0.0.0.0 cm.l.qq.com
+0.0.0.0 hm.l.qq.com
+0.0.0.0 l.qq.com
+0.0.0.0 l2.l.qq.com
+0.0.0.0 lb.l.qq.com
+0.0.0.0 livec.l.qq.com
+0.0.0.0 livem.l.qq.com
+0.0.0.0 livep.l.qq.com
+0.0.0.0 lives.l.qq.com
+0.0.0.0 ls.l.qq.com
+0.0.0.0 p2.l.qq.com
+0.0.0.0 p3.l.qq.com
+0.0.0.0 t.l.qq.com
+0.0.0.0 vd.l.qq.com
+0.0.0.0 w.l.qq.com
+0.0.0.0 news.l.qq.com
+0.0.0.0 mcgi.v.qq.com
+0.0.0.0 soup.v.qq.com
+0.0.0.0 bksoup.v.qq.com

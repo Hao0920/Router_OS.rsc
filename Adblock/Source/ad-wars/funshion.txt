@@ -1,28 +1,28 @@
-aa0.pub.funshion.com
-aa1.pub.funshion.com
-adm.funshion.com
-conf.funshion.com
-pub.funshion.com
-vs.funshion.com
-rt.funshion.net
-stat.funshion.net
-fun.adx.admaster.com.cn
-ykad-gateway.youku.com
-ykugc.cp31.ott.cibntv.net.302.myalicdn.com
-vali.cp31.ott.cibntv.net.302.myalicdn.com
-youku-dtv.m.cn.miaozhen.com
-m.atm.youku.com
-ipm.atm.youku.com
-orange-dc.youku.com
-youku-acs.m.taobao.com
-video-ad.sm.cn
-rest.irs01.com
-px.ucweb.com
-huichuan.sm.cn
-timeserver.cnzz.net
-val.atm.youku.com
-ykad-data.youku.com
-yk-ssp.ad.youku.com
-adashx.ut.youku.com
-adx-open-service.youku.com
-h-adashx.ut.youku.com
+0.0.0.0 aa0.pub.funshion.com
+0.0.0.0 aa1.pub.funshion.com
+0.0.0.0 adm.funshion.com
+0.0.0.0 conf.funshion.com
+0.0.0.0 pub.funshion.com
+0.0.0.0 vs.funshion.com
+0.0.0.0 rt.funshion.net
+0.0.0.0 stat.funshion.net
+0.0.0.0 fun.adx.admaster.com.cn
+0.0.0.0 ykad-gateway.youku.com
+0.0.0.0 ykugc.cp31.ott.cibntv.net.302.myalicdn.com
+0.0.0.0 vali.cp31.ott.cibntv.net.302.myalicdn.com
+0.0.0.0 youku-dtv.m.cn.miaozhen.com
+0.0.0.0 m.atm.youku.com
+0.0.0.0 ipm.atm.youku.com
+0.0.0.0 orange-dc.youku.com
+0.0.0.0 youku-acs.m.taobao.com
+0.0.0.0 video-ad.sm.cn
+0.0.0.0 rest.irs01.com
+0.0.0.0 px.ucweb.com
+0.0.0.0 huichuan.sm.cn
+0.0.0.0 timeserver.cnzz.net
+0.0.0.0 val.atm.youku.com
+0.0.0.0 ykad-data.youku.com
+0.0.0.0 yk-ssp.ad.youku.com
+0.0.0.0 adashx.ut.youku.com
+0.0.0.0 adx-open-service.youku.com
+0.0.0.0 h-adashx.ut.youku.com

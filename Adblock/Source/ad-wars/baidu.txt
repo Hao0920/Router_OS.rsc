@@ -1,69 +1,70 @@
-adm.baidu.com
-ad.player.baidu.com
-adscdn.baidu.com
-afd.baidu.com
-als.baidu.com
-cbjs.baidu.com
-cm.baidu.com
-cm.pos.baidu.com
-cpro.baidu.com
-crs.baidu.com
-eclick.baidu.com
-eiv.baidu.com
-entry.baidu.com
-idm-su.baidu.com
-idm.bce.baidu.com
-mobads-logs.baidu.com
-mobads.baidu.com
-msite.baidu.com
-nsclick.baidu.com
-nsclickvideo.baidu.com
-pc.videoclick.baidu.com
-pos.baidu.com
-push.zhanzhang.baidu.com
-river.zhidao.baidu.com
-s.cpro.baidu.com
-wangmeng.baidu.com
-wn.pos.baidu.com
-bdplus.baidu.com
-datax.baidu.com
-openrcv.baidu.com
-a.baidu.com
-cb.baidu.com
-hdj.baidu.com
-mssp.baidu.com
-nlog.baidu.com
-ad.player.baidu.com
-sestat.baidu.com
-stat.v.baidu.com
-videopush.baidu.com
-wisepush.video.baidu.com
-hmma.baidu.com
-dup.baidustatic.com
-sp0.baidu.com
-qapm.baidu.com
-fclog.baidu.com
-sofire.baidu.com
-tcbox.baidu.com
-browserkernel.baidu.com
-hijack.baidu.com
-feed-image.baidu.com
-hpd.baidu.com
-hm.baidu.com
-tcbox.baidu.com
-ecma.bdimg.com
-ecmb.bdimg.com
-cdn-haokanapk.baidu.com
-adavideo.baidu.com
-ada.baidu.com
-tuijian.baidu.com
-ucstat.baidu.com
-crab.baidu.com
-api1.tuisong.baidu.com
-baidu-mipdx.cn.miaozhen.com
-api3.tuisong.baidu.com
-api8.tuisong.baidu.com
-sa.tuisong.baidu.com
-api.tuisong.baidu.com
-sa8.tuisong.baidu.com
-cpro.baidustatic.com
+0.0.0.0 adm.baidu.com
+0.0.0.0 ad.player.baidu.com
+0.0.0.0 adscdn.baidu.com
+0.0.0.0 afd.baidu.com
+0.0.0.0 als.baidu.com
+0.0.0.0 cbjs.baidu.com
+0.0.0.0 cm.baidu.com
+0.0.0.0 cm.pos.baidu.com
+0.0.0.0 cpro.baidu.com
+0.0.0.0 crs.baidu.com
+0.0.0.0 eclick.baidu.com
+0.0.0.0 eiv.baidu.com
+0.0.0.0 entry.baidu.com
+0.0.0.0 idm-su.baidu.com
+0.0.0.0 idm.bce.baidu.com
+0.0.0.0 mobads-logs.baidu.com
+0.0.0.0 mobads.baidu.com
+0.0.0.0 msite.baidu.com
+0.0.0.0 nsclick.baidu.com
+0.0.0.0 nsclickvideo.baidu.com
+0.0.0.0 pc.videoclick.baidu.com
+0.0.0.0 pos.baidu.com
+0.0.0.0 push.zhanzhang.baidu.com
+0.0.0.0 river.zhidao.baidu.com
+0.0.0.0 s.cpro.baidu.com
+0.0.0.0 wangmeng.baidu.com
+0.0.0.0 wn.pos.baidu.com
+0.0.0.0 bdplus.baidu.com
+0.0.0.0 datax.baidu.com
+0.0.0.0 openrcv.baidu.com
+0.0.0.0 a.baidu.com
+0.0.0.0 cb.baidu.com
+0.0.0.0 hdj.baidu.com
+0.0.0.0 mssp.baidu.com
+0.0.0.0 nlog.baidu.com
+0.0.0.0 ad.player.baidu.com
+0.0.0.0 sestat.baidu.com
+0.0.0.0 stat.v.baidu.com
+0.0.0.0 videopush.baidu.com
+0.0.0.0 wisepush.video.baidu.com
+0.0.0.0 hmma.baidu.com
+0.0.0.0 dup.baidustatic.com
+0.0.0.0 sp0.baidu.com
+0.0.0.0 qapm.baidu.com
+0.0.0.0 fclog.baidu.com
+0.0.0.0 sofire.baidu.com
+0.0.0.0 tcbox.baidu.com
+0.0.0.0 browserkernel.baidu.com
+0.0.0.0 hijack.baidu.com
+0.0.0.0 feed-image.baidu.com
+0.0.0.0 hpd.baidu.com
+0.0.0.0 hm.baidu.com
+0.0.0.0 tcbox.baidu.com
+0.0.0.0 ecma.bdimg.com
+0.0.0.0 ecmb.bdimg.com
+0.0.0.0 cdn-haokanapk.baidu.com
+0.0.0.0 adavideo.baidu.com
+0.0.0.0 ada.baidu.com
+0.0.0.0 tuijian.baidu.com
+0.0.0.0 ucstat.baidu.com
+0.0.0.0 crab.baidu.com
+0.0.0.0 api1.tuisong.baidu.com
+0.0.0.0 baidu-mipdx.cn.miaozhen.com
+0.0.0.0 api3.tuisong.baidu.com
+0.0.0.0 api8.tuisong.baidu.com
+0.0.0.0 sa.tuisong.baidu.com
+0.0.0.0 api.tuisong.baidu.com
+0.0.0.0 sa8.tuisong.baidu.com
+0.0.0.0 cpro.baidustatic.com
+0.0.0.0 
