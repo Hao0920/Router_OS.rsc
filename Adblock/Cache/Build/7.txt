@@ -1,6 +1,6 @@
 n.mark.letv.com
 static.app.m.letv.com
-test.ark.letv.com#--芒果TV-Mgtv
+test.ark.letv.com
 mobile.da.mgtv.com
 mobile2.da.mgtv.com
 ott.da.mgtv.com
@@ -24,7 +24,7 @@ y.da.mgtv.com
 zx.da.mgtv.com
 apperr.log.mgtv.com
 m2.da.mgtv.com
-m.da.mgtv.com#--腾讯视频-Tencent
+m.da.mgtv.com
 aiseet.aa.atianqi.com
 livep.l.aiseet.atianqi.com
 lives.l.aiseet.atianqi.com
@@ -68,7 +68,7 @@ w.l.qq.com
 news.l.qq.com
 mcgi.v.qq.com
 soup.v.qq.com
-bksoup.v.qq.com#--xxx.ad.doubleclick.net-广告联盟
+bksoup.v.qq.com
 iqiyi.irs01.com
 letv.irs01.com
 s9.irs03.com
@@ -585,7 +585,7 @@ tj.g.pptv.com
 ads.data.pplive.com
 gas.data.pplive.com
 plt.data.pplive.com
-web.data.pplive.com#--爱奇艺-Qiyi
+web.data.pplive.com
 api.cupid.iqiyi.com
 api.yuedu.iqiyi.com
 c.uaa.iqiyi.com
@@ -632,7 +632,7 @@ rd596n.jomodns.com
 baiducdncmn-gd.inter.iqiyi.com
 bdcdncmn-gd.inter.71edge.com
 mixer.cupid.ptqy.gitv.tv
-msg.ptqy.gitv.tv#--咪咕|土豆|人人|凤凰|等等……
+msg.ptqy.gitv.tv
 ggx.cmvideo.cn
 adxserver.ad.cmvideo.cn
 openstorage.ad.cmvideo.cn
@@ -689,7 +689,7 @@ api.newad.ifeng.com
 ifengad.3g.ifeng.com
 adv.fjtv.net
 dsa-mfp.fengshows.cn
-sdk.cferw.com#--ad.adwars.com-大圣净化规则
+sdk.cferw.com
 ad.weixin.qq.com
 wxa.wxs.qq.com
 wxsnsdythumb.wxs.qq.com
@@ -1132,7 +1132,7 @@ g.koowo.com
 mobilead.kuwo.cn
 splashimgbssdl.yun.kugou.com
 m1.ad.10010.com
-config.unityads.unitychina.cn#--风行&酷喵-FunShion
+config.unityads.unitychina.cn
 aa0.pub.funshion.com
 aa1.pub.funshion.com
 adm.funshion.com
@@ -1160,7 +1160,7 @@ ykad-data.youku.com
 yk-ssp.ad.youku.com
 adashx.ut.youku.com
 adx-open-service.youku.com
-h-adashx.ut.youku.com#--搜狐视频-Sohu
+h-adashx.ut.youku.com
 sohu-dtv.m.cn.miaozhen.com
 agn.aty.snmsohu.aisee.tv
 agn.aty.sohu.com
@@ -1186,7 +1186,7 @@ vstat.v.blog.sohu.com
 wl.hd.sohu.com
 download.wan.sohu.com
 g.jssdk.net
-changyan.sohu.com#--alibaba.com-阿里广告服务
+changyan.sohu.com
 adash.man.aliyuncs.com
 cdn-ads.oss-cn-shanghai.aliyuncs.com
 ynuf.aliapp.org
@@ -1222,7 +1222,7 @@ adashx4yt.m.taobao.com
 h-adashx4yt.ut.taobao.com
 umdc.aliapp.org
 gaode-acs.m.taobao.com
-gaode-jmacs.m.taobao.com#--小米视频-MIUI
+gaode-jmacs.m.taobao.com
 video.market.xiaomi.com
 t1.a.market.xiaomi.com
 t2.a.market.xiaomi.com
@@ -1264,7 +1264,7 @@ o2o.api.xiaomi.com
 xiaomi.m.cn.miaozhen.com
 xiaomi-dtv.m.cn.miaozhen.com
 baiducdncmn3.inter.iqiyi.com
-nadvideo2.baidu.com#--baidu.com-百度广告服务
+nadvideo2.baidu.com
 adm.baidu.com
 ad.player.baidu.com
 adscdn.baidu.com
@@ -1333,7 +1333,7 @@ api8.tuisong.baidu.com
 sa.tuisong.baidu.com
 api.tuisong.baidu.com
 sa8.tuisong.baidu.com
-cpro.baidustatic.com#--googleanalysis.mobi-谷歌广告服务
+cpro.baidustatic.com
 ads.google.com
 www.googleadservices.com
 google-analytics.com
@@ -1550,7 +1550,7 @@ video-ad-stats.googlesyndication.com
 s0.2mdn.net
 s1.2mdn.net
 media.admob.com
-ssl.google-analytics.com#--qq.com-腾讯广告服务
+ssl.google-analytics.com
 ad.qun.qq.com
 adping.qq.com
 adpm.app.qq.com
@@ -1627,7 +1627,7 @@ qzs.gdtimg.com
 public.gdtimg.com
 cmshow.gtimg.cn
 qappcenterv6.3g.qq.com
-aeventlog.beacon.qq.com#--央视影音-CNTV
+aeventlog.beacon.qq.com
 cws-cctv.conviva.com
 galaxy.bjcathay.com
 rtas.videocc.net
@@ -1637,7 +1637,8 @@ d.cntv.cn
 adguanggao.eee114.com
 cctv.adsunion.com
 adstore-1252524079.file.myqcloud.com
-adstore-index-1252524079.file.myqcloud.comclick.hunantv.com
+adstore-index-1252524079.file.myqcloud.com
+click.hunantv.com
 da.hunantv.com
 da.mgtv.com
 log.hunantv.com

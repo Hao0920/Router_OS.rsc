@@ -355,7 +355,7 @@ add address=240.0.0.1 name=adstats.tencentmusic.com
 add address=240.0.0.1 name=adstestview.qq.com
 add address=240.0.0.1 name=adstextview.qq.com
 add address=240.0.0.1 name=adstore-1252524079.file.myqcloud.com
-add address=240.0.0.1 name=adstore-index-1252524079.file.myqcloud.comclick.hunantv.com
+add address=240.0.0.1 name=adstore-index-1252524079.file.myqcloud.com
 add address=240.0.0.1 name=adstrategy.biz.weibo.com
 add address=240.0.0.1 name=adstudio-assets.scdn.co
 add address=240.0.0.1 name=adsunflower.com
@@ -413,7 +413,7 @@ add address=240.0.0.1 name=adxprtz.com
 add address=240.0.0.1 name=adxserver.ad.cmvideo.cn
 add address=240.0.0.1 name=ae.bdstatic.com
 add address=240.0.0.1 name=aecbhedvuibuab.biduo.cc
-add address=240.0.0.1 name=aeventlog.beacon.qq.com#--央视影音-CNTV
+add address=240.0.0.1 name=aeventlog.beacon.qq.com
 add address=240.0.0.1 name=afd.baidu.com
 add address=240.0.0.1 name=afp.adchina.com
 add address=240.0.0.1 name=afp.alicdn.com
@@ -648,7 +648,7 @@ add address=240.0.0.1 name=bj.bcebos.com
 add address=240.0.0.1 name=bj.imp.voiceads.cn
 add address=240.0.0.1 name=bjdata.ads.oppomobile.com
 add address=240.0.0.1 name=bjuser.jpush.cn
-add address=240.0.0.1 name=bksoup.v.qq.com#--xxx.ad.doubleclick.net-广告联盟
+add address=240.0.0.1 name=bksoup.v.qq.com
 add address=240.0.0.1 name=bloodhound.spotify.com
 add address=240.0.0.1 name=bluekai.com
 add address=240.0.0.1 name=bolt.jebe.renren.com
@@ -828,7 +828,7 @@ add address=240.0.0.1 name=cf.cdn.inmobi.com
 add address=240.0.0.1 name=cf8d.stat.gw.youmi.net
 add address=240.0.0.1 name=cfg-cdn.aiclk.com
 add address=240.0.0.1 name=cfts1tifqr.com
-add address=240.0.0.1 name=changyan.sohu.com#--alibaba.com-阿里广告服务
+add address=240.0.0.1 name=changyan.sohu.com
 add address=240.0.0.1 name=china.inmobi.com
 add address=240.0.0.1 name=choice.microsoft.com
 add address=240.0.0.1 name=ci0s.i4h7md.cn
@@ -844,6 +844,7 @@ add address=240.0.0.1 name=click.bes.baidu.com
 add address=240.0.0.1 name=click.buzzcity.net
 add address=240.0.0.1 name=click.hd.sohu.com.cn
 add address=240.0.0.1 name=click.hm.baidu.com
+add address=240.0.0.1 name=click.hunantv.com
 add address=240.0.0.1 name=click.mediav.com
 add address=240.0.0.1 name=click.mz.simba.taobao.com
 add address=240.0.0.1 name=click.qianqian.com
@@ -891,7 +892,7 @@ add address=240.0.0.1 name=config.adview.cn
 add address=240.0.0.1 name=config.inmobi.com
 add address=240.0.0.1 name=config.jpush.cn
 add address=240.0.0.1 name=config.mobisage.cn
-add address=240.0.0.1 name=config.unityads.unitychina.cn#--风行&酷喵-FunShion
+add address=240.0.0.1 name=config.unityads.unitychina.cn
 add address=240.0.0.1 name=contentabc.com
 add address=240.0.0.1 name=contentrecommend-out.mobile.sina.cn
 add address=240.0.0.1 name=contextual.media.net
@@ -907,7 +908,6 @@ add address=240.0.0.1 name=cpmstar.com
 add address=240.0.0.1 name=cpro.baidu.cn
 add address=240.0.0.1 name=cpro.baidu.com
 add address=240.0.0.1 name=cpro.baidustatic.com
-add address=240.0.0.1 name=cpro.baidustatic.com#--googleanalysis.mobi-谷歌广告服务
 add address=240.0.0.1 name=cpro.tieba.baidu.com
 add address=240.0.0.1 name=cpro.zhidao.baidu.com
 add address=240.0.0.1 name=cpro.zol.com.cn
@@ -1215,7 +1215,7 @@ add address=240.0.0.1 name=game.weibo.com
 add address=240.0.0.1 name=gamecenter.iqiyi.com
 add address=240.0.0.1 name=gamex.mobile.youku.com
 add address=240.0.0.1 name=gaode-acs.m.taobao.com
-add address=240.0.0.1 name=gaode-jmacs.m.taobao.com#--小米视频-MIUI
+add address=240.0.0.1 name=gaode-jmacs.m.taobao.com
 add address=240.0.0.1 name=gas.data.pplive.com
 add address=240.0.0.1 name=gd-stats.jpush.cn
 add address=240.0.0.1 name=gecko-hl.snssdk.com
@@ -1273,7 +1273,7 @@ add address=240.0.0.1 name=gw6.push.mcp.weibo.cn
 add address=240.0.0.1 name=gxbr.cnzz.com
 add address=240.0.0.1 name=h-adashx.ut.ele.me
 add address=240.0.0.1 name=h-adashx.ut.taobao.com
-add address=240.0.0.1 name=h-adashx.ut.youku.com#--搜狐视频-Sohu
+add address=240.0.0.1 name=h-adashx.ut.youku.com
 add address=240.0.0.1 name=h-adashx4yt.ut.taobao.com
 add address=240.0.0.1 name=h.2laezi9.cn
 add address=240.0.0.1 name=h.e0hkzk2.cn
@@ -1570,7 +1570,7 @@ add address=240.0.0.1 name=m.cnxmyb.cn
 add address=240.0.0.1 name=m.comberry.cn
 add address=240.0.0.1 name=m.cqzspt888.cn
 add address=240.0.0.1 name=m.csypspcs.cn
-add address=240.0.0.1 name=m.da.mgtv.com#--腾讯视频-Tencent
+add address=240.0.0.1 name=m.da.mgtv.com
 add address=240.0.0.1 name=m.dailiq.cn
 add address=240.0.0.1 name=m.data.mob.com
 add address=240.0.0.1 name=m.dian6.cn
@@ -1823,7 +1823,7 @@ add address=240.0.0.1 name=msg.71.am
 add address=240.0.0.1 name=msg.cn.miaozhen.com
 add address=240.0.0.1 name=msg.iqiyi.com
 add address=240.0.0.1 name=msg.m.letv.com
-add address=240.0.0.1 name=msg.ptqy.gitv.tv#--咪咕|土豆|人人|凤凰|等等……
+add address=240.0.0.1 name=msg.ptqy.gitv.tv
 add address=240.0.0.1 name=msg.qy.net
 add address=240.0.0.1 name=msg.umengcloud.com
 add address=240.0.0.1 name=msg.video.qiyi.com
@@ -1855,7 +1855,7 @@ add address=240.0.0.1 name=n.mark.letv.com
 add address=240.0.0.1 name=n.tjlms.cn
 add address=240.0.0.1 name=n.tzh019.cn
 add address=240.0.0.1 name=n.tzh315.cn
-add address=240.0.0.1 name=nadvideo2.baidu.com#--baidu.com-百度广告服务
+add address=240.0.0.1 name=nadvideo2.baidu.com
 add address=240.0.0.1 name=nav.browser.miui.com
 add address=240.0.0.1 name=nbsdk-baichuan.alicdn.com
 add address=240.0.0.1 name=nbsdk-baichuan.taobao.com
@@ -2214,7 +2214,7 @@ add address=240.0.0.1 name=sdk-ab-config.aiclk.com
 add address=240.0.0.1 name=sdk-globalconfig.aiclk.com
 add address=240.0.0.1 name=sdk-open-phone.getui.com
 add address=240.0.0.1 name=sdk.api.oaid.wocloud.cn
-add address=240.0.0.1 name=sdk.cferw.com#--ad.adwars.com-大圣净化规则
+add address=240.0.0.1 name=sdk.cferw.com
 add address=240.0.0.1 name=sdk.e.qq.com
 add address=240.0.0.1 name=sdk.guard.mob.com
 add address=240.0.0.1 name=sdk.m.youku.com
@@ -2310,7 +2310,7 @@ add address=240.0.0.1 name=srd.simba.taobao.com
 add address=240.0.0.1 name=ss.chelaile.net.cn
 add address=240.0.0.1 name=ssacdn.com
 add address=240.0.0.1 name=ssdk.adkmob.com
-add address=240.0.0.1 name=ssl.google-analytics.com#--qq.com-腾讯广告服务
+add address=240.0.0.1 name=ssl.google-analytics.com
 add address=240.0.0.1 name=ssp-api.domob.cn
 add address=240.0.0.1 name=ssp-event.domob.cn
 add address=240.0.0.1 name=ssp.1nmob.com
@@ -2452,7 +2452,7 @@ add address=240.0.0.1 name=ten.sngapm.qq.com
 add address=240.0.0.1 name=tencent-dtv.m.cn.miaozhen.com
 add address=240.0.0.1 name=test.ad.xiaomi.com
 add address=240.0.0.1 name=test.adsp.xunlei.com
-add address=240.0.0.1 name=test.ark.letv.com#--芒果TV-Mgtv
+add address=240.0.0.1 name=test.ark.letv.com
 add address=240.0.0.1 name=test.e.ad.xiaomi.com
 add address=240.0.0.1 name=test.ott.youku.com
 add address=240.0.0.1 name=test.sdk.m.youku.com
@@ -2718,7 +2718,7 @@ add address=240.0.0.1 name=wbclick.mobile.sina.cn
 add address=240.0.0.1 name=wbpctips.mobile.sina.cn
 add address=240.0.0.1 name=wd.adcolony.com
 add address=240.0.0.1 name=web.da.mgtv.com
-add address=240.0.0.1 name=web.data.pplive.com#--爱奇艺-Qiyi
+add address=240.0.0.1 name=web.data.pplive.com
 add address=240.0.0.1 name=web.happyholidayhotel.com.cn
 add address=240.0.0.1 name=weishi.baidu.com
 add address=240.0.0.1 name=wenku-cms.bj.bcebos.com

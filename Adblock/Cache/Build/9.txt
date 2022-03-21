@@ -353,7 +353,7 @@ adstats.tencentmusic.com
 adstestview.qq.com
 adstextview.qq.com
 adstore-1252524079.file.myqcloud.com
-adstore-index-1252524079.file.myqcloud.comclick.hunantv.com
+adstore-index-1252524079.file.myqcloud.com
 adstrategy.biz.weibo.com
 adstudio-assets.scdn.co
 adsunflower.com
@@ -411,7 +411,7 @@ adxprtz.com
 adxserver.ad.cmvideo.cn
 ae.bdstatic.com
 aecbhedvuibuab.biduo.cc
-aeventlog.beacon.qq.com#--央视影音-CNTV
+aeventlog.beacon.qq.com
 afd.baidu.com
 afp.adchina.com
 afp.alicdn.com
@@ -646,7 +646,7 @@ bj.bcebos.com
 bj.imp.voiceads.cn
 bjdata.ads.oppomobile.com
 bjuser.jpush.cn
-bksoup.v.qq.com#--xxx.ad.doubleclick.net-广告联盟
+bksoup.v.qq.com
 bloodhound.spotify.com
 bluekai.com
 bolt.jebe.renren.com
@@ -826,7 +826,7 @@ cf.cdn.inmobi.com
 cf8d.stat.gw.youmi.net
 cfg-cdn.aiclk.com
 cfts1tifqr.com
-changyan.sohu.com#--alibaba.com-阿里广告服务
+changyan.sohu.com
 china.inmobi.com
 choice.microsoft.com
 ci0s.i4h7md.cn
@@ -842,6 +842,7 @@ click.bes.baidu.com
 click.buzzcity.net
 click.hd.sohu.com.cn
 click.hm.baidu.com
+click.hunantv.com
 click.mediav.com
 click.mz.simba.taobao.com
 click.qianqian.com
@@ -889,7 +890,7 @@ config.adview.cn
 config.inmobi.com
 config.jpush.cn
 config.mobisage.cn
-config.unityads.unitychina.cn#--风行&酷喵-FunShion
+config.unityads.unitychina.cn
 contentabc.com
 contentrecommend-out.mobile.sina.cn
 contextual.media.net
@@ -905,7 +906,6 @@ cpmstar.com
 cpro.baidu.cn
 cpro.baidu.com
 cpro.baidustatic.com
-cpro.baidustatic.com#--googleanalysis.mobi-谷歌广告服务
 cpro.tieba.baidu.com
 cpro.zhidao.baidu.com
 cpro.zol.com.cn
@@ -1213,7 +1213,7 @@ game.weibo.com
 gamecenter.iqiyi.com
 gamex.mobile.youku.com
 gaode-acs.m.taobao.com
-gaode-jmacs.m.taobao.com#--小米视频-MIUI
+gaode-jmacs.m.taobao.com
 gas.data.pplive.com
 gd-stats.jpush.cn
 gecko-hl.snssdk.com
@@ -1271,7 +1271,7 @@ gw6.push.mcp.weibo.cn
 gxbr.cnzz.com
 h-adashx.ut.ele.me
 h-adashx.ut.taobao.com
-h-adashx.ut.youku.com#--搜狐视频-Sohu
+h-adashx.ut.youku.com
 h-adashx4yt.ut.taobao.com
 h.2laezi9.cn
 h.e0hkzk2.cn
@@ -1568,7 +1568,7 @@ m.cnxmyb.cn
 m.comberry.cn
 m.cqzspt888.cn
 m.csypspcs.cn
-m.da.mgtv.com#--腾讯视频-Tencent
+m.da.mgtv.com
 m.dailiq.cn
 m.data.mob.com
 m.dian6.cn
@@ -1821,7 +1821,7 @@ msg.71.am
 msg.cn.miaozhen.com
 msg.iqiyi.com
 msg.m.letv.com
-msg.ptqy.gitv.tv#--咪咕|土豆|人人|凤凰|等等……
+msg.ptqy.gitv.tv
 msg.qy.net
 msg.umengcloud.com
 msg.video.qiyi.com
@@ -1853,7 +1853,7 @@ n.mark.letv.com
 n.tjlms.cn
 n.tzh019.cn
 n.tzh315.cn
-nadvideo2.baidu.com#--baidu.com-百度广告服务
+nadvideo2.baidu.com
 nav.browser.miui.com
 nbsdk-baichuan.alicdn.com
 nbsdk-baichuan.taobao.com
@@ -2212,7 +2212,7 @@ sdk-ab-config.aiclk.com
 sdk-globalconfig.aiclk.com
 sdk-open-phone.getui.com
 sdk.api.oaid.wocloud.cn
-sdk.cferw.com#--ad.adwars.com-大圣净化规则
+sdk.cferw.com
 sdk.e.qq.com
 sdk.guard.mob.com
 sdk.m.youku.com
@@ -2308,7 +2308,7 @@ srd.simba.taobao.com
 ss.chelaile.net.cn
 ssacdn.com
 ssdk.adkmob.com
-ssl.google-analytics.com#--qq.com-腾讯广告服务
+ssl.google-analytics.com
 ssp-api.domob.cn
 ssp-event.domob.cn
 ssp.1nmob.com
@@ -2450,7 +2450,7 @@ ten.sngapm.qq.com
 tencent-dtv.m.cn.miaozhen.com
 test.ad.xiaomi.com
 test.adsp.xunlei.com
-test.ark.letv.com#--芒果TV-Mgtv
+test.ark.letv.com
 test.e.ad.xiaomi.com
 test.ott.youku.com
 test.sdk.m.youku.com
@@ -2716,7 +2716,7 @@ wbclick.mobile.sina.cn
 wbpctips.mobile.sina.cn
 wd.adcolony.com
 web.da.mgtv.com
-web.data.pplive.com#--爱奇艺-Qiyi
+web.data.pplive.com
 web.happyholidayhotel.com.cn
 weishi.baidu.com
 wenku-cms.bj.bcebos.com

@@ -1,7 +1,8 @@
 #--乐视视频-Letv
 0.0.0.0 n.mark.letv.com
 0.0.0.0 static.app.m.letv.com
-0.0.0.0 test.ark.letv.com#--芒果TV-Mgtv
+0.0.0.0 test.ark.letv.com
+#--芒果TV-Mgtv
 0.0.0.0 mobile.da.mgtv.com
 0.0.0.0 mobile2.da.mgtv.com
 0.0.0.0 ott.da.mgtv.com
@@ -25,7 +26,8 @@
 0.0.0.0 zx.da.mgtv.com
 0.0.0.0 apperr.log.mgtv.com
 0.0.0.0 m2.da.mgtv.com
-0.0.0.0 m.da.mgtv.com#--腾讯视频-Tencent
+0.0.0.0 m.da.mgtv.com
+#--腾讯视频-Tencent
 0.0.0.0 aiseet.aa.atianqi.com
 0.0.0.0 livep.l.aiseet.atianqi.com
 0.0.0.0 lives.l.aiseet.atianqi.com
@@ -69,7 +71,8 @@
 0.0.0.0 news.l.qq.com
 0.0.0.0 mcgi.v.qq.com
 0.0.0.0 soup.v.qq.com
-0.0.0.0 bksoup.v.qq.com#--xxx.ad.doubleclick.net-广告联盟
+0.0.0.0 bksoup.v.qq.com
+#--xxx.ad.doubleclick.net-广告联盟
 0.0.0.0 iqiyi.irs01.com
 0.0.0.0 letv.irs01.com
 0.0.0.0 s9.irs03.com
@@ -587,7 +590,8 @@
 0.0.0.0 ads.data.pplive.com
 0.0.0.0 gas.data.pplive.com
 0.0.0.0 plt.data.pplive.com
-0.0.0.0 web.data.pplive.com#--爱奇艺-Qiyi
+0.0.0.0 web.data.pplive.com
+#--爱奇艺-Qiyi
 0.0.0.0 api.cupid.iqiyi.com
 0.0.0.0 api.yuedu.iqiyi.com
 0.0.0.0 c.uaa.iqiyi.com
@@ -634,7 +638,8 @@
 0.0.0.0 baiducdncmn-gd.inter.iqiyi.com
 0.0.0.0 bdcdncmn-gd.inter.71edge.com
 0.0.0.0 mixer.cupid.ptqy.gitv.tv
-0.0.0.0 msg.ptqy.gitv.tv#--咪咕|土豆|人人|凤凰|等等……
+0.0.0.0 msg.ptqy.gitv.tv
+#--咪咕|土豆|人人|凤凰|等等……
 0.0.0.0 ggx.cmvideo.cn
 0.0.0.0 adxserver.ad.cmvideo.cn
 0.0.0.0 openstorage.ad.cmvideo.cn
@@ -691,7 +696,8 @@
 0.0.0.0 ifengad.3g.ifeng.com
 0.0.0.0 adv.fjtv.net
 0.0.0.0 dsa-mfp.fengshows.cn
-0.0.0.0 sdk.cferw.com#--ad.adwars.com-大圣净化规则
+0.0.0.0 sdk.cferw.com
+#--ad.adwars.com-大圣净化规则
 0.0.0.0 ad.weixin.qq.com
 0.0.0.0 wxa.wxs.qq.com
 0.0.0.0 wxsnsdythumb.wxs.qq.com
@@ -1134,7 +1140,8 @@
 0.0.0.0 mobilead.kuwo.cn
 0.0.0.0 splashimgbssdl.yun.kugou.com
 0.0.0.0 m1.ad.10010.com
-0.0.0.0 config.unityads.unitychina.cn#--风行&酷喵-FunShion
+0.0.0.0 config.unityads.unitychina.cn
+#--风行&酷喵-FunShion
 0.0.0.0 aa0.pub.funshion.com
 0.0.0.0 aa1.pub.funshion.com
 0.0.0.0 adm.funshion.com
@@ -1162,7 +1169,8 @@
 0.0.0.0 yk-ssp.ad.youku.com
 0.0.0.0 adashx.ut.youku.com
 0.0.0.0 adx-open-service.youku.com
-0.0.0.0 h-adashx.ut.youku.com#--搜狐视频-Sohu
+0.0.0.0 h-adashx.ut.youku.com
+#--搜狐视频-Sohu
 0.0.0.0 sohu-dtv.m.cn.miaozhen.com
 0.0.0.0 agn.aty.snmsohu.aisee.tv
 0.0.0.0 agn.aty.sohu.com
@@ -1188,7 +1196,8 @@
 0.0.0.0 wl.hd.sohu.com
 0.0.0.0 download.wan.sohu.com
 0.0.0.0 g.jssdk.net
-0.0.0.0 changyan.sohu.com#--alibaba.com-阿里广告服务
+0.0.0.0 changyan.sohu.com
+#--alibaba.com-阿里广告服务
 0.0.0.0 adash.man.aliyuncs.com
 0.0.0.0 cdn-ads.oss-cn-shanghai.aliyuncs.com
 0.0.0.0 ynuf.aliapp.org
@@ -1224,7 +1233,8 @@
 0.0.0.0 h-adashx4yt.ut.taobao.com
 0.0.0.0 umdc.aliapp.org
 0.0.0.0 gaode-acs.m.taobao.com
-0.0.0.0 gaode-jmacs.m.taobao.com#--小米视频-MIUI
+0.0.0.0 gaode-jmacs.m.taobao.com
+#--小米视频-MIUI
 0.0.0.0 video.market.xiaomi.com
 0.0.0.0 t1.a.market.xiaomi.com
 0.0.0.0 t2.a.market.xiaomi.com
@@ -1266,7 +1276,8 @@
 0.0.0.0 xiaomi.m.cn.miaozhen.com
 0.0.0.0 xiaomi-dtv.m.cn.miaozhen.com
 0.0.0.0 baiducdncmn3.inter.iqiyi.com
-0.0.0.0 nadvideo2.baidu.com#--baidu.com-百度广告服务
+0.0.0.0 nadvideo2.baidu.com
+#--baidu.com-百度广告服务
 0.0.0.0 adm.baidu.com
 0.0.0.0 ad.player.baidu.com
 0.0.0.0 adscdn.baidu.com
@@ -1335,7 +1346,8 @@
 0.0.0.0 sa.tuisong.baidu.com
 0.0.0.0 api.tuisong.baidu.com
 0.0.0.0 sa8.tuisong.baidu.com
-0.0.0.0 cpro.baidustatic.com#--googleanalysis.mobi-谷歌广告服务
+0.0.0.0 cpro.baidustatic.com
+#--googleanalysis.mobi-谷歌广告服务
 0.0.0.0 ads.google.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 google-analytics.com
@@ -1552,7 +1564,8 @@
 0.0.0.0 s0.2mdn.net
 0.0.0.0 s1.2mdn.net
 0.0.0.0 media.admob.com
-0.0.0.0 ssl.google-analytics.com#--qq.com-腾讯广告服务
+0.0.0.0 ssl.google-analytics.com
+#--qq.com-腾讯广告服务
 0.0.0.0 ad.qun.qq.com
 0.0.0.0 adping.qq.com
 0.0.0.0 adpm.app.qq.com
@@ -1629,7 +1642,8 @@
 0.0.0.0 public.gdtimg.com
 0.0.0.0 cmshow.gtimg.cn
 0.0.0.0 qappcenterv6.3g.qq.com
-0.0.0.0 aeventlog.beacon.qq.com#--央视影音-CNTV
+0.0.0.0 aeventlog.beacon.qq.com
+#--央视影音-CNTV
 0.0.0.0 cws-cctv.conviva.com
 0.0.0.0 galaxy.bjcathay.com
 0.0.0.0 rtas.videocc.net
