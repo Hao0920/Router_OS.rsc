@@ -1202,6 +1202,7 @@ add address=240.0.0.1 name=supportmetrics.apple.com
 add address=240.0.0.1 name=suyuexs.cdn.bcebos.co
 add address=240.0.0.1 name=suyuexs.cdn.bcebos.com
 add address=240.0.0.1 name=sv.51niu.pro
+add address=240.0.0.1 name=sv.884069349.ltd
 add address=240.0.0.1 name=sv.cmyx.xyz
 add address=240.0.0.1 name=sv.fengmian.xyz
 add address=240.0.0.1 name=sv.ladybugsweb.site
