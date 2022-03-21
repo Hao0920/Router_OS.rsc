@@ -2,9 +2,10 @@
 mkdir -p ./Adblock/Cache/Build/
 
 ### 整理 ###
-find ./Adblock/Cache/Upstream -type f -name "*.txt" | xargs cat > ./Adblock/Cache/Build/1.txt
+find ./Adblock/Cache/Source -type f -name "*.txt" | xargs cat > ./Adblock/Cache/Build/source.txt
+find ./Adblock/Cache/Upstream -type f -name "*.txt" | xargs cat > ./Adblock/Cache/Build/upstream.txt
 # 删除注释行
-sed -e '/^#/d' ./Adblock/Cache/Build/1.txt > ./Adblock/Cache/Build/2.txt
+sed -e '/^#/d' ./Adblock/Cache/Build/upstream.txt > ./Adblock/Cache/Build/2.txt
 # 删除 include 行
 sed -e '/^include:/d' ./Adblock/Cache/Build/2.txt > ./Adblock/Cache/Build/3.txt
 # 删除 regexp 行
@@ -16,17 +17,17 @@ sed -e 's/full://' ./Adblock/Cache/Build/5.txt > ./Adblock/Cache/Build/6.txt
 # 删除 0.0.0.0
 sed -e 's/0.0.0.0 //' ./Adblock/Cache/Build/6.txt > ./Adblock/Cache/Build/7.txt
 # 删除 127.0.0.1
-sed -e 's/127.0.0.1 //' ./Adblock/Cache/Build/6.txt > ./Adblock/Cache/Build/7.txt
+sed -e 's/127.0.0.1 //' ./Adblock/Cache/Build/7.txt > ./Adblock/Cache/Build/8.txt
 # 删除空格行
-sed -e '/^$/d' ./Adblock/Cache/Build/7.txt > ./Adblock/Cache/Build/8.txt
+sed -e '/^$/d' ./Adblock/Cache/Build/8.txt > ./Adblock/Cache/Build/9.txt
 # 去重
-sort -u ./Adblock/Cache/Build/8.txt > ./Adblock/Cache/Build/9.txt
+sort -u ./Adblock/Cache/Build/9.txt > ./Adblock/Cache/Build/10.txt
 
 ### 构建 ###
 {
   echo "/ip dns static"
   echo "remove [find address=240.0.0.1]"
-  for name in $(cat ./Adblock/Cache/Build/9.txt) ; do
+  for name in $(cat ./Adblock/Cache/Build/10.txt) ; do
     echo "add address=240.0.0.1 name=$name"
   done
 } > ./Adblock/Adblock.rsc
