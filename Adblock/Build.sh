@@ -15,6 +15,8 @@ sed -e 's/ @ads//' ./Adblock/Cache/Build/4.txt > ./Adblock/Cache/Build/5.txt
 sed -e 's/full://' ./Adblock/Cache/Build/5.txt > ./Adblock/Cache/Build/6.txt
 # 删除 0.0.0.0
 sed -e 's/0.0.0.0 //' ./Adblock/Cache/Build/6.txt > ./Adblock/Cache/Build/7.txt
+# 删除 127.0.0.1
+sed -e 's/127.0.0.1 //' ./Adblock/Cache/Build/6.txt > ./Adblock/Cache/Build/7.txt
 # 删除空格行
 sed -e '/^$/d' ./Adblock/Cache/Build/7.txt > ./Adblock/Cache/Build/8.txt
 # 去重
