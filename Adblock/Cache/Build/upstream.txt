@@ -1557,6 +1557,7 @@ mopub.com @ads
 0.0.0.0 aksdjfksl.kuaiyunbd.com
 0.0.0.0 hypnc.ynns.shop
 0.0.0.0 fjspi.songle.link
+0.0.0.0 pc.wegowan.com
 bds.snssdk.com @ads
 ctobsnssdk.com @ads
 dig.bdurl.net @ads
