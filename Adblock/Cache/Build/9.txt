@@ -1,4 +1,3 @@
-0.0.0.0
 123456798.2021zuixingg.com
 1pzskg.cn
 1rx.io
@@ -8,7 +7,6 @@
 2j.qhgbkr.cn
 2mdn.net
 3.iscrv.com
-36Kr
 397c0.admaster.com.cn
 3m.mediav.com
 4171764.fls.doubleclick.net
@@ -27,31 +25,6 @@
 8dcyqu.c.admaster.com.cn
 8z3j.cn
 9uh94c.cn
->
-@ads
-Blocking
-CNZZ
-Caixin
-Chinaso
-Collection
-Connected
-DMM
-Experiences
-Httpool
-If
-Kantai
-Marketing
-Office
-Other
-Qiniu
-Refer:
-Taboola
-Telemetry
-This
-UCloud
-UNI
-Unclassified
-User
 a-ad.adwo.com
 a-dxk.play.api.3g.youku.com
 a.adtng.com
@@ -92,7 +65,6 @@ acs.agent.56.com
 acs.agent.v-56.com
 acs4baichuan.m.taobao.com
 actives.youku.com
-ad
 ad-apac.doubleclick.net
 ad-bg.adwo.com
 ad-cache.dopool.com
@@ -272,12 +244,8 @@ adrdir.qq.com
 adreport.adtianmai.com
 adreq.vivo.com.cn
 adres.myaora.net
-ads
-ads,
 ads-a.juicyads.com
 ads-go.adroi.com.cn
-ads-img
-ads-test
 ads.adadapted.com
 ads.adaptv.advertising.com
 ads.admarvel.com
@@ -385,7 +353,7 @@ adstats.tencentmusic.com
 adstestview.qq.com
 adstextview.qq.com
 adstore-1252524079.file.myqcloud.com
-adstore-index-1252524079.file.myqcloud.com
+adstore-index-1252524079.file.myqcloud.comclick.hunantv.com
 adstrategy.biz.weibo.com
 adstudio-assets.scdn.co
 adsunflower.com
@@ -460,19 +428,16 @@ akamai.smartadserver.com
 aksdjfksl.kuaiyunbd.com
 ali-ad.a.yximgs.com
 ali-stats.jpush.cn
-ali213
 alicc.txsadql.cn
 alicdnv2.sitemonitor.cn.miaozhen.com
 alipaylog.com
 alitui.weibo.com
-all
 all.cnzz.com.danuoyi.tbcache.com
 alog.umeng.com
 alog.umengcloud.com
 alogsus.umeng.com
 alogus.umeng.com
 als.baidu.com
-also
 ama.adwo.com
 amap-aos-info-nogw.amap.com
 amazon-adsystem.com
@@ -487,7 +452,6 @@ analytics.163.com
 analytics.samsungknox.com
 analytics3.dopool.com
 analytics3.starschina.com
-and
 andpeng.qushuba.com
 android.bcfads.com
 android.bugly.qq.com
@@ -574,7 +538,6 @@ apiconfig.adwo.com
 apilog-web.acfun.cn
 apistat.adbana.com
 apoll.m.taobao.com
-app
 app-measurement.com
 app-tj.adinall.com
 app.aplus.pptv.com
@@ -593,7 +556,6 @@ apptv.w.inmobi.com
 appuu.cn
 ar.umeng.com
 ark.letv.com
-as
 as.adfonic.net
 as.aplus.pptv.com
 asdfjasdhjkasjkfhajklsd.2021zuixingg.com
@@ -691,7 +653,6 @@ bolt.jebe.renren.com
 books-analytics-events.apple.com
 books-analytics-events.news.apple-dns.net
 bootcdn.meihaoxiangwang.com
-both
 botuu.adsame.com
 bourewsr.qushuba.com
 boyceoyc.com
@@ -707,8 +668,6 @@ btrace.play.aiseet.atianqi.com
 btrace.qq.com
 bu1.duba.com
 bu2.duba.com
-but
-by
 c-adash.m.taobao.com
 c-gi.getui.com
 c-gtc.getui.com
@@ -876,7 +835,6 @@ cjhq.baidu.com
 ckmap.mediav.com
 cl2.webterren.com
 cleaner.baidu.com
-clearly
 click.admaster.com.cn
 click.ali213.net
 click.aliyun.com
@@ -884,7 +842,6 @@ click.bes.baidu.com
 click.buzzcity.net
 click.hd.sohu.com.cn
 click.hm.baidu.com
-click.hunantv.com
 click.mediav.com
 click.mz.simba.taobao.com
 click.qianqian.com
@@ -933,8 +890,6 @@ config.inmobi.com
 config.jpush.cn
 config.mobisage.cn
 config.unityads.unitychina.cn#--风行&酷喵-FunShion
-connection
-contains
 contentabc.com
 contentrecommend-out.mobile.sina.cn
 contextual.media.net
@@ -971,7 +926,6 @@ ctobsnssdk.com
 ctr.hd.sohu.com
 cul.awwlrd.cn
 cupid.iqiyi.com
-cut
 cvt.mydas.mobi
 cws-cctv.conviva.com
 d.721sjv.xyz
@@ -1037,7 +991,6 @@ diff2.smartadserver.com
 diff3.smartadserver.com
 dig.bdurl.net
 dig.zjurl.cn
-displaying,
 dl-vip.bav.baidu.com
 dl-vip.pcfaster.baidu.co.th
 dl.client.baidu.com
@@ -1058,8 +1011,6 @@ dn-growing.qbox.me
 dns.m.sm.cn
 dns.ximalaya.com
 dolphin-center.adsame.com
-domain
-domains
 domob.cn
 domob.com.cn
 doubleclick.com
@@ -1224,19 +1175,15 @@ feedback.windows.com
 fexclick.baidu.com
 ff.win.taobao.com
 ff.yiqima.xyz
-file
 film.dofkfhv.cn
 fit.uuywe.top
 fjspi.songle.link
 fm.p0y.cn
 fmg.aty.sohu.com
 fms.ipinyou.com
-following
-for
 fout.jp
 fpb1.gxfin.com
 freeband.qushuba.com
-from
 ftfsn.m100.site
 ftpcontent.worldnow.com
 fumiad.dxys.pro
@@ -1264,7 +1211,6 @@ game.pps.tv
 game.weibo.cn
 game.weibo.com
 gamecenter.iqiyi.com
-games(such
 gamex.mobile.youku.com
 gaode-acs.m.taobao.com
 gaode-jmacs.m.taobao.com#--小米视频-MIUI
@@ -1355,8 +1301,6 @@ hshv.7kzw.com
 html5adkit.plusmo.s3.amazonaws.com
 httpdns.push.oppomobile.com
 httpool.com
-https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
-https://tonahazana.com/kancolle-2nd-weight-saving
 hu544v.78zw.com
 hudong.pl.youku.com
 huichuan.sm.cn
@@ -1443,7 +1387,6 @@ in.jinlubaojie.cn
 in.jinxiutengzhou.cn
 in.vipliangmei.com
 in.wxebgpj.cn
-including
 incsh.aifenxiang.xyz
 incsh.bincun.xyz
 incsh.fengyigc.xyz
@@ -1544,7 +1487,6 @@ letv.irs01.com
 letv.m.cn.miaozhen.com
 lgz.poewage.top
 lijit.com
-list
 list.z.qingting.fm
 livec.l.qq.com
 livem.l.qq.com
@@ -1582,7 +1524,6 @@ lp.mp.mydas.mobi
 lp.mydas.mobi
 lplxiaohu.m.biqubao.com
 lqc006.com
-lrts.me
 ls.l.qq.com
 lstat.youku.com
 lu.sogoucdn.com
@@ -1760,7 +1701,6 @@ max-l.mediav.com
 max.adsame.com
 max.mediav.com
 maxsys.adsame.com
-maybe
 mbdlog.iqiyi.com
 mc.7kzw.com
 mcfg.sandai.net
@@ -1955,8 +1895,6 @@ oc.umeng.com
 oct.pocoiq.cn
 oe.tredsd.com
 oeeee.adsame.com
-of
-official
 offmsg.umeng.com
 ogury.co
 ogury.com
@@ -2066,8 +2004,6 @@ pks1c.cxmygp.xyz
 pl.cp12.wasu.tv
 pl.youku.com
 platform.adwep.com
-play
-playing
 plbslog.umeng.com
 plog.dc.letv.com
 plt.data.pplive.com
@@ -2077,7 +2013,6 @@ pms.mb.qq.com
 pnrt-stsdk.vivo.com.cn
 pnrt.stsdk.vivo.com.cn
 poh.biqumo.com
-poi),
 pole.6rooms.com
 policy.video.iqiyi.com
 portmort.qushuba.com
@@ -2089,15 +2024,12 @@ pptv.adx.admaster.com.cn
 pptv.m.cn.miaozhen.com
 ppvabs.pplive.com
 presage.io
-prevent
 preview.adsame.com
 pro.cn
 pro.hoye.letv.com
 pro.letv.com
 prod.nexusrules.live.com.akadns.net
 promote.biz.weibo.cn
-providers
-providers,
 proxy-mob-cld.alicdn.com
 prt-stsdk.vivo.com.cn
 prt.stsdk.vivo.com.cn
@@ -2312,11 +2244,8 @@ securemetrics.apple.com
 securepubads.g.doubleclick.net
 security.browser.miui.com
 seordl.cn
-serves
 service.ad.duomi.com
 service.jiagu.360.cn
-serving
-serving.
 sestat.baidu.com
 settings-sandbox.data.microsoft.com
 settings-win.data.microsoft.com
@@ -2346,7 +2275,6 @@ shrek.6.cn
 simaba.taobao.com
 simba.6.cn
 simba.m.taobao.com
-single
 sitemonitor.cn.miaozhen.com
 sjarvis.taobao.com
 slog.sina.cn
@@ -2456,7 +2384,6 @@ suo.lp.mydas.mobi
 supersonic.com
 supersonicads-a.akamaihd.net
 supersonicads.com
-support
 supportmetrics.apple.com
 survey.miaozhen.com
 suyuexs.cdn.bcebos.co
@@ -2499,7 +2426,6 @@ t5.a.market.xiaomi.com
 t6.a.market.xiaomi.com
 t7z.cupid.ptqy.gitv.tv
 ta.qq.com
-taboola
 taboola.com
 talk.nz4.gepush.com
 talk.nz4.getui.com
@@ -2532,11 +2458,7 @@ test.zeus.ad.xiaomi.com
 test2014.adview.cn
 tf.adddyy.com
 tfsnp.hnhgmh.mobi
-that
-the
-themselves.
 theta.sogoucdn.com
-this
 tian.biquge.info
 tiexu.biquge.info
 timeserver.cnzz.net
@@ -2552,7 +2474,6 @@ tm-banners.gamingadult.com
 tmeadcomm.y.qq.com
 tmlm.ljmei.com
 tns.simba.taobao.com
-to
 tob-cms.bj.bcebos.com
 tobapplog.ctobsnssdk.com
 toblog.ctobsnssdk.com
@@ -2560,7 +2481,6 @@ toboads.com
 tongji.baidu.com
 tongji.linezing.com
 toolbar.baidu.com
-tools
 tools.3g.qq.com
 top.iibahmd.cn
 topapi.cp12.ott.cibntv.net
@@ -2635,11 +2555,8 @@ upoll.umengcloud.com
 uranus.sogou.com
 urchin.com
 us.l.qq.com
-use
-useful.
 user.ad-locus.com
 userimg.qunar.com
-uses
 utility.baidu.com
 utk.baidu.com
 utop.umengcloud.com
@@ -2801,13 +2718,10 @@ wd.adcolony.com
 web.da.mgtv.com
 web.data.pplive.com#--爱奇艺-Qiyi
 web.happyholidayhotel.com.cn
-website
-website.
 weishi.baidu.com
 wenku-cms.bj.bcebos.com
 widget.weibo.com
 widgets.outbrain.com
-will
 wiruaewnsicnocaidsk.booktxt.com
 wisepush.video.baidu.com
 wk.eccbb.com
@@ -2948,7 +2862,6 @@ xiamiss.wap.xsbiquge.com
 xiangchaokankan.m.cn.miaozhen.com
 xiaomi-dtv.m.cn.miaozhen.com
 xiaomi.m.cn.miaozhen.com
-ximalya
 xinhuanet.adsame.com
 xladapi.izuiyou.com
 xn--2qux23confgml.club
@@ -2992,7 +2905,6 @@ ylog.hiido.com
 ynet.da.mgtv.com
 ynuf.aliapp.org
 yo.kuaipaobiaoju.com
-you
 youku-acs.m.taobao.com
 youku-dtv.m.cn.miaozhen.com
 youmi.net
