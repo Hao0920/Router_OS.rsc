@@ -1,4 +1,3 @@
-#--PP视频-PPTV
 de.as.cp61.ott.cibntv.net
 lives.l.cp81.ott.cibntv.net
 mtrace.play.cp81.ott.cibntv.net

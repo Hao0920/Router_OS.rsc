@@ -1,4 +1,3 @@
-#--芒果TV-Mgtv
 mobile.da.mgtv.com
 mobile2.da.mgtv.com
 ott.da.mgtv.com

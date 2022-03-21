@@ -1,4 +1,3 @@
-#pkg=alibaba.com;阿里广告服务
 adash.man.aliyuncs.com
 cdn-ads.oss-cn-shanghai.aliyuncs.com
 ynuf.aliapp.org

@@ -1,4 +1,3 @@
-#--乐视视频-Letv
 n.mark.letv.com
 static.app.m.letv.com
 test.ark.letv.com

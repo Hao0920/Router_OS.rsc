@@ -1,4 +1,3 @@
-#--小米视频-MIUI
 video.market.xiaomi.com
 t1.a.market.xiaomi.com
 t2.a.market.xiaomi.com

@@ -1,4 +1,3 @@
-#--腾讯视频-Tencent
 aiseet.aa.atianqi.com
 livep.l.aiseet.atianqi.com
 lives.l.aiseet.atianqi.com

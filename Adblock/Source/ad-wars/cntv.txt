@@ -1,4 +1,3 @@
-#--央视影音-CNTV
 cws-cctv.conviva.com
 galaxy.bjcathay.com
 rtas.videocc.net

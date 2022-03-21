@@ -1,4 +1,3 @@
-#--搜狐视频-Sohu
 sohu-dtv.m.cn.miaozhen.com
 agn.aty.snmsohu.aisee.tv
 agn.aty.sohu.com

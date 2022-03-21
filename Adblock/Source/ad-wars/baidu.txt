@@ -1,4 +1,3 @@
-#pkg=baidu.com;百度广告服务
 adm.baidu.com
 ad.player.baidu.com
 adscdn.baidu.com
