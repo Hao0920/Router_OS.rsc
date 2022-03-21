@@ -131,5 +131,3 @@ wget --no-check-certificate -c -O ./Adblock/Cache/Upstream/youku-ads.txt "https:
 wget --no-check-certificate -c -O ./Adblock/Cache/Upstream/zynga-ads.txt "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/zynga-ads"
 # ilpl/ad-hosts
 wget --no-check-certificate -c -O ./Adblock/Cache/Upstream/ilpl-hosts.txt "https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts"
-#jdlingyu/ad-wars
-wget --no-check-certificate -c -O ./Adblock/Cache/Upstream/jdlingyu-ad-wars.txt "https://raw.githubusercontent.com/Hao0920/Router_OS.rsc/main/Adblock/Source/ad-wars"
