@@ -3,7 +3,7 @@ mkdir -p ./Adblock/Cache/Build/
 
 ### 整理 ###
 find ./Adblock/Cache/Upstream -type f -name "*.txt" | xargs cat > ./Adblock/Cache/Build/upstream.txt
-find ./Adblock/Cache/Source/* -type f -name "*.txt" | xargs cat > ./Adblock/Cache/Build/source.txt
+find ./Adblock/Cache/Source -name "*.txt" | xargs cat > ./Adblock/Cache/Build/source.txt
 # 删除注释行
 sed -e '/^#/d' ./Adblock/Cache/Build/upstream.txt > ./Adblock/Cache/Build/2.txt
 # 删除 include 行
