@@ -2,9 +2,9 @@
 mkdir -p ./Adblock/Cache/Build/
 
 ### 整理 ###
-find ./Adblock/Cache/Source -type f -name "*.txt" | xargs cat > ./Adblock/Cache/Build/1.txt
+find ./Adblock/Cache/Upstream -type f -name "*.txt" | xargs cat > ./Adblock/Cache/Build/upstream.txt
 # 删除注释行
-sed -e '/^#/d' ./Adblock/Cache/Build/1.txt > ./Adblock/Cache/Build/2.txt
+sed -e '/^#/d' ./Adblock/Cache/Build/upstream.txt > ./Adblock/Cache/Build/2.txt
 # 删除 include 行
 sed -e '/^include:/d' ./Adblock/Cache/Build/2.txt > ./Adblock/Cache/Build/3.txt
 # 删除 regexp 行
@@ -28,4 +28,4 @@ sort -u ./Adblock/Cache/Build/7.txt > ./Adblock/Cache/Build/8.txt
 } > ./Adblock/Adblock.rsc
 
 ### 清除缓存 ###
-rm -rf ./Adblock/Cache
+rm -rf ./Adblock/Cache/Upstream
