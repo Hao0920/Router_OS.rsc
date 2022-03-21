@@ -32,4 +32,4 @@ sort -u ./Adblock/Cache/Build/8.txt > ./Adblock/Cache/Build/9.txt
 } > ./Adblock/Adblock.rsc
 
 ### 清除缓存 ###
-rm -rf ./Adblock/Cache/Upstream
+rm -rf ./Adblock/Cache
