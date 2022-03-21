@@ -1,43 +1,43 @@
 #--小米视频-MIUI
-127.0.0.1 video.market.xiaomi.com
-127.0.0.1 t1.a.market.xiaomi.com
-127.0.0.1 t2.a.market.xiaomi.com
-127.0.0.1 t3.a.market.xiaomi.com
-127.0.0.1 t4.a.market.xiaomi.com
-127.0.0.1 t5.a.market.xiaomi.com
-127.0.0.1 t6.a.market.xiaomi.com
-127.0.0.1 nav.browser.miui.com
-127.0.0.1 security.browser.miui.com
-127.0.0.1 api.ad.xiaomi.com
-127.0.0.1 sdkconfig.ad.xiaomi.com
-127.0.0.1 m.track.ad.xiaomi.com
-127.0.0.1 t.track.ad.xiaomi.com
-127.0.0.1 irs01.com
-127.0.0.1 s.irs03.com
-127.0.0.1 s1.irs03.com
-127.0.0.1 397c0.admaster.com.cn
-127.0.0.1 clickc.admaster.com.cn
-127.0.0.1 v.admaster.com.cn
-127.0.0.1 ppvabs.pplive.com
-127.0.0.1 cdn.ad.xiaomi.com
-127.0.0.1 e.ad.xiaomi.com
-127.0.0.1 log.ad.xiaomi.com
-127.0.0.1 zeus.ad.xiaomi.com
-127.0.0.1 test.ad.xiaomi.com
-127.0.0.1 test.e.ad.xiaomi.com
-127.0.0.1 test.zeus.ad.xiaomi.com
-127.0.0.1 abtest.mistat.xiaomi.com
-127.0.0.1 api.tw06.xlmc.sec.miui.com
-127.0.0.1 adv.sec.miui.com
-127.0.0.1 vt.ipinyou.com
-127.0.0.1 diagnosis.ad.xiaomi.com
-127.0.0.1 msg.71.am
-127.0.0.1 msg.qy.net
-127.0.0.1 resolver.msg.xiaomi.net
-127.0.0.1 api.ts.feedback.71.am
-127.0.0.1 bj.imp.voiceads.cn
-127.0.0.1 o2o.api.xiaomi.com
-127.0.0.1 xiaomi.m.cn.miaozhen.com
-127.0.0.1 xiaomi-dtv.m.cn.miaozhen.com
-127.0.0.1 baiducdncmn3.inter.iqiyi.com
-127.0.0.1 nadvideo2.baidu.com
+video.market.xiaomi.com
+t1.a.market.xiaomi.com
+t2.a.market.xiaomi.com
+t3.a.market.xiaomi.com
+t4.a.market.xiaomi.com
+t5.a.market.xiaomi.com
+t6.a.market.xiaomi.com
+nav.browser.miui.com
+security.browser.miui.com
+api.ad.xiaomi.com
+sdkconfig.ad.xiaomi.com
+m.track.ad.xiaomi.com
+t.track.ad.xiaomi.com
+irs01.com
+s.irs03.com
+s1.irs03.com
+397c0.admaster.com.cn
+clickc.admaster.com.cn
+v.admaster.com.cn
+ppvabs.pplive.com
+cdn.ad.xiaomi.com
+e.ad.xiaomi.com
+log.ad.xiaomi.com
+zeus.ad.xiaomi.com
+test.ad.xiaomi.com
+test.e.ad.xiaomi.com
+test.zeus.ad.xiaomi.com
+abtest.mistat.xiaomi.com
+api.tw06.xlmc.sec.miui.com
+adv.sec.miui.com
+vt.ipinyou.com
+diagnosis.ad.xiaomi.com
+msg.71.am
+msg.qy.net
+resolver.msg.xiaomi.net
+api.ts.feedback.71.am
+bj.imp.voiceads.cn
+o2o.api.xiaomi.com
+xiaomi.m.cn.miaozhen.com
+xiaomi-dtv.m.cn.miaozhen.com
+baiducdncmn3.inter.iqiyi.com
+nadvideo2.baidu.com

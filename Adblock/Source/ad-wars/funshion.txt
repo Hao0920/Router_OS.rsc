@@ -1,29 +1,29 @@
 #--风行&酷喵-FunShion
-127.0.0.1 aa0.pub.funshion.com
-127.0.0.1 aa1.pub.funshion.com
-127.0.0.1 adm.funshion.com
-127.0.0.1 conf.funshion.com
-127.0.0.1 pub.funshion.com
-127.0.0.1 vs.funshion.com
-127.0.0.1 rt.funshion.net
-127.0.0.1 stat.funshion.net
-127.0.0.1 fun.adx.admaster.com.cn
-127.0.0.1 ykad-gateway.youku.com
-127.0.0.1 ykugc.cp31.ott.cibntv.net.302.myalicdn.com
-127.0.0.1 vali.cp31.ott.cibntv.net.302.myalicdn.com
-127.0.0.1 youku-dtv.m.cn.miaozhen.com
-127.0.0.1 m.atm.youku.com
-127.0.0.1 ipm.atm.youku.com
-127.0.0.1 orange-dc.youku.com
-127.0.0.1 youku-acs.m.taobao.com
-127.0.0.1 video-ad.sm.cn
-127.0.0.1 rest.irs01.com
-127.0.0.1 px.ucweb.com
-127.0.0.1 huichuan.sm.cn
-127.0.0.1 timeserver.cnzz.net
-127.0.0.1 val.atm.youku.com
-127.0.0.1 ykad-data.youku.com
-127.0.0.1 yk-ssp.ad.youku.com
-127.0.0.1 adashx.ut.youku.com
-127.0.0.1 adx-open-service.youku.com
-127.0.0.1 h-adashx.ut.youku.com
+aa0.pub.funshion.com
+aa1.pub.funshion.com
+adm.funshion.com
+conf.funshion.com
+pub.funshion.com
+vs.funshion.com
+rt.funshion.net
+stat.funshion.net
+fun.adx.admaster.com.cn
+ykad-gateway.youku.com
+ykugc.cp31.ott.cibntv.net.302.myalicdn.com
+vali.cp31.ott.cibntv.net.302.myalicdn.com
+youku-dtv.m.cn.miaozhen.com
+m.atm.youku.com
+ipm.atm.youku.com
+orange-dc.youku.com
+youku-acs.m.taobao.com
+video-ad.sm.cn
+rest.irs01.com
+px.ucweb.com
+huichuan.sm.cn
+timeserver.cnzz.net
+val.atm.youku.com
+ykad-data.youku.com
+yk-ssp.ad.youku.com
+adashx.ut.youku.com
+adx-open-service.youku.com
+h-adashx.ut.youku.com

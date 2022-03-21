@@ -1,11 +1,11 @@
 #--央视影音-CNTV
-127.0.0.1 cws-cctv.conviva.com
-127.0.0.1 galaxy.bjcathay.com
-127.0.0.1 rtas.videocc.net
-127.0.0.1 a.cntv.cn
-127.0.0.1 ad.cctv.com
-127.0.0.1 d.cntv.cn
-127.0.0.1 adguanggao.eee114.com
-127.0.0.1 cctv.adsunion.com
-127.0.0.1 adstore-1252524079.file.myqcloud.com
-127.0.0.1 adstore-index-1252524079.file.myqcloud.com
+cws-cctv.conviva.com
+galaxy.bjcathay.com
+rtas.videocc.net
+a.cntv.cn
+ad.cctv.com
+d.cntv.cn
+adguanggao.eee114.com
+cctv.adsunion.com
+adstore-1252524079.file.myqcloud.com
+adstore-index-1252524079.file.myqcloud.com

@@ -1,48 +1,48 @@
 #--爱奇艺-Qiyi
-127.0.0.1 api.cupid.iqiyi.com
-127.0.0.1 api.yuedu.iqiyi.com
-127.0.0.1 c.uaa.iqiyi.com
-127.0.0.1 cloudpush.iqiyi.com
-127.0.0.1 cm.passport.iqiyi.com
-127.0.0.1 gamecenter.iqiyi.com
-127.0.0.1 ifacelog.iqiyi.com
-127.0.0.1 mbdlog.iqiyi.com
-127.0.0.1 msg.iqiyi.com
-127.0.0.1 msga.cupid.iqiyi.com
-127.0.0.1 nl.notice.iqiyi.com
-127.0.0.1 notice.iqiyi.com
-127.0.0.1 policy.video.iqiyi.com
-127.0.0.1 static.g.iqiyi.com
-127.0.0.1 store.iqiyi.com
-127.0.0.1 nl.rcd.iqiyi.com
-127.0.0.1 emoticon.sns.iqiyi.com
-127.0.0.1 hotchat-im.iqiyi.com
-127.0.0.1 tracker.sns.iqiyi.com
-127.0.0.1 paopao.iqiyi.com
-127.0.0.1 paopao-monitor.iqiyi.com
-127.0.0.1 paopao0.qiyipic.com
-127.0.0.1 paopao1.qiyipic.com
-127.0.0.1 paopao2.qiyipic.com
-127.0.0.1 paopao3.qiyipic.com
-127.0.0.1 count.game.pps.tv
-127.0.0.1 game.pps.tv
-127.0.0.1 static.g.ppstream.com
-127.0.0.1 qosp.msg.71.am
-127.0.0.1 msga.71.am
-127.0.0.1 androidgo.duapp.com
-127.0.0.1 noxagile.duapp.com
-127.0.0.1 api.cupid.qiyi.com
-127.0.0.1 msg.video.qiyi.com
-127.0.0.1 msg2.video.qiyi.com
-127.0.0.1 t7z.cupid.ptqy.gitv.tv
-127.0.0.1 g.dtv.cn.miaozhen.com
-127.0.0.1 baiducdncmn.inter.iqiyi.com
-127.0.0.1 msgv6.qy.net
-127.0.0.1 api.ts.feedback.qy.net
-127.0.0.1 puma.api.iqiyi.com
-127.0.0.1 puma-api.iqiyi.com
-127.0.0.1 rd596n.jomodns.com
-127.0.0.1 baiducdncmn-gd.inter.iqiyi.com
-127.0.0.1 bdcdncmn-gd.inter.71edge.com
-127.0.0.1 mixer.cupid.ptqy.gitv.tv
-127.0.0.1 msg.ptqy.gitv.tv
+api.cupid.iqiyi.com
+api.yuedu.iqiyi.com
+c.uaa.iqiyi.com
+cloudpush.iqiyi.com
+cm.passport.iqiyi.com
+gamecenter.iqiyi.com
+ifacelog.iqiyi.com
+mbdlog.iqiyi.com
+msg.iqiyi.com
+msga.cupid.iqiyi.com
+nl.notice.iqiyi.com
+notice.iqiyi.com
+policy.video.iqiyi.com
+static.g.iqiyi.com
+store.iqiyi.com
+nl.rcd.iqiyi.com
+emoticon.sns.iqiyi.com
+hotchat-im.iqiyi.com
+tracker.sns.iqiyi.com
+paopao.iqiyi.com
+paopao-monitor.iqiyi.com
+paopao0.qiyipic.com
+paopao1.qiyipic.com
+paopao2.qiyipic.com
+paopao3.qiyipic.com
+count.game.pps.tv
+game.pps.tv
+static.g.ppstream.com
+qosp.msg.71.am
+msga.71.am
+androidgo.duapp.com
+noxagile.duapp.com
+api.cupid.qiyi.com
+msg.video.qiyi.com
+msg2.video.qiyi.com
+t7z.cupid.ptqy.gitv.tv
+g.dtv.cn.miaozhen.com
+baiducdncmn.inter.iqiyi.com
+msgv6.qy.net
+api.ts.feedback.qy.net
+puma.api.iqiyi.com
+puma-api.iqiyi.com
+rd596n.jomodns.com
+baiducdncmn-gd.inter.iqiyi.com
+bdcdncmn-gd.inter.71edge.com
+mixer.cupid.ptqy.gitv.tv
+msg.ptqy.gitv.tv

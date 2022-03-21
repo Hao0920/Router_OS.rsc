@@ -1,78 +1,78 @@
 #pkg=qq.com;腾讯广告服务
-127.0.0.1 ad.qun.qq.com
-127.0.0.1 adping.qq.com
-127.0.0.1 adpm.app.qq.com
-127.0.0.1 adrdir.qq.com
-127.0.0.1 adsfile.qq.com
-127.0.0.1 adsgroup.qq.com
-127.0.0.1 adshmct.qq.com
-127.0.0.1 adshmmsg.qq.com
-127.0.0.1 adslvfile.qq.com
-127.0.0.1 adslvseed.qq.com
-127.0.0.1 adstextview.qq.com
-127.0.0.1 adsview.qq.com
-127.0.0.1 adsview2.qq.com
-127.0.0.1 adv.app.qq.com
-127.0.0.1 adver.qq.com
-127.0.0.1 adfilter.imtt.qq.com
-127.0.0.1 adping.qq.com
-127.0.0.1 adpm.app.qq.com
-127.0.0.1 ad.qq.com
-127.0.0.1 adsense.html5.qq.com
-127.0.0.1 adsfile.qq.com
-127.0.0.1 adsgroup.qq.com
-127.0.0.1 adshmct.qq.com
-127.0.0.1 adshmmsg.qq.com
-127.0.0.1 adslvfile.qq.com
-127.0.0.1 adslvseed.qq.com
-127.0.0.1 adsolution.imtt.qq.com
-127.0.0.1 adsrich.qq.com
-127.0.0.1 adstextview.qq.com
-127.0.0.1 adsview2.qq.com
-127.0.0.1 adsview.qq.com
-127.0.0.1 adv.app.qq.com
-127.0.0.1 adver.qq.com
-127.0.0.1 d3g.qq.com
-127.0.0.1 jqmt.qq.com
-127.0.0.1 jsqmt.qq.com
-127.0.0.1 ta.qq.com
-127.0.0.1 p.tencentmind.com
-127.0.0.1 e.qq.com
-127.0.0.1 cm.e.qq.com
-127.0.0.1 sdk.e.qq.com
-127.0.0.1 p.l.qq.com
-127.0.0.1 dp3.qq.com
-127.0.0.1 us.l.qq.com
-127.0.0.1 android.rqd.qq.com
-127.0.0.1 android.bugly.qq.com
-127.0.0.1 api.poll.aiseet.atianqi.com
-127.0.0.1 btrace.qq.com
-127.0.0.1 otheve.beacon.qq.com
-127.0.0.1 log.tbs.qq.com
-127.0.0.1 tools.3g.qq.com
-127.0.0.1 oth.str.mdt.qq.com
-127.0.0.1 oth.eve.mdt.qq.com
-127.0.0.1 mtrace.qq.com
-127.0.0.1 misc.wcd.qq.com
-127.0.0.1 raddus.bayescom.com
-127.0.0.1 mtt.eve.mdt.qq.com
-127.0.0.1 push.pgl.qq.com
-127.0.0.1 rmpad.imtt.qq.com
-127.0.0.1 dp3.qq.com
-127.0.0.1 tangram.e.qq.com
-127.0.0.1 mig.str.mdt.qq.com
-127.0.0.1 pms.mb.qq.com
-127.0.0.1 adsmind.apdcdn.tc.qq.com
-127.0.0.1 p.store.qq.com
-127.0.0.1 masdk.3g.qq.com
-127.0.0.1 ten.sngapm.qq.com
-127.0.0.1 ads.privacy.qq.com
-127.0.0.1 tdid.m.qq.com
-127.0.0.1 h.trace.qq.com
-127.0.0.1 mtt.str.mdt.qq.com
-127.0.0.1 tmeadcomm.y.qq.com
-127.0.0.1 qzs.gdtimg.com
-127.0.0.1 public.gdtimg.com
-127.0.0.1 cmshow.gtimg.cn
-127.0.0.1 qappcenterv6.3g.qq.com
-127.0.0.1 aeventlog.beacon.qq.com
+ad.qun.qq.com
+adping.qq.com
+adpm.app.qq.com
+adrdir.qq.com
+adsfile.qq.com
+adsgroup.qq.com
+adshmct.qq.com
+adshmmsg.qq.com
+adslvfile.qq.com
+adslvseed.qq.com
+adstextview.qq.com
+adsview.qq.com
+adsview2.qq.com
+adv.app.qq.com
+adver.qq.com
+adfilter.imtt.qq.com
+adping.qq.com
+adpm.app.qq.com
+ad.qq.com
+adsense.html5.qq.com
+adsfile.qq.com
+adsgroup.qq.com
+adshmct.qq.com
+adshmmsg.qq.com
+adslvfile.qq.com
+adslvseed.qq.com
+adsolution.imtt.qq.com
+adsrich.qq.com
+adstextview.qq.com
+adsview2.qq.com
+adsview.qq.com
+adv.app.qq.com
+adver.qq.com
+d3g.qq.com
+jqmt.qq.com
+jsqmt.qq.com
+ta.qq.com
+p.tencentmind.com
+e.qq.com
+cm.e.qq.com
+sdk.e.qq.com
+p.l.qq.com
+dp3.qq.com
+us.l.qq.com
+android.rqd.qq.com
+android.bugly.qq.com
+api.poll.aiseet.atianqi.com
+btrace.qq.com
+otheve.beacon.qq.com
+log.tbs.qq.com
+tools.3g.qq.com
+oth.str.mdt.qq.com
+oth.eve.mdt.qq.com
+mtrace.qq.com
+misc.wcd.qq.com
+raddus.bayescom.com
+mtt.eve.mdt.qq.com
+push.pgl.qq.com
+rmpad.imtt.qq.com
+dp3.qq.com
+tangram.e.qq.com
+mig.str.mdt.qq.com
+pms.mb.qq.com
+adsmind.apdcdn.tc.qq.com
+p.store.qq.com
+masdk.3g.qq.com
+ten.sngapm.qq.com
+ads.privacy.qq.com
+tdid.m.qq.com
+h.trace.qq.com
+mtt.str.mdt.qq.com
+tmeadcomm.y.qq.com
+qzs.gdtimg.com
+public.gdtimg.com
+cmshow.gtimg.cn
+qappcenterv6.3g.qq.com
+aeventlog.beacon.qq.com

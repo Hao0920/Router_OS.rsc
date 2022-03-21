@@ -1,37 +1,37 @@
 #pkg=alibaba.com;阿里广告服务
-127.0.0.1 adash.man.aliyuncs.com
-127.0.0.1 cdn-ads.oss-cn-shanghai.aliyuncs.com
-127.0.0.1 ynuf.aliapp.org
-127.0.0.1 unidesk.alicdn.com
-127.0.0.1 nbsdk-baichuan.alicdn.com
-127.0.0.1 baichuan-sdk.alicdn.com
-127.0.0.1 ilce.alicdn.com
-127.0.0.1 abtest.alibaba.com
-127.0.0.1 proxy-mob-cld.alicdn.com
-127.0.0.1 www.uyunad.com
-127.0.0.1 ali-ad.a.yximgs.com
-127.0.0.1 adashbc.m.taobao.com
-127.0.0.1 adashbc.ut.taobao.com
-127.0.0.1 adashxgc.ut.taobao.com
-127.0.0.1 adashx.m.taobao.com
-127.0.0.1 c-adash.m.taobao.com
-127.0.0.1 m-adash.m.taobao.com
-127.0.0.1 adashbc.m.taobao.com
-127.0.0.1 adash.m.taobao.com
-127.0.0.1 h-adashx.ut.taobao.com
-127.0.0.1 tunion-api.m.taobao.com
-127.0.0.1 acs4baichuan.m.taobao.com
-127.0.0.1 amdc.m.taobao.com
-127.0.0.1 amdcopen.m.taobao.com
-127.0.0.1 eco.taobao.com
-127.0.0.1 umengacs.m.taobao.com
-127.0.0.1 umengjmacs.m.taobao.com
-127.0.0.1 openjmacs.m.taobao.com
-127.0.0.1 dsp.simba.taobao.com
-127.0.0.1 sjarvis.taobao.com
-127.0.0.1 audid-api.taobao.com
-127.0.0.1 adashx4yt.m.taobao.com
-127.0.0.1 h-adashx4yt.ut.taobao.com
-127.0.0.1 umdc.aliapp.org
-127.0.0.1 gaode-acs.m.taobao.com
-127.0.0.1 gaode-jmacs.m.taobao.com
+adash.man.aliyuncs.com
+cdn-ads.oss-cn-shanghai.aliyuncs.com
+ynuf.aliapp.org
+unidesk.alicdn.com
+nbsdk-baichuan.alicdn.com
+baichuan-sdk.alicdn.com
+ilce.alicdn.com
+abtest.alibaba.com
+proxy-mob-cld.alicdn.com
+www.uyunad.com
+ali-ad.a.yximgs.com
+adashbc.m.taobao.com
+adashbc.ut.taobao.com
+adashxgc.ut.taobao.com
+adashx.m.taobao.com
+c-adash.m.taobao.com
+m-adash.m.taobao.com
+adashbc.m.taobao.com
+adash.m.taobao.com
+h-adashx.ut.taobao.com
+tunion-api.m.taobao.com
+acs4baichuan.m.taobao.com
+amdc.m.taobao.com
+amdcopen.m.taobao.com
+eco.taobao.com
+umengacs.m.taobao.com
+umengjmacs.m.taobao.com
+openjmacs.m.taobao.com
+dsp.simba.taobao.com
+sjarvis.taobao.com
+audid-api.taobao.com
+adashx4yt.m.taobao.com
+h-adashx4yt.ut.taobao.com
+umdc.aliapp.org
+gaode-acs.m.taobao.com
+gaode-jmacs.m.taobao.com

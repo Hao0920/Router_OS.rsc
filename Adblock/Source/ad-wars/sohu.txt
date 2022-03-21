@@ -1,27 +1,27 @@
 #--搜狐视频-Sohu
-127.0.0.1 sohu-dtv.m.cn.miaozhen.com
-127.0.0.1 agn.aty.snmsohu.aisee.tv
-127.0.0.1 agn.aty.sohu.com
-127.0.0.1 f.aty.sohu.com
-127.0.0.1 m.aty.sohu.com
-127.0.0.1 fmg.aty.sohu.com
-127.0.0.1 mmg.aty.sohu.com
-127.0.0.1 p.aty.sohu.com
-127.0.0.1 pg.aty.sohu.com
-127.0.0.1 pm.aty.sohu.com
-127.0.0.1 v.aty.sohu.com
-127.0.0.1 vg.aty.sohu.com
-127.0.0.1 vm.aty.sohu.com
-127.0.0.1 da.mmarket.com
-127.0.0.1 click.hd.sohu.com.cn
-127.0.0.1 click2.hd.sohu.com
-127.0.0.1 count.vrs.sohu.com
-127.0.0.1 ctr.hd.sohu.com
-127.0.0.1 pb.hd.sohu.com.cn
-127.0.0.1 pv.hd.sohu.com
-127.0.0.1 vstat.my.tv.sohu.com
-127.0.0.1 vstat.v.blog.sohu.com
-127.0.0.1 wl.hd.sohu.com
-127.0.0.1 download.wan.sohu.com
-127.0.0.1 g.jssdk.net
-127.0.0.1 changyan.sohu.com
+sohu-dtv.m.cn.miaozhen.com
+agn.aty.snmsohu.aisee.tv
+agn.aty.sohu.com
+f.aty.sohu.com
+m.aty.sohu.com
+fmg.aty.sohu.com
+mmg.aty.sohu.com
+p.aty.sohu.com
+pg.aty.sohu.com
+pm.aty.sohu.com
+v.aty.sohu.com
+vg.aty.sohu.com
+vm.aty.sohu.com
+da.mmarket.com
+click.hd.sohu.com.cn
+click2.hd.sohu.com
+count.vrs.sohu.com
+ctr.hd.sohu.com
+pb.hd.sohu.com.cn
+pv.hd.sohu.com
+vstat.my.tv.sohu.com
+vstat.v.blog.sohu.com
+wl.hd.sohu.com
+download.wan.sohu.com
+g.jssdk.net
+changyan.sohu.com
