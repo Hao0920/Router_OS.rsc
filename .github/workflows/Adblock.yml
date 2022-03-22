@@ -1,4 +1,4 @@
-name: Build Adblock.rsc
+name: Adblock.rsc
 on:
   schedule:
     - cron: "* 18 * * *"
