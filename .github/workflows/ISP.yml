@@ -1,4 +1,4 @@
-name: Build ISP.rsc
+name: ISP.rsc
 on:
   schedule:
     - cron: "* 18 * * *"
