@@ -1,4 +1,4 @@
-name: Scanners.rsc
+name: Build Scanners.rsc
 on:
   schedule:
     - cron: "* 18 * * *"
