@@ -15,6 +15,3 @@ for address in $(cat ./Adblock/Cache/Build/Upstream-3.txt) ; do
 done
 echo "/file remove scanners.rsc"
 } > ./Scanners/Scanners.rsc
-
-### 清除缓存 ###
-#rm -rf ./Scanners/Cache/Build/
