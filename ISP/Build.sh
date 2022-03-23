@@ -54,6 +54,7 @@ done
 for address in $(cat ./ISP/Cache/othernet.txt) ; do
   echo "add list=othernet address=$address"
 done
+echo "/file remove ISP.rsc"
 } > ./ISP/ISP.rsc
 # VPN借线
 {
@@ -62,6 +63,7 @@ echo "remove [find list="china"]"
 for address in $(cat ./ISP/Cache/all_cn.txt) ; do
   echo "add list=china address=$address"
 done
+echo "/file remove china.rsc"
 } > ./ISP/china.rsc
 # 电信 + 联通 + 移动
 {
@@ -90,6 +92,7 @@ done
 for address in $(cat ./ISP/Cache/othernet.txt) ; do
   echo "add list=china_telecom address=$address"
 done
+echo "/file remove china_telecom-unicom-mobile.rsc"
 } > ./ISP/china_telecom-unicom-mobile.rsc
 # 联通 + 移动 + 电信
 {
@@ -118,6 +121,7 @@ done
 for address in $(cat ./ISP/Cache/othernet.txt) ; do
   echo "add list=china_unicom address=$address"
 done
+echo "/file remove china_unicom-mobile-telecom.rsc"
 } > ./ISP/china_unicom-mobile-telecom.rsc
 # 移动 + 电信 + 联通
 {
@@ -146,6 +150,7 @@ done
 for address in $(cat ./ISP/Cache/othernet.txt) ; do
   echo "add list=china_mobile address=$address"
 done
+echo "/file remove china_mobile-telecom-unicom.rsc"
 } > ./ISP/china_mobile-telecom-unicom.rsc
 # 电信 + 联通
 {
@@ -173,6 +178,7 @@ done
 for address in $(cat ./ISP/Cache/othernet.txt) ; do
   echo "add list=china_telecom address=$address"
 done
+echo "/file remove china_telecom-unicom.rsc"
 } > ./ISP/china_telecom-unicom.rsc
 # 电信 + 移动
 {
@@ -200,6 +206,7 @@ done
 for address in $(cat ./ISP/Cache/othernet.txt) ; do
   echo "add list=china_telecom address=$address"
 done
+echo "/file remove china_telecom-mobile.rsc"
 } > ./ISP/china_telecom-mobile.rsc
 # 联通 + 电信
 {
@@ -227,6 +234,7 @@ done
 for address in $(cat ./ISP/Cache/othernet.txt) ; do
   echo "add list=china_unicom address=$address"
 done
+echo "/file remove china_unicom-telecom.rsc"
 } > ./ISP/china_unicom-telecom.rsc
 # 联通 + 移动
 {
@@ -254,6 +262,7 @@ done
 for address in $(cat ./ISP/Cache/othernet.txt) ; do
   echo "add list=china_unicom address=$address"
 done
+echo "/file remove china_unicom-mobile.rsc"
 } > ./ISP/china_unicom-mobile.rsc
 # 移动 + 电信
 {
@@ -281,6 +290,7 @@ done
 for address in $(cat ./ISP/Cache/othernet.txt) ; do
   echo "add list=china_mobile address=$address"
 done
+echo "/file remove china_mobile-telecom.rsc"
 } > ./ISP/china_mobile-telecom.rsc
 # 移动 + 联通
 {
@@ -308,6 +318,7 @@ done
 for address in $(cat ./ISP/Cache/othernet.txt) ; do
   echo "add list=china_mobile address=$address"
 done
+echo "/file remove china_mobile-unicom.rsc"
 } > ./ISP/china_mobile-unicom.rsc
 
 ### 清除缓存 ###

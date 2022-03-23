@@ -24,11 +24,12 @@ sort -u ./Adblock/Cache/Build/8.txt > ./Adblock/Cache/Build/9.txt
 
 ### 构建 ###
 {
-  echo "/ip dns static"
-  echo "remove [find address=240.0.0.1]"
-  for name in $(cat ./Adblock/Cache/Build/9.txt) ; do
-    echo "add address=240.0.0.1 name=$name"
-  done
+echo "/ip dns static"
+echo "remove [find address=240.0.0.1]"
+for name in $(cat ./Adblock/Cache/Build/9.txt) ; do
+  echo "add address=240.0.0.1 name=$name"
+done
+echo "/file remove Adblock.rsc"
 } > ./Adblock/Adblock.rsc
 
 ### 清除缓存 ###
