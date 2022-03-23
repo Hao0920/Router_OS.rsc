@@ -7297,6 +7297,8 @@ add list=scanners address=223.246.145.109
 add list=scanners address=223.247.138.63
 add list=scanners address=223.247.138.64
 add list=scanners address=223.254.0.0/16
+add list=scanners address=38.64
+add list=scanners address=223.254.0.0/16
 add list=scanners address=1.9.175.185
 add list=scanners address=1.24.229.210
 add list=scanners address=1.52.160.220
