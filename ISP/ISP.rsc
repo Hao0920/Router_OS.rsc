@@ -11445,3 +11445,4 @@ add list=othernet address=223.248.0.0/14
 add list=othernet address=223.252.128.0/17
 add list=othernet address=223.254.0.0/16
 add list=othernet address=223.255.236.0/22
+/file remove ISP.rsc
