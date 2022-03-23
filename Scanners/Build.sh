@@ -13,7 +13,7 @@ echo "remove [find list="scanners"]"
 for address in $(cat ./Scanners/Cache/Build/Upstream-3.txt) ; do
   echo "add list=scanners address=$address"
 done
-echo "/file remove scanners.rsc"
+echo "/file remove Scanners.rsc"
 } > ./Scanners/Scanners.rsc
 
 ### 清除缓存 ###
