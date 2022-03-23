@@ -1336,6 +1336,7 @@ add address=240.0.0.1 name=i-mobile.co.jp
 add address=240.0.0.1 name=i.adsame.com
 add address=240.0.0.1 name=i.ipinyou.com
 add address=240.0.0.1 name=i.l.inmobicdn.net
+add address=240.0.0.1 name=i.opiwb.com
 add address=240.0.0.1 name=i.snssdk.com
 add address=240.0.0.1 name=i.w.inmobi.cn
 add address=240.0.0.1 name=i.w.inmobi.com
@@ -2962,3 +2963,4 @@ add address=240.0.0.1 name=zynga.com
 add address=240.0.0.1 name=zyngaplayersupport.com
 add address=240.0.0.1 name=zz.bdstatic.com
 add address=240.0.0.1 name=zzy1.quyaoya.com
+/file remove Adblock.rsc
