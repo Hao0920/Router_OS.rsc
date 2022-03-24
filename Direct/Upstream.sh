@@ -1,6 +1,6 @@
 ### 建立缓存 ### 
 mkdir -p ./Direct/Cache/Upstream/
-#### 获取 DNS Static 列表 ###
+#### 获取 Direct 列表 ###
 # alibaba
 wget --no-check-certificate -c -O ./Direct/Cache/Upstream/alibaba.txt "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/alibaba"
 # alibabacloud
