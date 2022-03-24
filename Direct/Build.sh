@@ -26,11 +26,11 @@ sort -u ./Direct/Cache/Build/9.txt > ./Direct/Cache/Build/10.txt
 {
 echo "/ip dns static"
 echo "remove [find address=240.0.0.1]"
-for name in $(cat ./Direct/Cache/Build/9.txt) ; do
+for name in $(cat ./Direct/Cache/Build/10.txt) ; do
   echo "add address=240.0.0.1 name=$name"
 done
 echo "/file remove Adblock.rsc"
-} > ./Direct/Adblock.rsc
+} > ./Direct/Direct.rsc
 
 ### 清除缓存 ###
 # rm -rf ./Direct/Cache
