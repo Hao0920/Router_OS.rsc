@@ -10,7 +10,7 @@ sed -e '/^include:/d' ./Direct/Cache/Build/2.txt > ./Direct/Cache/Build/3.txt
 # 删除 regexp 行
 sed -e '/^regexp:/d' ./Direct/Cache/Build/3.txt > ./Direct/Cache/Build/4.txt
 # 找出 @ads 行
-sed '/ @ads//' ./Direct/Cache/Build/4.txt > ./Direct/Cache/Build/5.txt
+sed '/ @ads' ./Direct/Cache/Build/4.txt > ./Direct/Cache/Build/5.txt
 # 删除 @ads
 sed -e 's/ @ads//' ./Direct/Cache/Build/5.txt > ./Direct/Cache/Build/6.txt
 # 删除 full:
