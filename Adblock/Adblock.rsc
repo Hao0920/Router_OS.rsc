@@ -132,6 +132,7 @@ add address=240.0.0.1 name=agoodm.m.taobao.com
 add address=240.0.0.1 name=agoodm.wapa.taobao.com
 add address=240.0.0.1 name=aiq36.g1kb9u.xyz
 add address=240.0.0.1 name=aksdjfksl.kuaiyunbd.com
+add address=240.0.0.1 name=aksdkfj.biexsite.net
 add address=240.0.0.1 name=alicc.txsadql.cn
 add address=240.0.0.1 name=alipaylog.com
 add address=240.0.0.1 name=alitui.weibo.com
@@ -270,6 +271,7 @@ add address=240.0.0.1 name=c.lxtvb.cn
 add address=240.0.0.1 name=c.m06nev.com
 add address=240.0.0.1 name=c.mageti.cn
 add address=240.0.0.1 name=c.mhtuucr.cn
+add address=240.0.0.1 name=c.mk6n4ym.cn
 add address=240.0.0.1 name=c.mywild.cn
 add address=240.0.0.1 name=c.njcengpianwang.cn
 add address=240.0.0.1 name=c.orizwud.cn
@@ -783,6 +785,7 @@ add address=240.0.0.1 name=m.guvdfs.cn
 add address=240.0.0.1 name=m.gz-bz.cn
 add address=240.0.0.1 name=m.gzrljx.cn
 add address=240.0.0.1 name=m.gzxiuyuan.cn
+add address=240.0.0.1 name=m.haoweb.top
 add address=240.0.0.1 name=m.hdyoubang.cn
 add address=240.0.0.1 name=m.heavenwil.top
 add address=240.0.0.1 name=m.hehongmei.top
@@ -905,6 +908,7 @@ add address=240.0.0.1 name=mic.xiangyuym.cn
 add address=240.0.0.1 name=mic.xiaogouzhuanqian.cn
 add address=240.0.0.1 name=microad.co.jp
 add address=240.0.0.1 name=microad.jp
+add address=240.0.0.1 name=mil.haodong.site
 add address=240.0.0.1 name=mil.rfjckj.cn
 add address=240.0.0.1 name=minisite.letv.com
 add address=240.0.0.1 name=misc.in.duokanbox.com
@@ -1067,6 +1071,7 @@ add address=240.0.0.1 name=pwn9v.chenmujiang.com.cn
 add address=240.0.0.1 name=px.cbctp.top
 add address=240.0.0.1 name=px.czxym168.cn
 add address=240.0.0.1 name=px.nloader.xyz
+add address=240.0.0.1 name=px.xiaomifood.cn
 add address=240.0.0.1 name=pyfdlz.zdzy.shop
 add address=240.0.0.1 name=q.ki47.com
 add address=240.0.0.1 name=qeujmo.wap.xsbiquge.com
@@ -1133,6 +1138,7 @@ add address=240.0.0.1 name=sc.fengjiangqwe.xyz
 add address=240.0.0.1 name=sc.haape.club
 add address=240.0.0.1 name=sc.newdata.vip
 add address=240.0.0.1 name=sc.pdss.xyz
+add address=240.0.0.1 name=sc.vipytyl.ltd
 add address=240.0.0.1 name=sclick.baidu.com
 add address=240.0.0.1 name=scr1.xianxhwy.com
 add address=240.0.0.1 name=scripts.cy-wz.com
@@ -1335,6 +1341,7 @@ add address=240.0.0.1 name=v.lxtvb.cn
 add address=240.0.0.1 name=v.m06nev.com
 add address=240.0.0.1 name=v.mageti.cn
 add address=240.0.0.1 name=v.mhtuucr.cn
+add address=240.0.0.1 name=v.mk6n4ym.cn
 add address=240.0.0.1 name=v.mugogfy.cn
 add address=240.0.0.1 name=v.mywild.cn
 add address=240.0.0.1 name=v.njcengpianwang.cn
@@ -1421,6 +1428,7 @@ add address=240.0.0.1 name=wn.pos.baidu.com
 add address=240.0.0.1 name=woocall.sina.com.cn
 add address=240.0.0.1 name=wrdbhnwaieud.m.zwdu.com
 add address=240.0.0.1 name=wsk.segumy.com
+add address=240.0.0.1 name=wuyshui1.xyz
 add address=240.0.0.1 name=www.20202020zzzzzz.one
 add address=240.0.0.1 name=www.88888888888888886666666666666.com
 add address=240.0.0.1 name=www.8ucdn.com
@@ -1516,6 +1524,7 @@ add address=240.0.0.1 name=ysm.yahoo.com
 add address=240.0.0.1 name=yuedu.iqiyi.com
 add address=240.0.0.1 name=z.gds.cnzz.com
 add address=240.0.0.1 name=zc.biz.weibo.com
+add address=240.0.0.1 name=zgxuw.lihong.ltd
 add address=240.0.0.1 name=znsv.baidu.com
 add address=240.0.0.1 name=zone.23uuw3.com
 add address=240.0.0.1 name=zymo.mps.weibo.com
