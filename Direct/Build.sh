@@ -9,10 +9,10 @@ sed -e '/^#/d' ./Direct/Cache/Build/upstream.txt > ./Direct/Cache/Build/2.txt
 sed -e '/^include:/d' ./Direct/Cache/Build/2.txt > ./Direct/Cache/Build/3.txt
 # 删除 regexp 行
 sed -e '/^regexp:/d' ./Direct/Cache/Build/3.txt > ./Direct/Cache/Build/4.txt
-# 找出 @ads 行
-sed '/ @ads' ./Direct/Cache/Build/4.txt > ./Direct/Cache/Build/5.txt
-# 删除 @ads
-sed -e 's/ @ads//' ./Direct/Cache/Build/5.txt > ./Direct/Cache/Build/6.txt
+# 找出  @cn行
+sed -n' @cn' ./Direct/Cache/Build/4.txt > ./Direct/Cache/Build/5.txt
+# 删除  @cn
+sed -e 's/ @cn//' ./Direct/Cache/Build/5.txt > ./Direct/Cache/Build/6.txt
 # 删除 full:
 sed -e 's/full://' ./Direct/Cache/Build/6.txt > ./Direct/Cache/Build/7.txt
 # 删除 0.0.0.0
