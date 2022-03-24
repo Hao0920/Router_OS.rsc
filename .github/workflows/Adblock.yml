@@ -16,8 +16,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Build Adblock Address
         run:  |
-          chmod +x ./Adblock/Source.sh
-          ./Adblock/Source.sh
           chmod +x ./Adblock/Upstream.sh
           ./Adblock/Upstream.sh
           chmod +x ./Adblock/Build.sh
