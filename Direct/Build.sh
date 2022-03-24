@@ -4,13 +4,13 @@ mkdir -p ./Direct/Cache/Build/
 ### 整理 ###
 find ./Direct/Cache/Upstream -type f -name "*.txt" | xargs cat > ./Direct/Cache/Build/upstream.txt
 # 删除注释行
-sed -e '/^#/d' ./Direct/Cache/Build/adblock.txt > ./Direct/Cache/Build/2.txt
+sed -e '/^#/d' ./Direct/Cache/Build/upstream.txt > ./Direct/Cache/Build/2.txt
 # 删除 include 行
 sed -e '/^include:/d' ./Direct/Cache/Build/2.txt > ./Direct/Cache/Build/3.txt
 # 删除 regexp 行
 sed -e '/^regexp:/d' ./Direct/Cache/Build/3.txt > ./Direct/Cache/Build/4.txt
 # 找出 @ads 行
-sed -n '/ @ads//' ./Direct/Cache/Build/4.txt > ./Direct/Cache/Build/5.txt
+sed '/ @ads//' ./Direct/Cache/Build/4.txt > ./Direct/Cache/Build/5.txt
 # 删除 @ads
 sed -e 's/ @ads//' ./Direct/Cache/Build/5.txt > ./Direct/Cache/Build/6.txt
 # 删除 full:
@@ -29,7 +29,7 @@ echo "remove [find address=240.0.0.1]"
 for name in $(cat ./Direct/Cache/Build/10.txt) ; do
   echo "add address=240.0.0.1 name=$name"
 done
-echo "/file remove Adblock.rsc"
+echo "/file remove Direct.rsc"
 } > ./Direct/Direct.rsc
 
 ### 清除缓存 ###
