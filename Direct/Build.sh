@@ -9,16 +9,18 @@ sed -e '/^#/d' ./Direct/Cache/Build/adblock.txt > ./Direct/Cache/Build/2.txt
 sed -e '/^include:/d' ./Direct/Cache/Build/2.txt > ./Direct/Cache/Build/3.txt
 # 删除 regexp 行
 sed -e '/^regexp:/d' ./Direct/Cache/Build/3.txt > ./Direct/Cache/Build/4.txt
+# 找出 @ads 行
+sed -n '/ @ads//' ./Direct/Cache/Build/4.txt > ./Direct/Cache/Build/5.txt
 # 删除 @ads
-sed -e 's/ @ads//' ./Direct/Cache/Build/4.txt > ./Direct/Cache/Build/5.txt
+sed -e 's/ @ads//' ./Direct/Cache/Build/5.txt > ./Direct/Cache/Build/6.txt
 # 删除 full:
-sed -e 's/full://' ./Direct/Cache/Build/5.txt > ./Direct/Cache/Build/6.txt
+sed -e 's/full://' ./Direct/Cache/Build/6.txt > ./Direct/Cache/Build/7.txt
 # 删除 0.0.0.0
-sed -e 's/0.0.0.0 //' ./Direct/Cache/Build/6.txt > ./Direct/Cache/Build/7.txt
+sed -e 's/0.0.0.0 //' ./Direct/Cache/Build/7.txt > ./Direct/Cache/Build/8.txt
 # 删除空格行
-sed -e '/^$/d' ./Direct/Cache/Build/7.txt > ./Direct/Cache/Build/8.txt
+sed -e '/^$/d' ./Direct/Cache/Build/8.txt > ./Direct/Cache/Build/9.txt
 # 去重
-sort -u ./Direct/Cache/Build/8.txt > ./Direct/Cache/Build/9.txt
+sort -u ./Direct/Cache/Build/9.txt > ./Direct/Cache/Build/10.txt
 
 ### 构建 ###
 {
