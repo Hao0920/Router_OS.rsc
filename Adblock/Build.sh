@@ -13,6 +13,8 @@ sed -e '/^include:/d' ./Adblock/Cache/Build/adblock-2.txt > ./Adblock/Cache/Buil
 sed -e '/^regexp:/d' ./Adblock/Cache/Build/adblock-3.txt > ./Adblock/Cache/Build/adblock-4.txt
 # 删除 @ads
 sed -e 's/ @ads//' ./Adblock/Cache/Build/adblock-4.txt > ./Adblock/Cache/Build/adblock-5.txt
+# 删除 :@ads
+sed -e 's/:@ads//' ./Adblock/Cache/Build/adblock-4.txt > ./Adblock/Cache/Build/adblock-5.txt
 # 删除 full:
 sed -e 's/full://' ./Adblock/Cache/Build/adblock-5.txt > ./Adblock/Cache/Build/adblock-6.txt
 # 删除 domain:
