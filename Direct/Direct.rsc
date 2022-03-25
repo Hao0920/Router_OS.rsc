@@ -1,4 +1,4 @@
-/ip firewall layer7-protocol
+/ip firewall address-list
 remove [find name=direct]
 add list=direct address=00cdn.com
 add list=direct address=0123456789.com
