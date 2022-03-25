@@ -14,17 +14,17 @@ sed -e '/^regexp:/d' ./Adblock/Cache/Build/adblock-3.txt > ./Adblock/Cache/Build
 # 删除 @ads
 sed -e 's/ @ads//' ./Adblock/Cache/Build/adblock-4.txt > ./Adblock/Cache/Build/adblock-5.txt
 # 删除 :@ads
-sed -e 's/:@ads//' ./Adblock/Cache/Build/adblock-4.txt > ./Adblock/Cache/Build/adblock-5.txt
+sed -e 's/:@ads//' ./Adblock/Cache/Build/adblock-5.txt > ./Adblock/Cache/Build/adblock-6.txt
 # 删除 full:
-sed -e 's/full://' ./Adblock/Cache/Build/adblock-5.txt > ./Adblock/Cache/Build/adblock-6.txt
+sed -e 's/full://' ./Adblock/Cache/Build/adblock-6.txt > ./Adblock/Cache/Build/adblock-7.txt
 # 删除 domain:
-sed -e 's/domain://' ./Adblock/Cache/Build/adblock-6.txt > ./Adblock/Cache/Build/adblock-7.txt
+sed -e 's/domain://' ./Adblock/Cache/Build/adblock-7.txt > ./Adblock/Cache/Build/adblock-8.txt
 # 删除 0.0.0.0
-sed -e 's/0.0.0.0 //' ./Adblock/Cache/Build/adblock-7.txt > ./Adblock/Cache/Build/adblock-8.txt
+sed -e 's/0.0.0.0 //' ./Adblock/Cache/Build/adblock-8.txt > ./Adblock/Cache/Build/adblock-9.txt
 # 删除空格行
-sed -e '/^$/d' ./Adblock/Cache/Build/adblock-8.txt > ./Adblock/Cache/Build/adblock-9.txt
+sed -e '/^$/d' ./Adblock/Cache/Build/adblock-9.txt > ./Adblock/Cache/Build/adblock-10.txt
 # 去重
-sort -u ./Adblock/Cache/Build/adblock-9.txt > ./Adblock/Cache/Build/adblock.txt
+sort -u ./Adblock/Cache/Build/adblock-10.txt > ./Adblock/Cache/Build/adblock.txt
 
 ### 构建 ###
 {
