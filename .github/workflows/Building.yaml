@@ -1,0 +1,24 @@
+name: Build Router_OS.rsc
+on:
+  schedule:
+    - cron: "* 18 * * *"
+#  push:
+#    branches: [ main ]
+#  pull_request:
+#    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  build:
+    name: Build RSC Files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build Adblock.rsc
+        run:  |
+          chmod +x ./Packages/Adblock/Build.sh
+          ./Packages/Adblock/Build.sh
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
