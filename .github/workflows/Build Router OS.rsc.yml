@@ -1,0 +1,72 @@
+name: Build Router OS.rsc
+on:
+  schedule:
+    - cron: "* 18 * * *"
+#  push:
+#    branches: [ main ]
+#  pull_request:
+#    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  build:
+    name: Build Adblock.rsc
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build Adblock Address
+        run:  |
+          chmod +x ./Adblock/Upstream.sh
+          ./Adblock/Upstream.sh
+          chmod +x ./Adblock/Build.sh
+          ./Adblock/Build.sh
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+  build:
+    name: Build Direct.rsc
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build Direct Address
+        run:  |
+          chmod +x ./Direct/Upstream.sh
+          ./Direct/Upstream.sh
+          chmod +x ./Direct/Build.sh
+          ./Direct/Build.sh
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+  build:
+    name: Build ISP.rsc
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build ISP IP Address
+        run:  |
+          chmod +x ./ISP/Build.sh
+          ./ISP/Build.sh
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+  build:
+    name: Build Scanners.rsc
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build Scanners Address
+        run:  |
+          chmod +x ./Scanners/Upstream.sh
+          ./Scanners/Upstream.sh
+          chmod +x ./Scanners/Build.sh
+          ./Scanners/Build.sh
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
