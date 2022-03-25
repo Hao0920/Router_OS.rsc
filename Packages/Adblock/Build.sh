@@ -35,4 +35,4 @@ for name in $(cat ./Cache/Adblock/Build/adblock.txt) ; do
   echo "add address=240.0.0.1 name=$name"
 done
 echo "/file remove Adblock.rsc"
-} > ./Adblock/Adblock.rsc
+} > ./Releases/Adblock/Adblock.rsc
