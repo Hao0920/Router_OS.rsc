@@ -10,7 +10,11 @@ sed -e '/^include:/d' ./Direct/Cache/Build/2.txt > ./Direct/Cache/Build/3.txt
 # 删除 regexp 行
 sed -e '/^regexp:/d' ./Direct/Cache/Build/3.txt > ./Direct/Cache/Build/4.txt
 # 找出  @cn行
+<<<<<<< Updated upstream
 sed -n ' @cn/p' ./Direct/Cache/Build/4.txt > ./Direct/Cache/Build/5.txt
+=======
+sed -e ' @cn/p' ./Direct/Cache/Build/4.txt > ./Direct/Cache/Build/5.txt
+>>>>>>> Stashed changes
 # 删除  @cn
 sed -e 's/ @cn//' ./Direct/Cache/Build/5.txt > ./Direct/Cache/Build/6.txt
 # 删除 full:
