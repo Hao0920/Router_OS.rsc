@@ -9,15 +9,25 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    name: Build RSC Files
+    name: Build .rsc Files
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Build Adblock.rsc
+      - name: Create Folder
         run:  |
-          chmod +x ./Packages/Adblock/Build.sh
-          ./Packages/Adblock/Build.sh
+        mkdir -p ./Cache/Adblock/Upstream/ && mkdir -p ./Cache/Adblock/Build/
+        mkdir -p ./Cache/Direct/Upstream/ && mkdir -p ./Cache/Direct/Build/
+        mkdir -p ./Cache/ISP/Upstream/ && mkdir -p ./Cache/ISP/Build/
+        mkdir -p ./Cache/Scanners/Upstream/ && mkdir -p ./Cache/Scanners/Build/
+      - name: Download Upstream Files
+        run:  |
+        chmod +x ./Upstream/Adblock.sh && ./Upstream/Adblock.sh
+        chmod +x ./Upstream/Direct.sh && ./Upstream/Direct.sh
+        chmod +x ./Upstream/ISP.sh && ./Upstream/ISP.sh
+        chmod +x ./Upstream/Scanners.sh && ./Upstream/Scanners.sh
+
+
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
