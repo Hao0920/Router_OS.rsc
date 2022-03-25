@@ -1,6 +1,4 @@
-### 建立缓存 ### 
-mkdir -p ./Adblock/Cache/Upstream/
-#### 获取 DNS Static 列表 ###
+#### 获取 Adblock 列表 ###
 # alexa
 wget --no-check-certificate -c -O ./Adblock/Cache/Upstream/alexa.txt "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/alexa"
 # apple

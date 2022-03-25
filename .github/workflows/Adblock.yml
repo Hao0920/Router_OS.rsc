@@ -14,12 +14,20 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Build Adblock Address
+      - name: Create Cache
+        run:  |
+          mkdir -p ./Adblock/Cache/Upstream/
+          mkdir -p ./Adblock/Cache/Build/
+      - name: Download Upstream Files
         run:  |
           chmod +x ./Adblock/Upstream.sh
           ./Adblock/Upstream.sh
+      - name: Build Adblock.rsc
+        run:  |
           chmod +x ./Adblock/Build.sh
           ./Adblock/Build.sh
+      - name: Cache Clean
+        run:  rm -rf ./Adblock/Cache
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
