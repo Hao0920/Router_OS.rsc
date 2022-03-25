@@ -15,10 +15,12 @@ sed -e 's/ @cn//' ./Direct/Cache/Build/direct-4.txt > ./Direct/Cache/Build/direc
 sed -e 's/full://' ./Direct/Cache/Build/direct-5.txt > ./Direct/Cache/Build/direct-6.txt
 # 删除 0.0.0.0
 sed -e 's/0.0.0.0 //' ./Direct/Cache/Build/direct-6.txt > ./Direct/Cache/Build/direct-7.txt
+# 删除domain:
+sed -e 's/domain://' ./Direct/Cache/Build/direct-7.txt > ./Direct/Cache/Build/direct-8.txt
 # 删除空格行
-sed -e '/^$/d' ./Direct/Cache/Build/direct-7.txt > ./Direct/Cache/Build/direct-8.txt
+sed -e '/^$/d' ./Direct/Cache/Build/direct-8.txt > ./Direct/Cache/Build/direct-9.txt
 # 去重
-sort -u ./Direct/Cache/Build/direct-8.txt > ./Direct/Cache/Build/direct.txt
+sort -u ./Direct/Cache/Build/direct-9.txt > ./Direct/Cache/Build/direct.txt
 
 ### 构建 ###
 {
