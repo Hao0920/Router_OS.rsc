@@ -1504,8 +1504,6 @@ onesignal.com
 localhost
 ::1 localhost
 
- #-> 腾讯视频
- #-> 爱奇艺
 wxsnsdy.wxs.qq.com #-> 微信
 is.snssdk.com
 adsmind.gdtimg.com

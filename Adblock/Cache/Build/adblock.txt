@@ -1,6 +1,3 @@
- #-> 微信
- #-> 爱奇艺
- #-> 腾讯视频
 123456798.2021zuixingg.com
 1pzskg.cn
 1rx.io
@@ -1337,7 +1334,6 @@ hzs7.cnzz.com
 hzs8.cnzz.com
 hzs9.cnzz.com
 hzvs1.cnzz.com
-i
 i-mobile.co.jp
 i.adsame.com
 i.ipinyou.com
@@ -1856,7 +1852,6 @@ mws.adsage.com
 my.adsmogo.com
 mydisplay.ctfile.com
 myes.youku.com
-n
 n.chaoliangyun.cn
 n.guvdfs.cn
 n.hzhfhkj.cn
@@ -2073,7 +2068,6 @@ px.ucweb.com
 px.xiaomifood.cn
 py.da.mgtv.com
 pyfdlz.zdzy.shop
-q.
 q.ki47.com
 q14.cnzz.com
 qapm.baidu.com
@@ -2091,7 +2085,6 @@ qtin.biquter.xyz
 qwapi.com
 qzs.gdtimg.com
 qzxcvb.m.zwdu.com
-r
 r.dmp.sina.cn
 r.edge.inmobicdn.net
 r.juxuyun.com
@@ -2133,7 +2126,6 @@ rj.m.taobao.co
 rj.m.taobao.com
 rm.sina.com.cn
 rmpad.imtt.qq.com
-rp
 rplog.baidu.com
 rs-staticart.ybcdn.net
 rs.sinajs.cn
@@ -2673,7 +2665,6 @@ v2.log.hunantv.com
 v2.log.mgtv.com
 v2.reachmax.cn
 v3-ad.ixigua.com
-v6i
 val.api.youku.com
 val.atm.youku.com
 valatm.cp12.wasu.tv

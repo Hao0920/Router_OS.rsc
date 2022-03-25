@@ -1124,7 +1124,6 @@ imp.optaim.com
 inte.sogou.com
 inte.sogoucdn.com
 lu.sogoucdn.com
-
 theta.sogoucdn.com
 track.sohu.com
 uranus.sogou.com
@@ -1432,7 +1431,6 @@ ctobsnssdk.com
 dig.bdurl.net
 extlog.snssdk.com
 i.snssdk.com
-
 mcs.snssdk.com
 pangolin.snssdk.com
 pangolin-sdk-toutiao.com
@@ -1504,31 +1502,18 @@ onesignal.com
 localhost
 ::1 localhost
 
- #-> 腾讯视频
- #-> 爱奇艺
- #-> 微信
-
-
-
-
-
-
-
-
-
-
 t.gdt.qq.com
 v.gdt.qq.com
-q.
+q.i.gdt.qq.com
 v2.gdt.qq.com
-i
-r
-n
+ii.gdt.qq.com
+rm.gdt.qq.com
+nc.gdt.qq.com
 vr.gdt.qq.com
 rpt.gdt.qq.com
 win.gdt.qq.com
 ipv4.gdt.qq.com
-v6i
+v6ii.gdt.qq.com
 
 video.market.xiaomi.com
 t1.a.market.xiaomi.com
@@ -3650,7 +3635,6 @@ imp.optaim.com
 inte.sogou.com
 inte.sogoucdn.com
 lu.sogoucdn.com
-
 theta.sogoucdn.com
 track.sohu.com
 uranus.sogou.com
@@ -3727,7 +3711,6 @@ ctobsnssdk.com
 dig.bdurl.net
 extlog.snssdk.com
 i.snssdk.com
-
 mcs.snssdk.com
 pangolin.snssdk.com
 pangolin-sdk-toutiao.com

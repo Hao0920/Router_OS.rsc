@@ -1,11 +1,5 @@
 /ip dns static
 remove [find address=240.0.0.1]
-add address=240.0.0.1 name=#->
-add address=240.0.0.1 name=微信
-add address=240.0.0.1 name=#->
-add address=240.0.0.1 name=爱奇艺
-add address=240.0.0.1 name=#->
-add address=240.0.0.1 name=腾讯视频
 add address=240.0.0.1 name=123456798.2021zuixingg.com
 add address=240.0.0.1 name=1pzskg.cn
 add address=240.0.0.1 name=1rx.io
@@ -1343,7 +1337,6 @@ add address=240.0.0.1 name=hzs7.cnzz.com
 add address=240.0.0.1 name=hzs8.cnzz.com
 add address=240.0.0.1 name=hzs9.cnzz.com
 add address=240.0.0.1 name=hzvs1.cnzz.com
-add address=240.0.0.1 name=i
 add address=240.0.0.1 name=i-mobile.co.jp
 add address=240.0.0.1 name=i.adsame.com
 add address=240.0.0.1 name=i.ipinyou.com
@@ -1862,7 +1855,6 @@ add address=240.0.0.1 name=mws.adsage.com
 add address=240.0.0.1 name=my.adsmogo.com
 add address=240.0.0.1 name=mydisplay.ctfile.com
 add address=240.0.0.1 name=myes.youku.com
-add address=240.0.0.1 name=n
 add address=240.0.0.1 name=n.chaoliangyun.cn
 add address=240.0.0.1 name=n.guvdfs.cn
 add address=240.0.0.1 name=n.hzhfhkj.cn
@@ -2079,7 +2071,6 @@ add address=240.0.0.1 name=px.ucweb.com
 add address=240.0.0.1 name=px.xiaomifood.cn
 add address=240.0.0.1 name=py.da.mgtv.com
 add address=240.0.0.1 name=pyfdlz.zdzy.shop
-add address=240.0.0.1 name=q.
 add address=240.0.0.1 name=q.ki47.com
 add address=240.0.0.1 name=q14.cnzz.com
 add address=240.0.0.1 name=qapm.baidu.com
@@ -2097,7 +2088,6 @@ add address=240.0.0.1 name=qtin.biquter.xyz
 add address=240.0.0.1 name=qwapi.com
 add address=240.0.0.1 name=qzs.gdtimg.com
 add address=240.0.0.1 name=qzxcvb.m.zwdu.com
-add address=240.0.0.1 name=r
 add address=240.0.0.1 name=r.dmp.sina.cn
 add address=240.0.0.1 name=r.edge.inmobicdn.net
 add address=240.0.0.1 name=r.juxuyun.com
@@ -2139,7 +2129,6 @@ add address=240.0.0.1 name=rj.m.taobao.co
 add address=240.0.0.1 name=rj.m.taobao.com
 add address=240.0.0.1 name=rm.sina.com.cn
 add address=240.0.0.1 name=rmpad.imtt.qq.com
-add address=240.0.0.1 name=rp
 add address=240.0.0.1 name=rplog.baidu.com
 add address=240.0.0.1 name=rs-staticart.ybcdn.net
 add address=240.0.0.1 name=rs.sinajs.cn
@@ -2679,7 +2668,6 @@ add address=240.0.0.1 name=v2.log.hunantv.com
 add address=240.0.0.1 name=v2.log.mgtv.com
 add address=240.0.0.1 name=v2.reachmax.cn
 add address=240.0.0.1 name=v3-ad.ixigua.com
-add address=240.0.0.1 name=v6i
 add address=240.0.0.1 name=val.api.youku.com
 add address=240.0.0.1 name=val.atm.youku.com
 add address=240.0.0.1 name=valatm.cp12.wasu.tv

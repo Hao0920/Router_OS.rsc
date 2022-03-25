@@ -1479,15 +1479,6 @@ yuedu.iqiyi.com
 onesignal.com
 localhost
 ::1 localhost
- #-> 腾讯视频
- #-> 爱奇艺
- #-> 微信
-q.
-i
-r
-n
-rp
-v6i
 video.market.xiaomi.com
 t1.a.market.xiaomi.com
 t2.a.market.xiaomi.com
