@@ -26,8 +26,8 @@ sort -u ./Direct/Cache/Build/direct-9.txt > ./Direct/Cache/Build/direct.txt
 {
 echo "/ip firewall layer7-protocol"
 echo "remove [find name="direct"]"
-for address in $(cat ./Direct/Cache/Build/direct.txt | tr '\n' '|') ; do
-  echo "add name=direct regexp=$address"
+for address in $(cat ./Direct/Cache/Build/direct.txt) ; do
+  echo "add list=direct address=$address"
 done
 echo "/file remove Direct.rsc"
 } > ./Direct/Direct.rsc
