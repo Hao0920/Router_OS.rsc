@@ -1,5 +1,8 @@
+### 建立缓存 ### 
+mkdir -p ./Adblock/Cache/Build/
+
 ### 整理 ###
-find ./Adblock/Source -type f -name "*.txt" | xargs cat > ./Adblock/Cache/Build/source.txt
+find ./Adblock/Cache/Source -type f -name "*.txt" | xargs cat > ./Adblock/Cache/Build/source.txt
 find ./Adblock/Cache/Upstream -type f -name "*.txt" | xargs cat > ./Adblock/Cache/Build/upstream.txt
 cat  ./Adblock/Cache/Build/source.txt  ./Adblock/Cache/Build/upstream.txt >  ./Adblock/Cache/Build/adblock.txt
 # 删除注释行
@@ -30,3 +33,6 @@ for name in $(cat ./Adblock/Cache/Build/10.txt) ; do
 done
 echo "/file remove Adblock.rsc"
 } > ./Adblock/Adblock.rsc
+
+### 清除缓存 ###
+rm -rf ./Adblock/Cache

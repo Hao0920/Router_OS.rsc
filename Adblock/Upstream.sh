@@ -1,4 +1,6 @@
-#### 获取 Adblock 列表 ###
+### 建立缓存 ### 
+mkdir -p ./Adblock/Cache/Upstream/
+#### 获取 DNS Static 列表 ###
 # alexa
 wget --no-check-certificate -c -O ./Adblock/Cache/Upstream/alexa.txt "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/alexa"
 # apple
@@ -130,4 +132,4 @@ wget --no-check-certificate -c -O ./Adblock/Cache/Upstream/zynga-ads.txt "https:
 # ilpl/ad-hosts
 wget --no-check-certificate -c -O ./Adblock/Cache/Upstream/ilpl-hosts.txt "https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts"
 # Loyalsoldier/domain-list-custom
-wget --no-check-certificate -c -O ./Adblock/Cache/Upstream/ilpl-hosts.txt "https://raw.githubusercontent.com/Loyalsoldier/domain-list-custom/release/category-ads-all.txt"
+wget --no-check-certificate -c -O ./Adblock/Cache/Upstream/Loyalsoldier-category-ads-all.txt "https://raw.githubusercontent.com/Loyalsoldier/domain-list-custom/release/category-ads-all.txt"
