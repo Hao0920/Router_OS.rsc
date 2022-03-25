@@ -21,8 +21,7 @@ sed -e 's/domain://' ./Direct/Cache/Build/direct-7.txt > ./Direct/Cache/Build/di
 sed -e '/^$/d' ./Direct/Cache/Build/direct-8.txt > ./Direct/Cache/Build/direct-9.txt
 # 去重
 sort -u ./Direct/Cache/Build/direct-9.txt > ./Direct/Cache/Build/direct.txt
-sed -e 's/$/| /'
-
+sed -e 's/\\n/|/' ./Direct/Cache/Build/direct-8.txt > ./Direct/Cache/Build/direct-9.txt
 ### 构建 ###
 {
 echo "/ip firewall layer7-protocol"
