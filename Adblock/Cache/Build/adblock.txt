@@ -1,3 +1,6 @@
+ #-> 微信
+ #-> 爱奇艺
+ #-> 腾讯视频
 123456798.2021zuixingg.com
 1pzskg.cn
 1rx.io
@@ -25,6 +28,7 @@
 8dcyqu.c.admaster.com.cn
 8z3j.cn
 9uh94c.cn
+::1 localhost
 a-ad.adwo.com
 a-dxk.play.api.3g.youku.com
 a.adtng.com
@@ -687,6 +691,7 @@ c.appjiagu.com
 c.baidu.com
 c.bing.com
 c.biz.weibo.com
+c.choujiang1.top
 c.cnzz.com
 c.dadedaxue.com
 c.data.mob.com
@@ -1332,6 +1337,7 @@ hzs7.cnzz.com
 hzs8.cnzz.com
 hzs9.cnzz.com
 hzvs1.cnzz.com
+i
 i-mobile.co.jp
 i.adsame.com
 i.ipinyou.com
@@ -1416,7 +1422,6 @@ iqiyi.irs01.com
 iqiyi.m.cn.miaozhen.com
 ironbeast.io
 irs01.com
-is.snssdk.com
 item.mediav.com
 itx5-publicidad.smartadserver.com
 itx5.smartadserver.com
@@ -1500,6 +1505,7 @@ lives.l.cp81.ott.cibntv.net
 lives.l.ott.video.qq.com
 lives.l.qq.com
 lk.remenxs.com
+localhost
 location.ximalaya.com
 log-api.pangolin-sdk-toutiao.com
 log-dmp.suishenyun.cn
@@ -1850,6 +1856,7 @@ mws.adsage.com
 my.adsmogo.com
 mydisplay.ctfile.com
 myes.youku.com
+n
 n.chaoliangyun.cn
 n.guvdfs.cn
 n.hzhfhkj.cn
@@ -2055,7 +2062,6 @@ push.zhanzhang.baidu.com
 pv.dakawm.cc
 pv.hd.sohu.com
 pv.mediav.com
-pv.sohu.com
 pv.vipwm.cc
 pwn9c.chenmujiang.com.cn
 pwn9v.chenmujiang.com.cn
@@ -2067,6 +2073,7 @@ px.ucweb.com
 px.xiaomifood.cn
 py.da.mgtv.com
 pyfdlz.zdzy.shop
+q.
 q.ki47.com
 q14.cnzz.com
 qapm.baidu.com
@@ -2084,6 +2091,7 @@ qtin.biquter.xyz
 qwapi.com
 qzs.gdtimg.com
 qzxcvb.m.zwdu.com
+r
 r.dmp.sina.cn
 r.edge.inmobicdn.net
 r.juxuyun.com
@@ -2125,6 +2133,7 @@ rj.m.taobao.co
 rj.m.taobao.com
 rm.sina.com.cn
 rmpad.imtt.qq.com
+rp
 rplog.baidu.com
 rs-staticart.ybcdn.net
 rs.sinajs.cn
@@ -2207,6 +2216,7 @@ sc.alwonroad.club
 sc.eyugz66.xyz
 sc.fengjiangqwe.xyz
 sc.haape.club
+sc.jslmtdgf.xyz
 sc.newdata.vip
 sc.pdss.xyz
 sc.vipytyl.ltd
@@ -2279,6 +2289,7 @@ show.m.mediav.com
 show.mediav.com
 show.re.taobao.com
 shrek.6.cn
+sifa.taishu.shop
 simaba.taobao.com
 simba.6.cn
 simba.m.taobao.com
@@ -2578,6 +2589,7 @@ v.4pl1gr.cn
 v.9weg7b.com
 v.admaster.com.cn
 v.aty.sohu.com
+v.choujiang1.top
 v.dadedaxue.com
 v.dg186.cn
 v.dlyukun.cn
@@ -2661,6 +2673,7 @@ v2.log.hunantv.com
 v2.log.mgtv.com
 v2.reachmax.cn
 v3-ad.ixigua.com
+v6i
 val.api.youku.com
 val.atm.youku.com
 valatm.cp12.wasu.tv

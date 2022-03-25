@@ -1,4 +1,3 @@
-
 ad.ximalaya.com
 adbs.ximalaya.com
 adse.ximalaya.com
@@ -7,11 +6,8 @@ adbehavior.wsa.ximalaya.com
 adsebs.ximalaya.com
 advert.mting.info
 ulogs.umengcloud.com
-
 www.ttyyuuoo.com
-
 im.tiodata.com
-
 xn--wxtr9fwyxk9c.art
 xn--xhq9mt12cf5v.art
 aecbhedvuibuab.biduo.cc
@@ -890,7 +886,6 @@ val.api.youku.com
 wan.youku.com
 ykatr.youku.com
 ykrec.youku.com
-
 bluekai.com
 fout.jp
 gmossp-sp.jp
@@ -1081,7 +1076,6 @@ zc.biz.weibo.com
 zymo.mps.weibo.com
 alog.umeng.com
 alog.umengcloud.com
-
 w.cnzz.com
 z.gds.cnzz.com
 log-sdk.gifshow.com
@@ -1124,12 +1118,10 @@ imp.optaim.com
 inte.sogou.com
 inte.sogoucdn.com
 lu.sogoucdn.com
-pv.sohu.com
 theta.sogoucdn.com
 track.sohu.com
 uranus.sogou.com
 v2.reachmax.cn
-
 e8aeb8bbdbbd7.cdn.sohucs.com
 643108e7617ef.cdn.sohucs.com
 inner-active.mobi
@@ -1337,10 +1329,7 @@ googletagmanager.com
 googletagservices.com
 googletraveladservices.com
 urchin.com
-
 ads.wteam.xyz
-
-
 7box.vip
 ad-delivery.net
 adinplay.com
@@ -1362,13 +1351,9 @@ pubmatic.com
 spotxchange.com
 unimhk.com
 upapi.net
-
-
 ogury.com
 presage.io
 ogury.co
-
-
 51y5.net
 a.adtng.com
 aaxads.com
@@ -1406,22 +1391,14 @@ static.javhd.com
 tm-banners.gamingadult.com
 trafficfactory.biz
 tsyndicate.com
-
 adx.36kr.com
-
 click.ali213.net
 pbmp.ali213.net
-
-
 adq.chinaso.com
 stat.chinaso.com
-
 toboads.com
-
 dn-growing.qbox.me
-
 ad.unimhk.com
-
 das-rpt-log.ucloud.cn
 adeventtracker.spotify.com
 adstudio-assets.scdn.co
@@ -1432,7 +1409,6 @@ ctobsnssdk.com
 dig.bdurl.net
 extlog.snssdk.com
 i.snssdk.com
-is.snssdk.com
 mcs.snssdk.com
 pangolin.snssdk.com
 pangolin-sdk-toutiao.com
@@ -1503,33 +1479,15 @@ yuedu.iqiyi.com
 onesignal.com
 localhost
 ::1 localhost
-
-livew.l.qq.com #-> 腾讯视频
-t7z.cupid.iqiyi.com #-> 爱奇艺
-wxsnsdy.wxs.qq.com #-> 微信
-is.snssdk.com
-adsmind.gdtimg.com
-pv.sohu.com
-gw.365you.com
-x.adnet.qq.com
-mi.gdt.qq.com
-c.gdt.qq.com
-d.gdt.qq.com
-i.gdt.qq.com
-m.gdt.qq.com
-t.gdt.qq.com
-v.gdt.qq.com
-q.i.gdt.qq.com
-v2.gdt.qq.com
-ii.gdt.qq.com
-rm.gdt.qq.com
-nc.gdt.qq.com
-vr.gdt.qq.com
-rpt.gdt.qq.com
-win.gdt.qq.com
-ipv4.gdt.qq.com
-v6ii.gdt.qq.com
-
+ #-> 腾讯视频
+ #-> 爱奇艺
+ #-> 微信
+q.
+i
+r
+n
+rp
+v6i
 video.market.xiaomi.com
 t1.a.market.xiaomi.com
 t2.a.market.xiaomi.com
@@ -1833,7 +1791,6 @@ ifengad.3g.ifeng.com
 adv.fjtv.net
 dsa-mfp.fengshows.cn
 sdk.cferw.com
-
 ad.weixin.qq.com
 wxa.wxs.qq.com
 wxsnsdythumb.wxs.qq.com
@@ -2277,7 +2234,6 @@ mobilead.kuwo.cn
 splashimgbssdl.yun.kugou.com
 m1.ad.10010.com
 config.unityads.unitychina.cn
-
 ads.google.com
 www.googleadservices.com
 google-analytics.com
@@ -2495,7 +2451,6 @@ s0.2mdn.net
 s1.2mdn.net
 media.admob.com
 ssl.google-analytics.com
-
 adm.baidu.com
 ad.player.baidu.com
 adscdn.baidu.com
@@ -2565,7 +2520,6 @@ sa.tuisong.baidu.com
 api.tuisong.baidu.com
 sa8.tuisong.baidu.com
 cpro.baidustatic.com
-
 ad.qun.qq.com
 adping.qq.com
 adpm.app.qq.com
@@ -2643,7 +2597,6 @@ public.gdtimg.com
 cmshow.gtimg.cn
 qappcenterv6.3g.qq.com
 aeventlog.beacon.qq.com
-
 adash.man.aliyuncs.com
 cdn-ads.oss-cn-shanghai.aliyuncs.com
 ynuf.aliapp.org
@@ -2680,7 +2633,6 @@ h-adashx4yt.ut.taobao.com
 umdc.aliapp.org
 gaode-acs.m.taobao.com
 gaode-jmacs.m.taobao.com
-
 iqiyi.irs01.com
 letv.irs01.com
 s9.irs03.com
@@ -3180,7 +3132,6 @@ vortex-win.data.microsoft.com
 vortex.data.microsoft.com
 vortex.data.microsoft.com.akadns.net
 vortex-sandbox.data.microsoft.com
-
 telemetry.microsoft.com
 telemetry.urs.microsoft.com
 choice.microsoft.com
@@ -3199,7 +3150,6 @@ cache.datamart.windows.com
 diagnostics.support.microsoft.com
 spynet2.microsoft.com
 spynetalt.microsoft.com
-
 onecollector.cloudapp.aria.akadns.net
 prod.nexusrules.live.com.akadns.net
 nmetrics.samsung.com
@@ -3217,12 +3167,10 @@ books-analytics-events.apple.com
 stocks-analytics-events.apple.com
 stocks-analytics-events.news.apple-dns.net
 sa.api.intl.miui.com
-
 data.mistat.xiaomi.com
 data.mistat.intl.xiaomi.com
 data.mistat.india.xiaomi.com
 data.mistat.rus.xiaomi.com
-
 tracking.miui.com
 tracking.intl.miui.com
 tracking.india.miui.com
@@ -3233,11 +3181,9 @@ metrics2.data.hicloud.com
 metrics3.data.hicloud.com
 metrics4.data.hicloud.com
 metrics5.data.hicloud.com
-
 logservice.hicloud.com
 logservice1.hicloud.com
 data.alexa.com
-
 device-metrics-us.amazon.com
 device-metrics-us-2.amazon.com
 logs.roku.com
@@ -3650,7 +3596,6 @@ imp.optaim.com
 inte.sogou.com
 inte.sogoucdn.com
 lu.sogoucdn.com
-pv.sohu.com
 theta.sogoucdn.com
 track.sohu.com
 uranus.sogou.com
@@ -3727,7 +3672,6 @@ ctobsnssdk.com
 dig.bdurl.net
 extlog.snssdk.com
 i.snssdk.com
-is.snssdk.com
 mcs.snssdk.com
 pangolin.snssdk.com
 pangolin-sdk-toutiao.com

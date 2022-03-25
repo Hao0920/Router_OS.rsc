@@ -1504,8 +1504,8 @@ onesignal.com
 localhost
 ::1 localhost
 
-livew.l.qq.com #-> 腾讯视频
-t7z.cupid.iqiyi.com #-> 爱奇艺
+ #-> 腾讯视频
+ #-> 爱奇艺
 wxsnsdy.wxs.qq.com #-> 微信
 is.snssdk.com
 adsmind.gdtimg.com

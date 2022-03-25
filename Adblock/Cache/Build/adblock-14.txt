@@ -1432,7 +1432,7 @@ ctobsnssdk.com
 dig.bdurl.net
 extlog.snssdk.com
 i.snssdk.com
-is.snssdk.com
+
 mcs.snssdk.com
 pangolin.snssdk.com
 pangolin-sdk-toutiao.com
@@ -1504,10 +1504,10 @@ onesignal.com
 localhost
 ::1 localhost
 
-livew.l.qq.com #-> 腾讯视频
-t7z.cupid.iqiyi.com #-> 爱奇艺
-wxsnsdy.wxs.qq.com #-> 微信
-is.snssdk.com
+ #-> 腾讯视频
+ #-> 爱奇艺
+ #-> 微信
+
 adsmind.gdtimg.com
 pv.sohu.com
 gw.365you.com
@@ -3727,7 +3727,7 @@ ctobsnssdk.com
 dig.bdurl.net
 extlog.snssdk.com
 i.snssdk.com
-is.snssdk.com
+
 mcs.snssdk.com
 pangolin.snssdk.com
 pangolin-sdk-toutiao.com

@@ -1,5 +1,11 @@
 /ip dns static
 remove [find address=240.0.0.1]
+add address=240.0.0.1 name=#->
+add address=240.0.0.1 name=微信
+add address=240.0.0.1 name=#->
+add address=240.0.0.1 name=爱奇艺
+add address=240.0.0.1 name=#->
+add address=240.0.0.1 name=腾讯视频
 add address=240.0.0.1 name=123456798.2021zuixingg.com
 add address=240.0.0.1 name=1pzskg.cn
 add address=240.0.0.1 name=1rx.io
@@ -27,6 +33,8 @@ add address=240.0.0.1 name=8chzga.v.admaster.com.cn
 add address=240.0.0.1 name=8dcyqu.c.admaster.com.cn
 add address=240.0.0.1 name=8z3j.cn
 add address=240.0.0.1 name=9uh94c.cn
+add address=240.0.0.1 name=::1
+add address=240.0.0.1 name=localhost
 add address=240.0.0.1 name=a-ad.adwo.com
 add address=240.0.0.1 name=a-dxk.play.api.3g.youku.com
 add address=240.0.0.1 name=a.adtng.com
@@ -689,6 +697,7 @@ add address=240.0.0.1 name=c.appjiagu.com
 add address=240.0.0.1 name=c.baidu.com
 add address=240.0.0.1 name=c.bing.com
 add address=240.0.0.1 name=c.biz.weibo.com
+add address=240.0.0.1 name=c.choujiang1.top
 add address=240.0.0.1 name=c.cnzz.com
 add address=240.0.0.1 name=c.dadedaxue.com
 add address=240.0.0.1 name=c.data.mob.com
@@ -1334,6 +1343,7 @@ add address=240.0.0.1 name=hzs7.cnzz.com
 add address=240.0.0.1 name=hzs8.cnzz.com
 add address=240.0.0.1 name=hzs9.cnzz.com
 add address=240.0.0.1 name=hzvs1.cnzz.com
+add address=240.0.0.1 name=i
 add address=240.0.0.1 name=i-mobile.co.jp
 add address=240.0.0.1 name=i.adsame.com
 add address=240.0.0.1 name=i.ipinyou.com
@@ -1418,7 +1428,6 @@ add address=240.0.0.1 name=iqiyi.irs01.com
 add address=240.0.0.1 name=iqiyi.m.cn.miaozhen.com
 add address=240.0.0.1 name=ironbeast.io
 add address=240.0.0.1 name=irs01.com
-add address=240.0.0.1 name=is.snssdk.com
 add address=240.0.0.1 name=item.mediav.com
 add address=240.0.0.1 name=itx5-publicidad.smartadserver.com
 add address=240.0.0.1 name=itx5.smartadserver.com
@@ -1502,6 +1511,7 @@ add address=240.0.0.1 name=lives.l.cp81.ott.cibntv.net
 add address=240.0.0.1 name=lives.l.ott.video.qq.com
 add address=240.0.0.1 name=lives.l.qq.com
 add address=240.0.0.1 name=lk.remenxs.com
+add address=240.0.0.1 name=localhost
 add address=240.0.0.1 name=location.ximalaya.com
 add address=240.0.0.1 name=log-api.pangolin-sdk-toutiao.com
 add address=240.0.0.1 name=log-dmp.suishenyun.cn
@@ -1852,6 +1862,7 @@ add address=240.0.0.1 name=mws.adsage.com
 add address=240.0.0.1 name=my.adsmogo.com
 add address=240.0.0.1 name=mydisplay.ctfile.com
 add address=240.0.0.1 name=myes.youku.com
+add address=240.0.0.1 name=n
 add address=240.0.0.1 name=n.chaoliangyun.cn
 add address=240.0.0.1 name=n.guvdfs.cn
 add address=240.0.0.1 name=n.hzhfhkj.cn
@@ -2057,7 +2068,6 @@ add address=240.0.0.1 name=push.zhanzhang.baidu.com
 add address=240.0.0.1 name=pv.dakawm.cc
 add address=240.0.0.1 name=pv.hd.sohu.com
 add address=240.0.0.1 name=pv.mediav.com
-add address=240.0.0.1 name=pv.sohu.com
 add address=240.0.0.1 name=pv.vipwm.cc
 add address=240.0.0.1 name=pwn9c.chenmujiang.com.cn
 add address=240.0.0.1 name=pwn9v.chenmujiang.com.cn
@@ -2069,6 +2079,7 @@ add address=240.0.0.1 name=px.ucweb.com
 add address=240.0.0.1 name=px.xiaomifood.cn
 add address=240.0.0.1 name=py.da.mgtv.com
 add address=240.0.0.1 name=pyfdlz.zdzy.shop
+add address=240.0.0.1 name=q.
 add address=240.0.0.1 name=q.ki47.com
 add address=240.0.0.1 name=q14.cnzz.com
 add address=240.0.0.1 name=qapm.baidu.com
@@ -2086,6 +2097,7 @@ add address=240.0.0.1 name=qtin.biquter.xyz
 add address=240.0.0.1 name=qwapi.com
 add address=240.0.0.1 name=qzs.gdtimg.com
 add address=240.0.0.1 name=qzxcvb.m.zwdu.com
+add address=240.0.0.1 name=r
 add address=240.0.0.1 name=r.dmp.sina.cn
 add address=240.0.0.1 name=r.edge.inmobicdn.net
 add address=240.0.0.1 name=r.juxuyun.com
@@ -2127,6 +2139,7 @@ add address=240.0.0.1 name=rj.m.taobao.co
 add address=240.0.0.1 name=rj.m.taobao.com
 add address=240.0.0.1 name=rm.sina.com.cn
 add address=240.0.0.1 name=rmpad.imtt.qq.com
+add address=240.0.0.1 name=rp
 add address=240.0.0.1 name=rplog.baidu.com
 add address=240.0.0.1 name=rs-staticart.ybcdn.net
 add address=240.0.0.1 name=rs.sinajs.cn
@@ -2209,6 +2222,7 @@ add address=240.0.0.1 name=sc.alwonroad.club
 add address=240.0.0.1 name=sc.eyugz66.xyz
 add address=240.0.0.1 name=sc.fengjiangqwe.xyz
 add address=240.0.0.1 name=sc.haape.club
+add address=240.0.0.1 name=sc.jslmtdgf.xyz
 add address=240.0.0.1 name=sc.newdata.vip
 add address=240.0.0.1 name=sc.pdss.xyz
 add address=240.0.0.1 name=sc.vipytyl.ltd
@@ -2281,6 +2295,7 @@ add address=240.0.0.1 name=show.m.mediav.com
 add address=240.0.0.1 name=show.mediav.com
 add address=240.0.0.1 name=show.re.taobao.com
 add address=240.0.0.1 name=shrek.6.cn
+add address=240.0.0.1 name=sifa.taishu.shop
 add address=240.0.0.1 name=simaba.taobao.com
 add address=240.0.0.1 name=simba.6.cn
 add address=240.0.0.1 name=simba.m.taobao.com
@@ -2580,6 +2595,7 @@ add address=240.0.0.1 name=v.4pl1gr.cn
 add address=240.0.0.1 name=v.9weg7b.com
 add address=240.0.0.1 name=v.admaster.com.cn
 add address=240.0.0.1 name=v.aty.sohu.com
+add address=240.0.0.1 name=v.choujiang1.top
 add address=240.0.0.1 name=v.dadedaxue.com
 add address=240.0.0.1 name=v.dg186.cn
 add address=240.0.0.1 name=v.dlyukun.cn
@@ -2663,6 +2679,7 @@ add address=240.0.0.1 name=v2.log.hunantv.com
 add address=240.0.0.1 name=v2.log.mgtv.com
 add address=240.0.0.1 name=v2.reachmax.cn
 add address=240.0.0.1 name=v3-ad.ixigua.com
+add address=240.0.0.1 name=v6i
 add address=240.0.0.1 name=val.api.youku.com
 add address=240.0.0.1 name=val.atm.youku.com
 add address=240.0.0.1 name=valatm.cp12.wasu.tv
