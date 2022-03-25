@@ -24,7 +24,7 @@ sort -u ./Direct/Cache/Build/direct-9.txt > ./Direct/Cache/Build/direct.txt
 
 ### 构建 ###
 {
-echo "/ip firewall layer7-protocol"
+echo "/ip firewall address-list"
 echo "remove [find name="direct"]"
 for address in $(cat ./Direct/Cache/Build/direct.txt) ; do
   echo "add list=direct address=$address"
