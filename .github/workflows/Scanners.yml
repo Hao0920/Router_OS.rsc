@@ -16,10 +16,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Build Scanners Address
         run:  |
-          chmod +x ./Scanners/Upstream.sh
-          ./Scanners/Upstream.sh
-          chmod +x ./Scanners/Build.sh
-          ./Scanners/Build.sh
+          chmod +x ./Scanners/Upstream.sh  &&./Scanners/Upstream.sh
+          chmod +x ./Scanners/Build.sh  &&./Scanners/Build.sh
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:

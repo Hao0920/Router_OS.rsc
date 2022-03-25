@@ -16,10 +16,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Build Direct Address
         run:  |
-          chmod +x ./Direct/Upstream.sh
-          ./Direct/Upstream.sh
-          chmod +x ./Direct/Build.sh
-          ./Direct/Build.sh
+          chmod +x ./Direct/Upstream.sh && ./Direct/Upstream.sh
+          chmod +x ./Direct/Build.sh && ./Direct/Build.sh
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
