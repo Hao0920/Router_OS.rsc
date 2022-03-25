@@ -35,4 +35,4 @@ echo "/file remove Adblock.rsc"
 } > ./Adblock/Adblock.rsc
 
 ### 清除缓存 ###
-# rm -rf ./Adblock/Cache
+rm -rf ./Adblock/Cache
