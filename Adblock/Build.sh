@@ -1,5 +1,5 @@
 ### 整理 ###
-find ./Adblock/Cache/Source -type f -name "*.txt" | xargs cat > ./Adblock/Cache/Build/source.txt
+find ./Adblock/Source -type f -name "*.txt" | xargs cat > ./Adblock/Cache/Build/source.txt
 find ./Adblock/Cache/Upstream -type f -name "*.txt" | xargs cat > ./Adblock/Cache/Build/upstream.txt
 cat  ./Adblock/Cache/Build/source.txt  ./Adblock/Cache/Build/upstream.txt >  ./Adblock/Cache/Build/adblock.txt
 # 删除注释行
