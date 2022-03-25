@@ -21,13 +21,14 @@ sed -e 's/domain://' ./Direct/Cache/Build/direct-7.txt > ./Direct/Cache/Build/di
 sed -e '/^$/d' ./Direct/Cache/Build/direct-8.txt > ./Direct/Cache/Build/direct-9.txt
 # 去重
 sort -u ./Direct/Cache/Build/direct-9.txt > ./Direct/Cache/Build/direct.txt
+sed -e 's/$/| /'
 
 ### 构建 ###
 {
-echo "/ip firewall address-list"
-echo "remove [find list="direct"]"
+echo "/ip firewall layer7-protocol"
+echo "remove [find name="direct"]"
 for address in $(cat ./Direct/Cache/Build/direct.txt) ; do
-  echo "add list=direct address=$address"
+  echo "add name=direct regexp=$address"
 done
 echo "/file remove Direct.rsc"
 } > ./Direct/Direct.rsc
