@@ -322,4 +322,4 @@ echo "/file remove china_mobile-unicom.rsc"
 } > ./ISP/china_mobile-unicom.rsc
 
 ### 清除缓存 ###
-rm -rf ./ISP/Cache
+# rm -rf ./ISP/Cache
