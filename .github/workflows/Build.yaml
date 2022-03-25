@@ -26,8 +26,6 @@ jobs:
         chmod +x ./Upstream/Direct.sh && ./Upstream/Direct.sh
         chmod +x ./Upstream/ISP.sh && ./Upstream/ISP.sh
         chmod +x ./Upstream/Scanners.sh && ./Upstream/Scanners.sh
-
-
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
