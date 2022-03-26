@@ -4,8 +4,7 @@ mkdir -p ./Adblock/Cache/Sorting
 find ./Adblock/Cache/Upstream -type f -name "*.txt" | xargs cat > ./Adblock/Cache/Sorting/adblock-1.txt
 # cat  ./Adblock/Cache/Sorting/source.txt  ./Adblock/Cache/Sorting/upstream.txt >  ./Adblock/Cache/Sorting/adblock-1.txt
 # 删除 非屏蔽
-sed -e '/(livew.l.qq.com|t7z.cupid.iqiyi.com|wxsnsdy.wxs.qq.com|is.snssdk.com|adsmind.gdtimg.com|pv.sohu.com|gw.365you.com|x.adnet.qq.com|mi.gdt.qq.com|c.gdt.qq.com|d.gdt.qq.com|i.gdt.qq.com|m.gdt.qq.com|t.gdt.qq.com|v.gdt.qq.com|q.i.gdt.qq.com|v2.gdt.qq.com|ii.gdt.qq.com|rm.gdt.qq.com|nc.gdt.qq.com|vr.gdt.qq.com|rpt.gdt.qq.com|win.gdt.qq.com|ipv4.gdt.qq.com|v6ii.gdt.qq.com
-)/d' ./Adblock/Cache/Sorting/adblock-1.txt > ./Adblock/Cache/Sorting/adblock-2.txt
+sed -e '/livew.l.qq.com|t7z.cupid.iqiyi.com|wxsnsdy.wxs.qq.com|is.snssdk.com|adsmind.gdtimg.com|pv.sohu.com|gw.365you.com|x.adnet.qq.com|mi.gdt.qq.com|c.gdt.qq.com|d.gdt.qq.com|i.gdt.qq.com|m.gdt.qq.com|t.gdt.qq.com|v.gdt.qq.com|q.i.gdt.qq.com|v2.gdt.qq.com|ii.gdt.qq.com|rm.gdt.qq.com|nc.gdt.qq.com|vr.gdt.qq.com|rpt.gdt.qq.com|win.gdt.qq.com|ipv4.gdt.qq.com|v6ii.gdt.qq.com/d' ./Adblock/Cache/Sorting/adblock-1.txt > ./Adblock/Cache/Sorting/adblock-2.txt
 # 删除注释行
 sed -e '/^#/d' ./Adblock/Cache/Sorting/adblock-2.txt > ./Adblock/Cache/Sorting/adblock-3.txt
 # 删除 include 行
