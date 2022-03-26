@@ -1,7 +1,8 @@
-### 建立缓存 ###
-mkdir -p ./ISP/Cache/Upstream/Clang.CN
 
-### 获取 IP 列表 ###
+
+#### 获取 IP 列表 ####
+### Clang.CN
+mkdir -p ./ISP/Cache/Upstream/Clang.CN
 # 中国大陆所有 IP 地址
 wget --no-check-certificate -c -O ./ISP/Cache/Upstream/Clang.CN/all_cn.txt https://ispip.clang.cn/all_cn_cidr.txt
 # 中国电信
@@ -18,3 +19,6 @@ wget --no-check-certificate -c -O ./ISP/Cache/Upstream/Clang.CN/cernet.txt https
 wget --no-check-certificate -c -O ./ISP/Cache/Upstream/Clang.CN/gwbn.txt https://ispip.clang.cn/gwbn_cidr.txt
 # 中国其他 ISP
 wget --no-check-certificate -c -O ./ISP/Cache/Upstream/Clang.CN/othernet.txt https://ispip.clang.cn/othernet_cidr.txt
+
+### Loyalsoldier/geoip
+mkdir -p ./ISP/Cache/Upstream/Loyalsoldier/geoip/cn.txt https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/cn.txt

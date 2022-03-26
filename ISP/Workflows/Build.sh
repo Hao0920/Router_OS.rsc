@@ -9,7 +9,7 @@ echo "remove [find list="china_tietong"]"
 echo "remove [find list="china_education_and_research_network"]"
 echo "remove [find list="great_wall_broadband_network"]"
 echo "remove [find list="othernet"]"
-for address in $(cat ./ISP/Cache/Upstream/Clang.CN/all_cn.txt) ; do
+for address in $(cat ./ISP/Cache/Sorting/ISP.txt) ; do
   echo "add list=china address=$address"
 done
 for address in $(cat ./ISP/Cache/Upstream/Clang.CN/chinatelecom.txt) ; do
@@ -39,7 +39,7 @@ echo "/file remove ISP.rsc"
 {
 echo "/ip firewall address-list"
 echo "remove [find list="china"]"
-for address in $(cat ./ISP/Cache/Upstream/Clang.CN/all_cn.txt) ; do
+for address in $(cat ./ISP/Cache/Sorting/ISP.txt) ; do
   echo "add list=china address=$address"
 done
 echo "/file remove china.rsc"
