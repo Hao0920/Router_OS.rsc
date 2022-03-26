@@ -14,7 +14,7 @@
 * ISP
   - [JacyL4](https://github.com/jacyl4) / [chnroute](https://github.com/jacyl4/chnroute)
   - [Clang.CN](https://ispip.clang.cn)
-  - [Loyalsoldier](https://github.com/Loyalsoldier) / [geoip](https://github.com/Loyalsoldier/geoip)]
+  - [Loyalsoldier](https://github.com/Loyalsoldier) / [geoip](https://github.com/Loyalsoldier/geoip)
 * Scanners
   - [USTC IP Blacklist](https://blackip.ustc.edu.cn/)
   - [清华大学·网络与信息安全实验室 (NISL)](https://netsec.ccert.edu.cn/chs/)
