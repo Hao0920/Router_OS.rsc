@@ -280,6 +280,7 @@ ads.sina.com
 ads.sohu.com
 ads.static.madserving.com
 ads.stickyadstv.com
+ads.superad.cc
 ads.traffichunt.com
 ads.trafficjunky.net
 ads.ttv.com.tw
@@ -681,6 +682,7 @@ c.0ij3tm.com
 c.1k978y.cn
 c.4gpkf.cn
 c.4pl1gr.cn
+c.52jimi.top
 c.9weg7b.com
 c.admaster.com.cn
 c.admob.com
@@ -1094,6 +1096,7 @@ ee.yg10x.cn
 ee.zn8ni.cn
 eei.lobbycafe.cn
 ef-dongfeng.tanx.com
+ef9i.lo83cs.space
 efe25.t7wl8.cn
 ei.cnzz.com
 eiv.baidu.com
@@ -1542,6 +1545,7 @@ ls.l.qq.com
 lstat.youku.com
 lu.sogoucdn.com
 lupic.cdn.bcebos.com
+lwrao.afx001.pw
 lwxlsj.wap.xsbiquge.com
 m-adash.m.taobao.com
 m.0898xlj.cn
@@ -2224,6 +2228,7 @@ sc.alwonroad.club
 sc.eyugz66.xyz
 sc.fengjiangqwe.xyz
 sc.haape.club
+sc.hnsyjaeger.site
 sc.jslmtdgf.xyz
 sc.newdata.vip
 sc.pdss.xyz
@@ -2596,6 +2601,7 @@ v.0ij3tm.com
 v.1k978y.cn
 v.4gpkf.cn
 v.4pl1gr.cn
+v.52jimi.top
 v.9weg7b.com
 v.admaster.com.cn
 v.aty.sohu.com
@@ -2920,6 +2926,7 @@ xolfu.zyhx.ltd
 xothl.gbcnvip15.com
 xray.jebe.renren.com
 xunlei.adx.admaster.com.cn
+xuwqs.iqn.world
 xy-log.tagtic.cn
 xyzasdfaasdjajj.one
 y.da.mgtv.com

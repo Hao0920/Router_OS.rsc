@@ -836,6 +836,13 @@
 0.0.0.0 c.choujiang1.top
 0.0.0.0 v.choujiang1.top
 0.0.0.0 sifa.taishu.shop
+0.0.0.0 ads.superad.cc
+0.0.0.0 sc.hnsyjaeger.site
+0.0.0.0 c.52jimi.top
+0.0.0.0 v.52jimi.top
+0.0.0.0 lwrao.afx001.pw
+0.0.0.0 xuwqs.iqn.world
+0.0.0.0 ef9i.lo83cs.space
 click.hunantv.com @ads
 da.hunantv.com @ads
 da.mgtv.com @ads

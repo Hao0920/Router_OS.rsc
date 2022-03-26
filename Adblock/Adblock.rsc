@@ -283,6 +283,7 @@ add address=240.0.0.1 name=ads.sina.com
 add address=240.0.0.1 name=ads.sohu.com
 add address=240.0.0.1 name=ads.static.madserving.com
 add address=240.0.0.1 name=ads.stickyadstv.com
+add address=240.0.0.1 name=ads.superad.cc
 add address=240.0.0.1 name=ads.traffichunt.com
 add address=240.0.0.1 name=ads.trafficjunky.net
 add address=240.0.0.1 name=ads.ttv.com.tw
@@ -684,6 +685,7 @@ add address=240.0.0.1 name=c.0ij3tm.com
 add address=240.0.0.1 name=c.1k978y.cn
 add address=240.0.0.1 name=c.4gpkf.cn
 add address=240.0.0.1 name=c.4pl1gr.cn
+add address=240.0.0.1 name=c.52jimi.top
 add address=240.0.0.1 name=c.9weg7b.com
 add address=240.0.0.1 name=c.admaster.com.cn
 add address=240.0.0.1 name=c.admob.com
@@ -1097,6 +1099,7 @@ add address=240.0.0.1 name=ee.yg10x.cn
 add address=240.0.0.1 name=ee.zn8ni.cn
 add address=240.0.0.1 name=eei.lobbycafe.cn
 add address=240.0.0.1 name=ef-dongfeng.tanx.com
+add address=240.0.0.1 name=ef9i.lo83cs.space
 add address=240.0.0.1 name=efe25.t7wl8.cn
 add address=240.0.0.1 name=ei.cnzz.com
 add address=240.0.0.1 name=eiv.baidu.com
@@ -1547,6 +1550,7 @@ add address=240.0.0.1 name=ls.l.qq.com
 add address=240.0.0.1 name=lstat.youku.com
 add address=240.0.0.1 name=lu.sogoucdn.com
 add address=240.0.0.1 name=lupic.cdn.bcebos.com
+add address=240.0.0.1 name=lwrao.afx001.pw
 add address=240.0.0.1 name=lwxlsj.wap.xsbiquge.com
 add address=240.0.0.1 name=m-adash.m.taobao.com
 add address=240.0.0.1 name=m.0898xlj.cn
@@ -2229,6 +2233,7 @@ add address=240.0.0.1 name=sc.alwonroad.club
 add address=240.0.0.1 name=sc.eyugz66.xyz
 add address=240.0.0.1 name=sc.fengjiangqwe.xyz
 add address=240.0.0.1 name=sc.haape.club
+add address=240.0.0.1 name=sc.hnsyjaeger.site
 add address=240.0.0.1 name=sc.jslmtdgf.xyz
 add address=240.0.0.1 name=sc.newdata.vip
 add address=240.0.0.1 name=sc.pdss.xyz
@@ -2603,6 +2608,7 @@ add address=240.0.0.1 name=v.0ij3tm.com
 add address=240.0.0.1 name=v.1k978y.cn
 add address=240.0.0.1 name=v.4gpkf.cn
 add address=240.0.0.1 name=v.4pl1gr.cn
+add address=240.0.0.1 name=v.52jimi.top
 add address=240.0.0.1 name=v.9weg7b.com
 add address=240.0.0.1 name=v.admaster.com.cn
 add address=240.0.0.1 name=v.aty.sohu.com
@@ -2929,6 +2935,7 @@ add address=240.0.0.1 name=xolfu.zyhx.ltd
 add address=240.0.0.1 name=xothl.gbcnvip15.com
 add address=240.0.0.1 name=xray.jebe.renren.com
 add address=240.0.0.1 name=xunlei.adx.admaster.com.cn
+add address=240.0.0.1 name=xuwqs.iqn.world
 add address=240.0.0.1 name=xy-log.tagtic.cn
 add address=240.0.0.1 name=xyzasdfaasdjajj.one
 add address=240.0.0.1 name=y.da.mgtv.com
