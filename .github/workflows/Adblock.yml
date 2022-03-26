@@ -16,13 +16,13 @@ jobs:
         uses: actions/checkout@v2
       - name: Get Upstream Code
         run:  |
-        chmod +x ./Adblock/Workflows/Upstream.sh && ./Adblock/Workflows/Upstream.sh
+          chmod +x ./Adblock/Workflows/Upstream.sh && ./Adblock/Workflows/Upstream.sh
       - name: Sorting Code Files
         run:  |
-        chmod +x ./Adblock/Workflows/Sorting.sh && ./Adblock/Workflows/Sorting.sh
+          chmod +x ./Adblock/Workflows/Sorting.sh && ./Adblock/Workflows/Sorting.sh
       - name: Build Adblock.rsc
         run:  |
-        chmod +x ./Adblock/Workflows//Build.sh && ./Adblock/Workflows//Build.sh
+          chmod +x ./Adblock/Workflows//Build.sh && ./Adblock/Workflows//Build.sh
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
