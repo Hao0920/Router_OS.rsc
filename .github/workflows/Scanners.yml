@@ -17,9 +17,9 @@ jobs:
       - name: Get Upstream Code
         run:  |
           chmod +x ./Scanners/Workflows/Upstream.sh && ./Scanners/Workflows/Upstream.sh
-#      - name: Sorting Code Files
-#        run:  |
-#          chmod +x ./Scanners/Workflows/Sorting.sh && ./Scanners/Workflows/Sorting.sh
+      - name: Sorting Code Files
+        run:  |
+          chmod +x ./Scanners/Workflows/Sorting.sh && ./Scanners/Workflows/Sorting.sh
       - name: Build Scanners.rsc
         run:  |
           chmod +x ./Scanners/Workflows/Build.sh && ./Scanners/Workflows/Build.sh
