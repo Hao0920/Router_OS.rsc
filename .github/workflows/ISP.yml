@@ -14,9 +14,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Build ISP IP Address
+      - name: Get Upstream Code
         run:  |
-          chmod +x ./ISP/Build.sh  && ./ISP/Build.sh
+          chmod +x ./ISP/Workflows/Upstream.sh && ./ISP/Workflows/Upstream.sh
+      - name: Sorting Code Files
+        run:  |
+          chmod +x ./ISP/Workflows/Sorting.sh && ./ISP/Workflows/Sorting.sh
+      - name: Build ISP.rsc
+        run:  |
+          chmod +x ./ISP/Workflows//Build.sh && ./ISP/Workflows//Build.sh
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
