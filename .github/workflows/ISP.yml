@@ -17,9 +17,9 @@ jobs:
       - name: Get Upstream Code
         run:  |
           chmod +x ./ISP/Workflows/Upstream.sh && ./ISP/Workflows/Upstream.sh
-      - name: Sorting Code Files
-        run:  |
-          chmod +x ./ISP/Workflows/Sorting.sh && ./ISP/Workflows/Sorting.sh
+#      - name: Sorting Code Files
+#        run:  |
+#          chmod +x ./ISP/Workflows/Sorting.sh && ./ISP/Workflows/Sorting.sh
       - name: Build ISP.rsc
         run:  |
           chmod +x ./ISP/Workflows//Build.sh && ./ISP/Workflows//Build.sh
