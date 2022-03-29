@@ -7,7 +7,7 @@ sed -e 's/^0.0.0.0 //' | \
 sed -e 's/:@ads$//' | \
 sed -e 's/^domain://' | \
 sed -e 's/^full://' | \
-sed -e 's/^127.0.0.1 //'
+sed -e 's/^127.0.0.1 //' | \
 sed -e '/livew.l.qq.com/d' | \ 
 sed -e '/t7z.cupid.iqiyi.com/d' | \ 
 sed -e '/wxsnsdy.wxs.qq.com/d' | \ 
@@ -36,5 +36,5 @@ sed -e '/v6ii.gdt.qq.com/d' | \
 sed -e '/^#/d' | \ 
 sed -e '/^regexp:/d' | \ 
 sed -e '/^#|localhost$/d' | \ 
-sed -e '/^$/d' | \ 
+sed -e '/^$/d' \
 ./Adblock/Cache/Sorting/Upstream-source.txt > ./Adblock/Cache/Sorting/Upstream-sorting.txt
