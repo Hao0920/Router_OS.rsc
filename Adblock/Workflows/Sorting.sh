@@ -33,7 +33,7 @@ sed -e 's/0.0.0.0 //' \
 | sed -e 's/win.gdt.qq.com//' \
 | sed -e 's/ipv4.gdt.qq.com//' \
 | sed -e 's/v6ii.gdt.qq.com//' \
+| sed -e '/regexp:/d' \ 
+| sed -e '/localhost/d' \ 
 | sed -e '/^#/d' \ 
-| sed -e '/^regexp:/d' \ 
-| sed -e '/localhost$/d' \ 
 | sed -e '/^$/d' ./Adblock/Cache/Sorting/Upstream-source.txt > ./Adblock/Cache/Sorting/Upstream-sorting.txt
