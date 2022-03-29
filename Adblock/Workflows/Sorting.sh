@@ -36,4 +36,5 @@ sed -e 's/v6ii.gdt.qq.com//' ./Adblock/Cache/Sorting/Upstream-source-30.txt > ./
 sed -e '/regexp:/d' ./Adblock/Cache/Sorting/Upstream-source-31.txt > ./Adblock/Cache/Sorting/Upstream-source-32.txt 
 sed -e '/localhost/d' ./Adblock/Cache/Sorting/Upstream-source-32.txt > ./Adblock/Cache/Sorting/Upstream-source-33.txt 
 sed -e '/#/d' ./Adblock/Cache/Sorting/Upstream-source-33.txt > ./Adblock/Cache/Sorting/Upstream-source-34.txt 
-sed -e '/^$/d' ./Adblock/Cache/Sorting/Upstream-source-34.txt > ./Adblock/Cache/Sorting/Upstream-sorting.txt
+sed -e '/^$/d' ./Adblock/Cache/Sorting/Upstream-source-34.txt > ./Adblock/Cache/Sorting/Upstream-source-35.txt 
+sort -u ./Adblock/Cache/Sorting/Upstream-source-35.txt > ./Adblock/Cache/Sorting/adblock.txt
