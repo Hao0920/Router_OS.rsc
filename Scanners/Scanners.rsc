@@ -11181,4 +11181,8 @@ add list=scanners address=223.244.178.0/23
 add list=scanners address=223.246.51.5
 add list=scanners address=223.246.90.123
 add list=scanners address=223.246.196.30
+add list=scanners address=223.244.178.0/23
+add list=scanners address=223.246.51.5
+add list=scanners address=223.246.90.123
+add list=scanners address=223.246.196.30
 /file remove Scanners.rsc
