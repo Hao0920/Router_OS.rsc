@@ -1,13 +1,24 @@
+# https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
+
+# app ad
+# > ximalya
 ad.ximalaya.com
 adbs.ximalaya.com
 adse.ximalaya.com
 adse.wsa.ximalaya.com
 adbehavior.wsa.ximalaya.com
 adsebs.ximalaya.com
+# > lrts.me
 advert.mting.info
 ulogs.umengcloud.com
+
+# ads-test
 www.ttyyuuoo.com
+
+# ads-img
 im.tiodata.com
+
+# ads
 xn--wxtr9fwyxk9c.art
 xn--xhq9mt12cf5v.art
 aecbhedvuibuab.biduo.cc
@@ -839,15 +850,41 @@ v.52jimi.top
 lwrao.afx001.pw
 xuwqs.iqn.world
 ef9i.lo83cs.space
+localhost
+::1 localhost
+
+#pkg=white.ad.web.com;〔提示误伤〕选择性不√以下子项
+#------------------------------
  #-> 腾讯视频
  #-> 爱奇艺
  #-> 微信
+#-------------------------------
+#--下列会影响奖励形式的广告(小程序\小游戏等)
+
+
+
+
+
+
+
+
+
+
+
+
 q.
+
 i
 r
 n
+
 rp
+
+
 v6i
+
+#pkg=ad.xiaomi.com;<各大视频客户端广告>
+#--小米视频-MIUI
 video.market.xiaomi.com
 t1.a.market.xiaomi.com
 t2.a.market.xiaomi.com
@@ -890,6 +927,7 @@ xiaomi.m.cn.miaozhen.com
 xiaomi-dtv.m.cn.miaozhen.com
 baiducdncmn3.inter.iqiyi.com
 nadvideo2.baidu.com
+#--爱奇艺-Qiyi
 api.cupid.iqiyi.com
 api.yuedu.iqiyi.com
 c.uaa.iqiyi.com
@@ -937,6 +975,7 @@ baiducdncmn-gd.inter.iqiyi.com
 bdcdncmn-gd.inter.71edge.com
 mixer.cupid.ptqy.gitv.tv
 msg.ptqy.gitv.tv
+#--腾讯视频-Tencent
 aiseet.aa.atianqi.com
 livep.l.aiseet.atianqi.com
 lives.l.aiseet.atianqi.com
@@ -981,6 +1020,7 @@ news.l.qq.com
 mcgi.v.qq.com
 soup.v.qq.com
 bksoup.v.qq.com
+#--搜狐视频-Sohu
 sohu-dtv.m.cn.miaozhen.com
 agn.aty.snmsohu.aisee.tv
 agn.aty.sohu.com
@@ -1007,9 +1047,11 @@ wl.hd.sohu.com
 download.wan.sohu.com
 g.jssdk.net
 changyan.sohu.com
+#--乐视视频-Letv
 n.mark.letv.com
 static.app.m.letv.com
 test.ark.letv.com
+#--PP视频-PPTV
 de.as.cp61.ott.cibntv.net
 lives.l.cp81.ott.cibntv.net
 mtrace.play.cp81.ott.cibntv.net
@@ -1032,6 +1074,7 @@ ads.data.pplive.com
 gas.data.pplive.com
 plt.data.pplive.com
 web.data.pplive.com
+#--芒果TV-Mgtv
 mobile.da.mgtv.com
 mobile2.da.mgtv.com
 ott.da.mgtv.com
@@ -1056,6 +1099,7 @@ zx.da.mgtv.com
 apperr.log.mgtv.com
 m2.da.mgtv.com
 m.da.mgtv.com
+#--央视影音-CNTV
 cws-cctv.conviva.com
 galaxy.bjcathay.com
 rtas.videocc.net
@@ -1066,6 +1110,7 @@ adguanggao.eee114.com
 cctv.adsunion.com
 adstore-1252524079.file.myqcloud.com
 adstore-index-1252524079.file.myqcloud.com
+#--风行&酷喵-FunShion
 aa0.pub.funshion.com
 aa1.pub.funshion.com
 adm.funshion.com
@@ -1094,6 +1139,7 @@ yk-ssp.ad.youku.com
 adashx.ut.youku.com
 adx-open-service.youku.com
 h-adashx.ut.youku.com
+#--咪咕|土豆|人人|凤凰|等等……
 ggx.cmvideo.cn
 adxserver.ad.cmvideo.cn
 openstorage.ad.cmvideo.cn
@@ -1151,6 +1197,8 @@ ifengad.3g.ifeng.com
 adv.fjtv.net
 dsa-mfp.fengshows.cn
 sdk.cferw.com
+
+#pkg=ad.adwars.com;大圣净化规则
 ad.weixin.qq.com
 wxa.wxs.qq.com
 wxsnsdythumb.wxs.qq.com
@@ -1594,6 +1642,8 @@ mobilead.kuwo.cn
 splashimgbssdl.yun.kugou.com
 m1.ad.10010.com
 config.unityads.unitychina.cn
+
+#pkg=googleanalysis.mobi;谷歌广告服务
 ads.google.com
 www.googleadservices.com
 google-analytics.com
@@ -1811,6 +1861,8 @@ s0.2mdn.net
 s1.2mdn.net
 media.admob.com
 ssl.google-analytics.com
+
+#pkg=baidu.com;百度广告服务
 adm.baidu.com
 ad.player.baidu.com
 adscdn.baidu.com
@@ -1880,6 +1932,8 @@ sa.tuisong.baidu.com
 api.tuisong.baidu.com
 sa8.tuisong.baidu.com
 cpro.baidustatic.com
+
+#pkg=qq.com;腾讯广告服务
 ad.qun.qq.com
 adping.qq.com
 adpm.app.qq.com
@@ -1957,6 +2011,8 @@ public.gdtimg.com
 cmshow.gtimg.cn
 qappcenterv6.3g.qq.com
 aeventlog.beacon.qq.com
+
+#pkg=alibaba.com;阿里广告服务
 adash.man.aliyuncs.com
 cdn-ads.oss-cn-shanghai.aliyuncs.com
 ynuf.aliapp.org
@@ -1993,6 +2049,8 @@ h-adashx4yt.ut.taobao.com
 umdc.aliapp.org
 gaode-acs.m.taobao.com
 gaode-jmacs.m.taobao.com
+
+#pkg=xxx.ad.doubleclick.net;广告联盟
 iqiyi.irs01.com
 letv.irs01.com
 s9.irs03.com
@@ -2488,10 +2546,13 @@ hzs8.cnzz.com
 hzs9.cnzz.com
 hzvs1.cnzz.com
 pcookie.cnzz.com
+# Connected User Experiences and Telemetry
 vortex-win.data.microsoft.com
 vortex.data.microsoft.com
 vortex.data.microsoft.com.akadns.net
 vortex-sandbox.data.microsoft.com
+
+# Unclassified
 telemetry.microsoft.com
 telemetry.urs.microsoft.com
 choice.microsoft.com
@@ -2510,6 +2571,8 @@ cache.datamart.windows.com
 diagnostics.support.microsoft.com
 spynet2.microsoft.com
 spynetalt.microsoft.com
+
+# Office Telemetry
 onecollector.cloudapp.aria.akadns.net
 prod.nexusrules.live.com.akadns.net
 nmetrics.samsung.com
@@ -2527,10 +2590,12 @@ books-analytics-events.apple.com
 stocks-analytics-events.apple.com
 stocks-analytics-events.news.apple-dns.net
 sa.api.intl.miui.com
+
 data.mistat.xiaomi.com
 data.mistat.intl.xiaomi.com
 data.mistat.india.xiaomi.com
 data.mistat.rus.xiaomi.com
+
 tracking.miui.com
 tracking.intl.miui.com
 tracking.india.miui.com
@@ -2541,9 +2606,11 @@ metrics2.data.hicloud.com
 metrics3.data.hicloud.com
 metrics4.data.hicloud.com
 metrics5.data.hicloud.com
+
 logservice.hicloud.com
 logservice1.hicloud.com
 data.alexa.com
+
 device-metrics-us.amazon.com
 device-metrics-us-2.amazon.com
 logs.roku.com
@@ -2627,6 +2694,7 @@ ctobsnssdk.com
 dig.bdurl.net
 extlog.snssdk.com
 i.snssdk.com
+
 mcs.snssdk.com
 pangolin.snssdk.com
 pangolin-sdk-toutiao.com
@@ -3082,6 +3150,7 @@ imp.optaim.com
 inte.sogou.com
 inte.sogoucdn.com
 lu.sogoucdn.com
+
 theta.sogoucdn.com
 track.sohu.com
 uranus.sogou.com
