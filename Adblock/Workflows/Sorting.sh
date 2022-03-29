@@ -25,7 +25,7 @@ sed -e 's/^0.0.0.0 //' ./Adblock/Cache/Sorting/ilpl-1.txt > ./Adblock/Cache/Sort
 # 删除 regexp 行
 sed -e '/^regexp:/d' ./Adblock/Cache/Sorting/Loyalsoldier-source.txt > ./Adblock/Cache/Sorting/Loyalsoldier-1.txt
 # 删除 :@ads$|^domain:|^full:
-sed -e 's/:@ads$|^domain:|^full://' ./Adblock/Cache/Sorting/Loyalsoldier-1.txt > ./Adblock/Cache/Sorting/Upstream-3.txt
+sed -e 's/(:@ads$|^domain:|^full:)//' ./Adblock/Cache/Sorting/Loyalsoldier-1.txt > ./Adblock/Cache/Sorting/Upstream-3.txt
 
 ### jdlingyu/ad-wars
 # 删除注释|localhost$行
