@@ -24,7 +24,8 @@ find ./Adblock/Cache/Upstream/jdlingyu/ad-wars -type f -name "*.txt" | xargs cat
 sed -e '/localhost/d' ./Adblock/Cache/Process/jdlingyu/1.txt > ./Adblock/Cache/Process/jdlingyu/2.txt
 sed -e '/#/d' ./Adblock/Cache/Process/jdlingyu/2.txt > ./Adblock/Cache/Process/jdlingyu/3.txt
 sed -e 's/127.0.0.1 //' ./Adblock/Cache/Process/jdlingyu/3.txt > ./Adblock/Cache/Process/jdlingyu/ad-wars.txt
-####
+
+
 {
     cat ./Adblock/Cache/Process/NextDNS/metadata.txt
     cat ./Adblock/Cache/Process/ilpl/ad-hosts.txt
