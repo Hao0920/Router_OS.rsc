@@ -1,5 +1,3 @@
-regexp:^cdn\d-epicgames-\d+\.file\.myqcloud\.com$
-regexp:^epicgames-download\d-\d+\.file\.myqcloud\.com$
 leagueoflegends.cn
 lpl.com.cn
 xboxlive.cn
@@ -87,12 +85,6 @@ su.itunes.apple.com
 sync.itunes.apple.com
 upp.itunes.apple.com
 weather-data.apple.com
-regexp:^a[1-5]\.mzstatic\.com$
-regexp:^cdn(-cn)?[1-4]?\.apple-mapkit\.com$
-regexp:^cl[1-5]-cdn\.origin-apple\.com\.akadns\.net$
-regexp:^cl[1-5]\.apple\.com$
-regexp:^is[1-5](-ssl)?\.mzstatic\.com$
-regexp:^s[1-5]?\.mzstatic\.com$
 a1.mzstatic.com
 a2.mzstatic.com
 a3.mzstatic.com
@@ -333,4 +325,3 @@ menu-static.gog-statics.com
 productcard.gog-statics.com
 static-login.gog-statics.com
 www4-static.gog-statics.com
-regexp:^images(-\d)?\.gog-statics\.com$

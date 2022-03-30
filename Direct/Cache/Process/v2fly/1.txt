@@ -1,3 +1,1231 @@
+battlebreakers.com
+eac-cdn.com
+easy.ac
+easyanticheat.net
+epicgames.com
+fortnite.com
+paragon.com
+playparagon.com
+roborecall.com
+shadowcomplex.com
+spyjinx.com
+unrealengine.com
+unrealtournament.com
+
+regexp:^cdn\d-epicgames-\d+\.file\.myqcloud\.com$ @cn
+regexp:^epicgames-download\d\.akamaized\.net$
+regexp:^epicgames-download\d-\d+\.file\.myqcloud\.com$ @cn
+cygames.jp
+cygames.co.jp
+worldflipper.jp
+
+worldflipper.akamaized.net
+umamusume.akamaized.net
+fastlane.ci
+fastlane.tools
+historyofdota.com
+historyofdota.net
+historyofdota.org
+instituteofwar.org
+molesports.com
+rgpub.io
+riot-games.com
+riot.com
+riot.net
+riotcdn.net
+riotgames.co.kr
+riotgames.com
+riotgames.info
+riotgames.jp
+riotgames.net
+riotgames.tv
+riotpin.com
+riotpoints.com
+rstatic.net
+supremacy.com
+supremacy.net
+
+
+# League of Lengends
+championshipseriesleague.com
+lcsmerch.com
+leaguehighschool.com
+leagueoflegends.ca
+leagueoflegends.cn @cn
+leagueoflegends.co.kr
+leagueoflegends.com
+leagueoflegends.info
+leagueoflegends.kr
+leagueoflegends.net
+leagueoflegends.org
+leagueoflegendsscripts.com
+leaguesharp.info
+leaguoflegends.com
+learnwithleague.com
+lol-europe.com
+lolclub.org
+lolespor.com
+lolesports.com
+lolfanart.net
+lolpcs.com
+lolshop.co.kr
+lolstatic.com
+lolusercontent.com
+lpl.com.cn @cn
+pvp.net
+pvp.tv
+ulol.com
+
+full:lolstatic-a.akamaihd.net
+
+
+# Valorant
+playvalorant.com
+
+
+# Riot Forge
+riotforgegames.com
+ruinedking.com
+convrgencegame.com
+
+include:bethesda
+include:mojang
+
+forzamotorsport.net
+forzaracingchampionship.com
+forzarc.com
+orithegame.com
+renovacionxboxlive.com
+tellmewhygame.com
+xbox.co
+xbox.com
+xbox.eu
+xbox.org
+xbox360.co
+xbox360.com
+xbox360.eu
+xbox360.org
+xboxab.com
+xboxgamepass.com
+xboxgamestudios.com
+xboxlive.cn @cn
+xboxlive.com
+xboxone.co
+xboxone.com
+xboxone.eu
+xboxplayanywhere.com
+xboxstudios.com
+xbx.lv
+appleswift.com
+swift.org
+swiftui.cn @cn
+swiftui.com.cn @cn
+ubi.com
+ubisoft.com
+
+# Ubisoft Connect
+ubisoftconnect.com
+uplay.com
+full:ubisoft-uplay-savegames.s3.amazonaws.com
+full:ubisoft-orbit-savegames.s3.amazonaws.com
+full:ubistatic3-a.akamaihd.net
+full:uplaypc-s-ubisoft.cdn.ubi.com @cn
+# All .playstation domains
+playstation
+
+playstation.com
+playstation.net
+sonyentertainmentnetwork.com
+full:avatargarenanow-a.akamaihd.net
+full:cdngarenanow-a.akamaihd.net
+full:dlgarenanow-a.akamaihd.net
+full:dlmobilegarena-a.akamaihd.net
+garena.co.id
+garena.co.th
+garena.com
+garena.live
+garena.my
+garena.ph
+garena.sg
+garena.tv
+garena.tw
+garena.vn
+garenanow.com
+seagroup.comflutter.dev
+flutterapp.com
+# 米哈游
+hoyoverse.com
+mihayou.com
+mihoyo.com
+
+# 崩坏2
+benghuai.com
+
+# 崩坏3
+bh3.com
+honkaiimpact3.com
+
+# 星穹鐵道
+honkaistarrail.com
+
+# HoYoLAB
+hoyolab.com
+
+# 原神
+yuanshen.com
+
+# Akamai
+regexp:^.+-mihayo\.akamaized\.net$
+12diasdepresentesdeitunes.com
+12diasderegalosdeitunes.cl
+12diasderegalosdeitunes.co
+12diasderegalosdeitunes.co.cr
+12diasderegalosdeitunes.co.ni
+12diasderegalosdeitunes.co.ve
+12diasderegalosdeitunes.com
+12diasderegalosdeitunes.com.co
+12diasderegalosdeitunes.com.hn
+12diasderegalosdeitunes.com.ni
+12diasderegalosdeitunes.com.ve
+12diasderegalosdeitunes.cr
+12diasderegalosdeitunes.gt
+12diasderegalosdeitunes.hn
+12diasderegalosdeitunes.pe
+12joursdecadeauxdeitunes.com
+apple-itunes.cn @cn
+itun.es
+itunbes.com
+ituneas.com
+itunes-apple.cn @cn
+itunes-radio.net
+itunes.ca
+itunes.co
+itunes.co.th
+itunes.com
+itunes.hk
+itunes.mx
+itunes.org
+itunes.rio
+itunes.us
+itunes12days.com
+itunesapple.cn @cn
+itunesessentials.com
+itunesfestivals.com
+itunesiradio.com
+ituneslatino.com
+ituneslogin.net
+itunesmatch.com
+itunesparty.com
+itunesradio.cn @cn
+itunesradio.com
+itunesradio.com.cn @cn
+itunesradio.rio
+itunesradio.tv
+itunesradio.tw
+itunesstore.co
+itunesu.com
+itunesu.net
+iutunes.com
+wwwitunes.com
+
+full:itunes-apple.com.akadns.net
+op.gg
+full:opgg-static.akamaized.net
+# All .youtube domains
+youtube
+
+ggpht.cn @cn
+ggpht.com
+googlevideo.com
+withyoutube.com
+youtu.be
+youtube-nocookie.com
+youtube-ui.l.google.com
+youtube.ae
+youtube.al
+youtube.am
+youtube.at
+youtube.az
+youtube.ba
+youtube.be
+youtube.bg
+youtube.bh
+youtube.bo
+youtube.by
+youtube.ca
+youtube.cat
+youtube.ch
+youtube.cl
+youtube.co
+youtube.co.ae
+youtube.co.at
+youtube.co.cr
+youtube.co.hu
+youtube.co.id
+youtube.co.il
+youtube.co.in
+youtube.co.jp
+youtube.co.ke
+youtube.co.kr
+youtube.co.ma
+youtube.co.nz
+youtube.co.th
+youtube.co.tz
+youtube.co.ug
+youtube.co.uk
+youtube.co.ve
+youtube.co.za
+youtube.co.zw
+youtube.com
+youtube.com.ar
+youtube.com.au
+youtube.com.az
+youtube.com.bd
+youtube.com.bh
+youtube.com.bo
+youtube.com.br
+youtube.com.by
+youtube.com.co
+youtube.com.do
+youtube.com.ec
+youtube.com.ee
+youtube.com.eg
+youtube.com.es
+youtube.com.gh
+youtube.com.gr
+youtube.com.gt
+youtube.com.hk
+youtube.com.hn
+youtube.com.hr
+youtube.com.jm
+youtube.com.jo
+youtube.com.kw
+youtube.com.lb
+youtube.com.lv
+youtube.com.ly
+youtube.com.mk
+youtube.com.mt
+youtube.com.mx
+youtube.com.my
+youtube.com.ng
+youtube.com.ni
+youtube.com.om
+youtube.com.pa
+youtube.com.pe
+youtube.com.ph
+youtube.com.pk
+youtube.com.pt
+youtube.com.py
+youtube.com.qa
+youtube.com.ro
+youtube.com.sa
+youtube.com.sg
+youtube.com.sv
+youtube.com.tn
+youtube.com.tr
+youtube.com.tw
+youtube.com.ua
+youtube.com.uy
+youtube.com.ve
+youtube.cr
+youtube.cz
+youtube.de
+youtube.dk
+youtube.ee
+youtube.es
+youtube.fi
+youtube.fr
+youtube.ge
+youtube.googleapis.com
+youtube.gr
+youtube.gt
+youtube.hk
+youtube.hr
+youtube.hu
+youtube.ie
+youtube.in
+youtube.iq
+youtube.is
+youtube.it
+youtube.jo
+youtube.jp
+youtube.kr
+youtube.kz
+youtube.la
+youtube.lk
+youtube.lt
+youtube.lu
+youtube.lv
+youtube.ly
+youtube.ma
+youtube.md
+youtube.me
+youtube.mk
+youtube.mn
+youtube.mx
+youtube.my
+youtube.ng
+youtube.ni
+youtube.nl
+youtube.no
+youtube.pa
+youtube.pe
+youtube.ph
+youtube.pk
+youtube.pl
+youtube.pr
+youtube.pt
+youtube.qa
+youtube.ro
+youtube.rs
+youtube.ru
+youtube.sa
+youtube.se
+youtube.sg
+youtube.si
+youtube.sk
+youtube.sn
+youtube.soy
+youtube.sv
+youtube.tn
+youtube.tv
+youtube.ua
+youtube.ug
+youtube.uy
+youtube.vn
+youtubeeducation.com
+youtubeembeddedplayer.googleapis.com
+youtubefanfest.com
+youtubegaming.com
+youtubego.co.id
+youtubego.co.in
+youtubego.com
+youtubego.com.br
+youtubego.id
+youtubego.in
+youtubei.googleapis.com
+youtubekids.com
+youtubemobilesupport.com
+yt.be
+ytimg.com
+# Main domain which weblogs are registered in
+blogger.com
+blogblog.com
+
+# Subdomains which weblogs can be accessed from
+blogspot.ae
+blogspot.al
+blogspot.am
+blogspot.ba
+blogspot.be
+blogspot.bg
+blogspot.bj
+blogspot.ca
+blogspot.cf
+blogspot.ch
+blogspot.cl
+blogspot.co.at
+blogspot.co.id
+blogspot.co.il
+blogspot.co.ke
+blogspot.co.nz
+blogspot.co.uk
+blogspot.co.za
+blogspot.com
+blogspot.com.ar
+blogspot.com.au
+blogspot.com.br
+blogspot.com.by
+blogspot.com.co
+blogspot.com.cy
+blogspot.com.ee
+blogspot.com.eg
+blogspot.com.es
+blogspot.com.mt
+blogspot.com.ng
+blogspot.com.tr
+blogspot.com.uy
+blogspot.cv
+blogspot.cz
+blogspot.de
+blogspot.dk
+blogspot.fi
+blogspot.fr
+blogspot.gr
+blogspot.hk
+blogspot.hr
+blogspot.hu
+blogspot.ie
+blogspot.in
+blogspot.is
+blogspot.it
+blogspot.jp
+blogspot.kr
+blogspot.li
+blogspot.lt
+blogspot.lu
+blogspot.md
+blogspot.mk
+blogspot.mx
+blogspot.my
+blogspot.nl
+blogspot.no
+blogspot.pe
+blogspot.pt
+blogspot.qa
+blogspot.re
+blogspot.ro
+blogspot.rs
+blogspot.ru
+blogspot.se
+blogspot.sg
+blogspot.si
+blogspot.sk
+blogspot.sn
+blogspot.td
+blogspot.tw
+blogspot.ug
+blogspot.vn
+v8.dev
+v8project.org
+rockstargames.com
+rsg.sc
+
+full:gamedownloads-rockstargames-com.akamaized.net
+full:media-rockstargames-com.akamaized.net
+full:videos-rockstargames-com.akamaized.net
+kaggle.com
+kaggle.io
+polymer-project.org
+polymerproject.org
+100beatscheap.com
+1monsterbeatsbydreus.com
+2013beatsbydrdreonline.com
+2013beatsbydrdreshop.com
+2013beatsbydreshop.com
+2013beatshdcybermonday.com
+2013cheapestbeats.com
+2013newbeatsworld.com
+2013pascherbeatsbydre.com
+2014cheapbeatsbydre.com
+2beatsdre.com
+2buybeatsbydre.com
+2drdrebeats.com
+40shopping.com
+4beatsbydre.com
+5beatsbydre.com
+aaagradeheadphones.com
+aanaan.com
+abcheadphones.com
+abeatsbydrdre.com
+aeasyshop.com
+airmay.com
+ajtalk.com
+albeats.com
+annstores.net
+aokwholesale.net
+aucheapbeats.com
+audiobeatsau.com
+audiobeatsbydre.com
+audiomonsterbeatsonline.com
+auricularemonsterbeats.com
+auricularesbeatsbaratosshop.com
+auricularesbeatsmarkt.com
+ausbeatsbydrdre.com
+bag-glasses1.com
+bandgirlz.com
+baxsound.com
+bbestmall.com
+beatbd.com
+beatbydre2013.com
+beatbydremonster.com
+beatbydreheadphonesonsale.com
+beatbydrekopen.com
+beatbydreuk2014.com
+beatdrdres.com
+beatfactoryoutlets.com
+beatmonstersaustralia.net
+beats-by-dre-australia.com
+beats-bydrdre.net
+beats-bydre-mall.com
+beats-bydrecheapsale.com
+beats-bydreoutletonline.com
+beats-bydreoutletsale.com
+beats-bydreoutletsale.net
+beats-bydreoutletssale.net
+beats-bydrestore.com
+beats-bydreuk.com
+beats-deal.com
+beats-dre-us.com
+beats-headphones-buy-cheap.com
+beats-headphones.us
+beats-sale.com
+beats-seller.com
+beats-soaho.com
+beats1.cc
+beats1.cn @cn
+beats1.tv
+beats1.com.cn @cn
+beats123.com
+beats2.com.cn @cn
+beats4.cn @cn
+beats4.net
+beats4outlets.com
+beats4salecheap.com
+beatsallsale.com
+beatsaudifonos.com
+beatsaudiobydre.com
+beatsaudiobydre.net
+beatsaudios.net
+beatsbeatsmonster.com
+beatsbestdeals.com
+beatsblackfridaydeals.net
+beatsblackfridayretails.com
+beatsboxingdayuksale.com
+beatsbydrdre-headphones.com
+beatsbydrdre-officials5.com
+beatsbydrdre-online.com
+beatsbydrdre-onsale.com
+beatsbydrdre-store.com
+beatsbydrdre-store.us
+beatsbydrdre4sale.com
+beatsbydrdrebiz.com
+beatsbydrdrecustom.com
+beatsbydrdredanmark.com
+beatsbydrdremall.com
+beatsbydrdreoutlet.com
+beatsbydrdres.com
+beatsbydrdresale.net
+beatsbydrdrestore.com
+beatsbydrdreus.com
+beatsbydre-beatsheadphone.com
+beatsbydre-chen.com
+beatsbydre-club.com
+beatsbydre-headphones.com
+beatsbydre-headphonesshop.com
+beatsbydre-mall.com
+beatsbydre-outlet.com
+beatsbydre-outletsale.net
+beatsbydre-outletstore.com
+beatsbydre-sell.com
+beatsbydre-store.com
+beatsbydre-studio.com
+beatsbydre-us.com
+beatsbydre.jp
+beatsbydre2081.com
+beatsbydre411.com
+beatsbydre4usales.com
+beatsbydreauofficial.com
+beatsbydreausale.net
+beatsbydreaustralia-sale.com
+beatsbydreaustraliaonline.com
+beatsbydreaustraliaonlines.com
+beatsbydreaustraliasales.com
+beatsbydrebeatsby.com
+beatsbydreblackfriday2013.com
+beatsbydreblackfridaypro.com
+beatsbydreboxingdayca.com
+beatsbydrecasquesfr.com
+beatsbydrecheap-outletstore.com
+beatsbydrecheaper.com
+beatsbydrecheaponlinesales.com
+beatsbydrecolors.com
+beatsbydrecustomwireless.com
+beatsbydrecybermondaydeals2013.com
+beatsbydrecybermondaydeals2013.net
+beatsbydredanmarks.com
+beatsbydredealsblackfriday.com
+beatsbydredealscybermonday.com
+beatsbydrediscount.com
+beatsbydrediscountonline.net
+beatsbydredr.com
+beatsbydreexecutivesale.com
+beatsbydreformall2013-nl.com
+beatsbydreforsalesonline.com
+beatsbydreforshop2013-nl.com
+beatsbydreforstore.com
+beatsbydreforyououtlet.com
+beatsbydrefr.com
+beatsbydrefrcasquepascher.com
+beatsbydrefriday.com
+beatsbydregot.com
+beatsbydrehd.com
+beatsbydrehd.net
+beatsbydreheadphones-nz.com
+beatsbydreheadphonesolo.com
+beatsbydrehut.com
+beatsbydreinexpensive.com
+beatsbydreireland-sales.com
+beatsbydreirelandonlines.com
+beatsbydreirelandsale.com
+beatsbydreirelandsonline.com
+beatsbydremall2013.com
+beatsbydremonsteraustralia.com
+beatsbydrenls.com
+beatsbydrenorge1.net
+beatsbydreofficialdanmark.com
+beatsbydreoksale.com
+beatsbydreol.com
+beatsbydreonlie2013-nl.com
+beatsbydreonlines-ireland.com
+beatsbydreonlines-uk.com
+beatsbydreonlinesale-nz.com
+beatsbydreoordopjes.com
+beatsbydreoslo.com
+beatsbydreoutletsale.com
+beatsbydreoutletscheap.com
+beatsbydrerealstore.com
+beatsbydres-shop.com
+beatsbydresale-uk.com
+beatsbydresalemall2013.com
+beatsbydresales.us
+beatsbydresalesonline-australia.com
+beatsbydresaleonlines-nz.com
+beatsbydresdanmark.net
+beatsbydreshop-uk.com
+beatsbydreshops.net
+beatsbydresingapores.com
+beatsbydresingaporesale.com
+beatsbydrespeakers.com
+beatsbydresold.com
+beatsbydresolohdonline-canada.com
+beatsbydresonline-nz.com
+beatsbydrestorevip.com
+beatsbydressale.com
+beatsbydressolo.com
+beatsbydresstudio.com
+beatsbydrestudio-australia.com
+beatsbydrestudio.com
+beatsbydretoutlet.com
+beatsbydreuk.com
+beatsbydreuk.net
+beatsbydreus.com
+beatsbydrevipde.com
+beatsbydrew.com
+beatsbydrsmonsterinusa.com
+beatsbymusic.net
+beatsbysdrbre.com
+beatsbysdrdres.com
+beatscasque-france.com
+beatscheap-nz.com
+beatscheap-uk.com
+beatscheapforsale.com
+beatscollection2014.com
+beatscustomblackfriday.com
+beatsdanmark2013.com
+beatsdrdre-headphones.com
+beatsdrdre-it.com
+beatsdrdre-solo.com
+beatsdrdre2014.com
+beatsdrdrecuffie.net
+beatsdrdrekaufenschweiz.net
+beatsdrdreneon.com
+beatsdre-monster.com
+beatsdre.net
+beatsdre4cheap.com
+beatsdrecheap.com
+beatsdredreheadphones.com
+beatsdreforsale.com
+beatsdreinau.com
+beatsdremonster-uk.com
+beatsdrenewcolorful4usale.com
+beatsdreoutletsale.com
+beatsdresale2013.com
+beatsdresalestore.com
+beatsdresolo2013.com
+beatsdreus.com
+beatsearbudsheadphoness.com
+beatsfacstore.com
+beatsfactoroutlets.com
+beatsfactorycollection.com
+beatsfactoryoutles.com
+beatsforcheap-usa.com
+beatsforme.com
+beatsfranceofficiel.com
+beatselectronic.net
+beatselectronics.com
+beatsep.cn @cn
+beatsep.com
+beatsep.net
+beatsheadphones-discount.com
+beatsheadphones1.com
+beatsheadphones2u.com
+beatsheadphonesale.com
+beatsheadphonesdealer.com
+beatsheadphonesforcheap.net
+beatsheadphonesonline.com
+beatsheadphoness.com
+beatsheadphonestudio.com
+beatsheadphonesusamall.com
+bestshoesale2014.net
+beatshopuk.com
+beatsincanada.com
+beatsinsingapore.com
+beatsireland.net
+beatsjoy.com
+beatsmonstersales.com
+beatsmusic.com
+beatsmusic.wang
+beatsneon.com
+beatsnzsale.com
+beatsodre.com
+beatsofdre-usa.com
+beatsonblackfriday2013.com
+beatsone.net
+beatsoutlet.net
+beatsoutletanytime.com
+beatsoutletonlines.com
+beatspascher-bydre.com
+beatspascher-fr.net
+beatspascher.net
+beatspaschers.net
+beatspillnewcolor.com
+beatspills.com
+beatspromonsterjp.com
+beatspromotions.com
+beatssales.com
+beatssaleus.com
+beatssaustraliabuy.com
+beatssbyaustralia.com
+beatssbydredanmark.com
+beatsshop-uk.com
+beatsshop-usa.com
+beatsshopstore.com
+beatssingapores.com
+beatssingaporeshop.com
+beatsstudiohodetelefoner.com
+beatsstudiosite.com
+beatstoreusa.com
+beatsua.com
+beatswholesale.us
+beatswirelesscheap.com
+beatswirelesscuffie.com
+begin-trade.com
+bestbeats4u.com
+biitii.com
+blackfridaydrebeatsnew.com
+blackfridaydrebeatsshop.com
+bloommicroventures.com
+bookonsky.net
+bossae.com
+brandeasygo.com
+brandelectronic.com
+brandproducts1688.com
+brands098.com
+businesswebwise.com
+buy-from-shanghai.com
+buybeatsbydre-uk.com
+buybeatsheadphonesbydre.com
+buycheapbeatsbus.com
+buycheapbeatsbydre.com
+buycheapbeatsbydreshop.com
+buycheapbeatsdreuk.com
+buydrdrebeatbox.com
+buyminibeatbox.com
+buyonlineheadphones.com
+buyshoponly.com
+buzzardflapper.com
+bybeatsdre.com
+bydrebeats.com
+canada-beatsbydre.com
+casque-fr.com
+casquebeatsbydrdresolohd.com
+casquebeatsdocteurdre.com
+casquebeatsdre2013.com
+casquebeatsenligne.com
+casquebeatsfracheter.com
+casquebeatsmer.net
+casquebeatsofficiel-fr.com
+casquebeatspascher2013.com
+casquebeatssolo.net
+casquedrdrebeatssfr.com
+casquemonsterbeats.com
+casquemonsterbeatsbydre2013.com
+casquesbeatsaudio.com
+cheap-beats-by-dre.net
+cheap-beatsbydre.com
+cheapbagshoes.com
+cheapbeats.us
+cheapbeats365.com
+cheapbeats4sale.net
+cheapbeatsaustraliasale.com
+cheapbeatsbus.com
+cheapbeatsbydr.com
+cheapbeatsbydrdrepro.com
+cheapbeatsbydre-au.com
+cheapbeatsbydre99.com
+cheapbeatsbydrefau.com
+cheapbeatsbydremall.com
+cheapbeatsbydremonster.com
+cheapbeatsbydrenz.net
+cheapbeatsbydreonsale.com
+cheapbeatsbydreoutlet-nz.com
+cheapbeatsbydreoutlet.com
+cheapbeatsbydreoutlets2013.com
+cheapbeatsbydresale.com
+cheapbeatsbydreshop.com
+cheapbeatsdrdresolo.com
+cheapbeatsbydrestudioedition.com
+cheapbeatsbydrestudioutlet.com
+cheapbeatsdrestudios.com
+cheapbeatsheadphone2014.com
+cheapbeatsheadphones.us
+cheapbeatsie.com
+cheapbeatsla.com
+cheapbeatssale4u.com
+cheapbeatsshopbydre.com
+cheapcustombeatsbydre.com
+cheapdrdrebeats8.com
+cheapdrdrebeatsca.com
+cheapdrebeats8.net
+cheaperbeatsbydresale.com
+cheapestbeatsdrdre.com
+cheapheadphonesland.com
+cheapheadphonessale.com
+cheapheadsetmall.com
+cheapheadsetshop.com
+cheapmonsterbeatsbydrdre.com
+cheapmonsterbeatsheadsets.com
+cheapmonstersbeatsonsale.com
+cheapmonsterbeatssale.com
+cheapmonsterbeatsusa.us
+cheapnewbeatsbydre.com
+cheapsalemonster.com
+cheapshoesvip.com
+cheapwireless04.com
+cheapwirelessbeats.com
+cheerwholesale.us
+chihair-straightener.com
+chinaclothesstore.com
+ciattackers.com
+cmhalq.com
+cnshopin.com
+coolmonster.net
+cozydrdrebeats.com
+cqcorea.com
+cuffiesaldi.com
+custombeatsbydrebuy.com
+custombeatsdeals.com
+custombeatsforcheap.com
+custombeatsny.com
+custombeatssbydreus.com
+customdrdrebeats.com
+customizedbeatbydre.com
+customizedbeatsbydre.com
+customizedbeatsdre.com
+cybermondaybeats4sale.com
+danemarket.com
+danmarkbeatsbydrdre.com
+dctbeatsbydre.com
+dealsbeatsblackfriday.com
+detaliczny.com
+discountbeatsbydre-us.com
+discountbeatsstore.com
+dkbeatsbydre.com
+drbeatsukmart.com
+drdre-beats.com
+drdrebeats-chen.com
+drdrebeats-headphone.com
+drdrebeats-usa.com
+drdrebeatsale.com
+drdrebeatsbillig.com
+drdrebeatsdesale.com
+drdrebeatsdiscount.com
+drdrebeatsforu.com
+drdrebeatsretail2013.com
+drdrebeatssale7.com
+drdrebeatsuk.com
+drdreheadphonebeats.com
+drdreheadphonekey.com
+drdreheadphonesusstore.com
+drdremonster-beats.com
+drdremonsterdre.com
+drdreprobeatssale.com
+drdrefnac.com
+drebeats-australia.com
+drebeats-france.com
+drebeats-monster.com
+drebeats-monsteraustralia.com
+drebeats-monsterusa.com
+drebeats-singapore.com
+drebeats-singapore.net
+drebeats-singaporecheap.com
+drebeats-singaporecheap.net
+drebeats-solo.com
+drebeats-studio.com
+drebeatsaustralia-cheap.com
+drebeatsaustralia-cheap.net
+drebeatsbuy.com
+drebeatsbydreoutlet.com
+drebeatscanada.com
+drebeatsdeutschland.net
+drebeatsforsaleus.com
+drebeatsheadphones-nz.com
+drebeatshome.com
+drebeatsoutletstore.com
+drebeatsoldes.com
+drebeatspill.com
+drebeatssite.com
+drebeatssolocybermondaysale.com
+drebeatsstudio2013.com
+drebeatstudio.com
+drebyby.com
+dremonsterbeatsoutlets.com
+dreprobeats.com
+dreprofy.com
+dtsell.com
+earphonescheapest.com
+ebuyheadphones.com
+esbeatsbydrebuy.com
+etheadphones.com
+famosascalvas.com
+findmybeats.com
+fr-beatsbydrestore.com
+francecasquebeatssolde.com
+frcasquesbeats.com
+free-aa.com
+free-sns.com
+frishoes.com
+gamebeforethegame.com
+getdrebeatssale.com
+gmnetworks.net
+gobeatsye.com
+gobuyonlinestore.net
+goodsdunk.net
+headphonepubs.com
+headphones-cool.com
+headphones-dre.com
+headphones-outlet-online.com
+headphonesbeatsaudio.com
+headphonesbeatsbydre.com
+headphoneses.com
+headphoneshome.com
+headphoneshotsales.com
+headphonesol.com
+headphonesretailer.com
+headphonessupply.com
+headphonezip.com
+headset987.com
+hellokittybeats.com
+highbolt.net
+highdefinitionbeatsbydre.com
+hipaa6020.com
+hipzoom.net
+honawalaan.com
+hotbeatsonsale.com
+hotmonsterbeats.com
+hottestheadphonesonline.com
+hrsaz.com
+ibeats-uk.com
+ibeatsbydre.cc
+ibeatsbydre.com
+igoshopping.net
+illianacomputerrecycling.com
+imonsterbeats.com
+incentivetravelgifts.com
+ioffergift.com
+islamiccenterofnewlondon.com
+italiabeatsbydrdre.com
+jkbeats.com
+kickshatchannel.com
+kobbeatssbydredk.com
+kopfhorergunstigshop.com
+leecountytimes.com
+lexuemei.com
+lovebeatsdr.com
+lovemarca.com
+luckyissue.com
+lyzsxx.com
+mairbeats.com
+makeeu.com
+mallheadphone.com
+mbeats-tech.com
+mbheadphone.com
+micstl.com
+mmonsterheadphones.net
+monbeats2013.com
+monster-beats-by-dr-dre.com
+monster-beats-headphones.com
+monsterbeats-cheap.com
+monsterbeats-headphone.com
+monsterbeats-onsale.com
+monsterbeats-solo.com
+monsterbeats-solo.net
+monsterbeats365buy.com
+monsterbeats8beatsbydre.com
+monsterbeatsale.com
+monsterbeatsalestore.com
+monsterbeatssalg.com
+monsterbeatsau.com
+monsterbeatsbydrdre-nz.com
+monsterbeatsbydrdre-usa.com
+monsterbeatsbydrdrecanada.com
+monsterbeatsbydrdrestudio.com
+monsterbeatsbydre-nz.com
+monsterbeatsbydre-usa.com
+monsterbeatsbydre2015.com
+monsterbeatsbydreaustraliacheap.com
+monsterbeatsbydrebilligde.com
+monsterbeatsbydrefactory.com
+monsterbeatsbydrenew.com
+monsterbeatsbydres.com
+monsterbeatsbydreshop.com
+monsterbeatscasques.com
+monsterbeatscommunity.com
+monsterbeatsdrdrecheap.com
+monsterbeatsfactory.net
+monsterbeatsfinland.com
+monsterbeatsforsale.com
+monsterbeatsheadphone.com
+monsterbeatsheadphones.net
+monsterbeatshere.com
+monsterbeatsitaly.com
+monsterbeatsmall.com
+monsterbeatsnegozi.net
+monsterbeatsok.com
+monsterbeatsonlinestoreuk.com
+monsterbeatsoutlet.us
+monsterbeatspascher.net
+monsterbeatsru.com
+monsterbeatssales.com
+monsterbeatsshops.net
+monsterbeatsstore.com
+monsterbeatssydneyaustralia.com
+monsterbeatstang.com
+monsterbeatstienda.com
+monsterbeatstudio.com
+monsterbydrebeat.com
+monstercasquebeatspascher.net
+monstercheapbeatss.com
+monsterdrebeats-canada.net
+monsterdrebeats-usa.com
+monsterdrebeats-usa.net
+monsterheadphone.net
+monsterproduct.net
+monstersbeatbydres.com
+monstersdebea.com
+monstershopcheapbeats.net
+moreheadphones.com
+ms4dre.com
+mybeatsbydrestudio.com
+mybeatsbydreuk.com
+mybeatscheapbydre.com
+myferrariheadphones.com
+namemybeats.com
+neborder.com
+negozimonsterbeats.com
+negoziomonsterbeats.com
+newbeatsblackfriday.com
+newbemany.com
+newdrediscount.com
+newestbeatsbydre.com
+newlysprung.net
+newmonst1erbeatsto1re.com
+newmonsterbeatsheadphones.com
+newschristmasshopping.com
+nflhotsalejerseys.com
+nicesshop.net
+offerairjordanlebron.com
+officialbeatsbydreshop.com
+officialbeatsbydrestore.com
+officialdrdre.com
+officialheadphone.com
+ogameblog.com
+onbeatsbydresale.com
+onlinemonsterbeatsonsale.com
+onsalekey.com
+onsaletrend.com
+outletbeatsshop.com
+pascherbeatsmonster.com
+paulsimon-music.com
+perfectkickz.net
+personeelsland.com
+picknicekicks.net
+pickshoesclothes.com
+pillbeatsblackfridaysale.com
+pocketbiketrader.com
+powerbeats2wireless.com
+powerbeatsbydrdre.com
+powerbeatsbydre.com
+promonsterbeatsbydre.com
+prostudiobeatscybersale.com
+rbsgr.com
+repsneakermall.com
+repswing.com
+salebeatslasteststyle4you.com
+saleblackfridaydrebeats.com
+salecheaphandbags.com
+samebags.com
+sanvaras.com
+scnshop.cc
+shoers.com
+shoestop2.com
+shop-headphones.net
+shopbeatsdre.com
+shopbydre.com
+shopcustomizedbeats.com
+shopdrebeats.com
+shopmonsterbeats.com
+shopping-days.net
+shoppinguheadphones.com
+sneaker666.com
+sneakerpage.net
+sneakerskick.com
+solostudioksale.com
+soso7778.com
+specialtyheadphones.com
+spiritclubs.com
+straightouttasomewhere.com
+studiobeatsbydrdre.com
+sulwerphoto.com
+sunglassessale2014.com
+superearsenjoy.com
+supplybestjerseys.com
+sustainthesound.com
+sverigebeatsbydrdre.com
+szcheapmonsterheadphones.com
+szwinnertechnology.com
+takegoto.com
+the-monster-beats.com
+thebeatsbydre.com
+thebeatsbydre.net
+thebeatsheadphonesale.com
+theuab.net
+topbeatsbydrdreoutlet.com
+topbeatsdealer.com
+topbeatsforsale.com
+tradevip1.com
+tteshop.com
+ubnw.net
+unstyle.us
+usa-beatsbydreheadphonesonsale.net
+v-has.com
+vip-beats.com
+vipbeatsbydre.com
+vipheadphones.com
+vipshoes2.com
+wasdj.com
+wholesale-exporter1.com
+wholesalediscountpurses.com
+wholesalefine.com
+wholesaleonlinemart.com
+worldcoinpay.com
+yourmonsterbeats.com
+
+full:beatselectronicsllc.tt.omtrdc.net
+api-priconne-redive.cygames.jp
+omotenashi.cygames.jp
+full:prd-priconne-redive.akamaized.net
+go-lang.com
+go-lang.net
+go-lang.org
+go.dev
+godoc.org
+golang.com
+golang.net
+golang.org
+curseforge.com
+forgecdn.net
 include:apple-ads
 include:apple-dev
 include:beats
@@ -911,3 +2139,1290 @@ full:valid.origin-apple.com.akadns.net @cn
 full:www.apple.com.edgekey.net.globalredir.akadns.net @cn
 full:www.apple.com.edgekey.net @cn
 full:www.apple.com @cn
+apple-icloud.cn @cn
+appleicloud.cn @cn
+applemx-icloud.com
+icloud-apple.cn @cn
+icloud-content.com
+icloud-isupport.com
+icloud.ch
+icloud.com
+icloud.com.cn @cn
+icloud.de
+icloud.ee
+icloud.fi
+icloud.fr
+icloud.hu
+icloud.ie
+icloud.is
+icloud.jp
+icloud.lv
+icloud.net.cn @cn
+icloud.om
+icloud.org
+icloud.pt
+icloud.ro
+icloud.se
+icloud.si
+icloud.sk
+icloud.vn
+icloudads.net
+icloudapple.cn @cn
+icloudbox.net
+icloudbrowser.net
+icloude.com
+icloudhome.com
+icloudmail.net
+icloudmusic.net
+icloudnet.net
+icloudpay.net
+icloudo.com
+icloudo.de
+icloudo.net
+icloudos.de
+icloudos.net
+icloudsecure.net
+icloudsetup.com
+ios-icloud.com
+me.com
+myicloud.net
+mylcloud.net
+wwwicloud.com
+
+full:www-cdn.icloud.com.akadns.net
+include:origin
+
+awayoutgame.com
+battlefieldbadcompany2.com
+battlefront2.com
+battlefrontii.com
+bejewled-stars.com
+bejeweledstars.com
+capitalgames.com
+chillingo.com
+commandandconquer.com
+conquerwithcharacter.com
+crysis.jp
+dawngate.com
+dawngatechronicles.com
+dicela.com
+dicela.net
+ea-anz-press.com
+ea.com
+eaaccess.com
+eacashcard.com
+eacodigos.com
+eakorea.co.kr
+eamobile.com
+eanordic.com
+eaplay.com
+easports.com
+easports.jp
+easportsactive.com
+easportsactiveonline.com
+easportsfootball.com
+easportsfootballclub.com
+easportsmma.com
+easportsworld.com
+electronicarts.com
+electronicarts.fr
+futpromos.com
+futunited.com
+ghostgames.com
+heroesofdragonage.com
+hutpromos.com
+maddenchampionship.com
+maddenrewards.com
+maddenseason.info
+maddenseason.net
+maddenseason.org
+maxis.com
+mysimsracing.com
+play4free.com
+playapex.com
+pogo.com
+pogobeta.com
+popcap.com
+projectapex.com
+pvzheroes.com
+spearhead.kr
+speedhunters.com
+spore.com
+ssx3.com
+starwarsbattlefront.com
+starwarsbattlefront2.com
+tiberiumalliances.com
+tiburon.com
+tnt-ea.com
+ultimaforever.com
+unravel2.com
+unraveltwo.com
+visceralgames.com
+yogify.com
+
+# Anthem
+anthemgame.com
+anthemthegame.com
+
+# Apex Legends
+apexlegends.com
+projectapex.com
+
+# Battle Log / Battlefield
+battlefield.com
+battlefield1943.com
+battlefield3.com
+battlefield4.com
+battlefield5.com
+battlefieldheroes.com
+battlefieldv.com
+battlelog.com
+
+# Bioware
+bioware.com
+biowarestore.com
+
+# Broadsword
+eamythic.com
+eamythic.net
+
+# Command and Conquer
+cncrivals.com
+commandandconquer.com
+tiberiumalliances.com
+
+# Dark Age of Camelot
+camelot-europe.com
+camelotherald.com
+camelotherald.net
+daoc.net
+darkageofcamelot.com
+darkness-risen.com
+
+# Dead Space
+deadspacegame.com
+
+# DICE
+dice.se
+
+# Dragon Age
+dragonage.com
+dragonagekeep.com
+dragonagemovie.com
+thedreadwolfrises.com
+
+# dungeonkeeper
+dungeonkeeper.cn
+dungeonkeeper.com
+dungeonkeeper.com.cn
+
+# FIFA
+eafootballworld.com
+fifastreet.com
+fifastreet3.com
+
+# Frost Bite
+frostbite.com
+
+# Industrial Toys
+industrialtoys.com
+
+# Mass Effect
+masseffect.com
+masseffectarchives.com
+
+# Mirror's Edge
+eamirrorsedge.com
+mirrorsedge.com
+mirrorsedge.jp
+mirrorsedge.net
+mirrorsedge2.com
+mirrorsedge2d.com
+
+# Need For Speed
+blackboxgames.com
+eablackbox.com
+needforspeed.com
+needforspeedboost.com
+needforspeeddriftkings.com
+needforspeedeliminator.com
+needforspeedlightning.com
+needforspeedoverdrive.com
+needforspeedproven.com
+needforspeedredline.com
+needforspeedshowdown.com
+needforspeedstreetkings.com
+needforspeedtakedown.com
+needforspeedtherun.com
+needforspeedtimeattack.com
+needforspeedundergroundeast.com
+nfsworld.com
+teamneedforspeed.com
+
+# Plants VS Zombies
+plantsvszombies2.com
+pvzgw2.com
+pvzheroes.com
+
+# Sea of Solitude
+seaofsolitude.com
+
+# Simcity
+simcity-buildit.com
+simcity.com
+
+# Skate
+skate2.com
+
+# SPEARHEAD
+spearhead.kr
+
+# Star Wars
+starwarsfallenorder.com
+starwarsjedifallenorder.com
+starwarstheoldrepublic.com
+swjedifallenorder.com
+swjfo.com
+swtor.com
+swtor.net
+
+# The Sims
+mysims.com
+thesims.com
+thesims3.com
+thesims4.com
+thesimssocial.com
+
+# Titan Fall
+titanfall.com
+
+# Ultima Online
+mythicentertainment.com
+mythicentertainment.net
+mythicgames.com
+ultimaonline.com
+uo.com
+uoherald.com
+
+# XDS
+xdsummit.com
+
+full:ea.tt.omtrdc.net
+full:eaassets-a.akamaihd.net
+charlestonroadregistry.com
+registry.google
+
+get.app
+get.dev
+get.how
+get.page
+iam.soy
+xn--p8j9a0d9c9a.xn--q9jyb4c # はじめよう.みんな
+include:blizzard
+include:curseforge
+include:cygames
+include:ea
+include:epicgames
+include:garena
+include:gog
+include:mihoyo
+include:nintendo
+include:op
+include:playstation
+include:purikonejp
+include:riot
+include:rockstar
+include:steam
+include:steamunlocked
+include:ubisoft
+include:xbox
+
+fanatical.com
+humblebundle.com
+loverslab.com
+planetminecraft.com
+dart.dev
+dartlang.org
+dartpad.dev
+include:swift
+
+# Calendar and Contact Server
+calendarserver.org
+
+# CloudKit
+apple-cloudkit.com
+
+# CUPS
+cups.org
+
+# Developer
+developer.apple.com
+devimages-cdn.apple.com
+devstreaming-cdn.apple.com
+
+# FoundationDB
+foundationdb.org
+
+# macOS forge
+macosforge.org
+
+# MacRuby
+macruby.com
+macruby.net
+macruby.org
+
+# MapKit
+apple-mapkit.com
+
+# Playgrounds
+playgrounds-cdn.apple.com
+
+# Research & Care
+carekit.org
+researchandcare.org
+researchkit.cn @cn
+researchkit.com.cn @cn
+researchkit.hk
+researchkit.net
+researchkit.org
+researchkit.tv
+
+# ServiceTalk
+servicetalk.io
+
+# WebKit
+webkit.org
+webkitgtk.org
+wpewebkit.org
+
+# Other
+webobjects.com
+
+full:appleworldwidedeveloper.hb-api.omtrdc.net
+full:appleworldwidedeveloper.sc.omtrdc.net
+full:p-events-delivery.akamaized.net
+android.com
+androidify.com
+deps.dev
+deps.info
+opensourceinsight.dev
+opensourceinsights.dev
+# Free Steam Games Pre-installed for PC with direct download links.
+
+steamunlocked.net
+# List of all domains being operated by Google Inc.
+include:android
+include:blogspot
+include:dart
+include:fastlane
+include:flutter
+include:golang
+include:google-ads
+include:google-registry
+include:google-scholar
+include:kaggle
+include:opensourceinsights
+include:polymer
+include:v8
+include:youtube
+
+# All .and domains
+and
+
+# All .chrome domains
+chrome
+
+# All .dclk domains
+dclk
+
+# All .gbiz domains
+gbiz
+
+# All .gle domains
+gle
+
+# All .gmail domains
+gmail
+
+# All .goo domains
+goo
+
+# All .goog domains
+goog
+
+# All .google domains
+google
+
+# All .guge domains
+guge
+
+# All .hangout domains
+hangout
+
+# All .nexus domains
+nexus
+
+# All .グーグル domains
+xn--qcka1pmc
+
+# Source: https://www.google.com/supported_domains
+google.ad
+google.ae
+google.al
+google.am
+google.as
+google.at
+google.az
+google.ba
+google.be
+google.bf
+google.bg
+google.bi
+google.bj
+google.bs
+google.bt
+google.by
+google.ca
+google.cat
+google.cd
+google.cf
+google.cg
+google.ch
+google.ci
+google.cl
+google.cm
+google.cn @cn
+google.co.ao
+google.co.bw
+google.co.ck
+google.co.cr
+google.co.id
+google.co.il
+google.co.in
+google.co.jp
+google.co.ke
+google.co.kr
+google.co.ls
+google.co.ma
+google.co.mz
+google.co.nz
+google.co.th
+google.co.tz
+google.co.ug
+google.co.uk
+google.co.uz
+google.co.ve
+google.co.vi
+google.co.za
+google.co.zm
+google.co.zw
+google.com
+google.com.af
+google.com.ag
+google.com.ai
+google.com.ar
+google.com.au
+google.com.bd
+google.com.bh
+google.com.bn
+google.com.bo
+google.com.br
+google.com.bz
+google.com.co
+google.com.cu
+google.com.cy
+google.com.do
+google.com.ec
+google.com.eg
+google.com.et
+google.com.fj
+google.com.gh
+google.com.gi
+google.com.gt
+google.com.hk
+google.com.jm
+google.com.kh
+google.com.kw
+google.com.lb
+google.com.ly
+google.com.mm
+google.com.mt
+google.com.mx
+google.com.my
+google.com.na
+google.com.ng
+google.com.ni
+google.com.np
+google.com.om
+google.com.pa
+google.com.pe
+google.com.pg
+google.com.ph
+google.com.pk
+google.com.pr
+google.com.py
+google.com.qa
+google.com.sa
+google.com.sb
+google.com.sg
+google.com.sl
+google.com.sv
+google.com.tj
+google.com.tr
+google.com.tw
+google.com.ua
+google.com.uy
+google.com.vc
+google.com.vn
+google.cv
+google.cz
+google.de
+google.dj
+google.dk
+google.dm
+google.dz
+google.ee
+google.es
+google.fi
+google.fm
+google.fr
+google.ga
+google.ge
+google.gg
+google.gl
+google.gm
+google.gr
+google.gy
+google.hn
+google.hr
+google.ht
+google.hu
+google.ie
+google.im
+google.iq
+google.is
+google.it
+google.je
+google.jo
+google.kg
+google.ki
+google.kz
+google.la
+google.li
+google.lk
+google.lt
+google.lu
+google.lv
+google.md
+google.me
+google.mg
+google.mk
+google.ml
+google.mn
+google.ms
+google.mu
+google.mv
+google.mw
+google.ne
+google.nl
+google.no
+google.nr
+google.nu
+google.pl
+google.pn
+google.ps
+google.pt
+google.ro
+google.rs
+google.ru
+google.rw
+google.sc
+google.se
+google.sh
+google.si
+google.sk
+google.sm
+google.sn
+google.so
+google.sr
+google.st
+google.td
+google.tg
+google.tl
+google.tm
+google.tn
+google.to
+google.tt
+google.vg
+google.vu
+google.ws
+
+# Others
+0emm.com
+1e100.net
+1ucrs.com
+466453.com
+abc.xyz
+adgoogle.net
+admeld.com
+angulardart.org
+api.ai
+apigee.com
+appbridge.ca
+appbridge.io
+appbridge.it
+appspot.com
+apture.com
+area120.com
+asp-cc.com
+autodraw.com
+bandpage.com
+baselinestudy.com
+baselinestudy.org
+bazel.build
+bdn.dev
+beatthatquote.com
+blink.org
+brocaproject.com
+brotli.org
+bumpshare.com
+bumptop.ca
+bumptop.com
+bumptop.net
+bumptop.org
+bumptunes.com
+campuslondon.com
+certificate-transparency.org
+chrome.com
+chromebook.com
+chromecast.com
+chromeos.dev
+chromium.org
+chronicle.security
+chroniclesec.com
+cloudburstresearch.com
+cloudfunctions.net
+cloudrobotics.com
+cobrasearch.com
+codespot.com
+conscrypt.com
+conscrypt.org
+cookiechoices.org
+coova.com
+coova.net
+coova.org
+crossmediapanel.com
+crr.com
+cs4hs.com
+dartsearch.net
+dataliberation.org
+debug.com
+debugproject.com
+deepmind.com
+devsitetest.how
+dialogflow.com
+digitalassetlinks.org
+episodic.com
+feedburner.com
+fflick.com
+financeleadsonline.com
+firebaseapp.com
+firebaseio.com
+foofle.com
+froogle.com
+fuchsia.dev
+g-tun.com
+g.cn @cn
+g.co
+g.dev
+g.page
+gateway.dev
+gcr.io
+gerritcodereview.com
+getbumptop.com
+ggoogle.com
+gipscorp.com
+gkecnapps.cn @cn
+globaledu.org
+gmail.com
+gmodules.com
+gogle.com
+gogole.com
+gonglchuangl.net
+goo.gl
+googel.com
+googil.com
+googl.com
+google-syndication.com
+google.berlin
+google.dev
+google.net
+google.org
+google.ventures
+googleacquisitionmigration.com
+googleapis.cn @cn
+googleapis.com
+googleapps.com
+googlearth.com
+googleblog.com
+googlebot.com
+googlecapital.com
+googlecert.net
+googlecnapps.cn @cn
+googlecode.com
+googlecommerce.com
+googlecompare.co.uk
+googledanmark.com
+googledomains.com
+googledrive.com
+googlee.com
+googleearth.com
+googlefiber.net
+googlefinland.com
+googlemail.com
+googlemaps.com
+googlepagecreator.com
+googlephotos.com
+googleplay.com
+googleplus.com
+googlesource.com
+googlestore.com
+googlesverige.com
+googleusercontent.com
+googleventures.com
+googlr.com
+goolge.com
+gooogle.com
+gridaware.app
+gsrc.io
+gstatic.cn @cn
+gstatic.com
+gstaticcnapps.cn @cn
+gsuite.com
+gv.com
+gvt0.com
+gvt1.com
+gvt2.com
+gvt3.com
+gvt5.com
+gvt6.com
+gvt7.com
+gvt9.com
+hdrplusdata.org
+hindiweb.com
+howtogetmo.co.uk
+html5rocks.com
+hwgo.com
+iamremarkable.org
+igoogle.com
+impermium.com
+j2objc.org
+jibemobile.com
+keyhole.com
+keytransparency.com
+keytransparency.foo
+keytransparency.org
+lanternal.com
+like.com
+madewithcode.com
+material.io
+mdialog.com
+meet.new
+mfg-inspector.com
+mobileview.page
+moodstocks.com
+near.by
+nest.com
+nomulus.foo
+oauthz.com
+on.here
+on2.com
+onefifteen.net
+onefifteen.org
+oneworldmanystories.com
+openthread.io
+openweave.io
+orbitera.com
+page.link
+pagespeedmobilizer.com
+pageview.mobi
+panoramio.com
+partylikeits1986.org
+paxlicense.org
+picasa.com
+picasaweb.com
+picasaweb.net
+picasaweb.org
+picnik.com
+pittpatt.com
+pixate.com
+postini.com
+privacysandbox.com
+projectara.com
+projectbaseline.com
+publishproxy.com
+questvisual.com
+quickoffice.com
+quiksee.com
+revolv.com
+ridepenguin.com
+run.app
+savethedate.foo
+saynow.com
+schemer.com
+screenwisetrends.com
+screenwisetrendspanel.com
+snapseed.com
+solveforx.com
+stadia.dev
+stcroixmosquito.com
+stcroixmosquitoproject.com
+studywatchbyverily.com
+studywatchbyverily.org
+stxmosquito.com
+stxmosquitoproject.com
+stxmosquitoproject.net
+stxmosquitoproject.org
+synergyse.com
+tensorflow.org
+tfhub.dev
+thecleversense.com
+thegooglestore.com
+thinkquarterly.co.uk
+thinkquarterly.com
+thinkwithgoogle.com
+tiltbrush.com
+txcloud.net
+txvia.com
+unfiltered.news
+useplannr.com
+usvimosquito.com
+usvimosquitoproject.com
+velostrata.com
+verily.com
+verilylifesciences.com
+verilystudyhub.com
+verilystudywatch.com
+verilystudywatch.org
+wallet.com
+waymo.com
+waze.com
+web.app
+web.dev
+webappfieldguide.com
+webmproject.org
+webpkgcache.com
+webrtc.org
+weltweitwachsen.de
+whatbrowser.org
+widevine.com
+withgoogle.com
+womenwill.com
+womenwill.com.br
+womenwill.id
+womenwill.in
+womenwill.mx
+x.company
+x.team
+xn--9kr7l.com       # 古博.com
+xn--9trs65b.com     # 咕果.com
+xn--flw351e.com     # 谷歌.com
+xn--ggle-55da.com   # gооgle.com
+xn--gogl-0nd52e.com # gοoglе.com
+xn--gogl-1nd42e.com # goοglе.com
+xn--ngstr-lra8j.com # google play 应用下载时涉及
+xplr.co
+zukunftswerkstatt.de
+
+# Domains and services below are available in China mainland
+# Use in config file like this: "geosite:google@cn"
+full:csi-china.l.google.com @cn
+full:gstaticadssl.l.google.com @cn
+full:www.recaptcha.net @cn
+
+# The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/google.china.conf
+# Revision: 72a0845284d0cba5545b610b2c601c2426fdb6ae
+# Use in config file like this: "geosite:google@cn"
+full:265.com @cn
+full:2mdn.net @cn
+full:adservice.google.com @cn
+full:app-measurement.com @cn
+full:beacons.gcp.gvt2.com @cn
+full:beacons.gvt2.com @cn
+full:beacons2.gvt2.com @cn
+full:beacons3.gvt2.com @cn
+full:c.admob.com @cn
+full:c.android.clients.google.com @cn
+full:cache.pack.google.com @cn
+full:checkin.gstatic.com @cn
+full:clickserve.dartsearch.net @cn
+full:clientservices.googleapis.com @cn
+full:connectivitycheck.gstatic.com @cn
+full:corp.google.com @cn
+full:crl.pki.goog @cn
+full:csi.gstatic.com @cn
+full:dl.google.com @cn
+full:dl.l.google.com @cn
+full:doubleclick.net @cn
+full:firebase-settings.crashlytics.com @cn
+full:fonts.googleapis.com @cn
+full:fonts.gstatic.com @cn
+full:g1.gstatic.com @cn
+full:g2.gstatic.com @cn
+full:google-analytics.com @cn
+full:googleadservices.com @cn
+full:googleanalytics.com @cn
+full:googlesyndication.com @cn
+full:googletagmanager.com @cn
+full:googletagservices.com @cn
+full:gstaticadssl.l.google.com @cn
+full:gtm.oasisfeng.com @cn
+full:imasdk.googleapis.com @cn
+full:ocsp.pki.goog @cn
+full:pagead-googlehosted.l.google.com @cn
+full:pki-goog.l.google.com @cn
+full:recaptcha.net @cn
+full:redirector.gvt1.com @cn
+full:regioninfo-pa.googleapis.com @cn
+full:safebrowsing-cache.google.com @cn
+full:safebrowsing.googleapis.com @cn
+full:settings.crashlytics.com @cn
+full:ssl-google-analytics.l.google.com @cn
+full:ssl.gstatic.com @cn
+full:toolbarqueries.google.com @cn
+full:tools.google.com @cn
+full:tools.l.google.com @cn
+full:translate.googleapis.com @cn
+full:translation.googleapis.com @cn
+full:update.googleapis.com @cn
+full:www-google-analytics.l.google.com @cn
+full:www-googletagmanager.l.google.com @cn
+full:www.gstatic.com @cn
+full:scholar.google.ae
+full:scholar.google.at
+full:scholar.google.be
+full:scholar.google.bg
+full:scholar.google.ca
+full:scholar.google.cat
+full:scholar.google.ch
+full:scholar.google.cl
+full:scholar.google.cn
+full:scholar.google.co.cr
+full:scholar.google.co.id
+full:scholar.google.co.il
+full:scholar.google.co.in
+full:scholar.google.co.jp
+full:scholar.google.co.kr
+full:scholar.google.co.nz
+full:scholar.google.co.th
+full:scholar.google.co.uk
+full:scholar.google.co.ve
+full:scholar.google.co.za
+full:scholar.google.com
+full:scholar.google.com.ar
+full:scholar.google.com.au
+full:scholar.google.com.bo
+full:scholar.google.com.br
+full:scholar.google.com.co
+full:scholar.google.com.cu
+full:scholar.google.com.do
+full:scholar.google.com.ec
+full:scholar.google.com.eg
+full:scholar.google.com.gt
+full:scholar.google.com.hk
+full:scholar.google.com.ly
+full:scholar.google.com.mx
+full:scholar.google.com.my
+full:scholar.google.com.ni
+full:scholar.google.com.pa
+full:scholar.google.com.pe
+full:scholar.google.com.ph
+full:scholar.google.com.pk
+full:scholar.google.com.pr
+full:scholar.google.com.py
+full:scholar.google.com.sg
+full:scholar.google.com.sv
+full:scholar.google.com.tr
+full:scholar.google.com.tw
+full:scholar.google.com.ua
+full:scholar.google.com.uy
+full:scholar.google.com.vn
+full:scholar.google.cz
+full:scholar.google.de
+full:scholar.google.dk
+full:scholar.google.es
+full:scholar.google.fi
+full:scholar.google.fr
+full:scholar.google.gr
+full:scholar.google.hn
+full:scholar.google.hr
+full:scholar.google.hu
+full:scholar.google.is
+full:scholar.google.it
+full:scholar.google.li
+full:scholar.google.lt
+full:scholar.google.lu
+full:scholar.google.lv
+full:scholar.google.nl
+full:scholar.google.no
+full:scholar.google.pl
+full:scholar.google.pt
+full:scholar.google.ro
+full:scholar.google.ru
+full:scholar.google.se
+full:scholar.google.si
+full:scholar.google.sk
+full:scholar.l.google.com
+blizzard.cn @cn
+blizzard.com
+blizzardgames.cn @cn
+blizzardgearstore.com
+blz-contentstack.com
+blzstatic.cn @cn
+
+# Battle.Net
+battle.net
+battlenet.com.cn @cn
+bnet.163.com @cn
+full:blizzard.nefficient.co.kr
+full:blzddist1-a.akamaihd.net
+full:blzddistkr1-a.akamaihd.net
+full:bnetcmsus-a.akamaihd.net
+full:bnetproduct-a.akamaihd.net
+full:bnetshopus.akamaized.net
+
+# Diablo
+diablo3.com
+diabloimmortal.com
+full:di.res.netease.com @cn
+full:diablo3.nosdn.127.net @cn
+
+# Hearthstone
+firesidegatherings.com
+playhearthstone.com
+full:hearthstone.nosdn.127.net @cn
+
+# Hero of the Storm
+heroesofthestorm.com
+full:hearthstone.nosdn.127.net @cn
+full:heroes.nos.netease.com @cn
+
+# Overwatch
+playoverwatch.com
+full:overwatch.nosdn.127.net @cn
+
+# Starcraft
+starcraft.com
+starcraft2.com
+full:sc2.nosdn.127.net @cn
+
+# Warcraft
+playwarcraft3.com
+
+# World of Warcraft
+worldofwarcraft.com
+wowchina.com @cn
+full:wow.nosdn.127.net @cn
+
+full:blizzcon-a.akamaihd.net
+full:blz.nosdn.127.net @cn
+full:blzmedia-a.akamaihd.net
+full:blznav.akamaized.net
+full:cn.actual.battle.net @cn
+100classicbooks.com
+amiibo.com
+ayudanintendo.com
+bowsersinsidestory.com
+excitebots.com
+flipnotestudio.com
+gloryofheracles.com
+hackyourconsole.com
+kirbysuperstarultra.com
+kirbysepicyarn.com
+legendofzelda.cn @cn
+legendofzelda.com.cn @cn
+miitomo.com
+miitomo.com.cn @cn
+miiverse.com
+nentindo.net
+nintendo-europe-sales.com
+nintendo-europe.com
+nintendo.at
+nintendo.be
+nintendo.ch
+nintendo.co.jp
+nintendo.co.kr
+nintendo.co.uk
+nintendo.co.za
+nintendo.com
+nintendo.com.hk
+nintendo.com.pt
+nintendo.de
+nintendo.dk
+nintendo.es
+nintendo.eu
+nintendo.fi
+nintendo.fr
+nintendo.it
+nintendo.net
+nintendo.nl
+nintendo.no
+nintendo.pt
+nintendo.ru
+nintendo.se
+nintendo.tw
+nintendo3ds.com
+nintendodsi.com
+nintendoeurope.com
+nintendolabo.cn @cn
+nintendonetwork.net
+nintendonyc.com
+nintendostore.com
+nintendoswitch.com
+nintendoswitch.net
+nintendoswitchtogether.com
+personaltrainermath.com
+playnintendo.com
+supersmashbros.cn @cn
+supersmashbros.com.cn @cn
+thelegendarystarfy.com
+thewonderful101.com
+wariolandshakeit.com
+wariowarediy.com
+yoshisnewisland.com
+
+# Animal Croosing 动物森友会
+ac-pocketcamp.com
+
+# Donkey Kong Country
+diddykongracing.com
+dkr.com
+donkeykongcountryreturns.com
+
+# Fire Emblem
+fire-emblem-heroes.com
+fireemblemawakening.com
+
+# Pokemon
+dialga.com
+giratina.com
+kyurem.com
+pokedex3d.com
+pokemon-moon.com
+pokemon-sun.com
+pokemon-sunmoon.com
+pokemon.com
+pokemonbank.com
+pokemonblackwhite.com
+pokemonbw.com
+pokemonchampionships.com
+pokemongoldsilver.com
+pokemonhome.com
+pokemonletsgoeevee.com
+pokemonletsgopikachu.com
+pokemonmysterydungeon.com
+pokemonpicross.com
+pokemonplatinum.com
+pokemonrubysapphire.com
+pokemonsunmoon.com
+pokemonswordshield.com
+pokemonultrasunmoon.com
+pokemonvgc.com
+pokemonwifi.net
+xn--mts47c3w9b1qr.cn @cn # 神奇宝贝.cn
+xn--mts47c3w9b1qr.net # 神奇宝贝.net
+
+# Splatoon 2 Tournament
+splatoon2tournament.com
+
+# Star Fox
+starfox.com
+
+# Super Mario
+drmario-world.com
+marioandluigidreamteam.com
+mariobroswii.com
+mariokart.cn @cn
+mariokart.com.cn @cn
+mariokart7.com
+mariokart8.com
+mariosupersluggers.com
+newsupermariobrosu.com
+supermario.com
+supermario3dworld.com
+supermariobros.com.cn @cn
+supermariogalaxy.com
+supermariorun.com
+superpapermario.com
+
+# Wii
+nintendowii.com
+wii-u.com
+wiifit.com
+wiifitu.com
+wiipartyu.com
+wiisports.com
+wiisportsresort.com
+wiiugamepad.com
+wiivc.net
+
+# Xenoblade Chronicles
+xenoblade.com
+playartifact.com
+s.team
+steam-chat.com
+steamcommunity.com
+steamcontent.com
+steamdeck.com
+steamgames.com
+steampowered.com
+steamstatic.com
+steamusercontent.com
+underlords.com
+valvesoftware.com
+
+# 完美
+csgo.wmsj.cn @cn
+dota2.wmsj.cn @cn
+wmsjsteam.com @cn
+
+# 金山云
+dl.steam.clngaa.com @cn
+dl.steam.ksyna.com @cn
+
+# 白山云
+st.dl.bscstorage.net @cn
+st.dl.eccdnx.com @cn
+st.dl.pinyuncloud.com @cn
+
+# 华为云
+steampipe.steamcontent.tnkjmec.com @cn
+
+# 网宿
+steampowered.com.8686c.com @cn
+steamstatic.com.8686c.com @cn
+
+# 阿里云
+full:xz.pphimalayanrt.com @cn
+
+full:steambroadcast.akamaized.net
+full:steamcdn-a.akamaihd.net
+full:steamcommunity-a.akamaihd.net
+full:steamstore-a.akamaihd.net
+full:steamusercontent-a.akamaihd.net
+full:steamuserimages-a.akamaihd.net
+full:steamvideo-a.akamaihd.net
+
+# 蒸汽中国
+steamchina.com @cn
+gog.com
+gog-statics.com
+
+full:gog.qtlglb.com @cn
+full:gogalaxy.gog-statics.com @cn
+full:menu-static.gog-statics.com @cn
+full:productcard.gog-statics.com @cn
+full:static-login.gog-statics.com @cn
+full:www4-static.gog-statics.com @cn
+regexp:^cdn-akamai-.+\.gog-services\.com$
+regexp:^images(-\d)?\.gog-statics\.com$ @cn
