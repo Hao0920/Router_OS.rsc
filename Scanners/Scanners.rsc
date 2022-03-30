@@ -7555,6 +7555,14 @@ add list=scanners address=223.204.50.107
 add list=scanners address=223.247.138.63
 add list=scanners address=223.247.138.64
 add list=scanners address=223.254.0.0/16
+add list=scanners address=32.55
+add list=scanners address=223.173.0.0/16
+add list=scanners address=223.177.176.232
+add list=scanners address=223.179.146.27
+add list=scanners address=223.204.50.107
+add list=scanners address=223.247.138.63
+add list=scanners address=223.247.138.64
+add list=scanners address=223.254.0.0/16
 add list=scanners address=183.194.183.148
 add list=scanners address=1.9.175.185
 add list=scanners address=1.24.229.135
