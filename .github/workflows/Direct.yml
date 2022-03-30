@@ -1,0 +1,29 @@
+name: Build Direct.rsc
+on:
+  schedule:
+    - cron: "* 18 * * *"
+#  push:
+#    branches: [ main ]
+#  pull_request:
+#    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  build:
+    name: Build Direct.rsc
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Get Upstream Code
+        run:  |
+          chmod +x ./Direct/Workflows/Upstream.sh && ./Direct/Workflows/Upstream.sh
+      - name: Sorting Code Files
+        run:  |
+          chmod +x ./Direct/Workflows/Sorting.sh && ./Direct/Workflows/Sorting.sh
+      - name: Build Direct.rsc
+        run:  |
+          chmod +x ./Direct/Workflows/Build.sh && ./Direct/Workflows/Build.sh
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
