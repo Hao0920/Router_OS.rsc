@@ -8,8 +8,8 @@
 [Github Action](https://github.com/features/actions)
 * Adblock
   - [NextDNS](https://github.com/nextdns) / [metadata](https://github.com/nextdns/metadata)
-  - [V2Fly](https://github.com/v2fly) / [domain-list-community](https://github.com/v2fly/domain-list-community)
   - [PingLin Li](https://github.com/ilpl) / [ad-hosts](https://github.com/ilpl/ad-hosts)
+  - [Loyalsoldier](https://github.com/Loyalsoldier) / [domain-list-custom](https://github.com/Loyalsoldier/domain-list-custom)
   - [jdlingyu](https://github.com/jdlingyu) / [ad-wars](https://github.com/jdlingyu/ad-wars)
 * ISP
   - [JacyL4](https://github.com/jacyl4) / [chnroute](https://github.com/jacyl4/chnroute)
