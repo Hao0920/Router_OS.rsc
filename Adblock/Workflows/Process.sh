@@ -15,4 +15,4 @@ find ./Adblock/Cache/Upstream/Loyalsoldier/domain-list-custom -type f -name "*.t
 mkdir -p ./Adblock/Cache/Process/jdlingyu/ad-wars
 find ./Adblock/Cache/Upstream/jdlingyu/ad-wars -type f -name "*.txt" | sed -e '/localhost/d' | sed -e '/#/d' | sed -e 's/127.0.0.1 //' | xargs cat > ./Adblock/Cache/Process/jdlingyu/ad-wars.txt
 ####
-find ./Adblock/Cache/Process -type f -name "*.txt"  | sort -u | xargs cat > ./Adblock/Cache/Process/Origin.txt
+find ./Adblock/Cache/Process -type f -name "*.txt"  | sort -u | xargs cat > ./Adblock/Cache/Origin.txt
