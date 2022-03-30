@@ -1,4 +1,4 @@
-#### 获取 Adblock 列表 ####
+#### 获取上游数据 ####
 ### NextDNS/metadata
 mkdir -p ./Adblock/Cache/Upstream/NextDNS/metadata
 # alexa
@@ -19,13 +19,13 @@ wget --no-check-certificate -c -O ./Adblock/Cache/Upstream/NextDNS/metadata/wind
 wget --no-check-certificate -c -O ./Adblock/Cache/Upstream/NextDNS/metadata/xiaomi.txt "https://raw.githubusercontent.com/nextdns/metadata/master/privacy/native/xiaomi"
 
 ### PingLin Li/ad-hosts
-mkdir -p ./Adblock/Cache/Upstream/ilpl/ad-hosts/
+mkdir -p ./Adblock/Cache/Upstream/ilpl/ad-hosts
 wget --no-check-certificate -c -O ./Adblock/Cache/Upstream/ilpl/ad-hosts/hosts.txt "https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts"
 
 ### Loyalsoldier/domain-list-custom
-mkdir -p ./Adblock/Cache/Upstream/Loyalsoldier/domain-list-custom/
+mkdir -p ./Adblock/Cache/Upstream/Loyalsoldier/domain-list-custom
 wget --no-check-certificate -c -O ./Adblock/Cache/Upstream/Loyalsoldier/domain-list-custom/category-ads-all.txt "https://raw.githubusercontent.com/Loyalsoldier/domain-list-custom/release/category-ads-all.txt"
 
 ### jdlingyu/ad-wars
-mkdir -p ./Adblock/Cache/Upstream/jdlingyu/ad-wars/
+mkdir -p ./Adblock/Cache/Upstream/jdlingyu/ad-wars
 wget --no-check-certificate -c -O ./Adblock/Cache/Upstream/jdlingyu/ad-wars/hosts.txt "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts"

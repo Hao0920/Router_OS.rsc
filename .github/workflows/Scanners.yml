@@ -14,12 +14,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Get Upstream Code
+      - name: Get Upstream Data
         run:  |
           chmod +x ./Scanners/Workflows/Upstream.sh && ./Scanners/Workflows/Upstream.sh
-      - name: Sorting Code Files
+      - name: Data Processing
         run:  |
-          chmod +x ./Scanners/Workflows/Sorting.sh && ./Scanners/Workflows/Sorting.sh
+          chmod +x ./Scanners/Workflows/Process.sh && ./Scanners/Workflows/Process.sh
       - name: Build Scanners.rsc
         run:  |
           chmod +x ./Scanners/Workflows/Build.sh && ./Scanners/Workflows/Build.sh
