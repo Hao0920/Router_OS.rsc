@@ -5,4 +5,6 @@ wget --no-check-certificate -c -O ./Direct/Cache/Upstream/felixonmars/dnsmasq-ch
 wget --no-check-certificate -c -O ./Direct/Cache/Upstream/felixonmars/dnsmasq-china-list/google.china.txt "https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/google.china.conf"
 # v2fly/domain-list-community
 mkdir -p ./Direct/Cache/Upstream/v2fly/domain-list-community
+mkdir -p ./Direct/Cache/Origin/v2fly/domain-list-community
 wget --no-check-certificate -c -O ./Direct/Cache/Upstream/v2fly/domain-list-community/apple.txt  "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/apple"
+grep -F '@cn' > ./Direct/Cache/Origin/v2fly/domain-list-community/apple.txt
