@@ -1,4 +1,4 @@
-#### 处理数据 #### Origin
+#### 处理数据 ####
 ### NextDNS/metadata
 mkdir -p ./Adblock/Cache/Process/NextDNS/
 find ./Adblock/Cache/Upstream/NextDNS/metadata -type f -name "*.txt" | xargs cat > ./Adblock/Cache/Process/NextDNS/1.txt
@@ -6,20 +6,20 @@ sed -e '/#/d' ./Adblock/Cache/Process/NextDNS/1.txt > ./Adblock/Cache/Process/Ne
 sed -e '/^$/d' ./Adblock/Cache/Process/NextDNS/2.txt > ./Adblock/Cache/Process/NextDNS/metadata.txt
 
 ### PingLin Li/ad-hosts
-mkdir -p ./Adblock/Cache/Process/ilpl/ad-hosts
+mkdir -p ./Adblock/Cache/Process/ilpl
 find ./Adblock/Cache/Upstream/ilpl/ad-hosts -type f -name "*.txt" | xargs cat > ./Adblock/Cache/Process/ilpl/1.txt
 sed -e '/#/d' ./Adblock/Cache/Process/ilpl/1.txt > ./Adblock/Cache/Process/ilpl/2.txt
 sed -e 's/0.0.0.0 //' ./Adblock/Cache/Process/ilpl/2.txt > ./Adblock/Cache/Process/ilpl/ad-hosts.txt
 
 ### Loyalsoldier/domain-list-custom
-mkdir -p ./Adblock/Cache/Process/Loyalsoldier/domain-list-custom
+mkdir -p ./Adblock/Cache/Process/Loyalsoldier
 find ./Adblock/Cache/Upstream/Loyalsoldier/domain-list-custom -type f -name "*.txt" | xargs cat > ./Adblock/Cache/Process/Loyalsoldier/1.txt
 sed -e 's/domain://' ./Adblock/Cache/Process/Loyalsoldier/1.txt > ./Adblock/Cache/Process/Loyalsoldier/2.txt
 sed -e '/regexp:/d' ./Adblock/Cache/Process/Loyalsoldier/2.txt > ./Adblock/Cache/Process/Loyalsoldier/3.txt
 sed -e 's/:@ads//' ./Adblock/Cache/Process/Loyalsoldier/3.txt > ./Adblock/Cache/Process/Loyalsoldier/domain-list-custom.txt
 
 ### jdlingyu/ad-wars
-mkdir -p ./Adblock/Cache/Process/jdlingyu/ad-wars
+mkdir -p ./Adblock/Cache/Process/jdlingyu
 find ./Adblock/Cache/Upstream/jdlingyu/ad-wars -type f -name "*.txt" | xargs cat > ./Adblock/Cache/Process/jdlingyu/1.txt
 sed -e '/localhost/d' ./Adblock/Cache/Process/jdlingyu/1.txt > ./Adblock/Cache/Process/jdlingyu/2.txt
 sed -e '/#/d' ./Adblock/Cache/Process/jdlingyu/2.txt > ./Adblock/Cache/Process/jdlingyu/3.txt
