@@ -9,3 +9,7 @@ sed -e 's/\/114.114.114.114//' ./Direct/Cache/Process/felixonmars/2.txt > ./Dire
 mkdir -p ./Direct/Cache/Process/v2fly
 find ./Direct/Cache/Upstream/v2fly/domain-list-community -type f -name "*.txt" | xargs cat > ./Direct/Cache/Process/v2fly/1.txt
 grep -F '@cn' ./Direct/Cache/Process/v2fly/1.txt > ./Direct/Cache/Process/v2fly/2.txt
+sed -e '/#/d' ./Direct/Cache/Process/v2fly/2.txt > ./Direct/Cache/Process/v2fly/3.txt
+sed -e 's/full://' ./Direct/Cache/Process/v2fly/3.txt > ./Direct/Cache/Process/v2fly/4.txt
+sed -e 's/ @cn//' ./Direct/Cache/Process/v2fly/4.txt > ./Direct/Cache/Process/v2fly/5.txt
+sed -e '/regexp:/d' ./Direct/Cache/Process/v2fly/5.txt > ./Direct/Cache/Process/v2fly/6.txt
