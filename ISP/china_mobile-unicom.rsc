@@ -2383,6 +2383,7 @@ add list=china_unicom address=222.128.0.0/12
 add list=china_unicom address=222.160.0.0/14
 add list=china_unicom address=223.27.184.0/22
 add list=china_unicom address=223.166.0.0/15
+add list=china_unicom address=23.166.0.0/15
 add list=china_mobile address=36.128.0.0/10
 add list=china_mobile address=39.128.0.0/10
 add list=china_mobile address=43.239.172.0/22
