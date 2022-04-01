@@ -1,4 +1,4 @@
-### 构建 ###
+### 构建 Adblock.rsc ###
 {
 echo "/ip dns static"
 echo "remove [find address=240.0.0.1]"

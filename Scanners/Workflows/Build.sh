@@ -1,4 +1,4 @@
-### 构建 ###
+### 构建 Scanners.rsc ###
 {
 echo "/ip firewall address-list"
 echo "remove [find list="scanners"]"
