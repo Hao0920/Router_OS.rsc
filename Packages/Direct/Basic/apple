@@ -12,7 +12,7 @@ ws-ee-maidsvc.icloud.com
 axm-adm-enroll.apple.com
 axm-adm-mdm.apple.com
 axm-adm-scep.apple.com
-axm-adm-scep.apple.com
+axm-app.apple.com
 appldnld.apple.com
 configuration.apple.com
 gdmf.apple.com
@@ -27,12 +27,9 @@ updates-http.cdn-apple.com
 updates.cdn-apple.com
 mzstatic.com
 ppq.apple.com
-appldnld.apple.com
 appldnld.apple.com.edgesuite.net
 itunes.com
 itunes.apple.com
-updates-http.cdn-apple.com
-updates.cdn-apple.com
 suconfig.apple.com
 lcdn-locator.apple.com
 serverstatus.apple.com
