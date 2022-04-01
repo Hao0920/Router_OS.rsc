@@ -16,5 +16,6 @@ sed -e '/regexp:/d' ./Cache/Direct/Process/v2fly/5.txt > ./Cache/Direct/Process/
 {
     cat ./Cache/Direct/Process/felixonmars/dnsmasq-china-list.txt
     cat ./Cache/Direct/Process/v2fly/domain-list-community.txt
+    cat ./Packages/Direct/Basic/apple
 } > ./Cache/Direct/Process/1.txt
 sort -u ./Cache/Direct/Process/1.txt > ./Cache/Direct/Process/Origin.txt
