@@ -1,4 +1,4 @@
-### 构建 Address List ###
+### 构建 ISP.rsc ###
 {
 echo "/ip firewall address-list"
 echo "remove [find list="china"]"
