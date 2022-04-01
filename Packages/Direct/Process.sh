@@ -1,4 +1,8 @@
 #### 处理数据 ####
+# Basic
+mkdir -p ./Cache/Direct/Process/Basic
+find ./Packages/Direct/Basic/ -type f -name "*.txt" | xargs cat > ./Cache/Direct/Process/Basic/Basic.txt
+
 # felixonmars/dnsmasq-china-list
 mkdir -p ./Cache/Direct/Process/felixonmars
 find ./Cache/Direct/Upstream/felixonmars/dnsmasq-china-list -type f -name "*.txt" | xargs cat > ./Cache/Direct/Process/felixonmars/1.txt
@@ -14,8 +18,8 @@ sed -e 's/full://' ./Cache/Direct/Process/v2fly/3.txt > ./Cache/Direct/Process/v
 sed -e 's/ @cn//' ./Cache/Direct/Process/v2fly/4.txt > ./Cache/Direct/Process/v2fly/5.txt
 sed -e '/regexp:/d' ./Cache/Direct/Process/v2fly/5.txt > ./Cache/Direct/Process/v2fly/domain-list-community.txt
 {
+    cat ./Cache/Direct/Process/Basic/Basic.txt
     cat ./Cache/Direct/Process/felixonmars/dnsmasq-china-list.txt
     cat ./Cache/Direct/Process/v2fly/domain-list-community.txt
-    cat ./Packages/Direct/Basic/apple
 } > ./Cache/Direct/Process/1.txt
 sort -u ./Cache/Direct/Process/1.txt > ./Cache/Direct/Process/Origin.txt
