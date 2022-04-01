@@ -23,6 +23,8 @@ jobs:
       - name: Build ISP.rsc
         run:  |
           chmod +x ./ISP/Workflows//Build.sh && ./ISP/Workflows//Build.sh
+      - name: Clean Cache
+        run: rm -rf ./ISP/Cache
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:

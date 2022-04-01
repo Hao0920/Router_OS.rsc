@@ -23,6 +23,8 @@ jobs:
       - name: Build Scanners.rsc
         run:  |
           chmod +x ./Scanners/Workflows/Build.sh && ./Scanners/Workflows/Build.sh
+      - name: Clean Cache
+        run: rm -rf ./Scanners/Cache
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:

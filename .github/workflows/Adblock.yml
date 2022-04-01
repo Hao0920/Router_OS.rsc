@@ -23,6 +23,8 @@ jobs:
       - name: Build Adblock.rsc
         run:  |
           chmod +x ./Adblock/Workflows/Build.sh && ./Adblock/Workflows/Build.sh
+      - name: Clean Cache
+        run: rm -rf ./Adblock/Cache
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:

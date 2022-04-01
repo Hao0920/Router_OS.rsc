@@ -23,6 +23,8 @@ jobs:
       - name: Build Direct.rsc
         run:  |
           chmod +x ./Direct/Workflows/Build.sh && ./Direct/Workflows/Build.sh
+      - name: Clean Cache
+        run: rm -rf ./Direct/Cache
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
