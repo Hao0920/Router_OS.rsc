@@ -1,6 +1,4 @@
-
-
-#### 获取 IP 列表 ####
+#### 获取 ISP 列表 ####
 ### Clang.CN
 mkdir -p ./ISP/Cache/Upstream/Clang.CN
 # 中国大陆所有 IP 地址
