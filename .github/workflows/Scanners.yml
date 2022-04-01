@@ -16,15 +16,15 @@ jobs:
         uses: actions/checkout@v2
       - name: Get Upstream Data
         run:  |
-          chmod +x ./Scanners/Workflows/Upstream.sh && ./Scanners/Workflows/Upstream.sh
+          chmod +x ./Packages/Scanners/Workflows/Upstream.sh && ./Packages/Scanners/Workflows/Upstream.sh
       - name: Data Processing
         run:  |
-          chmod +x ./Scanners/Workflows/Process.sh && ./Scanners/Workflows/Process.sh
+          chmod +x ./Packages/Scanners/Workflows/Process.sh && ./Packages/Scanners/Workflows/Process.sh
       - name: Build Scanners.rsc
         run:  |
-          chmod +x ./Scanners/Workflows/Build.sh && ./Scanners/Workflows/Build.sh
+          chmod +x ./Packages/Scanners/Workflows/Build.sh && ./Packages/Scanners/Workflows/Build.sh
       - name: Clean Cache
-        run: rm -rf ./Scanners/Cache
+        run: rm -rf ./Cache
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:

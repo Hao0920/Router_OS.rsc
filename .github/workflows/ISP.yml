@@ -16,15 +16,15 @@ jobs:
         uses: actions/checkout@v2
       - name: Get Upstream Data
         run:  |
-          chmod +x ./ISP/Workflows/Upstream.sh && ./ISP/Workflows/Upstream.sh
+          chmod +x ./Packages/ISP/Workflows/Upstream.sh && ./Packages/ISP/Workflows/Upstream.sh
       - name: Data Processing
         run:  |
-          chmod +x ./ISP/Workflows/Process.sh && ./ISP/Workflows/Process.sh
+          chmod +x ./Packages/ISP/Workflows/Process.sh && ./Packages/ISP/Workflows/Process.sh
       - name: Build ISP.rsc
         run:  |
-          chmod +x ./ISP/Workflows//Build.sh && ./ISP/Workflows//Build.sh
+          chmod +x ./Packages/ISP/Workflows//Build.sh && ./Packages/ISP/Workflows//Build.sh
       - name: Clean Cache
-        run: rm -rf ./ISP/Cache
+        run: rm -rf ./Cache
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:

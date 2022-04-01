@@ -16,15 +16,15 @@ jobs:
         uses: actions/checkout@v2
       - name: Get Upstream Data
         run:  |
-          chmod +x ./Adblock/Workflows/Upstream.sh && ./Adblock/Workflows/Upstream.sh
+          chmod +x ./Packages/Adblock/Workflows/Upstream.sh && ./Packages/Adblock/Workflows/Upstream.sh
       - name: Data Processing
         run:  |
-          chmod +x ./Adblock/Workflows/Process.sh && ./Adblock/Workflows/Process.sh
+          chmod +x ./Packages/Adblock/Workflows/Process.sh && ./Packages/Adblock/Workflows/Process.sh
       - name: Build Adblock.rsc
         run:  |
-          chmod +x ./Adblock/Workflows/Build.sh && ./Adblock/Workflows/Build.sh
+          chmod +x ./Packages/Adblock/Workflows/Build.sh && ./Packages/Adblock/Workflows/Build.sh
       - name: Clean Cache
-        run: rm -rf ./Adblock/Cache
+        run: rm -rf ./Cache
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:

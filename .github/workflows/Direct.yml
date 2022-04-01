@@ -16,15 +16,15 @@ jobs:
         uses: actions/checkout@v2
       - name: Get Upstream Data
         run:  |
-          chmod +x ./Direct/Workflows/Upstream.sh && ./Direct/Workflows/Upstream.sh
+          chmod +x ./Packages/Direct/Workflows/Upstream.sh && ./Packages/Direct/Workflows/Upstream.sh
       - name: Data Processing
         run:  |
-          chmod +x ./Direct/Workflows/Process.sh && ./Direct/Workflows/Process.sh
+          chmod +x ./Packages/Direct/Workflows/Process.sh && ./Packages/Direct/Workflows/Process.sh
       - name: Build Direct.rsc
         run:  |
-          chmod +x ./Direct/Workflows/Build.sh && ./Direct/Workflows/Build.sh
+          chmod +x ./Packages/Direct/Workflows/Build.sh && ./Packages/Direct/Workflows/Build.sh
       - name: Clean Cache
-        run: rm -rf ./Direct/Cache
+        run: rm -rf ./Cache
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
