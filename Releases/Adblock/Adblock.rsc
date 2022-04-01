@@ -1,5 +1,7 @@
 /ip dns static
 remove [find address=240.0.0.1]
+add address=240.0.0.1 name=03.lzzncm.com
+add address=240.0.0.1 name=04.lzzncm.com
 add address=240.0.0.1 name=123456798.2021zuixingg.com
 add address=240.0.0.1 name=1pzskg.cn
 add address=240.0.0.1 name=1rx.io
@@ -270,6 +272,8 @@ add address=240.0.0.1 name=ads.mopub.com
 add address=240.0.0.1 name=ads.mp.mydas.mobi
 add address=240.0.0.1 name=ads.msn.com
 add address=240.0.0.1 name=ads.ninemsn.com.au
+add address=240.0.0.1 name=ads.oneway.mobi
+add address=240.0.0.1 name=ads.oway.mobi
 add address=240.0.0.1 name=ads.privacy.qq.com
 add address=240.0.0.1 name=ads.pubmatic.com
 add address=240.0.0.1 name=ads.reader.yueyouxs.com
@@ -412,6 +416,7 @@ add address=240.0.0.1 name=adxprtz.com
 add address=240.0.0.1 name=adxserver.ad.cmvideo.cn
 add address=240.0.0.1 name=ae.bdstatic.com
 add address=240.0.0.1 name=aecbhedvuibuab.biduo.cc
+add address=240.0.0.1 name=aegis.qq.com
 add address=240.0.0.1 name=aeventlog.beacon.qq.com
 add address=240.0.0.1 name=afd.baidu.com
 add address=240.0.0.1 name=afp.adchina.com
@@ -511,6 +516,7 @@ add address=240.0.0.1 name=api.lwxs99.com
 add address=240.0.0.1 name=api.mobgi.com
 add address=240.0.0.1 name=api.mobula.sdk.duapps.com
 add address=240.0.0.1 name=api.newad.ifeng.com
+add address=240.0.0.1 name=api.openinstall.io
 add address=240.0.0.1 name=api.poll.aiseet.atianqi.com
 add address=240.0.0.1 name=api.qids.xyz
 add address=240.0.0.1 name=api.share.mob.com
@@ -537,6 +543,7 @@ add address=240.0.0.1 name=api2.e.kuaishou.com
 add address=240.0.0.1 name=api3.tuisong.baidu.com
 add address=240.0.0.1 name=api8.tuisong.baidu.com
 add address=240.0.0.1 name=apiconfig.adwo.com
+add address=240.0.0.1 name=apid.feikaiwadingguan.com
 add address=240.0.0.1 name=apistat.adbana.com
 add address=240.0.0.1 name=apoll.m.taobao.com
 add address=240.0.0.1 name=app-measurement.com
@@ -799,6 +806,7 @@ add address=240.0.0.1 name=cbghz.mjyjt.biz
 add address=240.0.0.1 name=cbghz.xinyuan.ink
 add address=240.0.0.1 name=cbghz.zdzy.shop
 add address=240.0.0.1 name=cbjs.baidu.com
+add address=240.0.0.1 name=cc.map.qq.com
 add address=240.0.0.1 name=cca.mob.com
 add address=240.0.0.1 name=ccdace.hupu.com
 add address=240.0.0.1 name=cctv.adsunion.com
@@ -971,6 +979,7 @@ add address=240.0.0.1 name=dcci.adsame.com
 add address=240.0.0.1 name=dd713.bj.bcebos.com
 add address=240.0.0.1 name=ddd.1sapp.com
 add address=240.0.0.1 name=ddgouf.dnfkong.com
+add address=240.0.0.1 name=ddt02.shenghao88.top
 add address=240.0.0.1 name=de.as.cp61.ott.cibntv.net
 add address=240.0.0.1 name=de.as.pptv.com
 add address=240.0.0.1 name=decide.mixpanel.com
@@ -1170,7 +1179,6 @@ add address=240.0.0.1 name=fbapi.guguread.com
 add address=240.0.0.1 name=fc-feed.cdn.bcebos.com
 add address=240.0.0.1 name=fclick.baidu.com
 add address=240.0.0.1 name=fclog.baidu.com
-add address=240.0.0.1 name=feed-image.baidu.com
 add address=240.0.0.1 name=feed.baidu.com
 add address=240.0.0.1 name=feedback.search.microsoft.com
 add address=240.0.0.1 name=feedback.whalecloud.com
@@ -1374,7 +1382,6 @@ add address=240.0.0.1 name=ilce.alicdn.com
 add address=240.0.0.1 name=im-apps.net
 add address=240.0.0.1 name=im.tiodata.com
 add address=240.0.0.1 name=im2.smartadserver.com
-add address=240.0.0.1 name=images.mpression.net
 add address=240.0.0.1 name=img-bss.csdn.net
 add address=240.0.0.1 name=img-cdn-spot.ymcdn.cn
 add address=240.0.0.1 name=img-x.jd.com
@@ -1537,7 +1544,6 @@ add address=240.0.0.1 name=lqc006.com
 add address=240.0.0.1 name=ls.l.qq.com
 add address=240.0.0.1 name=lstat.youku.com
 add address=240.0.0.1 name=lu.sogoucdn.com
-add address=240.0.0.1 name=lupic.cdn.bcebos.com
 add address=240.0.0.1 name=lwrao.afx001.pw
 add address=240.0.0.1 name=lwxlsj.wap.xsbiquge.com
 add address=240.0.0.1 name=m-adash.m.taobao.com
@@ -1889,6 +1895,7 @@ add address=240.0.0.1 name=nl.notice.iqiyi.com
 add address=240.0.0.1 name=nl.rcd.iqiyi.com
 add address=240.0.0.1 name=nlog.baidu.com
 add address=240.0.0.1 name=nmetrics.samsung.com
+add address=240.0.0.1 name=nmobi.kuwo.cn
 add address=240.0.0.1 name=norma-external-collect.meizu.com
 add address=240.0.0.1 name=notice.iqiyi.com
 add address=240.0.0.1 name=notifiter.youmi.net
@@ -1956,6 +1963,7 @@ add address=240.0.0.1 name=ott.da.mgtv.com
 add address=240.0.0.1 name=ott.v1.data.mgtv.com
 add address=240.0.0.1 name=ott2.da.mgtv.com
 add address=240.0.0.1 name=ott3.da.mgtv.com
+add address=240.0.0.1 name=owads.audioadx.com
 add address=240.0.0.1 name=p-l.play.aiseet.atianqi.com
 add address=240.0.0.1 name=p-log.ykimg.com
 add address=240.0.0.1 name=p.appjiagu.com
@@ -1968,6 +1976,7 @@ add address=240.0.0.1 name=p.store.qq.com
 add address=240.0.0.1 name=p.tencentmind.com
 add address=240.0.0.1 name=p2.l.qq.com
 add address=240.0.0.1 name=p2sdmkj6t.bkt.clouddn.com
+add address=240.0.0.1 name=p3.adkwai.com
 add address=240.0.0.1 name=p3.l.qq.com
 add address=240.0.0.1 name=p4p.sina.com.cn
 add address=240.0.0.1 name=pagead2.googlesyndication.com
@@ -2081,6 +2090,7 @@ add address=240.0.0.1 name=qappcenterv6.3g.qq.com
 add address=240.0.0.1 name=qeujmo.wap.xsbiquge.com
 add address=240.0.0.1 name=qianclick.baidu.com
 add address=240.0.0.1 name=qianlong.adsame.com
+add address=240.0.0.1 name=qlaops3.jndxwl.com
 add address=240.0.0.1 name=qosp.msg.71.am
 add address=240.0.0.1 name=qq.vvx.highter.top
 add address=240.0.0.1 name=qq.zoujuhonglawyer.com
@@ -2155,6 +2165,7 @@ add address=240.0.0.1 name=s.gygtxx.net
 add address=240.0.0.1 name=s.hongshi33.top
 add address=240.0.0.1 name=s.img.mix.sina.com.cn
 add address=240.0.0.1 name=s.irs03.com
+add address=240.0.0.1 name=s.jpush.cn
 add address=240.0.0.1 name=s.jtdxz.top
 add address=240.0.0.1 name=s.lianmeng.360.cn
 add address=240.0.0.1 name=s.luluxinxin.top
@@ -2298,7 +2309,6 @@ add address=240.0.0.1 name=slog.sina.cn
 add address=240.0.0.1 name=slog.sina.com.cn
 add address=240.0.0.1 name=sltint.adv.ott.cibntv.net
 add address=240.0.0.1 name=sm.domob.cn
-add address=240.0.0.1 name=smart-789.image.mucang.cn
 add address=240.0.0.1 name=smart-789.kakamobi.cn
 add address=240.0.0.1 name=sms.ads.oppomobile.com
 add address=240.0.0.1 name=smt.admaster.com.cn
@@ -2579,7 +2589,6 @@ add address=240.0.0.1 name=utk.baidu.com
 add address=240.0.0.1 name=utop.umengcloud.com
 add address=240.0.0.1 name=uu.jiudiandyw.com
 add address=240.0.0.1 name=uusee.adsame.com
-add address=240.0.0.1 name=uvimage.56.com
 add address=240.0.0.1 name=uvu.nojmlxq.cn
 add address=240.0.0.1 name=v.0ij3tm.com
 add address=240.0.0.1 name=v.1k978y.cn
