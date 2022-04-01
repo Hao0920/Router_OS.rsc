@@ -1,4 +1,5 @@
 ### 构建 Scanners.rsc ###
+mkdir -p ./Releases/Scanners
 {
 echo "/ip firewall address-list"
 echo "remove [find list="scanners"]"

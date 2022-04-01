@@ -12,19 +12,21 @@ jobs:
     name: Build Adblock.rsc
     runs-on: ubuntu-latest
     steps:
+      - name: Space Cleanup
+        run: rm -rf ./Releases/Adblock
       - name: Checkout
         uses: actions/checkout@v2
       - name: Get Upstream Data
         run:  |
-          chmod +x ./Packages/Adblock/Workflows/Upstream.sh && ./Packages/Adblock/Workflows/Upstream.sh
+          chmod +x ./Packages/Adblock/Upstream.sh && ./Packages/Adblock/Upstream.sh
       - name: Data Processing
         run:  |
-          chmod +x ./Packages/Adblock/Workflows/Process.sh && ./Packages/Adblock/Workflows/Process.sh
+          chmod +x ./Packages/Adblock/Process.sh && ./Packages/Adblock/Process.sh
       - name: Build Adblock.rsc
         run:  |
-          chmod +x ./Packages/Adblock/Workflows/Build.sh && ./Packages/Adblock/Workflows/Build.sh
-      - name: Clean Cache
-        run: rm -rf ./Cache
+          chmod +x ./Packages/Adblock/Build.sh && ./Packages/Adblock/Build.sh
+      - name: Cache Cleanup
+        run: rm -rf ./Cache/Adblock
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:

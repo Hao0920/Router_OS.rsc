@@ -12,19 +12,21 @@ jobs:
     name: Build ISP.rsc
     runs-on: ubuntu-latest
     steps:
+      - name: Space Cleanup
+        run: rm -rf ./Releases/ISP
       - name: Checkout
         uses: actions/checkout@v2
       - name: Get Upstream Data
         run:  |
-          chmod +x ./Packages/ISP/Workflows/Upstream.sh && ./Packages/ISP/Workflows/Upstream.sh
+          chmod +x ./Packages/ISP/Upstream.sh && ./Packages/ISP/Upstream.sh
       - name: Data Processing
         run:  |
-          chmod +x ./Packages/ISP/Workflows/Process.sh && ./Packages/ISP/Workflows/Process.sh
+          chmod +x ./Packages/ISP/Process.sh && ./Packages/ISP/Process.sh
       - name: Build ISP.rsc
         run:  |
-          chmod +x ./Packages/ISP/Workflows//Build.sh && ./Packages/ISP/Workflows//Build.sh
-      - name: Clean Cache
-        run: rm -rf ./Cache
+          chmod +x ./Packages/ISP//Build.sh && ./Packages/ISP//Build.sh
+      - name: Cache Cleanup
+        run: rm -rf ./Cache/ISP
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:

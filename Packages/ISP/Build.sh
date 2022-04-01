@@ -1,4 +1,5 @@
 ### 构建 ISP.rsc ###
+mkdir -p ./Releases/ISP
 {
 echo "/ip firewall address-list"
 echo "remove [find list="china"]"

@@ -12,19 +12,21 @@ jobs:
     name: Build Scanners.rsc
     runs-on: ubuntu-latest
     steps:
+      - name: Space Cleanup
+        run: rm -rf ./Releases/Scanners
       - name: Checkout
         uses: actions/checkout@v2
       - name: Get Upstream Data
         run:  |
-          chmod +x ./Packages/Scanners/Workflows/Upstream.sh && ./Packages/Scanners/Workflows/Upstream.sh
+          chmod +x ./Packages/Scanners/Upstream.sh && ./Packages/Scanners/Upstream.sh
       - name: Data Processing
         run:  |
-          chmod +x ./Packages/Scanners/Workflows/Process.sh && ./Packages/Scanners/Workflows/Process.sh
+          chmod +x ./Packages/Scanners/Process.sh && ./Packages/Scanners/Process.sh
       - name: Build Scanners.rsc
         run:  |
-          chmod +x ./Packages/Scanners/Workflows/Build.sh && ./Packages/Scanners/Workflows/Build.sh
-      - name: Clean Cache
-        run: rm -rf ./Cache
+          chmod +x ./Packages/Scanners/Build.sh && ./Packages/Scanners/Build.sh
+      - name: Cache Cleanup
+        run: rm -rf ./Cache/Scanners
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:

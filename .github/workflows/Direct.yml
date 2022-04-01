@@ -12,19 +12,21 @@ jobs:
     name: Build Direct.rsc
     runs-on: ubuntu-latest
     steps:
+      - name: Space Cleanup
+        run: rm -rf ./Releases/Direct
       - name: Checkout
         uses: actions/checkout@v2
       - name: Get Upstream Data
         run:  |
-          chmod +x ./Packages/Direct/Workflows/Upstream.sh && ./Packages/Direct/Workflows/Upstream.sh
+          chmod +x ./Packages/Direct/Upstream.sh && ./Packages/Direct/Upstream.sh
       - name: Data Processing
         run:  |
-          chmod +x ./Packages/Direct/Workflows/Process.sh && ./Packages/Direct/Workflows/Process.sh
+          chmod +x ./Packages/Direct/Process.sh && ./Packages/Direct/Process.sh
       - name: Build Direct.rsc
         run:  |
-          chmod +x ./Packages/Direct/Workflows/Build.sh && ./Packages/Direct/Workflows/Build.sh
-      - name: Clean Cache
-        run: rm -rf ./Cache
+          chmod +x ./Packages/Direct/Build.sh && ./Packages/Direct/Build.sh
+      - name: Cache Cleanup
+        run: rm -rf ./Cache/Direct
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
