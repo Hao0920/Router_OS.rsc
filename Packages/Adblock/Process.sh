@@ -1,7 +1,7 @@
 #### 处理数据 ####
 ### Basic
-sed -e '/# /d' ./Packages/Adblock/Basic/REGEXP > ./Cache/Adblock/Process/Basic/1.txt
-sed -e '/^$/d' ./Cache/Adblock/Process/Basic/1.txt > ./Cache/Adblock/Process/Basic/REGEXP.txt
+sed -e '/# /d' ./Packages/Adblock/Basic/regexp.txt > ./Cache/Adblock/Process/Basic/1.txt
+sed -e '/^$/d' ./Cache/Adblock/Process/Basic/1.txt > ./Cache/Adblock/Process/Basic/regexp.txt
 
 ### NextDNS/metadata
 mkdir -p ./Cache/Adblock/Process/NextDNS/
