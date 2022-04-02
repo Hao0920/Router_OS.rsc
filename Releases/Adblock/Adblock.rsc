@@ -1197,14 +1197,6 @@ add address=240.0.0.1 name=fpb1.gxfin.com
 add address=240.0.0.1 name=freeband.qushuba.com
 add address=240.0.0.1 name=ftfsn.m100.site
 add address=240.0.0.1 name=ftpcontent.worldnow.com
-add address=240.0.0.1 name=full:643108e7617ef.cdn.sohucs.com
-add address=240.0.0.1 name=full:adeventtracker.spotify.com
-add address=240.0.0.1 name=full:adstudio-assets.scdn.co
-add address=240.0.0.1 name=full:apilog-web.acfun.cn
-add address=240.0.0.1 name=full:bloodhound.spotify.com
-add address=240.0.0.1 name=full:e8aeb8bbdbbd7.cdn.sohucs.com
-add address=240.0.0.1 name=full:log-sdk.gifshow.com
-add address=240.0.0.1 name=full:wlog.kuaishou.com
 add address=240.0.0.1 name=fumiad.dxys.pro
 add address=240.0.0.1 name=fun.adx.admaster.com.cn
 add address=240.0.0.1 name=fz.letv.com
