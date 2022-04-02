@@ -3,7 +3,7 @@ mkdir -p ./Releases/Adblock
 {
 echo "/ip dns static"
 echo "remove [find address=240.0.0.1]"
-for regexp in $(cat ./Cache/Adblock/Basic/REGEXP) ; do
+for regexp in $(cat ./Packages/Adblock/Basic/REGEXP) ; do
   echo "add type=NXDOMAIN regexp=$regexp"
 done
 echo "/file remove Adblock.rsc"
