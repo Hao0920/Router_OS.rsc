@@ -14,15 +14,15 @@ sed -e 's/0.0.0.0 //' ./Cache/Adblock/Process/ilpl/2.txt > ./Cache/Adblock/Proce
 ### Loyalsoldier/domain-list-custom
 mkdir -p ./Cache/Adblock/Process/Loyalsoldier
 find ./Cache/Adblock/Upstream/Loyalsoldier/domain-list-custom -type f -name "*.txt" | xargs cat > ./Cache/Adblock/Process/Loyalsoldier/1.txt
-sed -e 's/domain://' ./Cache/Adblock/Process/Loyalsoldier/1.txt > ./Cache/Adblock/Process/Loyalsoldier/2.txt
-sed -e '/regexp:/d' ./Cache/Adblock/Process/Loyalsoldier/2.txt > ./Cache/Adblock/Process/Loyalsoldier/3.txt
+grep "domain:" ./Cache/Adblock/Process/Loyalsoldier/1.txt > ./Cache/Adblock/Process/Loyalsoldier/2.txt
+sed -e 's/domain://' ./Cache/Adblock/Process/Loyalsoldier/2.txt > ./Cache/Adblock/Process/Loyalsoldier/3.txt
 sed -e 's/:@ads//' ./Cache/Adblock/Process/Loyalsoldier/3.txt > ./Cache/Adblock/Process/Loyalsoldier/domain-list-custom.txt
 
 ### jdlingyu/ad-wars
 mkdir -p ./Cache/Adblock/Process/jdlingyu
 find ./Cache/Adblock/Upstream/jdlingyu/ad-wars -type f -name "*.txt" | xargs cat > ./Cache/Adblock/Process/jdlingyu/1.txt
-sed -e '/localhost/d' ./Cache/Adblock/Process/jdlingyu/1.txt > ./Cache/Adblock/Process/jdlingyu/2.txt
-sed -e '/#/d' ./Cache/Adblock/Process/jdlingyu/2.txt > ./Cache/Adblock/Process/jdlingyu/3.txt
+grep "127.0.0.1 " ./Cache/Adblock/Process/jdlingyu/1.txt > ./Cache/Adblock/Process/jdlingyu/2.txt
+sed -e '/localhost/d' ./Cache/Adblock/Process/jdlingyu/2.txt > ./Cache/Adblock/Process/jdlingyu/3.txt
 sed -e 's/127.0.0.1 //' ./Cache/Adblock/Process/jdlingyu/3.txt > ./Cache/Adblock/Process/jdlingyu/ad-wars.txt
 
 
