@@ -1,383 +1,383 @@
 /ip firewall address-list
 remove [find list=direct]
-add name=265.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=2mdn.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=a1.mzstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=a2.mzstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=a3.mzstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=a4.mzstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=a5.mzstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=adcdownload.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=adcdownload.apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=adservice.google.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=amp-api-search-edge.apps.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=amp-api.apps.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=aod.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=api-cn.apple-mapkit.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=api-edge.apps.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=app-measurement.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=appattest.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=appldnld.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=appldnld.apple.com.edgesuite.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=appldnld.g.aaplimg.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=apple-appstore.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=apple-cloudkit.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=apple-dns.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=apple-dns.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=apple-ibooks.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=apple-icloud.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=apple-itunes.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=apple-livephotoskit.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=apple-maps.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=apple-store.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=apple.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=apple.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=appleappstore.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=applecenter.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=applecenter.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=applecomputer.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=applecomputer.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=appledns.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=appledns.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=appleicloud.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=appleid.cdn-apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=applepaycash.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=applepaycash.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=applepaysupplies.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=applepaysupplies.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=applesiri.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=applestore.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=applestore.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=appletv4.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=appletv4.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=apps.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=apps.mzstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=appstoreapple.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=apptrailers.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=apzones.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=audiocontentdownload.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=axm-adm-enroll.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=axm-adm-mdm.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=axm-adm-scep.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=axm-app.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=bag.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=battlenet.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=beacons.gcp.gvt2.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=beacons.gvt2.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=beacons2.gvt2.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=beacons3.gvt2.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=beats1.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=beats1.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=beats2.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=beats4.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=beatsep.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=blizzard.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=blizzardgames.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=blz.nosdn.127.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=blzstatic.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=bnet.163.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=bookkeeper.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=business.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=c.admob.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=c.android.clients.google.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cache.pack.google.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cdn-apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cdn-cn1.apple-mapkit.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cdn-cn2.apple-mapkit.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cdn-cn3.apple-mapkit.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cdn-cn4.apple-mapkit.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cdn.apple-mapkit.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cdn1.apple-mapkit.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cdn2.apple-mapkit.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cdn3.apple-mapkit.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cdn4.apple-mapkit.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cds-cdn.v.aaplimg.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cds.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cds.apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=certs.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=checkin.gstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cl1-cdn.origin-apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cl1.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cl2-cn.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cl2.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cl2.apple.com.edgekey.net.globalredir.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cl3-cdn.origin-apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cl3.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cl4-cdn.origin-apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cl4-cn.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cl4.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cl5-cdn.origin-apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cl5.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=clickserve.dartsearch.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=client-api.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=clientflow.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=clientflow.apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=clientservices.googleapis.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cma.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cn.actual.battle.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=communities.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=configuration.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=configuration.apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=connectivitycheck.gstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=corp.google.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=crl.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=crl.entrust.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=crl.pki.goog type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=crl3.digicert.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=crl4.digicert.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=csgo.wmsj.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=csi-china.l.google.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=csi.gstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=cstat.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=dd-cdn.origin-apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=deviceenrollment.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=deviceservices-external.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=devimages-cdn.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=di.res.netease.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=diablo3.nosdn.127.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=discussionschinese.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=dl.google.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=dl.l.google.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=dl.steam.clngaa.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=dl.steam.ksyna.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=dota2.wmsj.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=doubleclick.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=download.developer.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=downloaddispatch.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=ecgapp.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=faceshift.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=fides-pol.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=firebase-settings.crashlytics.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=fonts.googleapis.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=fonts.gstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=g.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=g1.gstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=g2.gstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gc.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gdmf.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=ggpht.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gkecnapps.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gog.qtlglb.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gogalaxy.gog-statics.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=google-analytics.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=google.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=googleadservices.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=googleanalytics.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=googleapis.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=googlecnapps.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=googleoptimize.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=googlesyndication.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=googletagmanager.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=googletagservices.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gs-loc-cn.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gs-loc.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gsp10-ssl-cn.ls.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gsp11-cn.ls.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gsp12-cn.ls.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gsp13-cn.ls.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gsp4-cn.ls.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gsp4-cn.ls.apple.com.edgekey.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gsp5-cn.ls.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gsp85-cn-ssl.ls.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gspe11-2-cn-ssl.ls.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gspe12-cn-ssl.ls.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gspe19-cn-ssl.ls.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gspe19-cn.ls-apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gspe19-cn.ls.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gspe21-ssl.ls.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gspe21.ls.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gspe35-ssl.ls.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gspe85-cn-ssl.ls.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gstatic.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gstaticadssl.l.google.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gstaticcnapps.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=gtm.oasisfeng.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=hearthstone.nosdn.127.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=heroes.nos.netease.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=homepod.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=iadsdk.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=icloud-apple.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=icloud-cdn.icloud.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=icloud-content.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=icloud.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=icloud.cdn-apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=icloud.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=icloud.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=icloud.net.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=icloudapple.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=images.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=images.apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=images.apple.com.edgekey.net.globalredir.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=imasdk.googleapis.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=init-p01md-lb.push-apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=init-p01md.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=init-p01st-lb.push-apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=init-p01st.push.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=init-s01st-lb.push-apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=init-s01st.push.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=init.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=insidear.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=iosapps.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=iosapps.itunes.g.aaplimg.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=iphone-8.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=iphone-ld.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=ipod.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=is1-ssl.mzstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=is1.mzstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=is2-ssl.mzstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=is2.mzstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=is3-ssl.mzstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=is3.mzstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=is4-ssl.mzstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=is4.mzstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=is5-ssl.mzstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=is5.mzstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=itunes-apple.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=itunes-apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=itunes.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=itunesapple.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=itunesconnect.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=itunesradio.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=itunesradio.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=iwork.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=js-cdn.music.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=km.support.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=lcdn-locator.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=leagueoflegends.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=legendofzelda.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=legendofzelda.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=livephotos.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=livephotos.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=lpl.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=macbookair.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=macbookair.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=maps.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=mariokart.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=mariokart.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=mask-h2.icloud.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=mask.icloud.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=menu-static.gog-statics.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=mesu-cdn.apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=mesu-china.apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=mesu.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=miitomo.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=music.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=mzstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=nintendolabo.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=ocsp-lb.apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=ocsp.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=ocsp.digicert.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=ocsp.digicert.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=ocsp.entrust.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=ocsp.pki.goog type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=ocsp2.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=oscdn.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=oscdn.origin-apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=osrecovery.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=osxapps.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=overwatch.nosdn.127.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=pagead-googlehosted.l.google.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=pancake.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=pancake.cdn-apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=pd.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=phobos.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=pki-goog.l.google.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=play.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=playgrounds-assets-cdn.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=playgrounds-cdn.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=ppq.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=prod-support.apple-support.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=productcard.gog-statics.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=push.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=recaptcha.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=redirector.gvt1.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=regioninfo-pa.googleapis.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=researchkit.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=researchkit.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=reserve-prime.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=s.mzstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=safebrowsing-cache.google.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=safebrowsing.googleapis.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=sc2.nosdn.127.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=school.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=se-edge.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=se2.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=search.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=serverstatus.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=settings.crashlytics.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=setup.icloud.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=sf-api-token-service.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=skl.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=sp.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=sq-device.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=ssl-google-analytics.l.google.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=ssl.gstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=st.dl.bscstorage.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=st.dl.eccdnx.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=st.dl.pinyuncloud.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=static-login.gog-statics.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=steamchina.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=steampipe.steamcontent.tnkjmec.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=steampowered.com.8686c.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=steamstatic.com.8686c.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=stocks-sparkline-lb.apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=stocks-sparkline.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=store.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=store.apple.com.edgekey.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=store.apple.com.edgekey.net.globalredir.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=store.storeimages.apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=store.storeimages.cdn-apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=streamingaudio.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=su.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=suconfig.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=supermariobros.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=supersmashbros.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=supersmashbros.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=support-china.apple-support.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=support.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=swcatalog-cdn.apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=swcatalog.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=swcdn.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=swcdn.g.aaplimg.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=swdist.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=swdist.apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=swiftui.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=swiftui.com.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=swscan-cdn.apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=swscan.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=sylvan.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=sync.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=time-ios.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=time-macos.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=time.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=toolbarqueries.google.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=tools.google.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=tools.l.google.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=translate.googleapis.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=translation.googleapis.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=update.googleapis.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=updates-http.cdn-apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=updates-http.cdn-apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=updates.cdn-apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=uplaypc-s-ubisoft.cdn.ubi.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=upp.itunes.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=valid.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=valid.origin-apple.com.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=weather-data.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=wmsjsteam.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=wow.nosdn.127.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=wowchina.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=ws-ee-maidsvc.icloud.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=www-google-analytics.l.google.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=www-googletagmanager.l.google.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=www.apple.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=www.apple.com.edgekey.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=www.apple.com.edgekey.net.globalredir.akadns.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=www.gstatic.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=www.recaptcha.net type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=www4-static.gog-statics.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=xboxlive.cn type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
-add name=xz.pphimalayanrt.com type=FWD forward-to= 114.114.114.114,114.114.115.115,119.29.29.29,119.28.28.28,223.5.5.5,223.6.6.6
+add list=direct address=265.com
+add list=direct address=2mdn.net
+add list=direct address=a1.mzstatic.com
+add list=direct address=a2.mzstatic.com
+add list=direct address=a3.mzstatic.com
+add list=direct address=a4.mzstatic.com
+add list=direct address=a5.mzstatic.com
+add list=direct address=adcdownload.apple.com
+add list=direct address=adcdownload.apple.com.akadns.net
+add list=direct address=adservice.google.com
+add list=direct address=amp-api-search-edge.apps.apple.com
+add list=direct address=amp-api.apps.apple.com
+add list=direct address=aod.itunes.apple.com
+add list=direct address=api-cn.apple-mapkit.com
+add list=direct address=api-edge.apps.apple.com
+add list=direct address=app-measurement.com
+add list=direct address=appattest.apple.com
+add list=direct address=appldnld.apple.com
+add list=direct address=appldnld.apple.com.edgesuite.net
+add list=direct address=appldnld.g.aaplimg.com
+add list=direct address=apple-appstore.cn
+add list=direct address=apple-cloudkit.com
+add list=direct address=apple-dns.cn
+add list=direct address=apple-dns.com.cn
+add list=direct address=apple-ibooks.cn
+add list=direct address=apple-icloud.cn
+add list=direct address=apple-itunes.cn
+add list=direct address=apple-livephotoskit.com
+add list=direct address=apple-maps.cn
+add list=direct address=apple-store.cn
+add list=direct address=apple.cn
+add list=direct address=apple.com.cn
+add list=direct address=appleappstore.cn
+add list=direct address=applecenter.cn
+add list=direct address=applecenter.com.cn
+add list=direct address=applecomputer.cn
+add list=direct address=applecomputer.com.cn
+add list=direct address=appledns.cn
+add list=direct address=appledns.com.cn
+add list=direct address=appleicloud.cn
+add list=direct address=appleid.cdn-apple.com
+add list=direct address=applepaycash.cn
+add list=direct address=applepaycash.com.cn
+add list=direct address=applepaysupplies.cn
+add list=direct address=applepaysupplies.com.cn
+add list=direct address=applesiri.cn
+add list=direct address=applestore.cn
+add list=direct address=applestore.com.cn
+add list=direct address=appletv4.cn
+add list=direct address=appletv4.com.cn
+add list=direct address=apps.apple.com
+add list=direct address=apps.mzstatic.com
+add list=direct address=appstoreapple.cn
+add list=direct address=apptrailers.itunes.apple.com
+add list=direct address=apzones.com
+add list=direct address=audiocontentdownload.apple.com
+add list=direct address=axm-adm-enroll.apple.com
+add list=direct address=axm-adm-mdm.apple.com
+add list=direct address=axm-adm-scep.apple.com
+add list=direct address=axm-app.apple.com
+add list=direct address=bag.itunes.apple.com
+add list=direct address=battlenet.com.cn
+add list=direct address=beacons.gcp.gvt2.com
+add list=direct address=beacons.gvt2.com
+add list=direct address=beacons2.gvt2.com
+add list=direct address=beacons3.gvt2.com
+add list=direct address=beats1.cn
+add list=direct address=beats1.com.cn
+add list=direct address=beats2.com.cn
+add list=direct address=beats4.cn
+add list=direct address=beatsep.cn
+add list=direct address=blizzard.cn
+add list=direct address=blizzardgames.cn
+add list=direct address=blz.nosdn.127.net
+add list=direct address=blzstatic.cn
+add list=direct address=bnet.163.com
+add list=direct address=bookkeeper.itunes.apple.com
+add list=direct address=business.apple.com
+add list=direct address=c.admob.com
+add list=direct address=c.android.clients.google.com
+add list=direct address=cache.pack.google.com
+add list=direct address=cdn-apple.com
+add list=direct address=cdn-cn1.apple-mapkit.com
+add list=direct address=cdn-cn2.apple-mapkit.com
+add list=direct address=cdn-cn3.apple-mapkit.com
+add list=direct address=cdn-cn4.apple-mapkit.com
+add list=direct address=cdn.apple-mapkit.com
+add list=direct address=cdn1.apple-mapkit.com
+add list=direct address=cdn2.apple-mapkit.com
+add list=direct address=cdn3.apple-mapkit.com
+add list=direct address=cdn4.apple-mapkit.com
+add list=direct address=cds-cdn.v.aaplimg.com
+add list=direct address=cds.apple.com
+add list=direct address=cds.apple.com.akadns.net
+add list=direct address=certs.apple.com
+add list=direct address=checkin.gstatic.com
+add list=direct address=cl1-cdn.origin-apple.com.akadns.net
+add list=direct address=cl1.apple.com
+add list=direct address=cl2-cn.apple.com
+add list=direct address=cl2.apple.com
+add list=direct address=cl2.apple.com.edgekey.net.globalredir.akadns.net
+add list=direct address=cl3-cdn.origin-apple.com.akadns.net
+add list=direct address=cl3.apple.com
+add list=direct address=cl4-cdn.origin-apple.com.akadns.net
+add list=direct address=cl4-cn.apple.com
+add list=direct address=cl4.apple.com
+add list=direct address=cl5-cdn.origin-apple.com.akadns.net
+add list=direct address=cl5.apple.com
+add list=direct address=clickserve.dartsearch.net
+add list=direct address=client-api.itunes.apple.com
+add list=direct address=clientflow.apple.com
+add list=direct address=clientflow.apple.com.akadns.net
+add list=direct address=clientservices.googleapis.com
+add list=direct address=cma.itunes.apple.com
+add list=direct address=cn.actual.battle.net
+add list=direct address=communities.apple.com
+add list=direct address=configuration.apple.com
+add list=direct address=configuration.apple.com.akadns.net
+add list=direct address=connectivitycheck.gstatic.com
+add list=direct address=corp.google.com
+add list=direct address=crl.apple.com
+add list=direct address=crl.entrust.net
+add list=direct address=crl.pki.goog
+add list=direct address=crl3.digicert.com
+add list=direct address=crl4.digicert.com
+add list=direct address=csgo.wmsj.cn
+add list=direct address=csi-china.l.google.com
+add list=direct address=csi.gstatic.com
+add list=direct address=cstat.apple.com
+add list=direct address=dd-cdn.origin-apple.com.akadns.net
+add list=direct address=deviceenrollment.apple.com
+add list=direct address=deviceservices-external.apple.com
+add list=direct address=devimages-cdn.apple.com
+add list=direct address=di.res.netease.com
+add list=direct address=diablo3.nosdn.127.net
+add list=direct address=discussionschinese.apple.com
+add list=direct address=dl.google.com
+add list=direct address=dl.l.google.com
+add list=direct address=dl.steam.clngaa.com
+add list=direct address=dl.steam.ksyna.com
+add list=direct address=dota2.wmsj.cn
+add list=direct address=doubleclick.net
+add list=direct address=download.developer.apple.com
+add list=direct address=downloaddispatch.itunes.apple.com
+add list=direct address=ecgapp.com.cn
+add list=direct address=faceshift.cn
+add list=direct address=fides-pol.apple.com
+add list=direct address=firebase-settings.crashlytics.com
+add list=direct address=fonts.googleapis.com
+add list=direct address=fonts.gstatic.com
+add list=direct address=g.cn
+add list=direct address=g1.gstatic.com
+add list=direct address=g2.gstatic.com
+add list=direct address=gc.apple.com
+add list=direct address=gdmf.apple.com
+add list=direct address=ggpht.cn
+add list=direct address=gkecnapps.cn
+add list=direct address=gog.qtlglb.com
+add list=direct address=gogalaxy.gog-statics.com
+add list=direct address=google-analytics.com
+add list=direct address=google.cn
+add list=direct address=googleadservices.com
+add list=direct address=googleanalytics.com
+add list=direct address=googleapis.cn
+add list=direct address=googlecnapps.cn
+add list=direct address=googleoptimize.com
+add list=direct address=googlesyndication.com
+add list=direct address=googletagmanager.com
+add list=direct address=googletagservices.com
+add list=direct address=gs-loc-cn.apple.com
+add list=direct address=gs-loc.apple.com
+add list=direct address=gsp10-ssl-cn.ls.apple.com
+add list=direct address=gsp11-cn.ls.apple.com
+add list=direct address=gsp12-cn.ls.apple.com
+add list=direct address=gsp13-cn.ls.apple.com
+add list=direct address=gsp4-cn.ls.apple.com
+add list=direct address=gsp4-cn.ls.apple.com.edgekey.net
+add list=direct address=gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net
+add list=direct address=gsp5-cn.ls.apple.com
+add list=direct address=gsp85-cn-ssl.ls.apple.com
+add list=direct address=gspe11-2-cn-ssl.ls.apple.com
+add list=direct address=gspe12-cn-ssl.ls.apple.com
+add list=direct address=gspe19-cn-ssl.ls.apple.com
+add list=direct address=gspe19-cn.ls-apple.com.akadns.net
+add list=direct address=gspe19-cn.ls.apple.com
+add list=direct address=gspe21-ssl.ls.apple.com
+add list=direct address=gspe21.ls.apple.com
+add list=direct address=gspe35-ssl.ls.apple.com
+add list=direct address=gspe85-cn-ssl.ls.apple.com
+add list=direct address=gstatic.cn
+add list=direct address=gstaticadssl.l.google.com
+add list=direct address=gstaticcnapps.cn
+add list=direct address=gtm.oasisfeng.com
+add list=direct address=hearthstone.nosdn.127.net
+add list=direct address=heroes.nos.netease.com
+add list=direct address=homepod.cn
+add list=direct address=iadsdk.apple.com
+add list=direct address=icloud-apple.cn
+add list=direct address=icloud-cdn.icloud.com.akadns.net
+add list=direct address=icloud-content.com
+add list=direct address=icloud.apple.com
+add list=direct address=icloud.cdn-apple.com
+add list=direct address=icloud.com
+add list=direct address=icloud.com.cn
+add list=direct address=icloud.net.cn
+add list=direct address=icloudapple.cn
+add list=direct address=images.apple.com
+add list=direct address=images.apple.com.akadns.net
+add list=direct address=images.apple.com.edgekey.net.globalredir.akadns.net
+add list=direct address=imasdk.googleapis.com
+add list=direct address=init-p01md-lb.push-apple.com.akadns.net
+add list=direct address=init-p01md.apple.com
+add list=direct address=init-p01st-lb.push-apple.com.akadns.net
+add list=direct address=init-p01st.push.apple.com
+add list=direct address=init-s01st-lb.push-apple.com.akadns.net
+add list=direct address=init-s01st.push.apple.com
+add list=direct address=init.itunes.apple.com
+add list=direct address=insidear.cn
+add list=direct address=iosapps.itunes.apple.com
+add list=direct address=iosapps.itunes.g.aaplimg.com
+add list=direct address=iphone-8.com.cn
+add list=direct address=iphone-ld.apple.com
+add list=direct address=ipod.com.cn
+add list=direct address=is1-ssl.mzstatic.com
+add list=direct address=is1.mzstatic.com
+add list=direct address=is2-ssl.mzstatic.com
+add list=direct address=is2.mzstatic.com
+add list=direct address=is3-ssl.mzstatic.com
+add list=direct address=is3.mzstatic.com
+add list=direct address=is4-ssl.mzstatic.com
+add list=direct address=is4.mzstatic.com
+add list=direct address=is5-ssl.mzstatic.com
+add list=direct address=is5.mzstatic.com
+add list=direct address=itunes-apple.cn
+add list=direct address=itunes-apple.com.akadns.net
+add list=direct address=itunes.apple.com
+add list=direct address=itunes.com
+add list=direct address=itunesapple.cn
+add list=direct address=itunesconnect.apple.com
+add list=direct address=itunesradio.cn
+add list=direct address=itunesradio.com.cn
+add list=direct address=iwork.apple.com
+add list=direct address=js-cdn.music.apple.com
+add list=direct address=km.support.apple.com
+add list=direct address=lcdn-locator.apple.com
+add list=direct address=leagueoflegends.cn
+add list=direct address=legendofzelda.cn
+add list=direct address=legendofzelda.com.cn
+add list=direct address=livephotos.cn
+add list=direct address=livephotos.com.cn
+add list=direct address=lpl.com.cn
+add list=direct address=macbookair.cn
+add list=direct address=macbookair.com.cn
+add list=direct address=maps.apple.com
+add list=direct address=mariokart.cn
+add list=direct address=mariokart.com.cn
+add list=direct address=mask-h2.icloud.com
+add list=direct address=mask.icloud.com
+add list=direct address=menu-static.gog-statics.com
+add list=direct address=mesu-cdn.apple.com.akadns.net
+add list=direct address=mesu-china.apple.com.akadns.net
+add list=direct address=mesu.apple.com
+add list=direct address=miitomo.com.cn
+add list=direct address=music.apple.com
+add list=direct address=mzstatic.com
+add list=direct address=nintendolabo.cn
+add list=direct address=ocsp-lb.apple.com.akadns.net
+add list=direct address=ocsp.apple.com
+add list=direct address=ocsp.digicert.cn
+add list=direct address=ocsp.digicert.com
+add list=direct address=ocsp.entrust.net
+add list=direct address=ocsp.pki.goog
+add list=direct address=ocsp2.apple.com
+add list=direct address=oscdn.apple.com
+add list=direct address=oscdn.origin-apple.com.akadns.net
+add list=direct address=osrecovery.apple.com
+add list=direct address=osxapps.itunes.apple.com
+add list=direct address=overwatch.nosdn.127.net
+add list=direct address=pagead-googlehosted.l.google.com
+add list=direct address=pancake.apple.com
+add list=direct address=pancake.cdn-apple.com.akadns.net
+add list=direct address=pd.itunes.apple.com
+add list=direct address=phobos.apple.com
+add list=direct address=pki-goog.l.google.com
+add list=direct address=play.itunes.apple.com
+add list=direct address=playgrounds-assets-cdn.apple.com
+add list=direct address=playgrounds-cdn.apple.com
+add list=direct address=ppq.apple.com
+add list=direct address=prod-support.apple-support.akadns.net
+add list=direct address=productcard.gog-statics.com
+add list=direct address=push.apple.com
+add list=direct address=recaptcha.net
+add list=direct address=redirector.gvt1.com
+add list=direct address=regioninfo-pa.googleapis.com
+add list=direct address=researchkit.cn
+add list=direct address=researchkit.com.cn
+add list=direct address=reserve-prime.apple.com
+add list=direct address=s.mzstatic.com
+add list=direct address=safebrowsing-cache.google.com
+add list=direct address=safebrowsing.googleapis.com
+add list=direct address=sc2.nosdn.127.net
+add list=direct address=school.apple.com
+add list=direct address=se-edge.itunes.apple.com
+add list=direct address=se2.itunes.apple.com
+add list=direct address=search.itunes.apple.com
+add list=direct address=serverstatus.apple.com
+add list=direct address=settings.crashlytics.com
+add list=direct address=setup.icloud.com
+add list=direct address=sf-api-token-service.itunes.apple.com
+add list=direct address=skl.apple.com
+add list=direct address=sp.itunes.apple.com
+add list=direct address=sq-device.apple.com
+add list=direct address=ssl-google-analytics.l.google.com
+add list=direct address=ssl.gstatic.com
+add list=direct address=st.dl.bscstorage.net
+add list=direct address=st.dl.eccdnx.com
+add list=direct address=st.dl.pinyuncloud.com
+add list=direct address=static-login.gog-statics.com
+add list=direct address=steamchina.com
+add list=direct address=steampipe.steamcontent.tnkjmec.com
+add list=direct address=steampowered.com.8686c.com
+add list=direct address=steamstatic.com.8686c.com
+add list=direct address=stocks-sparkline-lb.apple.com.akadns.net
+add list=direct address=stocks-sparkline.apple.com
+add list=direct address=store.apple.com
+add list=direct address=store.apple.com.edgekey.net
+add list=direct address=store.apple.com.edgekey.net.globalredir.akadns.net
+add list=direct address=store.storeimages.apple.com.akadns.net
+add list=direct address=store.storeimages.cdn-apple.com
+add list=direct address=streamingaudio.itunes.apple.com
+add list=direct address=su.itunes.apple.com
+add list=direct address=suconfig.apple.com
+add list=direct address=supermariobros.com.cn
+add list=direct address=supersmashbros.cn
+add list=direct address=supersmashbros.com.cn
+add list=direct address=support-china.apple-support.akadns.net
+add list=direct address=support.apple.com
+add list=direct address=swcatalog-cdn.apple.com.akadns.net
+add list=direct address=swcatalog.apple.com
+add list=direct address=swcdn.apple.com
+add list=direct address=swcdn.g.aaplimg.com
+add list=direct address=swdist.apple.com
+add list=direct address=swdist.apple.com.akadns.net
+add list=direct address=swiftui.cn
+add list=direct address=swiftui.com.cn
+add list=direct address=swscan-cdn.apple.com.akadns.net
+add list=direct address=swscan.apple.com
+add list=direct address=sylvan.apple.com
+add list=direct address=sync.itunes.apple.com
+add list=direct address=time-ios.apple.com
+add list=direct address=time-macos.apple.com
+add list=direct address=time.apple.com
+add list=direct address=toolbarqueries.google.com
+add list=direct address=tools.google.com
+add list=direct address=tools.l.google.com
+add list=direct address=translate.googleapis.com
+add list=direct address=translation.googleapis.com
+add list=direct address=update.googleapis.com
+add list=direct address=updates-http.cdn-apple.com
+add list=direct address=updates-http.cdn-apple.com.akadns.net
+add list=direct address=updates.cdn-apple.com
+add list=direct address=uplaypc-s-ubisoft.cdn.ubi.com
+add list=direct address=upp.itunes.apple.com
+add list=direct address=valid.apple.com
+add list=direct address=valid.origin-apple.com.akadns.net
+add list=direct address=weather-data.apple.com
+add list=direct address=wmsjsteam.com
+add list=direct address=wow.nosdn.127.net
+add list=direct address=wowchina.com
+add list=direct address=ws-ee-maidsvc.icloud.com
+add list=direct address=www-google-analytics.l.google.com
+add list=direct address=www-googletagmanager.l.google.com
+add list=direct address=www.apple.com
+add list=direct address=www.apple.com.edgekey.net
+add list=direct address=www.apple.com.edgekey.net.globalredir.akadns.net
+add list=direct address=www.gstatic.com
+add list=direct address=www.recaptcha.net
+add list=direct address=www4-static.gog-statics.com
+add list=direct address=xboxlive.cn
+add list=direct address=xz.pphimalayanrt.com
 /file remove Direct.rsc
