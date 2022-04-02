@@ -1,5 +1,6 @@
 #### 处理数据 ####
 ### Basic
+mkdir -p ./Cache/Adblock/Process/Basic/
 sed -e '/# /d' ./Packages/Adblock/Basic/regexp.txt > ./Cache/Adblock/Process/Basic/1.txt
 sed -e '/^$/d' ./Cache/Adblock/Process/Basic/1.txt > ./Cache/Adblock/Process/Basic/regexp.txt
 
