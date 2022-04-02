@@ -25,6 +25,10 @@ sed -e '/localhost/d' ./Cache/Adblock/Process/jdlingyu/1.txt > ./Cache/Adblock/P
 sed -e '/#/d' ./Cache/Adblock/Process/jdlingyu/2.txt > ./Cache/Adblock/Process/jdlingyu/3.txt
 sed -e 's/127.0.0.1 //' ./Cache/Adblock/Process/jdlingyu/3.txt > ./Cache/Adblock/Process/jdlingyu/ad-wars.txt
 
+### Basic
+sed -e '/#/d' ./Packages/Adblock/Basic/REGEXP > ./Cache/Adblock/Process/Basic/1.txt
+sed -e '/^$/d' ./Cache/Adblock/Process/Basic/1.txt > ./Cache/Adblock/Process/Basic/REGEXP.txt
+
 
 {
     cat ./Cache/Adblock/Process/NextDNS/metadata.txt
