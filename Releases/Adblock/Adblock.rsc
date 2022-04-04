@@ -568,6 +568,7 @@ add address=240.0.0.1 name=as.adfonic.net
 add address=240.0.0.1 name=as.aplus.pptv.com
 add address=240.0.0.1 name=asdfjasdhjkasjkfhajklsd.2021zuixingg.com
 add address=240.0.0.1 name=asdfjkls.jianyihang.com
+add address=240.0.0.1 name=asdkfjskl.guiliangtechnology.com
 add address=240.0.0.1 name=askdfjkls.moxiaoqihuoguo.com
 add address=240.0.0.1 name=asotrack1.fluentmobile.com
 add address=240.0.0.1 name=asp.adsame.com
@@ -939,6 +940,7 @@ add address=240.0.0.1 name=cul.awwlrd.cn
 add address=240.0.0.1 name=cupid.iqiyi.com
 add address=240.0.0.1 name=cvt.mydas.mobi
 add address=240.0.0.1 name=cws-cctv.conviva.com
+add address=240.0.0.1 name=cxs.eexiaoshuo.com
 add address=240.0.0.1 name=d.721sjv.xyz
 add address=240.0.0.1 name=d.applovin.com
 add address=240.0.0.1 name=d.cntv.cn
@@ -2220,6 +2222,7 @@ add address=240.0.0.1 name=sc.haape.club
 add address=240.0.0.1 name=sc.hnsyjaeger.site
 add address=240.0.0.1 name=sc.jslmtdgf.xyz
 add address=240.0.0.1 name=sc.newdata.vip
+add address=240.0.0.1 name=sc.oldart.shop
 add address=240.0.0.1 name=sc.pdss.xyz
 add address=240.0.0.1 name=sc.vipytyl.ltd
 add address=240.0.0.1 name=sclick.baidu.com
@@ -2716,6 +2719,7 @@ add address=240.0.0.1 name=vt.ipinyou.com
 add address=240.0.0.1 name=vtt.zwda.com
 add address=240.0.0.1 name=vv84.bj.bcebos.com
 add address=240.0.0.1 name=vvv.qqdashabi.top
+add address=240.0.0.1 name=vxs.eexiaoshuo.com
 add address=240.0.0.1 name=vyk.admaster.com.cn
 add address=240.0.0.1 name=w.cnzz.com
 add address=240.0.0.1 name=w.gdown.baidu.com
