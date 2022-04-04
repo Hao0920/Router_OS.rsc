@@ -293,15 +293,6 @@ add list=direct address=productcard.gog-statics.com
 add list=direct address=push.apple.com
 add list=direct address=recaptcha.net
 add list=direct address=redirector.gvt1.com
-add list=direct address=regexp:^a[1-5]\.mzstatic\.com$
-add list=direct address=regexp:^cdn(-cn)?[1-4]?\.apple-mapkit\.com$
-add list=direct address=regexp:^cdn\d-epicgames-\d+\.file\.myqcloud\.com$
-add list=direct address=regexp:^cl[1-5]-cdn\.origin-apple\.com\.akadns\.net$
-add list=direct address=regexp:^cl[1-5]\.apple\.com$
-add list=direct address=regexp:^epicgames-download\d-\d+\.file\.myqcloud\.com$
-add list=direct address=regexp:^images(-\d)?\.gog-statics\.com$
-add list=direct address=regexp:^is[1-5](-ssl)?\.mzstatic\.com$
-add list=direct address=regexp:^s[1-5]?\.mzstatic\.com$
 add list=direct address=regioninfo-pa.googleapis.com
 add list=direct address=researchkit.cn
 add list=direct address=researchkit.com.cn
