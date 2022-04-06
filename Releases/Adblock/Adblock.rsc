@@ -2225,6 +2225,7 @@ add address=240.0.0.1 name=sc.newdata.vip
 add address=240.0.0.1 name=sc.oldart.shop
 add address=240.0.0.1 name=sc.pdss.xyz
 add address=240.0.0.1 name=sc.vipytyl.ltd
+add address=240.0.0.1 name=sc.zangyitang.wang
 add address=240.0.0.1 name=sclick.baidu.com
 add address=240.0.0.1 name=scr1.xianxhwy.com
 add address=240.0.0.1 name=scripts.cy-wz.com
