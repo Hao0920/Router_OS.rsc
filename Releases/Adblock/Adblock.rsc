@@ -1,2305 +1,1340 @@
 /ip dns static
 remove [find address=240.0.0.1]
- add address=240.0.0.1 regexp=(^|\\.)\\w*admarvel\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*admaster\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*adsage\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*adsensor\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*adservice\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*adsmogo\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*adsrvmedia\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*adsserving\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*adsystem\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*adwords\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*analysis\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*applovin\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*appsflyer\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*domob\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*duomeng\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*dwtrack\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*guanggao\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*omgmta\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*omniture\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*openx\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*partnerad\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*pingfore\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*socdm\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*supersonicads\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*tracking\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*umeng\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*usage\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*wlmonitor\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*zjtoolbar\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\d{0,3}\\..*\$ 
- add address=240.0.0.1 regexp=(^|\\.)ads\\d{0,3}\\..*\$ 
- add address=240.0.0.1 regexp=(^|\\.)tracking\\..*\$ 
- add address=240.0.0.1 regexp=(^|\\.)(adgeo|bobo|fa|g|g1|gb|nex)(\\.corp|)\\.163\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(analytics|img1|img2|mimg)\\.126\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)(a|c|clkservice|conv|dsp|dsp-impr2|gorgon|rlogs|union|ydpushserver)\\.youdao\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(nc004x|nc045x|qt002x|tb060x|tb104x)\\.corp\\.youdao\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(haitaoad|iadmatvideo)\\.nosdn\\.127\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)ir\\.mail\\.126\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ir\\.mail\\.yeah\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)oimagea2\\.ydstatic\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)pagechoice\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)prom\\.gome\\.com\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)qchannel0\\d\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)static\\.flv\\.uuzuonline\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)wanproxy\\.127\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)cvda\\.17173\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)imgapp\\.yeyou\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)log1\\.17173\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)s\\.17173cdn\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ue\\.yeyoucdn\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)vda\\.17173\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)analytics\\.wanmei\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)gg\\.stargame\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(dl|download|houtai|jifen|minipage|wan|jifendownload|zhushou)\\.2345\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)3600\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)gamebox\\.360\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)jiagu\\.360\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)kuaikan\\.netmon\\.360safe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)leak\\.360\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)lianmeng\\.360\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)pub\\.se\\.360\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)s\\.so\\.360\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)shouji\\.360\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)soft\\.data\\.weather\\.360\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)stat\\.360safe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)stat\\.m\\.360\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)update\\.360safe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)wan\\.360\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)(58|imp|stat)\\.xgo\\.com\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)(brandshow|jing|track|tracklog)\\.58\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(adashx4yt|adash-c|ai|re|rj|simaba)\\.m\\.taobao\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(afp|atanx|atanx2|gma|gtms\\d\\d)\\.alicdn\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(fav|m|redirect|srd|tns)\\.simba\\.taobao\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(sdkinit|simaba|tyh)\\.taobao\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)acjs\\.aliyun\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(adash-c|adashbc|adashxgc)\\.ut\\.taobao\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)alipaylog\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)g\\.click\\.taobao\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)g\\.tbcdn\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)hydra\\.alibaba\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)pindao\\.huoban\\.taobao\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)show\\.re\\.taobao\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)strip\\.taobaocdn\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)userimg\\.qunar\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)yiliao\\.hupan\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)3dns-2\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)3dns-3\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)activate\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)activate-sea\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)activate-sjc0\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adobe-dns\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adobe-dns-2\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adobe-dns-3\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ereg\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)geo2\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)hl2rcv\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)hlrcv\\.stage\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)lm\\.licenses\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)lmlicenses\\.wip4\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)na1r\\.services\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)na2m-pr\\.licenses\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)practivate\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)wip3\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)wwis-dubc1-vip60\\.adobe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adserver\\.unityads\\.unity3d\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(33|adproxy|al|alert|applogapi|c|cmx|dspmnt|pcd|pvx|rd|rdx|stats)\\.autohome\\.com\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)adm\\d\\.autoimg\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)push\\.app\\.autohome\\.com\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)(a|adm|adscdn|afd|als|anquan|appc|as|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|cpu-admin|crs|drmcmm|e|eclick|eiv)\\.baidu\\.(com|cn)\$ 
- add address=240.0.0.1 regexp=(^|\\.)(hc|hm|hmma|hpd|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\\.baidu\\.(com|cn)\$ 
- add address=240.0.0.1 regexp=(^|\\.)(pups|rj|rp|spcode|tk|tuisong|ucstat|union|utility|utk|videopush|wangmeng|wm|znsv)\\.baidu\\.(com|cn)\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\.duapps\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\.player\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adx\\.xiaodutv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ae\\.bdstatic\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)antivirus\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)api\\.mobula\\.sdk\\.duapps\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)baichuan\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)baidu9635\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)baidustatic\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)baidutv\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)baikebcs\\.bdimg\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)banlv\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)bar\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)bdplus\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)btlaunch\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cleaner\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)click\\.bes\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)click\\.hm\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)click\\.qianqian\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cm\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cpro\\.baidustatic\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cpro\\.tieba\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cpro\\.zhidao\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)datax\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)dl-vip\\.bav\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)dl-vip\\.pcfaster\\.baidu\\.co\\.th\$ 
- add address=240.0.0.1 regexp=(^|\\.)dl1sw\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)dl2\\.bav\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)dl\\.client\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)dl\\.ops\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)dlsw\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)dlsw\\.br\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)download\\.bav\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)download\\.sd\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)drmcmm\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)dup\\.baidustatic\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)dxp\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)dzl\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ecma\\.bdimg\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ecmb\\.bdimg\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ecmc\\.bdimg\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)em\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ers\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)f10\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)fc-\\.cdn\\.bcebos\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)fc-feed\\.cdn\\.bcebos\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)fclick\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)fexclick\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)g\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)gimg\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)guanjia\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)idm-su\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)iebar\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ikcode\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)img01\\.taotaosou\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)img\\.taotaosou\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)itsdata\\.map\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)j\\.br\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)kstj\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)log\\.music\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)log\\.nuomi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)m1\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mg09\\.zhaopin\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mipcache\\.bdstatic\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mpro\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)neirong\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)nsclickvideo\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)openrcv\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)pc\\.videoclick\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)pos\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)pups\\.bdimg\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)push\\.music\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)push\\.zhanzhang\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)qchannel0\\d\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)qianclick\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)release\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)res\\.limei\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)res\\.mi\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)rigel\\.baidustatic\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)river\\.zhidao\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)rplog\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)s\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)sclick\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)sestat\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)shadu\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)share\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)sobar\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)sobartop\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)stat\\.v\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)su\\.bdimg\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)su\\.bdstatic\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tkweb\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tob-cms\\.bj\\.bcebos\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)toolbar\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tracker\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tuijian\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ubmcmm\\.baidustatic\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ulic\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ulog\\.imap\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)unionimage\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)vv84\\.bj\\.bcebos\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)w\\.gdown\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)w\\.x\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)weishi\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)wenku-cms\\.bj\\.bcebos\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)wisepush\\.video\\.baidu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)zz\\.bdstatic\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)zzy1\\.quyaoya\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(adm|assets|tjlog)(\\.ps|)\\.easou\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(ad|push|sys)\\.zhangyue\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(cj|game|tongji)\\.qidian\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)aishowbger\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)api\\.itaoxiaoshuo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)bbcoe\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)dkeyn\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)drdwy\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)e701\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)e\\.aa985\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)e\\.v02u9\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)ehxyz\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ethod\\.gzgmjcx\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)focuscat\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)hdswgc\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)jyd\\.fjzdmy\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)m\\.ourlj\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)m\\.txtxr\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)m\\.vsxet\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)miam4\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)o\\.if\\.qidian\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)p\\.vq6nsu\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)picture\\.duokan\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)pyerc\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)s1\\.cmfu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)sc\\.shayugg\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)sdk\\.cferw\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)sezvc\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ut2\\.shuqistat\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)xgcsr\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)xjq\\.jxmqkj\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)xpe\\.cxaerp\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)xtzxmy\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)xyrkl\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)zhuanfakong\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(ad|sm|dsp|nativeapp|partner|track)\\.toutiao\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ic\\.snssdk\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)log\\.snssdk\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)xlog\\.snssdk\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(a|click|schprompt|t)\\.dangdang\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\.duomi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)boxshows\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)staticxx\\.facebook\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)click1n\\.soufun\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)clickm\\.fang\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)clickn\\.fang\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)countpvn\\.light\\.fang\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)countubn\\.light\\.soufun\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mshow\\.fang\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tongji\\.home\\.soufun\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)admob\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ads\\.gmodules\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ads\\.google\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adservice\\.google\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)afd\\.l\\.google\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)badad\\.googleplex\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)csi\\.gstatic\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)doubleclick(\\.com|\\.net)\$ 
- add address=240.0.0.1 regexp=(^|\\.)google-analytics\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)googleadservices\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)googleadsserving\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)googlecommerce\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)googlesyndication\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mobileads\\.google\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)pagead-tpc\\.l\\.google\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)pagead\\.google\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)pagead\\.l\\.google\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)service\\.urchin\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(c-nfa|img-x|jrclick|jzt|policy)\\.jd\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ads\\.union\\.jd\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cps\\.360buy\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)stat\\.m\\.jd\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(bssdl|bssdlbig|d|downmobile|gad|game|gamebox|gg|install|install2|kgmobilestat|minidcsc|mo|mobilelog|mvads|p|rtmonitor|sdn|tj)\\.kugou\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(msg|push|update)\\.mobile\\.kugou\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ads\\.service\\.kugou\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)gcapi\\.sy\\.kugou\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)kuaikaiapp\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)log\\.stat\\.kugou\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)log\\.web\\.kugou\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(deliver|g|log|kwmsg|mobilead|msclick2|msphoneclick|updatepage|wa|webstat)\\.kuwo\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)apk\\.shouji\\.koowo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)g\\.koowo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(aider-res|api-flow|api-game|api-push|cal|ebook|game-res|infocenter|openapi-news|reader|tongji-res1|tongji|uxip)\\.meizu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(bro|t-e|t-flow)\\.flyme\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)(ebook|game|push|reader|upush)\\.res\\.meizu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)aries\\.mzres\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)umid\\.orion\\.meizu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(corp|gg|message|tuiguang)\\.meitu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(dc|mdc|rabbit)\\.meitustat\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)a\\.koudai\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adui\\.tg\\.meitu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)meitubeauty\\.meitudata\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)rabbit\\.tg\\.meitu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)xiuxiu\\.android\\.dl\\.meitu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)xiuxiu\\.mobile\\.meitudata\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(ad|ad1|shenghuo|xmpush)\\.xiaomi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(a|wtradv)\\.market\\.xiaomi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(bss|de|dvb|jellyfish|stat)\\.pandora\\.xiaomi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(d|migc|migcreport|mis)\\.g\\.mi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(notice|ppurifier)\\.game\\.xiaomi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(r|security)\\.browser\\.miui\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adv\\.sec\\.intl\\.miui\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adv\\.sec\\.miui\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)data\\.mistat\\.xiaomi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)union\\.mi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\.api\\.moji\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)app\\.moji001\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cdn\\.moji\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cdn\\.moji002\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cdn2\\.moji002\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)fds\\.api\\.moji\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)log\\.moji\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)stat\\.moji\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ugc\\.moji001\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(ad|admgr|logger)\\.qingting\\.fm\$ 
- add address=240.0.0.1 regexp=(^|\\.)dload\\.qd\\.qingting\\.fm\$ 
- add address=240.0.0.1 regexp=(^|\\.)s\\.qd\\.qingting\\.fm\$ 
- add address=240.0.0.1 regexp=(^|\\.)s\\.qd\\.qingtingfm\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w*omgmta\\w*\\.\\w*\$ 
- add address=240.0.0.1 regexp=(^|\\.)(act|adsfile|bugly|buluo|gdt|monitor|pingma|pingtcss|report|tajs|tcss|uu)\\.qq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(wxsnsdy|wxsnsdythumb)\\.wxs\\.qq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\.qun\\.qq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)oth\\.eve\\.mdt\\.qq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)jebe\\.renren\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ebp\\.renren\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)jebe\\.xnimg\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)(adimg|pay|sax|sdkapp|sdkclick|trends|u1\\.img|wbapp|wbclick|wbpctips)\\.mobile\\.sina\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)(ad|ad\\d|adbox|adm|d\\d|dcads|dmp|leju|sax|sax\\d|slog)\\.sina\\.com(\\.cn|)\$ 
- add address=240.0.0.1 regexp=(^|\\.)(alitui|biz|game|wax)\\.weibo\\.com(\\.cn|)\$ 
- add address=240.0.0.1 regexp=(^|\\.)cre\\.dp\\.sina\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)gw5\\.push\\.mcp\\.weibo\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)log\\.mix\\.sina\\.com\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)mobileads\\.dx\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)newspush\\.sinajs\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)sdkapp\\.uve\\.weibo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tui\\.weibo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)wbapp\\.uve\\.weibo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)zymo\\.mps\\.weibo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(123|adsence|brand|cpc|epro|fair|files2|goto|golden1|inte|iwan|lu|pb|pd|pv|theta|wan|wangmeng)\\.sogou\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(123|galaxy|lu)\\.sogoucdn\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)amfi\\.gou\\.sogou\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)applovin\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)guangzhuiyuan\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(ads|syndication|syndication-o|analytics|scribe|p)\\.twitter\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ads-twitter\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tellapart\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)urls\\.api\\.twitter\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(adslot|applog|track)\\.uc\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)(cms|puds|uc|ucsec1|ucsec)\\.ucweb\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(log|patriot)\\.cs\\.pp\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)api\\.mp\\.uc\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)client\\.video\\.ucweb\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)dispatcher\\.upmc\\.uc\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)huichuan\\.sm\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)iflow\\.uczzd(\\.\\w{2,3}){1,2}\$ 
- add address=240.0.0.1 regexp=(^|\\.)m\\.uczzd\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)server\\.m\\.pp\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)u\\.uc123\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)u\\.ucfly\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)aoodoo\\.feng\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)fengbuy\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)push\\.feng\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)we\\.tm\$ 
- add address=240.0.0.1 regexp=(^|\\.)(bannera|rating6|cloudservice.*)\\.kingsoft-office-service\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(docerad|gou|info|minfo|notify|pcfg|push|wpsweb-dc)\\.wps\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\.docer\\.wps\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)adm\\.zookingsoft\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)bole\\.shangshufang\\.ksosoft\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)counter\\.kingsoft\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)hoplink\\.ksosoft\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ic\\.ksosoft\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)img.*\\.mini\\.cache\\.wps\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)img\\.gou\\.wpscdn\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)ios-informationplatform\\.wps\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)mo\\.res\\.wpscdn\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)news\\.docer\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)pc\\.uf\\.ksosoft\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)pixiu\\.shangshufang\\.ksosoft\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)up\\.wps\\.kingsoft\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(c|cdsget|news-imgpb|wifiapi\\d\\d|wkanc)\\.51y5\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)(adse|linkeye|location|xdcs-collector)\\.ximalaya\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)biz5\\.kankan\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)float\\.kankan\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)logic\\.cpm\\.cm\\.kankan\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)hub5btmain\\.sandai\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)hub5emu\\.sandai\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)upgrade\\.xl9\\.xunlei\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(ads|adserver|adss|analytics|beap-bc|comet|geo|gemini|p3p|ybp)\\.yahoo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(analytics|locdrop|onepush)\\.query\\.yahoo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(ard|ane|yads)\\.yahoo\\.co\\.jp\$ 
- add address=240.0.0.1 regexp=(^|\\.)(js-apac-ss|partnerads)\\.ysm\\.yahoo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\.wretch\\.cc\$ 
- add address=240.0.0.1 regexp=(^|\\.)clicks\\.beap\\.bc\\.yahoo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)doubleplay-conf-yql\\.media\\.yahoo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)flurry\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)m\\.yap\\.yahoo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ws\\.progrss\\.yahoo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(sugar|zhihu-web-analytics)\\.zhihu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(shrek|simba|union)\\.6\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)logger\\.baofeng\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)xs\\.houyi\\.baofeng\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)dotcounter\\.douyutv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(aoodoo|push|yes1)\\.feng\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(game|stadig)\\.ifeng\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)api\\.newad\\.ifeng\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)exp\\.3g\\.ifeng\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)iis3g\\.deliver\\.ifeng\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mfp\\.deliver\\.ifeng\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(pub|adm|jobsfe|po|pv|stat)\\.funshion\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\.m\\.iqiyi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)afp\\.iqiyi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)c\\.uaa\\.iqiyi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cloudpush\\.iqiyi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cm\\.passport\\.iqiyi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cupid\\.iqiyi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)emoticon\\.sns\\.iqiyi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)gamecenter\\.iqiyi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ifacelog\\.iqiyi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mbdlog\\.iqiyi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)meta\\.video\\.qiyi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)msg1\\.video\\.qiyi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)msg2\\.video\\.qiyi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)msg\\.71\\.am\$ 
- add address=240.0.0.1 regexp=(^|\\.)paopao\\.iqiyi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)paopao\\d\\.qiyipic\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)policy\\.video\\.iqiyi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)yuedu\\.iqiyi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)gug\\.ku6cdn\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)st\\.vq\\.ku6\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)pq\\.stat\\.ku6\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)static\\.ku6\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(ark|dc|fz|g3|minisite|pro|stat)\\.letv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(1|2)\\.letvlive\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(i0|i3)\\.letvimg\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)game\\.letvstore\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)n\\.mark\\.letv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)pro\\.hoye\\.letv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)static\\.app\\.m\\.letv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(click|da|log|p2|res)\\.hunantv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)da\\.mgtv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)log\\.v2\\.hunantv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(888|lm|push)\\.tv\\.sohu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(aty|bd|click|click2|ctr|pv|pb|wl|um)\\.hd\\.sohu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(ads|adnet|aty|epro|go|golden1|hui|inte|uranus|wan|yule|pv)\\.sohu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(epro|golden1|inte|uranus|pv)\\.sogou\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(inte|lu|theta)\\.sogoucdn\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(de|jp)\\.as\\.pptv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(app|as)\\.aplus\\.pptv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)afp\\.pplive\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)asimgs\\.pplive\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)pp2\\.pptv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)stat\\.pptv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)btrace\\.video\\.qq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)c\\.l\\.qq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)dp3\\.qq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)livep\\.l\\.qq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)lives\\.l\\.qq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)livew\\.l\\.qq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mcgi\\.v\\.qq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mdevstat\\.qqlive\\.qq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)omgmta1\\.qq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)p\\.l\\.qq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)rcgi\\.video\\.qq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)t\\.l\\.qq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)u\\.l\\.qq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(actives|dmapp|hz|iyes|l|lstat|lvip|msg|mobilemsg|myes|passport-log|stat|tdrec|wan|ykatr|ykrec|ykrectab)\\.youku\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(adcontrol|adplay|goods|iwstat|nstat|stat|stats)\\.tudou\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(ad|gamex)\\.mobile\\.youku\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(dev-push|push|sdk)\\.m\\.youku\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(p|r|v)\\.l\\.youku\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)a-dxk\\.play\\.api\\.3g\\.youku\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\.api\\.3g(\\.tudou|\\.youku)\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\.api\\.mobile\\.youku\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)b\\.smartvideo\\.youku\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)c\\.yes\\.youku\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)dl\\.g\\.youku\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)e\\.stat\\.ykimg\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)hudong\\.pl\\.youku\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)l\\.ykimg\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)p-log\\.ykimg\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)s\\.p\\.youku\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)store\\.tv\\.api\\.3g\\.youku\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)store\\.xl\\.api\\.3g\\.youku\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)test\\.ott\\.youku\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)val\\.api\\.youku\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)azabu-u\\.ac\\.jp\$ 
- add address=240.0.0.1 regexp=(^|\\.)couchcoaster\\.jp\$ 
- add address=240.0.0.1 regexp=(^|\\.)delivery\\.dmkt-sp\\.jp\$ 
- add address=240.0.0.1 regexp=(^|\\.)ehg-youtube\\.hitbox\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)m-78\\.jp\$ 
- add address=240.0.0.1 regexp=(^|\\.)nichibenren\\.or\\.jp\$ 
- add address=240.0.0.1 regexp=(^|\\.)nicorette\\.co\\.kr\$ 
- add address=240.0.0.1 regexp=(^|\\.)ssl-youtube\\.2cnt\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)youtube\\.112\\.2o7\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)youtube\\.2cnt\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)(acsystem|ads|afp)\\.wasu\\.tv\$ 
- add address=240.0.0.1 regexp=(^|\\.)ads\\.cdn\\.tvb\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)c\\.algovid\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)gg\\.jtertp\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)gridsum-vd\\.cntv\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)kwflvcdn\\.000dn\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)logstat\\.t\\.sfht\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)match\\.rtbidder\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)n-st\\.vip\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)pop\\.uusee\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)static\\.duoshuo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)t\\.cr-nielsen\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)terren\\.cntv\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)(168|adshownew|stat)\\.it168\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(1|2)\\.win7china\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(801|803|806|808|bdj|dol|click)\\.(tianya|tianyaui)\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)(92x|its-dori)\\.tumblr\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(ad-channel|ad-display)\\.wikawika\\.xyz\$ 
- add address=240.0.0.1 regexp=(^|\\.)(adm|eq|ozone|stat|vaserviece)\\.10jqka\\.com\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)(ad|adadmin|ads)\\.house365\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(ad|ads|counter)\\.csdn\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)(ad|analytics|click|ganjituiguang|sta|tralog)\\.ganji\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(app-monitor|client-api|grand|mobile-pubt|newton-api)\\.ele\\.me\$ 
- add address=240.0.0.1 regexp=(^|\\.)(bd1|bd2)\\.52che\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(click|media|pv)\\.(cheshi|cheshi-img)\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)(d0|dw|pv)\\.xcar\\.com\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)a1\\.itc\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\.12306\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\.3\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\.95306\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\.caiyunapp\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\.cctv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\.cmvideo\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\.thepaper\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad\\.unimhk\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adhome\\.1fangchan\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adm\\.easou\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ads\\.feedly\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ads\\.genieessp\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ads\\.linkedin\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adv\\.ccb\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)advert\\.api\\.thejoyrun\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)api-deal\\.kechenggezi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)api-z\\.weidian\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mobileads\\.msn\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)bat\\.bing\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)beacon\\.tingyun\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cdn\\.jiuzhilan\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)collector\\.githubapp\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)de\\.soquair\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)e\\.nexac\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)exp\\.17wo\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)game\\.51yund\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)hosting\\.miarroba\\.info\$ 
- add address=240.0.0.1 regexp=(^|\\.)iadsdk\\.apple\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)image\\.gentags\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)log\\.outbrain\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)m\\.12306media\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)n\\.cosbot\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)pdl\\.gionee\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)pica-juicy\\.picacomic\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)pixel\\.wp\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)pub\\.mop\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)push\\.wandoujia\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)qdp\\.qidian\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)res\\.gwifi\\.com\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)ssp\\.kssws\\.ks-cdn\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)stats\\.chinaz\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)stats\\.developingperspective\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tjlog\\.easou\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tjlog\\.ps\\.easou\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)track\\.hujiang\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tracker\\.yhd\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)up\\.qingdaonews\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)09mk\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)100peng\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)114la\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)123juzi\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)138lm\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)17un\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)2cnt\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)3gmimo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)3xx\\.vip\$ 
- add address=240.0.0.1 regexp=(^|\\.)51\\.la\$ 
- add address=240.0.0.1 regexp=(^|\\.)51taifu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)51yes\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)600ad\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)6dad\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)70e\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)86\\.cc\$ 
- add address=240.0.0.1 regexp=(^|\\.)8le8le\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)8ox\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)95558000\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)99click\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)99youmeng\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)a3p4\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)acs86\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)acxiom-online\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad-brix\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad-delivery\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad-locus\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad-plus\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad7\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adadapted\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adadvisor\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)adap\\.tv\$ 
- add address=240.0.0.1 regexp=(^|\\.)adbana\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adchina\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adcome\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)ader\\.mobi\$ 
- add address=240.0.0.1 regexp=(^|\\.)adform\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)adfuture\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)adhouyi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adinfuse\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adirects\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adjust\\.io\$ 
- add address=240.0.0.1 regexp=(^|\\.)adkmob\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adlive\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)adlocus\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)admaji\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)admin6\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)admon\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)adnyg\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adpolestar\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)adpro\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)adpush\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)adquan\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adreal\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)ads8\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adsame\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adsmogo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adsmogo\\.org\$ 
- add address=240.0.0.1 regexp=(^|\\.)adsunflower\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adsunion\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adtrk\\.me\$ 
- add address=240.0.0.1 regexp=(^|\\.)adups\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)aduu\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)advertising\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adview\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)advmob\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)adwetec\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adwhirl\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adwo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adxmi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adyun\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adzerk\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)agrant\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)agrantsem\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)aihaoduo\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)ajapk\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)allyes\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)allyes\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)amazon-adsystem\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)analysys\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)angsrvr\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)anquan\\.org\$ 
- add address=240.0.0.1 regexp=(^|\\.)anysdk\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)appadhoc\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)appads\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)appboy\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)appdriver\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)appjiagu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)applifier\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)appsflyer\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)atdmt\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)baifendian\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)banmamedia\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)baoyatu\\.cc\$ 
- add address=240.0.0.1 regexp=(^|\\.)baycode\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)bayimob\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)behe\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)bfshan\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)biddingos\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)biddingx\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)bjvvqu\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)bjxiaohua\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)bloggerads\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)branch\\.io\$ 
- add address=240.0.0.1 regexp=(^|\\.)bsdev\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)btyou\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)bugtags\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)buysellads\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)c0563\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cacafly\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)casee\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)cdnmaster\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)chance-ad\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)chanet\\.com\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)chartbeat\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)chartboost\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)chengadx\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)chmae\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)clickadu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)clicki\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)clicktracks\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)clickzs\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cloudmobi\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)cmcore\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cnxad\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cnzz\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cnzzlink\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cocounion\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)coocaatv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cooguo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)coolguang\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)coremetrics\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)cpmchina\\.co\$ 
- add address=240.0.0.1 regexp=(^|\\.)cpx24\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)crasheye\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)crosschannel\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ctrmi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)customer-security\\.online\$ 
- add address=240.0.0.1 regexp=(^|\\.)daoyoudao\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)datouniao\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ddapp\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)dianjoy\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)dianru\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)disqusads\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)domob\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)domob\\.com\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)domob\\.org\$ 
- add address=240.0.0.1 regexp=(^|\\.)dotmore\\.com\\.tw\$ 
- add address=240.0.0.1 regexp=(^|\\.)doubleverify\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)doudouguo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)doumob\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)duanat\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)duiba\\.com\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)duomeng\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)dxpmedia\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)edigitalsurvey\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)eduancm\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)emarbox\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)epsilon\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)exosrv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)fancyapi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)feitian001\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)feixin2\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)flashtalking\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)fraudmetrix\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)g1\\.tagtic\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)gentags\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)gepush\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)getui\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)glispa\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)go-mpulse\$ 
- add address=240.0.0.1 regexp=(^|\\.)go-mpulse\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)godloveme\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)gridsum\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)gridsumdissector\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)gridsumdissector\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)growingio\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)guohead\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)guomob\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)haoghost\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)hivecn\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)hypers\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)icast\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)igexin\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)il8r\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)imageter\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)immob\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)inad\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)inmobi\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)inmobi\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)inmobicdn\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)inmobicdn\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)innity\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)instabug\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)intely\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)iperceptions\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ipinyou\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)irs01\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)irs01\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)irs09\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)istreamsche\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)jesgoo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)jiaeasy\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)jiguang\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)jimdo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)jisucn\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)jmgehn\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)jpush\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)jusha\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)juzi\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)juzilm\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)kejet\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)kejet\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)keydot\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)keyrun\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)kmd365\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)krux\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)lnk0\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)lnk8\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)localytics\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)lomark\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)lotuseed\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)lrswl\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)lufax\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)madhouse\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)madmini\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)madserving\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)magicwindow\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)mathtag\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)maysunmedia\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mbai\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)mediaplex\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mediav\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)megajoy\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)meiqia\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mgogo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)miaozhen\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)microad-cn\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)miidi\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)mijifen\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mixpanel\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mjmobi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mng-ads\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)moad\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)moatads\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mobaders\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mobclix\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mobgi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mobisage\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)mobvista\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mopub\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)moquanad\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mpush\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)mxpnl\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)myhug\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)mzy2014\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)networkbench\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ninebox\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)ntalker\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)nylalobghyhirgh\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)o2omobi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)oadz\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)oneapm\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)onetad\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)optaim\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)optimix\\.asia\$ 
- add address=240.0.0.1 regexp=(^|\\.)optimix\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)optimizelyapis\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)overture\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)p0y\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)pagechoice\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)pingdom\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)plugrush\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)popin\\.cc\$ 
- add address=240.0.0.1 regexp=(^|\\.)pro\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)publicidad\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)publicidad\\.tv\$ 
- add address=240.0.0.1 regexp=(^|\\.)pubmatic\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)pubnub\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)qcl777\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)qiyou\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)qtmojo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)quantcount\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)qucaigg\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)qumi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)qxxys\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)reachmax\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)responsys\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)revsci\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)rlcdn\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)rtbasia\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)sanya1\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)scupio\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)serving-sys\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)shuiguo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)shuzilm\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)similarweb\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)sitemeter\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)sitescout\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)sitetag\\.us\$ 
- add address=240.0.0.1 regexp=(^|\\.)smartmad\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)social-touch\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)somecoding\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)sponsorpay\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)stargame\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)stg8\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)switchadhub\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)sycbbs\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)synacast\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)sysdig\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)talkingdata\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)talkingdata\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)tansuotv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tanv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tanx\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tapjoy\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)th7\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)thoughtleadr\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tianmidian\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tiqcdn\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)touclick\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)trafficjam\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)trafficmp\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tuia\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)ueadlian\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)uerzyr\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)ugdtimg\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ugvip\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ujian\\.cc\$ 
- add address=240.0.0.1 regexp=(^|\\.)ukeiae\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)umeng\\.co\$ 
- add address=240.0.0.1 regexp=(^|\\.)umeng\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)umtrack\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)unimhk\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)union-wifi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)union001\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)unionsy\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)unlitui\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)uri6\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ushaqi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)usingde\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)uuzu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)uyunad\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)vamaker\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)voiceads\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)voiceads\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)vpon\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)vungle\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)vungle\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)waps\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)wapx\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)webterren\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)whpxy\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)winads\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)winasdaq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)wiyun\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)wooboo\\.com\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)wqmobile\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)wrating\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)wumii\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)xcy8\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)xdrig\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)xiaozhen\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)xibao100\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)xtgreat\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)xy\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)yandui\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)yigao\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)yijifen\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)yinooo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)yiqifa\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)yiwk\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ylunion\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ymapp\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ymcdn\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)yongyuelm\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)yooli\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)youmi\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)youxiaoad\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)yoyi\\.com\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)yoyi\\.tv\$ 
- add address=240.0.0.1 regexp=(^|\\.)yrxmr\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ysjwj\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)yunjiasu\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)yunpifu\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)zampdsp\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)zamplus\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)zcdsp\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)zhidian3g\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)zhiziyun\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)zhjfad\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)zqzxz\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)zzsx8\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)acuityplatform\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad-stir\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad-survey\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ad4game\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adcloud\\.jp\$ 
- add address=240.0.0.1 regexp=(^|\\.)adcolony\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)addthis\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adfurikun\\.jp\$ 
- add address=240.0.0.1 regexp=(^|\\.)adhigh\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)adhood\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adinall\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adition\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adk2x\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)admarket\\.mobi\$ 
- add address=240.0.0.1 regexp=(^|\\.)admarvel\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)admedia\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adnxs\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adotmob\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adperium\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adriver\\.ru\$ 
- add address=240.0.0.1 regexp=(^|\\.)adroll\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adsco\\.re\$ 
- add address=240.0.0.1 regexp=(^|\\.)adservice\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adsrvr\\.org\$ 
- add address=240.0.0.1 regexp=(^|\\.)adsymptotic\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adtaily\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adtech\\.de\$ 
- add address=240.0.0.1 regexp=(^|\\.)adtechjp\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)adtechus\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)airpush\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)am15\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)amobee\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)appier\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)applift\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)apsalar\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)atas\\.io\$ 
- add address=240.0.0.1 regexp=(^|\\.)awempire\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)axonix\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)beintoo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)bepolite\\.eu\$ 
- add address=240.0.0.1 regexp=(^|\\.)bidtheatre\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)bidvertiser\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)blismedia\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)brucelead\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)bttrack\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)casalemedia\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)celtra\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)channeladvisor\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)connexity\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)criteo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)criteo\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)csbew\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)demdex\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)directrev\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)dumedia\\.ru\$ 
- add address=240.0.0.1 regexp=(^|\\.)effectivemeasure\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)effectivemeasure\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)eqads\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)everesttech\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)exoclick\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)extend\\.tv\$ 
- add address=240.0.0.1 regexp=(^|\\.)eyereturn\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)fastapi\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)fastclick\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)fastclick\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)flurry\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)gosquared\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)gtags\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)heyzap\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)histats\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)hitslink\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)hot-mob\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)hyperpromote\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)i-mobile\\.co\\.jp\$ 
- add address=240.0.0.1 regexp=(^|\\.)imrworldwide\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)inmobi\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)inner-active\\.mobi\$ 
- add address=240.0.0.1 regexp=(^|\\.)intentiq\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)inter1ads\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ipredictive\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)ironsrc\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)iskyworker\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)jizzads\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)juicyads\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)kochava\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)leadbolt\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)leadbolt\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)leadboltads\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)leadboltapps\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)leadboltmobile\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)lenzmx\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)liveadvert\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)marketgid\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)marketo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mdotm\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)medialytics\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)medialytics\\.io\$ 
- add address=240.0.0.1 regexp=(^|\\.)meetrics\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)meetrics\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)mgid\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)millennialmedia\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mobadme\\.jp\$ 
- add address=240.0.0.1 regexp=(^|\\.)mobfox\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mobileadtrading\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mobilityware\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mojiva\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)mookie1\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)msads\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)mydas\\.mobi\$ 
- add address=240.0.0.1 regexp=(^|\\.)nend\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)netshelter\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)nexage\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)owneriq\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)pixels\\.asia\$ 
- add address=240.0.0.1 regexp=(^|\\.)plista\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)popads\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)powerlinks\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)propellerads\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)quantserve\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)rayjump\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)revdepo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)rubiconproject\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)sape\\.ru\$ 
- add address=240.0.0.1 regexp=(^|\\.)scorecardresearch\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)segment\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)serving-sys\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)sharethis\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)smaato\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)smaato\\.net\$ 
- add address=240.0.0.1 regexp=(^|\\.)smartadserver\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)smartnews-ads\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)startapp\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)startappexchange\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)statcounter\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)steelhousemedia\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)stickyadstv\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)supersonic\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tapjoy\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tapjoyads\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)trafficjunky\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)tribalfusion\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)turn\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)uberads\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)vidoomy\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)viglink\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)voicefive\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)wedolook\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)yadro\\.ru\$ 
- add address=240.0.0.1 regexp=(^|\\.)yengo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)zedo\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)zemanta\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)11h5\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)1kxun\\.mobi\$ 
- add address=240.0.0.1 regexp=(^|\\.)519397\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)626uc\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)915\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)appget\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)appuu\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)coinhive\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)huodonghezi\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)wanfeng1\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)wep016\\.top 
- add address=240.0.0.1 regexp=(^|\\.)win-stock\\.com\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)zantainet\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)\\w\\w(\\w|)dnserror\\d(\\d|)\\.wo\\.com\\.cn 
- add address=240.0.0.1 regexp=(^|\\.)114so\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)go\\.10086\\.cn\$ 
- add address=240.0.0.1 regexp=(^|\\.)navi\\.gd\\.chinamobile\\.com\$ 
- add address=240.0.0.1 regexp=(^|\\.)hivedata\\.cc\$ 
+add address=240.0.0.1 regexp="(^|\\.)\\w*admarvel\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*admaster\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*adsage\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*adsensor\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*adservice\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*adsmogo\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*adsrvmedia\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*adsserving\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*adsystem\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*adwords\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*analysis\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*applovin\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*appsflyer\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*domob\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*duomeng\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*dwtrack\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*guanggao\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*omgmta\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*omniture\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*openx\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*partnerad\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*pingfore\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*socdm\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*supersonicads\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*tracking\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*umeng\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*usage\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*wlmonitor\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*zjtoolbar\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\d{0,3}\\..*\$"
+add address=240.0.0.1 regexp="(^|\\.)ads\\d{0,3}\\..*\$"
+add address=240.0.0.1 regexp="(^|\\.)tracking\\..*\$"
+add address=240.0.0.1 regexp="(^|\\.)(adgeo|bobo|fa|g|g1|gb|nex)(\\.corp|)\\.163\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(analytics|img1|img2|mimg)\\.126\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)(a|c|clkservice|conv|dsp|dsp-impr2|gorgon|rlogs|union|ydpushserver)\\.youdao\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(nc004x|nc045x|qt002x|tb060x|tb104x)\\.corp\\.youdao\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(haitaoad|iadmatvideo)\\.nosdn\\.127\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)ir\\.mail\\.126\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ir\\.mail\\.yeah\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)oimagea2\\.ydstatic\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)pagechoice\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)prom\\.gome\\.com\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)qchannel0\\d\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)static\\.flv\\.uuzuonline\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)wanproxy\\.127\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)cvda\\.17173\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)imgapp\\.yeyou\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)log1\\.17173\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)s\\.17173cdn\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ue\\.yeyoucdn\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)vda\\.17173\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)analytics\\.wanmei\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)gg\\.stargame\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(dl|download|houtai|jifen|minipage|wan|jifendownload|zhushou)\\.2345\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)3600\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)gamebox\\.360\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)jiagu\\.360\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)kuaikan\\.netmon\\.360safe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)leak\\.360\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)lianmeng\\.360\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)pub\\.se\\.360\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)s\\.so\\.360\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)shouji\\.360\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)soft\\.data\\.weather\\.360\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)stat\\.360safe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)stat\\.m\\.360\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)update\\.360safe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)wan\\.360\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)(58|imp|stat)\\.xgo\\.com\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)(brandshow|jing|track|tracklog)\\.58\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(adashx4yt|adash-c|ai|re|rj|simaba)\\.m\\.taobao\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(afp|atanx|atanx2|gma|gtms\\d\\d)\\.alicdn\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(fav|m|redirect|srd|tns)\\.simba\\.taobao\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(sdkinit|simaba|tyh)\\.taobao\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)acjs\\.aliyun\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(adash-c|adashbc|adashxgc)\\.ut\\.taobao\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)alipaylog\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)g\\.click\\.taobao\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)g\\.tbcdn\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)hydra\\.alibaba\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)pindao\\.huoban\\.taobao\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)show\\.re\\.taobao\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)strip\\.taobaocdn\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)userimg\\.qunar\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)yiliao\\.hupan\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)3dns-2\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)3dns-3\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)activate\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)activate-sea\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)activate-sjc0\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adobe-dns\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adobe-dns-2\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adobe-dns-3\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ereg\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)geo2\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)hl2rcv\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)hlrcv\\.stage\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)lm\\.licenses\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)lmlicenses\\.wip4\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)na1r\\.services\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)na2m-pr\\.licenses\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)practivate\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)wip3\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)wwis-dubc1-vip60\\.adobe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adserver\\.unityads\\.unity3d\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(33|adproxy|al|alert|applogapi|c|cmx|dspmnt|pcd|pvx|rd|rdx|stats)\\.autohome\\.com\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)adm\\d\\.autoimg\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)push\\.app\\.autohome\\.com\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)(a|adm|adscdn|afd|als|anquan|appc|as|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|cpu-admin|crs|drmcmm|e|eclick|eiv)\\.baidu\\.(com|cn)\$"
+add address=240.0.0.1 regexp="(^|\\.)(hc|hm|hmma|hpd|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\\.baidu\\.(com|cn)\$"
+add address=240.0.0.1 regexp="(^|\\.)(pups|rj|rp|spcode|tk|tuisong|ucstat|union|utility|utk|videopush|wangmeng|wm|znsv)\\.baidu\\.(com|cn)\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\.duapps\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\.player\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adx\\.xiaodutv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ae\\.bdstatic\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)antivirus\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)api\\.mobula\\.sdk\\.duapps\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)baichuan\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)baidu9635\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)baidustatic\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)baidutv\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)baikebcs\\.bdimg\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)banlv\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)bar\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)bdplus\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)btlaunch\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cleaner\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)click\\.bes\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)click\\.hm\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)click\\.qianqian\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cm\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cpro\\.baidustatic\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cpro\\.tieba\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cpro\\.zhidao\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)datax\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)dl-vip\\.bav\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)dl-vip\\.pcfaster\\.baidu\\.co\\.th\$"
+add address=240.0.0.1 regexp="(^|\\.)dl1sw\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)dl2\\.bav\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)dl\\.client\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)dl\\.ops\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)dlsw\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)dlsw\\.br\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)download\\.bav\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)download\\.sd\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)drmcmm\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)dup\\.baidustatic\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)dxp\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)dzl\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ecma\\.bdimg\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ecmb\\.bdimg\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ecmc\\.bdimg\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)em\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ers\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)f10\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)fc-\\.cdn\\.bcebos\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)fc-feed\\.cdn\\.bcebos\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)fclick\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)fexclick\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)g\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)gimg\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)guanjia\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)idm-su\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)iebar\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ikcode\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)img01\\.taotaosou\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)img\\.taotaosou\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)itsdata\\.map\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)j\\.br\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)kstj\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)log\\.music\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)log\\.nuomi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)m1\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mg09\\.zhaopin\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mipcache\\.bdstatic\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mpro\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)neirong\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)nsclickvideo\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)openrcv\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)pc\\.videoclick\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)pos\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)pups\\.bdimg\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)push\\.music\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)push\\.zhanzhang\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)qchannel0\\d\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)qianclick\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)release\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)res\\.limei\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)res\\.mi\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)rigel\\.baidustatic\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)river\\.zhidao\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)rplog\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)s\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)sclick\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)sestat\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)shadu\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)share\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)sobar\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)sobartop\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)stat\\.v\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)su\\.bdimg\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)su\\.bdstatic\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tkweb\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tob-cms\\.bj\\.bcebos\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)toolbar\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tracker\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tuijian\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ubmcmm\\.baidustatic\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ulic\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ulog\\.imap\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)unionimage\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)vv84\\.bj\\.bcebos\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)w\\.gdown\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)w\\.x\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)weishi\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)wenku-cms\\.bj\\.bcebos\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)wisepush\\.video\\.baidu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)zz\\.bdstatic\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)zzy1\\.quyaoya\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(adm|assets|tjlog)(\\.ps|)\\.easou\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(ad|push|sys)\\.zhangyue\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(cj|game|tongji)\\.qidian\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)aishowbger\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)api\\.itaoxiaoshuo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)bbcoe\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)dkeyn\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)drdwy\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)e701\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)e\\.aa985\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)e\\.v02u9\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)ehxyz\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ethod\\.gzgmjcx\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)focuscat\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)hdswgc\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)jyd\\.fjzdmy\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)m\\.ourlj\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)m\\.txtxr\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)m\\.vsxet\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)miam4\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)o\\.if\\.qidian\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)p\\.vq6nsu\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)picture\\.duokan\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)pyerc\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)s1\\.cmfu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)sc\\.shayugg\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)sdk\\.cferw\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)sezvc\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ut2\\.shuqistat\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)xgcsr\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)xjq\\.jxmqkj\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)xpe\\.cxaerp\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)xtzxmy\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)xyrkl\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)zhuanfakong\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(ad|sm|dsp|nativeapp|partner|track)\\.toutiao\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ic\\.snssdk\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)log\\.snssdk\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)xlog\\.snssdk\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(a|click|schprompt|t)\\.dangdang\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\.duomi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)boxshows\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)staticxx\\.facebook\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)click1n\\.soufun\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)clickm\\.fang\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)clickn\\.fang\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)countpvn\\.light\\.fang\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)countubn\\.light\\.soufun\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mshow\\.fang\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tongji\\.home\\.soufun\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)admob\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ads\\.gmodules\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ads\\.google\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adservice\\.google\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)afd\\.l\\.google\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)badad\\.googleplex\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)csi\\.gstatic\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)doubleclick(\\.com|\\.net)\$"
+add address=240.0.0.1 regexp="(^|\\.)google-analytics\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)googleadservices\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)googleadsserving\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)googlecommerce\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)googlesyndication\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mobileads\\.google\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)pagead-tpc\\.l\\.google\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)pagead\\.google\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)pagead\\.l\\.google\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)service\\.urchin\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(c-nfa|img-x|jrclick|jzt|policy)\\.jd\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ads\\.union\\.jd\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cps\\.360buy\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)stat\\.m\\.jd\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(bssdl|bssdlbig|d|downmobile|gad|game|gamebox|gg|install|install2|kgmobilestat|minidcsc|mo|mobilelog|mvads|p|rtmonitor|sdn|tj)\\.kugou\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(msg|push|update)\\.mobile\\.kugou\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ads\\.service\\.kugou\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)gcapi\\.sy\\.kugou\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)kuaikaiapp\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)log\\.stat\\.kugou\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)log\\.web\\.kugou\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(deliver|g|log|kwmsg|mobilead|msclick2|msphoneclick|updatepage|wa|webstat)\\.kuwo\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)apk\\.shouji\\.koowo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)g\\.koowo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(aider-res|api-flow|api-game|api-push|cal|ebook|game-res|infocenter|openapi-news|reader|tongji-res1|tongji|uxip)\\.meizu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(bro|t-e|t-flow)\\.flyme\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)(ebook|game|push|reader|upush)\\.res\\.meizu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)aries\\.mzres\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)umid\\.orion\\.meizu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(corp|gg|message|tuiguang)\\.meitu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(dc|mdc|rabbit)\\.meitustat\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)a\\.koudai\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adui\\.tg\\.meitu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)meitubeauty\\.meitudata\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)rabbit\\.tg\\.meitu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)xiuxiu\\.android\\.dl\\.meitu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)xiuxiu\\.mobile\\.meitudata\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(ad|ad1|shenghuo|xmpush)\\.xiaomi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(a|wtradv)\\.market\\.xiaomi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(bss|de|dvb|jellyfish|stat)\\.pandora\\.xiaomi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(d|migc|migcreport|mis)\\.g\\.mi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(notice|ppurifier)\\.game\\.xiaomi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(r|security)\\.browser\\.miui\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adv\\.sec\\.intl\\.miui\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adv\\.sec\\.miui\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)data\\.mistat\\.xiaomi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)union\\.mi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\.api\\.moji\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)app\\.moji001\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cdn\\.moji\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cdn\\.moji002\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cdn2\\.moji002\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)fds\\.api\\.moji\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)log\\.moji\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)stat\\.moji\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ugc\\.moji001\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(ad|admgr|logger)\\.qingting\\.fm\$"
+add address=240.0.0.1 regexp="(^|\\.)dload\\.qd\\.qingting\\.fm\$"
+add address=240.0.0.1 regexp="(^|\\.)s\\.qd\\.qingting\\.fm\$"
+add address=240.0.0.1 regexp="(^|\\.)s\\.qd\\.qingtingfm\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w*omgmta\\w*\\.\\w*\$"
+add address=240.0.0.1 regexp="(^|\\.)(act|adsfile|bugly|buluo|gdt|monitor|pingma|pingtcss|report|tajs|tcss|uu)\\.qq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(wxsnsdy|wxsnsdythumb)\\.wxs\\.qq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\.qun\\.qq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)oth\\.eve\\.mdt\\.qq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)jebe\\.renren\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ebp\\.renren\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)jebe\\.xnimg\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)(adimg|pay|sax|sdkapp|sdkclick|trends|u1\\.img|wbapp|wbclick|wbpctips)\\.mobile\\.sina\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)(ad|ad\\d|adbox|adm|d\\d|dcads|dmp|leju|sax|sax\\d|slog)\\.sina\\.com(\\.cn|)\$"
+add address=240.0.0.1 regexp="(^|\\.)(alitui|biz|game|wax)\\.weibo\\.com(\\.cn|)\$"
+add address=240.0.0.1 regexp="(^|\\.)cre\\.dp\\.sina\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)gw5\\.push\\.mcp\\.weibo\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)log\\.mix\\.sina\\.com\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)mobileads\\.dx\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)newspush\\.sinajs\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)sdkapp\\.uve\\.weibo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tui\\.weibo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)wbapp\\.uve\\.weibo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)zymo\\.mps\\.weibo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(123|adsence|brand|cpc|epro|fair|files2|goto|golden1|inte|iwan|lu|pb|pd|pv|theta|wan|wangmeng)\\.sogou\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(123|galaxy|lu)\\.sogoucdn\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)amfi\\.gou\\.sogou\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)applovin\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)guangzhuiyuan\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(ads|syndication|syndication-o|analytics|scribe|p)\\.twitter\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ads-twitter\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tellapart\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)urls\\.api\\.twitter\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(adslot|applog|track)\\.uc\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)(cms|puds|uc|ucsec1|ucsec)\\.ucweb\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(log|patriot)\\.cs\\.pp\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)api\\.mp\\.uc\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)client\\.video\\.ucweb\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)dispatcher\\.upmc\\.uc\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)huichuan\\.sm\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)iflow\\.uczzd(\\.\\w{2,3}){1,2}\$"
+add address=240.0.0.1 regexp="(^|\\.)m\\.uczzd\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)server\\.m\\.pp\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)u\\.uc123\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)u\\.ucfly\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)aoodoo\\.feng\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)fengbuy\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)push\\.feng\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)we\\.tm\$"
+add address=240.0.0.1 regexp="(^|\\.)(bannera|rating6|cloudservice.*)\\.kingsoft-office-service\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(docerad|gou|info|minfo|notify|pcfg|push|wpsweb-dc)\\.wps\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\.docer\\.wps\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)adm\\.zookingsoft\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)bole\\.shangshufang\\.ksosoft\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)counter\\.kingsoft\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)hoplink\\.ksosoft\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ic\\.ksosoft\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)img.*\\.mini\\.cache\\.wps\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)img\\.gou\\.wpscdn\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)ios-informationplatform\\.wps\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)mo\\.res\\.wpscdn\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)news\\.docer\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)pc\\.uf\\.ksosoft\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)pixiu\\.shangshufang\\.ksosoft\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)up\\.wps\\.kingsoft\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(c|cdsget|news-imgpb|wifiapi\\d\\d|wkanc)\\.51y5\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)(adse|linkeye|location|xdcs-collector)\\.ximalaya\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)biz5\\.kankan\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)float\\.kankan\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)logic\\.cpm\\.cm\\.kankan\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)hub5btmain\\.sandai\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)hub5emu\\.sandai\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)upgrade\\.xl9\\.xunlei\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(ads|adserver|adss|analytics|beap-bc|comet|geo|gemini|p3p|ybp)\\.yahoo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(analytics|locdrop|onepush)\\.query\\.yahoo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(ard|ane|yads)\\.yahoo\\.co\\.jp\$"
+add address=240.0.0.1 regexp="(^|\\.)(js-apac-ss|partnerads)\\.ysm\\.yahoo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\.wretch\\.cc\$"
+add address=240.0.0.1 regexp="(^|\\.)clicks\\.beap\\.bc\\.yahoo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)doubleplay-conf-yql\\.media\\.yahoo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)flurry\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)m\\.yap\\.yahoo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ws\\.progrss\\.yahoo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(sugar|zhihu-web-analytics)\\.zhihu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(shrek|simba|union)\\.6\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)logger\\.baofeng\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)xs\\.houyi\\.baofeng\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)dotcounter\\.douyutv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(aoodoo|push|yes1)\\.feng\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(game|stadig)\\.ifeng\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)api\\.newad\\.ifeng\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)exp\\.3g\\.ifeng\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)iis3g\\.deliver\\.ifeng\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mfp\\.deliver\\.ifeng\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(pub|adm|jobsfe|po|pv|stat)\\.funshion\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\.m\\.iqiyi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)afp\\.iqiyi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)c\\.uaa\\.iqiyi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cloudpush\\.iqiyi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cm\\.passport\\.iqiyi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cupid\\.iqiyi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)emoticon\\.sns\\.iqiyi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)gamecenter\\.iqiyi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ifacelog\\.iqiyi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mbdlog\\.iqiyi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)meta\\.video\\.qiyi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)msg1\\.video\\.qiyi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)msg2\\.video\\.qiyi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)msg\\.71\\.am\$"
+add address=240.0.0.1 regexp="(^|\\.)paopao\\.iqiyi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)paopao\\d\\.qiyipic\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)policy\\.video\\.iqiyi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)yuedu\\.iqiyi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)gug\\.ku6cdn\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)st\\.vq\\.ku6\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)pq\\.stat\\.ku6\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)static\\.ku6\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(ark|dc|fz|g3|minisite|pro|stat)\\.letv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(1|2)\\.letvlive\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(i0|i3)\\.letvimg\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)game\\.letvstore\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)n\\.mark\\.letv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)pro\\.hoye\\.letv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)static\\.app\\.m\\.letv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(click|da|log|p2|res)\\.hunantv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)da\\.mgtv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)log\\.v2\\.hunantv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(888|lm|push)\\.tv\\.sohu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(aty|bd|click|click2|ctr|pv|pb|wl|um)\\.hd\\.sohu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(ads|adnet|aty|epro|go|golden1|hui|inte|uranus|wan|yule|pv)\\.sohu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(epro|golden1|inte|uranus|pv)\\.sogou\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(inte|lu|theta)\\.sogoucdn\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(de|jp)\\.as\\.pptv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(app|as)\\.aplus\\.pptv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)afp\\.pplive\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)asimgs\\.pplive\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)pp2\\.pptv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)stat\\.pptv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)btrace\\.video\\.qq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)c\\.l\\.qq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)dp3\\.qq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)livep\\.l\\.qq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)lives\\.l\\.qq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)livew\\.l\\.qq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mcgi\\.v\\.qq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mdevstat\\.qqlive\\.qq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)omgmta1\\.qq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)p\\.l\\.qq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)rcgi\\.video\\.qq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)t\\.l\\.qq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)u\\.l\\.qq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(actives|dmapp|hz|iyes|l|lstat|lvip|msg|mobilemsg|myes|passport-log|stat|tdrec|wan|ykatr|ykrec|ykrectab)\\.youku\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(adcontrol|adplay|goods|iwstat|nstat|stat|stats)\\.tudou\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(ad|gamex)\\.mobile\\.youku\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(dev-push|push|sdk)\\.m\\.youku\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(p|r|v)\\.l\\.youku\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)a-dxk\\.play\\.api\\.3g\\.youku\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\.api\\.3g(\\.tudou|\\.youku)\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\.api\\.mobile\\.youku\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)b\\.smartvideo\\.youku\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)c\\.yes\\.youku\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)dl\\.g\\.youku\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)e\\.stat\\.ykimg\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)hudong\\.pl\\.youku\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)l\\.ykimg\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)p-log\\.ykimg\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)s\\.p\\.youku\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)store\\.tv\\.api\\.3g\\.youku\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)store\\.xl\\.api\\.3g\\.youku\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)test\\.ott\\.youku\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)val\\.api\\.youku\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)azabu-u\\.ac\\.jp\$"
+add address=240.0.0.1 regexp="(^|\\.)couchcoaster\\.jp\$"
+add address=240.0.0.1 regexp="(^|\\.)delivery\\.dmkt-sp\\.jp\$"
+add address=240.0.0.1 regexp="(^|\\.)ehg-youtube\\.hitbox\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)m-78\\.jp\$"
+add address=240.0.0.1 regexp="(^|\\.)nichibenren\\.or\\.jp\$"
+add address=240.0.0.1 regexp="(^|\\.)nicorette\\.co\\.kr\$"
+add address=240.0.0.1 regexp="(^|\\.)ssl-youtube\\.2cnt\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)youtube\\.112\\.2o7\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)youtube\\.2cnt\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)(acsystem|ads|afp)\\.wasu\\.tv\$"
+add address=240.0.0.1 regexp="(^|\\.)ads\\.cdn\\.tvb\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)c\\.algovid\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)gg\\.jtertp\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)gridsum-vd\\.cntv\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)kwflvcdn\\.000dn\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)logstat\\.t\\.sfht\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)match\\.rtbidder\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)n-st\\.vip\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)pop\\.uusee\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)static\\.duoshuo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)t\\.cr-nielsen\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)terren\\.cntv\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)(168|adshownew|stat)\\.it168\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(1|2)\\.win7china\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(801|803|806|808|bdj|dol|click)\\.(tianya|tianyaui)\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)(92x|its-dori)\\.tumblr\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(ad-channel|ad-display)\\.wikawika\\.xyz\$"
+add address=240.0.0.1 regexp="(^|\\.)(adm|eq|ozone|stat|vaserviece)\\.10jqka\\.com\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)(ad|adadmin|ads)\\.house365\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(ad|ads|counter)\\.csdn\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)(ad|analytics|click|ganjituiguang|sta|tralog)\\.ganji\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(app-monitor|client-api|grand|mobile-pubt|newton-api)\\.ele\\.me\$"
+add address=240.0.0.1 regexp="(^|\\.)(bd1|bd2)\\.52che\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(click|media|pv)\\.(cheshi|cheshi-img)\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)(d0|dw|pv)\\.xcar\\.com\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)a1\\.itc\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\.12306\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\.3\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\.95306\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\.caiyunapp\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\.cctv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\.cmvideo\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\.thepaper\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)ad\\.unimhk\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adhome\\.1fangchan\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adm\\.easou\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ads\\.feedly\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ads\\.genieessp\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ads\\.linkedin\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adv\\.ccb\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)advert\\.api\\.thejoyrun\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)api-deal\\.kechenggezi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)api-z\\.weidian\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mobileads\\.msn\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)bat\\.bing\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)beacon\\.tingyun\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cdn\\.jiuzhilan\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)collector\\.githubapp\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)de\\.soquair\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)e\\.nexac\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)exp\\.17wo\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)game\\.51yund\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)hosting\\.miarroba\\.info\$"
+add address=240.0.0.1 regexp="(^|\\.)iadsdk\\.apple\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)image\\.gentags\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)log\\.outbrain\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)m\\.12306media\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)n\\.cosbot\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)pdl\\.gionee\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)pica-juicy\\.picacomic\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)pixel\\.wp\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)pub\\.mop\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)push\\.wandoujia\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)qdp\\.qidian\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)res\\.gwifi\\.com\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)ssp\\.kssws\\.ks-cdn\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)stats\\.chinaz\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)stats\\.developingperspective\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tjlog\\.easou\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tjlog\\.ps\\.easou\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)track\\.hujiang\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tracker\\.yhd\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)up\\.qingdaonews\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)09mk\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)100peng\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)114la\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)123juzi\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)138lm\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)17un\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)2cnt\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)3gmimo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)3xx\\.vip\$"
+add address=240.0.0.1 regexp="(^|\\.)51\\.la\$"
+add address=240.0.0.1 regexp="(^|\\.)51taifu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)51yes\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)600ad\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)6dad\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)70e\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)86\\.cc\$"
+add address=240.0.0.1 regexp="(^|\\.)8le8le\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)8ox\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)95558000\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)99click\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)99youmeng\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)a3p4\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)acs86\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)acxiom-online\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ad-brix\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ad-delivery\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)ad-locus\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ad-plus\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)ad7\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adadapted\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adadvisor\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)adap\\.tv\$"
+add address=240.0.0.1 regexp="(^|\\.)adbana\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adchina\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adcome\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)ader\\.mobi\$"
+add address=240.0.0.1 regexp="(^|\\.)adform\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)adfuture\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)adhouyi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adinfuse\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adirects\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adjust\\.io\$"
+add address=240.0.0.1 regexp="(^|\\.)adkmob\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adlive\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)adlocus\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)admaji\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)admin6\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)admon\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)adnyg\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adpolestar\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)adpro\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)adpush\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)adquan\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adreal\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)ads8\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adsame\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adsmogo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adsmogo\\.org\$"
+add address=240.0.0.1 regexp="(^|\\.)adsunflower\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adsunion\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adtrk\\.me\$"
+add address=240.0.0.1 regexp="(^|\\.)adups\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)aduu\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)advertising\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adview\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)advmob\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)adwetec\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adwhirl\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adwo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adxmi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adyun\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adzerk\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)agrant\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)agrantsem\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)aihaoduo\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)ajapk\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)allyes\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)allyes\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)amazon-adsystem\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)analysys\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)angsrvr\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)anquan\\.org\$"
+add address=240.0.0.1 regexp="(^|\\.)anysdk\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)appadhoc\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)appads\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)appboy\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)appdriver\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)appjiagu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)applifier\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)appsflyer\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)atdmt\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)baifendian\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)banmamedia\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)baoyatu\\.cc\$"
+add address=240.0.0.1 regexp="(^|\\.)baycode\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)bayimob\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)behe\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)bfshan\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)biddingos\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)biddingx\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)bjvvqu\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)bjxiaohua\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)bloggerads\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)branch\\.io\$"
+add address=240.0.0.1 regexp="(^|\\.)bsdev\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)btyou\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)bugtags\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)buysellads\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)c0563\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cacafly\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)casee\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)cdnmaster\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)chance-ad\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)chanet\\.com\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)chartbeat\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)chartboost\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)chengadx\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)chmae\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)clickadu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)clicki\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)clicktracks\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)clickzs\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cloudmobi\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)cmcore\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cnxad\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cnzz\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cnzzlink\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cocounion\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)coocaatv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cooguo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)coolguang\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)coremetrics\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)cpmchina\\.co\$"
+add address=240.0.0.1 regexp="(^|\\.)cpx24\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)crasheye\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)crosschannel\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ctrmi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)customer-security\\.online\$"
+add address=240.0.0.1 regexp="(^|\\.)daoyoudao\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)datouniao\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ddapp\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)dianjoy\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)dianru\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)disqusads\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)domob\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)domob\\.com\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)domob\\.org\$"
+add address=240.0.0.1 regexp="(^|\\.)dotmore\\.com\\.tw\$"
+add address=240.0.0.1 regexp="(^|\\.)doubleverify\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)doudouguo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)doumob\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)duanat\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)duiba\\.com\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)duomeng\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)dxpmedia\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)edigitalsurvey\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)eduancm\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)emarbox\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)epsilon\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)exosrv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)fancyapi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)feitian001\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)feixin2\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)flashtalking\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)fraudmetrix\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)g1\\.tagtic\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)gentags\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)gepush\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)getui\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)glispa\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)go-mpulse\$"
+add address=240.0.0.1 regexp="(^|\\.)go-mpulse\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)godloveme\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)gridsum\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)gridsumdissector\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)gridsumdissector\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)growingio\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)guohead\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)guomob\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)haoghost\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)hivecn\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)hypers\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)icast\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)igexin\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)il8r\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)imageter\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)immob\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)inad\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)inmobi\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)inmobi\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)inmobicdn\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)inmobicdn\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)innity\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)instabug\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)intely\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)iperceptions\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ipinyou\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)irs01\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)irs01\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)irs09\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)istreamsche\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)jesgoo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)jiaeasy\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)jiguang\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)jimdo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)jisucn\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)jmgehn\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)jpush\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)jusha\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)juzi\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)juzilm\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)kejet\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)kejet\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)keydot\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)keyrun\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)kmd365\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)krux\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)lnk0\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)lnk8\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)localytics\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)lomark\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)lotuseed\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)lrswl\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)lufax\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)madhouse\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)madmini\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)madserving\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)magicwindow\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)mathtag\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)maysunmedia\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mbai\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)mediaplex\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mediav\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)megajoy\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)meiqia\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mgogo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)miaozhen\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)microad-cn\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)miidi\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)mijifen\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mixpanel\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mjmobi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mng-ads\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)moad\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)moatads\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mobaders\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mobclix\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mobgi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mobisage\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)mobvista\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mopub\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)moquanad\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mpush\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)mxpnl\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)myhug\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)mzy2014\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)networkbench\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ninebox\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)ntalker\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)nylalobghyhirgh\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)o2omobi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)oadz\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)oneapm\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)onetad\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)optaim\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)optimix\\.asia\$"
+add address=240.0.0.1 regexp="(^|\\.)optimix\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)optimizelyapis\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)overture\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)p0y\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)pagechoice\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)pingdom\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)plugrush\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)popin\\.cc\$"
+add address=240.0.0.1 regexp="(^|\\.)pro\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)publicidad\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)publicidad\\.tv\$"
+add address=240.0.0.1 regexp="(^|\\.)pubmatic\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)pubnub\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)qcl777\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)qiyou\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)qtmojo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)quantcount\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)qucaigg\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)qumi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)qxxys\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)reachmax\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)responsys\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)revsci\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)rlcdn\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)rtbasia\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)sanya1\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)scupio\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)serving-sys\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)shuiguo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)shuzilm\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)similarweb\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)sitemeter\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)sitescout\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)sitetag\\.us\$"
+add address=240.0.0.1 regexp="(^|\\.)smartmad\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)social-touch\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)somecoding\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)sponsorpay\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)stargame\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)stg8\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)switchadhub\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)sycbbs\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)synacast\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)sysdig\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)talkingdata\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)talkingdata\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)tansuotv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tanv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tanx\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tapjoy\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)th7\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)thoughtleadr\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tianmidian\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tiqcdn\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)touclick\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)trafficjam\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)trafficmp\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tuia\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)ueadlian\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)uerzyr\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)ugdtimg\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ugvip\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ujian\\.cc\$"
+add address=240.0.0.1 regexp="(^|\\.)ukeiae\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)umeng\\.co\$"
+add address=240.0.0.1 regexp="(^|\\.)umeng\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)umtrack\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)unimhk\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)union-wifi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)union001\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)unionsy\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)unlitui\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)uri6\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ushaqi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)usingde\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)uuzu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)uyunad\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)vamaker\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)voiceads\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)voiceads\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)vpon\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)vungle\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)vungle\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)waps\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)wapx\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)webterren\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)whpxy\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)winads\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)winasdaq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)wiyun\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)wooboo\\.com\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)wqmobile\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)wrating\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)wumii\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)xcy8\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)xdrig\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)xiaozhen\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)xibao100\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)xtgreat\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)xy\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)yandui\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)yigao\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)yijifen\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)yinooo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)yiqifa\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)yiwk\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ylunion\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ymapp\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ymcdn\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)yongyuelm\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)yooli\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)youmi\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)youxiaoad\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)yoyi\\.com\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)yoyi\\.tv\$"
+add address=240.0.0.1 regexp="(^|\\.)yrxmr\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ysjwj\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)yunjiasu\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)yunpifu\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)zampdsp\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)zamplus\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)zcdsp\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)zhidian3g\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)zhiziyun\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)zhjfad\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)zqzxz\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)zzsx8\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)acuityplatform\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ad-stir\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ad-survey\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ad4game\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adcloud\\.jp\$"
+add address=240.0.0.1 regexp="(^|\\.)adcolony\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)addthis\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adfurikun\\.jp\$"
+add address=240.0.0.1 regexp="(^|\\.)adhigh\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)adhood\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adinall\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adition\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adk2x\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)admarket\\.mobi\$"
+add address=240.0.0.1 regexp="(^|\\.)admarvel\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)admedia\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adnxs\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adotmob\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adperium\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adriver\\.ru\$"
+add address=240.0.0.1 regexp="(^|\\.)adroll\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adsco\\.re\$"
+add address=240.0.0.1 regexp="(^|\\.)adservice\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adsrvr\\.org\$"
+add address=240.0.0.1 regexp="(^|\\.)adsymptotic\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adtaily\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adtech\\.de\$"
+add address=240.0.0.1 regexp="(^|\\.)adtechjp\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)adtechus\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)airpush\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)am15\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)amobee\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)appier\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)applift\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)apsalar\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)atas\\.io\$"
+add address=240.0.0.1 regexp="(^|\\.)awempire\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)axonix\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)beintoo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)bepolite\\.eu\$"
+add address=240.0.0.1 regexp="(^|\\.)bidtheatre\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)bidvertiser\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)blismedia\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)brucelead\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)bttrack\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)casalemedia\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)celtra\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)channeladvisor\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)connexity\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)criteo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)criteo\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)csbew\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)demdex\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)directrev\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)dumedia\\.ru\$"
+add address=240.0.0.1 regexp="(^|\\.)effectivemeasure\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)effectivemeasure\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)eqads\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)everesttech\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)exoclick\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)extend\\.tv\$"
+add address=240.0.0.1 regexp="(^|\\.)eyereturn\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)fastapi\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)fastclick\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)fastclick\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)flurry\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)gosquared\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)gtags\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)heyzap\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)histats\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)hitslink\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)hot-mob\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)hyperpromote\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)i-mobile\\.co\\.jp\$"
+add address=240.0.0.1 regexp="(^|\\.)imrworldwide\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)inmobi\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)inner-active\\.mobi\$"
+add address=240.0.0.1 regexp="(^|\\.)intentiq\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)inter1ads\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ipredictive\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)ironsrc\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)iskyworker\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)jizzads\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)juicyads\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)kochava\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)leadbolt\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)leadbolt\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)leadboltads\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)leadboltapps\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)leadboltmobile\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)lenzmx\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)liveadvert\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)marketgid\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)marketo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mdotm\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)medialytics\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)medialytics\\.io\$"
+add address=240.0.0.1 regexp="(^|\\.)meetrics\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)meetrics\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)mgid\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)millennialmedia\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mobadme\\.jp\$"
+add address=240.0.0.1 regexp="(^|\\.)mobfox\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mobileadtrading\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mobilityware\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mojiva\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)mookie1\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)msads\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)mydas\\.mobi\$"
+add address=240.0.0.1 regexp="(^|\\.)nend\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)netshelter\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)nexage\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)owneriq\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)pixels\\.asia\$"
+add address=240.0.0.1 regexp="(^|\\.)plista\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)popads\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)powerlinks\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)propellerads\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)quantserve\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)rayjump\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)revdepo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)rubiconproject\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)sape\\.ru\$"
+add address=240.0.0.1 regexp="(^|\\.)scorecardresearch\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)segment\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)serving-sys\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)sharethis\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)smaato\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)smaato\\.net\$"
+add address=240.0.0.1 regexp="(^|\\.)smartadserver\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)smartnews-ads\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)startapp\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)startappexchange\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)statcounter\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)steelhousemedia\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)stickyadstv\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)supersonic\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tapjoy\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tapjoyads\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)trafficjunky\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)tribalfusion\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)turn\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)uberads\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)vidoomy\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)viglink\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)voicefive\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)wedolook\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)yadro\\.ru\$"
+add address=240.0.0.1 regexp="(^|\\.)yengo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)zedo\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)zemanta\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)11h5\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)1kxun\\.mobi\$"
+add address=240.0.0.1 regexp="(^|\\.)519397\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)626uc\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)915\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)appget\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)appuu\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)coinhive\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)huodonghezi\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)wanfeng1\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)wep016\\.top
+add address=240.0.0.1 regexp="(^|\\.)win-stock\\.com\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)zantainet\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)\\w\\w(\\w|)dnserror\\d(\\d|)\\.wo\\.com\\.cn
+add address=240.0.0.1 regexp="(^|\\.)114so\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)go\\.10086\\.cn\$"
+add address=240.0.0.1 regexp="(^|\\.)navi\\.gd\\.chinamobile\\.com\$"
+add address=240.0.0.1 regexp="(^|\\.)hivedata\\.cc\$"
 /ip firewall address-list
 remove [find list=adblock]
-add list=adblock address=(^|\\.)\\w*admarvel\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*admaster\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*adsage\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*adsensor\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*adservice\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*adsmogo\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*adsrvmedia\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*adsserving\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*adsystem\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*adwords\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*analysis\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*applovin\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*appsflyer\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*domob\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*duomeng\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*dwtrack\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*guanggao\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*omgmta\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*omniture\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*openx\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*partnerad\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*pingfore\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*socdm\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*supersonicads\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*tracking\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*umeng\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*usage\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*wlmonitor\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)\\w*zjtoolbar\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)ad\\d{0,3}\\..*\$
-add list=adblock address=(^|\\.)ads\\d{0,3}\\..*\$
-add list=adblock address=(^|\\.)tracking\\..*\$
-add list=adblock address=(^|\\.)(adgeo|bobo|fa|g|g1|gb|nex)(\\.corp|)\\.163\\.com\$
-add list=adblock address=(^|\\.)(analytics|img1|img2|mimg)\\.126\\.net\$
-add list=adblock address=(^|\\.)(a|c|clkservice|conv|dsp|dsp-impr2|gorgon|rlogs|union|ydpushserver)\\.youdao\\.com\$
-add list=adblock address=(^|\\.)(nc004x|nc045x|qt002x|tb060x|tb104x)\\.corp\\.youdao\\.com\$
-add list=adblock address=(^|\\.)(haitaoad|iadmatvideo)\\.nosdn\\.127\\.net\$
-add list=adblock address=(^|\\.)ir\\.mail\\.126\\.com\$
-add list=adblock address=(^|\\.)ir\\.mail\\.yeah\\.net\$
-add list=adblock address=(^|\\.)oimagea2\\.ydstatic\\.com\$
-add list=adblock address=(^|\\.)pagechoice\\.net\$
-add list=adblock address=(^|\\.)prom\\.gome\\.com\\.cn\$
-add list=adblock address=(^|\\.)qchannel0\\d\\.cn\$
-add list=adblock address=(^|\\.)static\\.flv\\.uuzuonline\\.com\$
-add list=adblock address=(^|\\.)wanproxy\\.127\\.net\$
-add list=adblock address=(^|\\.)cvda\\.17173\\.com\$
-add list=adblock address=(^|\\.)imgapp\\.yeyou\\.com\$
-add list=adblock address=(^|\\.)log1\\.17173\\.com\$
-add list=adblock address=(^|\\.)s\\.17173cdn\\.com\$
-add list=adblock address=(^|\\.)ue\\.yeyoucdn\\.com\$
-add list=adblock address=(^|\\.)vda\\.17173\\.com\$
-add list=adblock address=(^|\\.)analytics\\.wanmei\\.com\$
-add list=adblock address=(^|\\.)gg\\.stargame\\.com\$
-add list=adblock address=(^|\\.)(dl|download|houtai|jifen|minipage|wan|jifendownload|zhushou)\\.2345\\.cn\$
-add list=adblock address=(^|\\.)3600\\.com\$
-add list=adblock address=(^|\\.)gamebox\\.360\\.cn\$
-add list=adblock address=(^|\\.)jiagu\\.360\\.cn\$
-add list=adblock address=(^|\\.)kuaikan\\.netmon\\.360safe\\.com\$
-add list=adblock address=(^|\\.)leak\\.360\\.cn\$
-add list=adblock address=(^|\\.)lianmeng\\.360\\.cn\$
-add list=adblock address=(^|\\.)pub\\.se\\.360\\.cn\$
-add list=adblock address=(^|\\.)s\\.so\\.360\\.cn\$
-add list=adblock address=(^|\\.)shouji\\.360\\.cn\$
-add list=adblock address=(^|\\.)soft\\.data\\.weather\\.360\\.cn\$
-add list=adblock address=(^|\\.)stat\\.360safe\\.com\$
-add list=adblock address=(^|\\.)stat\\.m\\.360\\.cn\$
-add list=adblock address=(^|\\.)update\\.360safe\\.com\$
-add list=adblock address=(^|\\.)wan\\.360\\.cn\$
-add list=adblock address=(^|\\.)(58|imp|stat)\\.xgo\\.com\\.cn\$
-add list=adblock address=(^|\\.)(brandshow|jing|track|tracklog)\\.58\\.com\$
-add list=adblock address=(^|\\.)(adashx4yt|adash-c|ai|re|rj|simaba)\\.m\\.taobao\\.com\$
-add list=adblock address=(^|\\.)(afp|atanx|atanx2|gma|gtms\\d\\d)\\.alicdn\\.com\$
-add list=adblock address=(^|\\.)(fav|m|redirect|srd|tns)\\.simba\\.taobao\\.com\$
-add list=adblock address=(^|\\.)(sdkinit|simaba|tyh)\\.taobao\\.com\$
-add list=adblock address=(^|\\.)acjs\\.aliyun\\.com\$
-add list=adblock address=(^|\\.)(adash-c|adashbc|adashxgc)\\.ut\\.taobao\\.com\$
-add list=adblock address=(^|\\.)alipaylog\\.com\$
-add list=adblock address=(^|\\.)g\\.click\\.taobao\\.com\$
-add list=adblock address=(^|\\.)g\\.tbcdn\\.cn\$
-add list=adblock address=(^|\\.)hydra\\.alibaba\\.com\$
-add list=adblock address=(^|\\.)pindao\\.huoban\\.taobao\\.com\$
-add list=adblock address=(^|\\.)show\\.re\\.taobao\\.com\$
-add list=adblock address=(^|\\.)strip\\.taobaocdn\\.com\$
-add list=adblock address=(^|\\.)userimg\\.qunar\\.com\$
-add list=adblock address=(^|\\.)yiliao\\.hupan\\.com\$
-add list=adblock address=(^|\\.)3dns-2\\.adobe\\.com\$
-add list=adblock address=(^|\\.)3dns-3\\.adobe\\.com\$
-add list=adblock address=(^|\\.)activate\\.adobe\\.com\$
-add list=adblock address=(^|\\.)activate-sea\\.adobe\\.com\$
-add list=adblock address=(^|\\.)activate-sjc0\\.adobe\\.com\$
-add list=adblock address=(^|\\.)adobe-dns\\.adobe\\.com\$
-add list=adblock address=(^|\\.)adobe-dns-2\\.adobe\\.com\$
-add list=adblock address=(^|\\.)adobe-dns-3\\.adobe\\.com\$
-add list=adblock address=(^|\\.)ereg\\.adobe\\.com\$
-add list=adblock address=(^|\\.)geo2\\.adobe\\.com\$
-add list=adblock address=(^|\\.)hl2rcv\\.adobe\\.com\$
-add list=adblock address=(^|\\.)hlrcv\\.stage\\.adobe\\.com\$
-add list=adblock address=(^|\\.)lm\\.licenses\\.adobe\\.com\$
-add list=adblock address=(^|\\.)lmlicenses\\.wip4\\.adobe\\.com\$
-add list=adblock address=(^|\\.)na1r\\.services\\.adobe\\.com\$
-add list=adblock address=(^|\\.)na2m-pr\\.licenses\\.adobe\\.com\$
-add list=adblock address=(^|\\.)practivate\\.adobe\\.com\$
-add list=adblock address=(^|\\.)wip3\\.adobe\\.com\$
-add list=adblock address=(^|\\.)wwis-dubc1-vip60\\.adobe\\.com\$
-add list=adblock address=(^|\\.)adserver\\.unityads\\.unity3d\\.com\$
-add list=adblock address=(^|\\.)(33|adproxy|al|alert|applogapi|c|cmx|dspmnt|pcd|pvx|rd|rdx|stats)\\.autohome\\.com\\.cn\$
-add list=adblock address=(^|\\.)adm\\d\\.autoimg\\.cn\$
-add list=adblock address=(^|\\.)push\\.app\\.autohome\\.com\\.cn\$
-add list=adblock address=(^|\\.)(a|adm|adscdn|afd|als|anquan|appc|as|c|cb|cbjs|cbjslog|cjhq|cpro|cpro2|cpu-admin|crs|drmcmm|e|eclick|eiv)\\.baidu\\.(com|cn)\$
-add list=adblock address=(^|\\.)(hc|hm|hmma|hpd|imageplus|ma|mobads-logs|mobads|mtj|nsclick)\\.baidu\\.(com|cn)\$
-add list=adblock address=(^|\\.)(pups|rj|rp|spcode|tk|tuisong|ucstat|union|utility|utk|videopush|wangmeng|wm|znsv)\\.baidu\\.(com|cn)\$
-add list=adblock address=(^|\\.)ad\\.duapps\\.com\$
-add list=adblock address=(^|\\.)ad\\.player\\.baidu\\.com\$
-add list=adblock address=(^|\\.)adx\\.xiaodutv\\.com\$
-add list=adblock address=(^|\\.)ae\\.bdstatic\\.com\$
-add list=adblock address=(^|\\.)antivirus\\.baidu\\.com\$
-add list=adblock address=(^|\\.)api\\.mobula\\.sdk\\.duapps\\.com\$
-add list=adblock address=(^|\\.)baichuan\\.baidu\\.com\$
-add list=adblock address=(^|\\.)baidu9635\\.com\$
-add list=adblock address=(^|\\.)baidustatic\\.com\$
-add list=adblock address=(^|\\.)baidutv\\.baidu\\.com\$
-add list=adblock address=(^|\\.)baikebcs\\.bdimg\\.com\$
-add list=adblock address=(^|\\.)banlv\\.baidu\\.com\$
-add list=adblock address=(^|\\.)bar\\.baidu\\.com\$
-add list=adblock address=(^|\\.)bdplus\\.baidu\\.com\$
-add list=adblock address=(^|\\.)btlaunch\\.baidu\\.com\$
-add list=adblock address=(^|\\.)cleaner\\.baidu\\.com\$
-add list=adblock address=(^|\\.)click\\.bes\\.baidu\\.com\$
-add list=adblock address=(^|\\.)click\\.hm\\.baidu\\.com\$
-add list=adblock address=(^|\\.)click\\.qianqian\\.com\$
-add list=adblock address=(^|\\.)cm\\.baidu\\.com\$
-add list=adblock address=(^|\\.)cpro\\.baidustatic\\.com\$
-add list=adblock address=(^|\\.)cpro\\.tieba\\.baidu\\.com\$
-add list=adblock address=(^|\\.)cpro\\.zhidao\\.baidu\\.com\$
-add list=adblock address=(^|\\.)datax\\.baidu\\.com\$
-add list=adblock address=(^|\\.)dl-vip\\.bav\\.baidu\\.com\$
-add list=adblock address=(^|\\.)dl-vip\\.pcfaster\\.baidu\\.co\\.th\$
-add list=adblock address=(^|\\.)dl1sw\\.baidu\\.com\$
-add list=adblock address=(^|\\.)dl2\\.bav\\.baidu\\.com\$
-add list=adblock address=(^|\\.)dl\\.client\\.baidu\\.com\$
-add list=adblock address=(^|\\.)dl\\.ops\\.baidu\\.com\$
-add list=adblock address=(^|\\.)dlsw\\.baidu\\.com\$
-add list=adblock address=(^|\\.)dlsw\\.br\\.baidu\\.com\$
-add list=adblock address=(^|\\.)download\\.bav\\.baidu\\.com\$
-add list=adblock address=(^|\\.)download\\.sd\\.baidu\\.com\$
-add list=adblock address=(^|\\.)drmcmm\\.baidu\\.com\$
-add list=adblock address=(^|\\.)dup\\.baidustatic\\.com\$
-add list=adblock address=(^|\\.)dxp\\.baidu\\.com\$
-add list=adblock address=(^|\\.)dzl\\.baidu\\.com\$
-add list=adblock address=(^|\\.)ecma\\.bdimg\\.com\$
-add list=adblock address=(^|\\.)ecmb\\.bdimg\\.com\$
-add list=adblock address=(^|\\.)ecmc\\.bdimg\\.com\$
-add list=adblock address=(^|\\.)em\\.baidu\\.com\$
-add list=adblock address=(^|\\.)ers\\.baidu\\.com\$
-add list=adblock address=(^|\\.)f10\\.baidu\\.com\$
-add list=adblock address=(^|\\.)fc-\\.cdn\\.bcebos\\.com\$
-add list=adblock address=(^|\\.)fc-feed\\.cdn\\.bcebos\\.com\$
-add list=adblock address=(^|\\.)fclick\\.baidu\\.com\$
-add list=adblock address=(^|\\.)fexclick\\.baidu\\.com\$
-add list=adblock address=(^|\\.)g\\.baidu\\.com\$
-add list=adblock address=(^|\\.)gimg\\.baidu\\.com\$
-add list=adblock address=(^|\\.)guanjia\\.baidu\\.com\$
-add list=adblock address=(^|\\.)idm-su\\.baidu\\.com\$
-add list=adblock address=(^|\\.)iebar\\.baidu\\.com\$
-add list=adblock address=(^|\\.)ikcode\\.baidu\\.com\$
-add list=adblock address=(^|\\.)img01\\.taotaosou\\.cn\$
-add list=adblock address=(^|\\.)img\\.taotaosou\\.cn\$
-add list=adblock address=(^|\\.)itsdata\\.map\\.baidu\\.com\$
-add list=adblock address=(^|\\.)j\\.br\\.baidu\\.com\$
-add list=adblock address=(^|\\.)kstj\\.baidu\\.com\$
-add list=adblock address=(^|\\.)log\\.music\\.baidu\\.com\$
-add list=adblock address=(^|\\.)log\\.nuomi\\.com\$
-add list=adblock address=(^|\\.)m1\\.baidu\\.com\$
-add list=adblock address=(^|\\.)mg09\\.zhaopin\\.com\$
-add list=adblock address=(^|\\.)mipcache\\.bdstatic\\.com\$
-add list=adblock address=(^|\\.)mpro\\.baidu\\.com\$
-add list=adblock address=(^|\\.)neirong\\.baidu\\.com\$
-add list=adblock address=(^|\\.)nsclickvideo\\.baidu\\.com\$
-add list=adblock address=(^|\\.)openrcv\\.baidu\\.com\$
-add list=adblock address=(^|\\.)pc\\.videoclick\\.baidu\\.com\$
-add list=adblock address=(^|\\.)pos\\.baidu\\.com\$
-add list=adblock address=(^|\\.)pups\\.bdimg\\.com\$
-add list=adblock address=(^|\\.)push\\.music\\.baidu\\.com\$
-add list=adblock address=(^|\\.)push\\.zhanzhang\\.baidu\\.com\$
-add list=adblock address=(^|\\.)qchannel0\\d\\.cn\$
-add list=adblock address=(^|\\.)qianclick\\.baidu\\.com\$
-add list=adblock address=(^|\\.)release\\.baidu\\.com\$
-add list=adblock address=(^|\\.)res\\.limei\\.com\$
-add list=adblock address=(^|\\.)res\\.mi\\.baidu\\.com\$
-add list=adblock address=(^|\\.)rigel\\.baidustatic\\.com\$
-add list=adblock address=(^|\\.)river\\.zhidao\\.baidu\\.com\$
-add list=adblock address=(^|\\.)rplog\\.baidu\\.com\$
-add list=adblock address=(^|\\.)s\\.baidu\\.com\$
-add list=adblock address=(^|\\.)sclick\\.baidu\\.com\$
-add list=adblock address=(^|\\.)sestat\\.baidu\\.com\$
-add list=adblock address=(^|\\.)shadu\\.baidu\\.com\$
-add list=adblock address=(^|\\.)share\\.baidu\\.com\$
-add list=adblock address=(^|\\.)sobar\\.baidu\\.com\$
-add list=adblock address=(^|\\.)sobartop\\.baidu\\.com\$
-add list=adblock address=(^|\\.)stat\\.v\\.baidu\\.com\$
-add list=adblock address=(^|\\.)su\\.bdimg\\.com\$
-add list=adblock address=(^|\\.)su\\.bdstatic\\.com\$
-add list=adblock address=(^|\\.)tkweb\\.baidu\\.com\$
-add list=adblock address=(^|\\.)tob-cms\\.bj\\.bcebos\\.com\$
-add list=adblock address=(^|\\.)toolbar\\.baidu\\.com\$
-add list=adblock address=(^|\\.)tracker\\.baidu\\.com\$
-add list=adblock address=(^|\\.)tuijian\\.baidu\\.com\$
-add list=adblock address=(^|\\.)ubmcmm\\.baidustatic\\.com\$
-add list=adblock address=(^|\\.)ulic\\.baidu\\.com\$
-add list=adblock address=(^|\\.)ulog\\.imap\\.baidu\\.com\$
-add list=adblock address=(^|\\.)unionimage\\.baidu\\.com\$
-add list=adblock address=(^|\\.)vv84\\.bj\\.bcebos\\.com\$
-add list=adblock address=(^|\\.)w\\.gdown\\.baidu\\.com\$
-add list=adblock address=(^|\\.)w\\.x\\.baidu\\.com\$
-add list=adblock address=(^|\\.)weishi\\.baidu\\.com\$
-add list=adblock address=(^|\\.)wenku-cms\\.bj\\.bcebos\\.com\$
-add list=adblock address=(^|\\.)wisepush\\.video\\.baidu\\.com\$
-add list=adblock address=(^|\\.)zz\\.bdstatic\\.com\$
-add list=adblock address=(^|\\.)zzy1\\.quyaoya\\.com\$
-add list=adblock address=(^|\\.)(adm|assets|tjlog)(\\.ps|)\\.easou\\.com\$
-add list=adblock address=(^|\\.)(ad|push|sys)\\.zhangyue\\.com\$
-add list=adblock address=(^|\\.)(cj|game|tongji)\\.qidian\\.com\$
-add list=adblock address=(^|\\.)aishowbger\\.com\$
-add list=adblock address=(^|\\.)api\\.itaoxiaoshuo\\.com\$
-add list=adblock address=(^|\\.)bbcoe\\.cn\$
-add list=adblock address=(^|\\.)dkeyn\\.com\$
-add list=adblock address=(^|\\.)drdwy\\.com\$
-add list=adblock address=(^|\\.)e701\\.net\$
-add list=adblock address=(^|\\.)e\\.aa985\\.cn\$
-add list=adblock address=(^|\\.)e\\.v02u9\\.cn\$
-add list=adblock address=(^|\\.)ehxyz\\.com\$
-add list=adblock address=(^|\\.)ethod\\.gzgmjcx\\.com\$
-add list=adblock address=(^|\\.)focuscat\\.com\$
-add list=adblock address=(^|\\.)hdswgc\\.com\$
-add list=adblock address=(^|\\.)jyd\\.fjzdmy\\.com\$
-add list=adblock address=(^|\\.)m\\.ourlj\\.com\$
-add list=adblock address=(^|\\.)m\\.txtxr\\.com\$
-add list=adblock address=(^|\\.)m\\.vsxet\\.com\$
-add list=adblock address=(^|\\.)miam4\\.cn\$
-add list=adblock address=(^|\\.)o\\.if\\.qidian\\.com\$
-add list=adblock address=(^|\\.)p\\.vq6nsu\\.cn\$
-add list=adblock address=(^|\\.)picture\\.duokan\\.com\$
-add list=adblock address=(^|\\.)pyerc\\.com\$
-add list=adblock address=(^|\\.)s1\\.cmfu\\.com\$
-add list=adblock address=(^|\\.)sc\\.shayugg\\.com\$
-add list=adblock address=(^|\\.)sdk\\.cferw\\.com\$
-add list=adblock address=(^|\\.)sezvc\\.com\$
-add list=adblock address=(^|\\.)ut2\\.shuqistat\\.com\$
-add list=adblock address=(^|\\.)xgcsr\\.com\$
-add list=adblock address=(^|\\.)xjq\\.jxmqkj\\.com\$
-add list=adblock address=(^|\\.)xpe\\.cxaerp\\.com\$
-add list=adblock address=(^|\\.)xtzxmy\\.com\$
-add list=adblock address=(^|\\.)xyrkl\\.com\$
-add list=adblock address=(^|\\.)zhuanfakong\\.com\$
-add list=adblock address=(^|\\.)(ad|sm|dsp|nativeapp|partner|track)\\.toutiao\\.com\$
-add list=adblock address=(^|\\.)ic\\.snssdk\\.com\$
-add list=adblock address=(^|\\.)log\\.snssdk\\.com\$
-add list=adblock address=(^|\\.)xlog\\.snssdk\\.com\$
-add list=adblock address=(^|\\.)(a|click|schprompt|t)\\.dangdang\\.com\$
-add list=adblock address=(^|\\.)ad\\.duomi\\.com\$
-add list=adblock address=(^|\\.)boxshows\\.com\$
-add list=adblock address=(^|\\.)staticxx\\.facebook\\.com\$
-add list=adblock address=(^|\\.)click1n\\.soufun\\.com\$
-add list=adblock address=(^|\\.)clickm\\.fang\\.com\$
-add list=adblock address=(^|\\.)clickn\\.fang\\.com\$
-add list=adblock address=(^|\\.)countpvn\\.light\\.fang\\.com\$
-add list=adblock address=(^|\\.)countubn\\.light\\.soufun\\.com\$
-add list=adblock address=(^|\\.)mshow\\.fang\\.com\$
-add list=adblock address=(^|\\.)tongji\\.home\\.soufun\\.com\$
-add list=adblock address=(^|\\.)admob\\.com\$
-add list=adblock address=(^|\\.)ads\\.gmodules\\.com\$
-add list=adblock address=(^|\\.)ads\\.google\\.com\$
-add list=adblock address=(^|\\.)adservice\\.google\\.com\$
-add list=adblock address=(^|\\.)afd\\.l\\.google\\.com\$
-add list=adblock address=(^|\\.)badad\\.googleplex\\.com\$
-add list=adblock address=(^|\\.)csi\\.gstatic\\.com\$
-add list=adblock address=(^|\\.)doubleclick(\\.com|\\.net)\$
-add list=adblock address=(^|\\.)google-analytics\\.com\$
-add list=adblock address=(^|\\.)googleadservices\\.com\$
-add list=adblock address=(^|\\.)googleadsserving\\.cn\$
-add list=adblock address=(^|\\.)googlecommerce\\.com\$
-add list=adblock address=(^|\\.)googlesyndication\\.com\$
-add list=adblock address=(^|\\.)mobileads\\.google\\.com\$
-add list=adblock address=(^|\\.)pagead-tpc\\.l\\.google\\.com\$
-add list=adblock address=(^|\\.)pagead\\.google\\.com\$
-add list=adblock address=(^|\\.)pagead\\.l\\.google\\.com\$
-add list=adblock address=(^|\\.)service\\.urchin\\.com\$
-add list=adblock address=(^|\\.)(c-nfa|img-x|jrclick|jzt|policy)\\.jd\\.com\$
-add list=adblock address=(^|\\.)ads\\.union\\.jd\\.com\$
-add list=adblock address=(^|\\.)cps\\.360buy\\.com\$
-add list=adblock address=(^|\\.)stat\\.m\\.jd\\.com\$
-add list=adblock address=(^|\\.)(bssdl|bssdlbig|d|downmobile|gad|game|gamebox|gg|install|install2|kgmobilestat|minidcsc|mo|mobilelog|mvads|p|rtmonitor|sdn|tj)\\.kugou\\.com\$
-add list=adblock address=(^|\\.)(msg|push|update)\\.mobile\\.kugou\\.com\$
-add list=adblock address=(^|\\.)ads\\.service\\.kugou\\.com\$
-add list=adblock address=(^|\\.)gcapi\\.sy\\.kugou\\.com\$
-add list=adblock address=(^|\\.)kuaikaiapp\\.com\$
-add list=adblock address=(^|\\.)log\\.stat\\.kugou\\.com\$
-add list=adblock address=(^|\\.)log\\.web\\.kugou\\.com\$
-add list=adblock address=(^|\\.)(deliver|g|log|kwmsg|mobilead|msclick2|msphoneclick|updatepage|wa|webstat)\\.kuwo\\.cn\$
-add list=adblock address=(^|\\.)apk\\.shouji\\.koowo\\.com\$
-add list=adblock address=(^|\\.)g\\.koowo\\.com\$
-add list=adblock address=(^|\\.)(aider-res|api-flow|api-game|api-push|cal|ebook|game-res|infocenter|openapi-news|reader|tongji-res1|tongji|uxip)\\.meizu\\.com\$
-add list=adblock address=(^|\\.)(bro|t-e|t-flow)\\.flyme\\.cn\$
-add list=adblock address=(^|\\.)(ebook|game|push|reader|upush)\\.res\\.meizu\\.com\$
-add list=adblock address=(^|\\.)aries\\.mzres\\.com\$
-add list=adblock address=(^|\\.)umid\\.orion\\.meizu\\.com\$
-add list=adblock address=(^|\\.)(corp|gg|message|tuiguang)\\.meitu\\.com\$
-add list=adblock address=(^|\\.)(dc|mdc|rabbit)\\.meitustat\\.com\$
-add list=adblock address=(^|\\.)a\\.koudai\\.com\$
-add list=adblock address=(^|\\.)adui\\.tg\\.meitu\\.com\$
-add list=adblock address=(^|\\.)meitubeauty\\.meitudata\\.com\$
-add list=adblock address=(^|\\.)rabbit\\.tg\\.meitu\\.com\$
-add list=adblock address=(^|\\.)xiuxiu\\.android\\.dl\\.meitu\\.com\$
-add list=adblock address=(^|\\.)xiuxiu\\.mobile\\.meitudata\\.com\$
-add list=adblock address=(^|\\.)(ad|ad1|shenghuo|xmpush)\\.xiaomi\\.com\$
-add list=adblock address=(^|\\.)(a|wtradv)\\.market\\.xiaomi\\.com\$
-add list=adblock address=(^|\\.)(bss|de|dvb|jellyfish|stat)\\.pandora\\.xiaomi\\.com\$
-add list=adblock address=(^|\\.)(d|migc|migcreport|mis)\\.g\\.mi\\.com\$
-add list=adblock address=(^|\\.)(notice|ppurifier)\\.game\\.xiaomi\\.com\$
-add list=adblock address=(^|\\.)(r|security)\\.browser\\.miui\\.com\$
-add list=adblock address=(^|\\.)adv\\.sec\\.intl\\.miui\\.com\$
-add list=adblock address=(^|\\.)adv\\.sec\\.miui\\.com\$
-add list=adblock address=(^|\\.)data\\.mistat\\.xiaomi\\.com\$
-add list=adblock address=(^|\\.)union\\.mi\\.com\$
-add list=adblock address=(^|\\.)ad\\.api\\.moji\\.com\$
-add list=adblock address=(^|\\.)app\\.moji001\\.com\$
-add list=adblock address=(^|\\.)cdn\\.moji\\.com\$
-add list=adblock address=(^|\\.)cdn\\.moji002\\.com\$
-add list=adblock address=(^|\\.)cdn2\\.moji002\\.com\$
-add list=adblock address=(^|\\.)fds\\.api\\.moji\\.com\$
-add list=adblock address=(^|\\.)log\\.moji\\.com\$
-add list=adblock address=(^|\\.)stat\\.moji\\.com\$
-add list=adblock address=(^|\\.)ugc\\.moji001\\.com\$
-add list=adblock address=(^|\\.)(ad|admgr|logger)\\.qingting\\.fm\$
-add list=adblock address=(^|\\.)dload\\.qd\\.qingting\\.fm\$
-add list=adblock address=(^|\\.)s\\.qd\\.qingting\\.fm\$
-add list=adblock address=(^|\\.)s\\.qd\\.qingtingfm\\.com\$
-add list=adblock address=(^|\\.)\\w*omgmta\\w*\\.\\w*\$
-add list=adblock address=(^|\\.)(act|adsfile|bugly|buluo|gdt|monitor|pingma|pingtcss|report|tajs|tcss|uu)\\.qq\\.com\$
-add list=adblock address=(^|\\.)(wxsnsdy|wxsnsdythumb)\\.wxs\\.qq\\.com\$
-add list=adblock address=(^|\\.)ad\\.qun\\.qq\\.com\$
-add list=adblock address=(^|\\.)oth\\.eve\\.mdt\\.qq\\.com\$
-add list=adblock address=(^|\\.)jebe\\.renren\\.com\$
-add list=adblock address=(^|\\.)ebp\\.renren\\.com\$
-add list=adblock address=(^|\\.)jebe\\.xnimg\\.cn\$
-add list=adblock address=(^|\\.)(adimg|pay|sax|sdkapp|sdkclick|trends|u1\\.img|wbapp|wbclick|wbpctips)\\.mobile\\.sina\\.cn\$
-add list=adblock address=(^|\\.)(ad|ad\\d|adbox|adm|d\\d|dcads|dmp|leju|sax|sax\\d|slog)\\.sina\\.com(\\.cn|)\$
-add list=adblock address=(^|\\.)(alitui|biz|game|wax)\\.weibo\\.com(\\.cn|)\$
-add list=adblock address=(^|\\.)cre\\.dp\\.sina\\.cn\$
-add list=adblock address=(^|\\.)gw5\\.push\\.mcp\\.weibo\\.cn\$
-add list=adblock address=(^|\\.)log\\.mix\\.sina\\.com\\.cn\$
-add list=adblock address=(^|\\.)mobileads\\.dx\\.cn\$
-add list=adblock address=(^|\\.)newspush\\.sinajs\\.cn\$
-add list=adblock address=(^|\\.)sdkapp\\.uve\\.weibo\\.com\$
-add list=adblock address=(^|\\.)tui\\.weibo\\.com\$
-add list=adblock address=(^|\\.)wbapp\\.uve\\.weibo\\.com\$
-add list=adblock address=(^|\\.)zymo\\.mps\\.weibo\\.com\$
-add list=adblock address=(^|\\.)(123|adsence|brand|cpc|epro|fair|files2|goto|golden1|inte|iwan|lu|pb|pd|pv|theta|wan|wangmeng)\\.sogou\\.com\$
-add list=adblock address=(^|\\.)(123|galaxy|lu)\\.sogoucdn\\.com\$
-add list=adblock address=(^|\\.)amfi\\.gou\\.sogou\\.com\$
-add list=adblock address=(^|\\.)applovin\\.com\$
-add list=adblock address=(^|\\.)guangzhuiyuan\\.com\$
-add list=adblock address=(^|\\.)(ads|syndication|syndication-o|analytics|scribe|p)\\.twitter\\.com\$
-add list=adblock address=(^|\\.)ads-twitter\\.com\$
-add list=adblock address=(^|\\.)tellapart\\.com\$
-add list=adblock address=(^|\\.)urls\\.api\\.twitter\\.com\$
-add list=adblock address=(^|\\.)(adslot|applog|track)\\.uc\\.cn\$
-add list=adblock address=(^|\\.)(cms|puds|uc|ucsec1|ucsec)\\.ucweb\\.com\$
-add list=adblock address=(^|\\.)(log|patriot)\\.cs\\.pp\\.cn\$
-add list=adblock address=(^|\\.)api\\.mp\\.uc\\.cn\$
-add list=adblock address=(^|\\.)client\\.video\\.ucweb\\.com\$
-add list=adblock address=(^|\\.)dispatcher\\.upmc\\.uc\\.cn\$
-add list=adblock address=(^|\\.)huichuan\\.sm\\.cn\$
-add list=adblock address=(^|\\.)iflow\\.uczzd(\\.\\w{2,3}){1,2}\$
-add list=adblock address=(^|\\.)m\\.uczzd\\.cn\$
-add list=adblock address=(^|\\.)server\\.m\\.pp\\.cn\$
-add list=adblock address=(^|\\.)u\\.uc123\\.com\$
-add list=adblock address=(^|\\.)u\\.ucfly\\.com\$
-add list=adblock address=(^|\\.)aoodoo\\.feng\\.com\$
-add list=adblock address=(^|\\.)fengbuy\\.com\$
-add list=adblock address=(^|\\.)push\\.feng\\.com\$
-add list=adblock address=(^|\\.)we\\.tm\$
-add list=adblock address=(^|\\.)(bannera|rating6|cloudservice.*)\\.kingsoft-office-service\\.com\$
-add list=adblock address=(^|\\.)(docerad|gou|info|minfo|notify|pcfg|push|wpsweb-dc)\\.wps\\.cn\$
-add list=adblock address=(^|\\.)ad\\.docer\\.wps\\.cn\$
-add list=adblock address=(^|\\.)adm\\.zookingsoft\\.com\$
-add list=adblock address=(^|\\.)bole\\.shangshufang\\.ksosoft\\.com\$
-add list=adblock address=(^|\\.)counter\\.kingsoft\\.com\$
-add list=adblock address=(^|\\.)hoplink\\.ksosoft\\.com\$
-add list=adblock address=(^|\\.)ic\\.ksosoft\\.com\$
-add list=adblock address=(^|\\.)img.*\\.mini\\.cache\\.wps\\.cn\$
-add list=adblock address=(^|\\.)img\\.gou\\.wpscdn\\.cn\$
-add list=adblock address=(^|\\.)ios-informationplatform\\.wps\\.cn\$
-add list=adblock address=(^|\\.)mo\\.res\\.wpscdn\\.cn\$
-add list=adblock address=(^|\\.)news\\.docer\\.com\$
-add list=adblock address=(^|\\.)pc\\.uf\\.ksosoft\\.com\$
-add list=adblock address=(^|\\.)pixiu\\.shangshufang\\.ksosoft\\.com\$
-add list=adblock address=(^|\\.)up\\.wps\\.kingsoft\\.com\$
-add list=adblock address=(^|\\.)(c|cdsget|news-imgpb|wifiapi\\d\\d|wkanc)\\.51y5\\.net\$
-add list=adblock address=(^|\\.)(adse|linkeye|location|xdcs-collector)\\.ximalaya\\.com\$
-add list=adblock address=(^|\\.)biz5\\.kankan\\.com\$
-add list=adblock address=(^|\\.)float\\.kankan\\.com\$
-add list=adblock address=(^|\\.)logic\\.cpm\\.cm\\.kankan\\.com\$
-add list=adblock address=(^|\\.)hub5btmain\\.sandai\\.net\$
-add list=adblock address=(^|\\.)hub5emu\\.sandai\\.net\$
-add list=adblock address=(^|\\.)upgrade\\.xl9\\.xunlei\\.com\$
-add list=adblock address=(^|\\.)(ads|adserver|adss|analytics|beap-bc|comet|geo|gemini|p3p|ybp)\\.yahoo\\.com\$
-add list=adblock address=(^|\\.)(analytics|locdrop|onepush)\\.query\\.yahoo\\.com\$
-add list=adblock address=(^|\\.)(ard|ane|yads)\\.yahoo\\.co\\.jp\$
-add list=adblock address=(^|\\.)(js-apac-ss|partnerads)\\.ysm\\.yahoo\\.com\$
-add list=adblock address=(^|\\.)ad\\.wretch\\.cc\$
-add list=adblock address=(^|\\.)clicks\\.beap\\.bc\\.yahoo\\.com\$
-add list=adblock address=(^|\\.)doubleplay-conf-yql\\.media\\.yahoo\\.com\$
-add list=adblock address=(^|\\.)flurry\\.com\$
-add list=adblock address=(^|\\.)m\\.yap\\.yahoo\\.com\$
-add list=adblock address=(^|\\.)ws\\.progrss\\.yahoo\\.com\$
-add list=adblock address=(^|\\.)(sugar|zhihu-web-analytics)\\.zhihu\\.com\$
-add list=adblock address=(^|\\.)(shrek|simba|union)\\.6\\.cn\$
-add list=adblock address=(^|\\.)logger\\.baofeng\\.com\$
-add list=adblock address=(^|\\.)xs\\.houyi\\.baofeng\\.net\$
-add list=adblock address=(^|\\.)dotcounter\\.douyutv\\.com\$
-add list=adblock address=(^|\\.)(aoodoo|push|yes1)\\.feng\\.com\$
-add list=adblock address=(^|\\.)(game|stadig)\\.ifeng\\.com\$
-add list=adblock address=(^|\\.)api\\.newad\\.ifeng\\.com\$
-add list=adblock address=(^|\\.)exp\\.3g\\.ifeng\\.com\$
-add list=adblock address=(^|\\.)iis3g\\.deliver\\.ifeng\\.com\$
-add list=adblock address=(^|\\.)mfp\\.deliver\\.ifeng\\.com\$
-add list=adblock address=(^|\\.)(pub|adm|jobsfe|po|pv|stat)\\.funshion\\.com\$
-add list=adblock address=(^|\\.)ad\\.m\\.iqiyi\\.com\$
-add list=adblock address=(^|\\.)afp\\.iqiyi\\.com\$
-add list=adblock address=(^|\\.)c\\.uaa\\.iqiyi\\.com\$
-add list=adblock address=(^|\\.)cloudpush\\.iqiyi\\.com\$
-add list=adblock address=(^|\\.)cm\\.passport\\.iqiyi\\.com\$
-add list=adblock address=(^|\\.)cupid\\.iqiyi\\.com\$
-add list=adblock address=(^|\\.)emoticon\\.sns\\.iqiyi\\.com\$
-add list=adblock address=(^|\\.)gamecenter\\.iqiyi\\.com\$
-add list=adblock address=(^|\\.)ifacelog\\.iqiyi\\.com\$
-add list=adblock address=(^|\\.)mbdlog\\.iqiyi\\.com\$
-add list=adblock address=(^|\\.)meta\\.video\\.qiyi\\.com\$
-add list=adblock address=(^|\\.)msg1\\.video\\.qiyi\\.com\$
-add list=adblock address=(^|\\.)msg2\\.video\\.qiyi\\.com\$
-add list=adblock address=(^|\\.)msg\\.71\\.am\$
-add list=adblock address=(^|\\.)paopao\\.iqiyi\\.com\$
-add list=adblock address=(^|\\.)paopao\\d\\.qiyipic\\.com\$
-add list=adblock address=(^|\\.)policy\\.video\\.iqiyi\\.com\$
-add list=adblock address=(^|\\.)yuedu\\.iqiyi\\.com\$
-add list=adblock address=(^|\\.)gug\\.ku6cdn\\.com\$
-add list=adblock address=(^|\\.)st\\.vq\\.ku6\\.cn\$
-add list=adblock address=(^|\\.)pq\\.stat\\.ku6\\.com\$
-add list=adblock address=(^|\\.)static\\.ku6\\.com\$
-add list=adblock address=(^|\\.)(ark|dc|fz|g3|minisite|pro|stat)\\.letv\\.com\$
-add list=adblock address=(^|\\.)(1|2)\\.letvlive\\.com\$
-add list=adblock address=(^|\\.)(i0|i3)\\.letvimg\\.com\$
-add list=adblock address=(^|\\.)game\\.letvstore\\.com\$
-add list=adblock address=(^|\\.)n\\.mark\\.letv\\.com\$
-add list=adblock address=(^|\\.)pro\\.hoye\\.letv\\.com\$
-add list=adblock address=(^|\\.)static\\.app\\.m\\.letv\\.com\$
-add list=adblock address=(^|\\.)(click|da|log|p2|res)\\.hunantv\\.com\$
-add list=adblock address=(^|\\.)da\\.mgtv\\.com\$
-add list=adblock address=(^|\\.)log\\.v2\\.hunantv\\.com\$
-add list=adblock address=(^|\\.)(888|lm|push)\\.tv\\.sohu\\.com\$
-add list=adblock address=(^|\\.)(aty|bd|click|click2|ctr|pv|pb|wl|um)\\.hd\\.sohu\\.com\$
-add list=adblock address=(^|\\.)(ads|adnet|aty|epro|go|golden1|hui|inte|uranus|wan|yule|pv)\\.sohu\\.com\$
-add list=adblock address=(^|\\.)(epro|golden1|inte|uranus|pv)\\.sogou\\.com\$
-add list=adblock address=(^|\\.)(inte|lu|theta)\\.sogoucdn\\.com\$
-add list=adblock address=(^|\\.)(de|jp)\\.as\\.pptv\\.com\$
-add list=adblock address=(^|\\.)(app|as)\\.aplus\\.pptv\\.com\$
-add list=adblock address=(^|\\.)afp\\.pplive\\.com\$
-add list=adblock address=(^|\\.)asimgs\\.pplive\\.cn\$
-add list=adblock address=(^|\\.)pp2\\.pptv\\.com\$
-add list=adblock address=(^|\\.)stat\\.pptv\\.com\$
-add list=adblock address=(^|\\.)btrace\\.video\\.qq\\.com\$
-add list=adblock address=(^|\\.)c\\.l\\.qq\\.com\$
-add list=adblock address=(^|\\.)dp3\\.qq\\.com\$
-add list=adblock address=(^|\\.)livep\\.l\\.qq\\.com\$
-add list=adblock address=(^|\\.)lives\\.l\\.qq\\.com\$
-add list=adblock address=(^|\\.)livew\\.l\\.qq\\.com\$
-add list=adblock address=(^|\\.)mcgi\\.v\\.qq\\.com\$
-add list=adblock address=(^|\\.)mdevstat\\.qqlive\\.qq\\.com\$
-add list=adblock address=(^|\\.)omgmta1\\.qq\\.com\$
-add list=adblock address=(^|\\.)p\\.l\\.qq\\.com\$
-add list=adblock address=(^|\\.)rcgi\\.video\\.qq\\.com\$
-add list=adblock address=(^|\\.)t\\.l\\.qq\\.com\$
-add list=adblock address=(^|\\.)u\\.l\\.qq\\.com\$
-add list=adblock address=(^|\\.)(actives|dmapp|hz|iyes|l|lstat|lvip|msg|mobilemsg|myes|passport-log|stat|tdrec|wan|ykatr|ykrec|ykrectab)\\.youku\\.com\$
-add list=adblock address=(^|\\.)(adcontrol|adplay|goods|iwstat|nstat|stat|stats)\\.tudou\\.com\$
-add list=adblock address=(^|\\.)(ad|gamex)\\.mobile\\.youku\\.com\$
-add list=adblock address=(^|\\.)(dev-push|push|sdk)\\.m\\.youku\\.com\$
-add list=adblock address=(^|\\.)(p|r|v)\\.l\\.youku\\.com\$
-add list=adblock address=(^|\\.)a-dxk\\.play\\.api\\.3g\\.youku\\.com\$
-add list=adblock address=(^|\\.)ad\\.api\\.3g(\\.tudou|\\.youku)\\.com\$
-add list=adblock address=(^|\\.)ad\\.api\\.mobile\\.youku\\.com\$
-add list=adblock address=(^|\\.)b\\.smartvideo\\.youku\\.com\$
-add list=adblock address=(^|\\.)c\\.yes\\.youku\\.com\$
-add list=adblock address=(^|\\.)dl\\.g\\.youku\\.com\$
-add list=adblock address=(^|\\.)e\\.stat\\.ykimg\\.com\$
-add list=adblock address=(^|\\.)hudong\\.pl\\.youku\\.com\$
-add list=adblock address=(^|\\.)l\\.ykimg\\.com\$
-add list=adblock address=(^|\\.)p-log\\.ykimg\\.com\$
-add list=adblock address=(^|\\.)s\\.p\\.youku\\.com\$
-add list=adblock address=(^|\\.)store\\.tv\\.api\\.3g\\.youku\\.com\$
-add list=adblock address=(^|\\.)store\\.xl\\.api\\.3g\\.youku\\.com\$
-add list=adblock address=(^|\\.)test\\.ott\\.youku\\.com\$
-add list=adblock address=(^|\\.)val\\.api\\.youku\\.com\$
-add list=adblock address=(^|\\.)azabu-u\\.ac\\.jp\$
-add list=adblock address=(^|\\.)couchcoaster\\.jp\$
-add list=adblock address=(^|\\.)delivery\\.dmkt-sp\\.jp\$
-add list=adblock address=(^|\\.)ehg-youtube\\.hitbox\\.com\$
-add list=adblock address=(^|\\.)m-78\\.jp\$
-add list=adblock address=(^|\\.)nichibenren\\.or\\.jp\$
-add list=adblock address=(^|\\.)nicorette\\.co\\.kr\$
-add list=adblock address=(^|\\.)ssl-youtube\\.2cnt\\.net\$
-add list=adblock address=(^|\\.)youtube\\.112\\.2o7\\.net\$
-add list=adblock address=(^|\\.)youtube\\.2cnt\\.net\$
-add list=adblock address=(^|\\.)(acsystem|ads|afp)\\.wasu\\.tv\$
-add list=adblock address=(^|\\.)ads\\.cdn\\.tvb\\.com\$
-add list=adblock address=(^|\\.)c\\.algovid\\.com\$
-add list=adblock address=(^|\\.)gg\\.jtertp\\.com\$
-add list=adblock address=(^|\\.)gridsum-vd\\.cntv\\.cn\$
-add list=adblock address=(^|\\.)kwflvcdn\\.000dn\\.com\$
-add list=adblock address=(^|\\.)logstat\\.t\\.sfht\\.com\$
-add list=adblock address=(^|\\.)match\\.rtbidder\\.net\$
-add list=adblock address=(^|\\.)n-st\\.vip\\.com\$
-add list=adblock address=(^|\\.)pop\\.uusee\\.com\$
-add list=adblock address=(^|\\.)static\\.duoshuo\\.com\$
-add list=adblock address=(^|\\.)t\\.cr-nielsen\\.com\$
-add list=adblock address=(^|\\.)terren\\.cntv\\.cn\$
-add list=adblock address=(^|\\.)(168|adshownew|stat)\\.it168\\.com\$
-add list=adblock address=(^|\\.)(1|2)\\.win7china\\.com\$
-add list=adblock address=(^|\\.)(801|803|806|808|bdj|dol|click)\\.(tianya|tianyaui)\\.cn\$
-add list=adblock address=(^|\\.)(92x|its-dori)\\.tumblr\\.com\$
-add list=adblock address=(^|\\.)(ad-channel|ad-display)\\.wikawika\\.xyz\$
-add list=adblock address=(^|\\.)(adm|eq|ozone|stat|vaserviece)\\.10jqka\\.com\\.cn\$
-add list=adblock address=(^|\\.)(ad|adadmin|ads)\\.house365\\.com\$
-add list=adblock address=(^|\\.)(ad|ads|counter)\\.csdn\\.net\$
-add list=adblock address=(^|\\.)(ad|analytics|click|ganjituiguang|sta|tralog)\\.ganji\\.com\$
-add list=adblock address=(^|\\.)(app-monitor|client-api|grand|mobile-pubt|newton-api)\\.ele\\.me\$
-add list=adblock address=(^|\\.)(bd1|bd2)\\.52che\\.com\$
-add list=adblock address=(^|\\.)(click|media|pv)\\.(cheshi|cheshi-img)\\.com\$
-add list=adblock address=(^|\\.)(d0|dw|pv)\\.xcar\\.com\\.cn\$
-add list=adblock address=(^|\\.)a1\\.itc\\.cn\$
-add list=adblock address=(^|\\.)ad\\.12306\\.cn\$
-add list=adblock address=(^|\\.)ad\\.3\\.cn\$
-add list=adblock address=(^|\\.)ad\\.95306\\.cn\$
-add list=adblock address=(^|\\.)ad\\.caiyunapp\\.com\$
-add list=adblock address=(^|\\.)ad\\.cctv\\.com\$
-add list=adblock address=(^|\\.)ad\\.cmvideo\\.cn\$
-add list=adblock address=(^|\\.)ad\\.thepaper\\.cn\$
-add list=adblock address=(^|\\.)ad\\.unimhk\\.com\$
-add list=adblock address=(^|\\.)adhome\\.1fangchan\\.com\$
-add list=adblock address=(^|\\.)adm\\.easou\\.com\$
-add list=adblock address=(^|\\.)ads\\.feedly\\.com\$
-add list=adblock address=(^|\\.)ads\\.genieessp\\.com\$
-add list=adblock address=(^|\\.)ads\\.linkedin\\.com\$
-add list=adblock address=(^|\\.)adv\\.ccb\\.com\$
-add list=adblock address=(^|\\.)advert\\.api\\.thejoyrun\\.com\$
-add list=adblock address=(^|\\.)api-deal\\.kechenggezi\\.com\$
-add list=adblock address=(^|\\.)api-z\\.weidian\\.com\$
-add list=adblock address=(^|\\.)mobileads\\.msn\\.com\$
-add list=adblock address=(^|\\.)bat\\.bing\\.com\$
-add list=adblock address=(^|\\.)beacon\\.tingyun\\.com\$
-add list=adblock address=(^|\\.)cdn\\.jiuzhilan\\.com\$
-add list=adblock address=(^|\\.)collector\\.githubapp\\.com\$
-add list=adblock address=(^|\\.)de\\.soquair\\.com\$
-add list=adblock address=(^|\\.)e\\.nexac\\.com\$
-add list=adblock address=(^|\\.)exp\\.17wo\\.cn\$
-add list=adblock address=(^|\\.)game\\.51yund\\.com\$
-add list=adblock address=(^|\\.)hosting\\.miarroba\\.info\$
-add list=adblock address=(^|\\.)iadsdk\\.apple\\.com\$
-add list=adblock address=(^|\\.)image\\.gentags\\.com\$
-add list=adblock address=(^|\\.)log\\.outbrain\\.com\$
-add list=adblock address=(^|\\.)m\\.12306media\\.com\$
-add list=adblock address=(^|\\.)n\\.cosbot\\.cn\$
-add list=adblock address=(^|\\.)pdl\\.gionee\\.com\$
-add list=adblock address=(^|\\.)pica-juicy\\.picacomic\\.com\$
-add list=adblock address=(^|\\.)pixel\\.wp\\.com\$
-add list=adblock address=(^|\\.)pub\\.mop\\.com\$
-add list=adblock address=(^|\\.)push\\.wandoujia\\.com\$
-add list=adblock address=(^|\\.)qdp\\.qidian\\.com\$
-add list=adblock address=(^|\\.)res\\.gwifi\\.com\\.cn\$
-add list=adblock address=(^|\\.)ssp\\.kssws\\.ks-cdn\\.com\$
-add list=adblock address=(^|\\.)stats\\.chinaz\\.com\$
-add list=adblock address=(^|\\.)stats\\.developingperspective\\.com\$
-add list=adblock address=(^|\\.)tjlog\\.easou\\.com\$
-add list=adblock address=(^|\\.)tjlog\\.ps\\.easou\\.com\$
-add list=adblock address=(^|\\.)track\\.hujiang\\.com\$
-add list=adblock address=(^|\\.)tracker\\.yhd\\.com\$
-add list=adblock address=(^|\\.)up\\.qingdaonews\\.com\$
-add list=adblock address=(^|\\.)09mk\\.cn\$
-add list=adblock address=(^|\\.)100peng\\.com\$
-add list=adblock address=(^|\\.)114la\\.com\$
-add list=adblock address=(^|\\.)123juzi\\.net\$
-add list=adblock address=(^|\\.)138lm\\.com\$
-add list=adblock address=(^|\\.)17un\\.com\$
-add list=adblock address=(^|\\.)2cnt\\.net\$
-add list=adblock address=(^|\\.)3gmimo\\.com\$
-add list=adblock address=(^|\\.)3xx\\.vip\$
-add list=adblock address=(^|\\.)51\\.la\$
-add list=adblock address=(^|\\.)51taifu\\.com\$
-add list=adblock address=(^|\\.)51yes\\.com\$
-add list=adblock address=(^|\\.)600ad\\.com\$
-add list=adblock address=(^|\\.)6dad\\.com\$
-add list=adblock address=(^|\\.)70e\\.com\$
-add list=adblock address=(^|\\.)86\\.cc\$
-add list=adblock address=(^|\\.)8le8le\\.com\$
-add list=adblock address=(^|\\.)8ox\\.cn\$
-add list=adblock address=(^|\\.)95558000\\.com\$
-add list=adblock address=(^|\\.)99click\\.com\$
-add list=adblock address=(^|\\.)99youmeng\\.com\$
-add list=adblock address=(^|\\.)a3p4\\.net\$
-add list=adblock address=(^|\\.)acs86\\.com\$
-add list=adblock address=(^|\\.)acxiom-online\\.com\$
-add list=adblock address=(^|\\.)ad-brix\\.com\$
-add list=adblock address=(^|\\.)ad-delivery\\.net\$
-add list=adblock address=(^|\\.)ad-locus\\.com\$
-add list=adblock address=(^|\\.)ad-plus\\.cn\$
-add list=adblock address=(^|\\.)ad7\\.com\$
-add list=adblock address=(^|\\.)adadapted\\.com\$
-add list=adblock address=(^|\\.)adadvisor\\.net\$
-add list=adblock address=(^|\\.)adap\\.tv\$
-add list=adblock address=(^|\\.)adbana\\.com\$
-add list=adblock address=(^|\\.)adchina\\.com\$
-add list=adblock address=(^|\\.)adcome\\.cn\$
-add list=adblock address=(^|\\.)ader\\.mobi\$
-add list=adblock address=(^|\\.)adform\\.net\$
-add list=adblock address=(^|\\.)adfuture\\.cn\$
-add list=adblock address=(^|\\.)adhouyi\\.com\$
-add list=adblock address=(^|\\.)adinfuse\\.com\$
-add list=adblock address=(^|\\.)adirects\\.com\$
-add list=adblock address=(^|\\.)adjust\\.io\$
-add list=adblock address=(^|\\.)adkmob\\.com\$
-add list=adblock address=(^|\\.)adlive\\.cn\$
-add list=adblock address=(^|\\.)adlocus\\.com\$
-add list=adblock address=(^|\\.)admaji\\.com\$
-add list=adblock address=(^|\\.)admin6\\.com\$
-add list=adblock address=(^|\\.)admon\\.cn\$
-add list=adblock address=(^|\\.)adnyg\\.com\$
-add list=adblock address=(^|\\.)adpolestar\\.net\$
-add list=adblock address=(^|\\.)adpro\\.cn\$
-add list=adblock address=(^|\\.)adpush\\.cn\$
-add list=adblock address=(^|\\.)adquan\\.com\$
-add list=adblock address=(^|\\.)adreal\\.cn\$
-add list=adblock address=(^|\\.)ads8\\.com\$
-add list=adblock address=(^|\\.)adsame\\.com\$
-add list=adblock address=(^|\\.)adsmogo\\.com\$
-add list=adblock address=(^|\\.)adsmogo\\.org\$
-add list=adblock address=(^|\\.)adsunflower\\.com\$
-add list=adblock address=(^|\\.)adsunion\\.com\$
-add list=adblock address=(^|\\.)adtrk\\.me\$
-add list=adblock address=(^|\\.)adups\\.com\$
-add list=adblock address=(^|\\.)aduu\\.cn\$
-add list=adblock address=(^|\\.)advertising\\.com\$
-add list=adblock address=(^|\\.)adview\\.cn\$
-add list=adblock address=(^|\\.)advmob\\.cn\$
-add list=adblock address=(^|\\.)adwetec\\.com\$
-add list=adblock address=(^|\\.)adwhirl\\.com\$
-add list=adblock address=(^|\\.)adwo\\.com\$
-add list=adblock address=(^|\\.)adxmi\\.com\$
-add list=adblock address=(^|\\.)adyun\\.com\$
-add list=adblock address=(^|\\.)adzerk\\.net\$
-add list=adblock address=(^|\\.)agrant\\.cn\$
-add list=adblock address=(^|\\.)agrantsem\\.com\$
-add list=adblock address=(^|\\.)aihaoduo\\.cn\$
-add list=adblock address=(^|\\.)ajapk\\.com\$
-add list=adblock address=(^|\\.)allyes\\.cn\$
-add list=adblock address=(^|\\.)allyes\\.com\$
-add list=adblock address=(^|\\.)amazon-adsystem\\.com\$
-add list=adblock address=(^|\\.)analysys\\.cn\$
-add list=adblock address=(^|\\.)angsrvr\\.com\$
-add list=adblock address=(^|\\.)anquan\\.org\$
-add list=adblock address=(^|\\.)anysdk\\.com\$
-add list=adblock address=(^|\\.)appadhoc\\.com\$
-add list=adblock address=(^|\\.)appads\\.com\$
-add list=adblock address=(^|\\.)appboy\\.com\$
-add list=adblock address=(^|\\.)appdriver\\.cn\$
-add list=adblock address=(^|\\.)appjiagu\\.com\$
-add list=adblock address=(^|\\.)applifier\\.com\$
-add list=adblock address=(^|\\.)appsflyer\\.com\$
-add list=adblock address=(^|\\.)atdmt\\.com\$
-add list=adblock address=(^|\\.)baifendian\\.com\$
-add list=adblock address=(^|\\.)banmamedia\\.com\$
-add list=adblock address=(^|\\.)baoyatu\\.cc\$
-add list=adblock address=(^|\\.)baycode\\.cn\$
-add list=adblock address=(^|\\.)bayimob\\.com\$
-add list=adblock address=(^|\\.)behe\\.com\$
-add list=adblock address=(^|\\.)bfshan\\.cn\$
-add list=adblock address=(^|\\.)biddingos\\.com\$
-add list=adblock address=(^|\\.)biddingx\\.com\$
-add list=adblock address=(^|\\.)bjvvqu\\.cn\$
-add list=adblock address=(^|\\.)bjxiaohua\\.com\$
-add list=adblock address=(^|\\.)bloggerads\\.net\$
-add list=adblock address=(^|\\.)branch\\.io\$
-add list=adblock address=(^|\\.)bsdev\\.cn\$
-add list=adblock address=(^|\\.)btyou\\.com\$
-add list=adblock address=(^|\\.)bugtags\\.com\$
-add list=adblock address=(^|\\.)buysellads\\.com\$
-add list=adblock address=(^|\\.)c0563\\.com\$
-add list=adblock address=(^|\\.)cacafly\\.com\$
-add list=adblock address=(^|\\.)casee\\.cn\$
-add list=adblock address=(^|\\.)cdnmaster\\.com\$
-add list=adblock address=(^|\\.)chance-ad\\.com\$
-add list=adblock address=(^|\\.)chanet\\.com\\.cn\$
-add list=adblock address=(^|\\.)chartbeat\\.com\$
-add list=adblock address=(^|\\.)chartboost\\.com\$
-add list=adblock address=(^|\\.)chengadx\\.com\$
-add list=adblock address=(^|\\.)chmae\\.com\$
-add list=adblock address=(^|\\.)clickadu\\.com\$
-add list=adblock address=(^|\\.)clicki\\.cn\$
-add list=adblock address=(^|\\.)clicktracks\\.com\$
-add list=adblock address=(^|\\.)clickzs\\.com\$
-add list=adblock address=(^|\\.)cloudmobi\\.net\$
-add list=adblock address=(^|\\.)cmcore\\.com\$
-add list=adblock address=(^|\\.)cnxad\\.com\$
-add list=adblock address=(^|\\.)cnzz\\.com\$
-add list=adblock address=(^|\\.)cnzzlink\\.com\$
-add list=adblock address=(^|\\.)cocounion\\.com\$
-add list=adblock address=(^|\\.)coocaatv\\.com\$
-add list=adblock address=(^|\\.)cooguo\\.com\$
-add list=adblock address=(^|\\.)coolguang\\.com\$
-add list=adblock address=(^|\\.)coremetrics\\.com\$
-add list=adblock address=(^|\\.)cpmchina\\.co\$
-add list=adblock address=(^|\\.)cpx24\\.com\$
-add list=adblock address=(^|\\.)crasheye\\.cn\$
-add list=adblock address=(^|\\.)crosschannel\\.com\$
-add list=adblock address=(^|\\.)ctrmi\\.com\$
-add list=adblock address=(^|\\.)customer-security\\.online\$
-add list=adblock address=(^|\\.)daoyoudao\\.com\$
-add list=adblock address=(^|\\.)datouniao\\.com\$
-add list=adblock address=(^|\\.)ddapp\\.cn\$
-add list=adblock address=(^|\\.)dianjoy\\.com\$
-add list=adblock address=(^|\\.)dianru\\.com\$
-add list=adblock address=(^|\\.)disqusads\\.com\$
-add list=adblock address=(^|\\.)domob\\.cn\$
-add list=adblock address=(^|\\.)domob\\.com\\.cn\$
-add list=adblock address=(^|\\.)domob\\.org\$
-add list=adblock address=(^|\\.)dotmore\\.com\\.tw\$
-add list=adblock address=(^|\\.)doubleverify\\.com\$
-add list=adblock address=(^|\\.)doudouguo\\.com\$
-add list=adblock address=(^|\\.)doumob\\.com\$
-add list=adblock address=(^|\\.)duanat\\.com\$
-add list=adblock address=(^|\\.)duiba\\.com\\.cn\$
-add list=adblock address=(^|\\.)duomeng\\.cn\$
-add list=adblock address=(^|\\.)dxpmedia\\.com\$
-add list=adblock address=(^|\\.)edigitalsurvey\\.com\$
-add list=adblock address=(^|\\.)eduancm\\.com\$
-add list=adblock address=(^|\\.)emarbox\\.com\$
-add list=adblock address=(^|\\.)epsilon\\.com\$
-add list=adblock address=(^|\\.)exosrv\\.com\$
-add list=adblock address=(^|\\.)fancyapi\\.com\$
-add list=adblock address=(^|\\.)feitian001\\.com\$
-add list=adblock address=(^|\\.)feixin2\\.com\$
-add list=adblock address=(^|\\.)flashtalking\\.com\$
-add list=adblock address=(^|\\.)fraudmetrix\\.cn\$
-add list=adblock address=(^|\\.)g1\\.tagtic\\.cn\$
-add list=adblock address=(^|\\.)gentags\\.net\$
-add list=adblock address=(^|\\.)gepush\\.com\$
-add list=adblock address=(^|\\.)getui\\.com\$
-add list=adblock address=(^|\\.)glispa\\.com\$
-add list=adblock address=(^|\\.)go-mpulse\$
-add list=adblock address=(^|\\.)go-mpulse\\.net\$
-add list=adblock address=(^|\\.)godloveme\\.cn\$
-add list=adblock address=(^|\\.)gridsum\\.com\$
-add list=adblock address=(^|\\.)gridsumdissector\\.cn\$
-add list=adblock address=(^|\\.)gridsumdissector\\.com\$
-add list=adblock address=(^|\\.)growingio\\.com\$
-add list=adblock address=(^|\\.)guohead\\.com\$
-add list=adblock address=(^|\\.)guomob\\.com\$
-add list=adblock address=(^|\\.)haoghost\\.com\$
-add list=adblock address=(^|\\.)hivecn\\.cn\$
-add list=adblock address=(^|\\.)hypers\\.com\$
-add list=adblock address=(^|\\.)icast\\.cn\$
-add list=adblock address=(^|\\.)igexin\\.com\$
-add list=adblock address=(^|\\.)il8r\\.com\$
-add list=adblock address=(^|\\.)imageter\\.com\$
-add list=adblock address=(^|\\.)immob\\.cn\$
-add list=adblock address=(^|\\.)inad\\.com\$
-add list=adblock address=(^|\\.)inmobi\\.cn\$
-add list=adblock address=(^|\\.)inmobi\\.net\$
-add list=adblock address=(^|\\.)inmobicdn\\.cn\$
-add list=adblock address=(^|\\.)inmobicdn\\.net\$
-add list=adblock address=(^|\\.)innity\\.com\$
-add list=adblock address=(^|\\.)instabug\\.com\$
-add list=adblock address=(^|\\.)intely\\.cn\$
-add list=adblock address=(^|\\.)iperceptions\\.com\$
-add list=adblock address=(^|\\.)ipinyou\\.com\$
-add list=adblock address=(^|\\.)irs01\\.com\$
-add list=adblock address=(^|\\.)irs01\\.net\$
-add list=adblock address=(^|\\.)irs09\\.com\$
-add list=adblock address=(^|\\.)istreamsche\\.com\$
-add list=adblock address=(^|\\.)jesgoo\\.com\$
-add list=adblock address=(^|\\.)jiaeasy\\.net\$
-add list=adblock address=(^|\\.)jiguang\\.cn\$
-add list=adblock address=(^|\\.)jimdo\\.com\$
-add list=adblock address=(^|\\.)jisucn\\.com\$
-add list=adblock address=(^|\\.)jmgehn\\.cn\$
-add list=adblock address=(^|\\.)jpush\\.cn\$
-add list=adblock address=(^|\\.)jusha\\.com\$
-add list=adblock address=(^|\\.)juzi\\.cn\$
-add list=adblock address=(^|\\.)juzilm\\.com\$
-add list=adblock address=(^|\\.)kejet\\.com\$
-add list=adblock address=(^|\\.)kejet\\.net\$
-add list=adblock address=(^|\\.)keydot\\.net\$
-add list=adblock address=(^|\\.)keyrun\\.cn\$
-add list=adblock address=(^|\\.)kmd365\\.com\$
-add list=adblock address=(^|\\.)krux\\.net\$
-add list=adblock address=(^|\\.)lnk0\\.com\$
-add list=adblock address=(^|\\.)lnk8\\.cn\$
-add list=adblock address=(^|\\.)localytics\\.com\$
-add list=adblock address=(^|\\.)lomark\\.cn\$
-add list=adblock address=(^|\\.)lotuseed\\.com\$
-add list=adblock address=(^|\\.)lrswl\\.com\$
-add list=adblock address=(^|\\.)lufax\\.com\$
-add list=adblock address=(^|\\.)madhouse\\.cn\$
-add list=adblock address=(^|\\.)madmini\\.com\$
-add list=adblock address=(^|\\.)madserving\\.com\$
-add list=adblock address=(^|\\.)magicwindow\\.cn\$
-add list=adblock address=(^|\\.)mathtag\\.com\$
-add list=adblock address=(^|\\.)maysunmedia\\.com\$
-add list=adblock address=(^|\\.)mbai\\.cn\$
-add list=adblock address=(^|\\.)mediaplex\\.com\$
-add list=adblock address=(^|\\.)mediav\\.com\$
-add list=adblock address=(^|\\.)megajoy\\.com\$
-add list=adblock address=(^|\\.)meiqia\\.com\$
-add list=adblock address=(^|\\.)mgogo\\.com\$
-add list=adblock address=(^|\\.)miaozhen\\.com\$
-add list=adblock address=(^|\\.)microad-cn\\.com\$
-add list=adblock address=(^|\\.)miidi\\.net\$
-add list=adblock address=(^|\\.)mijifen\\.com\$
-add list=adblock address=(^|\\.)mixpanel\\.com\$
-add list=adblock address=(^|\\.)mjmobi\\.com\$
-add list=adblock address=(^|\\.)mng-ads\\.com\$
-add list=adblock address=(^|\\.)moad\\.cn\$
-add list=adblock address=(^|\\.)moatads\\.com\$
-add list=adblock address=(^|\\.)mobaders\\.com\$
-add list=adblock address=(^|\\.)mobclix\\.com\$
-add list=adblock address=(^|\\.)mobgi\\.com\$
-add list=adblock address=(^|\\.)mobisage\\.cn\$
-add list=adblock address=(^|\\.)mobvista\\.com\$
-add list=adblock address=(^|\\.)mopub\\.com\$
-add list=adblock address=(^|\\.)moquanad\\.com\$
-add list=adblock address=(^|\\.)mpush\\.cn\$
-add list=adblock address=(^|\\.)mxpnl\\.com\$
-add list=adblock address=(^|\\.)myhug\\.cn\$
-add list=adblock address=(^|\\.)mzy2014\\.com\$
-add list=adblock address=(^|\\.)networkbench\\.com\$
-add list=adblock address=(^|\\.)ninebox\\.cn\$
-add list=adblock address=(^|\\.)ntalker\\.com\$
-add list=adblock address=(^|\\.)nylalobghyhirgh\\.com\$
-add list=adblock address=(^|\\.)o2omobi\\.com\$
-add list=adblock address=(^|\\.)oadz\\.com\$
-add list=adblock address=(^|\\.)oneapm\\.com\$
-add list=adblock address=(^|\\.)onetad\\.com\$
-add list=adblock address=(^|\\.)optaim\\.com\$
-add list=adblock address=(^|\\.)optimix\\.asia\$
-add list=adblock address=(^|\\.)optimix\\.cn\$
-add list=adblock address=(^|\\.)optimizelyapis\\.com\$
-add list=adblock address=(^|\\.)overture\\.com\$
-add list=adblock address=(^|\\.)p0y\\.cn\$
-add list=adblock address=(^|\\.)pagechoice\\.net\$
-add list=adblock address=(^|\\.)pingdom\\.net\$
-add list=adblock address=(^|\\.)plugrush\\.com\$
-add list=adblock address=(^|\\.)popin\\.cc\$
-add list=adblock address=(^|\\.)pro\\.cn\$
-add list=adblock address=(^|\\.)publicidad\\.net\$
-add list=adblock address=(^|\\.)publicidad\\.tv\$
-add list=adblock address=(^|\\.)pubmatic\\.com\$
-add list=adblock address=(^|\\.)pubnub\\.com\$
-add list=adblock address=(^|\\.)qcl777\\.com\$
-add list=adblock address=(^|\\.)qiyou\\.com\$
-add list=adblock address=(^|\\.)qtmojo\\.com\$
-add list=adblock address=(^|\\.)quantcount\\.com\$
-add list=adblock address=(^|\\.)qucaigg\\.com\$
-add list=adblock address=(^|\\.)qumi\\.com\$
-add list=adblock address=(^|\\.)qxxys\\.com\$
-add list=adblock address=(^|\\.)reachmax\\.cn\$
-add list=adblock address=(^|\\.)responsys\\.net\$
-add list=adblock address=(^|\\.)revsci\\.net\$
-add list=adblock address=(^|\\.)rlcdn\\.com\$
-add list=adblock address=(^|\\.)rtbasia\\.com\$
-add list=adblock address=(^|\\.)sanya1\\.com\$
-add list=adblock address=(^|\\.)scupio\\.com\$
-add list=adblock address=(^|\\.)serving-sys\\.com\$
-add list=adblock address=(^|\\.)shuiguo\\.com\$
-add list=adblock address=(^|\\.)shuzilm\\.cn\$
-add list=adblock address=(^|\\.)similarweb\\.com\$
-add list=adblock address=(^|\\.)sitemeter\\.com\$
-add list=adblock address=(^|\\.)sitescout\\.com\$
-add list=adblock address=(^|\\.)sitetag\\.us\$
-add list=adblock address=(^|\\.)smartmad\\.com\$
-add list=adblock address=(^|\\.)social-touch\\.com\$
-add list=adblock address=(^|\\.)somecoding\\.com\$
-add list=adblock address=(^|\\.)sponsorpay\\.com\$
-add list=adblock address=(^|\\.)stargame\\.com\$
-add list=adblock address=(^|\\.)stg8\\.com\$
-add list=adblock address=(^|\\.)switchadhub\\.com\$
-add list=adblock address=(^|\\.)sycbbs\\.com\$
-add list=adblock address=(^|\\.)synacast\\.com\$
-add list=adblock address=(^|\\.)sysdig\\.com\$
-add list=adblock address=(^|\\.)talkingdata\\.com\$
-add list=adblock address=(^|\\.)talkingdata\\.net\$
-add list=adblock address=(^|\\.)tansuotv\\.com\$
-add list=adblock address=(^|\\.)tanv\\.com\$
-add list=adblock address=(^|\\.)tanx\\.com\$
-add list=adblock address=(^|\\.)tapjoy\\.cn\$
-add list=adblock address=(^|\\.)th7\\.cn\$
-add list=adblock address=(^|\\.)thoughtleadr\\.com\$
-add list=adblock address=(^|\\.)tianmidian\\.com\$
-add list=adblock address=(^|\\.)tiqcdn\\.com\$
-add list=adblock address=(^|\\.)touclick\\.com\$
-add list=adblock address=(^|\\.)trafficjam\\.cn\$
-add list=adblock address=(^|\\.)trafficmp\\.com\$
-add list=adblock address=(^|\\.)tuia\\.cn\$
-add list=adblock address=(^|\\.)ueadlian\\.com\$
-add list=adblock address=(^|\\.)uerzyr\\.cn\$
-add list=adblock address=(^|\\.)ugdtimg\\.com\$
-add list=adblock address=(^|\\.)ugvip\\.com\$
-add list=adblock address=(^|\\.)ujian\\.cc\$
-add list=adblock address=(^|\\.)ukeiae\\.com\$
-add list=adblock address=(^|\\.)umeng\\.co\$
-add list=adblock address=(^|\\.)umeng\\.com\$
-add list=adblock address=(^|\\.)umtrack\\.com\$
-add list=adblock address=(^|\\.)unimhk\\.com\$
-add list=adblock address=(^|\\.)union-wifi\\.com\$
-add list=adblock address=(^|\\.)union001\\.com\$
-add list=adblock address=(^|\\.)unionsy\\.com\$
-add list=adblock address=(^|\\.)unlitui\\.com\$
-add list=adblock address=(^|\\.)uri6\\.com\$
-add list=adblock address=(^|\\.)ushaqi\\.com\$
-add list=adblock address=(^|\\.)usingde\\.com\$
-add list=adblock address=(^|\\.)uuzu\\.com\$
-add list=adblock address=(^|\\.)uyunad\\.com\$
-add list=adblock address=(^|\\.)vamaker\\.com\$
-add list=adblock address=(^|\\.)voiceads\\.cn\$
-add list=adblock address=(^|\\.)voiceads\\.com\$
-add list=adblock address=(^|\\.)vpon\\.com\$
-add list=adblock address=(^|\\.)vungle\\.cn\$
-add list=adblock address=(^|\\.)vungle\\.com\$
-add list=adblock address=(^|\\.)waps\\.cn\$
-add list=adblock address=(^|\\.)wapx\\.cn\$
-add list=adblock address=(^|\\.)webterren\\.com\$
-add list=adblock address=(^|\\.)whpxy\\.com\$
-add list=adblock address=(^|\\.)winads\\.cn\$
-add list=adblock address=(^|\\.)winasdaq\\.com\$
-add list=adblock address=(^|\\.)wiyun\\.com\$
-add list=adblock address=(^|\\.)wooboo\\.com\\.cn\$
-add list=adblock address=(^|\\.)wqmobile\\.com\$
-add list=adblock address=(^|\\.)wrating\\.com\$
-add list=adblock address=(^|\\.)wumii\\.cn\$
-add list=adblock address=(^|\\.)xcy8\\.com\$
-add list=adblock address=(^|\\.)xdrig\\.com\$
-add list=adblock address=(^|\\.)xiaozhen\\.com\$
-add list=adblock address=(^|\\.)xibao100\\.com\$
-add list=adblock address=(^|\\.)xtgreat\\.com\$
-add list=adblock address=(^|\\.)xy\\.com\$
-add list=adblock address=(^|\\.)yandui\\.com\$
-add list=adblock address=(^|\\.)yigao\\.com\$
-add list=adblock address=(^|\\.)yijifen\\.com\$
-add list=adblock address=(^|\\.)yinooo\\.com\$
-add list=adblock address=(^|\\.)yiqifa\\.com\$
-add list=adblock address=(^|\\.)yiwk\\.com\$
-add list=adblock address=(^|\\.)ylunion\\.com\$
-add list=adblock address=(^|\\.)ymapp\\.com\$
-add list=adblock address=(^|\\.)ymcdn\\.cn\$
-add list=adblock address=(^|\\.)yongyuelm\\.com\$
-add list=adblock address=(^|\\.)yooli\\.com\$
-add list=adblock address=(^|\\.)youmi\\.net\$
-add list=adblock address=(^|\\.)youxiaoad\\.com\$
-add list=adblock address=(^|\\.)yoyi\\.com\\.cn\$
-add list=adblock address=(^|\\.)yoyi\\.tv\$
-add list=adblock address=(^|\\.)yrxmr\\.com\$
-add list=adblock address=(^|\\.)ysjwj\\.com\$
-add list=adblock address=(^|\\.)yunjiasu\\.com\$
-add list=adblock address=(^|\\.)yunpifu\\.cn\$
-add list=adblock address=(^|\\.)zampdsp\\.com\$
-add list=adblock address=(^|\\.)zamplus\\.com\$
-add list=adblock address=(^|\\.)zcdsp\\.com\$
-add list=adblock address=(^|\\.)zhidian3g\\.cn\$
-add list=adblock address=(^|\\.)zhiziyun\\.com\$
-add list=adblock address=(^|\\.)zhjfad\\.com\$
-add list=adblock address=(^|\\.)zqzxz\\.com\$
-add list=adblock address=(^|\\.)zzsx8\\.com\$
-add list=adblock address=(^|\\.)acuityplatform\\.com\$
-add list=adblock address=(^|\\.)ad-stir\\.com\$
-add list=adblock address=(^|\\.)ad-survey\\.com\$
-add list=adblock address=(^|\\.)ad4game\\.com\$
-add list=adblock address=(^|\\.)adcloud\\.jp\$
-add list=adblock address=(^|\\.)adcolony\\.com\$
-add list=adblock address=(^|\\.)addthis\\.com\$
-add list=adblock address=(^|\\.)adfurikun\\.jp\$
-add list=adblock address=(^|\\.)adhigh\\.net\$
-add list=adblock address=(^|\\.)adhood\\.com\$
-add list=adblock address=(^|\\.)adinall\\.com\$
-add list=adblock address=(^|\\.)adition\\.com\$
-add list=adblock address=(^|\\.)adk2x\\.com\$
-add list=adblock address=(^|\\.)admarket\\.mobi\$
-add list=adblock address=(^|\\.)admarvel\\.com\$
-add list=adblock address=(^|\\.)admedia\\.com\$
-add list=adblock address=(^|\\.)adnxs\\.com\$
-add list=adblock address=(^|\\.)adotmob\\.com\$
-add list=adblock address=(^|\\.)adperium\\.com\$
-add list=adblock address=(^|\\.)adriver\\.ru\$
-add list=adblock address=(^|\\.)adroll\\.com\$
-add list=adblock address=(^|\\.)adsco\\.re\$
-add list=adblock address=(^|\\.)adservice\\.com\$
-add list=adblock address=(^|\\.)adsrvr\\.org\$
-add list=adblock address=(^|\\.)adsymptotic\\.com\$
-add list=adblock address=(^|\\.)adtaily\\.com\$
-add list=adblock address=(^|\\.)adtech\\.de\$
-add list=adblock address=(^|\\.)adtechjp\\.com\$
-add list=adblock address=(^|\\.)adtechus\\.com\$
-add list=adblock address=(^|\\.)airpush\\.com\$
-add list=adblock address=(^|\\.)am15\\.net\$
-add list=adblock address=(^|\\.)amobee\\.com\$
-add list=adblock address=(^|\\.)appier\\.net\$
-add list=adblock address=(^|\\.)applift\\.com\$
-add list=adblock address=(^|\\.)apsalar\\.com\$
-add list=adblock address=(^|\\.)atas\\.io\$
-add list=adblock address=(^|\\.)awempire\\.com\$
-add list=adblock address=(^|\\.)axonix\\.com\$
-add list=adblock address=(^|\\.)beintoo\\.com\$
-add list=adblock address=(^|\\.)bepolite\\.eu\$
-add list=adblock address=(^|\\.)bidtheatre\\.com\$
-add list=adblock address=(^|\\.)bidvertiser\\.com\$
-add list=adblock address=(^|\\.)blismedia\\.com\$
-add list=adblock address=(^|\\.)brucelead\\.com\$
-add list=adblock address=(^|\\.)bttrack\\.com\$
-add list=adblock address=(^|\\.)casalemedia\\.com\$
-add list=adblock address=(^|\\.)celtra\\.com\$
-add list=adblock address=(^|\\.)channeladvisor\\.com\$
-add list=adblock address=(^|\\.)connexity\\.net\$
-add list=adblock address=(^|\\.)criteo\\.com\$
-add list=adblock address=(^|\\.)criteo\\.net\$
-add list=adblock address=(^|\\.)csbew\\.com\$
-add list=adblock address=(^|\\.)demdex\\.net\$
-add list=adblock address=(^|\\.)directrev\\.com\$
-add list=adblock address=(^|\\.)dumedia\\.ru\$
-add list=adblock address=(^|\\.)effectivemeasure\\.com\$
-add list=adblock address=(^|\\.)effectivemeasure\\.net\$
-add list=adblock address=(^|\\.)eqads\\.com\$
-add list=adblock address=(^|\\.)everesttech\\.net\$
-add list=adblock address=(^|\\.)exoclick\\.com\$
-add list=adblock address=(^|\\.)extend\\.tv\$
-add list=adblock address=(^|\\.)eyereturn\\.com\$
-add list=adblock address=(^|\\.)fastapi\\.net\$
-add list=adblock address=(^|\\.)fastclick\\.com\$
-add list=adblock address=(^|\\.)fastclick\\.net\$
-add list=adblock address=(^|\\.)flurry\\.com\$
-add list=adblock address=(^|\\.)gosquared\\.com\$
-add list=adblock address=(^|\\.)gtags\\.net\$
-add list=adblock address=(^|\\.)heyzap\\.com\$
-add list=adblock address=(^|\\.)histats\\.com\$
-add list=adblock address=(^|\\.)hitslink\\.com\$
-add list=adblock address=(^|\\.)hot-mob\\.com\$
-add list=adblock address=(^|\\.)hyperpromote\\.com\$
-add list=adblock address=(^|\\.)i-mobile\\.co\\.jp\$
-add list=adblock address=(^|\\.)imrworldwide\\.com\$
-add list=adblock address=(^|\\.)inmobi\\.com\$
-add list=adblock address=(^|\\.)inner-active\\.mobi\$
-add list=adblock address=(^|\\.)intentiq\\.com\$
-add list=adblock address=(^|\\.)inter1ads\\.com\$
-add list=adblock address=(^|\\.)ipredictive\\.com\$
-add list=adblock address=(^|\\.)ironsrc\\.com\$
-add list=adblock address=(^|\\.)iskyworker\\.com\$
-add list=adblock address=(^|\\.)jizzads\\.com\$
-add list=adblock address=(^|\\.)juicyads\\.com\$
-add list=adblock address=(^|\\.)kochava\\.com\$
-add list=adblock address=(^|\\.)leadbolt\\.com\$
-add list=adblock address=(^|\\.)leadbolt\\.net\$
-add list=adblock address=(^|\\.)leadboltads\\.net\$
-add list=adblock address=(^|\\.)leadboltapps\\.net\$
-add list=adblock address=(^|\\.)leadboltmobile\\.net\$
-add list=adblock address=(^|\\.)lenzmx\\.com\$
-add list=adblock address=(^|\\.)liveadvert\\.com\$
-add list=adblock address=(^|\\.)marketgid\\.com\$
-add list=adblock address=(^|\\.)marketo\\.com\$
-add list=adblock address=(^|\\.)mdotm\\.com\$
-add list=adblock address=(^|\\.)medialytics\\.com\$
-add list=adblock address=(^|\\.)medialytics\\.io\$
-add list=adblock address=(^|\\.)meetrics\\.com\$
-add list=adblock address=(^|\\.)meetrics\\.net\$
-add list=adblock address=(^|\\.)mgid\\.com\$
-add list=adblock address=(^|\\.)millennialmedia\\.com\$
-add list=adblock address=(^|\\.)mobadme\\.jp\$
-add list=adblock address=(^|\\.)mobfox\\.com\$
-add list=adblock address=(^|\\.)mobileadtrading\\.com\$
-add list=adblock address=(^|\\.)mobilityware\\.com\$
-add list=adblock address=(^|\\.)mojiva\\.com\$
-add list=adblock address=(^|\\.)mookie1\\.com\$
-add list=adblock address=(^|\\.)msads\\.net\$
-add list=adblock address=(^|\\.)mydas\\.mobi\$
-add list=adblock address=(^|\\.)nend\\.net\$
-add list=adblock address=(^|\\.)netshelter\\.net\$
-add list=adblock address=(^|\\.)nexage\\.com\$
-add list=adblock address=(^|\\.)owneriq\\.net\$
-add list=adblock address=(^|\\.)pixels\\.asia\$
-add list=adblock address=(^|\\.)plista\\.com\$
-add list=adblock address=(^|\\.)popads\\.net\$
-add list=adblock address=(^|\\.)powerlinks\\.com\$
-add list=adblock address=(^|\\.)propellerads\\.com\$
-add list=adblock address=(^|\\.)quantserve\\.com\$
-add list=adblock address=(^|\\.)rayjump\\.com\$
-add list=adblock address=(^|\\.)revdepo\\.com\$
-add list=adblock address=(^|\\.)rubiconproject\\.com\$
-add list=adblock address=(^|\\.)sape\\.ru\$
-add list=adblock address=(^|\\.)scorecardresearch\\.com\$
-add list=adblock address=(^|\\.)segment\\.com\$
-add list=adblock address=(^|\\.)serving-sys\\.com\$
-add list=adblock address=(^|\\.)sharethis\\.com\$
-add list=adblock address=(^|\\.)smaato\\.com\$
-add list=adblock address=(^|\\.)smaato\\.net\$
-add list=adblock address=(^|\\.)smartadserver\\.com\$
-add list=adblock address=(^|\\.)smartnews-ads\\.com\$
-add list=adblock address=(^|\\.)startapp\\.com\$
-add list=adblock address=(^|\\.)startappexchange\\.com\$
-add list=adblock address=(^|\\.)statcounter\\.com\$
-add list=adblock address=(^|\\.)steelhousemedia\\.com\$
-add list=adblock address=(^|\\.)stickyadstv\\.com\$
-add list=adblock address=(^|\\.)supersonic\\.com\$
-add list=adblock address=(^|\\.)tapjoy\\.com\$
-add list=adblock address=(^|\\.)tapjoyads\\.com\$
-add list=adblock address=(^|\\.)trafficjunky\\.com\$
-add list=adblock address=(^|\\.)tribalfusion\\.com\$
-add list=adblock address=(^|\\.)turn\\.com\$
-add list=adblock address=(^|\\.)uberads\\.com\$
-add list=adblock address=(^|\\.)vidoomy\\.com\$
-add list=adblock address=(^|\\.)viglink\\.com\$
-add list=adblock address=(^|\\.)voicefive\\.com\$
-add list=adblock address=(^|\\.)wedolook\\.com\$
-add list=adblock address=(^|\\.)yadro\\.ru\$
-add list=adblock address=(^|\\.)yengo\\.com\$
-add list=adblock address=(^|\\.)zedo\\.com\$
-add list=adblock address=(^|\\.)zemanta\\.com\$
-add list=adblock address=(^|\\.)11h5\\.com\$
-add list=adblock address=(^|\\.)1kxun\\.mobi\$
-add list=adblock address=(^|\\.)519397\\.com\$
-add list=adblock address=(^|\\.)626uc\\.com\$
-add list=adblock address=(^|\\.)915\\.com\$
-add list=adblock address=(^|\\.)appget\\.cn\$
-add list=adblock address=(^|\\.)appuu\\.cn\$
-add list=adblock address=(^|\\.)coinhive\\.com\$
-add list=adblock address=(^|\\.)huodonghezi\\.cn\$
-add list=adblock address=(^|\\.)wanfeng1\\.com\$
-add list=adblock address=(^|\\.)wep016\\.top
-add list=adblock address=(^|\\.)win-stock\\.com\\.cn\$
-add list=adblock address=(^|\\.)zantainet\\.com\$
-add list=adblock address=(^|\\.)\\w\\w(\\w|)dnserror\\d(\\d|)\\.wo\\.com\\.cn
-add list=adblock address=(^|\\.)114so\\.cn\$
-add list=adblock address=(^|\\.)go\\.10086\\.cn\$
-add list=adblock address=(^|\\.)navi\\.gd\\.chinamobile\\.com\$
-add list=adblock address=(^|\\.)hivedata\\.cc\$
+add list=adblock address=101.227.200.0/24
+add list=adblock address=101.227.200.11/32
+add list=adblock address=101.227.200.28/32
+add list=adblock address=101.227.97.240/32
+add list=adblock address=124.192.153.42/32
+add list=adblock address=117.177.248.17/32
+add list=adblock address=117.177.248.41/32
+add list=adblock address=223.87.176.139/32
+add list=adblock address=223.87.176.176/32
+add list=adblock address=223.87.177.180/32
+add list=adblock address=223.87.177.182/32
+add list=adblock address=223.87.177.184/32
+add list=adblock address=223.87.177.43/32
+add list=adblock address=223.87.177.47/32
+add list=adblock address=223.87.177.80/32
+add list=adblock address=223.87.182.101/32
+add list=adblock address=223.87.182.102/32
+add list=adblock address=223.87.182.11/32
+add list=adblock address=223.87.182.52/32
+add list=adblock address=1.3.0.10/32
+add list=adblock address=10.72.25.0/24
+add list=adblock address=23.42.186.24/32
+add list=adblock address=23.66.147.48/32
+add list=adblock address=23.235.156.167/32
+add list=adblock address=27.255.67.120/32
+add list=adblock address=42.51.146.207/32
+add list=adblock address=45.34.240.72/32
+add list=adblock address=46.165.197.153/32
+add list=adblock address=46.165.197.231/32
+add list=adblock address=47.89.59.182/32
+add list=adblock address=47.90.50.177/32
+add list=adblock address=47.93.103.196/32
+add list=adblock address=47.94.89.32/32
+add list=adblock address=47.96.162.122/32
+add list=adblock address=58.215.179.159/32
+add list=adblock address=60.19.29.16/28
+add list=adblock address=60.19.29.21/28
+add list=adblock address=60.190.139.164/32
+add list=adblock address=60.191.124.196/32
+add list=adblock address=60.210.17.0/24
+add list=adblock address=60.210.17.12/24
+add list=adblock address=61.129.70.132/32
+add list=adblock address=61.132.216.232/32
+add list=adblock address=61.132.221.146/32
+add list=adblock address=61.132.255.128/25
+add list=adblock address=61.132.255.212/32
+add list=adblock address=61.132.255.222/25
+add list=adblock address=61.147.184.18/32
+add list=adblock address=61.152.223.15/32
+add list=adblock address=61.160.200.223/32
+add list=adblock address=61.160.200.242/32
+add list=adblock address=61.160.200.252/32
+add list=adblock address=61.174.50.128/25
+add list=adblock address=61.174.50.167/25
+add list=adblock address=61.191.12.74/32
+add list=adblock address=61.191.206.4/32
+add list=adblock address=67.229.224.28/32
+add list=adblock address=69.28.57.245/32
+add list=adblock address=74.117.182.77/32
+add list=adblock address=78.140.131.214/32
+add list=adblock address=101.201.29.182/32
+add list=adblock address=101.251.211.235/32
+add list=adblock address=103.249.254.113/32
+add list=adblock address=104.195.62.12/32
+add list=adblock address=104.197.140.120/32
+add list=adblock address=104.198.198.188/32
+add list=adblock address=106.75.65.90/32
+add list=adblock address=106.75.65.92/32
+add list=adblock address=106.187.95.251/32
+add list=adblock address=107.21.113.76/32
+add list=adblock address=108.171.248.234/32
+add list=adblock address=111.30.135.167/32
+add list=adblock address=111.63.135.0/24
+add list=adblock address=111.73.45.147/32
+add list=adblock address=111.175.220.160/29
+add list=adblock address=111.175.220.164/32
+add list=adblock address=111.206.13.0/24
+add list=adblock address=111.206.22.0/24
+add list=adblock address=112.74.95.46/32
+add list=adblock address=112.124.115.215/32
+add list=adblock address=113.57.230.88/32
+add list=adblock address=113.207.57.24/32
+add list=adblock address=114.55.123.44/32
+add list=adblock address=114.95.102.77/32
+add list=adblock address=114.247.28.96/32
+add list=adblock address=115.29.141.121/32
+add list=adblock address=115.29.247.48/32
+add list=adblock address=115.182.16.79/32
+add list=adblock address=116.55.227.242/32
+add list=adblock address=116.206.22.7/32
+add list=adblock address=117.25.133.209/32
+add list=adblock address=117.144.242.32/32
+add list=adblock address=118.144.88.126/32
+add list=adblock address=118.144.88.208/28
+add list=adblock address=118.144.88.215/28
+add list=adblock address=118.144.88.215/32
+add list=adblock address=119.4.249.166/32
+add list=adblock address=119.188.13.0/24
+add list=adblock address=120.26.151.246/32
+add list=adblock address=120.27.34.156/32
+add list=adblock address=120.55.199.139/32
+add list=adblock address=120.76.189.132/32
+add list=adblock address=120.80.57.123/32
+add list=adblock address=120.132.57.41/32
+add list=adblock address=120.132.63.203/32
+add list=adblock address=120.197.89.239/32
+add list=adblock address=120.198.116.0/24
+add list=adblock address=121.15.207.243/32
+add list=adblock address=121.43.75.169/32
+add list=adblock address=121.199.73.185/32
+add list=adblock address=121.201.11.95/32
+add list=adblock address=121.201.108.2/32
+add list=adblock address=121.251.255.0/24
+add list=adblock address=122.225.103.120/32
+add list=adblock address=122.226.223.163/32
+add list=adblock address=122.227.254.195/32
+add list=adblock address=122.228.236.165/32
+add list=adblock address=123.56.152.96/32
+add list=adblock address=123.57.94.184/32
+add list=adblock address=123.57.162.39/32
+add list=adblock address=123.59.78.229/32
+add list=adblock address=123.59.152.170/32
+add list=adblock address=123.125.111.0/24
+add list=adblock address=123.139.154.0/24
+add list=adblock address=123.139.154.201/24
+add list=adblock address=124.14.21.147/32
+add list=adblock address=124.14.21.151/32
+add list=adblock address=124.160.194.11/32
+add list=adblock address=124.232.160.178/32
+add list=adblock address=125.46.61.28/32
+add list=adblock address=125.89.69.5/32
+add list=adblock address=139.159.32.82/32
+add list=adblock address=139.196.239.52/32
+add list=adblock address=139.224.26.92/32
+add list=adblock address=139.224.74.148/32
+add list=adblock address=146.148.85.61/32
+add list=adblock address=162.212.181.32/32
+add list=adblock address=173.208.177.227/32
+add list=adblock address=175.6.223.15/32
+add list=adblock address=180.76.155.58/32
+add list=adblock address=180.76.162.60/32
+add list=adblock address=180.76.171.28/32
+add list=adblock address=180.76.172.149/32
+add list=adblock address=180.76.181.213/32
+add list=adblock address=180.166.52.24/32
+add list=adblock address=182.92.81.104/32
+add list=adblock address=183.6.188.224/29
+add list=adblock address=183.6.188.226/29
+add list=adblock address=183.59.53.184/29
+add list=adblock address=183.59.53.187/29
+add list=adblock address=183.59.53.237/32
+add list=adblock address=183.131.79.30/32
+add list=adblock address=183.131.79.130/32
+add list=adblock address=198.40.52.11/32
+add list=adblock address=202.104.1.27/32
+add list=adblock address=202.105.165.202/32
+add list=adblock address=205.209.138.102/32
+add list=adblock address=211.98.71.192/29
+add list=adblock address=211.98.71.195/29
+add list=adblock address=211.103.159.32/32
+add list=adblock address=211.137.132.89/32
+add list=adblock address=211.139.178.49/32
+add list=adblock address=211.149.225.23/32
+add list=adblock address=211.167.105.131/32
+add list=adblock address=218.25.246.118/32
+add list=adblock address=218.93.127.37/32
+add list=adblock address=219.234.83.60/32
+add list=adblock address=220.115.251.25/32
+add list=adblock address=220.196.52.141/32
+add list=adblock address=221.179.46.128/25
+add list=adblock address=221.179.46.190/25
+add list=adblock address=221.179.140.0/24
+add list=adblock address=221.179.183.0/24
+add list=adblock address=221.179.191.0/24
+add list=adblock address=221.204.213.222/32
+add list=adblock address=221.228.17.152/32
+add list=adblock address=221.228.214.101/32
+add list=adblock address=221.231.6.79/32
+add list=adblock address=222.73.156.235/32
+add list=adblock address=222.186.61.91/32
+add list=adblock address=222.186.61.95/32
+add list=adblock address=222.186.61.96/32
+add list=adblock address=222.186.61.97/32
+add list=adblock address=222.187.226.96/32
+add list=adblock address=223.6.255.99/32
 /file remove Adblock.rsc
