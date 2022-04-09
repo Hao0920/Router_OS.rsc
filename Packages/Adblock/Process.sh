@@ -1,6 +1,6 @@
 ##### 处理数据 ####
 #### Basic
-mkdir -p ./Cache/Adblock/Process/Basic/
+mkdir -p ./Cache/Adblock/Process/Basic/ACL4SSR/
 sed -e '/#/d' ./Packages/Adblock/Basic/ACL4SSR/ACL4SSR-IPv4.txt  > ./Cache/Adblock/Process/Basic/ACL4SSR/IPv4-1.txt
 sed -e '/#/d' ./Packages/Adblock/Basic/ACL4SSR/ACL4SSR-Regexp.txt  > ./Cache/Adblock/Process/Basic/ACL4SSR/Regexp-1.txt
 sed -e '/^$/d' ./Cache/Adblock/Process/Basic/ACL4SSR/IPv4-1.txt > ./Cache/Adblock/Process/Basic/ACL4SSR/IPv4.txt
