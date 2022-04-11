@@ -2216,6 +2216,7 @@ add address=240.0.0.1 name=saxs.sina.com.cn
 add address=240.0.0.1 name=sbeacon.sina.com.cn
 add address=240.0.0.1 name=sc.51teach.club
 add address=240.0.0.1 name=sc.alwonroad.club
+add address=240.0.0.1 name=sc.dssh.shop
 add address=240.0.0.1 name=sc.eyugz66.xyz
 add address=240.0.0.1 name=sc.fengjiangqwe.xyz
 add address=240.0.0.1 name=sc.haape.club
