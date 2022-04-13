@@ -5,4 +5,5 @@ find ./Cache/Direct/Upstream/Loyalsoldier/ -type f -name "*.txt" | xargs cat > .
 # 删除 full:
 sed -e 's/full://' ./Cache/Direct/Process/Loyalsoldier/1.txt > ./Cache/Direct/Process/Loyalsoldier/2.txt
 # 删除regexp
-sed -e '/regexp:/d' ./Cache/Direct/Process/Loyalsoldier/2.txt > ./Cache/Direct/Process/Loyalsoldier/v2ray-rules-dat.txt
+sed -e '/regexp:/d' ./Cache/Direct/Process/Loyalsoldier/2.txt > ./Cache/Direct/Process/Loyalsoldier/3.txt
+sort -u ./Cache/Direct/Process/Loyalsoldier/3.txt > ./Cache/Direct/Process/Loyalsoldier/v2ray-rules-dat.txt
