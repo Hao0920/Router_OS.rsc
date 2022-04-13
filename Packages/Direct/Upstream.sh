@@ -6,6 +6,7 @@ wget --no-check-certificate -c -O ./Cache/Direct/Upstream/Loyalsoldier/v2ray-rul
 
 ### v2fly/domain-list-community
 mkdir -p ./Cache/Direct/Upstream/v2fly/domain-list-community
+# games
 wget --no-check-certificate -c -O ./Cache/Direct/Upstream/v2fly/domain-list-community/category-games.txt https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-games
 wget --no-check-certificate -c -O ./Cache/Direct/Upstream/v2fly/domain-list-community/2kgames.txt https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/2kgames
 wget --no-check-certificate -c -O ./Cache/Direct/Upstream/v2fly/domain-list-community/blizzard.txt https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/blizzard
@@ -26,5 +27,5 @@ wget --no-check-certificate -c -O ./Cache/Direct/Upstream/v2fly/domain-list-comm
 wget --no-check-certificate -c -O ./Cache/Direct/Upstream/v2fly/domain-list-community/steamunlocked.txt https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/steamunlocked
 wget --no-check-certificate -c -O ./Cache/Direct/Upstream/v2fly/domain-list-community/ubisoft.txt https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/ubisoft
 wget --no-check-certificate -c -O ./Cache/Direct/Upstream/v2fly/domain-list-community/xbox.txt https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/xbox
-
+# pt
 wget --no-check-certificate -c -O ./Cache/Direct/Upstream/v2fly/domain-list-community/category-pt.txt https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-pt
