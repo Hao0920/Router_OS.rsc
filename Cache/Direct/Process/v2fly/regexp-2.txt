@@ -1,3 +1,0 @@
-regexp:^cdn\d-epicgames-\d+\.file\.myqcloud\.com$
-regexp:^epicgames-download\d-\d+\.file\.myqcloud\.com$
-regexp:^images(-\d)?\.gog-statics\.com$
