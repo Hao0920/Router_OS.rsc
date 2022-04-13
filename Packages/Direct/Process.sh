@@ -13,12 +13,15 @@ grep "@cn" ./Cache/Direct/Process/v2fly/domain-list-community/domain-list-commun
 sed -e 's/ @cn//' ./Cache/Direct/Process/v2fly/domain-list-community/domain-list-community-cn.txt > ./Cache/Direct/Process/v2fly/domain-list-community/domain-1.txt
 sed -e 's/full://' ./Cache/Direct/Process/v2fly/domain-list-community/domain-1.txt > ./Cache/Direct/Process/v2fly/domain-list-community/domain-2.txt
 sed -e '/#/d' ./Cache/Direct/Process/v2fly/domain-list-community/domain-2.txt > ./Cache/Direct/Process/v2fly/domain-list-community/domain-3.txt
-sed -e '/regexp:/d' ./Cache/Direct/Process/v2fly/domain-list-community/domain-3.txt > ./Cache/Direct/Process/v2fly/domain-list-community/domain-4.txt
-sort -u ./Cache/Direct/Process/v2fly/domain-list-community/domain-4.txt > ./Cache/Direct/Process/v2fly/domain.txt
+sed -e '/regexp:/d' ./Cache/Direct/Process/v2fly/domain-list-community/domain-3.txt > ./Cache/Direct/Process/v2fly/domain-list-community/domain.txt
+{
+    cat ./Cache/Direct/Process/Loyalsoldier/v2ray-rules-dat.txt
+    cat ./Cache/Direct/Process/v2fly/domain-list-community/domain.txt
+    cat ./Cache/Direct/Upstream/v2fly/domain-list-community/category-pt.txt
+} > ./Cache/Direct/Process/1.txt
+sort -u ./Cache/Direct/Process/1.txt > ./Cache/Direct/Process/domain.txt
+
 # regexp
 grep "regexp:" ./Cache/Direct/Process/v2fly/domain-list-community/domain-list-community-cn.txt > ./Cache/Direct/Process/v2fly/domain-list-community/regexp-1.txt
 sed -e 's/ @cn/"/' ./Cache/Direct/Process/v2fly/domain-list-community/regexp-1.txt > ./Cache/Direct/Process/v2fly/domain-list-community/regexp-2.txt
 sed -e 's/regexp:/"/' ./Cache/Direct/Process/v2fly/domain-list-community/regexp-2.txt > ./Cache/Direct/Process/v2fly/domain-list-community/regexp-3.txt
-sed -e 's/\d/\\d/'  ./Cache/Direct/Process/v2fly/domain-list-community/regexp-3.txt > ./Cache/Direct/Process/v2fly/domain-list-community/regexp-4.txt
-sed -e 's/\./\\./'  ./Cache/Direct/Process/v2fly/domain-list-community/regexp-4.txt > ./Cache/Direct/Process/v2fly/domain-list-community/regexp-5.txt
-sed -e 's/$/\$/'  ./Cache/Direct/Process/v2fly/domain-list-community/regexp-5.txt > ./Cache/Direct/Process/v2fly/domain-list-community/regexp-6.txt
