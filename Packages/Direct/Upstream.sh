@@ -26,3 +26,5 @@ wget --no-check-certificate -c -O ./Cache/Direct/Upstream/v2fly/domain-list-comm
 wget --no-check-certificate -c -O ./Cache/Direct/Upstream/v2fly/domain-list-community/steamunlocked.txt https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/steamunlocked
 wget --no-check-certificate -c -O ./Cache/Direct/Upstream/v2fly/domain-list-community/ubisoft.txt https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/ubisoft
 wget --no-check-certificate -c -O ./Cache/Direct/Upstream/v2fly/domain-list-community/xbox.txt https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/xbox
+
+wget --no-check-certificate -c -O ./Cache/Direct/Upstream/v2fly/domain-list-community/category-pt.txt https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-pt
