@@ -1,3 +1,0 @@
-"^cdn\.-epicgames-\d+\.file\.myqcloud\.com\$"
-"^epicgames-download\.-\d+\.file\.myqcloud\.com\$"
-"^images(-\.)?\.gog-statics\.com\$"
