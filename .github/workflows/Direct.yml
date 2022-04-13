@@ -1,4 +1,4 @@
-name: Build ISP.rsc
+name: Build Direct.rsc
 on:
   schedule:
     - cron: "* 18 * * *"
@@ -9,24 +9,24 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    name: Build ISP.rsc
+    name: Build Direct.rsc
     runs-on: ubuntu-latest
     steps:
       - name: Space Cleanup
-        run: rm -rf ./Releases/ISP
+        run: rm -rf ./Releases/Direct
       - name: Checkout
         uses: actions/checkout@v2
       - name: Get Upstream Data
         run:  |
-          chmod +x ./Packages/ISP/Upstream.sh && ./Packages/ISP/Upstream.sh
+          chmod +x ./Packages/Direct/Upstream.sh && ./Packages/Direct/Upstream.sh
       - name: Data Processing
         run:  |
-          chmod +x ./Packages/ISP/Process.sh && ./Packages/ISP/Process.sh
-      - name: Build ISP.rsc
+          chmod +x ./Packages/Direct/Process.sh && ./Packages/Direct/Process.sh
+      - name: Build Direct.rsc
         run:  |
-          chmod +x ./Packages/ISP/Build.sh && ./Packages/ISP/Build.sh
+          chmod +x ./Packages/Direct/Build.sh && ./Packages/Direct/Build.sh
       - name: Cache Cleanup
-        run: rm -rf ./Cache/ISP
+        run: rm -rf ./Cache/Direct
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
