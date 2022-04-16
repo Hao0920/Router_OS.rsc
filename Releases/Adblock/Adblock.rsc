@@ -2800,6 +2800,7 @@ add name=www.asdsdvd4.com type=NXDOMAIN
 add name=www.baidullyouku.xyz type=NXDOMAIN
 add name=www.bl2030.com type=NXDOMAIN
 add name=www.doumob.com type=NXDOMAIN
+add name=www.efzfcwxjvoentetjwhvuiuqbeyjkubrt.com type=NXDOMAIN
 add name=www.eltrafiko.com type=NXDOMAIN
 add name=www.fsktv1990.com type=NXDOMAIN
 add name=www.google-analytics.com type=NXDOMAIN
