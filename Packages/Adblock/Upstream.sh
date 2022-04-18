@@ -29,3 +29,7 @@ wget --no-check-certificate -c -O ./Cache/Adblock/Upstream/Loyalsoldier/domain-l
 ### jdlingyu/ad-wars
 mkdir -p ./Cache/Adblock/Upstream/jdlingyu/ad-wars
 wget --no-check-certificate -c -O ./Cache/Adblock/Upstream/jdlingyu/ad-wars/hosts.txt "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts"
+
+### Ewpratten/youtube_ad_blocklist
+mkdir -p ./Cache/Ewpratten/youtube_ad_blocklist
+wget --no-check-certificate -c -O ./Cache/Adblock/Upstream/Ewpratten/youtube_ad_blocklist.txt "https://raw.githubusercontent.com/Ewpratten/youtube_ad_blocklist/master/blocklist.txt"
