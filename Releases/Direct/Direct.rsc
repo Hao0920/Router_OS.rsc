@@ -1,188 +1,234 @@
-/ip firewall address-list
-remove [find list=direct]
-add list=direct address=17.188.128.0/18
-add list=direct address=17.188.20.0/23
-add list=direct address=17.249.0.0/16
-add list=direct address=17.252.0.0/16
-add list=direct address=17.57.144.0/22
-add list=direct address=api-ams.smoot.apple.com
-add list=direct address=api-any-ams.smoot.apple.com
-add list=direct address=api-any-ap1.smoot.apple.com
-add list=direct address=api-any-ash.smoot.apple.com
-add list=direct address=api-any-bos.smoot.apple.com
-add list=direct address=api-any-che.smoot.apple.com
-add list=direct address=api-any-chi.smoot.apple.com
-add list=direct address=api-any-dal.smoot.apple.com
-add list=direct address=api-any-drf.smoot.apple.com
-add list=direct address=api-any-dub.smoot.apple.com
-add list=direct address=api-any-fra.smoot.apple.com
-add list=direct address=api-any-hkg.smoot.apple.com
-add list=direct address=api-any-jnb.smoot.apple.com
-add list=direct address=api-any-lon.smoot.apple.com
-add list=direct address=api-any-mia.smoot.apple.com
-add list=direct address=api-any-mum.smoot.apple.com
-add list=direct address=api-any-nyc.smoot.apple.com
-add list=direct address=api-any-osa.smoot.apple.com
-add list=direct address=api-any-rno.smoot.apple.com
-add list=direct address=api-any-sel.smoot.apple.com
-add list=direct address=api-any-sto.smoot.apple.com
-add list=direct address=api-any-syd.smoot.apple.com
-add list=direct address=api-any-tpe.smoot.apple.com
-add list=direct address=api-any-tyo.smoot.apple.com
-add list=direct address=api-any.smoot.apple.com
-add list=direct address=api-ap1.smoot.apple.com
-add list=direct address=api-apne1c.smoot.apple.com
-add list=direct address=api-apne1d.smoot.apple.com
-add list=direct address=api-aps1b.smoot.apple.com
-add list=direct address=api-apse1c.smoot.apple.com
-add list=direct address=api-apse2c.smoot.apple.com
-add list=direct address=api-ash.smoot.apple.com
-add list=direct address=api-bln.smoot.apple.com
-add list=direct address=api-bos.smoot.apple.com
-add list=direct address=api-che.smoot.apple.com
-add list=direct address=api-chi.smoot.apple.com
-add list=direct address=api-ci-ausw2c.smoot.apple.com
-add list=direct address=api-ci-mes.smoot.apple.com
-add list=direct address=api-ci-stg.smoot.apple.com
-add list=direct address=api-ci-usw2c.smoot.apple.com
-add list=direct address=api-concat-mes.smoot.apple.com
-add list=direct address=api-concat-stg.smoot.apple.com
-add list=direct address=api-cygni.smoot.apple.com
-add list=direct address=api-dal.smoot.apple.com
-add list=direct address=api-debug-mes.smoot.apple.com
-add list=direct address=api-debug-stg.smoot.apple.com
-add list=direct address=api-demo-mes.smoot.apple.com
-add list=direct address=api-demo-stg.smoot.apple.com
-add list=direct address=api-den.smoot.apple.com
-add list=direct address=api-drf.smoot.apple.com
-add list=direct address=api-dub.smoot.apple.com
-add list=direct address=api-euw1b.smoot.apple.com
-add list=direct address=api-euw1c.smoot.apple.com
-add list=direct address=api-euw3b.smoot.apple.com
-add list=direct address=api-euw3c.smoot.apple.com
-add list=direct address=api-fra.smoot.apple.com
-add list=direct address=api-glb-sjcdm1.smoot.apple.com
-add list=direct address=api-gusc1b.smoot.apple.com
-add list=direct address=api-hkg.smoot.apple.com
-add list=direct address=api-jnb.smoot.apple.com
-add list=direct address=api-lon.smoot.apple.com
-add list=direct address=api-man.smoot.apple.com
-add list=direct address=api-mes.smoot.apple.com
-add list=direct address=api-mia.smoot.apple.com
-add list=direct address=api-msp.smoot.apple.com
-add list=direct address=api-mum.smoot.apple.com
-add list=direct address=api-news-mes.smoot.apple.com
-add list=direct address=api-news-stg.smoot.apple.com
-add list=direct address=api-nyc.smoot.apple.com
-add list=direct address=api-osa.smoot.apple.com
-add list=direct address=api-par.smoot.apple.com
-add list=direct address=api-preaka.smoot.apple.com
-add list=direct address=api-rno.smoot.apple.com
-add list=direct address=api-sel.smoot.apple.com
-add list=direct address=api-stg-usw2b.smoot.apple.com
-add list=direct address=api-sto.smoot.apple.com
-add list=direct address=api-syd.smoot.apple.com
-add list=direct address=api-test-mes.smoot.apple.com
-add list=direct address=api-test-stg.smoot.apple.com
-add list=direct address=api-tjc.smoot.apple.com
-add list=direct address=api-tpe.smoot.apple.com
-add list=direct address=api-tyo.smoot.apple.com
-add list=direct address=api-usw2b.smoot.apple.com
-add list=direct address=api-usw2c.smoot.apple.com
-add list=direct address=battlenet.com.cn
-add list=direct address=benefit.ihuman.com
-add list=direct address=bitpt.cn
-add list=direct address=blizzard.cn
-add list=direct address=blizzardgames.cn
-add list=direct address=blz.nosdn.127.net
-add list=direct address=blzstatic.cn
-add list=direct address=bnet.163.com
-add list=direct address=book.ihuman.com
-add list=direct address=broadcast.ihuman.com
-add list=direct address=byr.pt
-add list=direct address=ccfbits.org
-add list=direct address=cn.actual.battle.net
-add list=direct address=config.ihuman.com
-add list=direct address=di.res.netease.com
-add list=direct address=diablo3.nosdn.127.net
-add list=direct address=dl.steam.clngaa.com
-add list=direct address=dl.steam.ksyna.com
-add list=direct address=dota2.wmsj.cn
-add list=direct address=e16991.b.akamaiedge.net
-add list=direct address=ems.ihuman.com
-add list=direct address=et8.org
-add list=direct address=etl.smoot.apple.com
-add list=direct address=feedback.ihuman.com
-add list=direct address=gate.shizi.ihuman.com
-add list=direct address=gog.qtlglb.com
-add list=direct address=gogalaxy.gog-statics.com
-add list=direct address=gspe1-ssl.ls.apple.comcsgo.wmsj.cn
-add list=direct address=hdchina.org
-add list=direct address=hdhome.org
-add list=direct address=hdsky.me
-add list=direct address=hearthstone.nosdn.127.net
-add list=direct address=heroes.nos.netease.com
-add list=direct address=hudbt.hust.edu.cn
-add list=direct address=ihuman.com
-add list=direct address=import.ihuman.com
-add list=direct address=leagueoflegends.cn
-add list=direct address=legendofzelda.cn
-add list=direct address=legendofzelda.com.cn
-add list=direct address=lemonhd.org
-add list=direct address=log.ihuman.com
-add list=direct address=logapi.ihuman.com
-add list=direct address=lookup-api.apple.com
-add list=direct address=lookup-api.apple.com.edgekey.net
-add list=direct address=lpl.com.cn
-add list=direct address=m-team.cc
-add list=direct address=mariokart.cn
-add list=direct address=mariokart.com.cn
-add list=direct address=math.ihuman.com
-add list=direct address=menu-static.gog-statics.com
-add list=direct address=miitomo.com.cn
-add list=direct address=mp.ihuman.com
-add list=direct address=nanyangpt.com
-add list=direct address=nintendolabo.cn
-add list=direct address=npupt.com
-add list=direct address=ns1.smoot.apple.com
-add list=direct address=ns2.smoot.apple.com
-add list=direct address=open.cd
-add list=direct address=ourbits.club
-add list=direct address=overwatch.nosdn.127.net
-add list=direct address=productcard.gog-statics.com
-add list=direct address=progress.ihuman.com
-add list=direct address=pt.eastgame.org
-add list=direct address=pt.hd4fans.org
-add list=direct address=pt.keepfrds.com
-add list=direct address=pt.nwsuaf6.edu.cn
-add list=direct address=pt.xauat.edu.cn
-add list=direct address=pterclub.com
-add list=direct address=ptsbao.club
-add list=direct address=region.ihuman.com
-add list=direct address=sc2.nosdn.127.net
-add list=direct address=shizi.ihuman.com
-add list=direct address=shizibook.ihuman.com
-add list=direct address=springsunday.net
-add list=direct address=st.dl.bscstorage.net
-add list=direct address=st.dl.eccdnx.com
-add list=direct address=st.dl.pinyuncloud.com
-add list=direct address=static-login.gog-statics.com
-add list=direct address=steamchina.com
-add list=direct address=steampipe.steamcontent.tnkjmec.com
-add list=direct address=steampowered.com.8686c.com
-add list=direct address=steamstatic.com.8686c.com
-add list=direct address=supermariobros.com.cn
-add list=direct address=supersmashbros.cn
-add list=direct address=supersmashbros.com.cn
-add list=direct address=tanma.ihuman.com
-add list=direct address=tjupt.org
-add list=direct address=totheglory.im
-add list=direct address=uplaypc-s-ubisoft.cdn.ubi.com
-add list=direct address=wmsjsteam.com
-add list=direct address=wow.nosdn.127.net
-add list=direct address=wowchina.com
-add list=direct address=www.pthome.net
-add list=direct address=www4-static.gog-statics.com
-add list=direct address=xboxlive.cn
-add list=direct address=xz.pphimalayanrt.com
+/ip dns static
+remove [find type=FWD]
+add forward-to=10.0.0.1 name=0-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=1-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=10-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=11-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=12-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=13-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=14-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=15-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=16-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=17-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=18-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=19-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=2-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=20-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=21-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=22-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=23-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=24-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=25-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=26-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=27-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=28-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=29-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=3-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=30-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=31-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=32-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=33-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=34-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=35-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=36-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=37-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=38-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=39-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=4-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=40-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=41-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=42-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=43-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=44-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=45-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=46-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=47-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=48-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=49-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=5-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=50-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=6-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=7-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=8-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=9-courier.push.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-ams.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-ams.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-ap1.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-ash.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-bos.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-che.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-chi.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-dal.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-drf.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-dub.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-fra.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-hkg.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-jnb.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-lon.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-mia.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-mum.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-nyc.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-osa.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-rno.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-sel.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-sto.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-syd.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-tpe.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any-tyo.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-any.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-ap1.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-apne1c.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-apne1d.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-aps1b.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-apse1c.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-apse2c.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-ash.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-bln.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-bos.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-che.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-chi.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-ci-ausw2c.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-ci-mes.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-ci-stg.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-ci-usw2c.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-concat-mes.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-concat-stg.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-cygni.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-dal.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-debug-mes.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-debug-stg.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-demo-mes.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-demo-stg.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-den.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-drf.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-dub.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-euw1b.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-euw1c.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-euw3b.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-euw3c.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-fra.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-glb-sjcdm1.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-gusc1b.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-hkg.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-jnb.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-lon.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-man.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-mes.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-mia.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-msp.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-mum.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-news-mes.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-news-stg.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-nyc.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-osa.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-par.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-preaka.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-rno.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-sel.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-stg-usw2b.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-sto.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-syd.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-test-mes.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-test-stg.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-tjc.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-tpe.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-tyo.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-usw2b.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=api-usw2c.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=battlenet.com.cn type=FWD
+add forward-to=10.0.0.1 name=benefit.ihuman.com type=FWD
+add forward-to=10.0.0.1 name=bitpt.cn type=FWD
+add forward-to=10.0.0.1 name=blizzard.cn type=FWD
+add forward-to=10.0.0.1 name=blizzardgames.cn type=FWD
+add forward-to=10.0.0.1 name=blz.nosdn.127.net type=FWD
+add forward-to=10.0.0.1 name=blzstatic.cn type=FWD
+add forward-to=10.0.0.1 name=bnet.163.com type=FWD
+add forward-to=10.0.0.1 name=book.ihuman.com type=FWD
+add forward-to=10.0.0.1 name=broadcast.ihuman.com type=FWD
+add forward-to=10.0.0.1 name=byr.pt type=FWD
+add forward-to=10.0.0.1 name=ccfbits.org type=FWD
+add forward-to=10.0.0.1 name=cn.actual.battle.net type=FWD
+add forward-to=10.0.0.1 name=config.ihuman.com type=FWD
+add forward-to=10.0.0.1 name=di.res.netease.com type=FWD
+add forward-to=10.0.0.1 name=diablo3.nosdn.127.net type=FWD
+add forward-to=10.0.0.1 name=dl.steam.clngaa.com type=FWD
+add forward-to=10.0.0.1 name=dl.steam.ksyna.com type=FWD
+add forward-to=10.0.0.1 name=dota2.wmsj.cn type=FWD
+add forward-to=10.0.0.1 name=e16991.b.akamaiedge.net type=FWD
+add forward-to=10.0.0.1 name=ems.ihuman.com type=FWD
+add forward-to=10.0.0.1 name=et8.org type=FWD
+add forward-to=10.0.0.1 name=etl.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=feedback.ihuman.com type=FWD
+add forward-to=10.0.0.1 name=gate.shizi.ihuman.com type=FWD
+add forward-to=10.0.0.1 name=gog.qtlglb.com type=FWD
+add forward-to=10.0.0.1 name=gogalaxy.gog-statics.com type=FWD
+add forward-to=10.0.0.1 name=gspe1-ssl.ls.apple.comcsgo.wmsj.cn type=FWD
+add forward-to=10.0.0.1 name=hdchina.org type=FWD
+add forward-to=10.0.0.1 name=hdhome.org type=FWD
+add forward-to=10.0.0.1 name=hdsky.me type=FWD
+add forward-to=10.0.0.1 name=hearthstone.nosdn.127.net type=FWD
+add forward-to=10.0.0.1 name=heroes.nos.netease.com type=FWD
+add forward-to=10.0.0.1 name=hudbt.hust.edu.cn type=FWD
+add forward-to=10.0.0.1 name=ihuman.com type=FWD
+add forward-to=10.0.0.1 name=import.ihuman.com type=FWD
+add forward-to=10.0.0.1 name=leagueoflegends.cn type=FWD
+add forward-to=10.0.0.1 name=legendofzelda.cn type=FWD
+add forward-to=10.0.0.1 name=legendofzelda.com.cn type=FWD
+add forward-to=10.0.0.1 name=lemonhd.org type=FWD
+add forward-to=10.0.0.1 name=log.ihuman.com type=FWD
+add forward-to=10.0.0.1 name=logapi.ihuman.com type=FWD
+add forward-to=10.0.0.1 name=lookup-api.apple.com type=FWD
+add forward-to=10.0.0.1 name=lookup-api.apple.com.edgekey.net type=FWD
+add forward-to=10.0.0.1 name=lpl.com.cn type=FWD
+add forward-to=10.0.0.1 name=m-team.cc type=FWD
+add forward-to=10.0.0.1 name=mariokart.cn type=FWD
+add forward-to=10.0.0.1 name=mariokart.com.cn type=FWD
+add forward-to=10.0.0.1 name=math.ihuman.com type=FWD
+add forward-to=10.0.0.1 name=menu-static.gog-statics.com type=FWD
+add forward-to=10.0.0.1 name=miitomo.com.cn type=FWD
+add forward-to=10.0.0.1 name=mp.ihuman.com type=FWD
+add forward-to=10.0.0.1 name=nanyangpt.com type=FWD
+add forward-to=10.0.0.1 name=nintendolabo.cn type=FWD
+add forward-to=10.0.0.1 name=npupt.com type=FWD
+add forward-to=10.0.0.1 name=ns1.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=ns2.smoot.apple.com type=FWD
+add forward-to=10.0.0.1 name=open.cd type=FWD
+add forward-to=10.0.0.1 name=ourbits.club type=FWD
+add forward-to=10.0.0.1 name=overwatch.nosdn.127.net type=FWD
+add forward-to=10.0.0.1 name=productcard.gog-statics.com type=FWD
+add forward-to=10.0.0.1 name=progress.ihuman.com type=FWD
+add forward-to=10.0.0.1 name=pt.eastgame.org type=FWD
+add forward-to=10.0.0.1 name=pt.hd4fans.org type=FWD
+add forward-to=10.0.0.1 name=pt.keepfrds.com type=FWD
+add forward-to=10.0.0.1 name=pt.nwsuaf6.edu.cn type=FWD
+add forward-to=10.0.0.1 name=pt.xauat.edu.cn type=FWD
+add forward-to=10.0.0.1 name=pterclub.com type=FWD
+add forward-to=10.0.0.1 name=ptsbao.club type=FWD
+add forward-to=10.0.0.1 name=region.ihuman.com type=FWD
+add forward-to=10.0.0.1 name=sc2.nosdn.127.net type=FWD
+add forward-to=10.0.0.1 name=shizi.ihuman.com type=FWD
+add forward-to=10.0.0.1 name=shizibook.ihuman.com type=FWD
+add forward-to=10.0.0.1 name=springsunday.net type=FWD
+add forward-to=10.0.0.1 name=st.dl.bscstorage.net type=FWD
+add forward-to=10.0.0.1 name=st.dl.eccdnx.com type=FWD
+add forward-to=10.0.0.1 name=st.dl.pinyuncloud.com type=FWD
+add forward-to=10.0.0.1 name=static-login.gog-statics.com type=FWD
+add forward-to=10.0.0.1 name=steamchina.com type=FWD
+add forward-to=10.0.0.1 name=steampipe.steamcontent.tnkjmec.com type=FWD
+add forward-to=10.0.0.1 name=steampowered.com.8686c.com type=FWD
+add forward-to=10.0.0.1 name=steamstatic.com.8686c.com type=FWD
+add forward-to=10.0.0.1 name=supermariobros.com.cn type=FWD
+add forward-to=10.0.0.1 name=supersmashbros.cn type=FWD
+add forward-to=10.0.0.1 name=supersmashbros.com.cn type=FWD
+add forward-to=10.0.0.1 name=tanma.ihuman.com type=FWD
+add forward-to=10.0.0.1 name=tjupt.org type=FWD
+add forward-to=10.0.0.1 name=totheglory.im type=FWD
+add forward-to=10.0.0.1 name=uplaypc-s-ubisoft.cdn.ubi.com type=FWD
+add forward-to=10.0.0.1 name=wmsjsteam.com type=FWD
+add forward-to=10.0.0.1 name=wow.nosdn.127.net type=FWD
+add forward-to=10.0.0.1 name=wowchina.com type=FWD
+add forward-to=10.0.0.1 name=www.pthome.net type=FWD
+add forward-to=10.0.0.1 name=www4-static.gog-statics.com type=FWD
+add forward-to=10.0.0.1 name=xboxlive.cn type=FWD
+add forward-to=10.0.0.1 name=xz.pphimalayanrt.com type=FWD
 /file remove direct.rsc
