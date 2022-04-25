@@ -1,129 +1,57 @@
-/ip dns static
-remove [find type=FWD]
-add forward-to=10.0.0.1 name=103.10.124.0/24 type=FWD
-add forward-to=10.0.0.1 name=103.10.125.0/24 type=FWD
-add forward-to=10.0.0.1 name=103.28.54.0/24 type=FWD
-add forward-to=10.0.0.1 name=146.66.152.0/24 type=FWD
-add forward-to=10.0.0.1 name=146.66.155.0/24 type=FWD
-add forward-to=10.0.0.1 name=153.254.86.0/24 type=FWD
-add forward-to=10.0.0.1 name=155.133.224.0/23 type=FWD
-add forward-to=10.0.0.1 name=155.133.226.0/24 type=FWD
-add forward-to=10.0.0.1 name=155.133.227.0/24 type=FWD
-add forward-to=10.0.0.1 name=155.133.230.0/24 type=FWD
-add forward-to=10.0.0.1 name=155.133.232.0/24 type=FWD
-add forward-to=10.0.0.1 name=155.133.233.0/24 type=FWD
-add forward-to=10.0.0.1 name=155.133.234.0/24 type=FWD
-add forward-to=10.0.0.1 name=155.133.236.0/23 type=FWD
-add forward-to=10.0.0.1 name=155.133.238.0/24 type=FWD
-add forward-to=10.0.0.1 name=155.133.239.0/24 type=FWD
-add forward-to=10.0.0.1 name=155.133.240.0/23 type=FWD
-add forward-to=10.0.0.1 name=155.133.245.0/24 type=FWD
-add forward-to=10.0.0.1 name=155.133.246.0/24 type=FWD
-add forward-to=10.0.0.1 name=155.133.248.0/24 type=FWD
-add forward-to=10.0.0.1 name=155.133.249.0/24 type=FWD
-add forward-to=10.0.0.1 name=155.133.250.0/24 type=FWD
-add forward-to=10.0.0.1 name=155.133.251.0/24 type=FWD
-add forward-to=10.0.0.1 name=155.133.252.0/24 type=FWD
-add forward-to=10.0.0.1 name=155.133.253.0/24 type=FWD
-add forward-to=10.0.0.1 name=155.133.254.0/24 type=FWD
-add forward-to=10.0.0.1 name=155.133.255.0/24 type=FWD
-add forward-to=10.0.0.1 name=162.254.192.0/24 type=FWD
-add forward-to=10.0.0.1 name=162.254.193.0/24 type=FWD
-add forward-to=10.0.0.1 name=162.254.194.0/23 type=FWD
-add forward-to=10.0.0.1 name=162.254.195.0/24 type=FWD
-add forward-to=10.0.0.1 name=162.254.196.0/24 type=FWD
-add forward-to=10.0.0.1 name=162.254.197.0/24 type=FWD
-add forward-to=10.0.0.1 name=162.254.198.0/24 type=FWD
-add forward-to=10.0.0.1 name=162.254.199.0/24 type=FWD
-add forward-to=10.0.0.1 name=17.128.0.0/9 type=FWD
-add forward-to=10.0.0.1 name=17.188.128.0/18 type=FWD
-add forward-to=10.0.0.1 name=17.188.20.0/23 type=FWD
-add forward-to=10.0.0.1 name=17.249.0.0/16 type=FWD
-add forward-to=10.0.0.1 name=17.252.0.0/16 type=FWD
-add forward-to=10.0.0.1 name=17.56.160.0/23 type=FWD
-add forward-to=10.0.0.1 name=17.57.0.0/18 type=FWD
-add forward-to=10.0.0.1 name=17.57.144.0/22 type=FWD
-add forward-to=10.0.0.1 name=185.25.182.0/24 type=FWD
-add forward-to=10.0.0.1 name=185.25.183.0/24 type=FWD
-add forward-to=10.0.0.1 name=190.217.33.0/24 type=FWD
-add forward-to=10.0.0.1 name=192.69.96.0/22 type=FWD
-add forward-to=10.0.0.1 name=205.185.194.0/24 type=FWD
-add forward-to=10.0.0.1 name=205.196.6.0/24 type=FWD
-add forward-to=10.0.0.1 name=208.64.200.0/24 type=FWD
-add forward-to=10.0.0.1 name=208.64.201.0/24 type=FWD
-add forward-to=10.0.0.1 name=208.64.202.0/24 type=FWD
-add forward-to=10.0.0.1 name=208.64.203.0/24 type=FWD
-add forward-to=10.0.0.1 name=23.35.200.0/22 type=FWD
-add forward-to=10.0.0.1 name=battlenet.com.cn type=FWD
-add forward-to=10.0.0.1 name=bitpt.cn type=FWD
-add forward-to=10.0.0.1 name=blizzard.cn type=FWD
-add forward-to=10.0.0.1 name=blizzardgames.cn type=FWD
-add forward-to=10.0.0.1 name=blz.nosdn.127.net type=FWD
-add forward-to=10.0.0.1 name=blzstatic.cn type=FWD
-add forward-to=10.0.0.1 name=bnet.163.com type=FWD
-add forward-to=10.0.0.1 name=byr.pt type=FWD
-add forward-to=10.0.0.1 name=ccfbits.org type=FWD
-add forward-to=10.0.0.1 name=cn.actual.battle.net type=FWD
-add forward-to=10.0.0.1 name=csgo.wmsj.cn type=FWD
-add forward-to=10.0.0.1 name=di.res.netease.com type=FWD
-add forward-to=10.0.0.1 name=diablo3.nosdn.127.net type=FWD
-add forward-to=10.0.0.1 name=dl.steam.clngaa.com type=FWD
-add forward-to=10.0.0.1 name=dl.steam.ksyna.com type=FWD
-add forward-to=10.0.0.1 name=dota2.wmsj.cn type=FWD
-add forward-to=10.0.0.1 name=et8.org type=FWD
-add forward-to=10.0.0.1 name=gog.qtlglb.com type=FWD
-add forward-to=10.0.0.1 name=gogalaxy.gog-statics.com type=FWD
-add forward-to=10.0.0.1 name=hdchina.org type=FWD
-add forward-to=10.0.0.1 name=hdhome.org type=FWD
-add forward-to=10.0.0.1 name=hdsky.me type=FWD
-add forward-to=10.0.0.1 name=hearthstone.nosdn.127.net type=FWD
-add forward-to=10.0.0.1 name=heroes.nos.netease.com type=FWD
-add forward-to=10.0.0.1 name=hudbt.hust.edu.cn type=FWD
-add forward-to=10.0.0.1 name=leagueoflegends.cn type=FWD
-add forward-to=10.0.0.1 name=legendofzelda.cn type=FWD
-add forward-to=10.0.0.1 name=legendofzelda.com.cn type=FWD
-add forward-to=10.0.0.1 name=lemonhd.org type=FWD
-add forward-to=10.0.0.1 name=lpl.com.cn type=FWD
-add forward-to=10.0.0.1 name=m-team.cc type=FWD
-add forward-to=10.0.0.1 name=mariokart.cn type=FWD
-add forward-to=10.0.0.1 name=mariokart.com.cn type=FWD
-add forward-to=10.0.0.1 name=menu-static.gog-statics.com type=FWD
-add forward-to=10.0.0.1 name=miitomo.com.cn type=FWD
-add forward-to=10.0.0.1 name=nanyangpt.com type=FWD
-add forward-to=10.0.0.1 name=nintendolabo.cn type=FWD
-add forward-to=10.0.0.1 name=npupt.com type=FWD
-add forward-to=10.0.0.1 name=open.cd type=FWD
-add forward-to=10.0.0.1 name=ourbits.club type=FWD
-add forward-to=10.0.0.1 name=overwatch.nosdn.127.net type=FWD
-add forward-to=10.0.0.1 name=productcard.gog-statics.com type=FWD
-add forward-to=10.0.0.1 name=pt.eastgame.org type=FWD
-add forward-to=10.0.0.1 name=pt.hd4fans.org type=FWD
-add forward-to=10.0.0.1 name=pt.keepfrds.com type=FWD
-add forward-to=10.0.0.1 name=pt.nwsuaf6.edu.cn type=FWD
-add forward-to=10.0.0.1 name=pt.xauat.edu.cn type=FWD
-add forward-to=10.0.0.1 name=pterclub.com type=FWD
-add forward-to=10.0.0.1 name=ptsbao.club type=FWD
-add forward-to=10.0.0.1 name=sc2.nosdn.127.net type=FWD
-add forward-to=10.0.0.1 name=springsunday.net type=FWD
-add forward-to=10.0.0.1 name=st.dl.bscstorage.net type=FWD
-add forward-to=10.0.0.1 name=st.dl.eccdnx.com type=FWD
-add forward-to=10.0.0.1 name=st.dl.pinyuncloud.com type=FWD
-add forward-to=10.0.0.1 name=static-login.gog-statics.com type=FWD
-add forward-to=10.0.0.1 name=steamchina.com type=FWD
-add forward-to=10.0.0.1 name=steampipe.steamcontent.tnkjmec.com type=FWD
-add forward-to=10.0.0.1 name=steampowered.com.8686c.com type=FWD
-add forward-to=10.0.0.1 name=steamstatic.com.8686c.com type=FWD
-add forward-to=10.0.0.1 name=supermariobros.com.cn type=FWD
-add forward-to=10.0.0.1 name=supersmashbros.cn type=FWD
-add forward-to=10.0.0.1 name=supersmashbros.com.cn type=FWD
-add forward-to=10.0.0.1 name=tjupt.org type=FWD
-add forward-to=10.0.0.1 name=totheglory.im type=FWD
-add forward-to=10.0.0.1 name=uplaypc-s-ubisoft.cdn.ubi.com type=FWD
-add forward-to=10.0.0.1 name=wmsjsteam.com type=FWD
-add forward-to=10.0.0.1 name=wow.nosdn.127.net type=FWD
-add forward-to=10.0.0.1 name=wowchina.com type=FWD
-add forward-to=10.0.0.1 name=www.pthome.net type=FWD
-add forward-to=10.0.0.1 name=www4-static.gog-statics.com type=FWD
-add forward-to=10.0.0.1 name=xboxlive.cn type=FWD
-add forward-to=10.0.0.1 name=xz.pphimalayanrt.com type=FWD
-/file remove direct.rsc
+/ip firewall address-list
+remove [find list=direct]
+add list=direct address=103.10.124.0/24
+add list=direct address=103.10.125.0/24
+add list=direct address=103.28.54.0/24
+add list=direct address=146.66.152.0/24
+add list=direct address=146.66.155.0/24
+add list=direct address=153.254.86.0/24
+add list=direct address=155.133.224.0/23
+add list=direct address=155.133.226.0/24
+add list=direct address=155.133.227.0/24
+add list=direct address=155.133.230.0/24
+add list=direct address=155.133.232.0/24
+add list=direct address=155.133.233.0/24
+add list=direct address=155.133.234.0/24
+add list=direct address=155.133.236.0/23
+add list=direct address=155.133.238.0/24
+add list=direct address=155.133.239.0/24
+add list=direct address=155.133.240.0/23
+add list=direct address=155.133.245.0/24
+add list=direct address=155.133.246.0/24
+add list=direct address=155.133.248.0/24
+add list=direct address=155.133.249.0/24
+add list=direct address=155.133.250.0/24
+add list=direct address=155.133.251.0/24
+add list=direct address=155.133.252.0/24
+add list=direct address=155.133.253.0/24
+add list=direct address=155.133.254.0/24
+add list=direct address=155.133.255.0/24
+add list=direct address=162.254.192.0/24
+add list=direct address=162.254.193.0/24
+add list=direct address=162.254.194.0/23
+add list=direct address=162.254.195.0/24
+add list=direct address=162.254.196.0/24
+add list=direct address=162.254.197.0/24
+add list=direct address=162.254.198.0/24
+add list=direct address=162.254.199.0/24
+add list=direct address=185.25.182.0/24
+add list=direct address=185.25.183.0/24
+add list=direct address=190.217.33.0/24
+add list=direct address=192.69.96.0/22
+add list=direct address=205.185.194.0/24
+add list=direct address=205.196.6.0/24
+add list=direct address=208.64.200.0/24
+add list=direct address=208.64.201.0/24
+add list=direct address=208.64.202.0/24
+add list=direct address=208.64.203.0/24
+add list=direct address=17.57.144.0/22
+add list=direct address=17.188.20.0/23
+add list=direct address=17.188.128.0/18
+add list=direct address=17.249.0.0/16
+add list=direct address=17.252.0.0/16
+add list=direct address=17.128.0.0/9
+add list=direct address=17.56.160.0/23
+add list=direct address=17.57.0.0/18
+add list=direct address=23.35.200.0/22
+/file remove Direct.rsc
