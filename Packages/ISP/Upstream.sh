@@ -21,3 +21,7 @@ wget --no-check-certificate -c -O ./Cache/ISP/Upstream/Clang.CN/othernet.txt htt
 ### Loyalsoldier/geoip
 mkdir -p ./Cache/ISP/Upstream/Loyalsoldier/geoip
 wget --no-check-certificate -c -O ./Cache/ISP/Upstream/Loyalsoldier/geoip/cn.txt https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/cn.txt
+
+### Hackl0us/GeoIP2-CN
+mkdir -p ./Cache/ISP/Upstream/Hackl0us/GeoIP2-CN
+wget --no-check-certificate -c -O ./Cache/ISP/Upstream/Hackl0us/GeoIP2-CN/CN-ip-cidr.txt https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt
