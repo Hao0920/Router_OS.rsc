@@ -1,0 +1,33 @@
+name: Build Proxy.rsc
+on:
+  schedule:
+    - cron: "* 18 * * *"
+#  push:
+#    branches: [ main ]
+#  pull_request:
+#    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  build:
+    name: Build Proxy.rsc
+    runs-on: ubuntu-latest
+    steps:
+      - name: Space Cleanup
+        run: rm -rf ./Releases/Proxy
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Get Upstream Data
+        run:  |
+          chmod +x ./Packages/Proxy/Upstream.sh && ./Packages/Proxy/Upstream.sh
+      - name: Data Processing
+        run:  |
+          chmod +x ./Packages/Proxy/Process.sh && ./Packages/Proxy/Process.sh
+      - name: Build Proxy.rsc
+        run:  |
+          chmod +x ./Packages/Proxy/Build.sh && ./Packages/Proxy/Build.sh
+      - name: Cache Cleanup
+        run: rm -rf ./Cache/Proxy
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
