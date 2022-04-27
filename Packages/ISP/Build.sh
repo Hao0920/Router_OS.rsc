@@ -61,7 +61,7 @@ for address in $(cat ./Cache/ISP/Upstream/Clang.CN/cmcc.txt) ; do
   echo "add list=china_mobile address=$address"
 done
 for address in $(cat ./Cache/ISP/Upstream/Clang.CN/crtc.txt) ; do
-  echo "add list=china_telecom address=$address"
+  echo "add list=china_mobile address=$address"
 done
 for address in $(cat ./Cache/ISP/Upstream/Clang.CN/cernet.txt) ; do
   echo "add list=china_telecom address=$address"
@@ -90,7 +90,7 @@ for address in $(cat ./Cache/ISP/Upstream/Clang.CN/cmcc.txt) ; do
   echo "add list=china_mobile address=$address"
 done
 for address in $(cat ./Cache/ISP/Upstream/Clang.CN/crtc.txt) ; do
-  echo "add list=china_unicom address=$address"
+  echo "add list=china_mobile address=$address"
 done
 for address in $(cat ./Cache/ISP/Upstream/Clang.CN/cernet.txt) ; do
   echo "add list=china_unicom address=$address"
@@ -175,7 +175,7 @@ for address in $(cat ./Cache/ISP/Upstream/Clang.CN/cmcc.txt) ; do
   echo "add list=china_mobile address=$address"
 done
 for address in $(cat ./Cache/ISP/Upstream/Clang.CN/crtc.txt) ; do
-  echo "add list=china_telecom address=$address"
+  echo "add list=china_mobile address=$address"
 done
 for address in $(cat ./Cache/ISP/Upstream/Clang.CN/cernet.txt) ; do
   echo "add list=china_telecom address=$address"
@@ -231,7 +231,7 @@ for address in $(cat ./Cache/ISP/Upstream/Clang.CN/cmcc.txt) ; do
   echo "add list=china_mobile address=$address"
 done
 for address in $(cat ./Cache/ISP/Upstream/Clang.CN/crtc.txt) ; do
-  echo "add list=china_unicom address=$address"
+  echo "add list=china_mobile address=$address"
 done
 for address in $(cat ./Cache/ISP/Upstream/Clang.CN/cernet.txt) ; do
   echo "add list=china_unicom address=$address"
