@@ -11495,6 +11495,7 @@ add name=show.mediav.com type=NXDOMAIN
 add name=show.re.taobao.com type=NXDOMAIN
 add name=shrek.6.cn type=NXDOMAIN
 add name=sifa.taishu.shop type=NXDOMAIN
+add name=sifa.xuexi.wiki type=NXDOMAIN
 add name=simaba.taobao.com type=NXDOMAIN
 add name=simba.6.cn type=NXDOMAIN
 add name=simba.m.taobao.com type=NXDOMAIN
