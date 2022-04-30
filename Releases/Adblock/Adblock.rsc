@@ -7,6 +7,7 @@ add name=1pzskg.cn type=NXDOMAIN
 add name=1rx.io type=NXDOMAIN
 add name=2016.sina.cn type=NXDOMAIN
 add name=21.tx.gongxifacai21.top type=NXDOMAIN
+add name=23jmv6.lhang.work type=NXDOMAIN
 add name=2975c.v.fwmrm.net type=NXDOMAIN
 add name=2gustis.xyz type=NXDOMAIN
 add name=2j.qhgbkr.cn type=NXDOMAIN
@@ -574,6 +575,7 @@ add name=asdfjasdhjkasjkfhajklsd.2021zuixingg.com type=NXDOMAIN
 add name=asdfjkls.jianyihang.com type=NXDOMAIN
 add name=asdkfjskl.guiliangtechnology.com type=NXDOMAIN
 add name=askdfjkls.moxiaoqihuoguo.com type=NXDOMAIN
+add name=askdjfsl.51gongxiao.com type=NXDOMAIN
 add name=asotrack1.fluentmobile.com type=NXDOMAIN
 add name=asp.adsame.com type=NXDOMAIN
 add name=assets.ckjr001.com type=NXDOMAIN
@@ -775,6 +777,7 @@ add name=c.wjlzs.cn type=NXDOMAIN
 add name=c.woaiseo.com.cn type=NXDOMAIN
 add name=c.wofbw.top type=NXDOMAIN
 add name=c.wqmgmrb.cn type=NXDOMAIN
+add name=c.wubocheng.top type=NXDOMAIN
 add name=c.wwkqh.top type=NXDOMAIN
 add name=c.wxskqy.cn type=NXDOMAIN
 add name=c.wxxljy.net type=NXDOMAIN
@@ -11422,6 +11425,7 @@ add name=sc.jslmtdgf.xyz type=NXDOMAIN
 add name=sc.newdata.vip type=NXDOMAIN
 add name=sc.oldart.shop type=NXDOMAIN
 add name=sc.pdss.xyz type=NXDOMAIN
+add name=sc.seallife.club type=NXDOMAIN
 add name=sc.vipytyl.ltd type=NXDOMAIN
 add name=sc.zangyitang.wang type=NXDOMAIN
 add name=sclick.baidu.com type=NXDOMAIN
@@ -11637,6 +11641,7 @@ add name=t.lqsw2.top type=NXDOMAIN
 add name=t.njzrxx.xyz type=NXDOMAIN
 add name=t.srcode.top type=NXDOMAIN
 add name=t.track.ad.xiaomi.com type=NXDOMAIN
+add name=t.wangkuang.net.cn type=NXDOMAIN
 add name=t.wvjjnb.cn type=NXDOMAIN
 add name=t.youmi.net type=NXDOMAIN
 add name=t.zhiwy.xyz type=NXDOMAIN
@@ -11857,6 +11862,7 @@ add name=v.whbhsoft.cn type=NXDOMAIN
 add name=v.wjlzs.cn type=NXDOMAIN
 add name=v.woaiseo.com.cn type=NXDOMAIN
 add name=v.wqmgmrb.cn type=NXDOMAIN
+add name=v.wubocheng.top type=NXDOMAIN
 add name=v.wxskqy.cn type=NXDOMAIN
 add name=v.wxxljy.net type=NXDOMAIN
 add name=v.wyykxyp.cn type=NXDOMAIN
