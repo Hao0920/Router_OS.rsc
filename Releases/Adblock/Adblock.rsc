@@ -335,6 +335,7 @@ add name=adserver.ubiyoo.com type=NXDOMAIN
 add name=adserver.xpanama.net type=NXDOMAIN
 add name=adserver.yahoo.com type=NXDOMAIN
 add name=adservice.google.com type=NXDOMAIN
+add name=adservice.google.com.au type=NXDOMAIN
 add name=adservice.sigmob.cn type=NXDOMAIN
 add name=adserviceretry.kugou.com type=NXDOMAIN
 add name=adsfile.bssdlbig.kugou.com type=NXDOMAIN
@@ -548,7 +549,6 @@ add name=api2.e.kuaishou.com type=NXDOMAIN
 add name=api3.tuisong.baidu.com type=NXDOMAIN
 add name=api8.tuisong.baidu.com type=NXDOMAIN
 add name=apiconfig.adwo.com type=NXDOMAIN
-add name=apid.feikaiwadingguan.com type=NXDOMAIN
 add name=apistat.adbana.com type=NXDOMAIN
 add name=apoll.m.taobao.com type=NXDOMAIN
 add name=app-measurement.com type=NXDOMAIN
@@ -582,9 +582,6 @@ add name=assets.ckjr001.com type=NXDOMAIN
 add name=assets.cntdy.mobi type=NXDOMAIN
 add name=assets.growingio.com type=NXDOMAIN
 add name=astro.awwlrd.cn type=NXDOMAIN
-add name=at-img1.tdimg.com type=NXDOMAIN
-add name=at-img2.tdimg.com type=NXDOMAIN
-add name=at-img3.tdimg.com type=NXDOMAIN
 add name=at.umeng.com type=NXDOMAIN
 add name=at1.qingdou.net type=NXDOMAIN
 add name=atanx.alicdn.com type=NXDOMAIN
@@ -717,6 +714,7 @@ add name=c.gk596.cn type=NXDOMAIN
 add name=c.greystripe.com type=NXDOMAIN
 add name=c.haoanfang.cn type=NXDOMAIN
 add name=c.hjhkpx.cn type=NXDOMAIN
+add name=c.hntk.top type=NXDOMAIN
 add name=c.hnzls8.cn type=NXDOMAIN
 add name=c.hprlkvz.cn type=NXDOMAIN
 add name=c.ibzs5j.cn type=NXDOMAIN
@@ -988,7 +986,6 @@ add name=dcci.adsame.com type=NXDOMAIN
 add name=dd713.bj.bcebos.com type=NXDOMAIN
 add name=ddd.1sapp.com type=NXDOMAIN
 add name=ddgouf.dnfkong.com type=NXDOMAIN
-add name=ddt02.shenghao88.top type=NXDOMAIN
 add name=de.as.cp61.ott.cibntv.net type=NXDOMAIN
 add name=de.as.pptv.com type=NXDOMAIN
 add name=decide.mixpanel.com type=NXDOMAIN
@@ -1094,6 +1091,7 @@ add name=eco.taobao.com type=NXDOMAIN
 add name=edge.reporo.net type=NXDOMAIN
 add name=edgecast-vod.yahoo.net type=NXDOMAIN
 add name=edgecast-vod.yimg.com type=NXDOMAIN
+add name=edu.zhangmingqin.tech type=NXDOMAIN
 add name=ee.0pi84.cn type=NXDOMAIN
 add name=ee.1s8pj.cn type=NXDOMAIN
 add name=ee.2l7ha.cn type=NXDOMAIN
@@ -1237,8 +1235,6 @@ add name=game.weibo.cn type=NXDOMAIN
 add name=game.weibo.com type=NXDOMAIN
 add name=gamecenter.iqiyi.com type=NXDOMAIN
 add name=gamex.mobile.youku.com type=NXDOMAIN
-add name=gaode-acs.m.taobao.com type=NXDOMAIN
-add name=gaode-jmacs.m.taobao.com type=NXDOMAIN
 add name=gas.data.pplive.com type=NXDOMAIN
 add name=gd-stats.jpush.cn type=NXDOMAIN
 add name=gecko-hl.snssdk.com type=NXDOMAIN
@@ -1399,9 +1395,7 @@ add name=img.ads.mobilefuse.net type=NXDOMAIN
 add name=img.ads.taptapnetworks.com type=NXDOMAIN
 add name=img.amp.ad.sina.com.cn type=NXDOMAIN
 add name=img.baidu.qianggou8.top type=NXDOMAIN
-add name=img.srxjz.cn type=NXDOMAIN
 add name=img.taotaosou.cn type=NXDOMAIN
-add name=img.xuwnz.cn type=NXDOMAIN
 add name=img01.taotaosou.cn type=NXDOMAIN
 add name=imglnkc.com type=NXDOMAIN
 add name=imglnkd.com type=NXDOMAIN
@@ -1991,6 +1985,7 @@ add name=p4p.sina.com.cn type=NXDOMAIN
 add name=pagead.googlesyndication.com type=NXDOMAIN
 add name=pagead.l.doubleclick.net type=NXDOMAIN
 add name=pagead1.googlesyndication.com type=NXDOMAIN
+add name=pagead2.googleadservices.com type=NXDOMAIN
 add name=pagead2.googlesyndication.com type=NXDOMAIN
 add name=pagead46.l.doubleclick.net type=NXDOMAIN
 add name=pages-juxiao.mediav.com type=NXDOMAIN
@@ -2103,7 +2098,6 @@ add name=qappcenterv6.3g.qq.com type=NXDOMAIN
 add name=qeujmo.wap.xsbiquge.com type=NXDOMAIN
 add name=qianclick.baidu.com type=NXDOMAIN
 add name=qianlong.adsame.com type=NXDOMAIN
-add name=qlaops3.jndxwl.com type=NXDOMAIN
 add name=qosp.msg.71.am type=NXDOMAIN
 add name=qq.vvx.highter.top type=NXDOMAIN
 add name=qq.zoujuhonglawyer.com type=NXDOMAIN
@@ -11419,6 +11413,7 @@ add name=sc.alwonroad.club type=NXDOMAIN
 add name=sc.dssh.shop type=NXDOMAIN
 add name=sc.eyugz66.xyz type=NXDOMAIN
 add name=sc.fengjiangqwe.xyz type=NXDOMAIN
+add name=sc.gouyb.mobi type=NXDOMAIN
 add name=sc.haape.club type=NXDOMAIN
 add name=sc.hnsyjaeger.site type=NXDOMAIN
 add name=sc.jslmtdgf.xyz type=NXDOMAIN
@@ -11812,6 +11807,7 @@ add name=v.fzjarow.cn type=NXDOMAIN
 add name=v.gk596.cn type=NXDOMAIN
 add name=v.haoanfang.cn type=NXDOMAIN
 add name=v.hjhkpx.cn type=NXDOMAIN
+add name=v.hntk.top type=NXDOMAIN
 add name=v.hnzls8.cn type=NXDOMAIN
 add name=v.hprlkvz.cn type=NXDOMAIN
 add name=v.hrrrzwz.cn type=NXDOMAIN
