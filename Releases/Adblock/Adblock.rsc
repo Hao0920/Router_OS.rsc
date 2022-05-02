@@ -11422,6 +11422,7 @@ add name=sc.oldart.shop type=NXDOMAIN
 add name=sc.pdss.xyz type=NXDOMAIN
 add name=sc.seallife.club type=NXDOMAIN
 add name=sc.vipytyl.ltd type=NXDOMAIN
+add name=sc.wzl04.xyz type=NXDOMAIN
 add name=sc.zangyitang.wang type=NXDOMAIN
 add name=sclick.baidu.com type=NXDOMAIN
 add name=scr1.xianxhwy.com type=NXDOMAIN
