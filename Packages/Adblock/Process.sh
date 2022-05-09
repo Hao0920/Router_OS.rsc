@@ -28,6 +28,7 @@ sed -e 's/127.0.0.1 //' ./Cache/Adblock/Process/jdlingyu/3.txt > ./Cache/Adblock
 
 {
     cat ./Cache/Adblock/Process/NextDNS/metadata.txt
+    cat ./Cache/Adblock/Process/jdlingyu/ad-wars.txt
     cat ./Cache/Adblock/Upstream/Ewpratten/youtube_ad_blocklist.txt
 } > ./Cache/Adblock/Process/1.txt
 sed -e '/livew.l.qq.com/d' ./Cache/Adblock/Process/1.txt > ./Cache/Adblock/Process/2.txt
