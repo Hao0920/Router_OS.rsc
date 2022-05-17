@@ -49,7 +49,7 @@ add list=direct address=208.64.200.0/24
 add list=direct address=208.64.201.0/24
 add list=direct address=208.64.202.0/24
 add list=direct address=208.64.203.0/24
-add list=direct address=208.78.164.0/22uplaypc-s-ubisoft.cdn.ubi.com
+add list=direct address=208.78.164.0/22leagueoflegends.cn
 add list=direct address=api-ams.smoot.apple.com
 add list=direct address=api-any-ams.smoot.apple.com
 add list=direct address=api-any-ap1.smoot.apple.com
@@ -161,7 +161,6 @@ add list=direct address=hdsky.me
 add list=direct address=hearthstone.nosdn.127.net
 add list=direct address=heroes.nos.netease.com
 add list=direct address=hudbt.hust.edu.cn
-add list=direct address=leagueoflegends.cn
 add list=direct address=legendofzelda.cn
 add list=direct address=legendofzelda.com.cn
 add list=direct address=lemonhd.org
@@ -202,6 +201,7 @@ add list=direct address=supersmashbros.cn
 add list=direct address=supersmashbros.com.cn
 add list=direct address=tjupt.org
 add list=direct address=totheglory.im
+add list=direct address=uplaypc-s-ubisoft.cdn.ubi.com
 add list=direct address=wmsjsteam.com
 add list=direct address=wow.nosdn.127.net
 add list=direct address=wowchina.com
