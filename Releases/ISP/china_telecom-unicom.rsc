@@ -4610,6 +4610,7 @@ add list=china_telecom address=103.186.136.0/23
 add list=china_telecom address=103.186.158.0/23
 add list=china_telecom address=103.186.162.0/23
 add list=china_telecom address=103.186.228.0/23
+add list=china_telecom address=103.189.92.0/23
 add list=china_telecom address=103.192.8.0/21
 add list=china_telecom address=103.192.16.0/20
 add list=china_telecom address=103.192.128.0/22
