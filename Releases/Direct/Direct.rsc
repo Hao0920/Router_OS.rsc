@@ -49,7 +49,7 @@ add list=direct address=208.64.200.0/24
 add list=direct address=208.64.201.0/24
 add list=direct address=208.64.202.0/24
 add list=direct address=208.64.203.0/24
-add list=direct address=208.78.164.0/22gog.qtlglb.com
+add list=direct address=208.78.164.0/22blizzard.cn
 add list=direct address=api-ams.smoot.apple.com
 add list=direct address=api-any-ams.smoot.apple.com
 add list=direct address=api-any-ap1.smoot.apple.com
@@ -136,7 +136,6 @@ add list=direct address=api-usw2b.smoot.apple.com
 add list=direct address=api-usw2c.smoot.apple.com
 add list=direct address=battlenet.com.cn
 add list=direct address=bitpt.cn
-add list=direct address=blizzard.cn
 add list=direct address=blizzardgames.cn
 add list=direct address=blz.nosdn.127.net
 add list=direct address=blzstatic.cn
@@ -152,6 +151,7 @@ add list=direct address=dl.steam.ksyna.com
 add list=direct address=dota2.wmsj.cn
 add list=direct address=et8.org
 add list=direct address=etl.smoot.apple.com
+add list=direct address=gog.qtlglb.com
 add list=direct address=gogalaxy.gog-statics.com
 add list=direct address=gspe1-ssl.ls.apple.com103.10.124.0/24
 add list=direct address=hdchina.org
