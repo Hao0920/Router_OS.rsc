@@ -11261,6 +11261,7 @@ add list=othernet address=114.119.192.0/19
 add list=othernet address=114.132.0.0/16
 add list=othernet address=114.141.80.0/21
 add list=othernet address=114.141.128.0/18
+add list=othernet address=114.142.136.0/21
 add list=othernet address=114.196.0.0/15
 add list=othernet address=114.215.0.0/16
 add list=othernet address=115.28.0.0/15
