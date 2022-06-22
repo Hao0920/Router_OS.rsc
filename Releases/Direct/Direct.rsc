@@ -49,7 +49,7 @@ add list=direct address=208.64.200.0/24
 add list=direct address=208.64.201.0/24
 add list=direct address=208.64.202.0/24
 add list=direct address=208.64.203.0/24
-add list=direct address=208.78.164.0/22blizzard.cn
+add list=direct address=208.78.164.0/22uplaypc-s-ubisoft.cdn.ubi.com
 add list=direct address=api-ams.smoot.apple.com
 add list=direct address=api-any-ams.smoot.apple.com
 add list=direct address=api-any-ap1.smoot.apple.com
@@ -136,6 +136,7 @@ add list=direct address=api-usw2b.smoot.apple.com
 add list=direct address=api-usw2c.smoot.apple.com
 add list=direct address=battlenet.com.cn
 add list=direct address=bitpt.cn
+add list=direct address=blizzard.cn
 add list=direct address=blizzardgames.cn
 add list=direct address=blz.nosdn.127.net
 add list=direct address=blzstatic.cn
@@ -201,7 +202,6 @@ add list=direct address=supersmashbros.cn
 add list=direct address=supersmashbros.com.cn
 add list=direct address=tjupt.org
 add list=direct address=totheglory.im
-add list=direct address=uplaypc-s-ubisoft.cdn.ubi.com
 add list=direct address=wmsjsteam.com
 add list=direct address=wow.nosdn.127.net
 add list=direct address=wowchina.com
