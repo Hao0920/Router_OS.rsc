@@ -101,6 +101,7 @@ add name=ad.duapps.com type=NXDOMAIN
 add name=ad.flurry.com type=NXDOMAIN
 add name=ad.funp.com type=NXDOMAIN
 add name=ad.gamebox.360.cn type=NXDOMAIN
+add name=ad.games.dmm.com type=NXDOMAIN
 add name=ad.greedland.net type=NXDOMAIN
 add name=ad.gtbrowser.com type=NXDOMAIN
 add name=ad.hiiir.com type=NXDOMAIN
