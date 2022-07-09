@@ -96,3 +96,6 @@ api-any-syd.smoot.apple.com
 
 # Geo Services
 gspe1-ssl.ls.apple.com
+
+# TestFlight
+testflight.apple.com
