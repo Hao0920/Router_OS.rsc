@@ -16,7 +16,5 @@ sed -e '/regexp:/d' ./Cache/Direct/Process/v2fly/domain-list-community/domain-li
 
 {
     cat ./Cache/Direct/Process/Basic/Basic.txt
-    cat ./Cache/Direct/Process/v2fly/domain-list-community/domain-list-community-6.txt
-    cat ./Cache/Direct/Upstream/v2fly/domain-list-community/category-pt.txt
 } > ./Cache/Direct/Process/Process-1.txt
 sort -u ./Cache/Direct/Process/Process-1.txt > ./Cache/Direct/Process/Process.txt
