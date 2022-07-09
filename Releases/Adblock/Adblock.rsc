@@ -11981,6 +11981,7 @@ add name=ww84.smartadserver.com type=NXDOMAIN
 add name=www-google-analytics.l.google.com type=NXDOMAIN
 add name=www-googletagmanager.l.google.com type=NXDOMAIN
 add name=www.20202020zzzzzz.one type=NXDOMAIN
+add name=www.6767ww1jsm3gzoh0wy.com type=NXDOMAIN
 add name=www.88888888888888886666666666666.com type=NXDOMAIN
 add name=www.8ucdn.com type=NXDOMAIN
 add name=www.abie20.top type=NXDOMAIN
