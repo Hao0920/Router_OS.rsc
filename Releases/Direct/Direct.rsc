@@ -1,5 +1,6 @@
 /ip firewall address-list
 remove [find list=direct]
+add list=direct address=103.10.124.0/24
 add list=direct address=103.10.125.0/24
 add list=direct address=103.28.54.0/24
 add list=direct address=146.66.152.0/24
@@ -154,7 +155,7 @@ add list=direct address=et8.org
 add list=direct address=etl.smoot.apple.com
 add list=direct address=gog.qtlglb.com
 add list=direct address=gogalaxy.gog-statics.com
-add list=direct address=gspe1-ssl.ls.apple.com103.10.124.0/24
+add list=direct address=gspe1-ssl.ls.apple.com
 add list=direct address=hdchina.org
 add list=direct address=hdhome.org
 add list=direct address=hdsky.me
