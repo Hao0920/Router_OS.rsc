@@ -136,7 +136,10 @@ add list=direct address=api-tyo.smoot.apple.com
 add list=direct address=api-usw2b.smoot.apple.com
 add list=direct address=api-usw2c.smoot.apple.com
 add list=direct address=etl.smoot.apple.com
+add list=direct address=gateway.icloud.com
 add list=direct address=gspe1-ssl.ls.apple.com
 add list=direct address=ns1.smoot.apple.com
 add list=direct address=ns2.smoot.apple.com
+add list=direct address=ocsp.sectigo.com
+add list=direct address=testflight.apple.com
 /file remove Direct.rsc
