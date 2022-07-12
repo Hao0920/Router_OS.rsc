@@ -25,4 +25,4 @@ mkdir -p ./Cache/Direct/Process/Basic
 find ./Packages/Direct/Basic/Domains -type f -name "*.txt" | xargs cat > ./Cache/Direct/Process/Basic/Domains-1.txt
 sed -e '/#/d' ./Cache/Direct/Process/Basic/Domains-1.txt > ./Cache/Direct/Process/Basic/Domains-2.txt
 sed -e '/^$/d' ./Cache/Direct/Process/Basic/Domains-2.txt > ./Cache/Direct/Process/Basic/Domains-3.txt
-dig -f ./Cache/Direct/Process/Basic/Domains-3.txt A +noall +answer @114.114.114.114 > ./Cache/Direct/Process/Basic/Domains-4.txt
+dig -f ./Cache/Direct/Process/Basic/Domains-3.txt -4 @114.114.114.114 > ./Cache/Direct/Process/Basic/Domains-4.txt
