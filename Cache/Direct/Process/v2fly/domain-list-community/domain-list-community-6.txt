@@ -1,3 +1,7 @@
+uplaypc-s-ubisoft.cdn.ubi.com
+xboxlive.cn
+leagueoflegends.cn
+lpl.com.cn
 csgo.wmsj.cn
 dota2.wmsj.cn
 wmsjsteam.com
@@ -20,8 +24,6 @@ supersmashbros.com.cn
 mariokart.cn
 mariokart.com.cn
 supermariobros.com.cn
-leagueoflegends.cn
-lpl.com.cn
 gog.qtlglb.com
 gogalaxy.gog-statics.com
 menu-static.gog-statics.com
@@ -44,5 +46,3 @@ wowchina.com
 wow.nosdn.127.net
 blz.nosdn.127.net
 cn.actual.battle.net
-uplaypc-s-ubisoft.cdn.ubi.com
-xboxlive.cn

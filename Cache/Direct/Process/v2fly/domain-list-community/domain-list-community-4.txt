@@ -1,3 +1,7 @@
+uplaypc-s-ubisoft.cdn.ubi.com
+xboxlive.cn
+leagueoflegends.cn
+lpl.com.cn
 csgo.wmsj.cn
 dota2.wmsj.cn
 wmsjsteam.com
@@ -21,10 +25,6 @@ xn--mts47c3w9b1qr.cn # 神奇宝贝.cn
 mariokart.cn
 mariokart.com.cn
 supermariobros.com.cn
-leagueoflegends.cn
-lpl.com.cn
-regexp:^cdn\d-epicgames-\d+\.file\.myqcloud\.com$
-regexp:^epicgames-download\d-\d+\.file\.myqcloud\.com$
 gog.qtlglb.com
 gogalaxy.gog-statics.com
 menu-static.gog-statics.com
@@ -32,6 +32,8 @@ productcard.gog-statics.com
 static-login.gog-statics.com
 www4-static.gog-statics.com
 regexp:^images(-\d)?\.gog-statics\.com$
+regexp:^cdn\d-epicgames-\d+\.file\.myqcloud\.com$
+regexp:^epicgames-download\d-\d+\.file\.myqcloud\.com$
 blizzard.cn
 blizzardgames.cn
 blzstatic.cn
@@ -48,5 +50,3 @@ wowchina.com
 wow.nosdn.127.net
 blz.nosdn.127.net
 cn.actual.battle.net
-uplaypc-s-ubisoft.cdn.ubi.com
-xboxlive.cn
