@@ -36,5 +36,5 @@ sed -e '/^$/d' ./Cache/Direct/Process/Basic/IPv4-2.txt > ./Cache/Direct/Process/
 {
     cat ./Cache/Direct/Process/Basic/Domains.txt
     cat ./Cache/Direct/Process/Basic/IPv4.txt
-} > cat ./Cache/Direct/Process/Basic/Basic-1.txt
+} > ./Cache/Direct/Process/Basic/Basic-1.txt
 sort -u ./Cache/Direct/Process/Basic/Basic-1.txt > ./Cache/Direct/Process/Process.txt
