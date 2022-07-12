@@ -300,3 +300,11 @@ for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet.txt) ; do
 done
 echo "/file remove china_mobile-unicom.rsc"
 } > ./Releases/ISP/china_mobile-unicom.rsc
+{
+echo "/ip firewall address-list"
+echo "remove [find list="china"]"
+for address in $(cat ./Cache/ISP/Process/Loyalsoldier/geoip-ipv6.txt) ; do
+  echo "add list=china address=$address"
+done
+echo "/file remove china.rsc"
+} > ./Releases/ISP/china6.rsc
