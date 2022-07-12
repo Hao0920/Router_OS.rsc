@@ -26,5 +26,5 @@ find ./Packages/Direct/Basic/Domains -type f -name "*.txt" | xargs cat > ./Cache
 sed -e '/#/d' ./Cache/Direct/Process/Basic/Domains-1.txt > ./Cache/Direct/Process/Basic/Domains-2.txt
 sed -e '/^$/d' ./Cache/Direct/Process/Basic/Domains-2.txt > ./Cache/Direct/Process/Basic/Domains-3.txt
 dig -f ./Cache/Direct/Process/Basic/Domains-3.txt +noall +answer @114.114.114.114 +short > ./Cache/Direct/Process/Basic/Domains-114DNS.txt
-egrep "^(?:(?:\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.){3}(?:\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])$" ./Cache/Direct/Process/Basic/Domains-114DNS.txt > ./Cache/Direct/Process/Basic/Domains-10.txt
+grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}' ./Cache/Direct/Process/Basic/Domains-114DNS.txt > ./Cache/Direct/Process/Basic/Domains-10.txt
 sort -u ./Cache/Direct/Process/Basic/Domains-10.txt > ./Cache/Direct/Process/Basic/Domains-ip.txt
