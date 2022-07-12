@@ -57,7 +57,7 @@ edge-ci-ausw2c-pubingress-f8afc1b5a9b1d171.elb.us-west-2.amazonaws.com.
 17.57.40.246
 gspe1-ssl.ls.apple.com.edgekey.net.
 e6987.a.akamaiedge.net.
-23.45.134.246
+23.200.224.253
 testflight.apple.com.edgekey.net.
-e2490.dscf.akamaiedge.net.
+e2490.dscf.akamaiedge.NET.
 104.113.16.194
