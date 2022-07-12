@@ -1,7 +1,3 @@
-full:uplaypc-s-ubisoft.cdn.ubi.com @cn
-xboxlive.cn @cn
-leagueoflegends.cn @cn
-lpl.com.cn @cn
 csgo.wmsj.cn @cn
 dota2.wmsj.cn @cn
 wmsjsteam.com @cn
@@ -25,6 +21,10 @@ xn--mts47c3w9b1qr.cn @cn # 神奇宝贝.cn
 mariokart.cn @cn
 mariokart.com.cn @cn
 supermariobros.com.cn @cn
+leagueoflegends.cn @cn
+lpl.com.cn @cn
+regexp:^cdn\d-epicgames-\d+\.file\.myqcloud\.com$ @cn
+regexp:^epicgames-download\d-\d+\.file\.myqcloud\.com$ @cn
 full:gog.qtlglb.com @cn
 full:gogalaxy.gog-statics.com @cn
 full:menu-static.gog-statics.com @cn
@@ -32,8 +32,6 @@ full:productcard.gog-statics.com @cn
 full:static-login.gog-statics.com @cn
 full:www4-static.gog-statics.com @cn
 regexp:^images(-\d)?\.gog-statics\.com$ @cn
-regexp:^cdn\d-epicgames-\d+\.file\.myqcloud\.com$ @cn
-regexp:^epicgames-download\d-\d+\.file\.myqcloud\.com$ @cn
 blizzard.cn @cn
 blizzardgames.cn @cn
 blzstatic.cn @cn
@@ -50,3 +48,5 @@ wowchina.com @cn
 full:wow.nosdn.127.net @cn
 full:blz.nosdn.127.net @cn
 full:cn.actual.battle.net @cn
+full:uplaypc-s-ubisoft.cdn.ubi.com @cn
+xboxlive.cn @cn
