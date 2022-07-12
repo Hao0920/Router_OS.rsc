@@ -92,6 +92,3 @@ gspe1-ssl.ls.apple.com
 
 # TestFlight
 testflight.apple.com
-
-ocsp.sectigo.com
-gateway.icloud.com
