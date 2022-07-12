@@ -1,11 +1,4 @@
 #### 处理数据 ####
-
-{
-#    cat ./Cache/Direct/Process/Basic/Basic.txt
-}# > ./Cache/Direct/Process/Process-1.txt
-#sort -u ./Cache/Direct/Process/Process-1.txt > ./Cache/Direct/Process/Process.txt
-
-
 ### Basic
 ## Domains
 mkdir -p ./Cache/Direct/Process/Basic
@@ -34,5 +27,3 @@ sed -e '/regexp:/d' ./Cache/Direct/Process/v2fly/domain-list-community/domain-li
     cat ./Cache/Direct/Process/Basic/IPv4.txt
 } > ./Cache/Direct/Process/Basic/Basic-1.txt
 sort -u ./Cache/Direct/Process/Basic/Basic-1.txt > ./Cache/Direct/Process/Process.txt
-
-
