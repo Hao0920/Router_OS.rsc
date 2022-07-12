@@ -6,7 +6,7 @@ find ./Packages/Direct/Basic/Domains -type f -name "*.txt" | xargs cat > ./Cache
 sed -e '/#/d' ./Cache/Direct/Process/Basic/Domains-1.txt > ./Cache/Direct/Process/Basic/Domains-2.txt
 sed -e '/^$/d' ./Cache/Direct/Process/Basic/Domains-2.txt > ./Cache/Direct/Process/Basic/Domains-3.txt
 dig -f ./Cache/Direct/Process/Basic/Domains-3.txt +noall +answer @114.114.114.114 +short > ./Cache/Direct/Process/Basic/Domains-114DNS-1.txt
-grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}' ./Cache/Direct/Process/Basic/Domains-114DNS-2.txt > ./Cache/Direct/Process/Basic/Domains.txt
+grep -o '[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}' ./Cache/Direct/Process/Basic/Domains-114DNS-1.txt > ./Cache/Direct/Process/Basic/Domains.txt
 ## IPv4
 find ./Packages/Direct/Basic/IPv4 -type f -name "*.txt" | xargs cat > ./Cache/Direct/Process/Basic/IPv4-1.txt
 sed -e '/#/d' ./Cache/Direct/Process/Basic/IPv4-1.txt > ./Cache/Direct/Process/Basic/IPv4-2.txt
