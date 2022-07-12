@@ -48,7 +48,6 @@
 208.64.201.0/24
 208.64.202.0/24
 208.64.203.0/24
-208.78.164.0/22
 api-ams.smoot.apple.com
 api-any-ams.smoot.apple.com
 api-any-ap1.smoot.apple.com

@@ -50,7 +50,6 @@ add list=direct address=208.64.200.0/24
 add list=direct address=208.64.201.0/24
 add list=direct address=208.64.202.0/24
 add list=direct address=208.64.203.0/24
-add list=direct address=208.78.164.0/22
 add list=direct address=api-ams.smoot.apple.com
 add list=direct address=api-any-ams.smoot.apple.com
 add list=direct address=api-any-ap1.smoot.apple.com
