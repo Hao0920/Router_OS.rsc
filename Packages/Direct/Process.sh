@@ -21,7 +21,6 @@ sed -e 's/full://' ./Cache/Direct/Process/v2fly/domain-list-community/domain-lis
 sed -e '/#/d' ./Cache/Direct/Process/v2fly/domain-list-community/domain-list-community-4.txt > ./Cache/Direct/Process/v2fly/domain-list-community/domain-list-community-5.txt
 sed -e '/regexp:/d' ./Cache/Direct/Process/v2fly/domain-list-community/domain-list-community-5.txt > ./Cache/Direct/Process/v2fly/domain-list-community/domain-list-community-6.txt
 
-
 {
     cat ./Cache/Direct/Process/Basic/Domains.txt
     cat ./Cache/Direct/Process/Basic/IPv4.txt
