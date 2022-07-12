@@ -1,75 +1,1656 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-apse1c.smoot.apple.com
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10266
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-apse1c.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-apse1c.smoot.apple.com. 30	IN	A	13.251.87.140
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:34 UTC 2022
+;; MSG SIZE  rcvd: 71
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-concat-stg.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31601
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-concat-stg.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-concat-stg.smoot.apple.com.	30 IN	A	17.133.255.246
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:34 UTC 2022
+;; MSG SIZE  rcvd: 75
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-usw2b.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8721
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-usw2b.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-usw2b.smoot.apple.com. 30	IN	A	54.189.10.237
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:34 UTC 2022
+;; MSG SIZE  rcvd: 70
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-ci-mes.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6297
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-ci-mes.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-ci-mes.smoot.apple.com. 30	IN	A	17.57.40.246
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:34 UTC 2022
+;; MSG SIZE  rcvd: 71
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-drf.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 32066
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-drf.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	593	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 55 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:34 UTC 2022
+;; MSG SIZE  rcvd: 139
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-dal.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 37793
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-dal.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	593	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:34 UTC 2022
+;; MSG SIZE  rcvd: 139
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-che.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19047
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-che.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-che.smoot.apple.com. 30	IN	A	17.242.168.246
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:34 UTC 2022
+;; MSG SIZE  rcvd: 68
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-fra.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51114
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-fra.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-fra.smoot.apple.com. 30	IN	A	17.242.57.246
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:34 UTC 2022
+;; MSG SIZE  rcvd: 68
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-glb-sjcdm1.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9128
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-glb-sjcdm1.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-glb-sjcdm1.smoot.apple.com.	30 IN	A	17.253.0.209
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:34 UTC 2022
+;; MSG SIZE  rcvd: 75
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-mia.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 13436
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-mia.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	593	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:34 UTC 2022
+;; MSG SIZE  rcvd: 139
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-ash.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 6097
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-ash.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	593	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:34 UTC 2022
+;; MSG SIZE  rcvd: 143
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-mes.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8039
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-mes.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-mes.smoot.apple.com. 30	IN	A	17.57.40.246
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:34 UTC 2022
+;; MSG SIZE  rcvd: 68
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-dub.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 860
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-dub.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-any-dub.smoot.apple.com. 30	IN	A	17.242.117.246
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:34 UTC 2022
+;; MSG SIZE  rcvd: 72
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-euw3c.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12762
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-euw3c.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-euw3c.smoot.apple.com. 30	IN	A	15.188.167.1
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:34 UTC 2022
+;; MSG SIZE  rcvd: 70
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-osa.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7037
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-osa.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-osa.smoot.apple.com. 30	IN	A	17.242.25.246
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:34 UTC 2022
+;; MSG SIZE  rcvd: 68
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-ams.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55870
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-ams.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-ams.smoot.apple.com. 30	IN	A	17.242.178.246
-ns2.smoot.apple.com.	2364	IN	A	17.253.217.54
-api-tjc.smoot.apple.com. 2364	IN	A	125.35.248.61
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:35 UTC 2022
+;; MSG SIZE  rcvd: 68
+
+; <<>> DiG 9.16.1-Ubuntu <<>> ns2.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40411
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;ns2.smoot.apple.com.		IN	A
+
+;; ANSWER SECTION:
+ns2.smoot.apple.com.	2392	IN	A	17.253.217.54
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:35 UTC 2022
+;; MSG SIZE  rcvd: 64
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-bos.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 14622
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-bos.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	592	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 55 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:35 UTC 2022
+;; MSG SIZE  rcvd: 143
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-chi.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 9663
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-chi.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	592	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:35 UTC 2022
+;; MSG SIZE  rcvd: 139
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-tjc.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11314
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-tjc.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
+api-tjc.smoot.apple.com. 2392	IN	A	125.35.248.61
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:35 UTC 2022
+;; MSG SIZE  rcvd: 68
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-ci-usw2c.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6886
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-ci-usw2c.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-ci-usw2c.smoot.apple.com. 30 IN	A	44.233.77.167
+
+;; Query time: 55 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:35 UTC 2022
+;; MSG SIZE  rcvd: 73
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-usw2c.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32639
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-usw2c.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-usw2c.smoot.apple.com. 30	IN	A	54.184.93.203
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:35 UTC 2022
+;; MSG SIZE  rcvd: 70
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-man.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 61880
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-man.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	592	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 55 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:35 UTC 2022
+;; MSG SIZE  rcvd: 139
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-stg-usw2b.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60043
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-stg-usw2b.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-stg-usw2b.smoot.apple.com. 30 IN	A	44.230.162.25
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:35 UTC 2022
+;; MSG SIZE  rcvd: 74
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-nyc.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 35223
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-nyc.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	592	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:35 UTC 2022
+;; MSG SIZE  rcvd: 139
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-demo-stg.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9068
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-demo-stg.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-demo-stg.smoot.apple.com. 30 IN	A	17.133.255.246
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:35 UTC 2022
+;; MSG SIZE  rcvd: 73
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-fra.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57477
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-fra.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-any-fra.smoot.apple.com. 30	IN	A	17.242.57.246
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:35 UTC 2022
+;; MSG SIZE  rcvd: 72
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-par.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32599
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-par.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-par.smoot.apple.com. 30	IN	A	17.242.89.246
+
+;; Query time: 55 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:35 UTC 2022
+;; MSG SIZE  rcvd: 68
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-demo-mes.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37142
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-demo-mes.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-demo-mes.smoot.apple.com. 30 IN	A	17.57.40.246
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:35 UTC 2022
+;; MSG SIZE  rcvd: 73
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-sel.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53040
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-sel.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-sel.smoot.apple.com. 30	IN	A	17.242.132.246
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:35 UTC 2022
+;; MSG SIZE  rcvd: 68
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-aps1b.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43387
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-aps1b.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-aps1b.smoot.apple.com. 30	IN	A	3.7.12.166
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:35 UTC 2022
+;; MSG SIZE  rcvd: 70
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-lon.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 10594
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-lon.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	593	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:35 UTC 2022
+;; MSG SIZE  rcvd: 139
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-bos.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 30089
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-bos.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	593	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 55 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:36 UTC 2022
+;; MSG SIZE  rcvd: 139
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-euw1b.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60099
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-euw1b.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-euw1b.smoot.apple.com. 30	IN	A	18.203.147.187
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:36 UTC 2022
+;; MSG SIZE  rcvd: 70
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-tpe.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5690
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-tpe.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-tpe.smoot.apple.com. 30	IN	A	17.242.141.246
-ns1.smoot.apple.com.	2364	IN	A	17.253.217.53
+
+;; Query time: 55 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:36 UTC 2022
+;; MSG SIZE  rcvd: 68
+
+; <<>> DiG 9.16.1-Ubuntu <<>> ns1.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26009
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;ns1.smoot.apple.com.		IN	A
+
+;; ANSWER SECTION:
+ns1.smoot.apple.com.	2392	IN	A	17.253.217.53
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:36 UTC 2022
+;; MSG SIZE  rcvd: 64
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-apne1d.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12745
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-apne1d.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-apne1d.smoot.apple.com. 30	IN	A	18.178.58.67
+
+;; Query time: 55 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:36 UTC 2022
+;; MSG SIZE  rcvd: 71
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-euw3b.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41056
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-euw3b.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-euw3b.smoot.apple.com. 30	IN	A	15.236.69.95
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:36 UTC 2022
+;; MSG SIZE  rcvd: 70
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-ams.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34185
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-ams.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-any-ams.smoot.apple.com. 30	IN	A	17.242.178.246
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:36 UTC 2022
+;; MSG SIZE  rcvd: 72
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-ap1.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 18424
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-ap1.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	592	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:36 UTC 2022
+;; MSG SIZE  rcvd: 143
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-gusc1b.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27918
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-gusc1b.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-gusc1b.smoot.apple.com. 30	IN	A	34.122.49.180
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:36 UTC 2022
+;; MSG SIZE  rcvd: 71
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-news-mes.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18799
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-news-mes.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-news-mes.smoot.apple.com. 30 IN	A	17.57.40.246
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:36 UTC 2022
+;; MSG SIZE  rcvd: 73
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-syd.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 65123
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-syd.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	592	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 55 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:36 UTC 2022
+;; MSG SIZE  rcvd: 139
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-mum.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23825
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-mum.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-any-mum.smoot.apple.com. 30	IN	A	17.242.10.246
+
+;; Query time: 55 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:36 UTC 2022
+;; MSG SIZE  rcvd: 72
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-jnb.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53017
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-jnb.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-jnb.smoot.apple.com. 30	IN	A	17.242.157.246
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:36 UTC 2022
+;; MSG SIZE  rcvd: 68
+
+; <<>> DiG 9.16.1-Ubuntu <<>> etl.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11391
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;etl.smoot.apple.com.		IN	A
+
+;; ANSWER SECTION:
 etl.smoot.apple.com.	30	IN	A	17.142.144.30
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:36 UTC 2022
+;; MSG SIZE  rcvd: 64
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-tyo.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 21872
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-tyo.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	592	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:36 UTC 2022
+;; MSG SIZE  rcvd: 139
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-cygni.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 11319
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-cygni.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	592	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:36 UTC 2022
+;; MSG SIZE  rcvd: 141
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34699
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-any.smoot.apple.com. 30	IN	A	17.56.160.246
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:36 UTC 2022
+;; MSG SIZE  rcvd: 68
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-nyc.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 46880
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-nyc.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	592	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:37 UTC 2022
+;; MSG SIZE  rcvd: 143
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-den.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 46443
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-den.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	591	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:37 UTC 2022
+;; MSG SIZE  rcvd: 139
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-lon.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 21923
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-lon.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	591	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:37 UTC 2022
+;; MSG SIZE  rcvd: 143
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-dal.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 64524
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-dal.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	591	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 55 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:37 UTC 2022
+;; MSG SIZE  rcvd: 143
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-ci-stg.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30373
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-ci-stg.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-ci-stg.smoot.apple.com. 30	IN	A	17.133.255.246
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:37 UTC 2022
+;; MSG SIZE  rcvd: 71
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-apse2c.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31473
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-apse2c.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-apse2c.smoot.apple.com. 30	IN	A	52.65.101.65
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:37 UTC 2022
+;; MSG SIZE  rcvd: 71
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-bln.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 27823
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-bln.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	591	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:37 UTC 2022
+;; MSG SIZE  rcvd: 139
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-tpe.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6696
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-tpe.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-any-tpe.smoot.apple.com. 30	IN	A	17.242.141.246
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:37 UTC 2022
+;; MSG SIZE  rcvd: 72
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-dub.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17573
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-dub.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-dub.smoot.apple.com. 30	IN	A	17.242.117.246
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:37 UTC 2022
+;; MSG SIZE  rcvd: 68
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-mum.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49164
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-mum.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-mum.smoot.apple.com. 30	IN	A	17.242.10.246
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:37 UTC 2022
+;; MSG SIZE  rcvd: 68
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-apne1c.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36387
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-apne1c.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-apne1c.smoot.apple.com. 30	IN	A	18.177.73.157
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:37 UTC 2022
+;; MSG SIZE  rcvd: 71
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-ash.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 21242
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-ash.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	591	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:37 UTC 2022
+;; MSG SIZE  rcvd: 139
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-preaka.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57636
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-preaka.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-preaka.smoot.apple.com. 30	IN	A	17.249.9.253
+
+;; Query time: 55 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:37 UTC 2022
+;; MSG SIZE  rcvd: 71
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-sto.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 8232
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-sto.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	591	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:37 UTC 2022
+;; MSG SIZE  rcvd: 139
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-jnb.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25262
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-jnb.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-any-jnb.smoot.apple.com. 30	IN	A	17.242.157.246
+
+;; Query time: 55 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:37 UTC 2022
+;; MSG SIZE  rcvd: 72
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-hkg.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 46477
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-hkg.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	591	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:37 UTC 2022
+;; MSG SIZE  rcvd: 139
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-sto.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 21220
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-sto.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	591	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 55 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:38 UTC 2022
+;; MSG SIZE  rcvd: 143
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-chi.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 49715
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-chi.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	590	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:38 UTC 2022
+;; MSG SIZE  rcvd: 143
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-sel.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34366
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-sel.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-any-sel.smoot.apple.com. 30	IN	A	17.242.132.246
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:38 UTC 2022
+;; MSG SIZE  rcvd: 72
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-rno.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18757
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-rno.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-any-rno.smoot.apple.com. 30	IN	A	17.56.160.246
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:38 UTC 2022
+;; MSG SIZE  rcvd: 72
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-rno.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4064
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-rno.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-rno.smoot.apple.com. 30	IN	A	17.56.160.246
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:38 UTC 2022
+;; MSG SIZE  rcvd: 68
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-che.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16559
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-che.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-any-che.smoot.apple.com. 30	IN	A	17.242.168.246
-api-ci-ausw2c.smoot.apple.com. 2364 IN	CNAME	edge-ci-ausw2c-pubingress-f8afc1b5a9b1d171.elb.us-west-2.amazonaws.com.
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:38 UTC 2022
+;; MSG SIZE  rcvd: 72
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-ci-ausw2c.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29214
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-ci-ausw2c.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
+api-ci-ausw2c.smoot.apple.com. 2391 IN	CNAME	edge-ci-ausw2c-pubingress-f8afc1b5a9b1d171.elb.us-west-2.amazonaws.com.
 edge-ci-ausw2c-pubingress-f8afc1b5a9b1d171.elb.us-west-2.amazonaws.com.	30 IN A	44.237.103.34
+
+;; Query time: 55 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:38 UTC 2022
+;; MSG SIZE  rcvd: 158
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-osa.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43944
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-osa.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-any-osa.smoot.apple.com. 30	IN	A	17.242.25.246
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:38 UTC 2022
+;; MSG SIZE  rcvd: 72
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-debug-mes.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50292
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-debug-mes.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-debug-mes.smoot.apple.com. 30 IN	A	17.57.40.246
+
+;; Query time: 55 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:38 UTC 2022
+;; MSG SIZE  rcvd: 74
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-mia.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 2363
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-mia.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	591	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 67 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:38 UTC 2022
+;; MSG SIZE  rcvd: 143
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-debug-stg.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27866
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-debug-stg.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-debug-stg.smoot.apple.com. 30 IN	A	17.133.255.246
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:38 UTC 2022
+;; MSG SIZE  rcvd: 74
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-concat-mes.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31475
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-concat-mes.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-concat-mes.smoot.apple.com.	30 IN	A	17.57.40.246
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:38 UTC 2022
+;; MSG SIZE  rcvd: 75
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-euw1c.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25809
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-euw1c.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-euw1c.smoot.apple.com. 30	IN	A	3.248.161.8
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:38 UTC 2022
+;; MSG SIZE  rcvd: 70
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-drf.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 27138
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-drf.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	591	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:38 UTC 2022
+;; MSG SIZE  rcvd: 143
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-tyo.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 38579
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-tyo.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	591	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:38 UTC 2022
+;; MSG SIZE  rcvd: 143
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-test-stg.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52306
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-test-stg.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-test-stg.smoot.apple.com. 30 IN	A	17.133.255.246
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:38 UTC 2022
+;; MSG SIZE  rcvd: 73
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-news-stg.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44042
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-news-stg.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-news-stg.smoot.apple.com. 30 IN	A	17.133.255.246
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:39 UTC 2022
+;; MSG SIZE  rcvd: 73
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-msp.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 21448
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-msp.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	590	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:39 UTC 2022
+;; MSG SIZE  rcvd: 139
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-ap1.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 10878
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-ap1.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	590	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 55 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:39 UTC 2022
+;; MSG SIZE  rcvd: 139
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-hkg.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 64928
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-hkg.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	590	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:39 UTC 2022
+;; MSG SIZE  rcvd: 143
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-test-mes.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65305
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-test-mes.smoot.apple.com.	IN	A
+
+;; ANSWER SECTION:
 api-test-mes.smoot.apple.com. 30 IN	A	17.57.40.246
-gspe1-ssl.ls.apple.com.	3572	IN	CNAME	gspe1-ssl.ls.apple.com.edgekey.net.
-gspe1-ssl.ls.apple.com.edgekey.net. 3572 IN CNAME e6987.a.akamaiedge.net.
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:39 UTC 2022
+;; MSG SIZE  rcvd: 73
+
+; <<>> DiG 9.16.1-Ubuntu <<>> api-any-syd.smoot.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 30243
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;api-any-syd.smoot.apple.com.	IN	A
+
+;; AUTHORITY SECTION:
+smoot.apple.com.	590	IN	SOA	usmsc2-extxfr-001.dns.apple.com. hostmaster.apple.com. 2021052755 900 600 2592000 1800
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:39 UTC 2022
+;; MSG SIZE  rcvd: 143
+
+; <<>> DiG 9.16.1-Ubuntu <<>> gspe1-ssl.ls.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32550
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;gspe1-ssl.ls.apple.com.		IN	A
+
+;; ANSWER SECTION:
+gspe1-ssl.ls.apple.com.	1351	IN	CNAME	gspe1-ssl.ls.apple.com.edgekey.net.
+gspe1-ssl.ls.apple.com.edgekey.net. 1866 IN CNAME e6987.a.akamaiedge.net.
 e6987.a.akamaiedge.net.	30	IN	A	23.200.224.253
-testflight.apple.com.	1581	IN	CNAME	testflight.apple.com.edgekey.net.
-testflight.apple.com.edgekey.net. 214 IN CNAME	e2490.dscf.akamaiedge.net.
-e2490.dscf.akamaiedge.net. 30	IN	A	23.221.44.198
-ocsp.sectigo.com.	3205	IN	CNAME	ocsp.comodoca.com.cdn.cloudflare.net.
-ocsp.comodoca.com.cdn.cloudflare.net. 30 IN A	104.18.32.68
-ocsp.comodoca.com.cdn.cloudflare.net. 30 IN A	172.64.155.188
-gateway.icloud.com.	3221	IN	CNAME	gateway.fe.apple-dns.net.
-gateway.fe.apple-dns.net. 34	IN	A	17.248.190.78
-gateway.fe.apple-dns.net. 34	IN	A	17.248.190.76
-gateway.fe.apple-dns.net. 34	IN	A	17.248.190.197
-gateway.fe.apple-dns.net. 34	IN	A	17.248.190.139
-gateway.fe.apple-dns.net. 34	IN	A	17.248.190.141
-gateway.fe.apple-dns.net. 34	IN	A	17.248.190.70
-gateway.fe.apple-dns.net. 34	IN	A	17.248.190.199
-gateway.fe.apple-dns.net. 34	IN	A	17.248.168.71
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:39 UTC 2022
+;; MSG SIZE  rcvd: 151
+
+; <<>> DiG 9.16.1-Ubuntu <<>> testflight.apple.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47703
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;testflight.apple.com.		IN	A
+
+;; ANSWER SECTION:
+testflight.apple.com.	316	IN	CNAME	testflight.apple.com.edgekey.net.
+testflight.apple.com.edgekey.net. 316 IN CNAME	e2490.dscf.akamaiedge.net.
+e2490.dscf.akamaiedge.net. 30	IN	A	104.100.128.132
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:39 UTC 2022
+;; MSG SIZE  rcvd: 150
+
+; <<>> DiG 9.16.1-Ubuntu <<>> ocsp.sectigo.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1042
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;ocsp.sectigo.com.		IN	A
+
+;; ANSWER SECTION:
+ocsp.sectigo.com.	3571	IN	CNAME	ocsp.comodoca.com.cdn.cloudflare.net.
+ocsp.comodoca.com.cdn.cloudflare.net. 66 IN A	172.64.155.188
+ocsp.comodoca.com.cdn.cloudflare.net. 66 IN A	104.18.32.68
+
+;; Query time: 63 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:39 UTC 2022
+;; MSG SIZE  rcvd: 127
+
+; <<>> DiG 9.16.1-Ubuntu <<>> gateway.icloud.com
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 64150
+;; flags: qr rd ra; QUERY: 1, ANSWER: 9, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;gateway.icloud.com.		IN	A
+
+;; ANSWER SECTION:
+gateway.icloud.com.	312	IN	CNAME	gateway.fe.apple-dns.net.
+gateway.fe.apple-dns.net. 42	IN	A	17.248.168.73
+gateway.fe.apple-dns.net. 42	IN	A	17.248.190.200
+gateway.fe.apple-dns.net. 42	IN	A	17.248.190.136
+gateway.fe.apple-dns.net. 42	IN	A	17.248.190.172
+gateway.fe.apple-dns.net. 42	IN	A	17.248.190.176
+gateway.fe.apple-dns.net. 42	IN	A	17.248.190.134
+gateway.fe.apple-dns.net. 42	IN	A	17.248.168.72
+gateway.fe.apple-dns.net. 42	IN	A	17.248.190.103
+
+;; Query time: 59 msec
+;; SERVER: 114.114.114.114#53(114.114.114.114)
+;; WHEN: Tue Jul 12 06:49:39 UTC 2022
+;; MSG SIZE  rcvd: 213
+
