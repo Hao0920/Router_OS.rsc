@@ -89,6 +89,3 @@ api-any-syd.smoot.apple.com
 gspe1-ssl.ls.apple.com
 
 testflight.apple.com
-
-ocsp.sectigo.com
-gateway.icloud.com
