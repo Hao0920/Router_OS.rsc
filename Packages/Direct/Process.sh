@@ -26,12 +26,5 @@ find ./Packages/Direct/Basic/Domains -type f -name "*.txt" | xargs cat > ./Cache
 sed -e '/#/d' ./Cache/Direct/Process/Basic/Domains-1.txt > ./Cache/Direct/Process/Basic/Domains-2.txt
 sed -e '/^$/d' ./Cache/Direct/Process/Basic/Domains-2.txt > ./Cache/Direct/Process/Basic/Domains-3.txt
 dig -f ./Cache/Direct/Process/Basic/Domains-3.txt +noall +answer @114.114.114.114 +short > ./Cache/Direct/Process/Basic/Domains-114DNS.txt
-dig -f ./Cache/Direct/Process/Basic/Domains-3.txt +noall +answer @223.5.5.5 +short > ./Cache/Direct/Process/Basic/Domains-AliDNS.txt
-dig -f ./Cache/Direct/Process/Basic/Domains-3.txt +noall +answer @119.29.29.29 +short > ./Cache/Direct/Process/Basic/Domains-DNSPod.txt
-{
-    cat ./Cache/Direct/Process/Basic/Domains-114DNS.txt
-    cat ./Cache/Direct/Process/Basic/Domains-AliDNS.txt
-    cat ./Cache/Direct/Process/Basic/Domains-DNSPod.txt
-} > ./Cache/Direct/Process/Basic/Domains.txt
-egrep "^(?:(?:\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.){3}(?:\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])$" ./Cache/Direct/Process/Basic/Domains.txt > ./Cache/Direct/Process/Basic/Domains-10.txt
+egrep "^(?:(?:\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.){3}(?:\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])$" ./Cache/Direct/Process/Basic/Domains-114DNS.txt > ./Cache/Direct/Process/Basic/Domains-10.txt
 sort -u ./Cache/Direct/Process/Basic/Domains-10.txt > ./Cache/Direct/Process/Basic/Domains-ip.txt
