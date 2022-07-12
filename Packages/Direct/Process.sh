@@ -18,3 +18,10 @@ sed -e '/regexp:/d' ./Cache/Direct/Process/v2fly/domain-list-community/domain-li
     cat ./Cache/Direct/Process/Basic/Basic.txt
 } > ./Cache/Direct/Process/Process-1.txt
 sort -u ./Cache/Direct/Process/Process-1.txt > ./Cache/Direct/Process/Process.txt
+
+
+### Basic
+mkdir -p ./Cache/Direct/Process/Basic
+find ./Packages/Direct/Basic/Domains -type f -name "*.txt" | xargs cat > ./Cache/Direct/Process/Basic/Domains-1.txt
+sed -e '/#/d' ./Cache/Direct/Process/Basic/Domains-1.txt > ./Cache/Direct/Process/Basic/Domains-2.txt
+sed -e '/^$/d' ./Cache/Direct/Process/Basic/Domains-2.txt > ./Cache/Direct/Process/Basic/Domains-3.txt
