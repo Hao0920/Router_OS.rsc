@@ -25,4 +25,7 @@ mkdir -p ./Cache/Direct/Process/Basic
 find ./Packages/Direct/Basic/Domains -type f -name "*.txt" | xargs cat > ./Cache/Direct/Process/Basic/Domains-1.txt
 sed -e '/#/d' ./Cache/Direct/Process/Basic/Domains-1.txt > ./Cache/Direct/Process/Basic/Domains-2.txt
 sed -e '/^$/d' ./Cache/Direct/Process/Basic/Domains-2.txt > ./Cache/Direct/Process/Basic/Domains-3.txt
-dig -4 +nomapped +nonssearch +notrace +norecurse +noedns +nodnssec +nocookie +noall +nocmd +noquestion +answer +noauthority +noadditional +nocomments +short -f ./Cache/Direct/Process/Basic/Domains-3.txt +noall +answer @114.114.114.114 +short > ./Cache/Direct/Process/Basic/Domains-4.txt
+dig -f ./Cache/Direct/Process/Basic/Domains-3.txt +noall +answer @114.114.114.114 +short > ./Cache/Direct/Process/Basic/Domains-114DNS.txt
+dig -f ./Cache/Direct/Process/Basic/Domains-3.txt +noall +answer @223.5.5.5 +short > ./Cache/Direct/Process/Basic/Domains-AliDNS.txt
+dig -f ./Cache/Direct/Process/Basic/Domains-3.txt +noall +answer @119.29.29.29 +short > ./Cache/Direct/Process/Basic/Domains-DNSPod.txt
+dig -f ./Cache/Direct/Process/Basic/Domains-3.txt +noall +answer @180.76.76.76 +short > ./Cache/Direct/Process/Basic/Domains-Baidu.txt
