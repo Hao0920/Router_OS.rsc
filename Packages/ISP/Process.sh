@@ -12,3 +12,10 @@ find ./Cache/ISP/Upstream/Loyalsoldier/geoip -type f -name "*.txt" | xargs cat >
 sed -e '/^(?:(?:\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.){3}(?:\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])$/d' ./Cache/ISP/Process/Loyalsoldier/ipv6-1.txt > ./Cache/ISP/Process/Loyalsoldier/ipv6-2.txt
 # 删除空格行
 sed -e '/^$/d' ./Cache/ISP/Process/Loyalsoldier/ipv6-2.txt > ./Cache/ISP/Process/Loyalsoldier/geoip-ipv6.txt
+
+### Direct
+{
+    cat ./Cache/Direct/Process/Process.txt
+    cat ./Cache/ISP/Process/Loyalsoldier/geoip-ipv4.txt
+} > ./Cache/ISP/Process/Process-1.txt
+sort -u ./Cache/ISP/Process/Process-1.txt > ./Cache/ISP/Process/Process.txt
