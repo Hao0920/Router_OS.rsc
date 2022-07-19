@@ -1,75 +1,210 @@
-playartifact.com
-s.team
-steam-chat.com
-steamcommunity.com
-steamcontent.com
-steamdeck.com
-steamgames.com
-steampowered.com
-steamstatic.com
-steamusercontent.com
-underlords.com
-valvesoftware.com
+2k.com
+2kcoretech.online
+2kgames.com
+take2games.com
+# Free Steam Games Pre-installed for PC with direct download links.
 
-# 完美
-csgo.wmsj.cn @cn
-dota2.wmsj.cn @cn
-wmsjsteam.com @cn
+steamunlocked.net
+ubi.com
+ubisoft.com
 
-# 金山云
-dl.steam.clngaa.com @cn
-dl.steam.ksyna.com @cn
+# Ubisoft Connect
+ubisoftconnect.com
+uplay.com
+full:ubisoft-uplay-savegames.s3.amazonaws.com
+full:ubisoft-orbit-savegames.s3.amazonaws.com
+full:ubistatic3-a.akamaihd.net
+full:uplaypc-s-ubisoft.cdn.ubi.com @cn
+curseforge.com
+forgecdn.net
+gog.com
+gog-statics.com
 
-# 白山云
-st.dl.bscstorage.net @cn
-st.dl.eccdnx.com @cn
-st.dl.pinyuncloud.com @cn
+full:gog.qtlglb.com @cn
+full:gogalaxy.gog-statics.com @cn
+full:menu-static.gog-statics.com @cn
+full:productcard.gog-statics.com @cn
+full:static-login.gog-statics.com @cn
+full:www4-static.gog-statics.com @cn
+regexp:^cdn-akamai-.+\.gog-services\.com$
+regexp:^images(-\d)?\.gog-statics\.com$ @cn
+historyofdota.com
+historyofdota.net
+historyofdota.org
+instituteofwar.org
+molesports.com
+rgpub.io
+riot-games.com
+riot.com
+riot.net
+riotcdn.net
+riotgames.co.kr
+riotgames.com
+riotgames.info
+riotgames.jp
+riotgames.net
+riotgames.tv
+riotpin.com
+riotpoints.com
+rstatic.net
+supremacy.com
+supremacy.net
 
-# 华为云
-steampipe.steamcontent.tnkjmec.com @cn
 
-# 网宿
-steampowered.com.8686c.com @cn
-steamstatic.com.8686c.com @cn
+# League of Lengends
+championshipseriesleague.com
+lcsmerch.com
+leaguehighschool.com
+leagueoflegends.ca
+leagueoflegends.cn @cn
+leagueoflegends.co.kr
+leagueoflegends.com
+leagueoflegends.info
+leagueoflegends.kr
+leagueoflegends.net
+leagueoflegends.org
+leagueoflegendsscripts.com
+leaguesharp.info
+leaguoflegends.com
+learnwithleague.com
+lol-europe.com
+lolclub.org
+lolespor.com
+lolesports.com
+lolfanart.net
+lolpcs.com
+lolshop.co.kr
+lolstatic.com
+lolusercontent.com
+lpl.com.cn @cn
+pvp.net
+pvp.tv
+ulol.com
 
-# 阿里云
-full:xz.pphimalayanrt.com @cn
+full:lolstatic-a.akamaihd.net
 
-full:steambroadcast.akamaized.net
-full:steamcdn-a.akamaihd.net
-full:steamcommunity-a.akamaihd.net
-full:steamstore-a.akamaihd.net
-full:steamusercontent-a.akamaihd.net
-full:steamuserimages-a.akamaihd.net
-full:steamvideo-a.akamaihd.net
 
-# 蒸汽中国
-steamchina.com @cn
-bitpt.cn
-byr.pt
-ccfbits.org
-et8.org
-hdchina.org
-hdhome.org
-hdsky.me
-hudbt.hust.edu.cn
-lemonhd.org
-m-team.cc
-nanyangpt.com
-npupt.com
-open.cd
-ourbits.club
-pterclub.com
-ptsbao.club
-pt.eastgame.org
-pt.hd4fans.org
-pt.keepfrds.com
-pt.nwsuaf6.edu.cn
-pt.xauat.edu.cn
-springsunday.net
-tjupt.org
-totheglory.im
-www.pthome.net
+# Valorant
+playvalorant.com
+
+
+# Riot Forge
+riotforgegames.com
+ruinedking.com
+convrgencegame.com
+
+include:2kgames
+include:blizzard
+include:curseforge
+include:cygames
+include:ea
+include:epicgames
+include:garena
+include:gog
+include:mihoyo
+include:nintendo
+include:op
+include:playstation
+include:purikonejp
+include:riot
+include:rockstar
+include:steam
+include:steamunlocked
+include:ubisoft
+include:xbox
+
+fanatical.com
+humblebundle.com
+loverslab.com
+planetminecraft.com
+pinkcore.com
+pinkcore.net
+blizzard.cn @cn
+blizzard.com
+blizzardgames.cn @cn
+blizzardgearstore.com
+blz-contentstack.com
+blzstatic.cn @cn
+
+# Battle.Net
+battle.net
+battlenet.com.cn @cn
+bnet.163.com @cn
+full:blizzard.nefficient.co.kr
+full:blzddist1-a.akamaihd.net
+full:blzddistkr1-a.akamaihd.net
+full:bnetcmsus-a.akamaihd.net
+full:bnetproduct-a.akamaihd.net
+full:bnetshopus.akamaized.net
+
+# Diablo
+diablo3.com
+diabloimmortal.com
+full:di.res.netease.com @cn
+full:diablo3.nosdn.127.net @cn
+
+# Hearthstone
+firesidegatherings.com
+playhearthstone.com
+full:hearthstone.nosdn.127.net @cn
+
+# Hero of the Storm
+heroesofthestorm.com
+full:hearthstone.nosdn.127.net @cn
+full:heroes.nos.netease.com @cn
+
+# Overwatch
+playoverwatch.com
+full:overwatch.nosdn.127.net @cn
+
+# Starcraft
+starcraft.com
+starcraft2.com
+full:sc2.nosdn.127.net @cn
+
+# Warcraft
+playwarcraft3.com
+
+# World of Warcraft
+worldofwarcraft.com
+wowchina.com @cn
+full:wow.nosdn.127.net @cn
+
+full:blizzcon-a.akamaihd.net
+full:blz.nosdn.127.net @cn
+full:blzmedia-a.akamaihd.net
+full:blznav.akamaized.net
+full:cn.actual.battle.net @cn
+op.gg
+full:opgg-static.akamaized.net
+include:bethesda
+include:mojang
+
+forzamotorsport.net
+forzaracingchampionship.com
+forzarc.com
+orithegame.com
+renovacionxboxlive.com
+tellmewhygame.com
+xbox.co
+xbox.com
+xbox.eu
+xbox.org
+xbox360.co
+xbox360.com
+xbox360.eu
+xbox360.org
+xboxab.com
+xboxgamepass.com
+xboxgamestudios.com
+xboxlive.cn @cn
+xboxlive.com
+xboxone.co
+xboxone.com
+xboxone.eu
+xboxplayanywhere.com
+xboxstudios.com
+xbx.lv
 100classicbooks.com
 amiibo.com
 ayudanintendo.com
@@ -209,189 +344,6 @@ wiivc.net
 
 # Xenoblade Chronicles
 xenoblade.com
-2k.com
-2kcoretech.online
-2kgames.com
-take2games.com
-# All .playstation domains
-playstation
-
-playstation.com
-playstation.net
-sonyentertainmentnetwork.com
-full:avatargarenanow-a.akamaihd.net
-full:cdngarenanow-a.akamaihd.net
-full:dlgarenanow-a.akamaihd.net
-full:dlmobilegarena-a.akamaihd.net
-garena.co.id
-garena.co.th
-garena.com
-garena.live
-garena.my
-garena.ph
-garena.sg
-garena.tv
-garena.tw
-garena.vn
-garenanow.com
-seagroup.com# Free Steam Games Pre-installed for PC with direct download links.
-
-steamunlocked.net
-cygames.jp
-cygames.co.jp
-worldflipper.jp
-
-worldflipper.akamaized.net
-umamusume.akamaized.net
-historyofdota.com
-historyofdota.net
-historyofdota.org
-instituteofwar.org
-molesports.com
-rgpub.io
-riot-games.com
-riot.com
-riot.net
-riotcdn.net
-riotgames.co.kr
-riotgames.com
-riotgames.info
-riotgames.jp
-riotgames.net
-riotgames.tv
-riotpin.com
-riotpoints.com
-rstatic.net
-supremacy.com
-supremacy.net
-
-
-# League of Lengends
-championshipseriesleague.com
-lcsmerch.com
-leaguehighschool.com
-leagueoflegends.ca
-leagueoflegends.cn @cn
-leagueoflegends.co.kr
-leagueoflegends.com
-leagueoflegends.info
-leagueoflegends.kr
-leagueoflegends.net
-leagueoflegends.org
-leagueoflegendsscripts.com
-leaguesharp.info
-leaguoflegends.com
-learnwithleague.com
-lol-europe.com
-lolclub.org
-lolespor.com
-lolesports.com
-lolfanart.net
-lolpcs.com
-lolshop.co.kr
-lolstatic.com
-lolusercontent.com
-lpl.com.cn @cn
-pvp.net
-pvp.tv
-ulol.com
-
-full:lolstatic-a.akamaihd.net
-
-
-# Valorant
-playvalorant.com
-
-
-# Riot Forge
-riotforgegames.com
-ruinedking.com
-convrgencegame.com
-
-battlebreakers.com
-eac-cdn.com
-easy.ac
-easyanticheat.net
-epicgames.com
-fortnite.com
-paragon.com
-playparagon.com
-roborecall.com
-shadowcomplex.com
-spyjinx.com
-unrealengine.com
-unrealtournament.com
-
-regexp:^cdn\d-epicgames-\d+\.file\.myqcloud\.com$ @cn
-regexp:^epicgames-download\d\.akamaized\.net$
-regexp:^epicgames-download\d-\d+\.file\.myqcloud\.com$ @cn
-gog.com
-gog-statics.com
-
-full:gog.qtlglb.com @cn
-full:gogalaxy.gog-statics.com @cn
-full:menu-static.gog-statics.com @cn
-full:productcard.gog-statics.com @cn
-full:static-login.gog-statics.com @cn
-full:www4-static.gog-statics.com @cn
-regexp:^cdn-akamai-.+\.gog-services\.com$
-regexp:^images(-\d)?\.gog-statics\.com$ @cn
-blizzard.cn @cn
-blizzard.com
-blizzardgames.cn @cn
-blizzardgearstore.com
-blz-contentstack.com
-blzstatic.cn @cn
-
-# Battle.Net
-battle.net
-battlenet.com.cn @cn
-bnet.163.com @cn
-full:blizzard.nefficient.co.kr
-full:blzddist1-a.akamaihd.net
-full:blzddistkr1-a.akamaihd.net
-full:bnetcmsus-a.akamaihd.net
-full:bnetproduct-a.akamaihd.net
-full:bnetshopus.akamaized.net
-
-# Diablo
-diablo3.com
-diabloimmortal.com
-full:di.res.netease.com @cn
-full:diablo3.nosdn.127.net @cn
-
-# Hearthstone
-firesidegatherings.com
-playhearthstone.com
-full:hearthstone.nosdn.127.net @cn
-
-# Hero of the Storm
-heroesofthestorm.com
-full:hearthstone.nosdn.127.net @cn
-full:heroes.nos.netease.com @cn
-
-# Overwatch
-playoverwatch.com
-full:overwatch.nosdn.127.net @cn
-
-# Starcraft
-starcraft.com
-starcraft2.com
-full:sc2.nosdn.127.net @cn
-
-# Warcraft
-playwarcraft3.com
-
-# World of Warcraft
-worldofwarcraft.com
-wowchina.com @cn
-full:wow.nosdn.127.net @cn
-
-full:blizzcon-a.akamaihd.net
-full:blz.nosdn.127.net @cn
-full:blzmedia-a.akamaihd.net
-full:blznav.akamaized.net
-full:cn.actual.battle.net @cn
 include:origin
 
 awayoutgame.com
@@ -611,82 +563,130 @@ xdsummit.com
 
 full:ea.tt.omtrdc.net
 full:eaassets-a.akamaihd.net
-ubi.com
-ubisoft.com
+bitpt.cn
+byr.pt
+ccfbits.org
+et8.org
+hdchina.org
+hdhome.org
+hdsky.me
+hudbt.hust.edu.cn
+lemonhd.org
+m-team.cc
+nanyangpt.com
+npupt.com
+open.cd
+ourbits.club
+pterclub.com
+ptsbao.club
+pt.eastgame.org
+pt.hd4fans.org
+pt.keepfrds.com
+pt.nwsuaf6.edu.cn
+pt.xauat.edu.cn
+springsunday.net
+tjupt.org
+totheglory.im
+www.pthome.net
+api-priconne-redive.cygames.jp
+omotenashi.cygames.jp
+full:prd-priconne-redive.akamaized.net
+battlebreakers.com
+eac-cdn.com
+easy.ac
+easyanticheat.net
+epicgames.com
+fortnite.com
+paragon.com
+playparagon.com
+roborecall.com
+shadowcomplex.com
+spyjinx.com
+unrealengine.com
+unrealtournament.com
 
-# Ubisoft Connect
-ubisoftconnect.com
-uplay.com
-full:ubisoft-uplay-savegames.s3.amazonaws.com
-full:ubisoft-orbit-savegames.s3.amazonaws.com
-full:ubistatic3-a.akamaihd.net
-full:uplaypc-s-ubisoft.cdn.ubi.com @cn
-include:hoyoverse
-include:mihoyo-cn
+regexp:^cdn\d-epicgames-\d+\.file\.myqcloud\.com$ @cn
+regexp:^epicgames-download\d\.akamaized\.net$
+regexp:^epicgames-download\d-\d+\.file\.myqcloud\.com$ @cn
+cygames.jp
+cygames.co.jp
+worldflipper.jp
+
+worldflipper.akamaized.net
+umamusume.akamaized.net
+# All .playstation domains
+playstation
+
+playstation.com
+playstation.net
+sonyentertainmentnetwork.com
+playartifact.com
+s.team
+steam-chat.com
+steamcommunity.com
+steamcontent.com
+steamdeck.com
+steamgames.com
+steampowered.com
+steamstatic.com
+steamusercontent.com
+underlords.com
+valvesoftware.com
+
+# 完美
+csgo.wmsj.cn @cn
+dota2.wmsj.cn @cn
+wmsjsteam.com @cn
+
+# 金山云
+dl.steam.clngaa.com @cn
+dl.steam.ksyna.com @cn
+
+# 白山云
+st.dl.bscstorage.net @cn
+st.dl.eccdnx.com @cn
+st.dl.pinyuncloud.com @cn
+
+# 华为云
+steampipe.steamcontent.tnkjmec.com @cn
+
+# 网宿
+steampowered.com.8686c.com @cn
+steamstatic.com.8686c.com @cn
+
+# 阿里云
+full:xz.pphimalayanrt.com @cn
+
+full:steambroadcast.akamaized.net
+full:steamcdn-a.akamaihd.net
+full:steamcommunity-a.akamaihd.net
+full:steamstore-a.akamaihd.net
+full:steamusercontent-a.akamaihd.net
+full:steamuserimages-a.akamaihd.net
+full:steamvideo-a.akamaihd.net
+
+# 蒸汽中国
+steamchina.com @cn
 rockstargames.com
 rsg.sc
 
 full:gamedownloads-rockstargames-com.akamaized.net
 full:media-rockstargames-com.akamaized.net
 full:videos-rockstargames-com.akamaized.net
-op.gg
-full:opgg-static.akamaized.net
-api-priconne-redive.cygames.jp
-omotenashi.cygames.jp
-full:prd-priconne-redive.akamaized.net
-include:bethesda
-include:mojang
-
-forzamotorsport.net
-forzaracingchampionship.com
-forzarc.com
-orithegame.com
-renovacionxboxlive.com
-tellmewhygame.com
-xbox.co
-xbox.com
-xbox.eu
-xbox.org
-xbox360.co
-xbox360.com
-xbox360.eu
-xbox360.org
-xboxab.com
-xboxgamepass.com
-xboxgamestudios.com
-xboxlive.cn @cn
-xboxlive.com
-xboxone.co
-xboxone.com
-xboxone.eu
-xboxplayanywhere.com
-xboxstudios.com
-xbx.lv
-include:2kgames
-include:blizzard
-include:curseforge
-include:cygames
-include:ea
-include:epicgames
-include:garena
-include:gog
-include:mihoyo
-include:nintendo
-include:op
-include:playstation
-include:purikonejp
-include:riot
-include:rockstar
-include:steam
-include:steamunlocked
-include:ubisoft
-include:xbox
-
-fanatical.com
-humblebundle.com
-loverslab.com
-planetminecraft.com
-pinkcore.com
-pinkcore.net
-curseforge.com
-forgecdn.net
+full:avatargarenanow-a.akamaihd.net
+full:cdngarenanow-a.akamaihd.net
+full:dlgarenanow-a.akamaihd.net
+full:dlmobilegarena-a.akamaihd.net
+garena.co.id
+garena.co.th
+garena.com
+garena.live
+garena.my
+garena.ph
+garena.sg
+garena.tv
+garena.tw
+garena.vn
+garenanow.com
+seagroup.cominclude:hoyoverse
+include:mihoyo-cn
