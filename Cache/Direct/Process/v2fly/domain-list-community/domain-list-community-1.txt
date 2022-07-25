@@ -28,6 +28,7 @@ full:static-login.gog-statics.com @cn
 full:www4-static.gog-statics.com @cn
 regexp:^cdn-akamai-.+\.gog-services\.com$
 regexp:^images(-\d)?\.gog-statics\.com$ @cn
+regexp:^images(-\d)?\.gog-statics\.com$ @cn
 historyofdota.com
 historyofdota.net
 historyofdota.org

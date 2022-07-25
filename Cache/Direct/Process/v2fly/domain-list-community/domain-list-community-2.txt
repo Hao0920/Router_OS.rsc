@@ -6,6 +6,7 @@ full:productcard.gog-statics.com @cn
 full:static-login.gog-statics.com @cn
 full:www4-static.gog-statics.com @cn
 regexp:^images(-\d)?\.gog-statics\.com$ @cn
+regexp:^images(-\d)?\.gog-statics\.com$ @cn
 leagueoflegends.cn @cn
 lpl.com.cn @cn
 blizzard.cn @cn
