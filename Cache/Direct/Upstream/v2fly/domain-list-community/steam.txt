@@ -45,3 +45,4 @@ full:steamvideo-a.akamaihd.net
 
 # 蒸汽中国
 steamchina.com @cn
+china.com @cn
