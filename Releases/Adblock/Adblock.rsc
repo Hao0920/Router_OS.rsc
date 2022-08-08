@@ -392,6 +392,7 @@ add name=advert.lx.netease.com type=NXDOMAIN
 add name=advert.mting.info type=NXDOMAIN
 add name=advertisercommunity.com type=NXDOMAIN
 add name=advertiserscommunity.com type=NXDOMAIN
+add name=advertising.adobe.com type=NXDOMAIN
 add name=advertpay-vip-ssl.xunlei.com type=NXDOMAIN
 add name=advertpay.vip.xunlei.com type=NXDOMAIN
 add name=advertserve.com type=NXDOMAIN
@@ -1815,6 +1816,8 @@ add name=mo.wajsa.com type=NXDOMAIN
 add name=mo.wtsgd.xyz type=NXDOMAIN
 add name=mo.ysny4f.cn type=NXDOMAIN
 add name=mo.yun-pdm2000.cn type=NXDOMAIN
+add name=moat.com type=NXDOMAIN
+add name=moatads.com type=NXDOMAIN
 add name=mob.adwhirl.com type=NXDOMAIN
 add name=mobads-logs.baidu.com type=NXDOMAIN
 add name=mobads.baidu.com type=NXDOMAIN
@@ -11469,6 +11472,7 @@ add name=security.browser.miui.com type=NXDOMAIN
 add name=seordl.cn type=NXDOMAIN
 add name=service.ad.duomi.com type=NXDOMAIN
 add name=service.jiagu.360.cn type=NXDOMAIN
+add name=serving-sys.com type=NXDOMAIN
 add name=sestat.baidu.com type=NXDOMAIN
 add name=settings-sandbox.data.microsoft.com type=NXDOMAIN
 add name=settings-win.data.microsoft.com type=NXDOMAIN
@@ -11736,6 +11740,7 @@ add name=trends.mobile.sina.cn type=NXDOMAIN
 add name=trk1.17admob.com type=NXDOMAIN
 add name=tsis.jpush.cn type=NXDOMAIN
 add name=tsyndicate.com type=NXDOMAIN
+add name=tubemogul.com type=NXDOMAIN
 add name=tuijian.baidu.com type=NXDOMAIN
 add name=tunion-api.m.taobao.com type=NXDOMAIN
 add name=tvupgrade.yunos.com type=NXDOMAIN
