@@ -6445,6 +6445,7 @@ add list=china address=2400:98c0::/32
 add list=china address=2400:9960::/32
 add list=china address=2400:99e0::/32
 add list=china address=2400:9a00::/32
+add list=china address=2400:9ca0::/32
 add list=china address=2400:9e00::/32
 add list=china address=2400:a040::/32
 add list=china address=2400:a380::/32
@@ -6747,7 +6748,6 @@ add list=china address=2402:fc0::/32
 add list=china address=2402:1000::/32
 add list=china address=2402:1440::/32
 add list=china address=2402:14c0::/32
-add list=china address=2402:1540::/32
 add list=china address=2402:1600::/32
 add list=china address=2402:1740::/32
 add list=china address=2402:19c0::/32
