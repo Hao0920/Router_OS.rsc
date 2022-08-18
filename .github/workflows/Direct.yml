@@ -25,8 +25,8 @@ jobs:
       - name: Build Direct.rsc
         run:  |
           chmod +x ./Packages/Direct/Build.sh && ./Packages/Direct/Build.sh
-#      - name: Cache Cleanup
-#        run: rm -rf ./Cache/Direct
+      - name: Cache Cleanup
+        run: rm -rf ./Cache/Direct
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
