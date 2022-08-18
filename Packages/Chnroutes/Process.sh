@@ -9,3 +9,7 @@ sed -e '/#/d' ./Cache/Chnroutes/Upstream/misakaio/chnroutes2/chnroutes.txt > ./C
     cat ./Cache/Chnroutes/Upstream/pexcn/daily/chnroute.txt
 } > ./Cache/Chnroutes/Process/IPv4-1.txt
 sort -u ./Cache/Chnroutes/Process/IPv4-1.txt > ./Cache/Chnroutes/Process/IPv4.txt
+
+## Loyalsoldier/v2ray-rules-dat
+mkdir -p ./Cache/Chnroutes/Process/Loyalsoldier/v2ray-rules-dat
+sed -e 's/.///./' ./Cache/Chnroutes/Upstream/Loyalsoldier/v2ray-rules-dat/gfw.txt > ./Cache/Chnroutes/Process/Loyalsoldier/v2ray-rules-dat/gfw.txt
