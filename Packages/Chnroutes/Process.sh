@@ -12,6 +12,6 @@ sort -u ./Cache/Chnroutes/Process/IPv4-1.txt > ./Cache/Chnroutes/Process/IPv4.tx
 
 ## Loyalsoldier/v2ray-rules-dat
 mkdir -p ./Cache/Chnroutes/Process/Loyalsoldier/v2ray-rules-dat
-sed -e 's/\./\\\\\./' ./Cache/Chnroutes/Upstream/Loyalsoldier/v2ray-rules-dat/gfw.txt > ./Cache/Chnroutes/Process/Loyalsoldier/v2ray-rules-dat/gfw-1.txt
+sed -e 's/\./\\\\\./g' ./Cache/Chnroutes/Upstream/Loyalsoldier/v2ray-rules-dat/gfw.txt > ./Cache/Chnroutes/Process/Loyalsoldier/v2ray-rules-dat/gfw-1.txt
 sed -e 's/^/\"\^\(\.\*\\\\\.\)\?/' ./Cache/Chnroutes/Process/Loyalsoldier/v2ray-rules-dat/gfw-1.txt > ./Cache/Chnroutes/Process/Loyalsoldier/v2ray-rules-dat/gfw-2.txt
 sed -e 's/$/\\\$\"/' ./Cache/Chnroutes/Process/Loyalsoldier/v2ray-rules-dat/gfw-2.txt > ./Cache/Chnroutes/Process/Loyalsoldier/v2ray-rules-dat/gfw.txt
