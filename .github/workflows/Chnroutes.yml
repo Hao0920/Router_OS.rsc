@@ -22,11 +22,11 @@ jobs:
       - name: Data Processing
         run:  |
           chmod +x ./Packages/Chnroutes/Process.sh && ./Packages/Chnroutes/Process.sh
-#      - name: Build Chnroutes.rsc
-#        run:  |
-#          chmod +x ./Packages/Chnroutes/Build.sh && ./Packages/Chnroutes/Build.sh
-#      - name: Cache Cleanup
-#        run: rm -rf ./Cache/Chnroutes
+      - name: Build Chnroutes.rsc
+        run:  |
+          chmod +x ./Packages/Chnroutes/Build.sh && ./Packages/Chnroutes/Build.sh
+      - name: Cache Cleanup
+        run: rm -rf ./Cache/Chnroutes
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
