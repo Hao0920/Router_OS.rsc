@@ -2,7 +2,6 @@
 mkdir -p ./Releases/ISP
 {
 echo "/ip firewall address-list"
-echo "remove [find list="china"]"
 echo "remove [find list="china_telecom"]"
 echo "remove [find list="china_unicom"]"
 echo "remove [find list="china_mobile"]"
@@ -10,9 +9,6 @@ echo "remove [find list="china_tietong"]"
 echo "remove [find list="china_education_and_research_network"]"
 echo "remove [find list="great_wall_broadband_network"]"
 echo "remove [find list="othernet"]"
-for address in $(cat ./Cache/ISP/Process/Loyalsoldier/geoip-ipv4.txt) ; do
-  echo "add list=china address=$address"
-done
 for address in $(cat ./Cache/ISP/Upstream/Clang.CN/chinatelecom.txt) ; do
   echo "add list=china_telecom address=$address"
 done
@@ -36,16 +32,6 @@ for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet.txt) ; do
 done
 echo "/file remove ISP.rsc"
 } > ./Releases/ISP/ISP.rsc
-
-# VPN借线
-{
-echo "/ip firewall address-list"
-echo "remove [find list="china"]"
-for address in $(cat ./Cache/ISP/Process/Loyalsoldier/geoip-ipv4.txt) ; do
-  echo "add list=china address=$address"
-done
-echo "/file remove china.rsc"
-} > ./Releases/ISP/china.rsc
 
 # 电信 + 联通 + 移动
 {
