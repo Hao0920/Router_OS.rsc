@@ -1,0 +1,33 @@
+name: Build Chnroutes.rsc
+on:
+  schedule:
+    - cron: "* 18 * * *"
+#  push:
+#    branches: [ main ]
+#  pull_request:
+#    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  build:
+    name: Build Chnroutes.rsc
+    runs-on: ubuntu-latest
+    steps:
+      - name: Space Cleanup
+        run: rm -rf ./Releases/Chnroutes
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Get Upstream Data
+        run:  |
+          chmod +x ./Packages/Chnroutes/Upstream.sh && ./Packages/Chnroutes/Upstream.sh
+      - name: Data Processing
+        run:  |
+          chmod +x ./Packages/Chnroutes/Process.sh && ./Packages/Chnroutes/Process.sh
+#      - name: Build Chnroutes.rsc
+#        run:  |
+#          chmod +x ./Packages/Chnroutes/Build.sh && ./Packages/Chnroutes/Build.sh
+#      - name: Cache Cleanup
+#        run: rm -rf ./Cache/Chnroutes
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
