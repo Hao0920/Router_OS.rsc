@@ -24,7 +24,7 @@ mkdir -p ./Releases/Chnroutes
     echo ":global gfwdns"
     echo "/ip dns static"
     for regexp in $(cat ./Cache/Chnroutes/Process/Loyalsoldier/v2ray-rules-dat/gfw.txt) ; do
-    echo "add regexp=$regexp type=FWD forward-to=$gfwdns"
+    echo "add regexp=$regexp"
     done
     echo "/ip dns cache flush"
     echo "/file remove GFWFWD.rsc"
