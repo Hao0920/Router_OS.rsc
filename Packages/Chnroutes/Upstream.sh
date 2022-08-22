@@ -15,3 +15,7 @@ wget --no-check-certificate -c -O ./Cache/Chnroutes/Upstream/pexcn/daily/chnrout
 ## Loyalsoldier/v2ray-rules-dat
 mkdir -p ./Cache/Chnroutes/Upstream/Loyalsoldier/v2ray-rules-dat
 wget --no-check-certificate -c -O ./Cache/Chnroutes/Upstream/Loyalsoldier/v2ray-rules-dat/gfw.txt "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt"
+
+## Clang.CN
+mkdir -p ./Cache/Chnroutes/Upstream/Clang.CN
+wget --no-check-certificate -c -O ./Cache/Chnroutes/Upstream/Clang.CN/all_cn_cidr.txt https://ispip.clang.cn/all_cn_cidr.txt
