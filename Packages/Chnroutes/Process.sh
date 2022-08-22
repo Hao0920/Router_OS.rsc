@@ -7,6 +7,7 @@ sed -e '/#/d' ./Cache/Chnroutes/Upstream/misakaio/chnroutes2/chnroutes.txt > ./C
     cat ./Cache/Chnroutes/Upstream/Hackl0us/GeoIP2-CN/CN-ip-cidr.txt
     cat ./Cache/Chnroutes/Process/misakaio/chnroutes2/chnroutes.txt
     cat ./Cache/Chnroutes/Upstream/pexcn/daily/chnroute.txt
+    cat ./Cache/Chnroutes/Upstream/Clang.CN/all_cn_cidr.txt
 } > ./Cache/Chnroutes/Process/IPv4-1.txt
 sort -u ./Cache/Chnroutes/Process/IPv4-1.txt > ./Cache/Chnroutes/Process/IPv4.txt
 
