@@ -34,6 +34,7 @@ add list=china address=2001:df0:bf80::/48
 add list=china address=2001:df0:d880::/48
 add list=china address=2001:df0:f8c0::/48
 add list=china address=2001:df1:c80::/48
+add list=china address=2001:df1:2b40::/48
 add list=china address=2001:df1:4580::/48
 add list=china address=2001:df1:5280::/48
 add list=china address=2001:df1:5b80::/48
