@@ -300,6 +300,7 @@ add list=china address=2400:9a00::/32
 add list=china address=2400:9ca0::/32
 add list=china address=2400:9e00::/32
 add list=china address=2400:a040::/32
+add list=china address=2400:a320::/32
 add list=china address=2400:a380::/32
 add list=china address=2400:a480::/32
 add list=china address=2400:a780::/32
