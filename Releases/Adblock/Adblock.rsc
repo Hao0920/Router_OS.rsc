@@ -376,6 +376,7 @@ add name=adsys.sinovision.net type=NXDOMAIN
 add name=adt.cpatrk.net type=NXDOMAIN
 add name=adtechus.com type=NXDOMAIN
 add name=adtest.adwo.com type=NXDOMAIN
+add name=adtrack.e.kuaishou.com type=NXDOMAIN
 add name=adtrack.ucweb.com type=NXDOMAIN
 add name=adtrue.com type=NXDOMAIN
 add name=adui.tg.meitu.com type=NXDOMAIN
@@ -416,6 +417,7 @@ add name=adx.kuaiyiad.com type=NXDOMAIN
 add name=adx.maplehaze.cn type=NXDOMAIN
 add name=adx.pro.cn type=NXDOMAIN
 add name=adx.rrt365.com type=NXDOMAIN
+add name=adx.sogaha.cn type=NXDOMAIN
 add name=adx.timewit.cn type=NXDOMAIN
 add name=adx.xiaodutv.com type=NXDOMAIN
 add name=adxlog.vivo.com.cn type=NXDOMAIN
@@ -519,6 +521,7 @@ add name=api.fc.mob.com type=NXDOMAIN
 add name=api.fd.mob.com type=NXDOMAIN
 add name=api.game.letvstore.com type=NXDOMAIN
 add name=api.huashuge8.com type=NXDOMAIN
+add name=api.jialiangad.com type=NXDOMAIN
 add name=api.lewen123.net type=NXDOMAIN
 add name=api.lwxs99.com type=NXDOMAIN
 add name=api.mobgi.com type=NXDOMAIN
@@ -542,6 +545,7 @@ add name=api.wapa.taobao.com type=NXDOMAIN
 add name=api.waptest.taobao.com type=NXDOMAIN
 add name=api.wfxll.com type=NXDOMAIN
 add name=api.wsq.umeng.com type=NXDOMAIN
+add name=api.yidaomobi.com type=NXDOMAIN
 add name=api.yidiansurong.com type=NXDOMAIN
 add name=api.youxiaoad.com type=NXDOMAIN
 add name=api.yuedu.iqiyi.com type=NXDOMAIN
@@ -1118,6 +1122,7 @@ add name=em.baidu.com type=NXDOMAIN
 add name=emogi.com type=NXDOMAIN
 add name=emoticon.sns.iqiyi.com type=NXDOMAIN
 add name=ems.cp12.wasu.tv type=NXDOMAIN
+add name=engine.liandaomobi.com type=NXDOMAIN
 add name=engine.lvehaisen.com type=NXDOMAIN
 add name=engine.tuia.cn type=NXDOMAIN
 add name=entry.baidu.com type=NXDOMAIN
@@ -1941,6 +1946,7 @@ add name=onlskdfj.zishahh.com type=NXDOMAIN
 add name=onrt-stsdk.vivo.com.cn type=NXDOMAIN
 add name=onrt.stsdk.vivo.com.cn type=NXDOMAIN
 add name=op.wuygmdi.cn type=NXDOMAIN
+add name=open.e.kuaishou.cn type=NXDOMAIN
 add name=open.e.kuaishou.com type=NXDOMAIN
 add name=openjmacs.m.taobao.com type=NXDOMAIN
 add name=openrcv.baidu.com type=NXDOMAIN
@@ -1981,6 +1987,8 @@ add name=p.medialytics.com type=NXDOMAIN
 add name=p.s.360.cn type=NXDOMAIN
 add name=p.store.qq.com type=NXDOMAIN
 add name=p.tencentmind.com type=NXDOMAIN
+add name=p1-lm.adkwai.com type=NXDOMAIN
+add name=p1.adkwai.com type=NXDOMAIN
 add name=p2.l.qq.com type=NXDOMAIN
 add name=p2sdmkj6t.bkt.clouddn.com type=NXDOMAIN
 add name=p3.adkwai.com type=NXDOMAIN
@@ -11315,6 +11323,7 @@ add name=redirect.simba.taobao.com type=NXDOMAIN
 add name=release.baidu.com type=NXDOMAIN
 add name=report-stats.ad.jiguang.cn type=NXDOMAIN
 add name=report.adview.cn type=NXDOMAIN
+add name=report.yumobi.cn type=NXDOMAIN
 add name=req.appads.com type=NXDOMAIN
 add name=req1.appads.com type=NXDOMAIN
 add name=req2.appads.com type=NXDOMAIN
@@ -11542,6 +11551,7 @@ add name=ssp-event.domob.cn type=NXDOMAIN
 add name=ssp.1nmob.com type=NXDOMAIN
 add name=ssp.api.tappx.com type=NXDOMAIN
 add name=ssp.cibn.starschina.com type=NXDOMAIN
+add name=ssp.indexmob.com type=NXDOMAIN
 add name=ssp.pro.cn type=NXDOMAIN
 add name=ssp.tadseeker.com type=NXDOMAIN
 add name=ssp.youxiaoad.com type=NXDOMAIN
@@ -11719,6 +11729,7 @@ add name=tpc.googlesyndication.com type=NXDOMAIN
 add name=tr.adsame.com type=NXDOMAIN
 add name=track.adwo.com type=NXDOMAIN
 add name=track.adx.adlefee.com type=NXDOMAIN
+add name=track.adxwork.com type=NXDOMAIN
 add name=track.celtra.com type=NXDOMAIN
 add name=track.mediav.com type=NXDOMAIN
 add name=track.sohu.com type=NXDOMAIN
