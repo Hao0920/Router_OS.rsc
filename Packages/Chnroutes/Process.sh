@@ -11,6 +11,12 @@ sed -e '/#/d' ./Cache/Chnroutes/Upstream/misakaio/chnroutes2/chnroutes.txt > ./C
 } > ./Cache/Chnroutes/Process/IPv4-1.txt
 sort -u ./Cache/Chnroutes/Process/IPv4-1.txt > ./Cache/Chnroutes/Process/IPv4.txt
 
+{
+    cat ./Cache/Chnroutes/Upstream/Clang.CN/all_cn_ipv6.txt
+    cat ./Cache/Chnroutes/Upstream/pexcn/daily/chnroute-v6.txt
+} > ./Cache/Chnroutes/Process/IPv6-1.txt
+sort -u ./Cache/Chnroutes/Process/IPv6-1.txt > ./Cache/Chnroutes/Process/IPv6.txt
+
 ## Loyalsoldier/v2ray-rules-dat
 mkdir -p ./Cache/Chnroutes/Process/Loyalsoldier/v2ray-rules-dat
 sed -e 's/\./\\\\\./g' ./Cache/Chnroutes/Upstream/Loyalsoldier/v2ray-rules-dat/gfw.txt > ./Cache/Chnroutes/Process/Loyalsoldier/v2ray-rules-dat/gfw-1.txt
