@@ -1,5 +1,5 @@
 /ip firewall address-list
-remove [/ip firewall address-list find list=china]
+remove [find list=china]
 add list=china address=1.0.1.0/24
 add list=china address=1.0.2.0/23
 add list=china address=1.0.32.0/19
@@ -8436,7 +8436,6 @@ add list=china address=63.140.0.0/24
 add list=china address=66.102.240.0/21
 add list=china address=66.102.248.0/22
 add list=china address=66.102.255.0/24
-add list=china address=67.198.146.0/24
 add list=china address=67.198.148.0/24
 add list=china address=67.198.160.0/23
 add list=china address=67.198.168.0/22
@@ -8455,7 +8454,6 @@ add list=china address=67.198.208.0/24
 add list=china address=67.198.221.0/24
 add list=china address=67.198.235.0/24
 add list=china address=67.198.239.0/24
-add list=china address=67.198.244.0/24
 add list=china address=67.198.255.0/24
 add list=china address=68.79.0.0/18
 add list=china address=69.230.192.0/18

@@ -1,5 +1,5 @@
 /ipv6 firewall address-list
-remove [/ipv6 firewall address-list find list=china]
+remove [find list=china]
 add list=china address=2001:250::/30
 add list=china address=2001:254::/31
 add list=china address=2001:256::/32
