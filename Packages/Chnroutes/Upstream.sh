@@ -19,3 +19,4 @@ wget --no-check-certificate -c -O ./Cache/Chnroutes/Upstream/Loyalsoldier/v2ray-
 ## Clang.CN
 mkdir -p ./Cache/Chnroutes/Upstream/Clang.CN
 wget --no-check-certificate -c -O ./Cache/Chnroutes/Upstream/Clang.CN/all_cn_cidr.txt https://ispip.clang.cn/all_cn_cidr.txt
+wget --no-check-certificate -c -O ./Cache/Chnroutes/Upstream/Clang.CN/all_cn_ipv6.txt https://ispip.clang.cn/all_cn_ipv6.txt
