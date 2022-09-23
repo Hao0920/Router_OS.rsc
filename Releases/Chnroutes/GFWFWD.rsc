@@ -1,3 +1,4 @@
+/file remove GFWFWD.rsc
 /ip dns static remove numbers=[/ip dns static find type=FWD]
 /ip dns
 :global gfwdns
