@@ -1,11 +1,12 @@
 ### 构建 Adblock.rsc ###
 mkdir -p ./Releases/Adblock
 {
-echo "/ip dns static"
-echo "remove [find type=NXDOMAIN]"
-for name in $(cat ./Cache/Adblock/Process/Origin.txt) ; do
+  echo "/ip dns static"
+  echo "remove [find type=NXDOMAIN]"
+  for name in $(cat ./Cache/Adblock/Process/Origin.txt) ; do
   echo "add name=$name type=NXDOMAIN"
-done
-echo "/file remove Adblock.rsc"
-echo "/ip dns cache flush"
+  done
+  echo "/file remove Adblock.rsc"
+  echo "/ip dns cache flush"
+  echo "/file remove Adblock.rsc"
 } > ./Releases/Adblock/Adblock.rsc
