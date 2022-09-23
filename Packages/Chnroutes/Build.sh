@@ -2,7 +2,7 @@
 mkdir -p ./Releases/Chnroutes
 {
     echo "/ip firewall address-list"
-    echo "remove [/ip firewall address-list find list="china"]"
+    echo "remove [find list="china"]"
     for address in $(cat ./Cache/Chnroutes/Process/IPv4.txt) ; do
     echo "add list=china address=$address"
     done
@@ -11,7 +11,7 @@ mkdir -p ./Releases/Chnroutes
 
 {
     echo "/ipv6 firewall address-list"
-    echo "remove [/ipv6 firewall address-list find list="china"]"
+    echo "remove [find list="china"]"
     for address in $(cat ./Cache/Chnroutes/Upstream/pexcn/daily/chnroute-v6.txt) ; do
     echo "add list=china address=$address"
     done
@@ -19,9 +19,8 @@ mkdir -p ./Releases/Chnroutes
 } > ./Releases/Chnroutes/Chnroutes-IPv6.rsc
 
 {
-    echo "/ip dns static remove numbers=[/ip dns static find type=FWD]"
-    echo "/ip dns"
     echo ":global gfwdns"
+    echo "/ip dns static remove numbers=[find forward-to=\$gfwdns]"
     echo "/ip dns static"
     for regexp in $(cat ./Cache/Chnroutes/Process/Loyalsoldier/v2ray-rules-dat/gfw.txt) ; do
     echo "add regexp=$regexp type=FWD forward-to=\$gfwdns"
