@@ -12216,3 +12216,4 @@ add name=zz.bdstatic.com type=NXDOMAIN
 add name=zzy1.quyaoya.com type=NXDOMAIN
 /file remove Adblock.rsc
 /ip dns cache flush
+/file remove Adblock.rsc
