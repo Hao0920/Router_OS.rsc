@@ -8,5 +8,4 @@ mkdir -p ./Releases/Adblock
   done
   echo "/file remove Adblock.rsc"
   echo "/ip dns cache flush"
-  echo "/file remove Adblock.rsc"
 } > ./Releases/Adblock/Adblock.rsc
