@@ -32,7 +32,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet.txt) ; do
   echo "add list=othernet address=$address"
   done
-  echo "/file remove ISP.rsc"
+  echo "/file remove ISP-IPv4.rsc"
 } > ./Releases/ISP/ISP-IPv4.rsc
 
 # 电信 + 联通 + 移动
@@ -62,7 +62,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet.txt) ; do
   echo "add list=china_telecom address=$address"
   done
-  echo "/file remove china_telecom-unicom-mobile.rsc"
+  echo "/file remove china_telecom-unicom-mobile-IPv4.rsc"
 } > ./Releases/ISP/china_telecom-unicom-mobile-IPv4.rsc
 # 联通 + 移动 + 电信
 {
@@ -91,7 +91,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet.txt) ; do
   echo "add list=china_unicom address=$address"
   done
-  echo "/file remove china_unicom-mobile-telecom.rsc"
+  echo "/file remove china_unicom-mobile-telecom-IPv4.rsc"
 } > ./Releases/ISP/china_unicom-mobile-telecom-IPv4.rsc
 # 移动 + 电信 + 联通
 {
@@ -120,7 +120,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet.txt) ; do
   echo "add list=china_mobile address=$address"
   done
-  echo "/file remove china_mobile-telecom-unicom.rsc"
+  echo "/file remove china_mobile-telecom-unicom-IPv4.rsc"
 } > ./Releases/ISP/china_mobile-telecom-unicom-IPv4.rsc
 # 电信 + 联通
 {
@@ -148,7 +148,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet.txt) ; do
   echo "add list=china_telecom address=$address"
   done
-  echo "/file remove china_telecom-unicom.rsc"
+  echo "/file remove china_telecom-unicom-IPv4.rsc"
 } > ./Releases/ISP/china_telecom-unicom-IPv4.rsc
 # 电信 + 移动
 {
@@ -176,7 +176,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet.txt) ; do
   echo "add list=china_telecom address=$address"
   done
-  echo "/file remove china_telecom-mobile.rsc"
+  echo "/file remove china_telecom-mobile-IPv4.rsc"
 } > ./Releases/ISP/china_telecom-mobile-IPv4.rsc
 # 联通 + 电信
 {
@@ -204,7 +204,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet.txt) ; do
   echo "add list=china_unicom address=$address"
   done
-  echo "/file remove china_unicom-telecom.rsc"
+  echo "/file remove china_unicom-telecom-IPv4.rsc"
 } > ./Releases/ISP/china_unicom-telecom-IPv4.rsc
 # 联通 + 移动
 {
@@ -232,7 +232,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet.txt) ; do
   echo "add list=china_unicom address=$address"
   done
-  echo "/file remove china_unicom-mobile.rsc"
+  echo "/file remove china_unicom-mobile-IPv4.rsc"
 } > ./Releases/ISP/china_unicom-mobile-IPv4.rsc
 # 移动 + 电信
 {
@@ -260,7 +260,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet.txt) ; do
   echo "add list=china_mobile address=$address"
   done
-  echo "/file remove china_mobile-telecom.rsc"
+  echo "/file remove china_mobile-telecom-IPv4.rsc"
 } > ./Releases/ISP/china_mobile-telecom-IPv4.rsc
 # 移动 + 联通
 {
@@ -288,7 +288,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet.txt) ; do
   echo "add list=china_mobile address=$address"
   done
-  echo "/file remove china_mobile-unicom.rsc"
+  echo "/file remove china_mobile-unicom-IPv4.rsc"
 } > ./Releases/ISP/china_mobile-unicom-IPv4.rsc
 
 #### IPv6 ####
@@ -325,7 +325,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet_ipv6.txt) ; do
   echo "add list=othernet_ipv6 address=$address"
   done
-  echo "/file remove ISP.rsc"
+  echo "/file remove ISP-IPv6.rsc"
 } > ./Releases/ISP/ISP-IPv6.rsc
 
 # 电信 + 联通 + 移动
@@ -355,7 +355,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet_ipv6.txt) ; do
   echo "add list=china_telecom address=$address"
   done
-  echo "/file remove china_telecom-unicom-mobile.rsc"
+  echo "/file remove china_telecom-unicom-mobile-IPv6.rsc"
 } > ./Releases/ISP/china_telecom-unicom-mobile-IPv6.rsc
 # 联通 + 移动 + 电信
 {
@@ -384,7 +384,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet_ipv6.txt) ; do
   echo "add list=china_unicom address=$address"
   done
-  echo "/file remove china_unicom-mobile-telecom.rsc"
+  echo "/file remove china_unicom-mobile-telecom-IPv6.rsc"
 } > ./Releases/ISP/china_unicom-mobile-telecom-IPv6.rsc
 # 移动 + 电信 + 联通
 {
@@ -413,7 +413,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet_ipv6.txt) ; do
   echo "add list=china_mobile address=$address"
   done
-  echo "/file remove china_mobile-telecom-unicom.rsc"
+  echo "/file remove china_mobile-telecom-unicom-IPv6.rsc"
 } > ./Releases/ISP/china_mobile-telecom-unicom-IPv6.rsc
 # 电信 + 联通
 {
@@ -441,7 +441,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet_ipv6.txt) ; do
   echo "add list=china_telecom address=$address"
   done
-  echo "/file remove china_telecom-unicom.rsc"
+  echo "/file remove china_telecom-unicom-IPv6.rsc"
 } > ./Releases/ISP/china_telecom-unicom-IPv6.rsc
 # 电信 + 移动
 {
@@ -469,7 +469,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet_ipv6.txt) ; do
   echo "add list=china_telecom address=$address"
   done
-  echo "/file remove china_telecom-mobile.rsc"
+  echo "/file remove china_telecom-mobile-IPv6.rsc"
 } > ./Releases/ISP/china_telecom-mobile-IPv6.rsc
 # 联通 + 电信
 {
@@ -497,7 +497,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet_ipv6.txt) ; do
   echo "add list=china_unicom address=$address"
   done
-  echo "/file remove china_unicom-telecom.rsc"
+  echo "/file remove china_unicom-telecom-IPv6.rsc"
 } > ./Releases/ISP/china_unicom-telecom-IPv6.rsc
 # 联通 + 移动
 {
@@ -525,7 +525,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet_ipv6.txt) ; do
   echo "add list=china_unicom address=$address"
   done
-  echo "/file remove china_unicom-mobile.rsc"
+  echo "/file remove china_unicom-mobile-IPv6.rsc"
 } > ./Releases/ISP/china_unicom-mobile-IPv6.rsc
 # 移动 + 电信
 {
@@ -553,7 +553,7 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet_ipv6.txt) ; do
   echo "add list=china_mobile address=$address"
   done
-  echo "/file remove china_mobile-telecom.rsc"
+  echo "/file remove china_mobile-telecom-IPv6.rsc"
 } > ./Releases/ISP/china_mobile-telecom-IPv6.rsc
 # 移动 + 联通
 {
@@ -581,5 +581,5 @@ mkdir -p ./Releases/ISP
   for address in $(cat ./Cache/ISP/Upstream/Clang.CN/othernet_ipv6.txt) ; do
   echo "add list=china_mobile address=$address"
   done
-  echo "/file remove china_mobile-unicom.rsc"
+  echo "/file remove china_mobile-unicom-IPv6.rsc"
 } > ./Releases/ISP/china_mobile-unicom-IPv6.rsc
