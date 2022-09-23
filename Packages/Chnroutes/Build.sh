@@ -12,7 +12,7 @@ mkdir -p ./Releases/Chnroutes
 {
     echo "/ipv6 firewall address-list"
     echo "remove [find list="china"]"
-    for address in $(cat ./Cache/Chnroutes/Upstream/pexcn/daily/chnroute-v6.txt) ; do
+    for address in $(cat ./Cache/Chnroutes/Process/IPv6.txt) ; do
     echo "add list=china address=$address"
     done
     echo "/file remove Chnroutes-IPv6.rsc"
