@@ -1,4 +1,3 @@
-/file remove Chnroutes-IPv4.rsc
 /ip firewall address-list
 remove [/ip firewall address-list find list=china]
 add list=china address=1.0.1.0/24

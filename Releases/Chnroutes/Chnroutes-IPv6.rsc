@@ -1,4 +1,3 @@
-/file remove Chnroutes-IPv6.rsc
 /ipv6 firewall address-list
 remove [/ipv6 firewall address-list find list=china]
 add list=china address=2001:250::/30
