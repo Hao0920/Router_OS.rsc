@@ -1,4 +1,4 @@
-name: Build Chnroutes.rsc
+name: Build Geoip.rsc
 on:
   schedule:
     - cron: "* 18 * * *"
@@ -9,24 +9,24 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    name: Build Chnroutes.rsc
+    name: Build Geoip.rsc
     runs-on: ubuntu-latest
     steps:
       - name: Space Cleanup
-        run: rm -rf ./Releases/Chnroutes
+        run: rm -rf ./Releases/Geoip
       - name: Checkout
         uses: actions/checkout@v2
       - name: Get Upstream Data
         run:  |
-          chmod +x ./Packages/Chnroutes/Upstream.sh && ./Packages/Chnroutes/Upstream.sh
+          chmod +x ./Packages/Geoip/Upstream.sh && ./Packages/Geoip/Upstream.sh
       - name: Data Processing
         run:  |
-          chmod +x ./Packages/Chnroutes/Process.sh && ./Packages/Chnroutes/Process.sh
-      - name: Build Chnroutes.rsc
+          chmod +x ./Packages/Geoip/Process.sh && ./Packages/Geoip/Process.sh
+      - name: Build Geoip.rsc
         run:  |
-          chmod +x ./Packages/Chnroutes/Build.sh && ./Packages/Chnroutes/Build.sh
+          chmod +x ./Packages/Geoip/Build.sh && ./Packages/Geoip/Build.sh
       - name: Cache Cleanup
-        run: rm -rf ./Cache/Chnroutes
+        run: rm -rf ./Cache/Geoip
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
