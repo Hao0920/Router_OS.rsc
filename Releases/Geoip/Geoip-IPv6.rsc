@@ -1974,4 +1974,4 @@ add list=china address=240e::/24
 add list=china address=240f:4000::/24
 add list=china address=240f:8000::/24
 add list=china address=240f:c000::/24
-/file remove Chnroutes-IPv6.rsc
+/file remove Geoip-IPv6.rsc
