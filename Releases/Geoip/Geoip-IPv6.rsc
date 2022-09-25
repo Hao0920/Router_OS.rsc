@@ -3,12 +3,10 @@ remove [find list=china]
 add list=china address=2001:250:2000::/35
 add list=china address=2001:250:4000::/34
 add list=china address=2001:250:8000::/33
-add list=china address=2001:250::/30
 add list=china address=2001:250::/35
 add list=china address=2001:251::/32
 add list=china address=2001:252::/32
 add list=china address=2001:253::/32
-add list=china address=2001:254::/31
 add list=china address=2001:254::/32
 add list=china address=2001:255::/32
 add list=china address=2001:256::/32
@@ -18,7 +16,6 @@ add list=china address=2001:7fa:10::/48
 add list=china address=2001:7fa:5::/48
 add list=china address=2001:c68::/32
 add list=china address=2001:cc0::/32
-add list=china address=2001:da8::/31
 add list=china address=2001:da8::/32
 add list=china address=2001:da9::/32
 add list=china address=2001:daa::/32
@@ -322,7 +319,6 @@ add list=china address=2400:a860::/32
 add list=china address=2400:a8a0::/32
 add list=china address=2400:a8c0::/32
 add list=china address=2400:a900::/32
-add list=china address=2400:a980::/29
 add list=china address=2400:a980::/32
 add list=china address=2400:a981::/32
 add list=china address=2400:a982::/31
@@ -338,7 +334,6 @@ add list=china address=2400:b6c0::/32
 add list=china address=2400:b700::/32
 add list=china address=2400:b9c0::/32
 add list=china address=2400:ba00::/32
-add list=china address=2400:ba40::/31
 add list=china address=2400:ba40::/32
 add list=china address=2400:ba41::/32
 add list=china address=2400:bac0::/32
@@ -1616,7 +1611,6 @@ add list=china address=2406:5f80::/32
 add list=china address=2406:6080::/32
 add list=china address=2406:6100::/32
 add list=china address=2406:6180::/32
-add list=china address=2406:61c0::/29
 add list=china address=2406:61c0::/30
 add list=china address=2406:61c4::/30
 add list=china address=2406:6280::/32
@@ -1741,7 +1735,6 @@ add list=china address=2406:cb80::/32
 add list=china address=2406:cc80::/32
 add list=china address=2406:cd80::/32
 add list=china address=2406:ce80::/32
-add list=china address=2406:cf00::/30
 add list=china address=2406:cf00::/32
 add list=china address=2406:cf01::/32
 add list=china address=2406:cf02::/31
@@ -1942,7 +1935,6 @@ add list=china address=2407:fc80::/32
 add list=china address=2407:fd80::/32
 add list=china address=2408:4000::/22
 add list=china address=2408:6000::/24
-add list=china address=2408:8000::/20
 add list=china address=2408:8000::/22
 add list=china address=2408:8400::/22
 add list=china address=2408:8800::/21
@@ -1969,7 +1961,6 @@ add list=china address=240e:2000::/19
 add list=china address=240e:200::/23
 add list=china address=240e:400::/22
 add list=china address=240e:800::/21
-add list=china address=240e::/18
 add list=china address=240e::/24
 add list=china address=240f:4000::/24
 add list=china address=240f:8000::/24
