@@ -2792,6 +2792,7 @@ add regexp="^(.*\\.)?innermongolia\\.org\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?inoreader\\.com\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?inote\\.tw\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?insecam\\.org\$" type=FWD forward-to=$forward_dns
+add regexp="^(.*\\.)?inside\\.com\\.tw\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?insidevoa\\.com\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?instagram\\.com\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?instanthq\\.com\$" type=FWD forward-to=$forward_dns
@@ -2918,6 +2919,7 @@ add regexp="^(.*\\.)?jfqu37\\.xyz\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?jgoodies\\.com\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?jiangweiping\\.com\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?jiaoyou8\\.com\$" type=FWD forward-to=$forward_dns
+add regexp="^(.*\\.)?jichangtj\\.com\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?jiehua\\.cz\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?jieshibaobao\\.com\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?jigglegifs\\.com\$" type=FWD forward-to=$forward_dns
@@ -3778,6 +3780,7 @@ add regexp="^(.*\\.)?nytstyle\\.com\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?nzchinese\\.com\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?nzchinese\\.net\\.nz\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?oanda\\.com\$" type=FWD forward-to=$forward_dns
+add regexp="^(.*\\.)?oann\\.com\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?observechina\\.net\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?obutu\\.com\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?ocaspro\\.com\$" type=FWD forward-to=$forward_dns
@@ -5454,6 +5457,7 @@ add regexp="^(.*\\.)?venchina\\.com\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?venetianmacao\\.com\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?ventureswell\\.com\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?veoh\\.com\$" type=FWD forward-to=$forward_dns
+add regexp="^(.*\\.)?vercel\\.app\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?vermonttibet\\.org\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?versavpn\\.com\$" type=FWD forward-to=$forward_dns
 add regexp="^(.*\\.)?verybs\\.com\$" type=FWD forward-to=$forward_dns
