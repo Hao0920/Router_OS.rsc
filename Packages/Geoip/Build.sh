@@ -19,6 +19,7 @@ mkdir -p ./Releases/Geoip
 } > ./Releases/Geoip/Geoip-IPv6.rsc
 
 {
+    echo ":global FWDgfw"
     echo "/ip dns static"
     echo "remove numbers=[find forward-to=\$FWDgfw]"
     for regexp in $(cat ./Cache/Geoip/Process/Loyalsoldier/v2ray-rules-dat/gfw.txt) ; do
