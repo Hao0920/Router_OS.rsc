@@ -8,6 +8,7 @@ mkdir -p ./Releases/Scanners
   done
   echo "/file remove Scanners-IPv4.rsc"
 } > ./Releases/Scanners/Scanners-IPv4.rsc
+
 {
   echo "/ipv6 firewall address-list"
   echo "remove [find list="scanners"]"
