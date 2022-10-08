@@ -6,6 +6,6 @@ mkdir -p ./Releases/Adblock
   for name in $(cat ./Cache/Adblock/Process/Origin.txt) ; do
   echo "add name=$name type=NXDOMAIN"
   done
-  echo "/file remove Adblock.rsc"
   echo "/ip dns cache flush"
+  echo "/file remove Adblock.rsc"
 } > ./Releases/Adblock/Adblock.rsc
