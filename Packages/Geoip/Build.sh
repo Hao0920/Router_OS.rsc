@@ -20,9 +20,9 @@ mkdir -p ./Releases/Geoip
 
 {
     echo "/ip dns static"
-    echo "remove numbers=[find forward-to=\$forward_dns]"
+    echo "remove numbers=[find forward-to=\$FWDgfw]"
     for regexp in $(cat ./Cache/Geoip/Process/Loyalsoldier/v2ray-rules-dat/gfw.txt) ; do
-    echo "add regexp=$regexp type=FWD forward-to=\$forward_dns"
+    echo "add regexp=$regexp type=FWD forward-to=\$FWDgfw"
     done
     echo "/ip dns cache flush"
     echo "/file remove Forward_DNS.rsc"
