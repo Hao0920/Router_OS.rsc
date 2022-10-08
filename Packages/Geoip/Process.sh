@@ -8,12 +8,14 @@ sed -e '/#/d' ./Cache/Geoip/Upstream/misakaio/chnroutes2/Geoip.txt > ./Cache/Geo
     cat ./Cache/Geoip/Process/misakaio/chnroutes2/Geoip.txt
     cat ./Cache/Geoip/Upstream/pexcn/daily/chnroute.txt
     cat ./Cache/Geoip/Upstream/Clang.CN/all_cn_cidr.txt
+    cat ./Source/Geoip/Apple Push Notification Service/IPv4.txt
 } > ./Cache/Geoip/Process/IPv4-1.txt
 sort -u ./Cache/Geoip/Process/IPv4-1.txt > ./Cache/Geoip/Process/IPv4.txt
 
 {
     cat ./Cache/Geoip/Upstream/Clang.CN/all_cn_ipv6.txt
     cat ./Cache/Geoip/Upstream/pexcn/daily/chnroute-v6.txt
+    cat ./Source/Geoip/Apple Push Notification Service/IPv6.txt
 } > ./Cache/Geoip/Process/IPv6-1.txt
 sort -u ./Cache/Geoip/Process/IPv6-1.txt > ./Cache/Geoip/Process/IPv6.txt
 
