@@ -1,4 +1,3 @@
-:global forward_dns
 /ip dns static
 remove numbers=[find forward-to=$forward_dns]
 add regexp="^(.*\\.)?000webhost\\.com\$" type=FWD forward-to=$forward_dns
