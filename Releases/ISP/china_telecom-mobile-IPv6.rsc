@@ -265,6 +265,7 @@ add list=china_telecom address=2001:df1:2b40::/48
 add list=china_telecom address=2001:df1:4580::/48
 add list=china_telecom address=2001:df1:5280::/48
 add list=china_telecom address=2001:df1:5b80::/48
+add list=china_telecom address=2001:df1:5fc0::/48
 add list=china_telecom address=2001:df1:6180::/48
 add list=china_telecom address=2001:df1:6b80::/48
 add list=china_telecom address=2001:df1:8b00::/48
