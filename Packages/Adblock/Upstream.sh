@@ -22,9 +22,9 @@ wget --no-check-certificate -c -O ./Cache/Adblock/Upstream/NextDNS/metadata/xiao
 mkdir -p ./Cache/Adblock/Upstream/ilpl/ad-hosts
 wget --no-check-certificate -c -O ./Cache/Adblock/Upstream/ilpl/ad-hosts/hosts.txt "https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts"
 
-### Loyalsoldier/domain-list-custom
-mkdir -p ./Cache/Adblock/Upstream/Loyalsoldier/domain-list-custom
-wget --no-check-certificate -c -O ./Cache/Adblock/Upstream/Loyalsoldier/domain-list-custom/category-ads-all.txt "https://raw.githubusercontent.com/Loyalsoldier/domain-list-custom/release/category-ads-all.txt"
+### Loyalsoldier/v2ray-rules-dat
+mkdir -p ./Cache/Adblock/Upstream/Loyalsoldier/v2ray-rules-dat
+wget --no-check-certificate -c -O ./Cache/Adblock/Upstream/Loyalsoldier/v2ray-rules-dat/reject-list.txt "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt"
 
 ### jdlingyu/ad-wars
 mkdir -p ./Cache/Adblock/Upstream/jdlingyu/ad-wars
