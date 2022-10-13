@@ -33,6 +33,8 @@ add list=scanners address=2408:824e:7e00:7f6f:64cd:a49b:8570:c969
 add list=scanners address=2408:824e:7e00:81d9:64cd:a49b:8570:c969
 add list=scanners address=2408:824e:7e00:82c1:f08e:c14c:8ecc:ec7f
 add list=scanners address=2408:824e:7e00:84db:f08e:c14c:8ecc:ec7f
+add list=scanners address=2408:824e:7e00:85fb:64cd:a49b:8570:c969
+add list=scanners address=2408:824e:7e00:86c2:f08e:c14c:8ecc:ec7f
 add list=scanners address=2408:824e:7e00:894e:f08e:c14c:8ecc:ec7f
 add list=scanners address=2408:824e:7e00:96aa:64cd:a49b:8570:c969
 add list=scanners address=2408:824e:7e00:b3bf:64cd:a49b:8570:c969
@@ -42,13 +44,11 @@ add list=scanners address=2408:824e:ca01:b702:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:b880:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:b9ed:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:bed8:34e0:8a3:b2af:bdaf
-add list=scanners address=2408:824e:ca01:c059:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:c21c:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:c895:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:c9ee:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:cb73:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:ced9:34e0:8a3:b2af:bdaf
-add list=scanners address=2408:824e:ca01:d312:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:d499:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:d5fb:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:d7b1:34e0:8a3:b2af:bdaf
@@ -60,7 +60,6 @@ add list=scanners address=2408:824e:ca01:deec:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:e067:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:e353:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:f620:34e0:8a3:b2af:bdaf
-add list=scanners address=2408:8409:1850:3345:bc83:e44e:1126:9a2a
 add list=scanners address=2409:8930:4b3:8298:a842:6996:e0a1:9809
 add list=scanners address=2409:8930:682:3b77:cdf:a677:fa0e:f394
 add list=scanners address=2409:8931:411:aa43::1
