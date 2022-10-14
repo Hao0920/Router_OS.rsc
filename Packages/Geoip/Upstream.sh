@@ -23,3 +23,7 @@ wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Clang.CN/all_cn_ipv6.tx
 mkdir -p ./Cache/Geoip/Upstream/Loyalsoldier/v2ray-rules-dat
 wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Loyalsoldier/v2ray-rules-dat/gfw.txt "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt"
 
+### Private
+## Loyalsoldier/geoip
+mkdir -p ./Cache/Geoip/Upstream/Loyalsoldier/geoip
+wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Loyalsoldier/geoip/private.txt "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/private.txt"
