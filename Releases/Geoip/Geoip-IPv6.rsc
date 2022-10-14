@@ -1971,4 +1971,7 @@ add list=china address=240f:8000::/24
 add list=china address=240f:c000::/24
 add list=china address=2620:149:a44::/48
 add list=china address=2a01:b740:a42::/48
+add list=china address=::1/128
+add list=china address=fc00::/7
+add list=china address=fe80::/10
 /file remove Geoip-IPv6.rsc
