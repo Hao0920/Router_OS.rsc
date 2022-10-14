@@ -8,7 +8,7 @@ mkdir -p ./Cache/Geoip/Process/Loyalsoldier/geoip
 # 删除 IPv6
 sed -e '/:/d' ./Cache/Geoip/Upstream/Loyalsoldier/geoip/private.txt > ./Cache/Geoip/Process/Loyalsoldier/geoip/private-ipv4.txt
 # 删除 IPv4
-sed -e '/^(?:(?:\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.){3}(?:\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])$/d' ./Cache/Geoip/Upstream/Loyalsoldier/geoip/private.txt > ./Cache/Geoip/Process/Loyalsoldier/geoip/private-ipv6.txt
+sed -e '/./d' ./Cache/Geoip/Upstream/Loyalsoldier/geoip/private.txt > ./Cache/Geoip/Process/Loyalsoldier/geoip/private-ipv6.txt
 {
     cat ./Source/Geoip/Apple_Push_Notification_Service/IPv4.txt
 #    cat ./Cache/Geoip/Upstream/Hackl0us/GeoIP2-CN/CN-ip-cidr.txt
