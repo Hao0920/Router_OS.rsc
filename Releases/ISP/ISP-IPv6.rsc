@@ -272,6 +272,7 @@ add list=othernet_ipv6 address=2001:df1:5280::/48
 add list=othernet_ipv6 address=2001:df1:5b80::/48
 add list=othernet_ipv6 address=2001:df1:5fc0::/48
 add list=othernet_ipv6 address=2001:df1:6180::/48
+add list=othernet_ipv6 address=2001:df1:61c0::/48
 add list=othernet_ipv6 address=2001:df1:6b80::/48
 add list=othernet_ipv6 address=2001:df1:8b00::/48
 add list=othernet_ipv6 address=2001:df1:a100::/48
