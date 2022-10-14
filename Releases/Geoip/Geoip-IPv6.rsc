@@ -1,17 +1,5 @@
 /ipv6 firewall address-list
 remove [find list=china]
-add list=china address=0.0.0.0/8
-add list=china address=10.0.0.0/8
-add list=china address=100.64.0.0/10
-add list=china address=127.0.0.0/8
-add list=china address=169.254.0.0/16
-add list=china address=172.16.0.0/12
-add list=china address=192.0.0.0/24
-add list=china address=192.0.2.0/24
-add list=china address=192.168.0.0/16
-add list=china address=192.88.99.0/24
-add list=china address=198.18.0.0/15
-add list=china address=198.51.100.0/24
 add list=china address=2001:250:2000::/35
 add list=china address=2001:250:4000::/34
 add list=china address=2001:250:8000::/33
@@ -129,8 +117,6 @@ add list=china address=2001:e80::/32
 add list=china address=2001:e88::/32
 add list=china address=2001:f38::/32
 add list=china address=2001:f88::/32
-add list=china address=203.0.113.0/24
-add list=china address=224.0.0.0/3
 add list=china address=2400:1040::/32
 add list=china address=2400:1160::/32
 add list=china address=2400:12c0::/32
@@ -1985,7 +1971,4 @@ add list=china address=240f:8000::/24
 add list=china address=240f:c000::/24
 add list=china address=2620:149:a44::/48
 add list=china address=2a01:b740:a42::/48
-add list=china address=::1/128
-add list=china address=fc00::/7
-add list=china address=fe80::/10
 /file remove Geoip-IPv6.rsc
