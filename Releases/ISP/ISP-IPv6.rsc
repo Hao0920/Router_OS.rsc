@@ -851,7 +851,6 @@ add list=othernet_ipv6 address=2402:50c0::/32
 add list=othernet_ipv6 address=2402:5140::/32
 add list=othernet_ipv6 address=2402:5180::/32
 add list=othernet_ipv6 address=2402:51c0::/32
-add list=othernet_ipv6 address=2402:5240::/32
 add list=othernet_ipv6 address=2402:52c0::/32
 add list=othernet_ipv6 address=2402:5340::/32
 add list=othernet_ipv6 address=2402:5880::/32
