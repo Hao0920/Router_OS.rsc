@@ -5,13 +5,11 @@ add list=scanners address=2001:da8:8000:400:250:56ff:feb7:9037
 add list=scanners address=2002:2636:5ee8::2636:5ee8
 add list=scanners address=2002:7079:a60a::7079:a60a
 add list=scanners address=2002:766b:b0d::766b:b0d
-add list=scanners address=2002:9ada:bc01::9ada:bc01
 add list=scanners address=2408:824e:7e00:1c97:f08e:c14c:8ecc:ec7f
 add list=scanners address=2408:824e:7e00:2356:f08e:c14c:8ecc:ec7f
 add list=scanners address=2408:824e:7e00:4ba5:f08e:c14c:8ecc:ec7f
 add list=scanners address=2408:824e:7e00:56c6:f08e:c14c:8ecc:ec7f
 add list=scanners address=2408:824e:7e00:59eb:f08e:c14c:8ecc:ec7f
-add list=scanners address=2408:824e:7e00:7e2:64cd:a49b:8570:c969
 add list=scanners address=2408:824e:7e00:94b:f08e:c14c:8ecc:ec7f
 add list=scanners address=2408:824e:7e00:9eee:f08e:c14c:8ecc:ec7f
 add list=scanners address=2408:824e:7e00:a765:f08e:c14c:8ecc:ec7f
@@ -28,7 +26,6 @@ add list=scanners address=2408:824e:ca01:d26e:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:d40b:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:d5c4:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:d765:34e0:8a3:b2af:bdaf
-add list=scanners address=2408:824e:ca01:d912:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:daa0:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:dddb:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:e462:34e0:8a3:b2af:bdaf
@@ -40,6 +37,8 @@ add list=scanners address=2408:824e:ca01:ee52:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:f323:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:f67b:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:f857:34e0:8a3:b2af:bdaf
+add list=scanners address=2408:824e:ca01:fa22:34e0:8a3:b2af:bdaf
+add list=scanners address=2408:824e:ca01:fbfb:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:8444:580:4a0c:cca8:f239:3dc5:8cd4
 add list=scanners address=2408:8444:ffa1:ee85:b05c:36ff:fefa:882d
 add list=scanners address=2408:8444:ffc3:a781:c779:d587:a623:dc14
