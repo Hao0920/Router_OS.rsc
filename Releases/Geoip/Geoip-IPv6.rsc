@@ -1950,6 +1950,7 @@ add list=china address=240a:8000::/21
 add list=china address=240a:a000::/20
 add list=china address=240a:c000::/20
 add list=china address=240b:2000::/22
+add list=china address=240b:6000::/20
 add list=china address=240b:8000::/21
 add list=china address=240c:4000::/22
 add list=china address=240c:8000::/21
