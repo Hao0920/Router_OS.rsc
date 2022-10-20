@@ -1963,6 +1963,7 @@ add list=othernet_ipv6 address=240a:6000::/24
 add list=othernet_ipv6 address=240a:8000::/21
 add list=othernet_ipv6 address=240a:c000::/20
 add list=othernet_ipv6 address=240b:2000::/22
+add list=othernet_ipv6 address=240b:6000::/20
 add list=othernet_ipv6 address=240b:8000::/21
 add list=othernet_ipv6 address=240c::/28
 add list=othernet_ipv6 address=240c:4000::/22
