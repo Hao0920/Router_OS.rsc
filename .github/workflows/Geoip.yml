@@ -25,8 +25,8 @@ jobs:
       - name: Build Geoip.rsc
         run:  |
           chmod +x ./Packages/Geoip/Build.sh && ./Packages/Geoip/Build.sh
-      - name: Cache Cleanup
-        run: rm -rf ./Cache/Geoip
+#      - name: Cache Cleanup
+#        run: rm -rf ./Cache/Geoip
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
