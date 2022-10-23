@@ -1,5 +1,5 @@
 #### 获取上游数据 ####
-# Geoip
+### Geoip
 ## Hackl0us/GeoIP2-CN
 mkdir -p ./Cache/Geoip/Upstream/Hackl0us/GeoIP2-CN
 wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Hackl0us/GeoIP2-CN/CN-ip-cidr.txt "https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt"
@@ -18,19 +18,12 @@ mkdir -p ./Cache/Geoip/Upstream/Clang.CN
 wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Clang.CN/all_cn_cidr.txt "https://ispip.clang.cn/all_cn_cidr.txt"
 wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Clang.CN/all_cn_ipv6.txt "https://ispip.clang.cn/all_cn_ipv6.txt"
 
-## Hurricane Electric
-mkdir -p ./Cache/Geoip/Upstream/Hurricane_Electric
-###
-mkdir -p ./Cache/Geoip/Upstream/Hurricane_Electric/Valve_Corporation
-wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Hurricane_Electric/Valve_Corporation/ipv4 "https://bgp.he.net/AS32590#_prefixes"
-wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Hurricane_Electric/Valve_Corporation/ipv6 "https://bgp.he.net/AS32590#_prefixes6"
-
-# Forward DNS
+### Forward DNS
 ## Loyalsoldier/v2ray-rules-dat
 mkdir -p ./Cache/Geoip/Upstream/Loyalsoldier/v2ray-rules-dat
 wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Loyalsoldier/v2ray-rules-dat/gfw.txt "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt"
 
-# Private
+### Private
 ## Loyalsoldier/geoip
 mkdir -p ./Cache/Geoip/Upstream/Loyalsoldier/geoip
 wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Loyalsoldier/geoip/private.txt "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/private.txt"
