@@ -11,6 +11,7 @@ sed -e '/:/d' ./Cache/Geoip/Upstream/Loyalsoldier/geoip/private.txt > ./Cache/Ge
 sed -e '/\./d' ./Cache/Geoip/Upstream/Loyalsoldier/geoip/private.txt > ./Cache/Geoip/Process/Loyalsoldier/geoip/private-ipv6.txt
 
 # Source
+mkdir -p ./Cache/Geoip/Process/Source/
 find ./Source/Geoip/IPv4 -type f -name "*.txt" | xargs cat > ./Cache/Geoip/Process/Source/IPv4.txt
 find ./Source/Geoip/IPv6 -type f -name "*.txt" | xargs cat > ./Cache/Geoip/Process/Source/IPv6.txt
 {
