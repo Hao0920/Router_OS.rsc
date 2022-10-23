@@ -3088,11 +3088,6 @@ add list=china address=168.159.158.0/24
 add list=china address=168.160.0.0/16
 add list=china address=168.230.0.0/24
 add list=china address=169.254.0.0/16
-add list=china address=17.188.128.0/18
-add list=china address=17.188.20.0/23
-add list=china address=17.249.0.0/16
-add list=china address=17.252.0.0/16
-add list=china address=17.57.144.0/22
 add list=china address=170.179.0.0/16
 add list=china address=170.225.224.0/23
 add list=china address=170.252.152.0/21

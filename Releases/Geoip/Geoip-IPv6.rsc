@@ -857,8 +857,6 @@ add list=china address=2403:2bc0::/32
 add list=china address=2403:2cc0::/32
 add list=china address=2403:2f40::/32
 add list=china address=2403:2fc0::/32
-add list=china address=2403:300:a42::/48
-add list=china address=2403:300:a51::/48
 add list=china address=2403:3040::/32
 add list=china address=2403:30c0::/32
 add list=china address=2403:3140::/32
@@ -1968,8 +1966,6 @@ add list=china address=240e::/24
 add list=china address=240f:4000::/24
 add list=china address=240f:8000::/24
 add list=china address=240f:c000::/24
-add list=china address=2620:149:a44::/48
-add list=china address=2a01:b740:a42::/48
 add list=china address=::1/128
 add list=china address=fc00::/7
 add list=china address=fe80::/10
