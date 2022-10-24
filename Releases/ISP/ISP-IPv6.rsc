@@ -544,6 +544,7 @@ add list=othernet_ipv6 address=2400:b600::/32
 add list=othernet_ipv6 address=2400:b620::/32
 add list=othernet_ipv6 address=2400:b6c0::/32
 add list=othernet_ipv6 address=2400:b700::/32
+add list=othernet_ipv6 address=2400:b9a0::/32
 add list=othernet_ipv6 address=2400:b9c0::/32
 add list=othernet_ipv6 address=2400:ba00::/32
 add list=othernet_ipv6 address=2400:ba40::/32
