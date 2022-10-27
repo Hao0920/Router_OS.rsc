@@ -2,7 +2,6 @@
 remove [find list=scanners]
 add list=scanners address=2001:da8:8000:400:250:56ff:feb7:9037
 add list=scanners address=2408:824e:7e00:154d:d4b2:c24:ff9b:71a4
-add list=scanners address=2408:824e:7e00:16a2:864:5bae:3782:9264
 add list=scanners address=2408:824e:7e00:1be1:864:5bae:3782:9264
 add list=scanners address=2408:824e:7e00:2241:d4b2:c24:ff9b:71a4
 add list=scanners address=2408:824e:7e00:2606:864:5bae:3782:9264
@@ -50,16 +49,16 @@ add list=scanners address=2408:824e:ca01:af1a:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:b090:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:e1:34e0:8a3:b2af:bdaf
 add list=scanners address=2409:8931:435:a230:50b2:7889:f72:8dee
+add list=scanners address=2409:8931:435:a230:88f8:a3f8:da06:da76
 add list=scanners address=2409:896d:118:2a56:d19d:26dc:fb3c:af36
-add list=scanners address=240e:459:40a:50d9:8a5:8893:446d:c836
+add list=scanners address=2409:8a31:5e6:4800:313a:656:eb62:b45c
 add list=scanners address=240e:45a:488:a626:f907:d010:9b42:cb67
 add list=scanners address=2607:ff28:a005:46:ec4:7aff:feb5:1d4a
-add list=scanners address=2607:ff28:a005:50:ec4:7aff:feb3:c9b8
 add list=scanners address=2607:ff28:a005:a5:ec4:7aff:feb5:1964
 add list=scanners address=2607:ff28:a005:ad:ec4:7aff:feb5:1bcc
 add list=scanners address=2607:ff28:a005:b4:ec4:7aff:feb5:1700
+add list=scanners address=2607:ff28:a005:c2:ec4:7aff:feb5:1c62
 add list=scanners address=2607:ff28:a005:c4:ec4:7aff:feb5:1bd4
-add list=scanners address=2607:ff28:a005:c5:ec4:7aff:feb5:1bd8
 add list=scanners address=2607:ff28:a005:f6:ec4:7aff:feb5:1a74
 add list=scanners address=2a05:8280:f:431f::1
 add list=scanners address=2a05:8280:f:431f::11
