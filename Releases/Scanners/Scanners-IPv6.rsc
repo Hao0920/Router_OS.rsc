@@ -1,6 +1,5 @@
 /ipv6 firewall address-list
 remove [find list=scanners]
-add list=scanners address=2400:adc3:11e:aa00:94db:c08c:de4b:1024
 add list=scanners address=2408:824e:7e00:3b1c:d4b2:c24:ff9b:71a4
 add list=scanners address=2408:824e:7e00:6b5d:d4b2:c24:ff9b:71a4
 add list=scanners address=2408:824e:7e00:77d0:d4b2:c24:ff9b:71a4
@@ -22,7 +21,6 @@ add list=scanners address=2408:824e:ca01:a0aa:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:a24c:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:a3e7:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:a580:34e0:8a3:b2af:bdaf
-add list=scanners address=2408:824e:ca01:a971:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:aa5b:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:aae1:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:ac4b:34e0:8a3:b2af:bdaf
@@ -34,7 +32,6 @@ add list=scanners address=2408:824e:ca01:b3ab:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:b868:34e0:8a3:b2af:bdaf
 add list=scanners address=2408:824e:ca01:e1:34e0:8a3:b2af:bdaf
 add list=scanners address=2409:8930:651:1fc0:8be:e065:2aae:3c72
-add list=scanners address=2409:8930:692:2a04:90ce:db82:57a5:4ea
 add list=scanners address=2409:896d:118:2a56:d19d:26dc:fb3c:af36
 add list=scanners address=240e:458:685:8306:63b7:5116:a8a7:a5c9
 add list=scanners address=240e:459:40b:eeb4:b1a7:ae9a:a056:c3ce
