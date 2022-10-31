@@ -2973,6 +2973,7 @@ add regexp="^(.*\\.)?jungleheart\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?juoaa\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?justdied\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?justfreevpn\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?justhost\\.ru\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?justicefortenzin\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?justmysocks1\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?justpaste\\.it\$" type=FWD forward-to=$FWDgfw
