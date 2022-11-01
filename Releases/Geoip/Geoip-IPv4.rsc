@@ -1404,6 +1404,7 @@ add list=china address=103.28.8.0/22
 add list=china address=103.29.128.0/21
 add list=china address=103.29.136.0/22
 add list=china address=103.29.16.0/22
+add list=china address=103.29.236.0/23
 add list=china address=103.29.24.0/23
 add list=china address=103.29.29.0/24
 add list=china address=103.3.128.0/20
