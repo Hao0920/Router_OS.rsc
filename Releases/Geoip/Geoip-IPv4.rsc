@@ -2040,7 +2040,6 @@ add list=china address=103.93.84.0/22
 add list=china address=103.94.116.0/22
 add list=china address=103.94.12.0/22
 add list=china address=103.94.160.0/22
-add list=china address=103.94.180.0/22
 add list=china address=103.94.20.0/22
 add list=china address=103.94.200.0/22
 add list=china address=103.94.28.0/22
