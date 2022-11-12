@@ -575,6 +575,7 @@ add name=bourewsr.qushuba.com type=NXDOMAIN
 add name=boyceoyc.com type=NXDOMAIN
 add name=br.helloweb.vip type=NXDOMAIN
 add name=br.shangke.asia type=NXDOMAIN
+add name=br.xinzhanggui.wang type=NXDOMAIN
 add name=bronrt.stsdk.vivo.com.cn type=NXDOMAIN
 add name=brort.stsdk.vivo.com.cn type=NXDOMAIN
 add name=browserkernel.baidu.com type=NXDOMAIN
@@ -805,6 +806,7 @@ add name=creative1cdn.mobfox.com type=NXDOMAIN
 add name=crs.baidu.com type=NXDOMAIN
 add name=ctr.hd.sohu.com type=NXDOMAIN
 add name=cul.awwlrd.cn type=NXDOMAIN
+add name=cvbdw.xyz type=NXDOMAIN
 add name=cvt.mydas.mobi type=NXDOMAIN
 add name=cws-cctv.conviva.com type=NXDOMAIN
 add name=cxs.eexiaoshuo.com type=NXDOMAIN
@@ -1525,6 +1527,7 @@ add name=mobile2.da.mgtv.com type=NXDOMAIN
 add name=mobilead.kuwo.cn type=NXDOMAIN
 add name=mobileads.msn.com type=NXDOMAIN
 add name=mobixc.ngnlaigc.fun type=NXDOMAIN
+add name=mobixc.qqnggnsy.fun type=NXDOMAIN
 add name=mobpartner.mobi type=NXDOMAIN
 add name=mobwsa.ximalaya.com type=NXDOMAIN
 add name=mon.ad.xelements.cn type=NXDOMAIN
