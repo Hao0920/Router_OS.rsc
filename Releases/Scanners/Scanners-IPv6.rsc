@@ -6,7 +6,6 @@ add list=scanners address=240e:30c:6c00:49b4:2cae:e940:de65:1730
 add list=scanners address=240e:30c:6c00:553:2cae:e940:de65:1730
 add list=scanners address=240e:30c:6c00:8fdc:2cae:e940:de65:1730
 add list=scanners address=240e:30c:6c00:99af:2cae:e940:de65:1730
-add list=scanners address=240e:30c:6c00:a2b5:2cae:e940:de65:1730
 add list=scanners address=240e:30c:6c00:e831:2cae:e940:de65:1730
 add list=scanners address=240e:30c:6c00:f1b0:2cae:e940:de65:1730
 add list=scanners address=240e:30c:6c00:faef:2cae:e940:de65:1730
