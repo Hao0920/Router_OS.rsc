@@ -11,7 +11,6 @@ add list=scanners address=240e:30c:6c00:e831:2cae:e940:de65:1730
 add list=scanners address=240e:30c:6c00:f1b0:2cae:e940:de65:1730
 add list=scanners address=240e:30c:6c00:faef:2cae:e940:de65:1730
 add list=scanners address=240e:660:b5:23:127::253
-add list=scanners address=2607:5300:203:89b7:ff:ff:7b7a:78c4
 add list=scanners address=2607:ff28:800f:dd:225:90ff:feaa:3330
 add list=scanners address=2607:ff28:a005:10c:ec4:7aff:feb5:1756
 add list=scanners address=2607:ff28:a005:16c:225:90ff:fe24:296
