@@ -1988,6 +1988,10 @@ add list=china address=2602:801:f00a::/48
 add list=china address=2602:801:f00b::/48
 add list=china address=2602:801:f00d::/48
 add list=china address=2602:801:f00e::/48
+add list=china address=2607:8700:102::/48
+add list=china address=2607:8700:110::/48
+add list=china address=2607:8700:111::/48
+add list=china address=2607:f358:25::/48
 add list=china address=2620:149:a44::/48
 add list=china address=2a01:b740:a42::/48
 add list=china address=2a01:bc80:1::/48
@@ -2002,6 +2006,7 @@ add list=china address=2a01:bc80:9::/48
 add list=china address=2a01:bc80:a::/48
 add list=china address=2a01:bc80:b::/48
 add list=china address=2a01:bc80:c::/48
+add list=china address=2a02:7080::/48
 add list=china address=::1/128
 add list=china address=fc00::/7
 add list=china address=fe80::/10
