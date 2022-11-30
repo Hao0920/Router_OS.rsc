@@ -823,6 +823,7 @@ add list=china address=2403:1440::/32
 add list=china address=2403:1580::/32
 add list=china address=2403:16c0::/32
 add list=china address=2403:17c0::/32
+add list=china address=2403:18c0:1001::/48
 add list=china address=2403:1980::/32
 add list=china address=2403:1a40::/32
 add list=china address=2403:1b80::/32
