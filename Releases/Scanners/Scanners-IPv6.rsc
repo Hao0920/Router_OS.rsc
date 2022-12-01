@@ -4,7 +4,6 @@ add list=scanners address=2002:b610:1172::b610:1172
 add list=scanners address=2406:da12:e85:9c00:b4f4:a58f:9504:a9f0
 add list=scanners address=2406:da14:d9f:c300:230b:7db6:ccdc:7abb
 add list=scanners address=2406:da1a:125:b100:4ee8:c946:8:a269
-add list=scanners address=2409:8931:430:627b:38ea:acb9:50f4:326f
 add list=scanners address=2409:896c:58:b548:3882:8ff:aa67:6679
 add list=scanners address=240e:458:484:7e0d::1
 add list=scanners address=2607:ff28:a005:10c:ec4:7aff:feb5:1756
