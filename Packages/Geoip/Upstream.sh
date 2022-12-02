@@ -1,9 +1,5 @@
 #### 获取上游数据 ####
 # Geoip
-## Hackl0us/GeoIP2-CN
-mkdir -p ./Cache/Geoip/Upstream/Hackl0us/GeoIP2-CN
-wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Hackl0us/GeoIP2-CN/CN-ip-cidr.txt "https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt"
-
 ## misakaio/chnroutes2
 mkdir -p ./Cache/Geoip/Upstream/misakaio/chnroutes2
 wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/misakaio/chnroutes2/Geoip.txt "https://raw.githubusercontent.com/misakaio/chnroutes2/master/Geoip.txt"
@@ -17,6 +13,8 @@ wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/pexcn/daily/chnroute-v6
 mkdir -p ./Cache/Geoip/Upstream/Clang.CN
 wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Clang.CN/all_cn_cidr.txt "https://ispip.clang.cn/all_cn_cidr.txt"
 wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Clang.CN/all_cn_ipv6.txt "https://ispip.clang.cn/all_cn_ipv6.txt"
+
+################################################################################################
 
 # Forward DNS
 ## Loyalsoldier/v2ray-rules-dat
