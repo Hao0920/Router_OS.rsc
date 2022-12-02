@@ -19,7 +19,7 @@ find ./Source/Geoip/IPv6 -type f -name "*.txt" | xargs cat > ./Cache/Geoip/Proce
 ## IPv4
 {
 #    cat ./Cache/Geoip/Process/Source/IPv4.txt
-#    cat ./Cache/Geoip/Upstream/Hackl0us/GeoIP2-CN/CN-ip-cidr.txt
+    cat ./Cache/Geoip/Upstream/Hackl0us/GeoIP2-CN/CN-ip-cidr.txt
     cat ./Cache/Geoip/Process/misakaio/chnroutes2/Geoip.txt
     cat ./Cache/Geoip/Upstream/pexcn/daily/chnroute.txt
     cat ./Cache/Geoip/Upstream/Clang.CN/all_cn_cidr.txt
