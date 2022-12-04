@@ -1,15 +1,12 @@
 #### 处理数据 ####
-# misakaio/chnroutes2
+# Geoip
+## misakaio/chnroutes2
 mkdir -p ./Cache/Geoip/Process/misakaio/chnroutes2
 sed -e '/#/d' ./Cache/Geoip/Upstream/misakaio/chnroutes2/Geoip.txt > ./Cache/Geoip/Process/misakaio/chnroutes2/Geoip.txt
 
-# Loyalsoldier/geoip
-mkdir -p ./Cache/Geoip/Process/Loyalsoldier/geoip
-## 删除 IPv6
-sed -e '/:/d' ./Cache/Geoip/Upstream/Loyalsoldier/geoip/private.txt > ./Cache/Geoip/Process/Loyalsoldier/geoip/private-ipv4.txt
-## 删除 IPv4
-sed -e '/\./d' ./Cache/Geoip/Upstream/Loyalsoldier/geoip/private.txt > ./Cache/Geoip/Process/Loyalsoldier/geoip/private-ipv6.txt
-
+## iwik.org
+mkdir -p ./Cache/Geoip/Upstream/iwik.org
+sed -e '/#/d' ./Cache/Geoip/Upstream/iwik.org/cn_cidr.txt > ./Cache/Geoip/Process/iwik.org/cn_cidr.txt
 # Source
 mkdir -p ./Cache/Geoip/Process/Source/
 find ./Source/Geoip/IPv4 -type f -name "*.txt" | xargs cat > ./Cache/Geoip/Process/Source/IPv4.txt
@@ -19,6 +16,7 @@ find ./Source/Geoip/IPv6 -type f -name "*.txt" | xargs cat > ./Cache/Geoip/Proce
 ## IPv4
 {
     cat ./Cache/Geoip/Process/Source/IPv4.txt
+    cat ./Cache/Geoip/Process/iwik.org/cn_cidr.txt
     cat ./Cache/Geoip/Process/misakaio/chnroutes2/Geoip.txt
     cat ./Cache/Geoip/Upstream/pexcn/daily/chnroute.txt
     cat ./Cache/Geoip/Upstream/Clang.CN/all_cn_cidr.txt
