@@ -14,6 +14,10 @@ mkdir -p ./Cache/Geoip/Upstream/Clang.CN
 wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Clang.CN/all_cn_cidr.txt "https://ispip.clang.cn/all_cn_cidr.txt"
 wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Clang.CN/all_cn_ipv6.txt "https://ispip.clang.cn/all_cn_ipv6.txt"
 
+## iwik.org
+mkdir -p ./Cache/Geoip/Upstream/iwik.org
+wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/iwik.org/cn_cidr.txt "http://www.iwik.org/ipcountry/CN.cidr"
+
 ################################################################################################
 
 # Forward DNS
