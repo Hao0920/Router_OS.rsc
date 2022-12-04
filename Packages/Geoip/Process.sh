@@ -7,6 +7,7 @@ sed -e '/#/d' ./Cache/Geoip/Upstream/misakaio/chnroutes2/Geoip.txt > ./Cache/Geo
 ## iwik.org
 mkdir -p ./Cache/Geoip/Upstream/iwik.org
 sed -e '/#/d' ./Cache/Geoip/Upstream/iwik.org/cn_cidr.txt > ./Cache/Geoip/Process/iwik.org/cn_cidr.txt
+sed -e '/#/d' ./Cache/Geoip/Upstream/iwik.org/cn_ipv6.txt > ./Cache/Geoip/Process/iwik.org/cn_ipv6.txt
 # Source
 mkdir -p ./Cache/Geoip/Process/Source/
 find ./Source/Geoip/IPv4 -type f -name "*.txt" | xargs cat > ./Cache/Geoip/Process/Source/IPv4.txt
@@ -26,6 +27,7 @@ sort -u ./Cache/Geoip/Process/IPv4-1.txt > ./Cache/Geoip/Process/IPv4.txt
 ## IPv6
 {
     cat ./Cache/Geoip/Process/Source/IPv6.txt
+    cat ./Cache/Geoip/Process/iwik.org/cn_ipv6.txt
     cat ./Cache/Geoip/Upstream/Clang.CN/all_cn_ipv6.txt
     cat ./Cache/Geoip/Upstream/pexcn/daily/chnroute-v6.txt
 } > ./Cache/Geoip/Process/IPv6-1.txt
