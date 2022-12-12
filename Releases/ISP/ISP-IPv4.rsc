@@ -4391,7 +4391,6 @@ add list=othernet address=103.145.98.0/23
 add list=othernet address=103.145.106.0/23
 add list=othernet address=103.145.122.0/23
 add list=othernet address=103.145.188.0/22
-add list=othernet address=103.146.6.0/23
 add list=othernet address=103.146.72.0/23
 add list=othernet address=103.146.88.0/22
 add list=othernet address=103.146.124.0/22
