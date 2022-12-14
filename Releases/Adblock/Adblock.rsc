@@ -804,6 +804,7 @@ add name=cqvmt.slgo.club type=NXDOMAIN
 add name=crab.baidu.com type=NXDOMAIN
 add name=creative1cdn.mobfox.com type=NXDOMAIN
 add name=crs.baidu.com type=NXDOMAIN
+add name=csekct.xyz type=NXDOMAIN
 add name=ctr.hd.sohu.com type=NXDOMAIN
 add name=cul.awwlrd.cn type=NXDOMAIN
 add name=cvbdw.xyz type=NXDOMAIN
@@ -938,6 +939,7 @@ add name=efe25.t7wl8.cn type=NXDOMAIN
 add name=ei.cnzz.com type=NXDOMAIN
 add name=eiv.baidu.com type=NXDOMAIN
 add name=eladies.zhmyq.cn type=NXDOMAIN
+add name=ell.zgzlw.biz type=NXDOMAIN
 add name=eluoyi.xbiquge6.com type=NXDOMAIN
 add name=emoticon.sns.iqiyi.com type=NXDOMAIN
 add name=ems.cp12.wasu.tv type=NXDOMAIN
@@ -1082,6 +1084,7 @@ add name=h.e0hkzk2.cn type=NXDOMAIN
 add name=h.trace.qq.com type=NXDOMAIN
 add name=h.wvjjnb.cn type=NXDOMAIN
 add name=h.yosjob.cn type=NXDOMAIN
+add name=h19a.cc type=NXDOMAIN
 add name=hcbjwt.com type=NXDOMAIN
 add name=hcc.qududu.cc type=NXDOMAIN
 add name=hd.hupu.com type=NXDOMAIN
@@ -1527,6 +1530,7 @@ add name=mobile2.da.mgtv.com type=NXDOMAIN
 add name=mobilead.kuwo.cn type=NXDOMAIN
 add name=mobileads.msn.com type=NXDOMAIN
 add name=mobixc.ngnlaigc.fun type=NXDOMAIN
+add name=mobixc.owervzxk.cyou type=NXDOMAIN
 add name=mobixc.qqnggnsy.fun type=NXDOMAIN
 add name=mobpartner.mobi type=NXDOMAIN
 add name=mobwsa.ximalaya.com type=NXDOMAIN
@@ -11307,6 +11311,7 @@ add name=travel.exxfttj.cn type=NXDOMAIN
 add name=trc.adsage.com type=NXDOMAIN
 add name=trk1.17admob.com type=NXDOMAIN
 add name=tsis.jpush.cn type=NXDOMAIN
+add name=tt.rulianshi.la type=NXDOMAIN
 add name=tuijian.baidu.com type=NXDOMAIN
 add name=tunion-api.m.taobao.com type=NXDOMAIN
 add name=tx-ad.a.yximgs.com type=NXDOMAIN
