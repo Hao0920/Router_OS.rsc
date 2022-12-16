@@ -500,6 +500,7 @@ add name=asdkfjskl.guiliangtechnology.com type=NXDOMAIN
 add name=askdfj.alskfdf.com type=NXDOMAIN
 add name=askdfjkls.moxiaoqihuoguo.com type=NXDOMAIN
 add name=askdjfsl.51gongxiao.com type=NXDOMAIN
+add name=asldfkjs.xfgctg.com type=NXDOMAIN
 add name=asotrack1.fluentmobile.com type=NXDOMAIN
 add name=asp.adsame.com type=NXDOMAIN
 add name=assets.ckjr001.com type=NXDOMAIN
@@ -939,6 +940,7 @@ add name=efe25.t7wl8.cn type=NXDOMAIN
 add name=ei.cnzz.com type=NXDOMAIN
 add name=eiv.baidu.com type=NXDOMAIN
 add name=eladies.zhmyq.cn type=NXDOMAIN
+add name=ell.88kids.mobi type=NXDOMAIN
 add name=ell.zgzlw.biz type=NXDOMAIN
 add name=eluoyi.xbiquge6.com type=NXDOMAIN
 add name=emoticon.sns.iqiyi.com type=NXDOMAIN
@@ -1050,6 +1052,7 @@ add name=gi.gepush.com type=NXDOMAIN
 add name=gi.getui.net type=NXDOMAIN
 add name=git.jnjcxx.com type=NXDOMAIN
 add name=glores2.taisantech.com type=NXDOMAIN
+add name=gnj4pit.lntnhtc.cn type=NXDOMAIN
 add name=go.jieshareme.xyz type=NXDOMAIN
 add name=go.mikongdd.top type=NXDOMAIN
 add name=go.mobpartner.mobi type=NXDOMAIN
@@ -1151,6 +1154,7 @@ add name=ifsk2.tanx.com type=NXDOMAIN
 add name=ignlnmzi.rjxj.xyz type=NXDOMAIN
 add name=ii.qpmztk.cn type=NXDOMAIN
 add name=ilce.alicdn.com type=NXDOMAIN
+add name=iltelo.xyz type=NXDOMAIN
 add name=im.tiodata.com type=NXDOMAIN
 add name=im2.smartadserver.com type=NXDOMAIN
 add name=img-cdn-spot.ymcdn.cn type=NXDOMAIN
@@ -1529,6 +1533,7 @@ add name=mobile.eeree.top type=NXDOMAIN
 add name=mobile2.da.mgtv.com type=NXDOMAIN
 add name=mobilead.kuwo.cn type=NXDOMAIN
 add name=mobileads.msn.com type=NXDOMAIN
+add name=mobixc.bwervzxv.cyou type=NXDOMAIN
 add name=mobixc.ngnlaigc.fun type=NXDOMAIN
 add name=mobixc.owervzxk.cyou type=NXDOMAIN
 add name=mobixc.qqnggnsy.fun type=NXDOMAIN
@@ -1573,6 +1578,7 @@ add name=n.mark.letv.com type=NXDOMAIN
 add name=n.tjlms.cn type=NXDOMAIN
 add name=n.tzh019.cn type=NXDOMAIN
 add name=n.tzh315.cn type=NXDOMAIN
+add name=n1q8cbr.lntnhtc.cn type=NXDOMAIN
 add name=nadvideo2.baidu.com type=NXDOMAIN
 add name=nav.browser.miui.com type=NXDOMAIN
 add name=nbsdk-baichuan.alicdn.com type=NXDOMAIN
@@ -1690,6 +1696,7 @@ add name=pat.farvd.com type=NXDOMAIN
 add name=pb.hd.sohu.com.cn type=NXDOMAIN
 add name=pc.da.mgtv.com type=NXDOMAIN
 add name=pc.jinrongwang.net type=NXDOMAIN
+add name=pc.stgowan.com type=NXDOMAIN
 add name=pc.videoclick.baidu.com type=NXDOMAIN
 add name=pc.wegowan.com type=NXDOMAIN
 add name=pc.weizhenwx.com type=NXDOMAIN
@@ -11200,6 +11207,7 @@ add name=stnn.adsame.com type=NXDOMAIN
 add name=stocks-analytics-events.apple.com type=NXDOMAIN
 add name=stocks-analytics-events.news.apple-dns.net type=NXDOMAIN
 add name=store.iqiyi.com type=NXDOMAIN
+add name=stp.meikdein.xyz type=NXDOMAIN
 add name=strikeadcdn.s3.amazonaws.com type=NXDOMAIN
 add name=stsdk.vivo.com.cn type=NXDOMAIN
 add name=stunninglover.co type=NXDOMAIN
@@ -11460,6 +11468,7 @@ add name=video.market.xiaomi.com type=NXDOMAIN
 add name=videopush.baidu.com type=NXDOMAIN
 add name=view.admaster.com.cn type=NXDOMAIN
 add name=view.mediav.com type=NXDOMAIN
+add name=vip.meikdein.xyz type=NXDOMAIN
 add name=vip.qicaihong.xyz type=NXDOMAIN
 add name=viqiyi.admaster.com.cn type=NXDOMAIN
 add name=vletv.admaster.com.cn type=NXDOMAIN
@@ -11488,6 +11497,7 @@ add name=w.l.qq.com type=NXDOMAIN
 add name=w.ymapp.com type=NXDOMAIN
 add name=wangmeng.baidu.com type=NXDOMAIN
 add name=wap.88xiaoshuo.com type=NXDOMAIN
+add name=wap.tiaozhuanmao1.cn type=NXDOMAIN
 add name=wap0c.m.wenxuemi6.com type=NXDOMAIN
 add name=watch.advertising.speed.cdn.vip.xunlei.com type=NXDOMAIN
 add name=watson.live.com type=NXDOMAIN
@@ -11574,6 +11584,7 @@ add name=www.jfsdiwmnbsk007.top type=NXDOMAIN
 add name=www.jfsdiwmnbsk008.top type=NXDOMAIN
 add name=www.jfsdiwmnbsk009.top type=NXDOMAIN
 add name=www.jrafspaelojsejbn.xyz type=NXDOMAIN
+add name=www.lmlmvip.com type=NXDOMAIN
 add name=www.meipian7.cn type=NXDOMAIN
 add name=www.mmnetwork.mobi type=NXDOMAIN
 add name=www.oollttqq.com type=NXDOMAIN
