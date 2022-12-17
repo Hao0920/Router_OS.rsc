@@ -615,6 +615,7 @@ add name=c.drawenjoy.cn type=NXDOMAIN
 add name=c.eojphlm.cn type=NXDOMAIN
 add name=c.fedsdq.com type=NXDOMAIN
 add name=c.feilan5.cn type=NXDOMAIN
+add name=c.fhhvdzr.cn type=NXDOMAIN
 add name=c.freeride.com.cn type=NXDOMAIN
 add name=c.fzckwij.cn type=NXDOMAIN
 add name=c.fzjarow.cn type=NXDOMAIN
@@ -11372,6 +11373,7 @@ add name=v.drawenjoy.cn type=NXDOMAIN
 add name=v.eojphlm.cn type=NXDOMAIN
 add name=v.fedsdq.com type=NXDOMAIN
 add name=v.feilan5.cn type=NXDOMAIN
+add name=v.fhhvdzr.cn type=NXDOMAIN
 add name=v.freeride.com.cn type=NXDOMAIN
 add name=v.fzckwij.cn type=NXDOMAIN
 add name=v.fzjarow.cn type=NXDOMAIN
