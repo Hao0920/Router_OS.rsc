@@ -303,7 +303,6 @@ add list=china_telecom address=2001:df4:1500::/48
 add list=china_telecom address=2001:df4:1880::/48
 add list=china_telecom address=2001:df4:2780::/48
 add list=china_telecom address=2001:df4:2e80::/48
-add list=china_telecom address=2001:df4:3c80::/48
 add list=china_telecom address=2001:df4:3d80::/48
 add list=china_telecom address=2001:df4:4b80::/48
 add list=china_telecom address=2001:df4:4d80::/48
@@ -1731,7 +1730,6 @@ add list=china_telecom address=2406:7980::/32
 add list=china_telecom address=2406:7a80::/32
 add list=china_telecom address=2406:7b80::/32
 add list=china_telecom address=2406:7c80::/32
-add list=china_telecom address=2406:7cc0::/32
 add list=china_telecom address=2406:7d00::/32
 add list=china_telecom address=2406:7d80::/32
 add list=china_telecom address=2406:7e80::/32
