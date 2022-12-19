@@ -9,6 +9,8 @@ mkdir -p ./Releases/Geoip
     done
     echo "/file remove Geoip-IPv4.rsc"
 } > ./Releases/Geoip/Geoip-IPv4.rsc
+
+
 # IPv6
 {
     echo "/ipv6 firewall address-list"
@@ -18,6 +20,8 @@ mkdir -p ./Releases/Geoip
     done
     echo "/file remove Geoip-IPv6.rsc"
 } > ./Releases/Geoip/Geoip-IPv6.rsc
+
+
 # Forward DNS
 {
     echo ":global FWDgfw"

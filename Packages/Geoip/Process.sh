@@ -26,7 +26,7 @@ sed -e '/./d' ./Cache/Geoip/Process/Hao0920/Geoip/IPv6-1.txt > ./Cache/Geoip/Pro
 ## IPv4
 {
 #    cat ./Cache/Geoip/Process/Source/IPv4.txt
-    cat ./Cache/Geoip/Process/Hao0920/Geoip/IPv4.txt
+#    cat ./Cache/Geoip/Process/Hao0920/Geoip/IPv4.txt
     cat ./Cache/Geoip/Process/iwik.org/cn_cidr.txt
     cat ./Cache/Geoip/Process/misakaio/chnroutes2/Geoip.txt
     cat ./Cache/Geoip/Upstream/pexcn/daily/chnroute.txt
@@ -37,7 +37,7 @@ sort -u ./Cache/Geoip/Process/IPv4-1.txt > ./Cache/Geoip/Process/IPv4.txt
 ## IPv6
 {
 #    cat ./Cache/Geoip/Process/Source/IPv6.txt
-    cat ./Cache/Geoip/Process/Hao0920/Geoip/IPv6.txt
+#    cat ./Cache/Geoip/Process/Hao0920/Geoip/IPv6.txt
     cat ./Cache/Geoip/Process/iwik.org/cn_ipv6.txt
     cat ./Cache/Geoip/Upstream/Clang.CN/all_cn_ipv6.txt
     cat ./Cache/Geoip/Upstream/pexcn/daily/chnroute-v6.txt
