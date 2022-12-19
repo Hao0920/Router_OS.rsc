@@ -19,8 +19,11 @@ mkdir -p ./Cache/Geoip/Upstream/iwik.org
 wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/iwik.org/cn_cidr.txt "http://www.iwik.org/ipcountry/CN.cidr"
 wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/iwik.org/cn_ipv6.txt "https://www.iwik.org/ipcountry/CN.ipv6"
 
+## Hao0920/Geoip
+mkdir -p ./Cache/Geoip/Upstream/Hao0920
+wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Hao0920/Geoip/games.txt "https://raw.githubusercontent.com/Hao0920/Geoip/release/text/games.txt"
+wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Hao0920/Geoip/vps.txt "https://raw.githubusercontent.com/Hao0920/Geoip/release/text/vps.txt"
 
-################################################################################################
 
 # Forward DNS
 ## Loyalsoldier/v2ray-rules-dat

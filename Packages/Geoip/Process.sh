@@ -4,19 +4,29 @@
 mkdir -p ./Cache/Geoip/Process/misakaio/chnroutes2
 sed -e '/#/d' ./Cache/Geoip/Upstream/misakaio/chnroutes2/Geoip.txt > ./Cache/Geoip/Process/misakaio/chnroutes2/Geoip.txt
 
+
 ## iwik.org
-mkdir -p ./Cache/Geoip/Upstream/iwik.org
+mkdir -p ./Cache/Geoip/Process/iwik.org
 sed -e '/#/d' ./Cache/Geoip/Upstream/iwik.org/cn_cidr.txt > ./Cache/Geoip/Process/iwik.org/cn_cidr.txt
 sed -e '/#/d' ./Cache/Geoip/Upstream/iwik.org/cn_ipv6.txt > ./Cache/Geoip/Process/iwik.org/cn_ipv6.txt
-# Source
-mkdir -p ./Cache/Geoip/Process/Source/
-find ./Source/Geoip/IPv4 -type f -name "*.txt" | xargs cat > ./Cache/Geoip/Process/Source/IPv4.txt
-find ./Source/Geoip/IPv6 -type f -name "*.txt" | xargs cat > ./Cache/Geoip/Process/Source/IPv6.txt
+
+## Source
+#mkdir -p ./Cache/Geoip/Process/Source/
+#find ./Source/Geoip/IPv4 -type f -name "*.txt" | xargs cat > ./Cache/Geoip/Process/Source/IPv4.txt
+#find ./Source/Geoip/IPv6 -type f -name "*.txt" | xargs cat > ./Cache/Geoip/Process/Source/IPv6.txt
+
+## Hao0920/Geoip
+mkdir -p ./Cache/Geoip/Process/Hao0920/Geoip
+find ./Cache/Geoip/Upstream/Hao0920/Geoip/ -type f -name "*.txt" | xargs cat > ./Cache/Geoip/Process/Hao0920/Geoip/IPv4-1.txt
+find ./Cache/Geoip/Upstream/Hao0920/Geoip/ -type f -name "*.txt" | xargs cat > ./Cache/Geoip/Process/Hao0920/Geoip/IPv6-1.txt
+sed -e '/:/d' ./Cache/Geoip/Process/Hao0920/Geoip/IPv4-1.txt > ./Cache/Geoip/Process/Hao0920/Geoip/IPv4.txt
+sed -e '/./d' ./Cache/Geoip/Process/Hao0920/Geoip/IPv6-1.txt > ./Cache/Geoip/Process/Hao0920/Geoip/IPv6.txt
 
 # 整合Geoip
 ## IPv4
 {
-    cat ./Cache/Geoip/Process/Source/IPv4.txt
+#    cat ./Cache/Geoip/Process/Source/IPv4.txt
+    cat ./Cache/Geoip/Process/Hao0920/Geoip/IPv4.txt
     cat ./Cache/Geoip/Process/iwik.org/cn_cidr.txt
     cat ./Cache/Geoip/Process/misakaio/chnroutes2/Geoip.txt
     cat ./Cache/Geoip/Upstream/pexcn/daily/chnroute.txt
@@ -26,12 +36,14 @@ sort -u ./Cache/Geoip/Process/IPv4-1.txt > ./Cache/Geoip/Process/IPv4.txt
 
 ## IPv6
 {
-    cat ./Cache/Geoip/Process/Source/IPv6.txt
+#    cat ./Cache/Geoip/Process/Source/IPv6.txt
+    cat ./Cache/Geoip/Process/Hao0920/Geoip/IPv6.txt
     cat ./Cache/Geoip/Process/iwik.org/cn_ipv6.txt
     cat ./Cache/Geoip/Upstream/Clang.CN/all_cn_ipv6.txt
     cat ./Cache/Geoip/Upstream/pexcn/daily/chnroute-v6.txt
 } > ./Cache/Geoip/Process/IPv6-1.txt
 sort -u ./Cache/Geoip/Process/IPv6-1.txt > ./Cache/Geoip/Process/IPv6.txt
+
 
 # Forward DNS
 ## Loyalsoldier/v2ray-rules-dat
