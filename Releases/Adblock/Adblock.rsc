@@ -855,6 +855,7 @@ add name=df.mic.mob.com type=NXDOMAIN
 add name=df.tanx.com type=NXDOMAIN
 add name=dfe.mic.mob.com type=NXDOMAIN
 add name=dfiv.bjhengdiao.com type=NXDOMAIN
+add name=dg.mzxvib.com type=NXDOMAIN
 add name=diagnosis.ad.xiaomi.com type=NXDOMAIN
 add name=diagnostics.support.microsoft.com type=NXDOMAIN
 add name=diff.smartadserver.com type=NXDOMAIN
@@ -942,6 +943,7 @@ add name=ei.cnzz.com type=NXDOMAIN
 add name=eiv.baidu.com type=NXDOMAIN
 add name=eladies.zhmyq.cn type=NXDOMAIN
 add name=ell.88kids.mobi type=NXDOMAIN
+add name=ell.lubao-food.mobi type=NXDOMAIN
 add name=ell.zgzlw.biz type=NXDOMAIN
 add name=eluoyi.xbiquge6.com type=NXDOMAIN
 add name=emoticon.sns.iqiyi.com type=NXDOMAIN
@@ -1055,6 +1057,7 @@ add name=git.jnjcxx.com type=NXDOMAIN
 add name=glores2.taisantech.com type=NXDOMAIN
 add name=gnj4pit.lntnhtc.cn type=NXDOMAIN
 add name=go.jieshareme.xyz type=NXDOMAIN
+add name=go.lanmeifeel.xyz type=NXDOMAIN
 add name=go.mikongdd.top type=NXDOMAIN
 add name=go.mobpartner.mobi type=NXDOMAIN
 add name=go.qicaihong.xyz type=NXDOMAIN
@@ -1764,6 +1767,7 @@ add name=px.ucweb.com type=NXDOMAIN
 add name=px.xiaomifood.cn type=NXDOMAIN
 add name=py.da.mgtv.com type=NXDOMAIN
 add name=pyfdlz.zdzy.shop type=NXDOMAIN
+add name=q.i46.xyz type=NXDOMAIN
 add name=q.ki47.com type=NXDOMAIN
 add name=q14.cnzz.com type=NXDOMAIN
 add name=qapm.baidu.com type=NXDOMAIN
@@ -11292,8 +11296,10 @@ add name=tkledj.biquge.info type=NXDOMAIN
 add name=tl.oneway.mobi type=NXDOMAIN
 add name=tmeadcomm.y.qq.com type=NXDOMAIN
 add name=tmlm.ljmei.com type=NXDOMAIN
+add name=tn.vfqnhif.cn type=NXDOMAIN
 add name=tobapplog.ctobsnssdk.com type=NXDOMAIN
 add name=toblog.ctobsnssdk.com type=NXDOMAIN
+add name=toegm.xyz type=NXDOMAIN
 add name=tools.3g.qq.com type=NXDOMAIN
 add name=top.iibahmd.cn type=NXDOMAIN
 add name=topapi.cp12.ott.cibntv.net type=NXDOMAIN
@@ -11470,6 +11476,7 @@ add name=video.market.xiaomi.com type=NXDOMAIN
 add name=videopush.baidu.com type=NXDOMAIN
 add name=view.admaster.com.cn type=NXDOMAIN
 add name=view.mediav.com type=NXDOMAIN
+add name=vip.lanmeifeel.xyz type=NXDOMAIN
 add name=vip.meikdein.xyz type=NXDOMAIN
 add name=vip.qicaihong.xyz type=NXDOMAIN
 add name=viqiyi.admaster.com.cn type=NXDOMAIN
@@ -11497,6 +11504,7 @@ add name=vyk.admaster.com.cn type=NXDOMAIN
 add name=w.cnzz.com type=NXDOMAIN
 add name=w.l.qq.com type=NXDOMAIN
 add name=w.ymapp.com type=NXDOMAIN
+add name=w24.krp3g.top type=NXDOMAIN
 add name=wangmeng.baidu.com type=NXDOMAIN
 add name=wap.88xiaoshuo.com type=NXDOMAIN
 add name=wap.tiaozhuanmao1.cn type=NXDOMAIN
