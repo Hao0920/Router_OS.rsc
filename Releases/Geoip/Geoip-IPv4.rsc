@@ -803,6 +803,7 @@ add list=china address=103.153.160.0/23
 add list=china address=103.153.36.0/23
 add list=china address=103.153.4.0/23
 add list=china address=103.153.98.0/23
+add list=china address=103.153.99.0/24
 add list=china address=103.154.162.0/23
 add list=china address=103.154.164.0/23
 add list=china address=103.154.168.0/23
