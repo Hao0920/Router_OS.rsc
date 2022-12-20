@@ -20,7 +20,7 @@ wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/iwik.org/cn_cidr.txt "h
 wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/iwik.org/cn_ipv6.txt "https://www.iwik.org/ipcountry/CN.ipv6"
 
 ## Hao0920/Geoip
-mkdir -p ./Cache/Geoip/Upstream/Hao0920
+mkdir -p ./Cache/Geoip/Upstream/Hao0920/Geoip
 wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Hao0920/Geoip/games.txt "https://raw.githubusercontent.com/Hao0920/Geoip/release/text/games.txt"
 wget --no-check-certificate -c -O ./Cache/Geoip/Upstream/Hao0920/Geoip/vps.txt "https://raw.githubusercontent.com/Hao0920/Geoip/release/text/vps.txt"
 
