@@ -11,9 +11,9 @@ sed -e '/#/d' ./Cache/Geoip/Upstream/iwik.org/cn_cidr.txt > ./Cache/Geoip/Proces
 sed -e '/#/d' ./Cache/Geoip/Upstream/iwik.org/cn_ipv6.txt > ./Cache/Geoip/Process/iwik.org/cn_ipv6.txt
 
 ## Source
-#mkdir -p ./Cache/Geoip/Process/Source/
-#find ./Source/Geoip/IPv4 -type f -name "*.txt" | xargs cat > ./Cache/Geoip/Process/Source/IPv4.txt
-#find ./Source/Geoip/IPv6 -type f -name "*.txt" | xargs cat > ./Cache/Geoip/Process/Source/IPv6.txt
+mkdir -p ./Cache/Geoip/Process/Source/
+find ./Source/Geoip/IPv4 -type f -name "*.txt" | xargs cat > ./Cache/Geoip/Process/Source/IPv4.txt
+find ./Source/Geoip/IPv6 -type f -name "*.txt" | xargs cat > ./Cache/Geoip/Process/Source/IPv6.txt
 
 ## Hao0920/Geoip
 mkdir -p ./Cache/Geoip/Process/Hao0920/Geoip
