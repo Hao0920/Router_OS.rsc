@@ -561,6 +561,7 @@ add list=china_mobile address=2400:cc40::/32
 add list=china_mobile address=2400:cc80::/32
 add list=china_mobile address=2400:ccc0::/32
 add list=china_mobile address=2400:cd40::/32
+add list=china_mobile address=2400:cda0::/32
 add list=china_mobile address=2400:cdc0::/32
 add list=china_mobile address=2400:ce00::/32
 add list=china_mobile address=2400:ce40::/32
