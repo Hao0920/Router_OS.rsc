@@ -3065,6 +3065,7 @@ add list=china address=103.56.72.0/21
 add list=china address=103.56.72.0/22
 add list=china address=103.56.76.0/22
 add list=china address=103.56.8.0/22
+add list=china address=103.56.94.0/23
 add list=china address=103.57.12.0/22
 add list=china address=103.57.136.0/22
 add list=china address=103.57.196.0/22
