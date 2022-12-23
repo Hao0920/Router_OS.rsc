@@ -108,6 +108,7 @@ add list=china_education_and_research_network address=2403:ac00::/32
 add list=china_education_and_research_network address=2403:d400::/32
 add list=china_education_and_research_network address=2406:280::/32
 add list=china_education_and_research_network address=240a:a000::/20
+add list=china_education_and_research_network address=240b:e000::/26
 add list=china_education_and_research_network address=240c:c000::/20
 add list=china_education_and_research_network address=240d:4000::/21
 add list=great_wall_broadband_network address=2001:4438::/32
