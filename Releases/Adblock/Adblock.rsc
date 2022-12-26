@@ -426,6 +426,8 @@ add name=api-es.doglobal.net type=NXDOMAIN
 add name=api-gi.getui.com type=NXDOMAIN
 add name=api-luckycoinsdk.doglobal.net type=NXDOMAIN
 add name=api-mcp.adsp.xunlei.com type=NXDOMAIN
+add name=api.066hjkl.com type=NXDOMAIN
+add name=api.078uijy.com type=NXDOMAIN
 add name=api.1q8h.cn type=NXDOMAIN
 add name=api.7017k.com type=NXDOMAIN
 add name=api.ad-locus.com type=NXDOMAIN
@@ -11575,6 +11577,7 @@ add name=www.doumob.com type=NXDOMAIN
 add name=www.efzfcwxjvoentetjwhvuiuqbeyjkubrt.com type=NXDOMAIN
 add name=www.eltrafiko.com type=NXDOMAIN
 add name=www.fsktv1990.com type=NXDOMAIN
+add name=www.g7clqaj4lszb4l4u.com type=NXDOMAIN
 add name=www.google-analytics.com type=NXDOMAIN
 add name=www.googleadservices.com type=NXDOMAIN
 add name=www.googletagmanager.com type=NXDOMAIN
