@@ -1747,7 +1747,6 @@ add list=china_unicom address=27.192.0.0/11
 add list=china_unicom address=36.32.0.0/14
 add list=china_unicom address=36.248.0.0/14
 add list=china_unicom address=39.64.0.0/11
-add list=china_unicom address=42.1.128.0/17
 add list=china_unicom address=42.4.0.0/14
 add list=china_unicom address=42.48.0.0/15
 add list=china_unicom address=42.51.0.0/16
@@ -2757,6 +2756,7 @@ add list=othernet address=40.72.0.0/15
 add list=othernet address=40.125.128.0/17
 add list=othernet address=40.126.64.0/18
 add list=othernet address=42.0.128.0/17
+add list=othernet address=42.1.128.0/17
 add list=othernet address=42.50.0.0/16
 add list=othernet address=42.62.0.0/17
 add list=othernet address=42.83.128.0/17
