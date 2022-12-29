@@ -369,6 +369,7 @@ add list=china address=2400:ce00::/32
 add list=china address=2400:ce40::/32
 add list=china address=2400:cf40::/32
 add list=china address=2400:cfc0::/32
+add list=china address=2400:d0a0::/32
 add list=china address=2400:d0c0::/32
 add list=china address=2400:d100::/32
 add list=china address=2400:d1c0::/32
