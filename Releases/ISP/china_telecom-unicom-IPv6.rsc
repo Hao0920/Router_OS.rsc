@@ -5,6 +5,7 @@ add list=china_telecom address=2001:7fa:10::/48
 add list=china_telecom address=2001:c68::/32
 add list=china_telecom address=2400:7680::/32
 add list=china_telecom address=2400:9600::/32
+add list=china_telecom address=2400:d0a0::/32
 add list=china_telecom address=2401:8380::/32
 add list=china_telecom address=2401:fa80::/32
 add list=china_telecom address=2401:fb80::/32
