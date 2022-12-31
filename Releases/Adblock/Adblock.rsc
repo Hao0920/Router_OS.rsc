@@ -813,6 +813,7 @@ add name=ctr.hd.sohu.com type=NXDOMAIN
 add name=cul.awwlrd.cn type=NXDOMAIN
 add name=cvbdw.xyz type=NXDOMAIN
 add name=cvt.mydas.mobi type=NXDOMAIN
+add name=cwent.ybgo.xyz type=NXDOMAIN
 add name=cws-cctv.conviva.com type=NXDOMAIN
 add name=cxs.eexiaoshuo.com type=NXDOMAIN
 add name=d.721sjv.xyz type=NXDOMAIN
@@ -11482,6 +11483,7 @@ add name=vip.lanmeifeel.xyz type=NXDOMAIN
 add name=vip.meikdein.xyz type=NXDOMAIN
 add name=vip.qicaihong.xyz type=NXDOMAIN
 add name=viqiyi.admaster.com.cn type=NXDOMAIN
+add name=vlets.ybgo.xyz type=NXDOMAIN
 add name=vletv.admaster.com.cn type=NXDOMAIN
 add name=vm.aty.sohu.com type=NXDOMAIN
 add name=vmindhls.tc.qq.com type=NXDOMAIN
