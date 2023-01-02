@@ -1,11 +1,14 @@
 /ipv6 firewall address-list
 remove [find list=scanners]
 add list=scanners address=2406:cb40:0:f048::e953
+add list=scanners address=2408:8220:2a:5d80:68ea:1299:f339:1043
 add list=scanners address=2409:891f:9a40:89f6:50f6:f933:8821:4786
 add list=scanners address=2409:891f:9a40:89f6:d1b0:330b:72ad:bc47
 add list=scanners address=2607:ff28:a005:10a:ec4:7aff:feb5:1a2e
 add list=scanners address=2607:ff28:a005:4f:ec4:7aff:feb3:d032
 add list=scanners address=2607:ff28:a005:50:ec4:7aff:feb3:c9b8
+add list=scanners address=2607:ff28:a005:ab:ec4:7aff:feb5:19f0
+add list=scanners address=2607:ff28:a005:b4:ec4:7aff:feb5:1700
 add list=scanners address=2607:ff28:a005:c2:ec4:7aff:feb5:1c62
 add list=scanners address=2607:ff28:a005:c4:ec4:7aff:feb5:1bd4
 add list=scanners address=2607:ff28:a005:f6:ec4:7aff:feb5:1a74
@@ -13,5 +16,4 @@ add list=scanners address=2a03:f80:ed15:f342::1
 add list=scanners address=2a05:8280:f:431f::1
 add list=scanners address=2a05:8280:f:431f::11
 add list=scanners address=2a05:8280:f:431f::2
-add list=scanners address=2a10:1fc0:5::932b:3f4a
 /file remove Scanners-IPv6.rsc
