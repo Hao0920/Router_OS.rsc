@@ -17,6 +17,7 @@ add name=4171764.fls.doubleclick.net type=NXDOMAIN
 add name=52xs.live type=NXDOMAIN
 add name=58749.admaster.com.cn type=NXDOMAIN
 add name=5j73de.cn type=NXDOMAIN
+add name=6nglkt9.azhhr.cn type=NXDOMAIN
 add name=79t2.admaster.com.cn type=NXDOMAIN
 add name=7zva1jn.44j4oo2a.cn type=NXDOMAIN
 add name=80vn.cn type=NXDOMAIN
@@ -1194,6 +1195,7 @@ add name=ipmatm.cp12.wasu.tv type=NXDOMAIN
 add name=iqiyi.irs01.com type=NXDOMAIN
 add name=iqiyi.m.cn.miaozhen.com type=NXDOMAIN
 add name=irs01.com type=NXDOMAIN
+add name=irygym.xyz type=NXDOMAIN
 add name=item.mediav.com type=NXDOMAIN
 add name=itx5-publicidad.smartadserver.com type=NXDOMAIN
 add name=itx5.smartadserver.com type=NXDOMAIN
@@ -1543,6 +1545,7 @@ add name=mobileads.msn.com type=NXDOMAIN
 add name=mobixc.bwervzxv.cyou type=NXDOMAIN
 add name=mobixc.ngnlaigc.fun type=NXDOMAIN
 add name=mobixc.owervzxk.cyou type=NXDOMAIN
+add name=mobixc.qmxnsahy.cyou type=NXDOMAIN
 add name=mobixc.qqnggnsy.fun type=NXDOMAIN
 add name=mobpartner.mobi type=NXDOMAIN
 add name=mobwsa.ximalaya.com type=NXDOMAIN
@@ -1617,6 +1620,7 @@ add name=nrcapi.ssl2.duapps.com type=NXDOMAIN
 add name=nsclick.baidu.com type=NXDOMAIN
 add name=nsclickvideo.baidu.com type=NXDOMAIN
 add name=o2o.api.xiaomi.com type=NXDOMAIN
+add name=o36j7a2.azhhr.cn type=NXDOMAIN
 add name=o9jfju28l.hualongyichuangkj.com type=NXDOMAIN
 add name=oasc04012.247realmedia.com type=NXDOMAIN
 add name=obozy.pzdlfww.cn type=NXDOMAIN
