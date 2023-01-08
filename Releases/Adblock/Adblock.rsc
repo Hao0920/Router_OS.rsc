@@ -660,6 +660,7 @@ add name=c.piecoupon.cn type=NXDOMAIN
 add name=c.pwfhjjh.cn type=NXDOMAIN
 add name=c.qhruisen.cn type=NXDOMAIN
 add name=c.qv566.cn type=NXDOMAIN
+add name=c.rdoybkd.cn type=NXDOMAIN
 add name=c.rxconkz.cn type=NXDOMAIN
 add name=c.saastt.com type=NXDOMAIN
 add name=c.sayhi.360.cn type=NXDOMAIN
@@ -1542,11 +1543,13 @@ add name=mobile.eeree.top type=NXDOMAIN
 add name=mobile2.da.mgtv.com type=NXDOMAIN
 add name=mobilead.kuwo.cn type=NXDOMAIN
 add name=mobileads.msn.com type=NXDOMAIN
+add name=mobivx.zmxnsahq.cyou type=NXDOMAIN
 add name=mobixc.bwervzxv.cyou type=NXDOMAIN
 add name=mobixc.ngnlaigc.fun type=NXDOMAIN
 add name=mobixc.owervzxk.cyou type=NXDOMAIN
 add name=mobixc.qmxnsahy.cyou type=NXDOMAIN
 add name=mobixc.qqnggnsy.fun type=NXDOMAIN
+add name=mobixc.zmxnsahq.cyou type=NXDOMAIN
 add name=mobpartner.mobi type=NXDOMAIN
 add name=mobwsa.ximalaya.com type=NXDOMAIN
 add name=mon.ad.xelements.cn type=NXDOMAIN
@@ -1781,6 +1784,7 @@ add name=qapm.baidu.com type=NXDOMAIN
 add name=qappcenterv6.3g.qq.com type=NXDOMAIN
 add name=qeujmo.wap.xsbiquge.com type=NXDOMAIN
 add name=qianlong.adsame.com type=NXDOMAIN
+add name=qiegoa.xyz type=NXDOMAIN
 add name=qosp.msg.71.am type=NXDOMAIN
 add name=qq.vvx.highter.top type=NXDOMAIN
 add name=qq.zoujuhonglawyer.com type=NXDOMAIN
@@ -11356,6 +11360,7 @@ add name=umdc.aliapp.org type=NXDOMAIN
 add name=umeng.com type=NXDOMAIN
 add name=umengacs.m.taobao.com type=NXDOMAIN
 add name=umengjmacs.m.taobao.com type=NXDOMAIN
+add name=un.ztxstudy.club type=NXDOMAIN
 add name=unidesk.alicdn.com type=NXDOMAIN
 add name=union.56.com type=NXDOMAIN
 add name=union.6.cn type=NXDOMAIN
@@ -11426,6 +11431,7 @@ add name=v.piecoupon.cn type=NXDOMAIN
 add name=v.pwfhjjh.cn type=NXDOMAIN
 add name=v.qhruisen.cn type=NXDOMAIN
 add name=v.qv566.cn type=NXDOMAIN
+add name=v.rdoybkd.cn type=NXDOMAIN
 add name=v.rxconkz.cn type=NXDOMAIN
 add name=v.saastt.com type=NXDOMAIN
 add name=v.shantelope.com type=NXDOMAIN
