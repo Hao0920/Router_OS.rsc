@@ -13,6 +13,7 @@ add name=2mdn.net type=NXDOMAIN
 add name=3.iscrv.com type=NXDOMAIN
 add name=397c0.admaster.com.cn type=NXDOMAIN
 add name=3m.mediav.com type=NXDOMAIN
+add name=3sclqjn.51gpiao.cn type=NXDOMAIN
 add name=4171764.fls.doubleclick.net type=NXDOMAIN
 add name=52xs.live type=NXDOMAIN
 add name=58749.admaster.com.cn type=NXDOMAIN
@@ -1058,6 +1059,7 @@ add name=ggx02.miguvideo.com type=NXDOMAIN
 add name=ggx10.miguvideo.com type=NXDOMAIN
 add name=gi.gepush.com type=NXDOMAIN
 add name=gi.getui.net type=NXDOMAIN
+add name=gi6u7j3.51gpiao.cn type=NXDOMAIN
 add name=git.jnjcxx.com type=NXDOMAIN
 add name=glores2.taisantech.com type=NXDOMAIN
 add name=gnj4pit.lntnhtc.cn type=NXDOMAIN
@@ -1102,6 +1104,7 @@ add name=hcc.qududu.cc type=NXDOMAIN
 add name=hd.hupu.com type=NXDOMAIN
 add name=hdc.watchtimes.com.cn type=NXDOMAIN
 add name=hdj.baidu.com type=NXDOMAIN
+add name=hf.huidianya.com type=NXDOMAIN
 add name=hhbekxxw5d9e.pflexads.com type=NXDOMAIN
 add name=hijack.baidu.com type=NXDOMAIN
 add name=hm.baidu.com type=NXDOMAIN
@@ -1543,8 +1546,10 @@ add name=mobile.eeree.top type=NXDOMAIN
 add name=mobile2.da.mgtv.com type=NXDOMAIN
 add name=mobilead.kuwo.cn type=NXDOMAIN
 add name=mobileads.msn.com type=NXDOMAIN
+add name=mobivx.euyqiolnw.cyou type=NXDOMAIN
 add name=mobivx.zmxnsahq.cyou type=NXDOMAIN
 add name=mobixc.bwervzxv.cyou type=NXDOMAIN
+add name=mobixc.euyqiolnw.cyou type=NXDOMAIN
 add name=mobixc.ngnlaigc.fun type=NXDOMAIN
 add name=mobixc.owervzxk.cyou type=NXDOMAIN
 add name=mobixc.qmxnsahy.cyou type=NXDOMAIN
@@ -11360,6 +11365,7 @@ add name=umdc.aliapp.org type=NXDOMAIN
 add name=umeng.com type=NXDOMAIN
 add name=umengacs.m.taobao.com type=NXDOMAIN
 add name=umengjmacs.m.taobao.com type=NXDOMAIN
+add name=un.yuqingby.fun type=NXDOMAIN
 add name=un.ztxstudy.club type=NXDOMAIN
 add name=unidesk.alicdn.com type=NXDOMAIN
 add name=union.56.com type=NXDOMAIN
@@ -11519,6 +11525,7 @@ add name=w.cnzz.com type=NXDOMAIN
 add name=w.l.qq.com type=NXDOMAIN
 add name=w.ymapp.com type=NXDOMAIN
 add name=w24.krp3g.top type=NXDOMAIN
+add name=w27.7x1u.icu type=NXDOMAIN
 add name=wangmeng.baidu.com type=NXDOMAIN
 add name=wap.88xiaoshuo.com type=NXDOMAIN
 add name=wap.tiaozhuanmao1.cn type=NXDOMAIN
