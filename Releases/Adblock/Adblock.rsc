@@ -430,6 +430,7 @@ add name=api-luckycoinsdk.doglobal.net type=NXDOMAIN
 add name=api-mcp.adsp.xunlei.com type=NXDOMAIN
 add name=api.066hjkl.com type=NXDOMAIN
 add name=api.078uijy.com type=NXDOMAIN
+add name=api.097iuhy.com type=NXDOMAIN
 add name=api.1q8h.cn type=NXDOMAIN
 add name=api.7017k.com type=NXDOMAIN
 add name=api.ad-locus.com type=NXDOMAIN
@@ -1547,6 +1548,7 @@ add name=mobile2.da.mgtv.com type=NXDOMAIN
 add name=mobilead.kuwo.cn type=NXDOMAIN
 add name=mobileads.msn.com type=NXDOMAIN
 add name=mobivx.euyqiolnw.cyou type=NXDOMAIN
+add name=mobivx.wuyqiolne.cyou type=NXDOMAIN
 add name=mobivx.zmxnsahq.cyou type=NXDOMAIN
 add name=mobixc.bwervzxv.cyou type=NXDOMAIN
 add name=mobixc.euyqiolnw.cyou type=NXDOMAIN
@@ -1554,6 +1556,7 @@ add name=mobixc.ngnlaigc.fun type=NXDOMAIN
 add name=mobixc.owervzxk.cyou type=NXDOMAIN
 add name=mobixc.qmxnsahy.cyou type=NXDOMAIN
 add name=mobixc.qqnggnsy.fun type=NXDOMAIN
+add name=mobixc.wuyqiolne.cyou type=NXDOMAIN
 add name=mobixc.zmxnsahq.cyou type=NXDOMAIN
 add name=mobpartner.mobi type=NXDOMAIN
 add name=mobwsa.ximalaya.com type=NXDOMAIN
