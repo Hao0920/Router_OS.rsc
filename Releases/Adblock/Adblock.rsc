@@ -15,6 +15,7 @@ add name=397c0.admaster.com.cn type=NXDOMAIN
 add name=3m.mediav.com type=NXDOMAIN
 add name=3sclqjn.51gpiao.cn type=NXDOMAIN
 add name=4171764.fls.doubleclick.net type=NXDOMAIN
+add name=4mtjzwz.bgjjwl.cn type=NXDOMAIN
 add name=52xs.live type=NXDOMAIN
 add name=58749.admaster.com.cn type=NXDOMAIN
 add name=5j73de.cn type=NXDOMAIN
@@ -627,6 +628,7 @@ add name=c.fzjarow.cn type=NXDOMAIN
 add name=c.gk596.cn type=NXDOMAIN
 add name=c.greystripe.com type=NXDOMAIN
 add name=c.haoanfang.cn type=NXDOMAIN
+add name=c.hhaobcj.cn type=NXDOMAIN
 add name=c.hjhkpx.cn type=NXDOMAIN
 add name=c.hntk.top type=NXDOMAIN
 add name=c.hnzls8.cn type=NXDOMAIN
@@ -942,6 +944,7 @@ add name=ee.w82ph.cn type=NXDOMAIN
 add name=ee.xfya3.cn type=NXDOMAIN
 add name=ee.yg10x.cn type=NXDOMAIN
 add name=ee.zn8ni.cn type=NXDOMAIN
+add name=ee1zz2a.bgjjwl.cn type=NXDOMAIN
 add name=eei.lobbycafe.cn type=NXDOMAIN
 add name=ef-dongfeng.tanx.com type=NXDOMAIN
 add name=ef9i.lo83cs.space type=NXDOMAIN
@@ -1176,6 +1179,7 @@ add name=img.ads.mobilefuse.net type=NXDOMAIN
 add name=img.ads.taptapnetworks.com type=NXDOMAIN
 add name=img.baidu.qianggou8.top type=NXDOMAIN
 add name=imp.ad.xelements.cn type=NXDOMAIN
+add name=imrcdl3.geiaxbk.cn type=NXDOMAIN
 add name=in.beizhoujt.cn type=NXDOMAIN
 add name=in.coroplastsheet.cn type=NXDOMAIN
 add name=in.jinlubaojie.cn type=NXDOMAIN
@@ -1548,6 +1552,7 @@ add name=mobile2.da.mgtv.com type=NXDOMAIN
 add name=mobilead.kuwo.cn type=NXDOMAIN
 add name=mobileads.msn.com type=NXDOMAIN
 add name=mobivx.euyqiolnw.cyou type=NXDOMAIN
+add name=mobivx.tuyqiolni.cyou type=NXDOMAIN
 add name=mobivx.wuyqiolne.cyou type=NXDOMAIN
 add name=mobivx.zmxnsahq.cyou type=NXDOMAIN
 add name=mobixc.bwervzxv.cyou type=NXDOMAIN
@@ -1556,6 +1561,7 @@ add name=mobixc.ngnlaigc.fun type=NXDOMAIN
 add name=mobixc.owervzxk.cyou type=NXDOMAIN
 add name=mobixc.qmxnsahy.cyou type=NXDOMAIN
 add name=mobixc.qqnggnsy.fun type=NXDOMAIN
+add name=mobixc.tuyqiolni.cyou type=NXDOMAIN
 add name=mobixc.wuyqiolne.cyou type=NXDOMAIN
 add name=mobixc.zmxnsahq.cyou type=NXDOMAIN
 add name=mobpartner.mobi type=NXDOMAIN
@@ -10995,6 +11001,7 @@ add name=raddus.bayescom.com type=NXDOMAIN
 add name=rayli.adsame.com type=NXDOMAIN
 add name=rcv.aiclk.com type=NXDOMAIN
 add name=rd596n.jomodns.com type=NXDOMAIN
+add name=re5mqs2.geiaxbk.cn type=NXDOMAIN
 add name=redir.metaservices.microsoft.com type=NXDOMAIN
 add name=report-stats.ad.jiguang.cn type=NXDOMAIN
 add name=report.adview.cn type=NXDOMAIN
@@ -11406,6 +11413,7 @@ add name=v.fzckwij.cn type=NXDOMAIN
 add name=v.fzjarow.cn type=NXDOMAIN
 add name=v.gk596.cn type=NXDOMAIN
 add name=v.haoanfang.cn type=NXDOMAIN
+add name=v.hhaobcj.cn type=NXDOMAIN
 add name=v.hjhkpx.cn type=NXDOMAIN
 add name=v.hntk.top type=NXDOMAIN
 add name=v.hnzls8.cn type=NXDOMAIN
