@@ -19,6 +19,7 @@ add name=4mtjzwz.bgjjwl.cn type=NXDOMAIN
 add name=52xs.live type=NXDOMAIN
 add name=58749.admaster.com.cn type=NXDOMAIN
 add name=5j73de.cn type=NXDOMAIN
+add name=605yuym.ddqhnjb.cn type=NXDOMAIN
 add name=6nglkt9.azhhr.cn type=NXDOMAIN
 add name=79t2.admaster.com.cn type=NXDOMAIN
 add name=7zva1jn.44j4oo2a.cn type=NXDOMAIN
@@ -816,6 +817,7 @@ add name=creative1cdn.mobfox.com type=NXDOMAIN
 add name=crs.baidu.com type=NXDOMAIN
 add name=csekct.xyz type=NXDOMAIN
 add name=ctr.hd.sohu.com type=NXDOMAIN
+add name=cuic7w5.ddqhnjb.cn type=NXDOMAIN
 add name=cul.awwlrd.cn type=NXDOMAIN
 add name=cvbdw.xyz type=NXDOMAIN
 add name=cvt.mydas.mobi type=NXDOMAIN
@@ -1245,6 +1247,7 @@ add name=keybut.com type=NXDOMAIN
 add name=killstor.qushuba.com type=NXDOMAIN
 add name=kn.zhangdujia.com type=NXDOMAIN
 add name=kn.zhipinbook.cn type=NXDOMAIN
+add name=koatkm.xyz type=NXDOMAIN
 add name=kpstaticbj.wx.ckjr001.com type=NXDOMAIN
 add name=kry.jknrwe.cn type=NXDOMAIN
 add name=l.bjzsyx.cn type=NXDOMAIN
@@ -1638,6 +1641,7 @@ add name=nsclick.baidu.com type=NXDOMAIN
 add name=nsclickvideo.baidu.com type=NXDOMAIN
 add name=o2o.api.xiaomi.com type=NXDOMAIN
 add name=o36j7a2.azhhr.cn type=NXDOMAIN
+add name=o8sry6o.ebzqyow.cn type=NXDOMAIN
 add name=o9jfju28l.hualongyichuangkj.com type=NXDOMAIN
 add name=oasc04012.247realmedia.com type=NXDOMAIN
 add name=obozy.pzdlfww.cn type=NXDOMAIN
@@ -11023,6 +11027,7 @@ add name=rtb.admaster.com.cn type=NXDOMAIN
 add name=rtb.adview.cn type=NXDOMAIN
 add name=rtd.tubemogul.com type=NXDOMAIN
 add name=rucqv.slgo.club type=NXDOMAIN
+add name=rz3cb7p.ebzqyow.cn type=NXDOMAIN
 add name=s.360.cn type=NXDOMAIN
 add name=s.ads.sohu.com type=NXDOMAIN
 add name=s.adxvip.com type=NXDOMAIN
