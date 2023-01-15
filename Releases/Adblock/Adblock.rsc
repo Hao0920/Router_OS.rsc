@@ -646,6 +646,7 @@ add name=c.kyvhxik.cn type=NXDOMAIN
 add name=c.l.qq.com type=NXDOMAIN
 add name=c.l0yjow.cn type=NXDOMAIN
 add name=c.l570mb.cn type=NXDOMAIN
+add name=c.laxnlqn.cn type=NXDOMAIN
 add name=c.leslieyu.com.cn type=NXDOMAIN
 add name=c.lianjikeji.cn type=NXDOMAIN
 add name=c.lxanimation.cn type=NXDOMAIN
@@ -687,6 +688,7 @@ add name=c.vrvm.com type=NXDOMAIN
 add name=c.vserv.mobi type=NXDOMAIN
 add name=c.w.inmobi.com type=NXDOMAIN
 add name=c.wdgrtug.cn type=NXDOMAIN
+add name=c.wdmdejd.cn type=NXDOMAIN
 add name=c.whbhsoft.cn type=NXDOMAIN
 add name=c.wjlzs.cn type=NXDOMAIN
 add name=c.woaiseo.com.cn type=NXDOMAIN
@@ -1105,6 +1107,7 @@ add name=h.trace.qq.com type=NXDOMAIN
 add name=h.wvjjnb.cn type=NXDOMAIN
 add name=h.yosjob.cn type=NXDOMAIN
 add name=h19a.cc type=NXDOMAIN
+add name=ha.forestwo1f.ltd type=NXDOMAIN
 add name=hcbjwt.com type=NXDOMAIN
 add name=hcc.qududu.cc type=NXDOMAIN
 add name=hd.hupu.com type=NXDOMAIN
@@ -11170,6 +11173,7 @@ add name=sifa.taishu.shop type=NXDOMAIN
 add name=sifa.xuexi.wiki type=NXDOMAIN
 add name=simba.6.cn type=NXDOMAIN
 add name=sitemonitor.cn.miaozhen.com type=NXDOMAIN
+add name=siuscs.xyz type=NXDOMAIN
 add name=sjarvis.taobao.com type=NXDOMAIN
 add name=sltint.adv.ott.cibntv.net type=NXDOMAIN
 add name=sm.domob.cn type=NXDOMAIN
@@ -11434,6 +11438,7 @@ add name=v.kkbb.top type=NXDOMAIN
 add name=v.kyvhxik.cn type=NXDOMAIN
 add name=v.l0yjow.cn type=NXDOMAIN
 add name=v.l570mb.cn type=NXDOMAIN
+add name=v.laxnlqn.cn type=NXDOMAIN
 add name=v.leslieyu.com.cn type=NXDOMAIN
 add name=v.lianjikeji.cn type=NXDOMAIN
 add name=v.lxanimation.cn type=NXDOMAIN
@@ -11467,6 +11472,7 @@ add name=v.totoc.top type=NXDOMAIN
 add name=v.uqjflmw.cn type=NXDOMAIN
 add name=v.vl665.cn type=NXDOMAIN
 add name=v.wdgrtug.cn type=NXDOMAIN
+add name=v.wdmdejd.cn type=NXDOMAIN
 add name=v.whbhsoft.cn type=NXDOMAIN
 add name=v.wjlzs.cn type=NXDOMAIN
 add name=v.woaiseo.com.cn type=NXDOMAIN
@@ -11632,6 +11638,7 @@ add name=www.jfsdiwmnbsk007.top type=NXDOMAIN
 add name=www.jfsdiwmnbsk008.top type=NXDOMAIN
 add name=www.jfsdiwmnbsk009.top type=NXDOMAIN
 add name=www.jrafspaelojsejbn.xyz type=NXDOMAIN
+add name=www.jsqsjn.com type=NXDOMAIN
 add name=www.lmlmvip.com type=NXDOMAIN
 add name=www.meipian7.cn type=NXDOMAIN
 add name=www.mmnetwork.mobi type=NXDOMAIN
