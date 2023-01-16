@@ -823,6 +823,7 @@ add name=cuic7w5.ddqhnjb.cn type=NXDOMAIN
 add name=cul.awwlrd.cn type=NXDOMAIN
 add name=cvbdw.xyz type=NXDOMAIN
 add name=cvt.mydas.mobi type=NXDOMAIN
+add name=cwent.tuape.xyz type=NXDOMAIN
 add name=cwent.ybgo.xyz type=NXDOMAIN
 add name=cws-cctv.conviva.com type=NXDOMAIN
 add name=cxs.eexiaoshuo.com type=NXDOMAIN
@@ -1210,6 +1211,7 @@ add name=iqiyi.irs01.com type=NXDOMAIN
 add name=iqiyi.m.cn.miaozhen.com type=NXDOMAIN
 add name=irs01.com type=NXDOMAIN
 add name=irygym.xyz type=NXDOMAIN
+add name=it7gcwn.wushangzeichuan.xin type=NXDOMAIN
 add name=item.mediav.com type=NXDOMAIN
 add name=itx5-publicidad.smartadserver.com type=NXDOMAIN
 add name=itx5.smartadserver.com type=NXDOMAIN
@@ -11521,6 +11523,8 @@ add name=vip.lanmeifeel.xyz type=NXDOMAIN
 add name=vip.meikdein.xyz type=NXDOMAIN
 add name=vip.qicaihong.xyz type=NXDOMAIN
 add name=viqiyi.admaster.com.cn type=NXDOMAIN
+add name=vkn3yy0.wushangzeichuan.xin type=NXDOMAIN
+add name=vlets.tuape.xyz type=NXDOMAIN
 add name=vlets.ybgo.xyz type=NXDOMAIN
 add name=vletv.admaster.com.cn type=NXDOMAIN
 add name=vm.aty.sohu.com type=NXDOMAIN
