@@ -582,6 +582,7 @@ add list=othernet_ipv6 address=2400:d6a0::/32
 add list=othernet_ipv6 address=2400:d6c0::/32
 add list=othernet_ipv6 address=2400:d720::/32
 add list=othernet_ipv6 address=2400:d780::/32
+add list=othernet_ipv6 address=2400:d7a0::/32
 add list=othernet_ipv6 address=2400:da00::/32
 add list=othernet_ipv6 address=2400:dd00::/28
 add list=othernet_ipv6 address=2400:dd40::/32
