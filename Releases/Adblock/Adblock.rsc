@@ -401,7 +401,6 @@ add name=amdcopen.m.taobao.com type=NXDOMAIN
 add name=amx.ltaome.cn type=NXDOMAIN
 add name=ana.masky.biddingx.com type=NXDOMAIN
 add name=analytic-google.com type=NXDOMAIN
-add name=analytics.samsungknox.com type=NXDOMAIN
 add name=analytics3.dopool.com type=NXDOMAIN
 add name=analytics3.starschina.com type=NXDOMAIN
 add name=andpeng.qushuba.com type=NXDOMAIN
@@ -565,7 +564,6 @@ add name=benedictene.com type=NXDOMAIN
 add name=bid.adview.cn type=NXDOMAIN
 add name=bid.g.doubleclick.net type=NXDOMAIN
 add name=bigdata.advmob.cn type=NXDOMAIN
-add name=bigdata.ssp.samsung.com type=NXDOMAIN
 add name=bigmobileads.com type=NXDOMAIN
 add name=bill.agent.56.com type=NXDOMAIN
 add name=bill.agent.v-56.com type=NXDOMAIN
@@ -575,8 +573,6 @@ add name=bjdata.ads.oppomobile.com type=NXDOMAIN
 add name=bjuser.jpush.cn type=NXDOMAIN
 add name=bksoup.v.qq.com type=NXDOMAIN
 add name=bolt.jebe.renren.com type=NXDOMAIN
-add name=books-analytics-events.apple.com type=NXDOMAIN
-add name=books-analytics-events.news.apple-dns.net type=NXDOMAIN
 add name=bootcdn.meihaoxiangwang.com type=NXDOMAIN
 add name=botuu.adsame.com type=NXDOMAIN
 add name=bourewsr.qushuba.com type=NXDOMAIN
@@ -713,7 +709,6 @@ add name=c2sw.wbmvohkn.cn type=NXDOMAIN
 add name=c753738.r38.cf2.rackcdn.com type=NXDOMAIN
 add name=cache-ssl.celtra.com type=NXDOMAIN
 add name=cache.celtra.com type=NXDOMAIN
-add name=cache.datamart.windows.com type=NXDOMAIN
 add name=cache1.value-domain.com type=NXDOMAIN
 add name=caing.adsame.com type=NXDOMAIN
 add name=caixin.adsame.com type=NXDOMAIN
@@ -757,7 +752,6 @@ add name=cf8d.stat.gw.youmi.net type=NXDOMAIN
 add name=cfg-cdn.aiclk.com type=NXDOMAIN
 add name=changyan.sohu.com type=NXDOMAIN
 add name=china.inmobi.com type=NXDOMAIN
-add name=choice.microsoft.com type=NXDOMAIN
 add name=ci0s.i4h7md.cn type=NXDOMAIN
 add name=city.youpukeji.cn type=NXDOMAIN
 add name=ckmap.mediav.com type=NXDOMAIN
@@ -806,7 +800,6 @@ add name=config.unityads.unitychina.cn type=NXDOMAIN
 add name=conversion.adpro.cn type=NXDOMAIN
 add name=conversion.pro.cn type=NXDOMAIN
 add name=corebug.adsame.com type=NXDOMAIN
-add name=corp.sts.microsoft.com type=NXDOMAIN
 add name=count.game.pps.tv type=NXDOMAIN
 add name=count.vrs.sohu.com type=NXDOMAIN
 add name=cpro.baidu.com type=NXDOMAIN
@@ -844,11 +837,6 @@ add name=da.mmarket.com type=NXDOMAIN
 add name=dat1.jzjxmj.com type=NXDOMAIN
 add name=data-id.ads.oppomobile.com type=NXDOMAIN
 add name=data.ads.oppomobile.com type=NXDOMAIN
-add name=data.alexa.com type=NXDOMAIN
-add name=data.mistat.india.xiaomi.com type=NXDOMAIN
-add name=data.mistat.intl.xiaomi.com type=NXDOMAIN
-add name=data.mistat.rus.xiaomi.com type=NXDOMAIN
-add name=data.mistat.xiaomi.com type=NXDOMAIN
 add name=dataf.ads.oppomobile.com type=NXDOMAIN
 add name=datax.baidu.com type=NXDOMAIN
 add name=daw.biquge.info type=NXDOMAIN
@@ -862,8 +850,6 @@ add name=de.as.pptv.com type=NXDOMAIN
 add name=demo.adsame.com type=NXDOMAIN
 add name=dev.iyuba.cn type=NXDOMAIN
 add name=dev.umeng.com type=NXDOMAIN
-add name=device-metrics-us-2.amazon.com type=NXDOMAIN
-add name=device-metrics-us.amazon.com type=NXDOMAIN
 add name=devs.data.mob.com type=NXDOMAIN
 add name=df.mic.mob.com type=NXDOMAIN
 add name=df.tanx.com type=NXDOMAIN
@@ -871,7 +857,6 @@ add name=dfe.mic.mob.com type=NXDOMAIN
 add name=dfiv.bjhengdiao.com type=NXDOMAIN
 add name=dg.mzxvib.com type=NXDOMAIN
 add name=diagnosis.ad.xiaomi.com type=NXDOMAIN
-add name=diagnostics.support.microsoft.com type=NXDOMAIN
 add name=diff.smartadserver.com type=NXDOMAIN
 add name=diff2.smartadserver.com type=NXDOMAIN
 add name=diff3.smartadserver.com type=NXDOMAIN
@@ -905,7 +890,6 @@ add name=du.163.com type=NXDOMAIN
 add name=duomeng.cn type=NXDOMAIN
 add name=dup.baidustatic.com type=NXDOMAIN
 add name=durdcn.doglobal.net type=NXDOMAIN
-add name=dzc-metrics.mzstatic.com type=NXDOMAIN
 add name=e-ad-monitor.huya.com type=NXDOMAIN
 add name=e.11bl.gold type=NXDOMAIN
 add name=e.5y67n.cn type=NXDOMAIN
@@ -1022,8 +1006,6 @@ add name=f99.265958.com type=NXDOMAIN
 add name=fb.cxjju.cn type=NXDOMAIN
 add name=fbapi.guguread.com type=NXDOMAIN
 add name=fclog.baidu.com type=NXDOMAIN
-add name=feedback.search.microsoft.com type=NXDOMAIN
-add name=feedback.windows.com type=NXDOMAIN
 add name=ff.yiqima.xyz type=NXDOMAIN
 add name=files.adform.net type=NXDOMAIN
 add name=film.dofkfhv.cn type=NXDOMAIN
@@ -1158,7 +1140,6 @@ add name=i.l.inmobicdn.net type=NXDOMAIN
 add name=i.opiwb.com type=NXDOMAIN
 add name=i.w.inmobi.cn type=NXDOMAIN
 add name=i.w.inmobi.com type=NXDOMAIN
-add name=i1.services.social.microsoft.com type=NXDOMAIN
 add name=iacpromotion.s3.amazonaws.com type=NXDOMAIN
 add name=iadmusicmat.music.126.net type=NXDOMAIN
 add name=iadmusicmatvideo.music.126.net type=NXDOMAIN
@@ -1202,7 +1183,6 @@ add name=incsh.sanmenxia.info type=NXDOMAIN
 add name=inline.admedia.com type=NXDOMAIN
 add name=inneractive-assets.s3.amazonaws.com type=NXDOMAIN
 add name=innovid.com type=NXDOMAIN
-add name=insights.samsung.com type=NXDOMAIN
 add name=intxt.haoxianyangrouye.com type=NXDOMAIN
 add name=ios.426g.com type=NXDOMAIN
 add name=ipm.atm.youku.com type=NXDOMAIN
@@ -1291,9 +1271,6 @@ add name=log.umsns.com type=NXDOMAIN
 add name=log1.cmpassport.com type=NXDOMAIN
 add name=logs.amap.com type=NXDOMAIN
 add name=logs.chelaile.net.cn type=NXDOMAIN
-add name=logs.roku.com type=NXDOMAIN
-add name=logservice.hicloud.com type=NXDOMAIN
-add name=logservice1.hicloud.com type=NXDOMAIN
 add name=lp.mp.mydas.mobi type=NXDOMAIN
 add name=lp.mydas.mobi type=NXDOMAIN
 add name=lplxiaohu.m.biqubao.com type=NXDOMAIN
@@ -1481,15 +1458,6 @@ add name=media.admob.com type=NXDOMAIN
 add name=media.mobpartner.mobi type=NXDOMAIN
 add name=media.mydas.mobi type=NXDOMAIN
 add name=met.adwhirl.com type=NXDOMAIN
-add name=metrics.apple.com type=NXDOMAIN
-add name=metrics.data.hicloud.com type=NXDOMAIN
-add name=metrics.icloud.com type=NXDOMAIN
-add name=metrics.mzstatic.com type=NXDOMAIN
-add name=metrics1.data.hicloud.com type=NXDOMAIN
-add name=metrics2.data.hicloud.com type=NXDOMAIN
-add name=metrics3.data.hicloud.com type=NXDOMAIN
-add name=metrics4.data.hicloud.com type=NXDOMAIN
-add name=metrics5.data.hicloud.com type=NXDOMAIN
 add name=mfo25978.eeo1h1.cn type=NXDOMAIN
 add name=mg.ledaren.cn type=NXDOMAIN
 add name=mgr.aduu.cn type=NXDOMAIN
@@ -1592,8 +1560,6 @@ add name=msga.71.am type=NXDOMAIN
 add name=msga.cupid.iqiyi.com type=NXDOMAIN
 add name=msgv6.qy.net type=NXDOMAIN
 add name=msite.baidu.com type=NXDOMAIN
-add name=msmetrics-test.ws.sonos.com type=NXDOMAIN
-add name=msmetrics.ws.sonos.com type=NXDOMAIN
 add name=mssp.baidu.com type=NXDOMAIN
 add name=mtrace.play.aiseet.atianqi.com type=NXDOMAIN
 add name=mtrace.play.cp81.ott.cibntv.net type=NXDOMAIN
@@ -1633,7 +1599,6 @@ add name=nhz.adwo.com type=NXDOMAIN
 add name=nl.notice.iqiyi.com type=NXDOMAIN
 add name=nl.rcd.iqiyi.com type=NXDOMAIN
 add name=nlog.baidu.com type=NXDOMAIN
-add name=nmetrics.samsung.com type=NXDOMAIN
 add name=nmhte.xyz type=NXDOMAIN
 add name=nmobi.kuwo.cn type=NXDOMAIN
 add name=norma-external-collect.meizu.com type=NXDOMAIN
@@ -1664,7 +1629,6 @@ add name=okslfki.guanxingyule.com type=NXDOMAIN
 add name=olkdjfsl.xaqdf.com type=NXDOMAIN
 add name=omgmta.play.aiseet.atianqi.com type=NXDOMAIN
 add name=omgmta.play.ott.video.qq.com type=NXDOMAIN
-add name=onecollector.cloudapp.aria.akadns.net type=NXDOMAIN
 add name=onlskdfj.zishahh.com type=NXDOMAIN
 add name=onrt-stsdk.vivo.com.cn type=NXDOMAIN
 add name=onrt.stsdk.vivo.com.cn type=NXDOMAIN
@@ -1773,7 +1737,6 @@ add name=pptv.m.cn.miaozhen.com type=NXDOMAIN
 add name=ppvabs.pplive.com type=NXDOMAIN
 add name=preview.adsame.com type=NXDOMAIN
 add name=pro.cn type=NXDOMAIN
-add name=prod.nexusrules.live.com.akadns.net type=NXDOMAIN
 add name=proxy-mob-cld.alicdn.com type=NXDOMAIN
 add name=prt-stsdk.vivo.com.cn type=NXDOMAIN
 add name=prt.stsdk.vivo.com.cn type=NXDOMAIN
@@ -11011,7 +10974,6 @@ add name=rayli.adsame.com type=NXDOMAIN
 add name=rcv.aiclk.com type=NXDOMAIN
 add name=rd596n.jomodns.com type=NXDOMAIN
 add name=re5mqs2.geiaxbk.cn type=NXDOMAIN
-add name=redir.metaservices.microsoft.com type=NXDOMAIN
 add name=report-stats.ad.jiguang.cn type=NXDOMAIN
 add name=report.adview.cn type=NXDOMAIN
 add name=report.yumobi.cn type=NXDOMAIN
@@ -11080,7 +11042,6 @@ add name=s9.cnzz.com type=NXDOMAIN
 add name=s9.irs03.com type=NXDOMAIN
 add name=s95.cnzz.com type=NXDOMAIN
 add name=s96.cnzz.com type=NXDOMAIN
-add name=sa.api.intl.miui.com type=NXDOMAIN
 add name=sa.tuisong.baidu.com type=NXDOMAIN
 add name=sa8.tuisong.baidu.com type=NXDOMAIN
 add name=samba.adsame.com type=NXDOMAIN
@@ -11144,15 +11105,12 @@ add name=sdual.plgfzyp.cn type=NXDOMAIN
 add name=search.mgc-games.com type=NXDOMAIN
 add name=secure-ds.serving-sys.com type=NXDOMAIN
 add name=secure.mediav.com type=NXDOMAIN
-add name=securemetrics.apple.com type=NXDOMAIN
 add name=securepubads.g.doubleclick.net type=NXDOMAIN
 add name=security.browser.miui.com type=NXDOMAIN
 add name=seordl.cn type=NXDOMAIN
 add name=service.ad.duomi.com type=NXDOMAIN
 add name=service.jiagu.360.cn type=NXDOMAIN
 add name=sestat.baidu.com type=NXDOMAIN
-add name=settings-sandbox.data.microsoft.com type=NXDOMAIN
-add name=settings-win.data.microsoft.com type=NXDOMAIN
 add name=sf.vserv.mobi type=NXDOMAIN
 add name=sf1-be-pack.pglstatp-toutiao.com type=NXDOMAIN
 add name=sf3-be-pack.pglstatp-toutiao.com type=NXDOMAIN
@@ -11193,8 +11151,6 @@ add name=source.youxiaoad.com type=NXDOMAIN
 add name=sp0.baidu.com type=NXDOMAIN
 add name=spl.ztvx8.com type=NXDOMAIN
 add name=splashimgbssdl.yun.kugou.com type=NXDOMAIN
-add name=spynet2.microsoft.com type=NXDOMAIN
-add name=spynetalt.microsoft.com type=NXDOMAIN
 add name=ss.chelaile.net.cn type=NXDOMAIN
 add name=ssdk.adkmob.com type=NXDOMAIN
 add name=ssl.google-analytics.com type=NXDOMAIN
@@ -11246,8 +11202,6 @@ add name=stm-collect.cn.miaozhen.com type=NXDOMAIN
 add name=stnetsdk.appstore.vivo.com.cn type=NXDOMAIN
 add name=stnetsdk.vivo.com.cn type=NXDOMAIN
 add name=stnn.adsame.com type=NXDOMAIN
-add name=stocks-analytics-events.apple.com type=NXDOMAIN
-add name=stocks-analytics-events.news.apple-dns.net type=NXDOMAIN
 add name=store.iqiyi.com type=NXDOMAIN
 add name=stp.meikdein.xyz type=NXDOMAIN
 add name=strikeadcdn.s3.amazonaws.com type=NXDOMAIN
@@ -11256,7 +11210,6 @@ add name=stunninglover.co type=NXDOMAIN
 add name=sub2.avgle.com type=NXDOMAIN
 add name=sunnycategoryopening.com type=NXDOMAIN
 add name=suo.lp.mydas.mobi type=NXDOMAIN
-add name=supportmetrics.apple.com type=NXDOMAIN
 add name=survey.miaozhen.com type=NXDOMAIN
 add name=suyuexs.cdn.bcebos.co type=NXDOMAIN
 add name=suyuexs.cdn.bcebos.com type=NXDOMAIN
@@ -11311,9 +11264,6 @@ add name=tech.douximo.cn type=NXDOMAIN
 add name=tech.qgdvyvd.cn type=NXDOMAIN
 add name=techweb.iv.adsame.com type=NXDOMAIN
 add name=tect.douximo.cn type=NXDOMAIN
-add name=telemetry.appex.bing.net type=NXDOMAIN
-add name=telemetry.microsoft.com type=NXDOMAIN
-add name=telemetry.urs.microsoft.com type=NXDOMAIN
 add name=ten.sngapm.qq.com type=NXDOMAIN
 add name=tencent-dtv.m.cn.miaozhen.com type=NXDOMAIN
 add name=test.ad.xiaomi.com type=NXDOMAIN
@@ -11351,11 +11301,7 @@ add name=track.celtra.com type=NXDOMAIN
 add name=track.mediav.com type=NXDOMAIN
 add name=tracker.sns.iqiyi.com type=NXDOMAIN
 add name=tracking.ad-survey.com type=NXDOMAIN
-add name=tracking.india.miui.com type=NXDOMAIN
-add name=tracking.intl.miui.com type=NXDOMAIN
 add name=tracking.klickthru.com type=NXDOMAIN
-add name=tracking.miui.com type=NXDOMAIN
-add name=tracking.rus.miui.com type=NXDOMAIN
 add name=tracking.v.tf.360.cn type=NXDOMAIN
 add name=tran.mediav.com type=NXDOMAIN
 add name=travel.awwlfb.cn type=NXDOMAIN
@@ -11529,10 +11475,6 @@ add name=vlets.ybgo.xyz type=NXDOMAIN
 add name=vletv.admaster.com.cn type=NXDOMAIN
 add name=vm.aty.sohu.com type=NXDOMAIN
 add name=vmindhls.tc.qq.com type=NXDOMAIN
-add name=vortex-sandbox.data.microsoft.com type=NXDOMAIN
-add name=vortex-win.data.microsoft.com type=NXDOMAIN
-add name=vortex.data.microsoft.com type=NXDOMAIN
-add name=vortex.data.microsoft.com.akadns.net type=NXDOMAIN
 add name=vpn.ch-hr12333.com type=NXDOMAIN
 add name=vpptv.admaster.com.cn type=NXDOMAIN
 add name=vqq.admaster.com.cn type=NXDOMAIN
@@ -11557,8 +11499,6 @@ add name=wap.88xiaoshuo.com type=NXDOMAIN
 add name=wap.tiaozhuanmao1.cn type=NXDOMAIN
 add name=wap0c.m.wenxuemi6.com type=NXDOMAIN
 add name=watch.advertising.speed.cdn.vip.xunlei.com type=NXDOMAIN
-add name=watson.live.com type=NXDOMAIN
-add name=watson.microsoft.com type=NXDOMAIN
 add name=wbapp.mobile.sina.cn type=NXDOMAIN
 add name=wd.adcolony.com type=NXDOMAIN
 add name=web.cdn.openinstall.io type=NXDOMAIN
