@@ -1528,6 +1528,7 @@ add name=mobile2.da.mgtv.com type=NXDOMAIN
 add name=mobilead.kuwo.cn type=NXDOMAIN
 add name=mobileads.msn.com type=NXDOMAIN
 add name=mobivx.euyqiolnw.cyou type=NXDOMAIN
+add name=mobivx.qzngisyy.xyz type=NXDOMAIN
 add name=mobivx.tuyqiolni.cyou type=NXDOMAIN
 add name=mobivx.wuyqiolne.cyou type=NXDOMAIN
 add name=mobivx.zmxnsahq.cyou type=NXDOMAIN
