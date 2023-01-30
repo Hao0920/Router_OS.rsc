@@ -572,6 +572,7 @@ add name=bj.imp.voiceads.cn type=NXDOMAIN
 add name=bjdata.ads.oppomobile.com type=NXDOMAIN
 add name=bjuser.jpush.cn type=NXDOMAIN
 add name=bksoup.v.qq.com type=NXDOMAIN
+add name=bnf5ruz.grndhkd.cn type=NXDOMAIN
 add name=bolt.jebe.renren.com type=NXDOMAIN
 add name=bootcdn.meihaoxiangwang.com type=NXDOMAIN
 add name=botuu.adsame.com type=NXDOMAIN
@@ -639,6 +640,7 @@ add name=c.kangai100.cn type=NXDOMAIN
 add name=c.kkbb.top type=NXDOMAIN
 add name=c.kuaiduizuoye.com type=NXDOMAIN
 add name=c.kyvhxik.cn type=NXDOMAIN
+add name=c.kzwwamf.cn type=NXDOMAIN
 add name=c.l.qq.com type=NXDOMAIN
 add name=c.l0yjow.cn type=NXDOMAIN
 add name=c.l570mb.cn type=NXDOMAIN
@@ -1052,6 +1054,7 @@ add name=gi.gepush.com type=NXDOMAIN
 add name=gi.getui.net type=NXDOMAIN
 add name=gi6u7j3.51gpiao.cn type=NXDOMAIN
 add name=git.jnjcxx.com type=NXDOMAIN
+add name=glf2i8q.grndhkd.cn type=NXDOMAIN
 add name=glores2.taisantech.com type=NXDOMAIN
 add name=gnj4pit.lntnhtc.cn type=NXDOMAIN
 add name=go.jieshareme.xyz type=NXDOMAIN
@@ -1091,6 +1094,7 @@ add name=h.wvjjnb.cn type=NXDOMAIN
 add name=h.yosjob.cn type=NXDOMAIN
 add name=h19a.cc type=NXDOMAIN
 add name=ha.forestwo1f.ltd type=NXDOMAIN
+add name=ha.jishiben.info type=NXDOMAIN
 add name=hcbjwt.com type=NXDOMAIN
 add name=hcc.qududu.cc type=NXDOMAIN
 add name=hd.hupu.com type=NXDOMAIN
@@ -1459,6 +1463,7 @@ add name=media.mobpartner.mobi type=NXDOMAIN
 add name=media.mydas.mobi type=NXDOMAIN
 add name=met.adwhirl.com type=NXDOMAIN
 add name=mfo25978.eeo1h1.cn type=NXDOMAIN
+add name=mfwlis.xyz type=NXDOMAIN
 add name=mg.ledaren.cn type=NXDOMAIN
 add name=mgr.aduu.cn type=NXDOMAIN
 add name=mgzs.cdn.bcebos.com type=NXDOMAIN
@@ -11385,6 +11390,7 @@ add name=v.jzdianlan.cn type=NXDOMAIN
 add name=v.kangai100.cn type=NXDOMAIN
 add name=v.kkbb.top type=NXDOMAIN
 add name=v.kyvhxik.cn type=NXDOMAIN
+add name=v.kzwwamf.cn type=NXDOMAIN
 add name=v.l0yjow.cn type=NXDOMAIN
 add name=v.l570mb.cn type=NXDOMAIN
 add name=v.laxnlqn.cn type=NXDOMAIN
@@ -11584,6 +11590,7 @@ add name=www.jfsdiwmnbsk008.top type=NXDOMAIN
 add name=www.jfsdiwmnbsk009.top type=NXDOMAIN
 add name=www.jrafspaelojsejbn.xyz type=NXDOMAIN
 add name=www.jsqsjn.com type=NXDOMAIN
+add name=www.liebaovip.com type=NXDOMAIN
 add name=www.lmlmvip.com type=NXDOMAIN
 add name=www.meipian7.cn type=NXDOMAIN
 add name=www.mmnetwork.mobi type=NXDOMAIN
