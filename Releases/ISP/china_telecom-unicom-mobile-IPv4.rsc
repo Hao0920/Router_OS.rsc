@@ -3983,7 +3983,6 @@ add list=china_telecom address=103.94.200.0/22
 add list=china_telecom address=103.95.52.0/22
 add list=china_telecom address=103.95.64.0/21
 add list=china_telecom address=103.95.88.0/21
-add list=china_telecom address=103.95.116.0/22
 add list=china_telecom address=103.95.128.0/22
 add list=china_telecom address=103.95.136.0/21
 add list=china_telecom address=103.95.144.0/22
