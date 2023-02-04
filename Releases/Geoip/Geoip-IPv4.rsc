@@ -3763,7 +3763,6 @@ add list=china address=103.94.40.0/22
 add list=china address=103.94.44.0/22
 add list=china address=103.94.72.0/22
 add list=china address=103.94.88.0/22
-add list=china address=103.95.116.0/22
 add list=china address=103.95.128.0/22
 add list=china address=103.95.136.0/21
 add list=china address=103.95.136.0/22
