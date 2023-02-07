@@ -819,6 +819,7 @@ add name=cul.awwlrd.cn type=NXDOMAIN
 add name=cvbdw.xyz type=NXDOMAIN
 add name=cvt.mydas.mobi type=NXDOMAIN
 add name=cwent.tuape.xyz type=NXDOMAIN
+add name=cwent.weieo.cyou type=NXDOMAIN
 add name=cwent.ybgo.xyz type=NXDOMAIN
 add name=cws-cctv.conviva.com type=NXDOMAIN
 add name=cxs.eexiaoshuo.com type=NXDOMAIN
@@ -1063,6 +1064,7 @@ add name=go.mikongdd.top type=NXDOMAIN
 add name=go.mobpartner.mobi type=NXDOMAIN
 add name=go.qicaihong.xyz type=NXDOMAIN
 add name=go.vrvm.com type=NXDOMAIN
+add name=go.zhiwan.club type=NXDOMAIN
 add name=goblin.hupu.com type=NXDOMAIN
 add name=golds.lp.mydas.mobi type=NXDOMAIN
 add name=golf.rctxobb.cn type=NXDOMAIN
@@ -11478,6 +11480,7 @@ add name=vip.qicaihong.xyz type=NXDOMAIN
 add name=viqiyi.admaster.com.cn type=NXDOMAIN
 add name=vkn3yy0.wushangzeichuan.xin type=NXDOMAIN
 add name=vlets.tuape.xyz type=NXDOMAIN
+add name=vlets.weieo.cyou type=NXDOMAIN
 add name=vlets.ybgo.xyz type=NXDOMAIN
 add name=vletv.admaster.com.cn type=NXDOMAIN
 add name=vm.aty.sohu.com type=NXDOMAIN
