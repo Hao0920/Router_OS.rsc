@@ -1949,7 +1949,6 @@ add list=china address=103.235.140.0/22
 add list=china address=103.235.144.0/21
 add list=china address=103.235.144.0/22
 add list=china address=103.235.148.0/22
-add list=china address=103.235.16.0/22
 add list=china address=103.235.184.0/22
 add list=china address=103.235.192.0/22
 add list=china address=103.235.200.0/22
@@ -5069,7 +5068,6 @@ add list=china address=150.121.0.0/16
 add list=china address=150.122.0.0/16
 add list=china address=150.129.136.0/22
 add list=china address=150.129.192.0/22
-add list=china address=150.129.216.0/22
 add list=china address=150.129.252.0/22
 add list=china address=150.138.0.0/15
 add list=china address=150.158.0.0/16
