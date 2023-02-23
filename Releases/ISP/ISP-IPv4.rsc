@@ -2291,7 +2291,6 @@ add list=china_unicom address=192.140.208.0/21
 add list=china_unicom address=202.74.8.0/21
 add list=china_unicom address=202.75.208.0/20
 add list=china_unicom address=202.89.96.0/22
-add list=china_unicom address=202.92.0.0/22
 add list=china_unicom address=202.96.0.0/18
 add list=china_unicom address=202.96.64.0/19
 add list=china_unicom address=202.97.128.0/17
@@ -2308,14 +2307,12 @@ add list=china_unicom address=202.110.192.0/18
 add list=china_unicom address=202.111.128.0/18
 add list=china_unicom address=202.122.128.0/24
 add list=china_unicom address=202.127.112.0/20
-add list=china_unicom address=202.127.209.0/24
 add list=china_unicom address=202.130.224.0/19
 add list=china_unicom address=202.160.140.0/22
 add list=china_unicom address=202.170.128.0/19
 add list=china_unicom address=203.76.240.0/22
 add list=china_unicom address=203.93.0.0/16
 add list=china_unicom address=203.166.160.0/19
-add list=china_unicom address=203.223.0.0/20
 add list=china_unicom address=210.5.128.0/20
 add list=china_unicom address=210.12.0.0/15
 add list=china_unicom address=210.14.160.0/19
@@ -3989,7 +3986,7 @@ add list=othernet address=103.94.116.0/22
 add list=othernet address=103.94.160.0/22
 add list=othernet address=103.94.200.0/22
 add list=othernet address=103.95.52.0/22
-add list=othernet address=103.95.64.0/21
+add list=othernet address=103.95.68.0/22
 add list=othernet address=103.95.88.0/21
 add list=othernet address=103.95.128.0/22
 add list=othernet address=103.95.136.0/21
@@ -5708,7 +5705,6 @@ add list=othernet address=202.88.32.0/22
 add list=othernet address=202.89.108.0/22
 add list=othernet address=202.89.119.0/24
 add list=othernet address=202.89.232.0/21
-add list=othernet address=202.90.0.0/22
 add list=othernet address=202.90.16.0/20
 add list=othernet address=202.90.37.0/24
 add list=othernet address=202.90.96.0/20
@@ -5719,11 +5715,9 @@ add list=othernet address=202.91.36.0/22
 add list=othernet address=202.91.128.0/22
 add list=othernet address=202.91.176.0/20
 add list=othernet address=202.91.224.0/19
-add list=othernet address=202.93.0.0/22
 add list=othernet address=202.93.252.0/22
 add list=othernet address=202.94.74.0/24
 add list=othernet address=202.94.81.0/24
-add list=othernet address=202.95.252.0/22
 add list=othernet address=202.101.192.0/19
 add list=othernet address=202.101.232.0/21
 add list=othernet address=202.101.240.0/20
@@ -5742,7 +5736,6 @@ add list=othernet address=202.127.16.0/20
 add list=othernet address=202.127.40.0/21
 add list=othernet address=202.127.48.0/20
 add list=othernet address=202.127.144.0/20
-add list=othernet address=202.127.160.0/21
 add list=othernet address=202.127.192.0/23
 add list=othernet address=202.127.200.0/21
 add list=othernet address=202.127.208.0/24
@@ -5818,7 +5811,6 @@ add list=othernet address=203.86.80.0/20
 add list=othernet address=203.86.250.0/24
 add list=othernet address=203.88.32.0/19
 add list=othernet address=203.88.192.0/19
-add list=othernet address=203.89.0.0/22
 add list=othernet address=203.89.100.0/22
 add list=othernet address=203.89.133.0/24
 add list=othernet address=203.89.144.0/24
