@@ -3901,7 +3901,8 @@ add list=china address=104.160.128.0/19
 add list=china address=104.167.16.0/20
 add list=china address=104.194.132.0/22
 add list=china address=104.194.136.0/21
-add list=china address=104.194.144.0/22
+add list=china address=104.194.144.0/21
+add list=china address=104.194.152.0/22
 add list=china address=104.207.32.0/19
 add list=china address=104.244.72.0/21
 add list=china address=106.0.0.0/24
