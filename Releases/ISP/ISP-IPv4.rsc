@@ -4007,6 +4007,7 @@ add list=othernet address=103.96.160.0/19
 add list=othernet address=103.96.192.0/20
 add list=othernet address=103.96.208.0/21
 add list=othernet address=103.96.216.0/22
+add list=othernet address=103.96.224.0/23
 add list=othernet address=103.97.8.0/21
 add list=othernet address=103.97.16.0/20
 add list=othernet address=103.97.32.0/21
