@@ -3813,6 +3813,7 @@ add list=china address=103.96.208.0/21
 add list=china address=103.96.208.0/22
 add list=china address=103.96.212.0/22
 add list=china address=103.96.216.0/22
+add list=china address=103.96.224.0/23
 add list=china address=103.96.8.0/22
 add list=china address=103.96.80.0/22
 add list=china address=103.97.112.0/21
