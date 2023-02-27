@@ -4018,6 +4018,7 @@ add list=china_telecom address=103.97.144.0/21
 add list=china_telecom address=103.97.188.0/22
 add list=china_telecom address=103.97.192.0/22
 add list=china_telecom address=103.97.228.0/23
+add list=china_telecom address=103.98.0.0/23
 add list=china_telecom address=103.98.28.0/23
 add list=china_telecom address=103.98.40.0/22
 add list=china_telecom address=103.98.48.0/22
