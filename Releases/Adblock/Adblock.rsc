@@ -172,6 +172,8 @@ add name=adclick.tencentmusic.com type=NXDOMAIN
 add name=adcontent.saymedia.com type=NXDOMAIN
 add name=adcool.yibige.com type=NXDOMAIN
 add name=adcore.lenovomm.com type=NXDOMAIN
+add name=adcs-ap.myappsget.com type=NXDOMAIN
+add name=adcs-ue.myappsget.com type=NXDOMAIN
 add name=ade.googlesyndication.com type=NXDOMAIN
 add name=adeng.hpplay.cn type=NXDOMAIN
 add name=adeventtracker.spotify.com type=NXDOMAIN
@@ -228,6 +230,7 @@ add name=ads.adadapted.com type=NXDOMAIN
 add name=ads.adaptv.advertising.com type=NXDOMAIN
 add name=ads.admarvel.com type=NXDOMAIN
 add name=ads.adroi.com.cn type=NXDOMAIN
+add name=ads.api.vungle.com type=NXDOMAIN
 add name=ads.aplus.pptv.com type=NXDOMAIN
 add name=ads.celtra.com type=NXDOMAIN
 add name=ads.creative-serving.com type=NXDOMAIN
@@ -354,8 +357,10 @@ add name=adwbs.ximalaya.com type=NXDOMAIN
 add name=adx-bid.tianzhuobj.com type=NXDOMAIN
 add name=adx-open-service.youku.com type=NXDOMAIN
 add name=adx-static.ksosoft.com type=NXDOMAIN
+add name=adx-tk.rayjump.com type=NXDOMAIN
 add name=adx.ads.heytapmobi.com type=NXDOMAIN
 add name=adx.ads.oppomobile.com type=NXDOMAIN
+add name=adx.apiok.net type=NXDOMAIN
 add name=adx.appsdk.com.cn type=NXDOMAIN
 add name=adx.doumpaq.com type=NXDOMAIN
 add name=adx.g.doubleclick.net type=NXDOMAIN
@@ -460,6 +465,7 @@ add name=api.jialiangad.com type=NXDOMAIN
 add name=api.lewen123.net type=NXDOMAIN
 add name=api.lwxs99.com type=NXDOMAIN
 add name=api.mobgi.com type=NXDOMAIN
+add name=api.myadsget.com type=NXDOMAIN
 add name=api.newad.ifeng.com type=NXDOMAIN
 add name=api.openinstall.io type=NXDOMAIN
 add name=api.poll.aiseet.atianqi.com type=NXDOMAIN
@@ -479,6 +485,7 @@ add name=api.wfxll.com type=NXDOMAIN
 add name=api.wsq.umeng.com type=NXDOMAIN
 add name=api.yidaomobi.com type=NXDOMAIN
 add name=api.yidiansurong.com type=NXDOMAIN
+add name=api.youngle.tech type=NXDOMAIN
 add name=api.youxiaoad.com type=NXDOMAIN
 add name=api.yuedu.iqiyi.com type=NXDOMAIN
 add name=api1.888zy.cn type=NXDOMAIN
@@ -488,8 +495,10 @@ add name=api3.tuisong.baidu.com type=NXDOMAIN
 add name=api8.tuisong.baidu.com type=NXDOMAIN
 add name=apiconfig.adwo.com type=NXDOMAIN
 add name=apistat.adbana.com type=NXDOMAIN
+add name=app-measurement.com type=NXDOMAIN
 add name=app-tj.adinall.com type=NXDOMAIN
 add name=app.aplus.pptv.com type=NXDOMAIN
+add name=app.appsflyer.com type=NXDOMAIN
 add name=app.starschina.com type=NXDOMAIN
 add name=apperr.log.mgtv.com type=NXDOMAIN
 add name=applog.uc.cn type=NXDOMAIN
@@ -519,6 +528,7 @@ add name=au.umeng.com type=NXDOMAIN
 add name=au.w.inmobi.cn type=NXDOMAIN
 add name=au.w.inmobi.com type=NXDOMAIN
 add name=au.youmi.net type=NXDOMAIN
+add name=auction-load.unityads.unity3d.com type=NXDOMAIN
 add name=audid-api.taobao.com type=NXDOMAIN
 add name=auto.rctxobb.cn type=NXDOMAIN
 add name=autobild.adsame.com type=NXDOMAIN
@@ -560,6 +570,7 @@ add name=bdcdncmn-gd.inter.71edge.com type=NXDOMAIN
 add name=bdplus.baidu.com type=NXDOMAIN
 add name=bds.snssdk.com type=NXDOMAIN
 add name=beacon.sina.com.cn type=NXDOMAIN
+add name=beacons.gcp.gvt2.com type=NXDOMAIN
 add name=benedictene.com type=NXDOMAIN
 add name=bid.adview.cn type=NXDOMAIN
 add name=bid.g.doubleclick.net type=NXDOMAIN
@@ -737,6 +748,7 @@ add name=cdn-sdk-opt.getui.com type=NXDOMAIN
 add name=cdn.ad.xiaomi.com type=NXDOMAIN
 add name=cdn.adm.myhayo.com type=NXDOMAIN
 add name=cdn.aiclk.com type=NXDOMAIN
+add name=cdn.appnext.com type=NXDOMAIN
 add name=cdn.b2pk.com type=NXDOMAIN
 add name=cdn.celtra.com type=NXDOMAIN
 add name=cdn.creative.medialytics.com type=NXDOMAIN
@@ -749,6 +761,7 @@ add name=cdn1.crispadvertising.com type=NXDOMAIN
 add name=cdn1.inner-active.mobi type=NXDOMAIN
 add name=cdn1.smartadserver.com type=NXDOMAIN
 add name=cdn2.crispadvertising.com type=NXDOMAIN
+add name=cdp.cloud.unity3d.com type=NXDOMAIN
 add name=cf.cdn.inmobi.com type=NXDOMAIN
 add name=cf8d.stat.gw.youmi.net type=NXDOMAIN
 add name=cfg-cdn.aiclk.com type=NXDOMAIN
@@ -799,6 +812,7 @@ add name=config.inmobi.com type=NXDOMAIN
 add name=config.jpush.cn type=NXDOMAIN
 add name=config.mobisage.cn type=NXDOMAIN
 add name=config.unityads.unitychina.cn type=NXDOMAIN
+add name=configv2.unityads.unity3d.com type=NXDOMAIN
 add name=conversion.adpro.cn type=NXDOMAIN
 add name=conversion.pro.cn type=NXDOMAIN
 add name=corebug.adsame.com type=NXDOMAIN
@@ -825,6 +839,7 @@ add name=cws-cctv.conviva.com type=NXDOMAIN
 add name=cxs.eexiaoshuo.com type=NXDOMAIN
 add name=d.721sjv.xyz type=NXDOMAIN
 add name=d.applovin.com type=NXDOMAIN
+add name=d.applvn.com type=NXDOMAIN
 add name=d.cntv.cn type=NXDOMAIN
 add name=d.qchannel03.cn type=NXDOMAIN
 add name=d0.sina.com.cn type=NXDOMAIN
@@ -840,6 +855,7 @@ add name=da.mmarket.com type=NXDOMAIN
 add name=dat1.jzjxmj.com type=NXDOMAIN
 add name=data-id.ads.oppomobile.com type=NXDOMAIN
 add name=data.ads.oppomobile.com type=NXDOMAIN
+add name=data.flurry.com type=NXDOMAIN
 add name=dataf.ads.oppomobile.com type=NXDOMAIN
 add name=datax.baidu.com type=NXDOMAIN
 add name=daw.biquge.info type=NXDOMAIN
@@ -992,10 +1008,13 @@ add name=eo.yun-pdm2000.cn type=NXDOMAIN
 add name=epp.2polj.top type=NXDOMAIN
 add name=eqx.smartadserver.com type=NXDOMAIN
 add name=errlog.umeng.com type=NXDOMAIN
+add name=errnewlog.umeng.com type=NXDOMAIN
 add name=et.tanx.com type=NXDOMAIN
 add name=et.w.inmobi.com type=NXDOMAIN
 add name=etl.xlmc.sandai.net type=NXDOMAIN
+add name=events.ads.vungle.com type=NXDOMAIN
 add name=events.appsflyer.com type=NXDOMAIN
+add name=events.mz.unity3d.com type=NXDOMAIN
 add name=ex.mobmore.com type=NXDOMAIN
 add name=ex.umengcloud.com type=NXDOMAIN
 add name=extlog.snssdk.com type=NXDOMAIN
@@ -1119,6 +1138,7 @@ add name=hqs9.cnzz.com type=NXDOMAIN
 add name=hshv.7kzw.com type=NXDOMAIN
 add name=html5adkit.plusmo.s3.amazonaws.com type=NXDOMAIN
 add name=httpdns.push.oppomobile.com type=NXDOMAIN
+add name=httpkafka.unityads.unity3d.com type=NXDOMAIN
 add name=hu544v.78zw.com type=NXDOMAIN
 add name=huichuan.sm.cn type=NXDOMAIN
 add name=hunantv.m.cn.miaozhen.com type=NXDOMAIN
@@ -1166,6 +1186,7 @@ add name=ilce.alicdn.com type=NXDOMAIN
 add name=iltelo.xyz type=NXDOMAIN
 add name=im.tiodata.com type=NXDOMAIN
 add name=im2.smartadserver.com type=NXDOMAIN
+add name=imasdk.googleapis.com type=NXDOMAIN
 add name=img-cdn-spot.ymcdn.cn type=NXDOMAIN
 add name=img.ads.huntmad.com type=NXDOMAIN
 add name=img.ads.mobilefuse.net type=NXDOMAIN
@@ -1211,6 +1232,7 @@ add name=jfdaily.adsame.com type=NXDOMAIN
 add name=jiu.dsnfun.cn type=NXDOMAIN
 add name=jiu.rktupt.cn type=NXDOMAIN
 add name=jjjj.getui.vip type=NXDOMAIN
+add name=jnn-pa.googleapis.com type=NXDOMAIN
 add name=jp.as.pptv.com type=NXDOMAIN
 add name=jpg.mengbingyuan.com type=NXDOMAIN
 add name=jqmt.qq.com type=NXDOMAIN
@@ -1473,6 +1495,7 @@ add name=miaozhen.com type=NXDOMAIN
 add name=mic.ububyiw6655.xyz type=NXDOMAIN
 add name=mic.xiangyuym.cn type=NXDOMAIN
 add name=mic.xiaogouzhuanqian.cn type=NXDOMAIN
+add name=midas-tracker.hellay.net type=NXDOMAIN
 add name=mig.str.mdt.qq.com type=NXDOMAIN
 add name=mil.haodong.site type=NXDOMAIN
 add name=mil.rfjckj.cn type=NXDOMAIN
@@ -1556,6 +1579,8 @@ add name=monitor-stsdk.vivo.com.cn type=NXDOMAIN
 add name=monitor-uu.play.aiseet.atianqi.com type=NXDOMAIN
 add name=monitor.ssp.admobile.top type=NXDOMAIN
 add name=mroft.fztattoo.cn type=NXDOMAIN
+add name=ms.applovin.com type=NXDOMAIN
+add name=ms.applvn.com type=NXDOMAIN
 add name=msg.71.am type=NXDOMAIN
 add name=msg.cn.miaozhen.com type=NXDOMAIN
 add name=msg.iqiyi.com type=NXDOMAIN
@@ -1597,6 +1622,7 @@ add name=neptune.appads.com type=NXDOMAIN
 add name=neptune1.appads.com type=NXDOMAIN
 add name=neptune2.appads.com type=NXDOMAIN
 add name=neptune3.appads.com type=NXDOMAIN
+add name=net.rayjump.com type=NXDOMAIN
 add name=netdna.reporo.net type=NXDOMAIN
 add name=news-l.play.aiseet.atianqi.com type=NXDOMAIN
 add name=news-l.play.ott.video.qq.com type=NXDOMAIN
@@ -1752,6 +1778,7 @@ add name=pstarv.cn type=NXDOMAIN
 add name=pub.funshion.com type=NXDOMAIN
 add name=pubads.g.doubleclick.net type=NXDOMAIN
 add name=public.gdtimg.com type=NXDOMAIN
+add name=publisher-config.unityads.unity3d.com type=NXDOMAIN
 add name=puma-api.iqiyi.com type=NXDOMAIN
 add name=puma.api.iqiyi.com type=NXDOMAIN
 add name=push.pgl.qq.com type=NXDOMAIN
@@ -10996,6 +11023,8 @@ add name=return.adsame.com type=NXDOMAIN
 add name=river.zhidao.baidu.com type=NXDOMAIN
 add name=rmpad.imtt.qq.com type=NXDOMAIN
 add name=rs-staticart.ybcdn.net type=NXDOMAIN
+add name=rt.applovin.com type=NXDOMAIN
+add name=rt.applvn.com type=NXDOMAIN
 add name=rt.funshion.net type=NXDOMAIN
 add name=rtas.videocc.net type=NXDOMAIN
 add name=rtb.admaster.com.cn type=NXDOMAIN
@@ -11230,6 +11259,7 @@ add name=sv.twhjyp.wang type=NXDOMAIN
 add name=sv.wytsoft.xyz type=NXDOMAIN
 add name=sv.yyzz.shop type=NXDOMAIN
 add name=sv.zwmosu.xyz type=NXDOMAIN
+add name=svibeacon.onezapp.com type=NXDOMAIN
 add name=t-l.play.aiseet.atianqi.com type=NXDOMAIN
 add name=t.2laezi9.cn type=NXDOMAIN
 add name=t.adbxb.com type=NXDOMAIN
@@ -11272,6 +11302,7 @@ add name=tech.douximo.cn type=NXDOMAIN
 add name=tech.qgdvyvd.cn type=NXDOMAIN
 add name=techweb.iv.adsame.com type=NXDOMAIN
 add name=tect.douximo.cn type=NXDOMAIN
+add name=telemetry.sdk.inmobi.com type=NXDOMAIN
 add name=ten.sngapm.qq.com type=NXDOMAIN
 add name=tencent-dtv.m.cn.miaozhen.com type=NXDOMAIN
 add name=test.ad.xiaomi.com type=NXDOMAIN
@@ -11338,6 +11369,7 @@ add name=ulogs.umeng.com type=NXDOMAIN
 add name=ulogs.umengcloud.com type=NXDOMAIN
 add name=umdc.aliapp.org type=NXDOMAIN
 add name=umeng.com type=NXDOMAIN
+add name=umeng.com.gds.alibabadns.com type=NXDOMAIN
 add name=umengacs.m.taobao.com type=NXDOMAIN
 add name=umengjmacs.m.taobao.com type=NXDOMAIN
 add name=un.yuqingby.fun type=NXDOMAIN
