@@ -188,6 +188,7 @@ add regexp="^(.*\\.)?advertfan\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?advertisercommunity\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ae\\.hao123\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ae\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?aei\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?aenhancers\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?aex\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?af\\.mil\$" type=FWD forward-to=$FWDgfw
