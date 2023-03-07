@@ -628,7 +628,6 @@ add list=china_unicom address=2401:11c0::/32
 add list=china_unicom address=2401:1200::/32
 add list=china_unicom address=2401:12c0::/32
 add list=china_unicom address=2401:15c0::/32
-add list=china_unicom address=2401:1740::/32
 add list=china_unicom address=2401:18c0::/32
 add list=china_unicom address=2401:1940::/32
 add list=china_unicom address=2401:19c0::/32
