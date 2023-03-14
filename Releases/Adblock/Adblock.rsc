@@ -58,6 +58,7 @@ add name=aaid.umeng.com type=NXDOMAIN
 add name=aax-us-east.amazon-adsystem.com type=NXDOMAIN
 add name=aax-us-west.amazon-adsystem.com type=NXDOMAIN
 add name=abb.lpxmall.com type=NXDOMAIN
+add name=abc.zgm1.com type=NXDOMAIN
 add name=abc.zvqbbj.cn type=NXDOMAIN
 add name=abtest-ch.snssdk.com type=NXDOMAIN
 add name=abtest.alibaba.com type=NXDOMAIN
@@ -11641,6 +11642,7 @@ add name=www.pro.cn type=NXDOMAIN
 add name=www.qchannel01.cn type=NXDOMAIN
 add name=www.qchannel03.cn type=NXDOMAIN
 add name=www.qchannel04.cn type=NXDOMAIN
+add name=www.qlspx.com type=NXDOMAIN
 add name=www.rdezbie.com type=NXDOMAIN
 add name=www.seerpiu002.com type=NXDOMAIN
 add name=www.smartadserver.com type=NXDOMAIN
