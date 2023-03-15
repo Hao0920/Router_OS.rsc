@@ -842,6 +842,7 @@ add name=d.721sjv.xyz type=NXDOMAIN
 add name=d.applovin.com type=NXDOMAIN
 add name=d.applvn.com type=NXDOMAIN
 add name=d.cntv.cn type=NXDOMAIN
+add name=d.dfghaqea.xyz type=NXDOMAIN
 add name=d.qchannel03.cn type=NXDOMAIN
 add name=d0.sina.com.cn type=NXDOMAIN
 add name=d1.sina.com.cn type=NXDOMAIN
@@ -1028,8 +1029,10 @@ add name=f6e8w.m8tu2.online type=NXDOMAIN
 add name=f99.265958.com type=NXDOMAIN
 add name=fb.cxjju.cn type=NXDOMAIN
 add name=fbapi.guguread.com type=NXDOMAIN
+add name=fcc.lajsi2a.cn type=NXDOMAIN
 add name=fclog.baidu.com type=NXDOMAIN
 add name=ff.yiqima.xyz type=NXDOMAIN
+add name=fg.knlk2md.cn type=NXDOMAIN
 add name=files.adform.net type=NXDOMAIN
 add name=film.dofkfhv.cn type=NXDOMAIN
 add name=fit.uuywe.top type=NXDOMAIN
@@ -11314,6 +11317,7 @@ add name=test.zeus.ad.xiaomi.com type=NXDOMAIN
 add name=test2014.adview.cn type=NXDOMAIN
 add name=tf.adddyy.com type=NXDOMAIN
 add name=tfsnp.hnhgmh.mobi type=NXDOMAIN
+add name=tg.xkcxh.com type=NXDOMAIN
 add name=tian.biquge.info type=NXDOMAIN
 add name=tiexu.biquge.info type=NXDOMAIN
 add name=timeserver.cnzz.net type=NXDOMAIN
@@ -11672,6 +11676,7 @@ add name=www.xahywwx.com type=NXDOMAIN
 add name=www.xgsnjl.com type=NXDOMAIN
 add name=www.xn--wcsy74a6d835f5lf.com type=NXDOMAIN
 add name=www.youmi.net type=NXDOMAIN
+add name=www.yy4480qpgyy.com type=NXDOMAIN
 add name=www2.smartadserver.com type=NXDOMAIN
 add name=www3.smartadserver.com type=NXDOMAIN
 add name=www4.smartadserver.com type=NXDOMAIN
