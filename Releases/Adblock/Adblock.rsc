@@ -1046,6 +1046,7 @@ add name=ftfsn.m100.site type=NXDOMAIN
 add name=ftpcontent.worldnow.com type=NXDOMAIN
 add name=fumiad.dxys.pro type=NXDOMAIN
 add name=fun.adx.admaster.com.cn type=NXDOMAIN
+add name=fvbqw.oiknldwlkop.com type=NXDOMAIN
 add name=fwmrm.net type=NXDOMAIN
 add name=g.admedia.com type=NXDOMAIN
 add name=g.ads.cn.miaozhen.com type=NXDOMAIN
