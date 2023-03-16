@@ -290,6 +290,7 @@ add list=china_telecom address=106.0.16.0/20
 add list=china_telecom address=106.0.64.0/18
 add list=china_telecom address=106.4.0.0/14
 add list=china_telecom address=106.8.0.0/15
+add list=china_telecom address=106.16.0.0/12
 add list=china_telecom address=106.32.0.0/12
 add list=china_telecom address=106.56.0.0/13
 add list=china_telecom address=106.80.0.0/12
@@ -5051,7 +5052,6 @@ add list=china_telecom address=106.0.44.0/22
 add list=china_telecom address=106.2.0.0/15
 add list=china_telecom address=106.11.0.0/16
 add list=china_telecom address=106.12.0.0/14
-add list=china_telecom address=106.16.0.0/12
 add list=china_telecom address=106.50.0.0/16
 add list=china_telecom address=106.52.0.0/14
 add list=china_telecom address=106.75.0.0/16
