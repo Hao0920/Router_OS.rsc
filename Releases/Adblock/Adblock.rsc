@@ -833,6 +833,7 @@ add name=cuic7w5.ddqhnjb.cn type=NXDOMAIN
 add name=cul.awwlrd.cn type=NXDOMAIN
 add name=cvbdw.xyz type=NXDOMAIN
 add name=cvt.mydas.mobi type=NXDOMAIN
+add name=cwent.cuuod.cyou type=NXDOMAIN
 add name=cwent.tuape.xyz type=NXDOMAIN
 add name=cwent.weieo.cyou type=NXDOMAIN
 add name=cwent.ybgo.xyz type=NXDOMAIN
@@ -1100,6 +1101,7 @@ add name=googleadservices.com type=NXDOMAIN
 add name=googlesyndication.com type=NXDOMAIN
 add name=gorgon.youdao.com type=NXDOMAIN
 add name=gosvtp.biquge.info type=NXDOMAIN
+add name=gpt.tsck.online type=NXDOMAIN
 add name=gre542vv.x33xs.com type=NXDOMAIN
 add name=gre768cc.x33xs.com type=NXDOMAIN
 add name=grenade.886721.com type=NXDOMAIN
@@ -11517,6 +11519,7 @@ add name=vip.meikdein.xyz type=NXDOMAIN
 add name=vip.qicaihong.xyz type=NXDOMAIN
 add name=viqiyi.admaster.com.cn type=NXDOMAIN
 add name=vkn3yy0.wushangzeichuan.xin type=NXDOMAIN
+add name=vlets.cuuod.cyou type=NXDOMAIN
 add name=vlets.tuape.xyz type=NXDOMAIN
 add name=vlets.weieo.cyou type=NXDOMAIN
 add name=vlets.ybgo.xyz type=NXDOMAIN
