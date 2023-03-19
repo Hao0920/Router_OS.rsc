@@ -29,6 +29,7 @@ add list=scanners address=2607:ff28:a005:50:ec4:7aff:feb3:c9b8
 add list=scanners address=2607:ff28:a005:71:ec4:7aff:feb5:18f6
 add list=scanners address=2607:ff28:a005:cd:ec4:7aff:feb5:1a50
 add list=scanners address=2607:ff28:a005:f6:ec4:7aff:feb5:1a74
+add list=scanners address=2a01:cb14:a88:1500:211:32ff:fe16:5f97
 add list=scanners address=2a01:cb1d:82f9:a900:211:32ff:fe26:b6bd
 add list=scanners address=2a01:e0a:2ea:a450:211:32ff:fe29:c981
 add list=scanners address=2a01:e0a:6d:a960:211:32ff:fe0e:ae53
