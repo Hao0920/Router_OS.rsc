@@ -45,6 +45,7 @@ add list=china_unicom address=2001:e88::/32
 add list=china_unicom address=2001:f88::/32
 add list=china_unicom address=2400:32c0::/32
 add list=china_unicom address=2400:7f80::/32
+add list=china_unicom address=2400:eda0::/32
 add list=china_unicom address=2401:7700::/32
 add list=china_unicom address=2401:9600::/32
 add list=china_unicom address=2401:da00::/32
@@ -591,6 +592,7 @@ add list=china_mobile address=2400:e680::/32
 add list=china_mobile address=2400:e7e0::/32
 add list=china_mobile address=2400:e880::/32
 add list=china_mobile address=2400:ebc0::/32
+add list=china_mobile address=2400:ed60::/32
 add list=china_mobile address=2400:edc0::/32
 add list=china_mobile address=2400:ee00::/32
 add list=china_mobile address=2400:eec0::/32
