@@ -1270,6 +1270,7 @@ add name=kn.zhipinbook.cn type=NXDOMAIN
 add name=koatkm.xyz type=NXDOMAIN
 add name=kpstaticbj.wx.ckjr001.com type=NXDOMAIN
 add name=kry.jknrwe.cn type=NXDOMAIN
+add name=kzxmv76.yflog.me type=NXDOMAIN
 add name=l.bjzsyx.cn type=NXDOMAIN
 add name=l.gm.mob.com type=NXDOMAIN
 add name=l.kscmt.cn type=NXDOMAIN
@@ -11697,6 +11698,7 @@ add name=wzxcvb.m.23txt.com type=NXDOMAIN
 add name=x.adpro.cn type=NXDOMAIN
 add name=x.da.mgtv.com type=NXDOMAIN
 add name=x1.go.sohu.com type=NXDOMAIN
+add name=x67hwit.yflog.me type=NXDOMAIN
 add name=xd.mediav.com type=NXDOMAIN
 add name=xd.xweuu.com type=NXDOMAIN
 add name=xdcs-collector.ximalaya.com type=NXDOMAIN
