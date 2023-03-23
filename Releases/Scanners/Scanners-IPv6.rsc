@@ -32,6 +32,7 @@ add list=scanners address=240e:360:ca01:3841:600e:2f9c:7fce:760a
 add list=scanners address=240e:360:ca01:3ace:600e:2f9c:7fce:760a
 add list=scanners address=240e:360:ca01:3c6:600e:2f9c:7fce:760a
 add list=scanners address=240e:360:ca01:44be:600e:2f9c:7fce:760a
+add list=scanners address=240e:360:ca01:469d:600e:2f9c:7fce:760a
 add list=scanners address=240e:360:ca01:4ad9:600e:2f9c:7fce:760a
 add list=scanners address=240e:360:ca01:7c3:600e:2f9c:7fce:760a
 add list=scanners address=240e:360:ca01:97b:600e:2f9c:7fce:760a
