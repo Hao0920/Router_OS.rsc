@@ -35,7 +35,6 @@ add list=scanners address=2002:751b:b775::751b:b775
 add list=scanners address=2002:751b:babb::751b:babb
 add list=scanners address=2002:751f:4558::751f:4558
 add list=scanners address=2002:7539:5f0b::7539:5f0b
-add list=scanners address=2002:7539:61c8::7539:61c8
 add list=scanners address=2002:7539:62a7::7539:62a7
 add list=scanners address=2002:7539:702a::7539:702a
 add list=scanners address=2002:7539:7106::7539:7106
