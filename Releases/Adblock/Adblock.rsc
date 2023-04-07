@@ -961,6 +961,7 @@ add name=ef-dongfeng.tanx.com type=NXDOMAIN
 add name=ef9i.lo83cs.space type=NXDOMAIN
 add name=efe25.t7wl8.cn type=NXDOMAIN
 add name=ei.cnzz.com type=NXDOMAIN
+add name=ei2v.amaumxx.cn type=NXDOMAIN
 add name=eiv.baidu.com type=NXDOMAIN
 add name=eladies.zhmyq.cn type=NXDOMAIN
 add name=ell.88kids.mobi type=NXDOMAIN
@@ -11546,6 +11547,7 @@ add name=w.l.qq.com type=NXDOMAIN
 add name=w.ymapp.com type=NXDOMAIN
 add name=w24.krp3g.top type=NXDOMAIN
 add name=w27.7x1u.icu type=NXDOMAIN
+add name=w92.oyxp.xyz type=NXDOMAIN
 add name=wangmeng.baidu.com type=NXDOMAIN
 add name=wap.88xiaoshuo.com type=NXDOMAIN
 add name=wap.tiaozhuanmao1.cn type=NXDOMAIN
