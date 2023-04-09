@@ -66,6 +66,7 @@ add list=scanners address=2002:7784:408e::7784:408e
 add list=scanners address=2002:7784:8f41::7784:8f41
 add list=scanners address=2002:7936:bc11::7936:bc11
 add list=scanners address=2002:79e9:cf49::79e9:cf49
+add list=scanners address=2002:7af1:74b::7af1:74b
 add list=scanners address=2002:7d59:2978::7d59:2978
 add list=scanners address=2002:7d59:29f0::7d59:29f0
 add list=scanners address=2002:9cfd:c7e::9cfd:c7e
@@ -83,6 +84,7 @@ add list=scanners address=2404:7ac0:4180:fca5:fc07:2fc2:2dce:3502
 add list=scanners address=2404:7ac0:4195:a6e3:c37b:7080:f114:c35b
 add list=scanners address=2404:7ac0:41f9:1b99:df92:dd37:f37:81c
 add list=scanners address=2404:7ac0:4286:7e1f:84c2:3e31:19df:7120
+add list=scanners address=2404:7ac0:430b:23ac:74a7:e24:88ad:a1c3
 add list=scanners address=2404:7ac0:4354:9a84:a08a:1ec4:e9f6:607e
 add list=scanners address=2404:7ac0:43b5:80fc:4b09:933:539:4f85
 add list=scanners address=2404:7ac0:43c0:fec8:c57c:389e:4198:6700
@@ -100,6 +102,7 @@ add list=scanners address=2404:7ac0:4722:ca70:5606:1f6b:8c5b:3d8a
 add list=scanners address=2404:7ac0:4725:5ad0:25f:5049:5512:e8b5
 add list=scanners address=2404:7ac0:485a:6484:5e4e:a724:a172:1cc0
 add list=scanners address=2404:7ac0:4871:5bc6:8990:310a:af5a:1033
+add list=scanners address=2404:7ac0:4925:f148:1144:55e9:dc54:842f
 add list=scanners address=2404:7ac0:4928:d378:56a7:f4c7:2420:42a8
 add list=scanners address=2404:7ac0:4974:a44:de76:b008:a88:3c6
 add list=scanners address=2404:7ac0:4aac:4cc0:9ffa:cf7e:c514:a666
@@ -116,6 +119,7 @@ add list=scanners address=2404:7ac0:4d73:5f7a:ffa7:d739:f23f:8aee
 add list=scanners address=2404:7ac0:4e29:1f08:caae:f919:3f33:dfa1
 add list=scanners address=2404:7ac0:4eb3:848f:8f60:11a5:40de:394b
 add list=scanners address=2404:7ac0:4eb8:fa56:f5f1:6293:35:5aac
+add list=scanners address=2404:7ac0:4f17:e460:38f6:1be2:e983:a706
 add list=scanners address=2404:7ac0:4fa2:f1b2:3673:1fb7:7d4c:556c
 add list=scanners address=2404:7ac0:4fe4:de0b:49fe:17c5:66b9:f572
 add list=scanners address=2404:8c80:85:1011:1:1:16c:2ef9
