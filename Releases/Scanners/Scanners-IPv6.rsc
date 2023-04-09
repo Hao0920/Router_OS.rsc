@@ -24,6 +24,7 @@ add list=scanners address=2002:2406:9ecb::2406:9ecb
 add list=scanners address=2002:2406:9ef4::2406:9ef4
 add list=scanners address=2002:2406:9f14::2406:9f14
 add list=scanners address=2002:2406:9fae::2406:9fae
+add list=scanners address=2002:3156:b031::3156:b031
 add list=scanners address=2002:3b26:ec5::3b26:ec5
 add list=scanners address=2002:3d88:a412::3d88:a412
 add list=scanners address=2002:3d8f:27a4::3d8f:27a4
@@ -32,6 +33,7 @@ add list=scanners address=2002:672a:b59b::672a:b59b
 add list=scanners address=2002:6825:d605::6825:d605
 add list=scanners address=2002:6e51:68b5::6e51:68b5
 add list=scanners address=2002:6e51:6959::6e51:6959
+add list=scanners address=2002:6e52:682::6e52:682
 add list=scanners address=2002:6e55:d7cb::6e55:d7cb
 add list=scanners address=2002:714c:8759::714c:8759
 add list=scanners address=2002:714c:ecc1::714c:ecc1
@@ -78,6 +80,7 @@ add list=scanners address=2002:ca68:b9fc::ca68:b9fc
 add list=scanners address=2404:7ac0:402c:1d58:4772:c1a4:157c:2031
 add list=scanners address=2404:7ac0:4040:b891:d18b:9b90:f103:107d
 add list=scanners address=2404:7ac0:4053:be34:8ab3:1959:aed8:14ec
+add list=scanners address=2404:7ac0:4129:cc4e:ccdb:f690:cc77:17cb
 add list=scanners address=2404:7ac0:4134:a640:f369:8d1:8a10:66a3
 add list=scanners address=2404:7ac0:4145:71fe:c72a:c8cd:6056:efe6
 add list=scanners address=2404:7ac0:4180:fca5:fc07:2fc2:2dce:3502
@@ -125,9 +128,7 @@ add list=scanners address=2404:7ac0:4fe4:de0b:49fe:17c5:66b9:f572
 add list=scanners address=2404:8c80:85:1011:1:1:16c:2ef9
 add list=scanners address=2408:8445:770:3d77:2cb7:2648:dea1:8f78
 add list=scanners address=2409:8930:465:2308:ab59:baf8:e570:11d2
-add list=scanners address=2409:8931:436:294b:145:e624:fd2c:b05f
 add list=scanners address=2409:8931:617:a6c5:70aa:63a4:7126:f73b
-add list=scanners address=240e:45a:488:d5e4::1
 add list=scanners address=240e:45a:48d:e60c:c6b8:99bd:5c6b:b8a6
 add list=scanners address=240e:473:2440:567b:a1cd:7478:a834:60b4
 add list=scanners address=2607:ff28:a005:10a:ec4:7aff:feb5:1a2e
