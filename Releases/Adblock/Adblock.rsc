@@ -11322,6 +11322,7 @@ add name=test.zeus.ad.xiaomi.com type=NXDOMAIN
 add name=test2014.adview.cn type=NXDOMAIN
 add name=tf.adddyy.com type=NXDOMAIN
 add name=tfsnp.hnhgmh.mobi type=NXDOMAIN
+add name=tg.wmqfey.com type=NXDOMAIN
 add name=tg.xkcxh.com type=NXDOMAIN
 add name=tian.biquge.info type=NXDOMAIN
 add name=tiexu.biquge.info type=NXDOMAIN
