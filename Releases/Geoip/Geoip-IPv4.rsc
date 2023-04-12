@@ -530,6 +530,7 @@ add list=china address=103.130.132.0/22
 add list=china address=103.130.152.0/24
 add list=china address=103.130.160.0/22
 add list=china address=103.130.228.0/22
+add list=china address=103.131.138.0/23
 add list=china address=103.131.152.0/22
 add list=china address=103.131.168.0/22
 add list=china address=103.131.176.0/22
