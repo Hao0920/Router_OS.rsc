@@ -554,6 +554,7 @@ add list=china address=103.132.188.0/22
 add list=china address=103.132.208.0/21
 add list=china address=103.132.208.0/22
 add list=china address=103.132.212.0/22
+add list=china address=103.132.22.0/23
 add list=china address=103.132.234.0/23
 add list=china address=103.132.60.0/22
 add list=china address=103.132.64.0/20
