@@ -11774,6 +11774,7 @@ add name=z9.cnzz.com type=NXDOMAIN
 add name=zeus.ad.xiaomi.com type=NXDOMAIN
 add name=zgxuw.lihong.ltd type=NXDOMAIN
 add name=zhihu-web-analytics.zhihu.com type=NXDOMAIN
+add name=zhuanqian04kyjs.com type=NXDOMAIN
 add name=zls.xz6d.com type=NXDOMAIN
 add name=zone.23uuw3.com type=NXDOMAIN
 add name=zs1.cnzz.com type=NXDOMAIN
