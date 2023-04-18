@@ -22,6 +22,7 @@ add name=5j73de.cn type=NXDOMAIN
 add name=605yuym.ddqhnjb.cn type=NXDOMAIN
 add name=6nglkt9.azhhr.cn type=NXDOMAIN
 add name=79t2.admaster.com.cn type=NXDOMAIN
+add name=7p35wi8.xckyqq.com type=NXDOMAIN
 add name=7zva1jn.44j4oo2a.cn type=NXDOMAIN
 add name=80vn.cn type=NXDOMAIN
 add name=822.dlads.cn type=NXDOMAIN
@@ -11188,6 +11189,7 @@ add name=sms.ads.oppomobile.com type=NXDOMAIN
 add name=smt.admaster.com.cn type=NXDOMAIN
 add name=snprv.hnhgmh.mobi type=NXDOMAIN
 add name=snprv.mhqx.store type=NXDOMAIN
+add name=so.xni.ink type=NXDOMAIN
 add name=so6.b3wg2.cn type=NXDOMAIN
 add name=sofire.baidu.com type=NXDOMAIN
 add name=sohu-dtv.m.cn.miaozhen.com type=NXDOMAIN
@@ -11638,6 +11640,7 @@ add name=www.jfsdiwmnbsk008.top type=NXDOMAIN
 add name=www.jfsdiwmnbsk009.top type=NXDOMAIN
 add name=www.jrafspaelojsejbn.xyz type=NXDOMAIN
 add name=www.jsqsjn.com type=NXDOMAIN
+add name=www.larrytj.com type=NXDOMAIN
 add name=www.liebaovip.com type=NXDOMAIN
 add name=www.lmlmvip.com type=NXDOMAIN
 add name=www.meipian7.cn type=NXDOMAIN
