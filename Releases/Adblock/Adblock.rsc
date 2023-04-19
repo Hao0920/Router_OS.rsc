@@ -740,6 +740,7 @@ add name=cbghz.xinyuan.ink type=NXDOMAIN
 add name=cbghz.zdzy.shop type=NXDOMAIN
 add name=cbjs.baidu.com type=NXDOMAIN
 add name=cc.map.qq.com type=NXDOMAIN
+add name=cc.uegjdlfjg.com type=NXDOMAIN
 add name=cca.mob.com type=NXDOMAIN
 add name=ccdace.hupu.com type=NXDOMAIN
 add name=cctv.adsunion.com type=NXDOMAIN
@@ -1035,6 +1036,7 @@ add name=fbapi.guguread.com type=NXDOMAIN
 add name=fcc.lajsi2a.cn type=NXDOMAIN
 add name=fclog.baidu.com type=NXDOMAIN
 add name=ff.yiqima.xyz type=NXDOMAIN
+add name=fg.joiwnq2.cn type=NXDOMAIN
 add name=fg.knlk2md.cn type=NXDOMAIN
 add name=files.adform.net type=NXDOMAIN
 add name=film.dofkfhv.cn type=NXDOMAIN
@@ -11032,6 +11034,7 @@ add name=rest.irs01.com type=NXDOMAIN
 add name=return.adsame.com type=NXDOMAIN
 add name=river.zhidao.baidu.com type=NXDOMAIN
 add name=rmpad.imtt.qq.com type=NXDOMAIN
+add name=rr.ndflgdjs.com type=NXDOMAIN
 add name=rs-staticart.ybcdn.net type=NXDOMAIN
 add name=rt.applovin.com type=NXDOMAIN
 add name=rt.applvn.com type=NXDOMAIN
@@ -11511,6 +11514,7 @@ add name=vcardsdkservice.vivo.com.cn type=NXDOMAIN
 add name=vd.l.qq.com type=NXDOMAIN
 add name=veim.lrswl.com type=NXDOMAIN
 add name=vg.aty.sohu.com type=NXDOMAIN
+add name=vg.njdmald.com type=NXDOMAIN
 add name=vhh.zwda.com type=NXDOMAIN
 add name=vhunantv.admaster.com.cn type=NXDOMAIN
 add name=video-ad-stats.googlesyndication.com type=NXDOMAIN
@@ -11573,6 +11577,7 @@ add name=wrdbhnwaieud.m.zwdu.com type=NXDOMAIN
 add name=wsk.segumy.com type=NXDOMAIN
 add name=wuyshui1.xyz type=NXDOMAIN
 add name=wv.inner-active.mobi type=NXDOMAIN
+add name=ww.hefei64.com type=NXDOMAIN
 add name=ww129.smartadserver.com type=NXDOMAIN
 add name=ww13.smartadserver.com type=NXDOMAIN
 add name=ww14.smartadserver.com type=NXDOMAIN
