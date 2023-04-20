@@ -7511,7 +7511,6 @@ add list=china address=211.160.0.0/14
 add list=china address=211.164.0.0/14
 add list=china address=211.234.103.64/26
 add list=china address=211.234.104.192/27
-add list=china address=211.234.109.208/28
 add list=china address=211.64.0.0/13
 add list=china address=211.64.0.0/14
 add list=china address=211.68.0.0/15
