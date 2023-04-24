@@ -604,6 +604,7 @@ add list=china_mobile address=2400:f6e0::/32
 add list=china_mobile address=2400:f720::/32
 add list=china_mobile address=2400:f7c0::/32
 add list=china_mobile address=2400:f840::/32
+add list=china_mobile address=2400:f860::/32
 add list=china_mobile address=2400:f980::/32
 add list=china_mobile address=2400:fac0::/32
 add list=china_mobile address=2400:fb40::/32
