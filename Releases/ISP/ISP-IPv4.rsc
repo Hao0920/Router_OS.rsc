@@ -3291,7 +3291,6 @@ add list=othernet address=101.36.64.0/19
 add list=othernet address=101.36.128.0/17
 add list=othernet address=101.37.0.0/16
 add list=othernet address=101.42.0.0/15
-add list=othernet address=101.47.0.0/16
 add list=othernet address=101.48.0.0/15
 add list=othernet address=101.50.8.0/21
 add list=othernet address=101.52.0.0/16
