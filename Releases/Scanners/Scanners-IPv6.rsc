@@ -27,7 +27,6 @@ add list=scanners address=240e:390:a660:156a:215:5d38:3f01:7914
 add list=scanners address=240e:390:a660:18e0:215:5d0b:bb01:7914
 add list=scanners address=240e:390:a660:1a17:215:5d72:6601:7914
 add list=scanners address=240e:390:a660:1ac8:215:5de2:b601:7914
-add list=scanners address=240e:390:a660:1bb5:215:5dfc:c01:7914
 add list=scanners address=240e:390:a660:20f1:215:5dbd:7401:7914
 add list=scanners address=240e:390:a660:2143:215:5d5f:a401:7914
 add list=scanners address=240e:390:a660:25a9:215:5d67:a301:7914
