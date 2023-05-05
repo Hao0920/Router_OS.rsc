@@ -15,7 +15,6 @@ add list=scanners address=2001:da8:6005:6:b455:25c9::
 add list=scanners address=2002:2bfb:10d1::2bfb:10d1
 add list=scanners address=2002:44b7:e51a::44b7:e51a
 add list=scanners address=2002:5bd7:5522::5bd7:5522
-add list=scanners address=2002:6728:67d4::6728:67d4
 add list=scanners address=2002:9442:712::9442:712
 add list=scanners address=2002:957f:d7e7::957f:d7e7
 add list=scanners address=2002:b610:48da::b610:48da
@@ -23,6 +22,7 @@ add list=scanners address=2408:8220:27:54d0:c955:448c:ec1b:ab8f
 add list=scanners address=240e:378:1801:102b:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:1123:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:1137:e0af:1fac:ea3f:39e9
+add list=scanners address=240e:378:1801:13b5:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:14a7:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:174f:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:18b9:e0af:1fac:ea3f:39e9
@@ -77,6 +77,7 @@ add list=scanners address=240e:378:1801:7ff3:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:84a:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:888:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:917:e0af:1fac:ea3f:39e9
+add list=scanners address=240e:378:1801:c8c:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:ce6:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:390:a660:107c:215:5d22:f701:7914
 add list=scanners address=240e:390:a660:12b4:215:5d85:7801:7914
@@ -123,6 +124,7 @@ add list=scanners address=240e:390:a660:474e:215:5d30:101:7914
 add list=scanners address=240e:390:a660:4843:215:5db5:a501:7914
 add list=scanners address=240e:390:a660:4886:215:5db4:3501:7914
 add list=scanners address=240e:390:a660:4937:215:5de4:7d01:7914
+add list=scanners address=240e:390:a660:4aa5:215:5d0b:ec01:7914
 add list=scanners address=240e:390:a660:4adf:215:5d0a:4601:7914
 add list=scanners address=240e:390:a660:4bb9:215:5d8b:f501:7914
 add list=scanners address=240e:390:a660:54a:215:5de1:ce01:7914
