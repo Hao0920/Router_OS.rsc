@@ -256,6 +256,7 @@ add list=scanners address=240e:390:a660:fed:215:5d91:4901:7914
 add list=scanners address=240e:459:493:eec8:c99f:6c57:9326:3e8f
 add list=scanners address=240e:d9:c200:143:101b::d80
 add list=scanners address=2600:3c03::f03c:93ff:fe94:1589
+add list=scanners address=2607:ff28:a005:181:ec4:7aff:feb3:cd84
 add list=scanners address=2607:ff28:a005:46:ec4:7aff:feb5:1d4a
 add list=scanners address=2607:ff28:a005:50:ec4:7aff:feb3:c9b8
 add list=scanners address=2607:ff28:a005:c5:ec4:7aff:feb5:1bd8
