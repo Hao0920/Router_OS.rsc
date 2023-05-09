@@ -15,6 +15,7 @@ add name=397c0.admaster.com.cn type=NXDOMAIN
 add name=3m.mediav.com type=NXDOMAIN
 add name=3sclqjn.51gpiao.cn type=NXDOMAIN
 add name=4171764.fls.doubleclick.net type=NXDOMAIN
+add name=4698.chushoushijian.cn type=NXDOMAIN
 add name=4mtjzwz.bgjjwl.cn type=NXDOMAIN
 add name=52xs.live type=NXDOMAIN
 add name=58749.admaster.com.cn type=NXDOMAIN
