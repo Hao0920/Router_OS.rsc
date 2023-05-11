@@ -890,6 +890,7 @@ add list=china address=103.166.52.0/23
 add list=china address=103.166.54.0/23
 add list=china address=103.166.84.0/23
 add list=china address=103.167.0.0/23
+add list=china address=103.167.100.0/23
 add list=china address=103.167.36.0/23
 add list=china address=103.168.170.0/23
 add list=china address=103.168.98.0/23
