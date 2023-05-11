@@ -1301,6 +1301,7 @@ add name=lives.l.cp81.ott.cibntv.net type=NXDOMAIN
 add name=lives.l.ott.video.qq.com type=NXDOMAIN
 add name=lives.l.qq.com type=NXDOMAIN
 add name=lk.remenxs.com type=NXDOMAIN
+add name=ll.txt53.com type=NXDOMAIN
 add name=location.ximalaya.com type=NXDOMAIN
 add name=log-api.pangolin-sdk-toutiao.com type=NXDOMAIN
 add name=log-dmp.suishenyun.cn type=NXDOMAIN
