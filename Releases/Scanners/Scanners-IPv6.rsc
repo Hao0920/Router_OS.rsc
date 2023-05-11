@@ -27,11 +27,13 @@ add list=scanners address=240e:378:1801:14a7:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:1614:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:186c:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:1ba:e0af:1fac:ea3f:39e9
+add list=scanners address=240e:378:1801:1be8:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:1d5d:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:1d9d:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:1efa:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:21e3:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:23c2:e0af:1fac:ea3f:39e9
+add list=scanners address=240e:378:1801:23d4:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:24d9:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:255f:e0af:1fac:ea3f:39e9
 add list=scanners address=240e:378:1801:28e7:e0af:1fac:ea3f:39e9
