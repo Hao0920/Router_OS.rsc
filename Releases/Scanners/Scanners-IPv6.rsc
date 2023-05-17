@@ -111,6 +111,7 @@ add list=scanners address=240e:390:a660:358d:215:5d51:6201:7914
 add list=scanners address=240e:390:a660:35b7:215:5d01:5401:7914
 add list=scanners address=240e:390:a660:3664:215:5d2a:1401:7914
 add list=scanners address=240e:390:a660:3746:215:5db6:3c01:7914
+add list=scanners address=240e:390:a660:3829:215:5ddc:fa01:7914
 add list=scanners address=240e:390:a660:3877:215:5d1c:7101:7914
 add list=scanners address=240e:390:a660:387e:215:5da4:7001:7914
 add list=scanners address=240e:390:a660:388b:215:5d33:2101:7914
