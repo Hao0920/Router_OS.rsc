@@ -433,6 +433,7 @@ add list=china address=2401:1ec0::/32
 add list=china address=2401:1f40::/32
 add list=china address=2401:2040::/32
 add list=china address=2401:2080::/32
+add list=china address=2401:20::/32
 add list=china address=2401:23c0::/32
 add list=china address=2401:2600::/32
 add list=china address=2401:2780::/32
