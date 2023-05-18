@@ -612,6 +612,7 @@ add list=china_telecom address=2400:fbc0::/32
 add list=china_telecom address=2400:fc40::/32
 add list=china_telecom address=2400:fcc0::/32
 add list=china_telecom address=2400:fe00::/32
+add list=china_telecom address=2401:20::/32
 add list=china_telecom address=2401:80::/32
 add list=china_telecom address=2401:140::/32
 add list=china_telecom address=2401:1c0::/32
@@ -853,10 +854,8 @@ add list=china_telecom address=2402:4d80::/32
 add list=china_telecom address=2402:4e00::/32
 add list=china_telecom address=2402:4ec0::/32
 add list=china_telecom address=2402:4f80::/32
-add list=china_telecom address=2402:50c0::/32
 add list=china_telecom address=2402:5140::/32
 add list=china_telecom address=2402:5180::/32
-add list=china_telecom address=2402:51c0::/32
 add list=china_telecom address=2402:52c0::/32
 add list=china_telecom address=2402:5340::/32
 add list=china_telecom address=2402:5880::/32
