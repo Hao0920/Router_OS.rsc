@@ -617,6 +617,7 @@ add list=othernet_ipv6 address=2400:fc40::/32
 add list=othernet_ipv6 address=2400:fcc0::/32
 add list=othernet_ipv6 address=2400:fe00::/32
 add list=othernet_ipv6 address=2401:20::/32
+add list=othernet_ipv6 address=2401:60::/32
 add list=othernet_ipv6 address=2401:80::/32
 add list=othernet_ipv6 address=2401:140::/32
 add list=othernet_ipv6 address=2401:1c0::/32
