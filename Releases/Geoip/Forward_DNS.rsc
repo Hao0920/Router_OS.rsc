@@ -2668,6 +2668,7 @@ add regexp="^(.*\\.)?huaxia-news\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?huaxiabao\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?huaxin\\.ph\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?huayuworld\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?hub\\.docker\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hudatoriq\\.web\\.id\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hudson\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?huffingtonpost\\.com\$" type=FWD forward-to=$FWDgfw
@@ -3927,6 +3928,7 @@ add regexp="^(.*\\.)?packetix\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pacopacomama\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?padmanet\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?page\\.bid\\.yahoo\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?page\\.link\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?page2rss\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pages\\.dev\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pagodabox\\.com\$" type=FWD forward-to=$FWDgfw
@@ -4070,6 +4072,7 @@ add regexp="^(.*\\.)?pobieramy\\.top\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?podbean\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?podcast\\.co\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?podictionary\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?poe\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pokerstars\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pokerstars\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?politicalchina\\.org\$" type=FWD forward-to=$FWDgfw
