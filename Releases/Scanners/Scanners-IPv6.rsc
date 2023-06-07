@@ -30,5 +30,6 @@ add list=scanners address=2a05:8280:f:431f::100
 add list=scanners address=2a05:8280:f:431f::11
 add list=scanners address=2a05:8280:f:431f::2
 add list=scanners address=2a06:1700:0:12::2
+add list=scanners address=2a0b:f4c2:2::46
 add list=scanners address=2a10:cc45:100:0:ddd5:cfd5:5bb0:8415
 /file remove Scanners-IPv6.rsc
