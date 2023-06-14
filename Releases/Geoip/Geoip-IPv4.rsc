@@ -250,7 +250,6 @@ add list=china address=103.104.0.0/21
 add list=china address=103.104.0.0/22
 add list=china address=103.104.104.0/22
 add list=china address=103.104.152.0/22
-add list=china address=103.104.168.0/21
 add list=china address=103.104.168.0/22
 add list=china address=103.104.172.0/22
 add list=china address=103.104.188.0/22
