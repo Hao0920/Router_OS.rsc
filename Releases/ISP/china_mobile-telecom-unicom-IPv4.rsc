@@ -4093,7 +4093,7 @@ add list=china_mobile address=103.104.40.0/22
 add list=china_mobile address=103.104.64.0/22
 add list=china_mobile address=103.104.104.0/22
 add list=china_mobile address=103.104.152.0/22
-add list=china_mobile address=103.104.168.0/21
+add list=china_mobile address=103.104.168.0/22
 add list=china_mobile address=103.104.188.0/22
 add list=china_mobile address=103.104.198.0/23
 add list=china_mobile address=103.104.252.0/22
@@ -4418,6 +4418,7 @@ add list=china_mobile address=103.149.220.0/23
 add list=china_mobile address=103.149.242.0/23
 add list=china_mobile address=103.149.244.0/22
 add list=china_mobile address=103.149.248.0/23
+add list=china_mobile address=103.150.10.0/23
 add list=china_mobile address=103.150.24.0/23
 add list=china_mobile address=103.150.66.0/23
 add list=china_mobile address=103.150.72.0/23
