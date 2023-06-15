@@ -3961,6 +3961,7 @@ add list=china address=110.34.44.0/22
 add list=china address=110.40.0.0/14
 add list=china address=110.44.12.0/22
 add list=china address=110.44.144.0/20
+add list=china address=110.45.168.160/27
 add list=china address=110.45.208.0/24
 add list=china address=110.48.0.0/16
 add list=china address=110.51.0.0/16
@@ -4312,6 +4313,7 @@ add list=china address=117.32.0.0/13
 add list=china address=117.40.0.0/14
 add list=china address=117.44.0.0/15
 add list=china address=117.48.0.0/14
+add list=china address=117.52.161.192/26
 add list=china address=117.52.26.0/23
 add list=china address=117.52.28.0/23
 add list=china address=117.52.33.0/24
@@ -4924,6 +4926,7 @@ add list=china address=132.237.134.0/24
 add list=china address=134.175.0.0/16
 add list=china address=135.159.208.0/20
 add list=china address=135.244.80.0/20
+add list=china address=137.221.112.0/24
 add list=china address=137.221.64.0/19
 add list=china address=137.221.96.0/20
 add list=china address=137.59.59.0/24
@@ -5563,7 +5566,6 @@ add list=china address=193.112.0.0/16
 add list=china address=193.17.120.0/22
 add list=china address=193.20.64.0/22
 add list=china address=193.200.222.160/28
-add list=china address=193.59.178.0/24
 add list=china address=194.110.134.0/23
 add list=china address=194.110.138.0/23
 add list=china address=194.138.136.0/24
@@ -7503,6 +7505,7 @@ add list=china address=211.101.64.0/18
 add list=china address=211.102.0.0/16
 add list=china address=211.103.0.0/17
 add list=china address=211.103.128.0/17
+add list=china address=211.115.123.64/26
 add list=china address=211.136.0.0/13
 add list=china address=211.136.0.0/14
 add list=china address=211.140.0.0/15
@@ -7543,6 +7546,8 @@ add list=china address=211.167.128.0/19
 add list=china address=211.167.160.0/20
 add list=china address=211.167.176.0/20
 add list=china address=211.167.192.0/18
+add list=china address=211.234.103.64/26
+add list=china address=211.234.104.192/27
 add list=china address=211.64.0.0/13
 add list=china address=211.64.0.0/14
 add list=china address=211.68.0.0/15
@@ -10045,6 +10050,7 @@ add list=china address=61.8.160.0/20
 add list=china address=61.87.192.0/18
 add list=china address=62.234.0.0/16
 add list=china address=62.3.6.0/24
+add list=china address=64.224.24.0/23
 add list=china address=65.111.0.0/19
 add list=china address=66.40.184.0/24
 add list=china address=68.79.0.0/18
