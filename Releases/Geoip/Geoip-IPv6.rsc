@@ -558,6 +558,7 @@ add list=china address=2401:b6c0::/32
 add list=china address=2401:b7c0::/32
 add list=china address=2401:b940::/32
 add list=china address=2401:ba00::/32
+add list=china address=2401:ba0::/32
 add list=china address=2401:ba40::/32
 add list=china address=2401:bb80::/32
 add list=china address=2401:bc0::/32
