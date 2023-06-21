@@ -81,6 +81,8 @@ add list=scanners address=101.80.183.138
 add list=scanners address=101.80.199.191
 add list=scanners address=101.80.32.0/21
 add list=scanners address=101.82.62.208
+add list=scanners address=101.84.184.253
+add list=scanners address=101.84.6.55
 add list=scanners address=101.86.215.49
 add list=scanners address=101.87.230.147
 add list=scanners address=101.87.53.136
@@ -231,7 +233,7 @@ add list=scanners address=104.133.177.102
 add list=scanners address=104.133.177.105
 add list=scanners address=104.133.177.107
 add list=scanners address=104.133.177.109
-add list=scanners address=104.133.177.97
+add list=scanners address=104.133.177.96
 add list=scanners address=104.140.10.0/24
 add list=scanners address=104.140.12.66
 add list=scanners address=104.140.13.58
@@ -725,6 +727,7 @@ add list=scanners address=112.204.79.142
 add list=scanners address=112.205.66.86
 add list=scanners address=112.207.52.32
 add list=scanners address=112.21.22.0/24
+add list=scanners address=112.22.3.134
 add list=scanners address=112.22.3.19
 add list=scanners address=112.224.4.164
 add list=scanners address=112.225.26.8
@@ -2527,6 +2530,7 @@ add list=scanners address=121.229.148.144
 add list=scanners address=121.229.148.195
 add list=scanners address=121.229.148.202
 add list=scanners address=121.229.148.26
+add list=scanners address=121.229.149.119
 add list=scanners address=121.229.149.161
 add list=scanners address=121.230.106.0/24
 add list=scanners address=121.230.108.0/24
@@ -2604,7 +2608,6 @@ add list=scanners address=121.37.182.135
 add list=scanners address=121.37.207.248
 add list=scanners address=121.37.215.8
 add list=scanners address=121.40.243.1
-add list=scanners address=121.46.13.131
 add list=scanners address=121.52.149.123
 add list=scanners address=121.52.152.77
 add list=scanners address=121.62.230.85
@@ -2837,6 +2840,7 @@ add list=scanners address=124.122.47.219
 add list=scanners address=124.123.165.80
 add list=scanners address=124.123.178.247
 add list=scanners address=124.123.188.156
+add list=scanners address=124.126.181.202
 add list=scanners address=124.127.187.99
 add list=scanners address=124.131.171.0/24
 add list=scanners address=124.133.2.33
@@ -3018,7 +3022,6 @@ add list=scanners address=13.57.246.84
 add list=scanners address=13.87.204.143
 add list=scanners address=130.0.234.172
 add list=scanners address=130.126.255.166
-add list=scanners address=130.132.173.178
 add list=scanners address=130.132.173.92
 add list=scanners address=130.149.80.199
 add list=scanners address=130.162.165.169
@@ -3037,7 +3040,6 @@ add list=scanners address=131.239.127.2
 add list=scanners address=131.253.18.11
 add list=scanners address=131.253.18.12
 add list=scanners address=132.145.25.253
-add list=scanners address=132.145.32.97
 add list=scanners address=132.145.43.106
 add list=scanners address=132.145.51.74
 add list=scanners address=132.148.166.118
@@ -3201,7 +3203,6 @@ add list=scanners address=139.224.20.173
 add list=scanners address=139.224.219.119
 add list=scanners address=139.224.55.12
 add list=scanners address=139.226.142.236
-add list=scanners address=139.226.143.97
 add list=scanners address=139.227.24.58
 add list=scanners address=139.227.64.168
 add list=scanners address=139.5.44.216
@@ -5039,7 +5040,6 @@ add list=scanners address=183.20.131.0/24
 add list=scanners address=183.208.182.135
 add list=scanners address=183.208.48.141
 add list=scanners address=183.209.82.0/24
-add list=scanners address=183.212.143.60
 add list=scanners address=183.212.180.81
 add list=scanners address=183.217.208.0/24
 add list=scanners address=183.217.81.0/24
@@ -6477,6 +6477,7 @@ add list=scanners address=221.130.29.210
 add list=scanners address=221.14.154.0/24
 add list=scanners address=221.14.156.0/22
 add list=scanners address=221.147.232.194
+add list=scanners address=221.157.221.207
 add list=scanners address=221.176.140.215
 add list=scanners address=221.192.179.56
 add list=scanners address=221.193.114.0/24
@@ -6588,7 +6589,6 @@ add list=scanners address=222.209.132.0/23
 add list=scanners address=222.209.134.0/24
 add list=scanners address=222.209.178.0/23
 add list=scanners address=222.211.146.0/23
-add list=scanners address=222.212.94.49
 add list=scanners address=222.214.100.0/23
 add list=scanners address=222.214.242.0/23
 add list=scanners address=222.214.92.0/23
@@ -6764,7 +6764,6 @@ add list=scanners address=223.244.82.16
 add list=scanners address=223.244.84.131
 add list=scanners address=223.245.212.0/23
 add list=scanners address=223.246.103.94
-add list=scanners address=223.246.105.254
 add list=scanners address=223.246.123.107
 add list=scanners address=223.246.125.22
 add list=scanners address=223.246.129.228
@@ -7242,6 +7241,7 @@ add list=scanners address=36.60.128.217
 add list=scanners address=36.60.204.25
 add list=scanners address=36.60.48.2
 add list=scanners address=36.60.49.8
+add list=scanners address=36.60.57.17
 add list=scanners address=36.60.80.194
 add list=scanners address=36.61.15.104
 add list=scanners address=36.61.173.146
@@ -7256,7 +7256,6 @@ add list=scanners address=36.62.194.0/23
 add list=scanners address=36.62.210.0/23
 add list=scanners address=36.62.216.0/23
 add list=scanners address=36.63.135.8
-add list=scanners address=36.63.33.60
 add list=scanners address=36.63.82.0/23
 add list=scanners address=36.63.95.226
 add list=scanners address=36.69.86.172
@@ -7358,6 +7357,7 @@ add list=scanners address=39.108.66.225
 add list=scanners address=39.109.127.250
 add list=scanners address=39.110.150.81
 add list=scanners address=39.144.103.121
+add list=scanners address=39.144.103.244
 add list=scanners address=39.144.103.248
 add list=scanners address=39.144.103.37
 add list=scanners address=39.144.104.233
@@ -7684,6 +7684,7 @@ add list=scanners address=43.153.20.244
 add list=scanners address=43.153.207.24
 add list=scanners address=43.153.68.7
 add list=scanners address=43.153.94.204
+add list=scanners address=43.153.98.229
 add list=scanners address=43.153.98.47
 add list=scanners address=43.154.154.86
 add list=scanners address=43.154.238.109
@@ -7778,6 +7779,7 @@ add list=scanners address=45.199.154.141
 add list=scanners address=45.2.61.134
 add list=scanners address=45.200.14.117
 add list=scanners address=45.201.208.87
+add list=scanners address=45.203.114.2
 add list=scanners address=45.207.39.31
 add list=scanners address=45.221.11.0/24
 add list=scanners address=45.221.8.0/23
@@ -8032,7 +8034,6 @@ add list=scanners address=47.95.7.161
 add list=scanners address=47.96.225.118
 add list=scanners address=47.97.121.236
 add list=scanners address=47.97.164.125
-add list=scanners address=47.98.230.217
 add list=scanners address=47.99.178.176
 add list=scanners address=47.99.213.20
 add list=scanners address=47.99.34.3
@@ -8113,7 +8114,6 @@ add list=scanners address=49.71.142.141
 add list=scanners address=49.71.144.0/24
 add list=scanners address=49.71.159.0/24
 add list=scanners address=49.71.163.0/24
-add list=scanners address=49.71.18.9
 add list=scanners address=49.72.1.0/24
 add list=scanners address=49.72.171.0/24
 add list=scanners address=49.72.186.0/23
@@ -8196,7 +8196,6 @@ add list=scanners address=49.82.226.32
 add list=scanners address=49.82.242.0/24
 add list=scanners address=49.82.244.0/24
 add list=scanners address=49.82.245.106
-add list=scanners address=49.82.245.119
 add list=scanners address=49.82.245.139
 add list=scanners address=49.82.245.217
 add list=scanners address=49.82.245.254
@@ -9731,7 +9730,6 @@ add list=scanners address=87.149.116.32
 add list=scanners address=87.149.121.9
 add list=scanners address=87.185.31.200
 add list=scanners address=87.202.101.164
-add list=scanners address=87.214.85.193
 add list=scanners address=87.221.153.182
 add list=scanners address=87.236.210.110
 add list=scanners address=87.236.215.151
