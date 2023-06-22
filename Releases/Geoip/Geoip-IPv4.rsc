@@ -5559,6 +5559,7 @@ add list=china address=192.232.97.0/24
 add list=china address=192.51.188.0/24
 add list=china address=192.55.10.0/23
 add list=china address=192.55.40.0/24
+add list=china address=192.55.46.0/23
 add list=china address=192.55.46.0/24
 add list=china address=192.55.68.0/22
 add list=china address=192.64.168.0/21
