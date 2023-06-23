@@ -5521,7 +5521,6 @@ add list=china address=185.60.112.0/22
 add list=china address=188.131.128.0/17
 add list=china address=190.217.33.0/24
 add list=china address=192.102.204.0/22
-add list=china address=192.102.204.0/23
 add list=china address=192.11.23.0/24
 add list=china address=192.11.236.0/24
 add list=china address=192.11.26.0/24
