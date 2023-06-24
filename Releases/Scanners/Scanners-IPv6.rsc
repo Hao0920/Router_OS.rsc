@@ -20,7 +20,6 @@ add list=scanners address=2002:2bfb:10d1::2bfb:10d1
 add list=scanners address=2002:677f:5389::677f:5389
 add list=scanners address=2002:9ad8:54b::9ad8:54b
 add list=scanners address=2409:8930:422:1574:e18f:11cf:e5b3:d1cc
-add list=scanners address=2409:8931:425:1f50:9dc5:94d8:d144:2a73
 add list=scanners address=240e:45a:5e98:c0f8:3c14:2ffc:f4aa:bec5
 add list=scanners address=240e:45b:491:435::1
 add list=scanners address=240e:45b:49d:540e::1
