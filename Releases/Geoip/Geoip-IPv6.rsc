@@ -415,6 +415,7 @@ add list=china address=2400:fc40::/32
 add list=china address=2400:fcc0::/32
 add list=china address=2400:fe00::/32
 add list=china address=2401:1000::/32
+add list=china address=2401:1160::/32
 add list=china address=2401:11c0::/32
 add list=china address=2401:1200::/32
 add list=china address=2401:12c0::/32
