@@ -638,6 +638,7 @@ add list=othernet_ipv6 address=2401:d40::/32
 add list=othernet_ipv6 address=2401:e00::/32
 add list=othernet_ipv6 address=2401:1000::/32
 add list=othernet_ipv6 address=2401:1160::/32
+add list=othernet_ipv6 address=2401:11a0::/32
 add list=othernet_ipv6 address=2401:11c0::/32
 add list=othernet_ipv6 address=2401:1200::/32
 add list=othernet_ipv6 address=2401:12c0::/32
