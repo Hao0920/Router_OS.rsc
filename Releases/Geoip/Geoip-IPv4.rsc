@@ -10031,6 +10031,7 @@ add list=china address=61.29.128.0/18
 add list=china address=61.29.192.0/19
 add list=china address=61.29.224.0/20
 add list=china address=61.29.240.0/21
+add list=china address=61.29.240.0/22
 add list=china address=61.29.248.0/22
 add list=china address=61.29.254.0/23
 add list=china address=61.4.176.0/20
