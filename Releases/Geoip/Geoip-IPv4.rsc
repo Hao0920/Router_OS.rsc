@@ -1938,6 +1938,7 @@ add list=china address=103.233.104.0/22
 add list=china address=103.233.128.0/22
 add list=china address=103.233.136.0/22
 add list=china address=103.233.162.0/23
+add list=china address=103.233.178.0/23
 add list=china address=103.233.228.0/22
 add list=china address=103.233.4.0/22
 add list=china address=103.233.44.0/22
@@ -10031,10 +10032,8 @@ add list=china address=61.28.64.0/18
 add list=china address=61.29.128.0/18
 add list=china address=61.29.192.0/19
 add list=china address=61.29.224.0/20
-add list=china address=61.29.240.0/21
 add list=china address=61.29.240.0/22
 add list=china address=61.29.248.0/22
-add list=china address=61.29.254.0/23
 add list=china address=61.4.176.0/20
 add list=china address=61.4.80.0/20
 add list=china address=61.4.80.0/22
