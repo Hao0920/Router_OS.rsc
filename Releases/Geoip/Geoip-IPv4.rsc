@@ -9765,8 +9765,7 @@ add list=china address=49.51.0.0/16
 add list=china address=49.52.0.0/14
 add list=china address=49.64.0.0/11
 add list=china address=5.182.60.0/22
-add list=china address=5.42.168.0/21
-add list=china address=5.42.176.0/20
+add list=china address=5.42.160.0/19
 add list=china address=52.130.0.0/15
 add list=china address=52.80.0.0/14
 add list=china address=52.80.0.0/15
