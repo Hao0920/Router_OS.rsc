@@ -22,9 +22,9 @@ add list=scanners address=2002:2bf3:6603::2bf3:6603
 add list=scanners address=2002:d853:39ac::d853:39ac
 add list=scanners address=2409:8930:22f2:2135:f0cf:f341:a8ee:4c09
 add list=scanners address=2409:8931:636:7818:ac:10ff:fed5:e165
+add list=scanners address=2409:8a04:9a43:8bd0:3979:6496:6191:dedb
 add list=scanners address=2409:8a30:622:c3e0:b5c4:b26d:ae87:3b37
 add list=scanners address=2409:8a31:6df:fba2:6b74:e3e3:9f35:7a91
-add list=scanners address=2607:ff28:9005:5e:225:90ff:fe27:308e
 add list=scanners address=2607:ff28:a005:f6:ec4:7aff:feb5:1a74
 add list=scanners address=2620:106:6008:99:f0::114
 add list=scanners address=2620:106:6008:99:f0::117
