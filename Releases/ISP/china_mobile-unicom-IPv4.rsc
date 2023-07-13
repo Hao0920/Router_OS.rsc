@@ -4935,6 +4935,7 @@ add list=china_mobile address=103.237.0.0/20
 add list=china_mobile address=103.237.24.0/21
 add list=china_mobile address=103.237.68.0/22
 add list=china_mobile address=103.237.88.0/22
+add list=china_mobile address=103.237.92.0/23
 add list=china_mobile address=103.237.152.0/22
 add list=china_mobile address=103.237.176.0/20
 add list=china_mobile address=103.237.192.0/18
