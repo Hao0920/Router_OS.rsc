@@ -1994,7 +1994,6 @@ add list=china address=2a07:f480::/29
 add list=china address=2a09:3680::/29
 add list=china address=2a0a:2840::/29
 add list=china address=2a0e:7580::/29
-add list=china address=2a10:1cc0::/29
 add list=china address=2a13:1800::/29
 add list=china address=2a13:8b40::/29
 /file remove Geoip-IPv6.rsc
