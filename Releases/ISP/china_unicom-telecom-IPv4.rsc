@@ -4949,6 +4949,7 @@ add list=china_unicom address=103.238.88.0/21
 add list=china_unicom address=103.238.96.0/22
 add list=china_unicom address=103.238.132.0/22
 add list=china_unicom address=103.238.140.0/22
+add list=china_unicom address=103.238.152.0/23
 add list=china_unicom address=103.238.164.0/22
 add list=china_unicom address=103.238.168.0/21
 add list=china_unicom address=103.238.176.0/20

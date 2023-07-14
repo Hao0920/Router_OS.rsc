@@ -6,6 +6,7 @@ add list=china_mobile address=2001:c68::/32
 add list=china_mobile address=2400:7680::/32
 add list=china_mobile address=2400:9600::/32
 add list=china_mobile address=2400:d0a0::/32
+add list=china_mobile address=2401:18e0::/28
 add list=china_mobile address=2401:8380::/32
 add list=china_mobile address=2401:fa80::/32
 add list=china_mobile address=2401:fb80::/32
