@@ -13,8 +13,6 @@ add list=china address=2001:256::/32
 add list=china address=2001:4438::/32
 add list=china address=2001:4510::/29
 add list=china address=2001:678:d3c::/48
-add list=china address=2001:67c:2964::/48
-add list=china address=2001:67c:360::/48
 add list=china address=2001:67c:a1c::/48
 add list=china address=2001:67c:aec::/48
 add list=china address=2001:67c:c28::/48
