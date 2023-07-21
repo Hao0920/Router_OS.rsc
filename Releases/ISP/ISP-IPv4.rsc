@@ -4970,6 +4970,7 @@ add list=othernet address=103.239.192.0/21
 add list=othernet address=103.239.204.0/22
 add list=othernet address=103.239.208.0/22
 add list=othernet address=103.240.16.0/22
+add list=othernet address=103.240.42.0/23
 add list=othernet address=103.240.188.0/22
 add list=othernet address=103.240.244.0/22
 add list=othernet address=103.241.12.0/22
