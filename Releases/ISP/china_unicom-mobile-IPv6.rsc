@@ -646,6 +646,8 @@ add list=china_unicom address=2401:1940::/32
 add list=china_unicom address=2401:19c0::/32
 add list=china_unicom address=2401:1a40::/32
 add list=china_unicom address=2401:1ac0::/32
+add list=china_unicom address=2401:1c60::/32
+add list=china_unicom address=2401:1ce0::/32
 add list=china_unicom address=2401:1d40::/32
 add list=china_unicom address=2401:1dc0::/32
 add list=china_unicom address=2401:1e00::/32
