@@ -2385,6 +2385,7 @@ add regexp="^(.*\\.)?greenpeace\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?greenreadings\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?greenvpn\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?greenvpn\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?grindr\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?grotty-monday\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?groups\\.google\\.cn\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?grow\\.google\$" type=FWD forward-to=$FWDgfw
@@ -2781,6 +2782,7 @@ add regexp="^(.*\\.)?imb\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?imdb\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?img\\.dlsite\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?img\\.ly\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?imgasd\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?imgchili\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?imgmega\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?imgur\\.com\$" type=FWD forward-to=$FWDgfw
@@ -5903,6 +5905,7 @@ add regexp="^(.*\\.)?xiaod\\.in\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xiaohexie\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xiaolan\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xiaoma\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?xiaomi\\.eu\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xiaxiaoqiang\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xiezhua\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xihua\\.es\$" type=FWD forward-to=$FWDgfw
