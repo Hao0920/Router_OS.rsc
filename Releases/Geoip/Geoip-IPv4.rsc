@@ -5580,6 +5580,7 @@ add list=china address=193.20.64.0/22
 add list=china address=193.200.222.160/28
 add list=china address=194.110.134.0/23
 add list=china address=194.110.138.0/23
+add list=china address=194.127.229.0/24
 add list=china address=194.138.136.0/24
 add list=china address=194.138.202.0/23
 add list=china address=194.138.245.0/24
