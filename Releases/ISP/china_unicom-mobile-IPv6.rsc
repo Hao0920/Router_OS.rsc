@@ -11,7 +11,7 @@ add list=china_unicom address=2401:8380::/32
 add list=china_unicom address=2401:fa80::/32
 add list=china_unicom address=2401:fb80::/32
 add list=china_unicom address=2402:8800::/32
-add list=china_unicom address=2404:3b00::/32
+add list=china_unicom address=2404:3b00::/34
 add list=china_unicom address=2404:a180::/32
 add list=china_unicom address=2406:cd80::/32
 add list=china_unicom address=2406:ce80::/32
