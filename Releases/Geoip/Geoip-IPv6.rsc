@@ -1187,7 +1187,6 @@ add list=china address=2404:3740::/32
 add list=china address=2404:37c0::/32
 add list=china address=2404:3840::/32
 add list=china address=2404:3940::/32
-add list=china address=2404:3b00::/32
 add list=china address=2404:3b00::/34
 add list=china address=2404:3bc0::/32
 add list=china address=2404:3c40::/32
