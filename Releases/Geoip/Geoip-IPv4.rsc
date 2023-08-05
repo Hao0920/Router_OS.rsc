@@ -456,7 +456,6 @@ add list=china address=103.12.136.0/22
 add list=china address=103.12.184.0/22
 add list=china address=103.12.232.0/22
 add list=china address=103.12.32.0/22
-add list=china address=103.12.68.0/22
 add list=china address=103.12.68.0/23
 add list=china address=103.12.92.0/22
 add list=china address=103.12.98.0/23
