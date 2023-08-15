@@ -1011,7 +1011,6 @@ add list=china_mobile address=2402:ed80::/32
 add list=china_mobile address=2402:ef40::/32
 add list=china_mobile address=2402:ef80::/32
 add list=china_mobile address=2402:f140::/32
-add list=china_mobile address=2402:f3c0::/32
 add list=china_mobile address=2402:f480::/32
 add list=china_mobile address=2402:f540::/32
 add list=china_mobile address=2402:f580::/32

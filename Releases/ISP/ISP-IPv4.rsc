@@ -3961,7 +3961,6 @@ add list=othernet address=103.92.86.0/24
 add list=othernet address=103.92.88.0/22
 add list=othernet address=103.92.108.0/22
 add list=othernet address=103.92.124.0/22
-add list=othernet address=103.92.128.0/24
 add list=othernet address=103.92.156.0/22
 add list=othernet address=103.92.164.0/22
 add list=othernet address=103.92.168.0/21
