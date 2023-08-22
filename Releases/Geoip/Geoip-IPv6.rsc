@@ -70,6 +70,7 @@ add list=china address=2001:df2:80::/48
 add list=china address=2001:df2:8bc0::/48
 add list=china address=2001:df2:a580::/48
 add list=china address=2001:df2:c240::/48
+add list=china address=2001:df2:d4c0::/48
 add list=china address=2001:df3:1480::/48
 add list=china address=2001:df3:2a80::/48
 add list=china address=2001:df3:3a80::/48
