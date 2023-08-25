@@ -1979,6 +1979,9 @@ add list=china_unicom address=103.92.48.0/22
 add list=china_unicom address=103.92.132.0/22
 add list=china_unicom address=103.93.180.0/22
 add list=china_unicom address=103.95.220.0/22
+add list=china_unicom address=103.97.8.0/22
+add list=china_unicom address=103.97.16.0/20
+add list=china_unicom address=103.97.72.0/22
 add list=china_unicom address=103.98.44.0/22
 add list=china_unicom address=103.98.168.0/22
 add list=china_unicom address=103.98.220.0/22
@@ -3403,6 +3406,8 @@ add list=china_telecom address=103.20.68.0/22
 add list=china_telecom address=103.20.128.0/22
 add list=china_telecom address=103.20.160.0/22
 add list=china_telecom address=103.20.248.0/22
+add list=china_telecom address=103.21.98.0/23
+add list=china_telecom address=103.21.102.0/23
 add list=china_telecom address=103.21.112.0/21
 add list=china_telecom address=103.21.136.0/21
 add list=china_telecom address=103.21.208.0/22
@@ -3999,13 +4004,11 @@ add list=china_telecom address=103.96.192.0/20
 add list=china_telecom address=103.96.208.0/21
 add list=china_telecom address=103.96.216.0/22
 add list=china_telecom address=103.96.224.0/23
-add list=china_telecom address=103.97.8.0/21
-add list=china_telecom address=103.97.16.0/20
+add list=china_telecom address=103.97.12.0/22
 add list=china_telecom address=103.97.32.0/21
 add list=china_telecom address=103.97.40.0/22
 add list=china_telecom address=103.97.56.0/21
 add list=china_telecom address=103.97.64.0/21
-add list=china_telecom address=103.97.72.0/22
 add list=china_telecom address=103.97.80.0/22
 add list=china_telecom address=103.97.112.0/21
 add list=china_telecom address=103.97.128.0/22
@@ -4211,7 +4214,6 @@ add list=china_telecom address=103.119.0.0/22
 add list=china_telecom address=103.119.12.0/22
 add list=china_telecom address=103.119.16.0/22
 add list=china_telecom address=103.119.28.0/22
-add list=china_telecom address=103.119.44.0/22
 add list=china_telecom address=103.119.104.0/22
 add list=china_telecom address=103.119.115.0/24
 add list=china_telecom address=103.119.156.0/22
