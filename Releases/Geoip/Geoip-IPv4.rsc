@@ -6001,7 +6001,6 @@ add list=china address=202.36.226.0/24
 add list=china address=202.38.0.0/22
 add list=china address=202.38.0.0/23
 add list=china address=202.38.128.0/21
-add list=china address=202.38.128.0/22
 add list=china address=202.38.128.0/23
 add list=china address=202.38.130.0/23
 add list=china address=202.38.132.0/23
