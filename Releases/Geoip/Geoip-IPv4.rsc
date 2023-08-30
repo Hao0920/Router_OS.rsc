@@ -310,7 +310,6 @@ add list=china address=103.108.160.0/21
 add list=china address=103.108.160.0/22
 add list=china address=103.108.164.0/22
 add list=china address=103.108.184.0/23
-add list=china address=103.108.188.0/23
 add list=china address=103.108.188.0/24
 add list=china address=103.108.192.0/21
 add list=china address=103.108.192.0/22
@@ -380,7 +379,6 @@ add list=china address=103.114.72.0/22
 add list=china address=103.115.120.0/22
 add list=china address=103.115.148.0/22
 add list=china address=103.115.16.0/22
-add list=china address=103.115.204.0/23
 add list=china address=103.115.248.0/22
 add list=china address=103.115.40.0/21
 add list=china address=103.115.40.0/22
