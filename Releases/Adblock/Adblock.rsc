@@ -765,6 +765,7 @@ add name=cdn1.crispadvertising.com type=NXDOMAIN
 add name=cdn1.inner-active.mobi type=NXDOMAIN
 add name=cdn1.smartadserver.com type=NXDOMAIN
 add name=cdn2.crispadvertising.com type=NXDOMAIN
+add name=cdn2023.21888cdnyun2023.cyou type=NXDOMAIN
 add name=cdp.cloud.unity3d.com type=NXDOMAIN
 add name=cf.cdn.inmobi.com type=NXDOMAIN
 add name=cf8d.stat.gw.youmi.net type=NXDOMAIN
@@ -1047,6 +1048,7 @@ add name=fls.doubleclick.net type=NXDOMAIN
 add name=fmg.aty.sohu.com type=NXDOMAIN
 add name=fms.ipinyou.com type=NXDOMAIN
 add name=fpb1.gxfin.com type=NXDOMAIN
+add name=fr.lestv1.icu type=NXDOMAIN
 add name=freeband.qushuba.com type=NXDOMAIN
 add name=ftfsn.m100.site type=NXDOMAIN
 add name=ftpcontent.worldnow.com type=NXDOMAIN
