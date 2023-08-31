@@ -11,6 +11,7 @@ add name=2gustis.xyz type=NXDOMAIN
 add name=2j.qhgbkr.cn type=NXDOMAIN
 add name=2mdn.net type=NXDOMAIN
 add name=3.iscrv.com type=NXDOMAIN
+add name=38rzcuf.kekop.cn type=NXDOMAIN
 add name=397c0.admaster.com.cn type=NXDOMAIN
 add name=3m.mediav.com type=NXDOMAIN
 add name=3sclqjn.51gpiao.cn type=NXDOMAIN
@@ -1610,6 +1611,7 @@ add name=msga.cupid.iqiyi.com type=NXDOMAIN
 add name=msgv6.qy.net type=NXDOMAIN
 add name=msite.baidu.com type=NXDOMAIN
 add name=mssp.baidu.com type=NXDOMAIN
+add name=mszu80t.kekop.cn type=NXDOMAIN
 add name=mtrace.play.aiseet.atianqi.com type=NXDOMAIN
 add name=mtrace.play.cp81.ott.cibntv.net type=NXDOMAIN
 add name=mtrace.qq.com type=NXDOMAIN
@@ -11048,6 +11050,7 @@ add name=rtb.admaster.com.cn type=NXDOMAIN
 add name=rtb.adview.cn type=NXDOMAIN
 add name=rtd.tubemogul.com type=NXDOMAIN
 add name=rucqv.slgo.club type=NXDOMAIN
+add name=rusabvgqh.xyz type=NXDOMAIN
 add name=rz3cb7p.ebzqyow.cn type=NXDOMAIN
 add name=s.360.cn type=NXDOMAIN
 add name=s.ads.sohu.com type=NXDOMAIN
