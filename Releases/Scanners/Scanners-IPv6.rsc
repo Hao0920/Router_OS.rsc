@@ -19,7 +19,6 @@ add list=scanners address=2001:da8:6005:6:b455:25c8::
 add list=scanners address=2001:da8:6005:6:b455:25c9::
 add list=scanners address=2002:7a0a:326e::7a0a:326e
 add list=scanners address=2002:9ad8:54b::9ad8:54b
-add list=scanners address=2002:9de6:f376::9de6:f376
 add list=scanners address=2401:c080:1c01:a67:5400:4ff:fe5b:b7d6
 add list=scanners address=2602:fc16:2:20d::6ae3
 add list=scanners address=2607:ff28:a005:f6:ec4:7aff:feb5:1a74
