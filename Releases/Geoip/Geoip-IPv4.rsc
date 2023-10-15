@@ -3313,10 +3313,8 @@ add list=china address=103.66.92.0/22
 add list=china address=103.67.0.0/21
 add list=china address=103.67.0.0/22
 add list=china address=103.67.100.0/22
-add list=china address=103.67.104.0/21
 add list=china address=103.67.104.0/22
 add list=china address=103.67.108.0/22
-add list=china address=103.67.112.0/20
 add list=china address=103.67.112.0/22
 add list=china address=103.67.116.0/22
 add list=china address=103.67.120.0/22
@@ -8471,7 +8469,6 @@ add list=china address=43.231.92.0/22
 add list=china address=43.231.96.0/20
 add list=china address=43.231.96.0/22
 add list=china address=43.236.0.0/15
-add list=china address=43.236.0.0/16
 add list=china address=43.236.0.0/22
 add list=china address=43.236.100.0/22
 add list=china address=43.236.104.0/22
@@ -8536,7 +8533,6 @@ add list=china address=43.236.84.0/22
 add list=china address=43.236.88.0/22
 add list=china address=43.236.92.0/22
 add list=china address=43.236.96.0/22
-add list=china address=43.237.0.0/17
 add list=china address=43.237.0.0/22
 add list=china address=43.237.100.0/22
 add list=china address=43.237.104.0/22
@@ -8546,7 +8542,6 @@ add list=china address=43.237.116.0/22
 add list=china address=43.237.12.0/22
 add list=china address=43.237.120.0/22
 add list=china address=43.237.124.0/22
-add list=china address=43.237.128.0/18
 add list=china address=43.237.128.0/22
 add list=china address=43.237.132.0/22
 add list=china address=43.237.136.0/22
@@ -8566,15 +8561,12 @@ add list=china address=43.237.184.0/22
 add list=china address=43.237.188.0/22
 add list=china address=43.237.192.0/22
 add list=china address=43.237.20.0/22
-add list=china address=43.237.200.0/21
 add list=china address=43.237.200.0/22
 add list=china address=43.237.204.0/22
-add list=china address=43.237.208.0/20
 add list=china address=43.237.208.0/22
 add list=china address=43.237.212.0/22
 add list=china address=43.237.216.0/22
 add list=china address=43.237.220.0/22
-add list=china address=43.237.224.0/19
 add list=china address=43.237.224.0/22
 add list=china address=43.237.228.0/22
 add list=china address=43.237.232.0/22
