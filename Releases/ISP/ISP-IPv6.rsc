@@ -1112,7 +1112,6 @@ add list=othernet_ipv6 address=2403:3d80::/32
 add list=othernet_ipv6 address=2403:3dc0::/32
 add list=othernet_ipv6 address=2403:3e80::/32
 add list=othernet_ipv6 address=2403:3ec0::/32
-add list=othernet_ipv6 address=2403:3f40::/32
 add list=othernet_ipv6 address=2403:3f80::/32
 add list=othernet_ipv6 address=2403:4080::/32
 add list=othernet_ipv6 address=2403:4180::/32
