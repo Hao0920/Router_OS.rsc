@@ -11,6 +11,7 @@ add name=2gustis.xyz type=NXDOMAIN
 add name=2j.qhgbkr.cn type=NXDOMAIN
 add name=2mdn.net type=NXDOMAIN
 add name=3.iscrv.com type=NXDOMAIN
+add name=3598.chushoushijian.cn type=NXDOMAIN
 add name=38rzcuf.kekop.cn type=NXDOMAIN
 add name=397c0.admaster.com.cn type=NXDOMAIN
 add name=3m.mediav.com type=NXDOMAIN
