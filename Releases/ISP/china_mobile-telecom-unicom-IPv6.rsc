@@ -289,6 +289,7 @@ add list=china_mobile address=2001:df2:a580::/48
 add list=china_mobile address=2001:df2:c240::/48
 add list=china_mobile address=2001:df2:d4c0::/48
 add list=china_mobile address=2001:df3:1480::/48
+add list=china_mobile address=2001:df3:15c0::/48
 add list=china_mobile address=2001:df3:2a80::/48
 add list=china_mobile address=2001:df3:3a80::/48
 add list=china_mobile address=2001:df3:a680::/48
