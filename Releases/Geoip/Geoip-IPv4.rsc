@@ -1373,7 +1373,6 @@ add list=china address=103.210.96.0/22
 add list=china address=103.211.100.0/22
 add list=china address=103.211.156.0/22
 add list=china address=103.211.164.0/22
-add list=china address=103.211.192.0/22
 add list=china address=103.211.194.0/23
 add list=china address=103.211.220.0/22
 add list=china address=103.211.224.0/22
