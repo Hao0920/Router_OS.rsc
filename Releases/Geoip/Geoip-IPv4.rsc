@@ -7844,7 +7844,6 @@ add list=china address=213.139.232.0/22
 add list=china address=213.199.169.0/24
 add list=china address=213.255.231.0/24
 add list=china address=216.98.48.0/20
-add list=china address=217.114.35.0/24
 add list=china address=218.0.0.0/11
 add list=china address=218.0.0.0/16
 add list=china address=218.1.0.0/16
