@@ -5664,7 +5664,6 @@ add list=china address=175.44.0.0/16
 add list=china address=175.46.0.0/15
 add list=china address=175.48.0.0/12
 add list=china address=175.64.0.0/11
-add list=china address=176.116.4.0/24
 add list=china address=178.236.224.0/20
 add list=china address=180.129.128.0/17
 add list=china address=180.130.0.0/16
