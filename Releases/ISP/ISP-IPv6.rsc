@@ -328,7 +328,6 @@ add list=othernet_ipv6 address=2001:df6:3d00::/48
 add list=othernet_ipv6 address=2001:df6:5d00::/48
 add list=othernet_ipv6 address=2001:df6:6800::/48
 add list=othernet_ipv6 address=2001:df6:9e80::/48
-add list=othernet_ipv6 address=2001:df6:9f80::/48
 add list=othernet_ipv6 address=2001:df6:df00::/48
 add list=othernet_ipv6 address=2001:df6:f400::/48
 add list=othernet_ipv6 address=2001:df7:1480::/48
