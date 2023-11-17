@@ -671,7 +671,6 @@ add name=c.medialytics.com type=NXDOMAIN
 add name=c.mhtuucr.cn type=NXDOMAIN
 add name=c.mk6n4ym.cn type=NXDOMAIN
 add name=c.mse.360.cn type=NXDOMAIN
-add name=c.msn.com type=NXDOMAIN
 add name=c.mywild.cn type=NXDOMAIN
 add name=c.njcengpianwang.cn type=NXDOMAIN
 add name=c.orizwud.cn type=NXDOMAIN
