@@ -1155,6 +1155,7 @@ add list=china address=2403:fe80::/32
 add list=china address=2403:fec0::/32
 add list=china address=2403:ff80::/32
 add list=china address=2403:ffc0::/32
+add list=china address=2403:ffc1::/32
 add list=china address=2404:100::/32
 add list=china address=2404:1080::/32
 add list=china address=2404:10c0::/32
