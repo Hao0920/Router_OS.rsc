@@ -148,9 +148,13 @@ add list=china_telecom address=42.194.64.0/18
 add list=china_telecom address=42.202.0.0/15
 add list=china_telecom address=42.242.0.0/15
 add list=china_telecom address=42.248.0.0/13
+add list=china_telecom address=43.228.120.0/22
+add list=china_telecom address=43.229.140.0/22
+add list=china_telecom address=43.229.144.0/22
 add list=china_telecom address=43.242.192.0/22
 add list=china_telecom address=43.243.232.0/22
 add list=china_telecom address=45.114.252.0/22
+add list=china_telecom address=45.125.80.0/22
 add list=china_telecom address=45.250.12.0/22
 add list=china_telecom address=45.250.16.0/22
 add list=china_telecom address=45.250.76.0/22
@@ -260,6 +264,8 @@ add list=china_telecom address=103.22.104.0/21
 add list=china_telecom address=103.22.112.0/20
 add list=china_telecom address=103.29.128.0/22
 add list=china_telecom address=103.38.76.0/22
+add list=china_telecom address=103.47.108.0/22
+add list=china_telecom address=103.48.152.0/21
 add list=china_telecom address=103.54.240.0/22
 add list=china_telecom address=103.59.168.0/23
 add list=china_telecom address=103.72.112.0/22
@@ -405,6 +411,7 @@ add list=china_telecom address=118.239.0.0/16
 add list=china_telecom address=118.248.0.0/13
 add list=china_telecom address=119.0.0.0/15
 add list=china_telecom address=119.15.136.0/21
+add list=china_telecom address=119.18.224.0/20
 add list=china_telecom address=119.27.128.0/19
 add list=china_telecom address=119.41.0.0/16
 add list=china_telecom address=119.42.128.0/21
@@ -2815,7 +2822,6 @@ add list=china_unicom address=43.228.64.0/21
 add list=china_unicom address=43.228.76.0/22
 add list=china_unicom address=43.228.100.0/22
 add list=china_unicom address=43.228.116.0/22
-add list=china_unicom address=43.228.120.0/22
 add list=china_unicom address=43.228.132.0/22
 add list=china_unicom address=43.228.136.0/22
 add list=china_unicom address=43.228.148.0/22
@@ -2827,8 +2833,7 @@ add list=china_unicom address=43.229.40.0/22
 add list=china_unicom address=43.229.48.0/22
 add list=china_unicom address=43.229.56.0/22
 add list=china_unicom address=43.229.96.0/22
-add list=china_unicom address=43.229.136.0/21
-add list=china_unicom address=43.229.144.0/22
+add list=china_unicom address=43.229.136.0/22
 add list=china_unicom address=43.229.184.0/21
 add list=china_unicom address=43.229.192.0/21
 add list=china_unicom address=43.229.216.0/21
@@ -3091,7 +3096,8 @@ add list=china_unicom address=45.125.16.0/22
 add list=china_unicom address=45.125.52.0/22
 add list=china_unicom address=45.125.56.0/22
 add list=china_unicom address=45.125.76.0/22
-add list=china_unicom address=45.125.80.0/20
+add list=china_unicom address=45.125.84.0/22
+add list=china_unicom address=45.125.88.0/21
 add list=china_unicom address=45.125.96.0/21
 add list=china_unicom address=45.125.136.0/22
 add list=china_unicom address=45.126.48.0/21
@@ -3593,7 +3599,6 @@ add list=china_unicom address=103.47.40.0/22
 add list=china_unicom address=103.47.48.0/22
 add list=china_unicom address=103.47.80.0/22
 add list=china_unicom address=103.47.96.0/22
-add list=china_unicom address=103.47.108.0/22
 add list=china_unicom address=103.47.116.0/22
 add list=china_unicom address=103.47.120.0/22
 add list=china_unicom address=103.47.136.0/21
@@ -3601,7 +3606,6 @@ add list=china_unicom address=103.47.212.0/22
 add list=china_unicom address=103.48.52.0/22
 add list=china_unicom address=103.48.92.0/22
 add list=china_unicom address=103.48.148.0/22
-add list=china_unicom address=103.48.152.0/21
 add list=china_unicom address=103.48.202.0/23
 add list=china_unicom address=103.48.236.0/22
 add list=china_unicom address=103.48.240.0/21
@@ -5277,7 +5281,7 @@ add list=china_unicom address=119.10.0.0/17
 add list=china_unicom address=119.16.0.0/16
 add list=china_unicom address=119.18.192.0/20
 add list=china_unicom address=119.18.208.0/21
-add list=china_unicom address=119.18.224.0/19
+add list=china_unicom address=119.18.240.0/20
 add list=china_unicom address=119.19.0.0/16
 add list=china_unicom address=119.20.0.0/14
 add list=china_unicom address=119.27.160.0/19

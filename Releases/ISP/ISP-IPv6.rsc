@@ -8,6 +8,7 @@ remove [find list=great_wall_broadband_network]
 remove [find list=othernet_ipv6]
 add list=china_telecom address=2001:7fa:10::/48
 add list=china_telecom address=2001:c68::/32
+add list=china_telecom address=2400:5080::/32
 add list=china_telecom address=2400:7680::/32
 add list=china_telecom address=2400:9600::/32
 add list=china_telecom address=2400:d0a0::/32
@@ -401,7 +402,6 @@ add list=othernet_ipv6 address=2400:4920::/32
 add list=othernet_ipv6 address=2400:4bc0::/32
 add list=othernet_ipv6 address=2400:4e00::/32
 add list=othernet_ipv6 address=2400:4e40::/32
-add list=othernet_ipv6 address=2400:5080::/32
 add list=othernet_ipv6 address=2400:5280::/32
 add list=othernet_ipv6 address=2400:5400::/32
 add list=othernet_ipv6 address=2400:5580::/32
@@ -954,7 +954,6 @@ add list=othernet_ipv6 address=2402:a680::/32
 add list=othernet_ipv6 address=2402:a6c0::/32
 add list=othernet_ipv6 address=2402:a840::/32
 add list=othernet_ipv6 address=2402:a880::/32
-add list=othernet_ipv6 address=2402:a9c0::/32
 add list=othernet_ipv6 address=2402:aa80::/32
 add list=othernet_ipv6 address=2402:ab80::/32
 add list=othernet_ipv6 address=2402:ae00::/32
