@@ -5127,6 +5127,7 @@ add list=china_unicom address=113.52.160.0/19
 add list=china_unicom address=113.52.228.0/22
 add list=china_unicom address=113.130.96.0/20
 add list=china_unicom address=113.130.112.0/21
+add list=china_unicom address=113.192.40.0/23
 add list=china_unicom address=113.197.100.0/22
 add list=china_unicom address=113.202.0.0/16
 add list=china_unicom address=113.212.88.0/22
