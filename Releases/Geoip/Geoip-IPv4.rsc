@@ -3470,7 +3470,6 @@ add list=china address=103.78.60.0/22
 add list=china address=103.78.64.0/21
 add list=china address=103.78.64.0/22
 add list=china address=103.78.68.0/22
-add list=china address=103.79.120.0/22
 add list=china address=103.79.136.0/22
 add list=china address=103.79.188.0/22
 add list=china address=103.79.192.0/20
@@ -6510,7 +6509,6 @@ add list=china address=202.91.0.0/22
 add list=china address=202.91.128.0/22
 add list=china address=202.91.176.0/20
 add list=china address=202.91.224.0/19
-add list=china address=202.91.36.0/22
 add list=china address=202.91.96.0/20
 add list=china address=202.92.0.0/22
 add list=china address=202.92.252.0/22
