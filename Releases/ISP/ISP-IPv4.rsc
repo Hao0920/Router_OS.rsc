@@ -3537,6 +3537,7 @@ add list=othernet address=103.40.32.0/20
 add list=othernet address=103.40.88.0/22
 add list=othernet address=103.40.100.0/22
 add list=othernet address=103.40.158.0/23
+add list=othernet address=103.40.174.0/23
 add list=othernet address=103.40.220.0/22
 add list=othernet address=103.40.228.0/22
 add list=othernet address=103.40.232.0/21
