@@ -4981,6 +4981,7 @@ add list=china address=123.101.0.0/16
 add list=china address=123.103.0.0/17
 add list=china address=123.108.128.0/20
 add list=china address=123.108.208.0/20
+add list=china address=123.108.88.0/23
 add list=china address=123.112.0.0/12
 add list=china address=123.128.0.0/13
 add list=china address=123.136.80.0/20
