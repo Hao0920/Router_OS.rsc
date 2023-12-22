@@ -3,7 +3,6 @@ remove [find list=scanners]
 add list=scanners address=2001:250:80c:ffff:ffff:ffff:cace:f00b
 add list=scanners address=2001:41b8:83f:1608::25:1
 add list=scanners address=2001:41b8:83f:1610::237
-add list=scanners address=2001:448a:20b0:32b6:156b:46e0:b08d:7a7f
 add list=scanners address=2001:44c8:4051:1e53:2d80:c866:fbbe:8f0c
 add list=scanners address=2001:44c8:4227:84f6:e449:545c:b68b:4772
 add list=scanners address=2001:44c8:42c5:5054:79b1:666:f9c6:8e59
