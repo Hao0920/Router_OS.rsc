@@ -5,7 +5,6 @@ add list=scanners address=2001:41b8:83f:1608::25:1
 add list=scanners address=2001:41b8:83f:1610::237
 add list=scanners address=2001:44c8:4051:1e53:2d80:c866:fbbe:8f0c
 add list=scanners address=2001:44c8:4227:84f6:e449:545c:b68b:4772
-add list=scanners address=2001:44c8:42c5:5054:79b1:666:f9c6:8e59
 add list=scanners address=2001:4c80:40:62d::25:1
 add list=scanners address=2001:4c80:40:62d::25:2
 add list=scanners address=2001:4c80:40:62d::25:3
