@@ -2739,6 +2739,7 @@ add list=othernet address=36.0.8.0/21
 add list=othernet address=36.0.64.0/18
 add list=othernet address=36.0.128.0/17
 add list=othernet address=36.36.0.0/16
+add list=othernet address=36.50.226.0/23
 add list=othernet address=36.51.0.0/16
 add list=othernet address=36.254.0.0/16
 add list=othernet address=36.255.116.0/22
