@@ -491,6 +491,7 @@ add list=china address=2401:5b40::/32
 add list=china address=2401:5c20::/32
 add list=china address=2401:5c60::/32
 add list=china address=2401:5c80::/32
+add list=china address=2401:5fa0::/32
 add list=china address=2401:60::/32
 add list=china address=2401:620::/32
 add list=china address=2401:7180::/32
