@@ -3878,7 +3878,9 @@ add list=china address=103.99.56.0/22
 add list=china address=103.99.60.0/22
 add list=china address=103.99.76.0/22
 add list=china address=104.160.128.0/19
-add list=china address=104.167.16.0/20
+add list=china address=104.167.18.0/23
+add list=china address=104.167.20.0/22
+add list=china address=104.167.24.0/21
 add list=china address=104.207.32.0/19
 add list=china address=104.212.68.57/32
 add list=china address=104.212.68.58/32
