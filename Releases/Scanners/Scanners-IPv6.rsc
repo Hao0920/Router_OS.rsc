@@ -22,7 +22,6 @@ add list=scanners address=2002:2dfb:88a1::2dfb:88a1
 add list=scanners address=2002:2dfb:88a9::2dfb:88a9
 add list=scanners address=2002:6728:67d8::6728:67d8
 add list=scanners address=2002:6744:c327::6744:c327
-add list=scanners address=2406:5900:3:5bbb:a8f4:9134:a11c:10e7
 add list=scanners address=2408:8417:30:57e1:17a6:5b3e:617a:14a4
 add list=scanners address=2408:8444:500:609c:701f:9597:7abd:cea1
 add list=scanners address=2408:8444:9700:67f7::1
