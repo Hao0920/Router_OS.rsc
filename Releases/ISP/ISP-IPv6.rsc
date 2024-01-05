@@ -716,6 +716,7 @@ add list=othernet_ipv6 address=2401:70e0::/32
 add list=othernet_ipv6 address=2401:7180::/32
 add list=othernet_ipv6 address=2401:71c0::/32
 add list=othernet_ipv6 address=2401:7240::/32
+add list=othernet_ipv6 address=2401:7320::/32
 add list=othernet_ipv6 address=2401:7340::/32
 add list=othernet_ipv6 address=2401:7580::/32
 add list=othernet_ipv6 address=2401:7680::/32
