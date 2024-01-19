@@ -722,6 +722,7 @@ add list=china_unicom address=2401:7780::/32
 add list=china_unicom address=2401:77e0::/32
 add list=china_unicom address=2401:7820::/32
 add list=china_unicom address=2401:7880::/32
+add list=china_unicom address=2401:78e0::/32
 add list=china_unicom address=2401:7980::/32
 add list=china_unicom address=2401:7a00::/32
 add list=china_unicom address=2401:7a80::/32
