@@ -1244,6 +1244,7 @@ add name=j.sdqoi2d.com type=NXDOMAIN
 add name=j1s.ysrmy1.com type=NXDOMAIN
 add name=j2s.ahxbpm.com type=NXDOMAIN
 add name=japan.inmobi.com type=NXDOMAIN
+add name=jbgie8j.js131.cn type=NXDOMAIN
 add name=jfdaily.adsame.com type=NXDOMAIN
 add name=jiu.dsnfun.cn type=NXDOMAIN
 add name=jiu.rktupt.cn type=NXDOMAIN
@@ -1817,6 +1818,7 @@ add name=px.ucweb.com type=NXDOMAIN
 add name=px.xiaomifood.cn type=NXDOMAIN
 add name=py.da.mgtv.com type=NXDOMAIN
 add name=pyfdlz.zdzy.shop type=NXDOMAIN
+add name=q.a08.fun type=NXDOMAIN
 add name=q.i46.xyz type=NXDOMAIN
 add name=q.ki47.com type=NXDOMAIN
 add name=q14.cnzz.com type=NXDOMAIN
