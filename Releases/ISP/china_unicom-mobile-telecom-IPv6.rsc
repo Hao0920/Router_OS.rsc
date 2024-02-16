@@ -294,6 +294,7 @@ add list=china_unicom address=2001:df3:15c0::/48
 add list=china_unicom address=2001:df3:2a80::/48
 add list=china_unicom address=2001:df3:3a80::/48
 add list=china_unicom address=2001:df3:7440::/48
+add list=china_unicom address=2001:df3:77c0::/48
 add list=china_unicom address=2001:df3:a680::/48
 add list=china_unicom address=2001:df3:b380::/48
 add list=china_unicom address=2001:df3:c380::/48
