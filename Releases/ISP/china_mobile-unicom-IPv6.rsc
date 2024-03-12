@@ -743,6 +743,8 @@ add list=china_mobile address=2401:8540::/32
 add list=china_mobile address=2401:8600::/32
 add list=china_mobile address=2401:8680::/32
 add list=china_mobile address=2401:8720::/32
+add list=china_mobile address=2401:87e0::/32
+add list=china_mobile address=2401:8820::/31
 add list=china_mobile address=2401:8840::/32
 add list=china_mobile address=2401:8d00::/32
 add list=china_mobile address=2401:8f40::/32
