@@ -8302,6 +8302,7 @@ add list=china address=40.0.176.0/20
 add list=china address=40.0.248.0/21
 add list=china address=40.125.128.0/17
 add list=china address=40.126.64.0/18
+add list=china address=40.162.0.0/16
 add list=china address=40.198.10.0/24
 add list=china address=40.198.16.0/21
 add list=china address=40.198.24.0/23
