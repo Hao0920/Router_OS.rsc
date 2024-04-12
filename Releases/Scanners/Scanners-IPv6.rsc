@@ -26,6 +26,7 @@ add list=scanners address=2001:da8:6005:6:b455:25c9::
 add list=scanners address=2002:67ea:36c3::67ea:36c3
 add list=scanners address=2404:3100:1041:5587:309e:4602:b267:a87b
 add list=scanners address=2404:3100:1041:5587:4893:920b:6164:f1f2
+add list=scanners address=2404:3100:1041:5587:b207:dcad:751:c53c
 add list=scanners address=2406:f00:1:1::178
 add list=scanners address=2406:f00:1:1::cd
 add list=scanners address=2406:f00:1:1::eb
@@ -295,8 +296,8 @@ add list=scanners address=240e:390:4903:c842:290:5d6a:182c:23a7
 add list=scanners address=240e:390:4903:cb59:290:5dc8:a82c:23a7
 add list=scanners address=240e:390:4903:cb5d:290:5d78:582c:23a7
 add list=scanners address=240e:390:4903:cc21:290:5d6e:282c:23a7
+add list=scanners address=240e:390:4903:cce8:290:5d16:832c:23a7
 add list=scanners address=240e:390:4903:cf48:290:5dd3:f82c:23a7
-add list=scanners address=240e:390:4903:d174:290:5d80:4c2c:23a7
 add list=scanners address=240e:390:4903:d177:290:5d69:c42c:23a7
 add list=scanners address=240e:390:4903:d314:290:5d21:f2c:23a7
 add list=scanners address=240e:390:4903:d329:290:5d6f:1d2c:23a7
@@ -529,12 +530,12 @@ add list=scanners address=240e:390:71a0:7119:d8c7:153e:1a8b:5423
 add list=scanners address=240e:390:71a0:72f8:d8c7:153e:1a8b:5423
 add list=scanners address=240e:390:71a0:74d9:d8c7:153e:1a8b:5423
 add list=scanners address=240e:390:71a0:7731:d8c7:153e:1a8b:5423
+add list=scanners address=240e:390:71a0:795f:d8c7:153e:1a8b:5423
 add list=scanners address=240e:390:71a0:7b7:d8c7:153e:1a8b:5423
 add list=scanners address=240e:390:71a0:9c1:d8c7:153e:1a8b:5423
 add list=scanners address=240e:390:71a0:bd9:d8c7:153e:1a8b:5423
 add list=scanners address=240e:390:71a0:dcc:d8c7:153e:1a8b:5423
 add list=scanners address=240e:390:71a0:ffe:d8c7:153e:1a8b:5423
-add list=scanners address=240e:390:71a2:8e8c:d8c7:153e:1a8b:5423
 add list=scanners address=240e:390:71a2:90bd:d8c7:153e:1a8b:5423
 add list=scanners address=240e:390:71a2:930e:d8c7:153e:1a8b:5423
 add list=scanners address=240e:390:71a2:9543:d8c7:153e:1a8b:5423
