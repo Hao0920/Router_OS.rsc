@@ -140,7 +140,6 @@ add list=scanners address=240e:333:8301:ac71:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:b044:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:b0cc:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:b145:c0a5:eea6:dbd:f087
-add list=scanners address=240e:333:8301:b1f3:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:b21:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:b4b6:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:b50c:c0a5:eea6:dbd:f087
