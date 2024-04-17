@@ -38,6 +38,7 @@ add list=scanners address=240e:333:8301:14bd:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:16dd:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:1cf4:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:1e8:c0a5:eea6:dbd:f087
+add list=scanners address=240e:333:8301:2184:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:2534:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:2935:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:2d44:c0a5:eea6:dbd:f087
@@ -87,7 +88,6 @@ add list=scanners address=240e:333:8301:e4c4:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:ee66:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:f2f1:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:fcdc:c0a5:eea6:dbd:f087
-add list=scanners address=240e:390:8655:9452:3825:f6dc:da2c:52d8
 add list=scanners address=240e:390:8655:94ef:3825:f6dc:da2c:52d8
 add list=scanners address=240e:390:8655:97b2:3825:f6dc:da2c:52d8
 add list=scanners address=240e:390:8655:9963:3825:f6dc:da2c:52d8
@@ -123,6 +123,7 @@ add list=scanners address=240e:390:8656:6ec8:3825:f6dc:da2c:52d8
 add list=scanners address=240e:390:8656:6f6b:3825:f6dc:da2c:52d8
 add list=scanners address=240e:390:8656:70c6:3825:f6dc:da2c:52d8
 add list=scanners address=240e:390:8656:71d5:3825:f6dc:da2c:52d8
+add list=scanners address=240e:390:8656:729e:3825:f6dc:da2c:52d8
 add list=scanners address=2607:ff28:9005:6a:225:90ff:fe27:4ba4
 add list=scanners address=2607:ff28:a005:4f:ec4:7aff:feb3:d032
 add list=scanners address=2607:ff28:a005:71:ec4:7aff:feb5:18f6
@@ -131,6 +132,7 @@ add list=scanners address=2607:ff28:c005:165:ec4:7aff:febc:e62d
 add list=scanners address=2610:150:101:1000::bd02
 add list=scanners address=2620:106:6008:99:f0::114
 add list=scanners address=2620:106:6008:99:f0::117
+add list=scanners address=2804:47d0:19:3ab0:b9e1:2cab:4b76:1a3f
 add list=scanners address=2a05:8280:f:431f::1
 add list=scanners address=2a05:8280:f:431f::10
 add list=scanners address=2a05:8280:f:431f::100
