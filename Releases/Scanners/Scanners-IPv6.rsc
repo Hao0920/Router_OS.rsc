@@ -82,7 +82,6 @@ add list=scanners address=240e:333:8301:d41f:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:d6fc:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:df20:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:e317:c0a5:eea6:dbd:f087
-add list=scanners address=240e:333:8301:e4c4:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:ee66:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:f2f1:c0a5:eea6:dbd:f087
 add list=scanners address=240e:333:8301:fcdc:c0a5:eea6:dbd:f087
@@ -122,6 +121,7 @@ add list=scanners address=240e:390:8656:729e:3825:f6dc:da2c:52d8
 add list=scanners address=240e:390:8656:745a:3825:f6dc:da2c:52d8
 add list=scanners address=240e:390:8656:75ea:3825:f6dc:da2c:52d8
 add list=scanners address=240e:390:8656:7771:3825:f6dc:da2c:52d8
+add list=scanners address=240e:390:8656:78ee:3825:f6dc:da2c:52d8
 add list=scanners address=2607:ff28:9005:6a:225:90ff:fe27:4ba4
 add list=scanners address=2607:ff28:a005:4f:ec4:7aff:feb3:d032
 add list=scanners address=2607:ff28:a005:71:ec4:7aff:feb5:18f6
