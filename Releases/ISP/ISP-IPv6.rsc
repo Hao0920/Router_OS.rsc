@@ -100,6 +100,7 @@ add list=china_education_and_research_network address=2400:a984::/30
 add list=china_education_and_research_network address=2400:d0c0::/32
 add list=china_education_and_research_network address=2401:34a0::/32
 add list=china_education_and_research_network address=2401:34a1::/32
+add list=china_education_and_research_network address=2401:34a2::/31
 add list=china_education_and_research_network address=2401:cc00::/32
 add list=china_education_and_research_network address=2401:ec00::/32
 add list=china_education_and_research_network address=2402:2000::/32
@@ -322,7 +323,6 @@ add list=othernet_ipv6 address=2001:df4:a980::/48
 add list=othernet_ipv6 address=2001:df4:c180::/48
 add list=othernet_ipv6 address=2001:df4:c580::/48
 add list=othernet_ipv6 address=2001:df4:c780::/48
-add list=othernet_ipv6 address=2001:df4:cf00::/48
 add list=othernet_ipv6 address=2001:df4:de80::/48
 add list=othernet_ipv6 address=2001:df5:2080::/48
 add list=othernet_ipv6 address=2001:df5:5f80::/48
