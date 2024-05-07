@@ -557,7 +557,9 @@ add list=china address=2401:97a0::/32
 add list=china address=2401:98c0::/32
 add list=china address=2401:9a00::/32
 add list=china address=2401:9ac0::/32
+add list=china address=2401:9b20::/31
 add list=china address=2401:9b40::/32
+add list=china address=2401:9b60::/32
 add list=china address=2401:9bc0::/32
 add list=china address=2401:9c0::/32
 add list=china address=2401:9dc0::/32
