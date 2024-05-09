@@ -769,6 +769,7 @@ add list=china_mobile address=2401:9ac0::/32
 add list=china_mobile address=2401:9b40::/32
 add list=china_mobile address=2401:9b60::/32
 add list=china_mobile address=2401:9bc0::/32
+add list=china_mobile address=2401:9ca0::/32
 add list=china_mobile address=2401:9dc0::/32
 add list=china_mobile address=2401:9e40::/32
 add list=china_mobile address=2401:9f80::/32
