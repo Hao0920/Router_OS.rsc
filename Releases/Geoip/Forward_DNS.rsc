@@ -942,6 +942,7 @@ add regexp="^(.*\\.)?changsa\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?channelnewsasia\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chaoex\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chapm25\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?chatgpt\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chatnook\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chaturbate\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?checkgfw\\.com\$" type=FWD forward-to=$FWDgfw
