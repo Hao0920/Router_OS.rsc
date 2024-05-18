@@ -45,6 +45,7 @@ add list=scanners address=2409:896a:149a:341:17d0:6b58:5158:5c2c
 add list=scanners address=2409:8a04:3fe:4794:612d:cfa0:fe5:e8a1
 add list=scanners address=2409:8a14:a06e:8d11:665:95b5:3470:9093
 add list=scanners address=2409:8a1e:b873:8110:45ee:a5e6:324b:6e63
+add list=scanners address=2409:8a31:468:f7e1:c3ef:b97b:6a24:c4b0
 add list=scanners address=240a:42bc:1200:1436:17d0:94c0:da64:6bb3
 add list=scanners address=240e:45a:46:7537:10ad:8e4e:1426:2b50
 add list=scanners address=240e:45a:48c:cac:86c:b3c4:8960:525e
