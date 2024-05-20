@@ -4081,7 +4081,6 @@ add list=china_telecom address=103.104.40.0/22
 add list=china_telecom address=103.104.64.0/22
 add list=china_telecom address=103.104.104.0/22
 add list=china_telecom address=103.104.152.0/22
-add list=china_telecom address=103.104.168.0/22
 add list=china_telecom address=103.104.188.0/22
 add list=china_telecom address=103.104.198.0/23
 add list=china_telecom address=103.104.252.0/22
