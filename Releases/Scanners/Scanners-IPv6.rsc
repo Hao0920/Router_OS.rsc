@@ -65,6 +65,7 @@ add list=scanners address=2607:ff28:a005:4f:ec4:7aff:feb3:d032
 add list=scanners address=2607:ff28:a005:50:ec4:7aff:feb3:c9b8
 add list=scanners address=2607:ff28:a005:71:ec4:7aff:feb5:18f6
 add list=scanners address=2607:ff28:a005:f6:ec4:7aff:feb5:1a74
+add list=scanners address=2607:ff28:c005:15a:ec4:7aff:fe58:ab3b
 add list=scanners address=2607:ff28:c005:f2:225:90ff:fed2:f98
 add list=scanners address=2610:150:101:1000::bd02
 add list=scanners address=2610:150:4000:1d8:216:3cff:fe4e:a932
