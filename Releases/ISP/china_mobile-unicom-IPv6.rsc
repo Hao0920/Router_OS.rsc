@@ -777,6 +777,7 @@ add list=china_mobile address=2401:9f80::/32
 add list=china_mobile address=2401:9fa0::/32
 add list=china_mobile address=2401:a140::/32
 add list=china_mobile address=2401:a180::/32
+add list=china_mobile address=2401:a2e0::/32
 add list=china_mobile address=2401:a340::/32
 add list=china_mobile address=2401:a3c0::/32
 add list=china_mobile address=2401:a4c0::/32
