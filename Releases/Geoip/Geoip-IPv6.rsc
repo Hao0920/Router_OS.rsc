@@ -2024,7 +2024,6 @@ add list=china address=2a01:b740:a42::/48
 add list=china address=2a03:f900::/29
 add list=china address=2a07:f480::/29
 add list=china address=2a0a:2840::/29
-add list=china address=2a0d:9fc0::/29
 add list=china address=2a0e:7580::/29
 add list=china address=2a13:1800::/29
 add list=china address=2a13:8b40::/29
