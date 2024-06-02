@@ -4228,6 +4228,7 @@ add regexp="^(.*\\.)?python\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pythonhackers\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pytorch\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?qanote\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?qbittorrent\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?qgirl\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?qhigh\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?qi-gong\\.me\$" type=FWD forward-to=$FWDgfw
