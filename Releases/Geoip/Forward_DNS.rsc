@@ -941,6 +941,7 @@ add regexp="^(.*\\.)?changsa\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?channelnewsasia\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chaoex\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chapm25\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?chat\\.lmsys\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chatgpt\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chatnook\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chaturbate\\.com\$" type=FWD forward-to=$FWDgfw
@@ -3219,7 +3220,6 @@ add regexp="^(.*\\.)?livecoin\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?livedoor\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?liveleak\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?livemint\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?livestation\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?livestream\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?livevideo\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?livingonline\\.us\$" type=FWD forward-to=$FWDgfw
@@ -3227,7 +3227,6 @@ add regexp="^(.*\\.)?livingstream\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?liwangyang\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lizhizhuangbi\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lkcn\\.net\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?llss\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lncn\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?load\\.to\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lobsangwangyal\\.com\$" type=FWD forward-to=$FWDgfw
@@ -4263,9 +4262,9 @@ add regexp="^(.*\\.)?qxbbs\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?qz\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?r0\\.ru\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?r18\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?ra\\.gg\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?radicalparty\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?radiko\\.jp\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?radio-canada\\.ca\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?radio\\.garden\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?radioaustralia\\.net\\.au\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?radiohilight\\.net\$" type=FWD forward-to=$FWDgfw
@@ -4875,6 +4874,7 @@ add regexp="^(.*\\.)?tahr\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?taipei\\.gov\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?taipeisociety\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?taipeitimes\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?taisounds\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?taiwan-sex\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?taiwanbible\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?taiwancon\\.com\$" type=FWD forward-to=$FWDgfw
