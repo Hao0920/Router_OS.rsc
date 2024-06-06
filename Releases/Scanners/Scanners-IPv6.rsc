@@ -30,6 +30,7 @@ add list=scanners address=2001:da8:204:2512:742:d9e5:2593:fd7b
 add list=scanners address=2001:da8:6005:6:b455:25c8::
 add list=scanners address=2001:da8:6005:6:b455:25c9::
 add list=scanners address=2002:2be2:1113::2be2:1113
+add list=scanners address=2002:2e08:7c50::2e08:7c50
 add list=scanners address=2002:c226:1710::c226:1710
 add list=scanners address=2400:8d60:6::48b:7e70
 add list=scanners address=2406:f00:1:1::178
@@ -38,8 +39,8 @@ add list=scanners address=2406:f00:1:1::eb
 add list=scanners address=2408:840d:6a00:4f8f:1807:bfff:fe97:e0b9
 add list=scanners address=2408:840d:9310:5b4:e4b4:14a2:c5e0:8984
 add list=scanners address=2408:843e:a90:9871:f491:f6ff:fef0:e4e0
+add list=scanners address=2408:845d:701:2a86::1
 add list=scanners address=2409:8900:1b10:2e7:9f0:80ff:4edb:126
-add list=scanners address=2409:8910:4eb2:1741:d519:a76f:f5ad:cda6
 add list=scanners address=2409:891f:9062:cb7c:a050:37ff:febb:7f5b
 add list=scanners address=2409:891f:9127:b311:8c86:8aff:fee2:28ad
 add list=scanners address=2409:891f:9166:d0c7:2898:4aff:fe3d:9d93
@@ -52,7 +53,6 @@ add list=scanners address=2409:8961:3745:5ff4:3d07:b04e:779f:3613
 add list=scanners address=2409:8961:7202:7c8:64f3:f5ff:fef3:3bcd
 add list=scanners address=2409:8962:2d11:254e:7d89:448b:d188:190b
 add list=scanners address=2409:8962:2d25:2958:35bf:e185:2993:73a7
-add list=scanners address=2409:8a4c:628:560:d0b0:af4b:93e0:678d
 add list=scanners address=240e:363:42e:9401:d431:e901:1728:d96a
 add list=scanners address=240e:389:a517:a400:67f5:6833:769f:fc87
 add list=scanners address=240e:389:a517:a400:d4cb:dbfc:87c2:2dd1
@@ -73,7 +73,6 @@ add list=scanners address=2607:ff28:c005:165:ec4:7aff:febc:e62d
 add list=scanners address=2610:150:101:1000::bd02
 add list=scanners address=2620:106:6008:99:f0::114
 add list=scanners address=2620:106:6008:99:f0::117
-add list=scanners address=2803:1400:8001:a27a:5dbf:8520:c943:ab59
 add list=scanners address=2a05:8280:f:431f::1
 add list=scanners address=2a05:8280:f:431f::10
 add list=scanners address=2a05:8280:f:431f::100
