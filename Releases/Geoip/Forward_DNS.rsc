@@ -329,6 +329,7 @@ add regexp="^(.*\\.)?apkmirror\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?apkmonk\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?apkplz\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?apkpure\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?apkpure\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?aplusvpn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?app\\.box\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?app\\.cloudcone\\.com\$" type=FWD forward-to=$FWDgfw
@@ -1343,6 +1344,7 @@ add regexp="^(.*\\.)?deviantart\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?deviantart\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?devio\\.us\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?devpn\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?devv\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dfas\\.mil\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dfn\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dharamsalanet\\.com\$" type=FWD forward-to=$FWDgfw
