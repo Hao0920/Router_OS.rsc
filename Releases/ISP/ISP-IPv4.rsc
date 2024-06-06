@@ -5554,6 +5554,7 @@ add list=othernet address=160.20.16.0/22
 add list=othernet address=160.20.48.0/22
 add list=othernet address=160.20.130.0/23
 add list=othernet address=160.22.58.0/23
+add list=othernet address=160.22.82.0/23
 add list=othernet address=160.202.168.0/22
 add list=othernet address=160.202.216.0/21
 add list=othernet address=160.202.224.0/19
