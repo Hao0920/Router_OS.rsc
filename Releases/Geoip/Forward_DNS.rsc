@@ -3180,6 +3180,7 @@ add regexp="^(.*\\.)?liangzhichuanmei\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lianyue\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?liaowangxizang\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?liberal\\.org\\.hk\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?libertysculpturepark\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?libertytimes\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?library\\.usc\\.cuhk\\.edu\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?libredd\\.it\$" type=FWD forward-to=$FWDgfw
@@ -5849,6 +5850,7 @@ add regexp="^(.*\\.)?wqyd\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wrchina\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wretch\\.cc\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?writer\\.zoho\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?writesonic\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wsj\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wsj\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wsjhk\\.com\$" type=FWD forward-to=$FWDgfw
