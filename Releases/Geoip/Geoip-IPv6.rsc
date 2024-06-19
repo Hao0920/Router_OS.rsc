@@ -1560,7 +1560,6 @@ add list=china address=2405:ed40::/32
 add list=china address=2405:ee80::/32
 add list=china address=2405:ef40::/30
 add list=china address=2405:f340::/32
-add list=china address=2405:f380::/32
 add list=china address=2405:f3c0::/32
 add list=china address=2405:f580::/32
 add list=china address=2405:f6c0::/32
