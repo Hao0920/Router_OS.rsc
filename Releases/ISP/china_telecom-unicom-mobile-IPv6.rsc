@@ -791,6 +791,7 @@ add list=china_telecom address=2401:a6e0::/32
 add list=china_telecom address=2401:a720::/32
 add list=china_telecom address=2401:a940::/32
 add list=china_telecom address=2401:a980::/32
+add list=china_telecom address=2401:a9a0::/32
 add list=china_telecom address=2401:aa00::/32
 add list=china_telecom address=2401:aa40::/32
 add list=china_telecom address=2401:acc0::/32
