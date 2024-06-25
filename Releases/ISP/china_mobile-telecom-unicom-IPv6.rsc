@@ -250,7 +250,6 @@ add list=china_mobile address=2001:dc7::/32
 add list=china_mobile address=2001:dd8:1::/48
 add list=china_mobile address=2001:dd8:5::/48
 add list=china_mobile address=2001:dd8:1a::/48
-add list=china_mobile address=2001:df0:27e::/48
 add list=china_mobile address=2001:df0:423::/48
 add list=china_mobile address=2001:df0:9c0::/48
 add list=china_mobile address=2001:df0:1bc0::/48
@@ -793,6 +792,7 @@ add list=china_mobile address=2401:a940::/32
 add list=china_mobile address=2401:a980::/32
 add list=china_mobile address=2401:a9a0::/32
 add list=china_mobile address=2401:aa00::/32
+add list=china_mobile address=2401:aa20::/32
 add list=china_mobile address=2401:aa40::/32
 add list=china_mobile address=2401:acc0::/32
 add list=china_mobile address=2401:ad40::/32
