@@ -5486,6 +5486,7 @@ add list=china address=160.22.58.0/23
 add list=china address=160.22.82.0/23
 add list=china address=160.25.10.0/23
 add list=china address=160.25.12.0/23
+add list=china address=160.25.194.0/23
 add list=china address=160.25.20.0/23
 add list=china address=160.83.109.0/24
 add list=china address=160.83.110.0/23
