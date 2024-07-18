@@ -2413,6 +2413,7 @@ add list=china_mobile address=111.0.0.0/10
 add list=china_mobile address=112.0.0.0/10
 add list=china_mobile address=117.128.0.0/10
 add list=china_mobile address=120.192.0.0/10
+add list=china_mobile address=175.48.0.0/12
 add list=china_mobile address=175.176.188.0/22
 add list=china_mobile address=183.192.0.0/10
 add list=china_mobile address=211.103.0.0/17
@@ -5588,7 +5589,6 @@ add list=china_telecom address=171.84.0.0/14
 add list=china_telecom address=172.81.192.0/18
 add list=china_telecom address=175.24.0.0/14
 add list=china_telecom address=175.46.0.0/15
-add list=china_telecom address=175.48.0.0/12
 add list=china_telecom address=175.64.0.0/11
 add list=china_telecom address=175.102.0.0/16
 add list=china_telecom address=175.111.144.0/20
