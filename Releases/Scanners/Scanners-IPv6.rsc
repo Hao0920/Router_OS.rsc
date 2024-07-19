@@ -1,6 +1,5 @@
 /ipv6 firewall address-list
 remove [find list=scanners]
-add list=scanners address=2001:16a2:c151:31b8:f441:4b2e:4eac:672
 add list=scanners address=2001:19f0:9002:1a97:5400:4ff:feaa:4cde
 add list=scanners address=2001:250:80c:ffff:ffff:ffff:cace:f00b
 add list=scanners address=2001:41b8:83f:1608::25:1
@@ -49,11 +48,9 @@ add list=scanners address=2409:8930:4d0:584:516:7274:420:fc84
 add list=scanners address=2409:8931:61b:6623:5085:f6ff:fe63:5c66
 add list=scanners address=2409:8962:6426:e07b:f41f:fa38:dc96:e3e8
 add list=scanners address=2409:8a28:459:2760:df0b:25d5:106f:bd89
-add list=scanners address=2409:8a50:a7b:e7d0:5cba:42ff:1d5e:de14
 add list=scanners address=2409:8a5c:8632:e943:2cd8:a2f4:80b7:b9c3
 add list=scanners address=240e:348:1105:1a54:f991:aae:a1e9:5525
 add list=scanners address=240e:424:3564:27:a546:8ff1:d913:2b7d
-add list=scanners address=240e:44d:7644:15e:c493:bf04:6c58:603d
 add list=scanners address=240e:45b:b489:2522::1
 add list=scanners address=2607:ff28:a005:10c:ec4:7aff:feb5:1756
 add list=scanners address=2607:ff28:c005:5a:225:90ff:fea7:ffac
