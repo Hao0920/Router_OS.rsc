@@ -810,6 +810,7 @@ add list=china_unicom address=2401:b4c0::/32
 add list=china_unicom address=2401:b4e0::/32
 add list=china_unicom address=2401:b540::/32
 add list=china_unicom address=2401:b580::/32
+add list=china_unicom address=2401:b5a0::/32
 add list=china_unicom address=2401:b600::/32
 add list=china_unicom address=2401:b680::/32
 add list=china_unicom address=2401:b6c0::/32
