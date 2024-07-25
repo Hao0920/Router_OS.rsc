@@ -310,7 +310,6 @@ add list=othernet_ipv6 address=2001:df3:ed80::/48
 add list=othernet_ipv6 address=2001:df3:ef80::/48
 add list=othernet_ipv6 address=2001:df4:880::/48
 add list=othernet_ipv6 address=2001:df4:d80::/48
-add list=othernet_ipv6 address=2001:df4:1280::/48
 add list=othernet_ipv6 address=2001:df4:1500::/48
 add list=othernet_ipv6 address=2001:df4:1880::/48
 add list=othernet_ipv6 address=2001:df4:2780::/48
