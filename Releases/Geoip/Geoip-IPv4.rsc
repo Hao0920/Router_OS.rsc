@@ -729,7 +729,6 @@ add list=china address=103.152.112.0/23
 add list=china address=103.152.120.0/22
 add list=china address=103.152.120.0/23
 add list=china address=103.152.122.0/23
-add list=china address=103.152.132.0/23
 add list=china address=103.152.14.0/23
 add list=china address=103.152.152.0/23
 add list=china address=103.152.168.0/22
