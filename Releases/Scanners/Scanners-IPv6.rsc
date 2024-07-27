@@ -80,7 +80,10 @@ add list=scanners address=2a09:bac5:55fa:18be::277:2d
 add list=scanners address=2a09:bac5:6388:1232::1d0:83
 add list=scanners address=2a09:bac5:6388:1246::1d2:a
 add list=scanners address=2a09:bac5:6388:28::4:269
+add list=scanners address=2a09:bac5:6388:28::4:2f0
+add list=scanners address=2a09:bac5:6389:1250::1d3:b
 add list=scanners address=2a09:bac5:638b:123c::1d1:c6
+add list=scanners address=2a09:bac5:638c:123c::1d1:3b
 add list=scanners address=2a09:bac5:638c:1246::1d2:7a
 add list=scanners address=2a09:bac5:638d:28::4:30d
 add list=scanners address=2a09:bac5:638e:1246::1d2:2f
