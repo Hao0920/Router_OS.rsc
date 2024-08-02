@@ -64,6 +64,7 @@ add list=scanners address=240e:398:4:233a:215:5deb:4640:589
 add list=scanners address=240e:398:4:233a:215:5df5:ff40:589
 add list=scanners address=240e:398:4:2666:215:5d24:2e40:589
 add list=scanners address=240e:398:4:2804:215:5da0:9740:589
+add list=scanners address=240e:398:4:2846:215:5d6e:f640:589
 add list=scanners address=240e:398:4:2909:215:5d61:1340:589
 add list=scanners address=240e:398:4:2909:215:5dc9:e140:589
 add list=scanners address=240e:398:4:2909:215:5de2:9d40:589
