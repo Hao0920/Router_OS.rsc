@@ -102,6 +102,7 @@ add list=scanners address=240e:398:4:42d9:215:5d2d:7f40:589
 add list=scanners address=240e:398:4:42e1:215:5dfd:4d40:589
 add list=scanners address=240e:398:4:451d:215:5d1a:d140:589
 add list=scanners address=240e:398:4:46f:215:5d4e:4740:589
+add list=scanners address=240e:398:4:48f1:215:5ddc:7040:589
 add list=scanners address=240e:398:4:4921:215:5ddd:3640:589
 add list=scanners address=240e:398:4:4a16:215:5d46:5240:589
 add list=scanners address=240e:398:4:4b67:215:5dfe:e240:589
