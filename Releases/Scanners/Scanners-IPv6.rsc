@@ -121,7 +121,6 @@ add list=scanners address=2a0b:f4c2:2::40
 add list=scanners address=2a0b:f4c2:2::45
 add list=scanners address=2a0b:f4c2:3::80
 add list=scanners address=2a0b:f4c2:3::84
-add list=scanners address=2a0b:f4c2::14
 add list=scanners address=2a0b:f4c2::15
 add list=scanners address=2a0b:f4c2::17
 add list=scanners address=2a0b:f4c2::18
