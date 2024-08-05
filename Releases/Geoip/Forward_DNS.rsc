@@ -2920,6 +2920,7 @@ add regexp="^(.*\\.)?iuksky\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ivacy\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?iverycd\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ivpn\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?iwara\\.tv\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ixquick\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ixxx\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?iyouport\\.com\$" type=FWD forward-to=$FWDgfw
@@ -5132,6 +5133,7 @@ add regexp="^(.*\\.)?tibetsupportgroup\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tibetswiss\\.ch\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tibettelegraph\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tibettimes\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?tibettruth\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tibetwrites\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ticket\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tigervpn\\.com\$" type=FWD forward-to=$FWDgfw
