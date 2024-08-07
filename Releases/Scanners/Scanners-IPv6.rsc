@@ -33,7 +33,6 @@ add list=scanners address=2001:67c:6ec:203:192:42:116:183
 add list=scanners address=2001:67c:6ec:203:192:42:116:187
 add list=scanners address=2001:67c:6ec:203:192:42:116:191
 add list=scanners address=2001:67c:6ec:203:192:42:116:192
-add list=scanners address=2001:67c:6ec:203:192:42:116:194
 add list=scanners address=2001:67c:6ec:203:192:42:116:195
 add list=scanners address=2001:67c:6ec:203:192:42:116:197
 add list=scanners address=2001:67c:6ec:203:192:42:116:198
@@ -41,6 +40,7 @@ add list=scanners address=2001:67c:6ec:203:192:42:116:202
 add list=scanners address=2001:67c:6ec:203:192:42:116:208
 add list=scanners address=2001:67c:6ec:203:192:42:116:209
 add list=scanners address=2001:67c:6ec:203:192:42:116:210
+add list=scanners address=2001:67c:6ec:203:192:42:116:213
 add list=scanners address=2001:67c:6ec:203:192:42:116:215
 add list=scanners address=2001:67c:89c:702:1ce:1ce:babe:7
 add list=scanners address=2001:8d8:1801:740::1
@@ -127,6 +127,7 @@ add list=scanners address=2a0b:f4c2:3::77
 add list=scanners address=2a0b:f4c2:3::87
 add list=scanners address=2a0b:f4c2:3::89
 add list=scanners address=2a0b:f4c2:4::100
+add list=scanners address=2a0b:f4c2:4::103
 add list=scanners address=2a0b:f4c2::11
 add list=scanners address=2a0b:f4c2::13
 add list=scanners address=2a0b:f4c2::15
