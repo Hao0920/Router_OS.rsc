@@ -125,7 +125,6 @@ add list=scanners address=2a05:8280:f:431f::100
 add list=scanners address=2a05:8280:f:431f::11
 add list=scanners address=2a05:8280:f:431f::2
 add list=scanners address=2a06:1700:0:15::2
-add list=scanners address=2a06:1700:0:50::11
 add list=scanners address=2a09:bac5:638f:123c::1d1:af
 add list=scanners address=2a0a:4cc0:0:99:c44b:7eff:fe23:de3d
 add list=scanners address=2a0b:f4c0:16c:13::1
