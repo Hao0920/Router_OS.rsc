@@ -97,9 +97,12 @@ add list=scanners address=2605:6400:30:f08c:45b7:4a99:a154:694e
 add list=scanners address=2605:6400:30:f0ed:9151:66ed:6366:5c74
 add list=scanners address=2605:6400:30:f38b:28b3:cd24:51f3:e412
 add list=scanners address=2605:6400:30:f534:ae1d:c3d9:9941:d85e
+add list=scanners address=2605:6400:30:f5a3:5bb1:af4e:c969:c73e
 add list=scanners address=2605:6400:30:f805:1e96:b223:fbe5:cfac
 add list=scanners address=2605:6400:30:f858:2704:73e1:7085:12ef
+add list=scanners address=2605:6400:30:f920:f523:28ef:3617:8b86
 add list=scanners address=2605:6400:cf45::
+add list=scanners address=2605:6400:d814:2775::
 add list=scanners address=2605:aa80:0:9::3
 add list=scanners address=2610:150:101:1000::bd02
 add list=scanners address=2620:106:6008:99:f0::114
