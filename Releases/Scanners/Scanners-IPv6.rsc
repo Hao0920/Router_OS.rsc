@@ -143,6 +143,7 @@ add list=scanners address=2a03:4000:27:6f8:e466:27ff:fe82:1b2a
 add list=scanners address=2a03:4000:28:3e:c4ee:b0ff:fecb:1cde
 add list=scanners address=2a03:4000:29:8a9:887f:9eff:feed:9e9
 add list=scanners address=2a03:4000:37:3:e842:2ff:feb9:c49c
+add list=scanners address=2a03:4000:46:197:b434:d3ff:fe68:d9e1
 add list=scanners address=2a03:4000:5:65b:388a:15ff:fedc:30d6
 add list=scanners address=2a03:4000:6:102b:c457:f3ff:feb0:a6d0
 add list=scanners address=2a03:94e0:ffff:185:181:61:0:115
