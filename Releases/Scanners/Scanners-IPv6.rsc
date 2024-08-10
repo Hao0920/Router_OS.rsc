@@ -81,14 +81,13 @@ add list=scanners address=2408:8214:8116:17b0:8ca7:894b:7a2c:a23b
 add list=scanners address=2408:8409:18c0:f54:7551:8b88:4fb4:62a2
 add list=scanners address=2408:8409:24e2:8da:7b5e:1e15:7ea:ae3f
 add list=scanners address=2409:8931:42b:35a1::1
-add list=scanners address=2409:8931:62b:6570:94f7:26ff:fed1:1113
 add list=scanners address=2409:8a28:7298:7f80:e9e3:9c38:cd04:8693
-add list=scanners address=2409:8a4d:c8f:6520:e143:a855:1151:326f
 add list=scanners address=2409:8a6c:53b:ef40:283d:4ce2:4570:82d9
 add list=scanners address=240e:360:2928:e320:6275:309e:2564:7308
 add list=scanners address=240e:390:71dc:1123:4c78:368:838b:7d5
 add list=scanners address=240e:390:71dc:2bd3:4c78:368:838b:7d5
 add list=scanners address=240e:390:71dc:2d5e:4c78:368:838b:7d5
+add list=scanners address=240e:390:71dc:3069:4c78:368:838b:7d5
 add list=scanners address=240e:390:71dc:c72:4c78:368:838b:7d5
 add list=scanners address=240e:390:71dc:e00:4c78:368:838b:7d5
 add list=scanners address=240e:390:71dc:f85:4c78:368:838b:7d5
@@ -106,6 +105,7 @@ add list=scanners address=2605:6400:30:f08c:45b7:4a99:a154:694e
 add list=scanners address=2605:6400:30:f414:fd93:382f:6ffd:b00b
 add list=scanners address=2605:6400:30:f51a:f826:ecfc:47b6:92a9
 add list=scanners address=2605:6400:30:f534:ae1d:c3d9:9941:d85e
+add list=scanners address=2605:6400:30:f57d:916e:73f8:d5e7:675b
 add list=scanners address=2605:6400:30:f5a3:5bb1:af4e:c969:c73e
 add list=scanners address=2605:6400:30:f5db:25a1:b884:ef2d:8818
 add list=scanners address=2605:6400:30:f78b::2
@@ -186,6 +186,7 @@ add list=scanners address=2a0b:f4c2:2::32
 add list=scanners address=2a0b:f4c2:2::33
 add list=scanners address=2a0b:f4c2:2::35
 add list=scanners address=2a0b:f4c2:2::37
+add list=scanners address=2a0b:f4c2:2::38
 add list=scanners address=2a0b:f4c2:2::42
 add list=scanners address=2a0b:f4c2:2::45
 add list=scanners address=2a0b:f4c2:2::46
@@ -213,6 +214,7 @@ add list=scanners address=2a0b:f4c2::11
 add list=scanners address=2a0b:f4c2::12
 add list=scanners address=2a0b:f4c2::13
 add list=scanners address=2a0b:f4c2::2
+add list=scanners address=2a0b:f4c2::22
 add list=scanners address=2a0b:f4c2::23
 add list=scanners address=2a0b:f4c2::24
 add list=scanners address=2a0b:f4c2::25
