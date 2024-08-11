@@ -11776,6 +11776,7 @@ add name=ys.da.mgtv.com type=NXDOMAIN
 add name=ysm.hauchi.com.tw type=NXDOMAIN
 add name=yt-adp.ws.126.net type=NXDOMAIN
 add name=yt-adv.bn.netease.com type=NXDOMAIN
+add name=yunyun.hxwntrrfciifqprlyj.cc type=NXDOMAIN
 add name=z.sora.yoyi.com.cn type=NXDOMAIN
 add name=z1.cnzz.com type=NXDOMAIN
 add name=z10.cnzz.com type=NXDOMAIN
