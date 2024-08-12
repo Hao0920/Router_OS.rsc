@@ -1,6 +1,5 @@
 /ipv6 firewall address-list
 remove [find list=scanners]
-add list=scanners address=2001:1b60:2:1:3935:104:0:1
 add list=scanners address=2001:250:80c:ffff:ffff:ffff:cace:f00b
 add list=scanners address=2001:40e8:0:f090::100
 add list=scanners address=2001:41b8:83f:1608::25:1
@@ -62,14 +61,11 @@ add list=scanners address=2406:f00:1:1::178
 add list=scanners address=2406:f00:1:1::cd
 add list=scanners address=2406:f00:1:1::eb
 add list=scanners address=2408:8445:2390:579c:e5a3:a6ba:e081:f28b
-add list=scanners address=2409:8931:21a:1da3:196d:85f3:bd3f:516b
 add list=scanners address=2409:8962:496f:d45:441b:3fff:fe2e:f77b
 add list=scanners address=2409:8a00:79b3:8c20:e035:70d8:e9f3:d4b4
 add list=scanners address=2409:8a20:876:adc1:6836:33da:2fe7:6cca
-add list=scanners address=2409:8a5c:8225:6b70:69fa:9cbd:adcc:c008
 add list=scanners address=240e:34c:87:f20:69a2:edfd:74c1:22a
 add list=scanners address=240e:37b:9c9:9300:6537:29ed:1c7f:cc10
-add list=scanners address=240e:390:71dc:38ac:4c78:368:838b:7d5
 add list=scanners address=240e:390:71dc:3a5b:4c78:368:838b:7d5
 add list=scanners address=240e:390:71dc:3c4f:4c78:368:838b:7d5
 add list=scanners address=240e:390:71dc:3e18:4c78:368:838b:7d5
@@ -443,6 +439,7 @@ add list=scanners address=240e:390:71dd:c81f:4c78:368:838b:7d5
 add list=scanners address=240e:390:71dd:c9cf:4c78:368:838b:7d5
 add list=scanners address=240e:390:71dd:cb3:4c78:368:838b:7d5
 add list=scanners address=240e:390:71dd:cbb7:4c78:368:838b:7d5
+add list=scanners address=240e:390:71dd:cd78:4c78:368:838b:7d5
 add list=scanners address=240e:390:71dd:d45:4c78:368:838b:7d5
 add list=scanners address=240e:390:71dd:e1:4c78:368:838b:7d5
 add list=scanners address=240e:390:71dd:f0d:4c78:368:838b:7d5
