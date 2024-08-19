@@ -621,6 +621,8 @@ add list=china address=2401:bb20::/32
 add list=china address=2401:bb80::/32
 add list=china address=2401:bc0::/32
 add list=china address=2401:bc60::/31
+add list=china address=2401:bd60::/32
+add list=china address=2401:bda0::/32
 add list=china address=2401:be00::/32
 add list=china address=2401:c200::/32
 add list=china address=2401:c40::/32
