@@ -12,7 +12,6 @@ add list=china_unicom address=2401:8380::/32
 add list=china_unicom address=2401:fa80::/32
 add list=china_unicom address=2401:fb80::/32
 add list=china_unicom address=2402:8800::/32
-add list=china_unicom address=2404:3b00::/34
 add list=china_unicom address=2404:a180::/32
 add list=china_unicom address=2406:cd80::/32
 add list=china_unicom address=2406:ce80::/32
@@ -324,7 +323,6 @@ add list=china_unicom address=2001:df6:100::/48
 add list=china_unicom address=2001:df6:3d00::/48
 add list=china_unicom address=2001:df6:5d00::/48
 add list=china_unicom address=2001:df6:6800::/48
-add list=china_unicom address=2001:df6:9e80::/48
 add list=china_unicom address=2001:df6:df00::/48
 add list=china_unicom address=2001:df6:f400::/48
 add list=china_unicom address=2001:df7:1480::/48
@@ -696,7 +694,6 @@ add list=china_unicom address=2401:4a80::/32
 add list=china_unicom address=2401:4b00::/32
 add list=china_unicom address=2401:4f80::/32
 add list=china_unicom address=2401:5180::/32
-add list=china_unicom address=2401:5680::/32
 add list=china_unicom address=2401:58a0::/32
 add list=china_unicom address=2401:5960::/32
 add list=china_unicom address=2401:59c0::/32
@@ -820,6 +817,8 @@ add list=china_unicom address=2401:ba40::/32
 add list=china_unicom address=2401:bb20::/32
 add list=china_unicom address=2401:bb80::/32
 add list=china_unicom address=2401:bc60::/31
+add list=china_unicom address=2401:bd60::/32
+add list=china_unicom address=2401:bda0::/32
 add list=china_unicom address=2401:be00::/32
 add list=china_unicom address=2401:c200::/32
 add list=china_unicom address=2401:c540::/32
