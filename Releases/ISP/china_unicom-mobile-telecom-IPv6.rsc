@@ -822,6 +822,7 @@ add list=china_unicom address=2401:bd60::/32
 add list=china_unicom address=2401:bda0::/32
 add list=china_unicom address=2401:be00::/32
 add list=china_unicom address=2401:bf20::/32
+add list=china_unicom address=2401:c020::/32
 add list=china_unicom address=2401:c200::/32
 add list=china_unicom address=2401:c540::/32
 add list=china_unicom address=2401:c600::/32
