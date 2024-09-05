@@ -1645,7 +1645,6 @@ add list=othernet_ipv6 address=2405:e040::/32
 add list=othernet_ipv6 address=2405:e1c0::/32
 add list=othernet_ipv6 address=2405:e600::/32
 add list=othernet_ipv6 address=2405:ed40::/32
-add list=othernet_ipv6 address=2405:ee80::/32
 add list=othernet_ipv6 address=2405:ef40::/30
 add list=othernet_ipv6 address=2405:f340::/32
 add list=othernet_ipv6 address=2405:f3c0::/32
