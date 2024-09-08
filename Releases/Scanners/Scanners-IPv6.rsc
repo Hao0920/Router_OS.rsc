@@ -77,7 +77,6 @@ add list=scanners address=2a09:bac1:3f40:518::22:10d
 add list=scanners address=2a09:bac1:7680:d28::1d2:6c
 add list=scanners address=2a09:bac1:76a0:d28::1d0:79
 add list=scanners address=2a09:bac1:76a0:d28::1d3:44
-add list=scanners address=2a09:bac1:76a0:d28::1d3:81
 add list=scanners address=2a09:bac1:76a0:d28::1d3:9
 add list=scanners address=2a09:bac1:76c0:d28::4:22d
 add list=scanners address=2a09:bac1:76e0:d28::4:272
