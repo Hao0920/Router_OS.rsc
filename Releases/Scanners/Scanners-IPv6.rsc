@@ -3,7 +3,6 @@ remove [find list=scanners]
 add list=scanners address=2001:250:4000:8041:465e:d5cd:f9f:d040
 add list=scanners address=2001:250:4000:8041:ecb4:f258:8f1c:48d0
 add list=scanners address=2001:250:4000:8233:978:f03d:7898:3ee1
-add list=scanners address=2001:250:4000:823e:9d0:c972:8b6b:c8b9
 add list=scanners address=2001:250:80c:ffff:ffff:ffff:cace:f00b
 add list=scanners address=2001:41b8:83f:1608::25:1
 add list=scanners address=2001:41b8:83f:1610::237
@@ -43,7 +42,6 @@ add list=scanners address=2406:f00:1:1::eb
 add list=scanners address=2408:8207:1856:10a0:78cc:687e:5eb9:3025
 add list=scanners address=2408:8270:3c16:a0a0:a0cb:6e3c:843a:bdae
 add list=scanners address=2408:843e:900:23aa:84d:2a2:8b5a:807a
-add list=scanners address=2408:8445:512:21ba:f5cf:37dd:cf20:d04
 add list=scanners address=2409:8924:486c:e3d:7135:308:c911:e06
 add list=scanners address=2409:8925:2651:b921:a52c:fac5:d9c1:3b54
 add list=scanners address=2409:8931:418:714:8443:44ff:fe02:1c49
@@ -51,6 +49,7 @@ add list=scanners address=2409:8931:67c:f275:85a6:d509:1f66:9e1f
 add list=scanners address=2409:8931:69b:5d3c:d5ea:72d9:5686:53c7
 add list=scanners address=2409:8931:b44a:99d:597f:4a09:e7:a74e
 add list=scanners address=2409:894d:cbc:11d0:21bc:52c5:3b2c:36c3
+add list=scanners address=2409:895a:5057:4f9:50c5:b2ff:feb7:90e5
 add list=scanners address=2409:8961:1201:c8a9:59f9:3df:fdde:de7e
 add list=scanners address=2409:896d:109:fe9f:3046:53c4:cdd1:15f1
 add list=scanners address=2409:8a30:484:8140:cba3:ff87:7d4d:b190
@@ -59,7 +58,6 @@ add list=scanners address=2409:8a5c:6a4:42f0:84da:d9ac:e55e:ecd0
 add list=scanners address=2409:8a5c:7490:99c0:2d63:22fc:3a46:d899
 add list=scanners address=240c:cf81:8:9fb9:23ba:46a:e639:35c9
 add list=scanners address=240e:44d:2b0c:2c01:3403:68ff:fe8e:4325
-add list=scanners address=240e:476:5408:69d7::1
 add list=scanners address=240e:479:4c10:50f4:344b:27ff:fe17:1dc6
 add list=scanners address=240e:b67:4c6:b500:cde:a86c:4ba5:abff
 add list=scanners address=2600:3c07::f03c:95ff:fe82:2216
