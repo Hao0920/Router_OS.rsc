@@ -389,7 +389,6 @@ add list=china_telecom address=2400:4540::/32
 add list=china_telecom address=2400:4600::/32
 add list=china_telecom address=2400:4640::/32
 add list=china_telecom address=2400:46c0::/32
-add list=china_telecom address=2400:4740::/32
 add list=china_telecom address=2400:4920::/32
 add list=china_telecom address=2400:4bc0::/32
 add list=china_telecom address=2400:4e00::/32
