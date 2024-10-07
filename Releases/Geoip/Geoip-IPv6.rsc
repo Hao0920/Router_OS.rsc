@@ -8406,6 +8406,7 @@ add list=china address=2401:c6c0::/32
 add list=china address=2401:c840::/32
 add list=china address=2401:c8c0::/32
 add list=china address=2401:ca00::/32
+add list=china address=2401:ca20::/32
 add list=china address=2401:cb80::/32
 add list=china address=2401:cc00::/32
 add list=china address=2401:cc0::/32
