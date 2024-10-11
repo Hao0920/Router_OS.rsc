@@ -8435,6 +8435,7 @@ add list=china address=2401:cb80::/32
 add list=china address=2401:cbe0::/32
 add list=china address=2401:cc00::/32
 add list=china address=2401:cc0::/32
+add list=china address=2401:cc60::/32
 add list=china address=2401:ce00::/32
 add list=china address=2401:cf40::/32
 add list=china address=2401:cfc0::/32
