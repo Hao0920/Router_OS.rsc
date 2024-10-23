@@ -4,6 +4,7 @@ add list=scanners address=2001:250:80c:ffff:ffff:ffff:cace:f00b
 add list=scanners address=2001:41b8:83f:1608::25:1
 add list=scanners address=2001:41b8:83f:1610::237
 add list=scanners address=2001:41d0:304:200::42d5
+add list=scanners address=2001:4490:4c20:bc7b:d45f:4c2a:2e74:af28
 add list=scanners address=2001:4c80:40:62d::25:1
 add list=scanners address=2001:4c80:40:62d::25:2
 add list=scanners address=2001:4c80:40:62d::25:3
@@ -32,7 +33,6 @@ add list=scanners address=2001:df1:7880:2::1a82
 add list=scanners address=2001:ee0:4001:4d0d:96db:daff:fe47:d864
 add list=scanners address=2001:ee0:4001:61f5:6aa8:28ff:fe88:ea61
 add list=scanners address=2001:ee0:4001:8ced:6aa8:28ff:fe84:c9f3
-add list=scanners address=2001:ee0:40c1:9b20:6a89:c1ff:fe80:2f55
 add list=scanners address=2001:ee0:40e1:49a0:96db:daff:fe49:505e
 add list=scanners address=2001:ee0:4101:6b6a:ca8d:83ff:fe86:d2f2
 add list=scanners address=2001:ee0:4101:8d38:6aa8:28ff:fe88:e77c
@@ -61,7 +61,6 @@ add list=scanners address=2403:6200:8000:66:b07e:8bac:48d5:ba71
 add list=scanners address=2403:6200:8000:66:c5dc:a049:138f:9035
 add list=scanners address=2403:6200:8000:66:dc75:f9aa:de67:855
 add list=scanners address=2403:6200:8000:68:3508:8fd1:c3ad:3f3c
-add list=scanners address=2403:6200:8000:a6:5e5:3428:d79a:6ee1
 add list=scanners address=2403:6200:8000:a6:607e:7ab1:12a0:4f59
 add list=scanners address=2403:6200:8000:a6:7171:f69:7597:ee69
 add list=scanners address=2403:6200:8000:a6:8190:4f50:1ffe:bdbc
@@ -72,9 +71,11 @@ add list=scanners address=2403:6200:8000:a7:4d94:97fe:a51f:741b
 add list=scanners address=2403:6200:8000:a7:5dfa:d419:f1eb:9d08
 add list=scanners address=2403:6200:8000:a7:9996:e01a:162:aac4
 add list=scanners address=2403:6200:8000:a7:d4a7:d3ae:20ba:731
+add list=scanners address=2403:6200:8000:a7:d909:c4c5:97b8:7a91
 add list=scanners address=2403:6200:8000:a7:ed42:2b1b:4131:4ce4
+add list=scanners address=2403:6200:8000:a8:10c7:6e84:fc8a:838b
 add list=scanners address=2403:6200:8000:a8:15b6:cb04:23f6:cc1b
-add list=scanners address=2403:6200:8000:a8:5454:7e83:7af9:87d8
+add list=scanners address=2403:6200:8000:a8:41b2:6b32:510:3128
 add list=scanners address=2403:6200:8000:a8:7c4b:dcad:fe1c:b0b
 add list=scanners address=2403:6200:8000:a8:c5c6:72b9:bd6c:c030
 add list=scanners address=2406:f00:1:1::178
