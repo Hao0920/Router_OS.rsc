@@ -60,7 +60,6 @@ add list=scanners address=2403:6200:8000:66:b07e:8bac:48d5:ba71
 add list=scanners address=2403:6200:8000:66:c5dc:a049:138f:9035
 add list=scanners address=2403:6200:8000:66:dc75:f9aa:de67:855
 add list=scanners address=2403:6200:8000:68:3508:8fd1:c3ad:3f3c
-add list=scanners address=2403:6200:8000:a6:607e:7ab1:12a0:4f59
 add list=scanners address=2403:6200:8000:a6:7171:f69:7597:ee69
 add list=scanners address=2403:6200:8000:a6:8190:4f50:1ffe:bdbc
 add list=scanners address=2403:6200:8000:a6:8904:fb1d:8795:5d40
