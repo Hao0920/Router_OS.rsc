@@ -314,7 +314,6 @@ add list=china_mobile address=2001:df4:a980::/48
 add list=china_mobile address=2001:df4:c180::/48
 add list=china_mobile address=2001:df4:c580::/48
 add list=china_mobile address=2001:df4:c780::/48
-add list=china_mobile address=2001:df4:de80::/48
 add list=china_mobile address=2001:df5:2080::/48
 add list=china_mobile address=2001:df5:5f80::/48
 add list=china_mobile address=2001:df5:7800::/48
