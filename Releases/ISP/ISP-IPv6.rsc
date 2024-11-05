@@ -845,6 +845,7 @@ add list=othernet_ipv6 address=2401:d140::/32
 add list=othernet_ipv6 address=2401:d180::/32
 add list=othernet_ipv6 address=2401:d2c0::/32
 add list=othernet_ipv6 address=2401:d340::/32
+add list=othernet_ipv6 address=2401:d420::/32
 add list=othernet_ipv6 address=2401:d780::/32
 add list=othernet_ipv6 address=2401:de00::/32
 add list=othernet_ipv6 address=2401:e080::/32
