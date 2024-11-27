@@ -276,10 +276,8 @@ add list=china_unicom address=2001:df1:c900::/48
 add list=china_unicom address=2001:df1:d180::/48
 add list=china_unicom address=2001:df1:da00::/48
 add list=china_unicom address=2001:df1:f480::/48
-add list=china_unicom address=2001:df1:f580::/48
 add list=china_unicom address=2001:df1:fd80::/48
 add list=china_unicom address=2001:df2:80::/48
-add list=china_unicom address=2001:df2:180::/48
 add list=china_unicom address=2001:df2:5780::/48
 add list=china_unicom address=2001:df2:8bc0::/48
 add list=china_unicom address=2001:df2:a580::/48
