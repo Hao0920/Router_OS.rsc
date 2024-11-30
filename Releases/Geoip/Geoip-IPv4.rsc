@@ -4232,6 +4232,7 @@ add list=china address=153.36.0.0/15
 add list=china address=153.99.0.0/16
 add list=china address=154.18.7.194/32
 add list=china address=154.50.205.22/32
+add list=china address=154.50.208.22/32
 add list=china address=154.72.44.0/24
 add list=china address=154.8.128.0/17
 add list=china address=154.81.40.0/22
