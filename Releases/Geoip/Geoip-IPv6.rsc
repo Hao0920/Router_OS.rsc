@@ -8660,6 +8660,7 @@ add list=china address=2401:d7e0::/32
 add list=china address=2401:d8e0::/32
 add list=china address=2401:d920::/28
 add list=china address=2401:da00::/32
+add list=china address=2401:dbe0::/32
 add list=china address=2401:de00::/32
 add list=china address=2401:e00::/32
 add list=china address=2401:e080::/32
