@@ -5565,6 +5565,7 @@ add list=china_mobile address=160.250.84.0/23
 add list=china_mobile address=160.250.90.0/23
 add list=china_mobile address=160.250.102.0/23
 add list=china_mobile address=160.250.104.0/23
+add list=china_mobile address=160.250.140.0/24
 add list=china_mobile address=161.120.0.0/16
 add list=china_mobile address=161.189.0.0/16
 add list=china_mobile address=161.207.0.0/16
