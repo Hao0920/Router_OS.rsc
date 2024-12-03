@@ -1733,7 +1733,6 @@ add list=china address=103.4.168.0/22
 add list=china address=103.4.184.0/22
 add list=china address=103.4.224.0/22
 add list=china address=103.4.56.0/22
-add list=china address=103.40.100.0/22
 add list=china address=103.40.100.0/23
 add list=china address=103.40.12.0/22
 add list=china address=103.40.158.0/23
@@ -7582,7 +7581,6 @@ add list=china address=43.249.168.0/22
 add list=china address=43.249.192.0/22
 add list=china address=43.249.236.0/22
 add list=china address=43.249.4.0/22
-add list=china address=43.249.8.0/22
 add list=china address=43.249.8.0/23
 add list=china address=43.250.104.0/27
 add list=china address=43.250.104.100/31
