@@ -4440,6 +4440,7 @@ add list=china address=160.250.140.0/24
 add list=china address=160.250.16.0/22
 add list=china address=160.250.160.0/23
 add list=china address=160.250.170.0/23
+add list=china address=160.250.214.0/23
 add list=china address=160.250.24.0/23
 add list=china address=160.250.84.0/23
 add list=china address=160.250.90.0/23
