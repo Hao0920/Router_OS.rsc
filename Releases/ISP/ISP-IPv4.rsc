@@ -5578,6 +5578,7 @@ add list=othernet address=161.120.0.0/16
 add list=othernet address=161.189.0.0/16
 add list=othernet address=161.207.0.0/16
 add list=othernet address=161.248.20.0/23
+add list=othernet address=161.248.42.0/23
 add list=othernet address=162.14.0.0/16
 add list=othernet address=163.47.4.0/22
 add list=othernet address=163.53.0.0/20
