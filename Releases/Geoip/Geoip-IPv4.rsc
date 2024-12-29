@@ -3927,12 +3927,7 @@ add list=china address=124.175.64.0/18
 add list=china address=124.192.0.0/15
 add list=china address=124.196.0.0/16
 add list=china address=124.20.0.0/14
-add list=china address=124.20.0.0/16
 add list=china address=124.200.0.0/13
-add list=china address=124.21.0.0/18
-add list=china address=124.21.128.0/17
-add list=china address=124.21.96.0/19
-add list=china address=124.22.0.0/15
 add list=china address=124.220.0.0/14
 add list=china address=124.224.0.0/12
 add list=china address=124.240.0.0/17
