@@ -1128,6 +1128,7 @@ add regexp="^(.*\\.)?cn6\\.eu\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cna\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cnabc\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cnbbnews\\.wordpress\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?cnbeta\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cnd\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cnex\\.org\\.cn\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cnineu\\.com\$" type=FWD forward-to=$FWDgfw
