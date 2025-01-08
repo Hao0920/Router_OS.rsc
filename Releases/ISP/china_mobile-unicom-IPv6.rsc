@@ -864,7 +864,6 @@ add list=china_mobile address=2401:ec40::/32
 add list=china_mobile address=2401:f300::/32
 add list=china_mobile address=2401:f7c0::/32
 add list=china_mobile address=2401:fc80::/32
-add list=china_mobile address=2401:fe80::/32
 add list=china_mobile address=2401:ffc0::/32
 add list=china_mobile address=2402:440::/32
 add list=china_mobile address=2402:5c0::/32
