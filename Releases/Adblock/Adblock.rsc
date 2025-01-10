@@ -11777,6 +11777,7 @@ add name=ysm.hauchi.com.tw type=NXDOMAIN
 add name=yt-adp.ws.126.net type=NXDOMAIN
 add name=yt-adv.bn.netease.com type=NXDOMAIN
 add name=yunyun.hxwntrrfciifqprlyj.cc type=NXDOMAIN
+add name=yunyunyun.qgy8x8f64ky10v0r15hht6qbyw368cbo.com type=NXDOMAIN
 add name=z.sora.yoyi.com.cn type=NXDOMAIN
 add name=z1.cnzz.com type=NXDOMAIN
 add name=z10.cnzz.com type=NXDOMAIN
