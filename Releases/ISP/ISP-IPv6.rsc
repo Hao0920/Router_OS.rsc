@@ -883,10 +883,8 @@ add list=othernet_ipv6 address=2402:1600::/32
 add list=othernet_ipv6 address=2402:1740::/32
 add list=othernet_ipv6 address=2402:19c0::/32
 add list=othernet_ipv6 address=2402:1ec0::/32
-add list=othernet_ipv6 address=2402:1f40::/32
 add list=othernet_ipv6 address=2402:1f80::/32
 add list=othernet_ipv6 address=2402:2280::/32
-add list=othernet_ipv6 address=2402:22c0::/32
 add list=othernet_ipv6 address=2402:2440::/32
 add list=othernet_ipv6 address=2402:24c0::/32
 add list=othernet_ipv6 address=2402:2540::/32
