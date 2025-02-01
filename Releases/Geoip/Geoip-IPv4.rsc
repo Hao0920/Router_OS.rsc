@@ -4935,11 +4935,6 @@ add list=china address=183.91.39.0/24
 add list=china address=183.91.40.0/21
 add list=china address=183.91.56.0/24
 add list=china address=183.92.0.0/14
-add list=china address=184.104.221.192/32
-add list=china address=184.104.221.194/31
-add list=china address=184.104.221.196/30
-add list=china address=184.104.221.200/29
-add list=china address=184.104.221.208/28
 add list=china address=185.196.210.68/30
 add list=china address=185.196.211.68/30
 add list=china address=185.217.120.0/23
