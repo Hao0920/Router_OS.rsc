@@ -477,6 +477,7 @@ add list=othernet_ipv6 address=2400:7bc0::/32
 add list=othernet_ipv6 address=2400:7fc0::/32
 add list=othernet_ipv6 address=2400:8080::/32
 add list=othernet_ipv6 address=2400:8200::/32
+add list=othernet_ipv6 address=2400:8201::/32
 add list=othernet_ipv6 address=2400:82c0::/32
 add list=othernet_ipv6 address=2400:8580::/32
 add list=othernet_ipv6 address=2400:8600::/32
