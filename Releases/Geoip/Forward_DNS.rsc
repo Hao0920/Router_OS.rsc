@@ -1169,6 +1169,7 @@ add regexp="^(.*\\.)?cochina\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?code1984\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?codeshare\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?codeskulptor\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?cofacts\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?coin2co\\.in\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?coinbase\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?coinbene\\.com\$" type=FWD forward-to=$FWDgfw
@@ -2454,6 +2455,7 @@ add regexp="^(.*\\.)?greenreadings\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?greenvpn\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?greenvpn\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?grindr\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?grok\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?grotty-monday\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ground\\.news\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?groups\\.google\\.cn\$" type=FWD forward-to=$FWDgfw
