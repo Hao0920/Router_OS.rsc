@@ -28,6 +28,7 @@ add list=scanners address=2001:a18:a:c5::d
 add list=scanners address=2001:a18:a:c5::e
 add list=scanners address=2001:da8:6005:6:b455:25c8::
 add list=scanners address=2001:da8:6005:6:b455:25c9::
+add list=scanners address=2002:672e:b9a7::672e:b9a7
 add list=scanners address=2400:dd01:3011:2:1:0:c0a8:6422
 add list=scanners address=2402:e000:538:6c60:150c:d4fc:9500:b4dd
 add list=scanners address=2404:3100:18b2:c56a:174:7e6f:a690:adf
@@ -42,7 +43,6 @@ add list=scanners address=2406:f00:1:1::eb
 add list=scanners address=2408:8207:18e2:620:897b:e960:8945:622e
 add list=scanners address=2408:8207:4841:2580:6f9:f8ff:feb5:82d
 add list=scanners address=2408:8409:1830:e43a:f4df:4ff:fe83:77c1
-add list=scanners address=2408:8444:1700:3514:6811:4dff:fe61:3c14
 add list=scanners address=2408:8444:7e3:4648:94d7:4bc1:e2dd:a052
 add list=scanners address=2408:8445:571:1f39:8965:b2d1:fcaf:a7ec
 add list=scanners address=2409:40e2:2035:69a5:7409:c4ad:7d3a:56ff
@@ -54,16 +54,12 @@ add list=scanners address=2409:8970:da8:447:7c36:b26f:aa1f:4d3c
 add list=scanners address=2409:8a1a:2116:c980:7d83:3e4a:6b74:d917
 add list=scanners address=2409:8a30:43e:bc20:8432:e986:589f:6ee0
 add list=scanners address=2409:8a34:1ac2:90d0:8920:83a2:6d6c:366d
-add list=scanners address=240a:4284:4800:21d5:ec3f:c7ff:fe06:afa6
 add list=scanners address=240e:348:72b:64d1:f09a:adcf:e22f:ef96
 add list=scanners address=240e:36e:1496:200:56d9:c6ff:fecd:22a
 add list=scanners address=240e:404:3130:6683:85be:7ee4:396a:f6f1
 add list=scanners address=240e:45a:40a:7b89:a0c6:9efc:7ec9:41b9
-add list=scanners address=240e:45a:48c:4c2b::1
-add list=scanners address=240e:45a:cca4:1f63:7d8d:9edb:b7f0:f61
 add list=scanners address=240e:47e:6c0:6da1:3421:a7ff:fe17:7a0c
 add list=scanners address=240e:670:c83:e7f7:d385:26c6:e4f9:8099
-add list=scanners address=240e:b60:655:a200:c09b:f98:c68f:de44
 add list=scanners address=2600:3c03::f03c:91ff:fe6b:dbbf
 add list=scanners address=2605:6400:30:fd0b:1::
 add list=scanners address=2605:6440:4000:b000::5d00
