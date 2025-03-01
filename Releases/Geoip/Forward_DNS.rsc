@@ -790,6 +790,7 @@ add regexp="^(.*\\.)?brookings\\.edu\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?brucewang\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?brutaltgp\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bsky\\.app\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?bsky\\.network\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bsky\\.social\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bt95\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?btaia\\.com\$" type=FWD forward-to=$FWDgfw
