@@ -107,6 +107,7 @@ add regexp="^(.*\\.)?64wiki\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?66\\.ca\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?666kb\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?666pool\\.cn\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?69shuba\\.cx\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?6do\\.news\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?6do\\.world\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?6park\\.com\$" type=FWD forward-to=$FWDgfw
@@ -2181,6 +2182,7 @@ add regexp="^(.*\\.)?gitbook\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?github\\.blog\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?github\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?github\\.io\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?githubassets\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?githubcopilot\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?githubusercontent\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gizlen\\.net\$" type=FWD forward-to=$FWDgfw
@@ -2449,6 +2451,7 @@ add regexp="^(.*\\.)?google\\.tt\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?google\\.vg\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?google\\.vu\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?google\\.ws\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?googleapis\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?googleapps\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?googlearth\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?googleartproject\\.com\$" type=FWD forward-to=$FWDgfw
@@ -3467,7 +3470,6 @@ add regexp="^(.*\\.)?mansionpoker\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?manta\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?manyvoices\\.news\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?maplew\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?maps\\.googleapis\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?marc\\.info\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?marguerite\\.su\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?martau\\.com\$" type=FWD forward-to=$FWDgfw
@@ -4292,6 +4294,7 @@ add regexp="^(.*\\.)?politicalchina\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?politicalconsultation\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?politiscales\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?poloniex\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?polymarket\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?polymer-project\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?polymerhk\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?poolbinance\\.com\$" type=FWD forward-to=$FWDgfw
@@ -5453,7 +5456,6 @@ add regexp="^(.*\\.)?tracfone\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tradingview\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?trans\\.wenweipo\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?translate\\.goog\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?translate\\.googleapis\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?transparency\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?treemall\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?trendsmap\\.com\$" type=FWD forward-to=$FWDgfw
@@ -6050,7 +6052,6 @@ add regexp="^(.*\\.)?wikisource\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wikiversity\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wikivoyage\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wikiwand\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?wikiwiki\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wiktionary\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wildammo\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?williamhill\\.com\$" type=FWD forward-to=$FWDgfw
