@@ -3705,6 +3705,7 @@ add regexp="^(.*\\.)?multiupload\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mummysgold\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?murmur\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?musicade\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?musixmatch\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?muslimvideo\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?muzi\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?muzi\\.net\$" type=FWD forward-to=$FWDgfw
@@ -5623,6 +5624,7 @@ add regexp="^(.*\\.)?twitturly\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?twitvid\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?twitzap\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?twiyia\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?twkan\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?twnorth\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?twreporter\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?twskype\\.com\$" type=FWD forward-to=$FWDgfw
