@@ -1002,6 +1002,7 @@ add regexp="^(.*\\.)?chaos\\.social\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chapm25\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?character\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chat\\.lmsys\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?chat\\.openai\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chatgpt\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chatnook\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chaturbate\\.com\$" type=FWD forward-to=$FWDgfw
@@ -4082,7 +4083,7 @@ add regexp="^(.*\\.)?ontrac\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?oopsforum\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?open\\.com\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?open\\.firstory\\.me\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?openai\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?open\\.spotify\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?openallweb\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?opendemocracy\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?opendn\\.xyz\$" type=FWD forward-to=$FWDgfw
@@ -4943,7 +4944,6 @@ add regexp="^(.*\\.)?spiderpool\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?spike\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sports\\.williamhill\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?spotflux\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?spotify\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?spreadsheet\\.new\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?spreadshirt\\.es\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?spreaker\\.com\$" type=FWD forward-to=$FWDgfw
