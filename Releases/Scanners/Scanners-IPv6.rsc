@@ -35,7 +35,6 @@ add list=scanners address=2406:f00:1:1::cd
 add list=scanners address=2406:f00:1:1::eb
 add list=scanners address=2407:4d00:2c00:1b3:41f2:8d00:b6d8:fa42
 add list=scanners address=2408:8210:601d:73b1:b85b:19a4:77f5:fe34
-add list=scanners address=2408:8244:420:2bec:f801:14b2:648e:690a
 add list=scanners address=2408:8409:1930:5d86:d0e7:d5ff:fe37:bd9f
 add list=scanners address=2409:8900:18f3:274a:182c:b532:d07f:6ba9
 add list=scanners address=2409:8900:2de9:80c9:182c:120f:47d5:c909
@@ -45,7 +44,7 @@ add list=scanners address=2409:8931:696:5db6:2cbe:27ff:fec5:1330
 add list=scanners address=2409:8931:c8b:df06:e923:f423:4d68:16d8
 add list=scanners address=2409:8934:4f3:df5:dc22:53ff:feb2:8fde
 add list=scanners address=2409:8938:866:22df:5128:96c:7b45:df4e
-add list=scanners address=2409:893d:440a:4c19:1c3d:373f:e401:856c
+add list=scanners address=2409:8961:b564:2b3::1
 add list=scanners address=2409:8a1e:35c9:6b80:efe7:b42:69a6:fa36
 add list=scanners address=2409:8a30:2ab:8421:1a7e:59e3:f9b5:a3ca
 add list=scanners address=2409:8a30:35:a9e0:183f:a4f9:ad5:97d1
@@ -54,13 +53,10 @@ add list=scanners address=2409:8a34:17c:8790:c0a8:42b0:ddb5:1a0b
 add list=scanners address=2409:8a70:1442:ec60:abcb:53a4:6fad:8145
 add list=scanners address=2409:8a7c:434:75e0:1a9d:c7ea:3bec:fc25
 add list=scanners address=240a:42c4:2000:1d0c:58b5:a7ff:fe1e:76bf
-add list=scanners address=240e:380:7965:ff00:47c9:3809:35c7:f452
-add list=scanners address=240e:40c:8b01:140d:4cf5:1832:d65:44cf
+add list=scanners address=240e:362:202:e300:1019:1b7b:13bd:4f91
 add list=scanners address=240e:45a:490:9402:80b0:beff:fef9:2139
 add list=scanners address=240e:45a:498:5e10:2c14:d3ff:fefc:842c
 add list=scanners address=240e:45a:602:ac05:d4ee:2ed5:1293:4d2c
-add list=scanners address=240e:b65:3a2:8a00:171:e113:624b:2c0e
-add list=scanners address=240e:bf:d100:962c:1a36:723f:7618:2254
 add list=scanners address=2600:3c03::f03c:91ff:fe6b:dbbf
 add list=scanners address=2605:6400:30:fd0b:1::
 add list=scanners address=2607:ff28:800f:dd:225:90ff:feaa:3330
