@@ -1831,7 +1831,6 @@ add regexp="^(.*\\.)?fartit\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?farwestchina\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fast\\.wistia\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fastestvpn\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?fastgpt\\.run\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fastpic\\.ru\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fastssh\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?faststone\\.org\$" type=FWD forward-to=$FWDgfw
