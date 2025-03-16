@@ -1,7 +1,6 @@
 /ipv6 firewall address-list
 remove [find list=scanners]
 add list=scanners address=2001:16b8:cc7b:1900:117d:4a10:9208:cee0
-add list=scanners address=2001:250:4000:8007:1825:6807:7f1b:dddd
 add list=scanners address=2001:250:80c:ffff:ffff:ffff:cace:f00b
 add list=scanners address=2001:41b8:83f:1608::25:1
 add list=scanners address=2001:41b8:83f:1610::237
@@ -36,7 +35,6 @@ add list=scanners address=2406:f00:1:1::cd
 add list=scanners address=2406:f00:1:1::eb
 add list=scanners address=2408:821b:7310:f2e0:b2b:971f:e9b9:5886
 add list=scanners address=2408:825c:2e0:b73c:7e04:b45:9c1a:c3d6
-add list=scanners address=2409:8900:26c9:8d3b:bdb7:d70d:1162:3fd5
 add list=scanners address=2409:8929:1f2d:83af:d83:e95f:2195:f8f1
 add list=scanners address=2409:8931:476:800a:c43b:16ff:fef9:44a9
 add list=scanners address=2409:8931:4ac:3af8:8467:e518:12cd:3703
