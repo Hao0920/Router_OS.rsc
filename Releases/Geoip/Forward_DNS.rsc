@@ -327,6 +327,7 @@ add regexp="^(.*\\.)?aofriend\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?aofriend\\.com\\.au\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?aojiao\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?aolchannels\\.aol\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?aomedia\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?aomiwang\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?apartmentratings\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?apartments\\.com\$" type=FWD forward-to=$FWDgfw
@@ -4354,7 +4355,7 @@ add regexp="^(.*\\.)?powercx\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?powerphoto\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ppy\\.sh\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?prayforchina\\.net\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?premeforwindows7\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?prcleader\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?premproxy\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?presentation\\.new\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?presentationzen\\.com\$" type=FWD forward-to=$FWDgfw
