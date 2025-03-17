@@ -5596,6 +5596,7 @@ add list=china_telecom address=163.61.214.0/23
 add list=china_telecom address=163.223.28.0/23
 add list=china_telecom address=163.223.32.0/23
 add list=china_telecom address=163.223.68.0/23
+add list=china_telecom address=163.223.124.0/23
 add list=china_telecom address=163.228.0.0/16
 add list=china_telecom address=164.52.0.0/17
 add list=china_telecom address=167.139.0.0/16
