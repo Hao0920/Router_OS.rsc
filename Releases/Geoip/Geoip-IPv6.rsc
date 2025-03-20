@@ -7640,6 +7640,7 @@ add list=china address=2001:df4:e140::/48
 add list=china address=2001:df5:1440::/48
 add list=china address=2001:df5:2080::/48
 add list=china address=2001:df5:2fc0::/48
+add list=china address=2001:df5:44c0::/48
 add list=china address=2001:df5:5f80::/48
 add list=china address=2001:df5:7800::/48
 add list=china address=2001:df6:100::/48
