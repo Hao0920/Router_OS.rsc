@@ -5367,10 +5367,6 @@ add list=china address=202.46.16.0/23
 add list=china address=202.46.18.0/24
 add list=china address=202.46.20.0/23
 add list=china address=202.46.224.0/20
-add list=china address=202.46.224.0/23
-add list=china address=202.46.226.0/24
-add list=china address=202.46.228.0/22
-add list=china address=202.46.232.0/21
 add list=china address=202.46.32.0/19
 add list=china address=202.46.33.0/24
 add list=china address=202.46.34.0/23
