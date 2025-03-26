@@ -426,7 +426,6 @@ add list=china address=103.113.232.0/21
 add list=china address=103.113.4.0/22
 add list=china address=103.113.92.0/22
 add list=china address=103.114.100.0/22
-add list=china address=103.114.132.0/22
 add list=china address=103.114.148.0/22
 add list=china address=103.114.156.0/22
 add list=china address=103.114.176.0/22
@@ -441,7 +440,7 @@ add list=china address=103.114.72.0/22
 add list=china address=103.115.120.0/22
 add list=china address=103.115.148.0/22
 add list=china address=103.115.16.0/22
-add list=china address=103.115.16.0/23
+add list=china address=103.115.16.0/24
 add list=china address=103.115.248.0/22
 add list=china address=103.115.40.0/21
 add list=china address=103.115.48.0/20
@@ -815,7 +814,6 @@ add list=china address=103.157.234.0/23
 add list=china address=103.157.254.0/23
 add list=china address=103.157.30.0/23
 add list=china address=103.158.0.0/23
-add list=china address=103.158.14.0/23
 add list=china address=103.158.16.0/23
 add list=china address=103.158.190.0/23
 add list=china address=103.158.200.0/23
@@ -1586,6 +1584,7 @@ add list=china address=103.254.20.0/22
 add list=china address=103.254.220.0/22
 add list=china address=103.254.64.0/20
 add list=china address=103.254.64.0/21
+add list=china address=103.254.74.0/24
 add list=china address=103.254.76.0/22
 add list=china address=103.254.8.0/22
 add list=china address=103.255.136.0/21
@@ -5811,6 +5810,8 @@ add list=china address=203.189.0.0/23
 add list=china address=203.189.112.0/22
 add list=china address=203.189.192.0/19
 add list=china address=203.189.240.0/22
+add list=china address=203.189.4.0/24
+add list=china address=203.189.5.0/24
 add list=china address=203.189.6.0/23
 add list=china address=203.19.1.0/24
 add list=china address=203.19.101.0/24
@@ -7733,6 +7734,7 @@ add list=china address=44.32.152.0/24
 add list=china address=44.32.154.0/24
 add list=china address=44.32.157.0/24
 add list=china address=44.32.161.0/24
+add list=china address=44.32.175.0/24
 add list=china address=44.32.68.0/23
 add list=china address=44.56.67.64/29
 add list=china address=44.61.0.21/32
