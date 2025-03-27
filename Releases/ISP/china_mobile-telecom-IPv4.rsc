@@ -38,9 +38,9 @@ add list=china_telecom address=1.10.12.0/22
 add list=china_telecom address=1.10.16.0/20
 add list=china_telecom address=1.10.32.0/19
 add list=china_telecom address=1.10.64.0/18
-add list=china_telecom address=1.48.0.0/15
 add list=china_telecom address=1.50.0.0/16
 add list=china_telecom address=1.68.0.0/14
+add list=china_telecom address=1.80.0.0/13
 add list=china_telecom address=1.180.0.0/14
 add list=china_telecom address=1.192.0.0/13
 add list=china_telecom address=1.202.0.0/15
@@ -2699,7 +2699,7 @@ add list=china_mobile address=1.4.4.0/24
 add list=china_mobile address=1.8.0.0/16
 add list=china_mobile address=1.12.0.0/14
 add list=china_mobile address=1.45.0.0/16
-add list=china_mobile address=1.80.0.0/13
+add list=china_mobile address=1.48.0.0/15
 add list=china_mobile address=1.88.0.0/14
 add list=china_mobile address=1.92.0.0/15
 add list=china_mobile address=1.116.0.0/14
