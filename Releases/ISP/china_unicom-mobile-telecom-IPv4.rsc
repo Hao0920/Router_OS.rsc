@@ -4371,7 +4371,6 @@ add list=china_unicom address=103.149.44.0/23
 add list=china_unicom address=103.149.110.0/23
 add list=china_unicom address=103.149.132.0/23
 add list=china_unicom address=103.149.144.0/23
-add list=china_unicom address=103.149.156.0/23
 add list=china_unicom address=103.149.181.0/24
 add list=china_unicom address=103.149.210.0/23
 add list=china_unicom address=103.149.214.0/23
