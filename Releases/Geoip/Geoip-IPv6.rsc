@@ -10413,6 +10413,7 @@ add list=china address=2408:867c::/30
 add list=china address=2408:8680::/25
 add list=china address=2408:8700::/24
 add list=china address=2408:8800::/21
+add list=china address=2409:1000::/20
 add list=china address=2409:2000::/21
 add list=china address=2409:6000::/20
 add list=china address=2409:8000::/20
