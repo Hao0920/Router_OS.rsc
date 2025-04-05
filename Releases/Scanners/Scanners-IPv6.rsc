@@ -1,6 +1,5 @@
 /ipv6 firewall address-list
 remove [find list=scanners]
-add list=scanners address=2001:1600:10:101::533
 add list=scanners address=2001:250:80c:ffff:ffff:ffff:cace:f00b
 add list=scanners address=2001:41b8:83f:1608::25:1
 add list=scanners address=2001:41b8:83f:1610::237
@@ -29,19 +28,18 @@ add list=scanners address=2001:a18:a:c5::d
 add list=scanners address=2001:a18:a:c5::e
 add list=scanners address=2001:da8:6005:6:b455:25c8::
 add list=scanners address=2001:da8:6005:6:b455:25c9::
-add list=scanners address=2400:cb00:583:1000:ec80:a200:b38a:db0a
 add list=scanners address=2400:dd01:3011:2:1:0:c0a8:6422
+add list=scanners address=2403:d400:1000:12:f01b:cb8c:baa2:12b1
 add list=scanners address=2406:f00:1:1::178
 add list=scanners address=2406:f00:1:1::cd
 add list=scanners address=2406:f00:1:1::eb
-add list=scanners address=2408:8226:100f:2b20:71ba:76cd:3024:8881
 add list=scanners address=2408:8445:7a0:383:e46d:adff:fe0a:d9b2
-add list=scanners address=2409:8a00:60b1:7a50:69d4:b4c:d037:8dd7
-add list=scanners address=2409:8a00:60b1:7a50:910a:fc14:6b4f:2cf3
-add list=scanners address=2409:8a00:60b1:7a50:cc66:cddc:5ac5:4f09
-add list=scanners address=2409:8a5c:4b1:821:b165:7d56:4de2:a019
+add list=scanners address=2409:8a00:8526:6a24:d850:ef49:15dd:15b0
+add list=scanners address=2409:8a70:116f:f5b0:6852:1c28:ffb3:2127
+add list=scanners address=2409:8a70:116f:f5b0:7dad:414f:2a71:ca2
 add list=scanners address=2600:3c03::f03c:91ff:fe6b:dbbf
 add list=scanners address=2605:6400:30:fd0b:1::
+add list=scanners address=2607:ff28:a005:71:ec4:7aff:feb5:18f6
 add list=scanners address=2607:ff28:c005:94:225:90ff:fea7:7d90
 add list=scanners address=2610:150:101:1000::bd02
 add list=scanners address=2620:106:6008:99:f0::114
@@ -51,4 +49,5 @@ add list=scanners address=2a05:8280:f:431f::10
 add list=scanners address=2a05:8280:f:431f::100
 add list=scanners address=2a05:8280:f:431f::11
 add list=scanners address=2a05:8280:f:431f::2
+add list=scanners address=2a05:d012:2f6:0:e348:b0d0:1c68:c537
 /file remove Scanners-IPv6.rsc
