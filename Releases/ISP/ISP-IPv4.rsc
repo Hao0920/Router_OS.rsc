@@ -2536,6 +2536,7 @@ add list=china_education_and_research_network address=222.192.0.0/12
 add list=china_education_and_research_network address=223.2.0.0/15
 add list=china_education_and_research_network address=223.128.0.0/15
 add list=great_wall_broadband_network address=1.94.0.0/15
+add list=great_wall_broadband_network address=14.1.24.0/22
 add list=great_wall_broadband_network address=43.224.184.0/22
 add list=great_wall_broadband_network address=43.242.56.0/22
 add list=great_wall_broadband_network address=43.242.144.0/22
@@ -2709,7 +2710,6 @@ add list=othernet address=1.45.0.0/16
 add list=othernet address=1.88.0.0/14
 add list=othernet address=1.92.0.0/15
 add list=othernet address=1.116.0.0/14
-add list=othernet address=14.1.24.0/22
 add list=othernet address=14.1.96.0/22
 add list=othernet address=14.1.108.0/22
 add list=othernet address=14.102.156.0/22
