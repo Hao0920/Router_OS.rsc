@@ -425,6 +425,7 @@ add regexp="^(.*\\.)?atlaspost\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?atnext\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?auctions\\.yahoo\\.co\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?audacy\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?audiomack\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?auntology\\.fandom\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?auth\\.openai\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?authorizeddns\\.net\$" type=FWD forward-to=$FWDgfw
@@ -1165,7 +1166,6 @@ add regexp="^(.*\\.)?cloakpoint\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cloud\\.dify\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cloud\\.mail\\.ru\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cloudflare-ipfs\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?cloudfront\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cloudfunctions\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?club1069\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?clubhouseapi\\.com\$" type=FWD forward-to=$FWDgfw
@@ -4624,6 +4624,7 @@ add regexp="^(.*\\.)?s1s1s1\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?s3-ap-southeast-1\\.amazonaws\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?s3-ap-southeast-2\\.amazonaws\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?s3\\.amazonaws\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?s3\\.eu-central-1\\.amazonaws\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?s8forum\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sa\\.hao123\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sacks\\.com\$" type=FWD forward-to=$FWDgfw
