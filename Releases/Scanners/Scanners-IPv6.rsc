@@ -28,17 +28,14 @@ add list=scanners address=2001:a18:a:c5::d
 add list=scanners address=2001:a18:a:c5::e
 add list=scanners address=2001:da8:6005:6:b455:25c8::
 add list=scanners address=2001:da8:6005:6:b455:25c9::
-add list=scanners address=2400:dd01:103a:4032:9af6:dc45:f3ec:e539
+add list=scanners address=2400:dd01:2000:313::348e
 add list=scanners address=2400:dd01:3011:2:1:0:c0a8:6422
 add list=scanners address=2406:f00:1:1::178
 add list=scanners address=2406:f00:1:1::cd
 add list=scanners address=2406:f00:1:1::eb
-add list=scanners address=2408:820c:a90a:25b1:d4ff:9493:a669:1172
-add list=scanners address=2408:843f:4c20:872e:5844:cbff:fec5:c9e3
-add list=scanners address=2409:8931:685:11f8:1c2a:d4ff:fead:a8ef
-add list=scanners address=240e:361:8d67:be00:9a34:6980:1504:21e6
-add list=scanners address=240e:390:629:df60:7045:e982:6818:5597
-add list=scanners address=240e:478:3a70:fcb:980:f13:8bd6:f490
+add list=scanners address=2408:8440:800:4958:30c0:d4ff:fe7f:4b5b
+add list=scanners address=240e:45b:5a98:5deb::1
+add list=scanners address=2600:1f16:25e:8c00:3083:8db6:b389:d57c
 add list=scanners address=2600:3c03::f03c:91ff:fe6b:dbbf
 add list=scanners address=2605:6400:30:fd0b:1::
 add list=scanners address=2607:ff28:a005:71:ec4:7aff:feb5:18f6
@@ -52,4 +49,5 @@ add list=scanners address=2a05:8280:f:431f::100
 add list=scanners address=2a05:8280:f:431f::11
 add list=scanners address=2a05:8280:f:431f::2
 add list=scanners address=2a0f:ca80::49
+add list=scanners address=2a12:bec0:68f:8aa::
 /file remove Scanners-IPv6.rsc
