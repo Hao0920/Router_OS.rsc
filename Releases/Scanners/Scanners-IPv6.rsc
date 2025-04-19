@@ -46,13 +46,14 @@ add list=scanners address=2605:6400:30:fd0b:1::
 add list=scanners address=2607:b7c0:1000:1000::34
 add list=scanners address=2607:f1c0:5ff:5f:74:208:59:106
 add list=scanners address=2607:ff28:a005:71:ec4:7aff:feb5:18f6
+add list=scanners address=2607:ff28:c005:94:225:90ff:fea7:7d90
 add list=scanners address=2610:150:101:1000::bd02
 add list=scanners address=2620:106:6008:99:f0::114
 add list=scanners address=2620:106:6008:99:f0::117
 add list=scanners address=2804:10:8015::136:140
 add list=scanners address=2804:1998:404:d800:fd1f:925d:5249:1d1a
 add list=scanners address=2a01:ab20:0:4::28
-add list=scanners address=2a03:1980:d4ff:e::106
+add list=scanners address=2a02:4780:12:b2a3::1
 add list=scanners address=2a05:8280:f:431f::1
 add list=scanners address=2a05:8280:f:431f::10
 add list=scanners address=2a05:8280:f:431f::100
