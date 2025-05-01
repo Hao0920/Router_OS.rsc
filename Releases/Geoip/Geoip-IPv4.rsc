@@ -3895,6 +3895,7 @@ add list=china address=124.160.0.0/13
 add list=china address=124.172.0.0/14
 add list=china address=124.192.0.0/15
 add list=china address=124.196.0.0/16
+add list=china address=124.197.56.0/21
 add list=china address=124.20.0.0/14
 add list=china address=124.200.0.0/13
 add list=china address=124.220.0.0/14
