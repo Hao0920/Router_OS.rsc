@@ -3368,7 +3368,6 @@ add list=china address=118.190.0.0/16
 add list=china address=118.191.0.0/21
 add list=china address=118.191.12.0/24
 add list=china address=118.191.128.0/19
-add list=china address=118.191.16.0/21
 add list=china address=118.191.16.0/24
 add list=china address=118.191.176.0/20
 add list=china address=118.191.18.0/23
@@ -3379,7 +3378,6 @@ add list=china address=118.191.216.0/22
 add list=china address=118.191.223.0/24
 add list=china address=118.191.224.0/24
 add list=china address=118.191.240.0/20
-add list=china address=118.191.48.0/20
 add list=china address=118.191.64.0/20
 add list=china address=118.191.8.0/22
 add list=china address=118.191.80.0/22
