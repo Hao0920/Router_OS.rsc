@@ -567,6 +567,7 @@ add list=china address=103.132.188.0/22
 add list=china address=103.132.208.0/21
 add list=china address=103.132.22.0/23
 add list=china address=103.132.234.0/23
+add list=china address=103.132.48.0/22
 add list=china address=103.132.60.0/22
 add list=china address=103.132.64.0/20
 add list=china address=103.132.80.0/22
@@ -3362,6 +3363,7 @@ add list=china address=118.188.0.0/16
 add list=china address=118.188.0.0/17
 add list=china address=118.188.160.0/19
 add list=china address=118.188.192.0/18
+add list=china address=118.190.0.0/15
 add list=china address=118.190.0.0/16
 add list=china address=118.191.0.0/21
 add list=china address=118.191.12.0/24
