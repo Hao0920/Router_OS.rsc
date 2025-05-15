@@ -9106,6 +9106,7 @@ add list=china address=2402:a200::/32
 add list=china address=2402:a240::/32
 add list=china address=2402:a280::/32
 add list=china address=2402:a380::/32
+add list=china address=2402:a60::/32
 add list=china address=2402:a640::/32
 add list=china address=2402:a680::/32
 add list=china address=2402:a6c0::/32
