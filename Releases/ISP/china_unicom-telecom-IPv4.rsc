@@ -22,6 +22,7 @@ add list=china_telecom address=1.2.12.0/22
 add list=china_telecom address=1.2.16.0/20
 add list=china_telecom address=1.2.32.0/19
 add list=china_telecom address=1.2.64.0/18
+add list=china_telecom address=1.3.0.0/16
 add list=china_telecom address=1.4.1.0/24
 add list=china_telecom address=1.4.2.0/23
 add list=china_telecom address=1.4.5.0/24
@@ -42,6 +43,7 @@ add list=china_telecom address=1.50.0.0/16
 add list=china_telecom address=1.68.0.0/14
 add list=china_telecom address=1.80.0.0/13
 add list=china_telecom address=1.180.0.0/14
+add list=china_telecom address=1.192.0.0/13
 add list=china_telecom address=1.202.0.0/15
 add list=china_telecom address=1.204.0.0/14
 add list=china_telecom address=14.0.0.0/21
@@ -2546,7 +2548,8 @@ add list=china_unicom address=43.251.192.0/22
 add list=china_unicom address=45.121.240.0/20
 add list=china_unicom address=45.122.4.0/22
 add list=china_unicom address=45.122.8.0/21
-add list=china_unicom address=45.122.16.0/20
+add list=china_unicom address=45.122.16.0/22
+add list=china_unicom address=45.122.24.0/21
 add list=china_unicom address=45.122.32.0/21
 add list=china_unicom address=45.122.40.0/22
 add list=china_unicom address=45.122.192.0/20
@@ -2697,7 +2700,6 @@ add list=china_unicom address=1.1.8.0/24
 add list=china_unicom address=1.2.2.0/24
 add list=china_unicom address=1.2.4.0/24
 add list=china_unicom address=1.2.8.0/24
-add list=china_unicom address=1.3.0.0/16
 add list=china_unicom address=1.4.4.0/24
 add list=china_unicom address=1.8.0.0/16
 add list=china_unicom address=1.12.0.0/14
@@ -2705,7 +2707,6 @@ add list=china_unicom address=1.45.0.0/16
 add list=china_unicom address=1.88.0.0/14
 add list=china_unicom address=1.92.0.0/15
 add list=china_unicom address=1.116.0.0/14
-add list=china_unicom address=1.192.0.0/13
 add list=china_unicom address=14.1.96.0/22
 add list=china_unicom address=14.1.108.0/22
 add list=china_unicom address=14.102.156.0/22
@@ -3068,6 +3069,7 @@ add list=china_unicom address=45.121.92.0/22
 add list=china_unicom address=45.121.96.0/22
 add list=china_unicom address=45.121.212.0/22
 add list=china_unicom address=45.122.0.0/22
+add list=china_unicom address=45.122.20.0/22
 add list=china_unicom address=45.122.60.0/22
 add list=china_unicom address=45.122.64.0/19
 add list=china_unicom address=45.122.104.0/21
