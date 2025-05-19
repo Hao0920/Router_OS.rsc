@@ -2000,7 +2000,6 @@ add list=china_unicom address=103.108.244.0/22
 add list=china_unicom address=103.110.132.0/22
 add list=china_unicom address=103.110.156.0/22
 add list=china_unicom address=103.117.188.0/22
-add list=china_unicom address=103.120.224.0/22
 add list=china_unicom address=103.123.56.0/22
 add list=china_unicom address=103.141.242.0/23
 add list=china_unicom address=103.142.128.0/23
@@ -4206,6 +4205,7 @@ add list=china_mobile address=103.120.88.0/22
 add list=china_mobile address=103.120.96.0/21
 add list=china_mobile address=103.120.140.0/22
 add list=china_mobile address=103.120.196.0/22
+add list=china_mobile address=103.120.224.0/22
 add list=china_mobile address=103.121.52.0/22
 add list=china_mobile address=103.121.160.0/21
 add list=china_mobile address=103.121.250.0/24
