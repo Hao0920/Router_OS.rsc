@@ -7998,6 +7998,7 @@ add list=china address=45.253.224.0/20
 add list=china address=45.253.240.0/21
 add list=china address=45.253.240.0/22
 add list=china address=45.253.245.0/24
+add list=china address=45.253.246.0/23
 add list=china address=45.253.64.0/20
 add list=china address=45.253.80.0/21
 add list=china address=45.253.92.0/22
