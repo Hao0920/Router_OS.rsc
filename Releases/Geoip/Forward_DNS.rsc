@@ -271,6 +271,7 @@ add regexp="^(.*\\.)?alwaysdata\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?alwaysvpn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?am730\\.com\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?amazon\\.co\\.jp\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?amazonvideo\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ameblo\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?americangreencard\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?americanunfinished\\.com\$" type=FWD forward-to=$FWDgfw
@@ -4382,6 +4383,7 @@ add regexp="^(.*\\.)?presentationzen\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?presidentlee\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?prestige-av\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pride\\.google\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?primevideo\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?prism-break\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?prisoneralert\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pritunl\\.com\$" type=FWD forward-to=$FWDgfw
