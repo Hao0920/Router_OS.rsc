@@ -879,6 +879,8 @@ add list=china_unicom address=2402:440::/32
 add list=china_unicom address=2402:5c0::/32
 add list=china_unicom address=2402:840::/32
 add list=china_unicom address=2402:a60::/32
+add list=china_unicom address=2402:c20::/32
+add list=china_unicom address=2402:c60::/32
 add list=china_unicom address=2402:e00::/32
 add list=china_unicom address=2402:fc0::/32
 add list=china_unicom address=2402:1000::/32
