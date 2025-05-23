@@ -4,7 +4,6 @@ remove [find list=china_unicom]
 remove [find list=china_mobile]
 add list=china_telecom address=1.0.1.0/24
 add list=china_telecom address=1.0.2.0/23
-add list=china_telecom address=1.0.8.0/21
 add list=china_telecom address=1.0.32.0/19
 add list=china_telecom address=1.1.0.0/24
 add list=china_telecom address=1.1.2.0/23
@@ -2697,6 +2696,7 @@ add list=china_telecom address=219.90.68.0/22
 add list=china_telecom address=219.90.72.0/21
 add list=china_telecom address=219.238.0.0/15
 add list=china_telecom address=220.112.0.0/14
+add list=china_telecom address=1.0.8.0/21
 add list=china_telecom address=1.1.8.0/24
 add list=china_telecom address=1.2.2.0/24
 add list=china_telecom address=1.2.4.0/24
