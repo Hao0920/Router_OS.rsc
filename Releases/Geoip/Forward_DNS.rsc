@@ -3951,7 +3951,6 @@ add regexp="^(.*\\.)?no-ip\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nobel\\.se\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nobelprize\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nobodycanstop\\.us\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?nodeloc\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nodeseek\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nofile\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nokogiri\\.org\$" type=FWD forward-to=$FWDgfw
@@ -4554,6 +4553,7 @@ add regexp="^(.*\\.)?redchinacn\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?redchinacn\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?redd\\.it\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?reddit\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?reddithelp\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?redditlist\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?redditmedia\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?redditspace\\.com\$" type=FWD forward-to=$FWDgfw
@@ -6210,6 +6210,7 @@ add regexp="^(.*\\.)?www\\.monlamit\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.moztw\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.msn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.nbc\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?www\\.nodeloc\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.orchidbbs\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.owind\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.oxid\\.it\$" type=FWD forward-to=$FWDgfw
