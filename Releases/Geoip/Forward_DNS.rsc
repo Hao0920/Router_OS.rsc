@@ -2143,6 +2143,7 @@ add regexp="^(.*\\.)?geekerhome\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?geekheart\\.info\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gekikame\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gelbooru\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?gemini\\.google\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?generated\\.photos\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?genius\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?geocities\\.co\\.jp\$" type=FWD forward-to=$FWDgfw
