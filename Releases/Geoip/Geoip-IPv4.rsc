@@ -3093,8 +3093,7 @@ add list=china address=114.28.0.0/16
 add list=china address=114.28.0.0/17
 add list=china address=114.28.128.0/18
 add list=china address=114.28.192.0/19
-add list=china address=114.28.229.0/24
-add list=china address=114.28.230.0/23
+add list=china address=114.28.228.0/22
 add list=china address=114.28.232.0/21
 add list=china address=114.28.240.0/20
 add list=china address=114.31.64.0/21
