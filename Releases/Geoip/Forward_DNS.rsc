@@ -4631,9 +4631,15 @@ add regexp="^(.*\\.)?s\\.yimg\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?s1\\.nudezz\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?s1heng\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?s1s1s1\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?s3-ap-northeast-1\\.amazonaws\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?s3-ap-northeast-2\\.amazonaws\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?s3-ap-southeast-1\\.amazonaws\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?s3-ap-southeast-2\\.amazonaws\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?s3-eu-central-1\\.amazonaws\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?s3\\.amazonaws\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?s3\\.ap-northeast-2\\.amazonaws\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?s3\\.eu-central-1\\.amazonaws\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?s3\\.us-east-1\\.amazonaws\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?s8forum\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sa\\.hao123\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sacks\\.com\$" type=FWD forward-to=$FWDgfw
