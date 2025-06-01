@@ -627,6 +627,7 @@ add regexp="^(.*\\.)?bjzc\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bl-doujinsouko\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?blacked\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?blacklogic\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?blackmagicdesign\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?blackvpn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?blewpass\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?blinkx\\.com\$" type=FWD forward-to=$FWDgfw
