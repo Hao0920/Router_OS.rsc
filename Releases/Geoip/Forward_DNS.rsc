@@ -1291,6 +1291,7 @@ add regexp="^(.*\\.)?csw\\.org\\.uk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ct\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ctao\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ctfriend\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?ctinews\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ctitv\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ctowc\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cts\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
