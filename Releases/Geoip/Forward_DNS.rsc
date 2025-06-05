@@ -959,6 +959,7 @@ add regexp="^(.*\\.)?cdig\\.info\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cdjp\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cdn-images\\.mailchimp\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cdn-telegram\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?cdn\\.arstechnica\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cdn\\.assets\\.lfpcontent\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cdn\\.helixstudios\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cdn\\.jwplayer\\.com\$" type=FWD forward-to=$FWDgfw
@@ -1119,6 +1120,7 @@ add regexp="^(.*\\.)?chubun\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?churchinhongkong\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chushigangdrug\\.ch\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ci-en\\.jp\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?cici\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ciciai\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cienen\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cineastentreff\\.de\$" type=FWD forward-to=$FWDgfw
