@@ -1213,6 +1213,7 @@ add regexp="^(.*\\.)?code1984\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?codeshare\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?codeskulptor\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cofacts\\.tw\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?coffeemanga\\.to\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?coin2co\\.in\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?coinbase\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?coinbene\\.com\$" type=FWD forward-to=$FWDgfw
