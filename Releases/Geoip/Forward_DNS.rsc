@@ -132,6 +132,7 @@ add regexp="^(.*\\.)?8news\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?8z1\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?9001700\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?908taiwan\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?91dasai\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?91porn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?91porny\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?91vps\\.club\$" type=FWD forward-to=$FWDgfw
