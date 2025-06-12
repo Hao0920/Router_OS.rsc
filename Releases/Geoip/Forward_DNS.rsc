@@ -3360,6 +3360,7 @@ add regexp="^(.*\\.)?line\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?line\\.naver\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?linear-abematv\\.akamaized\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?linglingfa\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?lingualeo\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lingvodics\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?link-o-rama\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?linkedin\\.com\$" type=FWD forward-to=$FWDgfw
