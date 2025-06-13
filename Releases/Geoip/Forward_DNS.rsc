@@ -1264,6 +1264,7 @@ add regexp="^(.*\\.)?counter\\.social\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?coursehero\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?coze\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cpj\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?cpu-monkey\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cq99\\.us\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?crackle\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?crazypool\\.org\$" type=FWD forward-to=$FWDgfw
@@ -2850,7 +2851,6 @@ add regexp="^(.*\\.)?hutong9\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?huyandex\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hwadzan\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hwayue\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?hwinfo\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hxwk\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hxwq\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hybrid-analysis\\.com\$" type=FWD forward-to=$FWDgfw

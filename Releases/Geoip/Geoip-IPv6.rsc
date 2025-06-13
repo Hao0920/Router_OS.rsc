@@ -9034,6 +9034,7 @@ add list=china address=2401:fc60::/32
 add list=china address=2401:fc80::/32
 add list=china address=2401:ffc0::/32
 add list=china address=2402:1000::/32
+add list=china address=2402:1160::/32
 add list=china address=2402:1440::/32
 add list=china address=2402:14c0::/32
 add list=china address=2402:1600::/32
