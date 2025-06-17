@@ -3682,6 +3682,7 @@ add regexp="^(.*\\.)?onmypc\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?onmypc\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?onthehunt\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ontrac\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?oojj\\.de\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?open\\.com\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?open\\.firstory\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?openai\\.com\$" type=FWD forward-to=$FWDgfw
