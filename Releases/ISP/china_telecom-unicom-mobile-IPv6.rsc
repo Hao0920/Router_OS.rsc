@@ -526,7 +526,6 @@ add list=china_telecom address=2400:a9a0::/32
 add list=china_telecom address=2400:abc0::/32
 add list=china_telecom address=2400:ae00::/32
 add list=china_telecom address=2400:b200::/32
-add list=china_telecom address=2400:b2c0::/32
 add list=china_telecom address=2400:b500::/32
 add list=china_telecom address=2400:b600::/32
 add list=china_telecom address=2400:b620::/32
