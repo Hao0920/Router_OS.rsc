@@ -1741,6 +1741,7 @@ add regexp="^(.*\\.)?focustaiwan\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?focusvpn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fofg\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fooooo\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?forbes\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?foreignaffairs\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?foreignpolicy\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?form\\.new\$" type=FWD forward-to=$FWDgfw
