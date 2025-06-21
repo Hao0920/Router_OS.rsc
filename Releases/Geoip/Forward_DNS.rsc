@@ -258,6 +258,7 @@ add regexp="^(.*\\.)?amnesty\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?amnestyusa\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ampproject\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?amtb-taipei\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?amuletmc\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?anchor\\.fm\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?anchorfree\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ancsconf\\.org\$" type=FWD forward-to=$FWDgfw
