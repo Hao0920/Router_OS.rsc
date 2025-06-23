@@ -355,6 +355,7 @@ add regexp="^(.*\\.)?arte\\.tv\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?artofpeacefoundation\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?artstation\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?artsy\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?arvanstorage\\.ir\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?asacp\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?asdfg\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?asg\\.to\$" type=FWD forward-to=$FWDgfw
@@ -2264,6 +2265,7 @@ add regexp="^(.*\\.)?gotgeeks\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gotquestions\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gotrusted\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gotw\\.ca\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?gov\\.ir\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gov\\.taipei\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gov\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gr8domain\\.biz\$" type=FWD forward-to=$FWDgfw
@@ -2703,7 +2705,9 @@ add regexp="^(.*\\.)?ipredator\\.se\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?iptv\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?iptvbin\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ipvanish\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?irangov\\.ir\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?iredmail\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?irna\\.ir\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ironpython\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ironsocket\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?is-a-hunter\\.com\$" type=FWD forward-to=$FWDgfw
@@ -3938,6 +3942,7 @@ add regexp="^(.*\\.)?prcleader\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?premproxy\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?presentation\\.new\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?presentationzen\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?president\\.ir\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?presidentlee\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?prestige-av\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?primevideo\\.com\$" type=FWD forward-to=$FWDgfw
