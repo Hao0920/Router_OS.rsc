@@ -1647,7 +1647,6 @@ add list=china_mobile address=2405:cd80::/32
 add list=china_mobile address=2405:ce80::/32
 add list=china_mobile address=2405:d4c0::/32
 add list=china_mobile address=2405:d700::/32
-add list=china_mobile address=2405:d740::/32
 add list=china_mobile address=2405:d900::/32
 add list=china_mobile address=2405:df40::/32
 add list=china_mobile address=2405:e000::/32
