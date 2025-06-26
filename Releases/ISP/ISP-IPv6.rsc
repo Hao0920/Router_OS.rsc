@@ -851,7 +851,6 @@ add list=othernet_ipv6 address=2401:d920::/28
 add list=othernet_ipv6 address=2401:dbe0::/32
 add list=othernet_ipv6 address=2401:dd20::/32
 add list=othernet_ipv6 address=2401:dd60::/32
-add list=othernet_ipv6 address=2401:dde0::/32
 add list=othernet_ipv6 address=2401:de00::/32
 add list=othernet_ipv6 address=2401:dfe0::/32
 add list=othernet_ipv6 address=2401:e020::/32
