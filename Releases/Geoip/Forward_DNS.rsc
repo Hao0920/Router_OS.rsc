@@ -924,7 +924,6 @@ add regexp="^(.*\\.)?chenpokongvip\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chenshan20042005\\.wordpress\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cherrysave\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chhongbi\\.org\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?chicagoncmtv\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?china-mmm\\.jp\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?china-mmm\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?china-review\\.com\\.ua\$" type=FWD forward-to=$FWDgfw
@@ -1790,8 +1789,6 @@ add regexp="^(.*\\.)?freedomhouse\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freedominfonetweb\\.wordpress\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freedomsherald\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freeforums\\.org\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?freefq\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?freefuckvids\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freegao\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freehongkong\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freeilhamtohti\\.org\$" type=FWD forward-to=$FWDgfw
@@ -4053,6 +4050,7 @@ add regexp="^(.*\\.)?radiohilight\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?radioline\\.co\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?radiovaticana\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?radiovncr\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?radmin-vpn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?rael\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?raggedbanner\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?raidcall\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
