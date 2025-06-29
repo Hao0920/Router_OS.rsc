@@ -2637,6 +2637,7 @@ add regexp="^(.*\\.)?imb\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?imdb\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?img\\.dlsite\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?img\\.ly\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?img\\.picgo\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?imgasd\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?imgchili\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?imgmega\\.com\$" type=FWD forward-to=$FWDgfw
