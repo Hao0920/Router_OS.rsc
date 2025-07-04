@@ -1350,6 +1350,7 @@ add regexp="^(.*\\.)?dongtaiwang\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dongtaiwang\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dongyangjing\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dontfilter\\.us\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?doom9\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?doosho\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?doourbest\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dorjeshugden\\.com\$" type=FWD forward-to=$FWDgfw
