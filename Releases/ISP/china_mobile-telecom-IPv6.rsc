@@ -886,6 +886,7 @@ add list=china_mobile address=2402:1160::/32
 add list=china_mobile address=2402:1440::/32
 add list=china_mobile address=2402:1460::/32
 add list=china_mobile address=2402:14c0::/32
+add list=china_mobile address=2402:1520::/32
 add list=china_mobile address=2402:1600::/32
 add list=china_mobile address=2402:1740::/32
 add list=china_mobile address=2402:19c0::/32
