@@ -39,7 +39,6 @@ add list=china_unicom address=1.10.16.0/20
 add list=china_unicom address=1.10.32.0/19
 add list=china_unicom address=1.10.64.0/18
 add list=china_unicom address=1.48.0.0/15
-add list=china_unicom address=1.50.0.0/16
 add list=china_unicom address=1.68.0.0/14
 add list=china_unicom address=1.80.0.0/13
 add list=china_unicom address=1.180.0.0/14
@@ -2644,7 +2643,8 @@ add list=china_unicom address=103.221.156.0/22
 add list=china_unicom address=103.221.180.0/22
 add list=china_unicom address=103.221.184.0/21
 add list=china_unicom address=103.221.192.0/20
-add list=china_unicom address=103.222.0.0/20
+add list=china_unicom address=103.222.0.0/21
+add list=china_unicom address=103.222.8.0/22
 add list=china_unicom address=103.222.16.0/22
 add list=china_unicom address=103.222.24.0/21
 add list=china_unicom address=103.222.36.0/22
@@ -2697,6 +2697,7 @@ add list=china_unicom address=1.4.4.0/24
 add list=china_unicom address=1.8.0.0/16
 add list=china_unicom address=1.12.0.0/14
 add list=china_unicom address=1.45.0.0/16
+add list=china_unicom address=1.50.0.0/16
 add list=china_unicom address=1.88.0.0/14
 add list=china_unicom address=1.92.0.0/15
 add list=china_unicom address=1.116.0.0/14
@@ -4164,7 +4165,7 @@ add list=china_unicom address=103.115.148.0/22
 add list=china_unicom address=103.115.248.0/22
 add list=china_unicom address=103.116.40.0/22
 add list=china_unicom address=103.116.64.0/22
-add list=china_unicom address=103.116.72.0/21
+add list=china_unicom address=103.116.76.0/22
 add list=china_unicom address=103.116.92.0/22
 add list=china_unicom address=103.116.120.0/22
 add list=china_unicom address=103.116.128.0/22
@@ -4781,6 +4782,7 @@ add list=china_unicom address=103.221.144.0/21
 add list=china_unicom address=103.221.152.0/22
 add list=china_unicom address=103.221.160.0/20
 add list=china_unicom address=103.221.176.0/22
+add list=china_unicom address=103.222.12.0/22
 add list=china_unicom address=103.222.112.0/20
 add list=china_unicom address=103.222.128.0/19
 add list=china_unicom address=103.222.160.0/22
