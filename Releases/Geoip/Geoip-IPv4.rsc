@@ -440,7 +440,6 @@ add list=china address=103.116.224.0/21
 add list=china address=103.116.40.0/22
 add list=china address=103.116.64.0/22
 add list=china address=103.116.66.0/24
-add list=china address=103.116.72.0/21
 add list=china address=103.116.76.0/22
 add list=china address=103.116.92.0/22
 add list=china address=103.117.16.0/22
