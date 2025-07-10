@@ -51,6 +51,7 @@ add list=china_unicom address=2400:eda0::/32
 add list=china_unicom address=2401:7700::/32
 add list=china_unicom address=2401:9600::/32
 add list=china_unicom address=2401:da00::/32
+add list=china_unicom address=2402:16e0::/32
 add list=china_unicom address=2402:2d00::/32
 add list=china_unicom address=2402:5bc0::/32
 add list=china_unicom address=2403:1dc0::/32
@@ -534,8 +535,6 @@ add list=china_mobile address=2400:b700::/32
 add list=china_mobile address=2400:b9a0::/32
 add list=china_mobile address=2400:b9c0::/32
 add list=china_mobile address=2400:ba00::/32
-add list=china_mobile address=2400:ba40::/32
-add list=china_mobile address=2400:ba41::/32
 add list=china_mobile address=2400:bac0::/32
 add list=china_mobile address=2400:be00::/32
 add list=china_mobile address=2400:bf00::/32
@@ -1078,7 +1077,6 @@ add list=china_mobile address=2402:f140::/32
 add list=china_mobile address=2402:f480::/32
 add list=china_mobile address=2402:f540::/32
 add list=china_mobile address=2402:f580::/32
-add list=china_mobile address=2402:f740::/32
 add list=china_mobile address=2402:f780::/32
 add list=china_mobile address=2402:f8c0::/32
 add list=china_mobile address=2402:f980::/32
