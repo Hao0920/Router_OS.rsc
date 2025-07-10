@@ -7558,7 +7558,6 @@ add list=china address=2400:b700::/32
 add list=china address=2400:b9a0::/32
 add list=china address=2400:b9c0::/32
 add list=china address=2400:ba00::/32
-add list=china address=2400:ba40::/32
 add list=china address=2400:ba41:1000::/36
 add list=china address=2400:ba41:100::/40
 add list=china address=2400:ba41:10::/44
@@ -7574,7 +7573,6 @@ add list=china address=2400:ba41:8000::/33
 add list=china address=2400:ba41:800::/37
 add list=china address=2400:ba41:80::/41
 add list=china address=2400:ba41:8::/45
-add list=china address=2400:ba41::/32
 add list=china address=2400:ba41::/48
 add list=china address=2400:bac0::/32
 add list=china address=2400:be00::/32
@@ -8017,6 +8015,7 @@ add list=china address=2402:1460::/32
 add list=china address=2402:14c0::/32
 add list=china address=2402:1520::/32
 add list=china address=2402:1600::/32
+add list=china address=2402:16e0::/32
 add list=china address=2402:1740::/32
 add list=china address=2402:19c0::/32
 add list=china address=2402:1f80::/32

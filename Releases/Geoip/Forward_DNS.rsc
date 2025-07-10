@@ -1432,6 +1432,7 @@ add regexp="^(.*\\.)?e-hentaidb\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?e-info\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?e-zone\\.com\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?e123\\.hk\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?e621\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?earlytibet\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?earthcam\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?earthvpn\\.com\$" type=FWD forward-to=$FWDgfw
