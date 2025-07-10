@@ -680,7 +680,6 @@ add list=china address=103.149.214.0/23
 add list=china address=103.149.220.0/23
 add list=china address=103.149.242.0/23
 add list=china address=103.149.244.0/22
-add list=china address=103.149.248.0/23
 add list=china address=103.149.44.0/23
 add list=china address=103.149.6.0/23
 add list=china address=103.15.16.0/22
