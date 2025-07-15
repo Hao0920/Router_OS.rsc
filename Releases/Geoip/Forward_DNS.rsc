@@ -5605,6 +5605,7 @@ add regexp="^(.*\\.)?www\\.taiwanonline\\.cc\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.thechinastory\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.wan-press\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.websnapr\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?www\\.xicons\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.zensur\\.freerk\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www1\\.american\\.edu\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www1\\.biz\$" type=FWD forward-to=$FWDgfw
