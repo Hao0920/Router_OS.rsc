@@ -38,7 +38,6 @@ add list=china_telecom address=1.4.32.0/19
 add list=china_telecom address=1.4.64.0/18
 add list=china_telecom address=1.10.0.0/21
 add list=china_telecom address=1.10.8.0/23
-add list=china_telecom address=1.10.11.0/24
 add list=china_telecom address=1.10.12.0/22
 add list=china_telecom address=1.10.16.0/20
 add list=china_telecom address=1.10.32.0/19
@@ -2528,6 +2527,7 @@ add list=china_education_and_research_network address=222.16.0.0/12
 add list=china_education_and_research_network address=222.192.0.0/12
 add list=china_education_and_research_network address=223.2.0.0/15
 add list=china_education_and_research_network address=223.128.0.0/15
+add list=great_wall_broadband_network address=1.94.0.0/15
 add list=great_wall_broadband_network address=14.1.24.0/22
 add list=great_wall_broadband_network address=43.224.184.0/22
 add list=great_wall_broadband_network address=43.242.56.0/22
@@ -2697,9 +2697,11 @@ add list=othernet address=1.2.4.0/24
 add list=othernet address=1.2.8.0/24
 add list=othernet address=1.4.4.0/24
 add list=othernet address=1.8.0.0/16
+add list=othernet address=1.10.11.0/24
 add list=othernet address=1.12.0.0/14
 add list=othernet address=1.45.0.0/16
-add list=othernet address=1.88.0.0/13
+add list=othernet address=1.88.0.0/14
+add list=othernet address=1.92.0.0/15
 add list=othernet address=1.116.0.0/14
 add list=othernet address=14.1.96.0/22
 add list=othernet address=14.1.108.0/22
