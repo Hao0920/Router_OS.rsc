@@ -5044,6 +5044,7 @@ add list=china address=192.23.191.0/24
 add list=china address=192.232.97.0/24
 add list=china address=192.241.110.224/27
 add list=china address=192.241.71.192/28
+add list=china address=192.51.172.0/23
 add list=china address=192.51.188.0/24
 add list=china address=192.55.46.0/23
 add list=china address=192.55.68.0/22
