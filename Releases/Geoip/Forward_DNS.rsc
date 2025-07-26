@@ -5710,6 +5710,7 @@ add regexp="^(.*\\.)?yam\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?yam\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?yande\\.re\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?yanghengjun\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?yangzhi\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?yasni\\.co\\.uk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?yasukuni\\.or\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?yayabay\\.com\$" type=FWD forward-to=$FWDgfw
