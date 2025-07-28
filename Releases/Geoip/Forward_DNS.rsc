@@ -3089,6 +3089,7 @@ add regexp="^(.*\\.)?lsmwebcast\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lsxszzg\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ltn\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?luckydesigner\\.space\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?ludepress\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?luke54\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?luke54\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lupm\\.org\$" type=FWD forward-to=$FWDgfw
