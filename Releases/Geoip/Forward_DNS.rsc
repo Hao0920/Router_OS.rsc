@@ -5380,6 +5380,7 @@ add regexp="^(.*\\.)?waffle1999\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wahas\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?waikeung\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wainao\\.me\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?walletconnect\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wallmama\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wallpapercasa\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wallproxy\\.com\$" type=FWD forward-to=$FWDgfw
