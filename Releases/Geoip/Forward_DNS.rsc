@@ -5614,6 +5614,8 @@ add regexp="^(.*\\.)?www1\\.biz\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www2\\.ohchr\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www2\\.rocketbbs\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wwwhost\\.biz\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?wxw\\.cat\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?wxw\\.moe\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wzyboy\\.im\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?x-art\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?x-berry\\.com\$" type=FWD forward-to=$FWDgfw
