@@ -5675,7 +5675,6 @@ add list=china_mobile address=198.175.100.0/22
 add list=china_mobile address=199.212.57.0/24
 add list=china_mobile address=202.5.208.0/21
 add list=china_mobile address=202.5.216.0/22
-add list=china_mobile address=202.8.120.0/22
 add list=china_mobile address=202.8.128.0/19
 add list=china_mobile address=202.10.64.0/20
 add list=china_mobile address=202.10.112.0/20
