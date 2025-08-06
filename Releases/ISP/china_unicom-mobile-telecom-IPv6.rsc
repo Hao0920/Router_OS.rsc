@@ -1659,7 +1659,6 @@ add list=china_unicom address=2405:f580::/32
 add list=china_unicom address=2405:f6c0::/32
 add list=china_unicom address=2405:f940::/32
 add list=china_unicom address=2405:fdc0::/32
-add list=china_unicom address=2405:fe80::/32
 add list=china_unicom address=2405:ff80::/32
 add list=china_unicom address=2406:40::/32
 add list=china_unicom address=2406:80::/32
