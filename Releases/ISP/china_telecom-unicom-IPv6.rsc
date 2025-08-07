@@ -892,6 +892,7 @@ add list=china_telecom address=2402:19c0::/32
 add list=china_telecom address=2402:1be0::/32
 add list=china_telecom address=2402:1c20::/32
 add list=china_telecom address=2402:1f80::/32
+add list=china_telecom address=2402:20e0::/32
 add list=china_telecom address=2402:2280::/32
 add list=china_telecom address=2402:2440::/32
 add list=china_telecom address=2402:24c0::/32
