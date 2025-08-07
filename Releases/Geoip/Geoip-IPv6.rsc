@@ -8300,6 +8300,7 @@ add list=china address=2402:1be0::/32
 add list=china address=2402:1c20::/32
 add list=china address=2402:1f80::/32
 add list=china address=2402:2000::/32
+add list=china address=2402:20e0::/32
 add list=china address=2402:2280::/32
 add list=china address=2402:2440::/32
 add list=china address=2402:24c0::/32
