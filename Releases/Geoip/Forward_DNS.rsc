@@ -551,6 +551,7 @@ add regexp="^(.*\\.)?bitchute\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bitcointalk\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bitcoinworld\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bitfinex\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?bitget\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bithumb\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bitmex\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bitshare\\.com\$" type=FWD forward-to=$FWDgfw
@@ -1046,6 +1047,7 @@ add regexp="^(.*\\.)?clipconverter\\.cc\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?clipfish\\.de\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cloud\\.dify\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cloud\\.mail\\.ru\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?cloudflare-dns\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cloudflare-ipfs\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cloudfunctions\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?club1069\\.com\$" type=FWD forward-to=$FWDgfw
@@ -5173,6 +5175,7 @@ add regexp="^(.*\\.)?unseen\\.is\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?unstable\\.icu\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?unwire\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?uocn\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?upbit\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?updates\\.tdesktop\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?upghsbc\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?upholdjustice\\.org\$" type=FWD forward-to=$FWDgfw
@@ -5594,7 +5597,6 @@ add regexp="^(.*\\.)?www\\.monlamit\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.moztw\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.msn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.nbc\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?www\\.nodeloc\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.owind\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.oxid\\.it\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.powerpointninja\\.com\$" type=FWD forward-to=$FWDgfw
