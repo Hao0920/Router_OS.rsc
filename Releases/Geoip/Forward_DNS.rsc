@@ -3164,6 +3164,7 @@ add regexp="^(.*\\.)?matters\\.news\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?matters\\.town\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?matthewdgreen\\.wordpress\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mattwilcox\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?maven\\.neoforged\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?maxing\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mayimayi\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mcadforums\\.com\$" type=FWD forward-to=$FWDgfw
