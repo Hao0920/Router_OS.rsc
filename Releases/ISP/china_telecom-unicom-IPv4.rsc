@@ -3093,8 +3093,7 @@ add list=china_telecom address=45.125.16.0/22
 add list=china_telecom address=45.125.52.0/22
 add list=china_telecom address=45.125.56.0/22
 add list=china_telecom address=45.125.76.0/22
-add list=china_telecom address=45.125.84.0/22
-add list=china_telecom address=45.125.88.0/21
+add list=china_telecom address=45.125.80.0/20
 add list=china_telecom address=45.125.96.0/21
 add list=china_telecom address=45.125.136.0/22
 add list=china_telecom address=45.126.48.0/21
