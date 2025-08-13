@@ -153,6 +153,7 @@ add list=china_telecom address=43.229.140.0/22
 add list=china_telecom address=43.229.144.0/22
 add list=china_telecom address=43.243.232.0/22
 add list=china_telecom address=45.114.252.0/22
+add list=china_telecom address=45.125.80.0/22
 add list=china_telecom address=45.250.12.0/22
 add list=china_telecom address=45.250.16.0/22
 add list=china_telecom address=45.250.76.0/22
@@ -3092,8 +3093,7 @@ add list=china_mobile address=45.125.16.0/22
 add list=china_mobile address=45.125.52.0/22
 add list=china_mobile address=45.125.56.0/22
 add list=china_mobile address=45.125.76.0/22
-add list=china_mobile address=45.125.84.0/22
-add list=china_mobile address=45.125.88.0/21
+add list=china_mobile address=45.125.80.0/20
 add list=china_mobile address=45.125.96.0/21
 add list=china_mobile address=45.125.136.0/22
 add list=china_mobile address=45.126.48.0/21
