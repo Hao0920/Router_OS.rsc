@@ -540,6 +540,7 @@ add regexp="^(.*\\.)?bild\\.de\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?biliworld\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?billypan\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?binance\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?binance\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?binancezh\\.cc\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?binux\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bird\\.so\$" type=FWD forward-to=$FWDgfw
@@ -2667,6 +2668,7 @@ add regexp="^(.*\\.)?indiatoday\\.in\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?indiemerch\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?inews-api\\.tvb\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?info-graf\\.fr\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?infura\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?inherit\\.live\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?initiativesforchina\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?inkbunny\\.net\$" type=FWD forward-to=$FWDgfw
@@ -3091,6 +3093,7 @@ add regexp="^(.*\\.)?lsmwebcast\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lsxszzg\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ltn\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?luckydesigner\\.space\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?luckymobile\\.ca\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ludepress\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?luke54\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?luke54\\.org\$" type=FWD forward-to=$FWDgfw
@@ -3213,6 +3216,7 @@ add regexp="^(.*\\.)?mesotw\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?messenger\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?meta\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?metafilter\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?metamask\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?metart\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?metarthunter\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?meteorshowersonline\\.com\$" type=FWD forward-to=$FWDgfw
