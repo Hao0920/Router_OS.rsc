@@ -514,6 +514,7 @@ add regexp="^(.*\\.)?bestvpnusa\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bet365\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?betaclouds\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?betfair\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?betterhash\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?betternet\\.co\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bettervpn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bettween\\.com\$" type=FWD forward-to=$FWDgfw
@@ -2372,6 +2373,7 @@ add regexp="^(.*\\.)?hentaivideoworld\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?heqinglian\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?heritage\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?herokuapp\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?herominers\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hexieshe\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hexieshe\\.xyz\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hexxeh\\.net\$" type=FWD forward-to=$FWDgfw
@@ -2742,6 +2744,7 @@ add regexp="^(.*\\.)?isupportuyghurs\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?itaiwan\\.gov\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?italiatibet\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?itasoftware\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?itch\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?itemdb\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?itemfix\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ithelp\\.ithome\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
