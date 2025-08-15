@@ -33,10 +33,10 @@ add list=scanners address=2002:6713:be90::6713:be90
 add list=scanners address=2002:7286:bc7d::7286:bc7d
 add list=scanners address=2002:a7ac:445c::a7ac:445c
 add list=scanners address=2400:dd01:3011:2:1:0:c0a8:6422
-add list=scanners address=2401:4900:1ca2:dfd8:c990:b898:83d9:e8d5
 add list=scanners address=2401:4900:3a19:6fab:f503:ecdb:a3c6:a3e5
 add list=scanners address=2402:e000:451:c1af:886:5187:20a4:4777
 add list=scanners address=2404:3100:18f2:ecf5:acdc:aaff:fe76:cc1b
+add list=scanners address=2404:3100:18f2:ecf5:ecd9:fff:fe8e:5890
 add list=scanners address=2406:f00:1:1::178
 add list=scanners address=2406:f00:1:1::cd
 add list=scanners address=2406:f00:1:1::eb
