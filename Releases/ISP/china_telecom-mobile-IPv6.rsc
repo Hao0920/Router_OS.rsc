@@ -209,7 +209,6 @@ add list=china_telecom address=2405:1480:3000::/47
 add list=china_telecom address=2405:7040:6001::/48
 add list=china_telecom address=2405:a900:ffee::/48
 add list=china_telecom address=2406:1e40:f012::/47
-add list=china_telecom address=2406:4d00::/48
 add list=china_telecom address=2406:cac0::/40
 add list=china_telecom address=2406:cac0:200::/40
 add list=china_telecom address=2406:cf00::/48
