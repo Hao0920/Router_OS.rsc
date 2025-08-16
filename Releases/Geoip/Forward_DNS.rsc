@@ -4614,6 +4614,7 @@ add regexp="^(.*\\.)?suroot\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?surrenderat20\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?svsfx\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?swagbucks\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?swapspace\\.co\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?swissinfo\\.ch\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?swissvpn\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?switch1\\.jp\$" type=FWD forward-to=$FWDgfw

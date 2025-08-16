@@ -2296,6 +2296,7 @@ add list=china address=103.74.124.120/32
 add list=china address=103.74.124.122/31
 add list=china address=103.74.124.124/30
 add list=china address=103.74.125.200/32
+add list=china address=103.74.125.205/32
 add list=china address=103.74.125.64/28
 add list=china address=103.74.127.0/26
 add list=china address=103.74.148.0/22
@@ -3024,6 +3025,8 @@ add list=china address=109.118.6.20/32
 add list=china address=109.118.6.23/32
 add list=china address=109.134.14.71/32
 add list=china address=109.134.18.213/32
+add list=china address=109.238.201.0/24
+add list=china address=109.238.206.0/24
 add list=china address=109.244.0.0/16
 add list=china address=109.71.4.0/24
 add list=china address=110.100.128.0/20
@@ -3796,10 +3799,16 @@ add list=china address=117.48.64.0/19
 add list=china address=117.49.0.0/16
 add list=china address=117.50.0.0/16
 add list=china address=117.51.0.0/17
-add list=china address=117.51.128.0/17
 add list=china address=117.51.128.0/19
+add list=china address=117.51.128.0/23
+add list=china address=117.51.131.0/24
+add list=china address=117.51.132.0/22
+add list=china address=117.51.136.0/21
+add list=china address=117.51.144.0/20
+add list=china address=117.51.160.0/19
 add list=china address=117.51.160.0/23
 add list=china address=117.51.168.0/21
+add list=china address=117.51.192.0/18
 add list=china address=117.53.176.0/20
 add list=china address=117.53.48.0/20
 add list=china address=117.57.0.0/16
@@ -8871,6 +8880,7 @@ add list=china address=223.89.0.0/16
 add list=china address=223.90.0.0/15
 add list=china address=223.92.0.0/14
 add list=china address=223.96.0.0/12
+add list=china address=23.129.76.0/24
 add list=china address=23.161.8.0/24
 add list=china address=23.229.47.0/27
 add list=china address=23.229.47.208/28
@@ -10388,11 +10398,7 @@ add list=china address=60.200.0.0/13
 add list=china address=60.200.0.0/17
 add list=china address=60.200.0.0/24
 add list=china address=60.200.128.0/19
-add list=china address=60.200.192.0/21
-add list=china address=60.200.200.0/22
-add list=china address=60.200.206.0/23
-add list=china address=60.200.208.0/20
-add list=china address=60.200.240.0/20
+add list=china address=60.200.192.0/18
 add list=china address=60.201.0.0/16
 add list=china address=60.202.0.0/15
 add list=china address=60.204.0.0/14
