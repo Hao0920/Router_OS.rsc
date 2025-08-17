@@ -3766,6 +3766,7 @@ add regexp="^(.*\\.)?palacemoon\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?paljorpublications\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?paltalk\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?panamapapers\\.sueddeutsche\\.de\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?pancakeswap\\.finance\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pandafan\\.pub\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pandapow\\.co\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pandapow\\.net\$" type=FWD forward-to=$FWDgfw
@@ -3832,6 +3833,7 @@ add regexp="^(.*\\.)?periscope\\.tv\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?perplexity\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?persecutionblog\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?persiankitty\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?pewresearch\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?phapluan\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?phayul\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?philborges\\.com\$" type=FWD forward-to=$FWDgfw
@@ -3961,6 +3963,7 @@ add regexp="^(.*\\.)?prism-break\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?prisoneralert\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pritunl\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?privacybox\\.de\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?privacyguides\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?private\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?privateinternetaccess\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?privatepaste\\.com\$" type=FWD forward-to=$FWDgfw
