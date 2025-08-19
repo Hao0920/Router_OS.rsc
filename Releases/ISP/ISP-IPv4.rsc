@@ -428,7 +428,6 @@ add list=china_telecom address=103.78.60.0/22
 add list=china_telecom address=103.78.126.0/23
 add list=china_telecom address=103.78.228.0/22
 add list=china_telecom address=103.79.200.0/22
-add list=china_telecom address=103.79.228.0/23
 add list=china_telecom address=103.81.48.0/22
 add list=china_telecom address=103.82.224.0/22
 add list=china_telecom address=103.83.44.0/22
@@ -3149,7 +3148,6 @@ add list=china_mobile address=43.255.84.0/24
 add list=china_mobile address=43.255.86.0/23
 add list=china_mobile address=43.255.228.0/22
 add list=china_mobile address=45.113.200.0/23
-add list=china_mobile address=45.117.8.0/24
 add list=china_mobile address=45.117.10.0/24
 add list=china_mobile address=45.119.64.0/22
 add list=china_mobile address=45.120.102.0/23
@@ -3198,7 +3196,6 @@ add list=china_mobile address=103.37.72.0/24
 add list=china_mobile address=103.40.12.0/22
 add list=china_mobile address=103.45.162.0/23
 add list=china_mobile address=103.52.176.0/23
-add list=china_mobile address=103.53.124.0/24
 add list=china_mobile address=103.56.184.0/22
 add list=china_mobile address=103.59.116.0/22
 add list=china_mobile address=103.60.164.0/22
@@ -3236,6 +3233,7 @@ add list=china_mobile address=103.239.244.0/23
 add list=china_mobile address=103.252.36.0/22
 add list=china_mobile address=103.253.232.0/22
 add list=china_mobile address=103.255.68.0/24
+add list=china_mobile address=103.255.70.0/24
 add list=china_mobile address=106.3.144.0/21
 add list=china_mobile address=106.13.252.0/22
 add list=china_mobile address=106.75.0.0/17
@@ -3514,7 +3512,6 @@ add list=china_tietong address=43.255.84.0/24
 add list=china_tietong address=43.255.86.0/23
 add list=china_tietong address=43.255.228.0/22
 add list=china_tietong address=45.113.200.0/23
-add list=china_tietong address=45.117.8.0/24
 add list=china_tietong address=45.117.10.0/24
 add list=china_tietong address=45.119.64.0/22
 add list=china_tietong address=45.120.102.0/23
@@ -3563,7 +3560,6 @@ add list=china_tietong address=103.37.72.0/24
 add list=china_tietong address=103.40.12.0/22
 add list=china_tietong address=103.45.162.0/23
 add list=china_tietong address=103.52.176.0/23
-add list=china_tietong address=103.53.124.0/24
 add list=china_tietong address=103.56.184.0/22
 add list=china_tietong address=103.59.116.0/22
 add list=china_tietong address=103.60.164.0/22
@@ -3601,6 +3597,7 @@ add list=china_tietong address=103.239.244.0/23
 add list=china_tietong address=103.252.36.0/22
 add list=china_tietong address=103.253.232.0/22
 add list=china_tietong address=103.255.68.0/24
+add list=china_tietong address=103.255.70.0/24
 add list=china_tietong address=106.3.144.0/21
 add list=china_tietong address=106.13.252.0/22
 add list=china_tietong address=106.75.0.0/17
