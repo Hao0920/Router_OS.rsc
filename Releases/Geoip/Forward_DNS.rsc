@@ -1273,6 +1273,7 @@ add regexp="^(.*\\.)?delicious\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?demo\\.unlock-music\\.dev\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?democrats\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?demosisto\\.hk\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?deno\\.dev\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?depositphotos\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?desc\\.se\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?desipro\\.de\$" type=FWD forward-to=$FWDgfw
@@ -1341,6 +1342,7 @@ add regexp="^(.*\\.)?dnvod\\.tv\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?doc\\.new\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?docker\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?docker\\.io\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?docs\\.deno\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?docs\\.new\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?doctorvoice\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?documentingreality\\.com\$" type=FWD forward-to=$FWDgfw
@@ -1863,6 +1865,7 @@ add regexp="^(.*\\.)?fuq\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?furbo\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?furhhdl\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?furinkan\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?furrybar\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?futurechinaforum\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?futuremessage\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fux\\.com\$" type=FWD forward-to=$FWDgfw
@@ -3442,6 +3445,7 @@ add regexp="^(.*\\.)?nationalreview\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nationsonline\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nationwide\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?naughtyamerica\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?naver\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?navyfamily\\.navy\\.mil\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?navyreserve\\.navy\\.mil\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?naweeklytimes\\.com\$" type=FWD forward-to=$FWDgfw
