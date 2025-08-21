@@ -5151,6 +5151,7 @@ add regexp="^(.*\\.)?uderzo\\.it\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?udn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?udn\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?udnbkk\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?udomain\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?uforadio\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ufreevpn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ugo\\.com\$" type=FWD forward-to=$FWDgfw
