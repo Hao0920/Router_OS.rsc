@@ -2751,6 +2751,7 @@ add regexp="^(.*\\.)?itch\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?itemdb\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?itemfix\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ithelp\\.ithome\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?itiger\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?itsaol\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?itshidden\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?itsky\\.it\$" type=FWD forward-to=$FWDgfw
