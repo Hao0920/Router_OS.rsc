@@ -64,6 +64,7 @@ add list=china_mobile address=2401:5c20:10::/48
 add list=china_mobile address=2401:71c0::/48
 add list=china_mobile address=2401:a140:1::/48
 add list=china_mobile address=2401:be00::/48
+add list=china_mobile address=2401:d0e0:3::/48
 add list=china_mobile address=2402:4e00::/32
 add list=china_mobile address=2402:5ec0::/32
 add list=china_mobile address=2402:92c0::/48
