@@ -1134,6 +1134,7 @@ add regexp="^(.*\\.)?costco\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cotweet\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?counter\\.social\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?coursehero\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?covenantswatch\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?coze\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cpj\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cpu-monkey\\.com\$" type=FWD forward-to=$FWDgfw
