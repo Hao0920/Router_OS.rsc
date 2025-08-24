@@ -1855,6 +1855,8 @@ add regexp="^(.*\\.)?ftvnews\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ftx\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fucd\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fuchsia\\.dev\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?fuckccp\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?fuckccp\\.xyz\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fuckgfw\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fulione\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fullerconsideration\\.com\$" type=FWD forward-to=$FWDgfw
