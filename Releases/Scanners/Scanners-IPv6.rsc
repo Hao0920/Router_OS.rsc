@@ -72,6 +72,7 @@ add list=scanners address=2610:150:101:1000::bd02
 add list=scanners address=2620:106:6008:99:f0::114
 add list=scanners address=2620:106:6008:99:f0::117
 add list=scanners address=2802:8010:8d33:4301:4134:191a:73e1:662a
+add list=scanners address=2a02:8071:4584:55a0:8ea4:2334:57d8:8b68
 add list=scanners address=2a05:8280:f:431f::1
 add list=scanners address=2a05:8280:f:431f::10
 add list=scanners address=2a05:8280:f:431f::100
