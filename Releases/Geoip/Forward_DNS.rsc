@@ -1683,6 +1683,7 @@ add regexp="^(.*\\.)?fdc64\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fdc89\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?feedburner\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?feeder\\.co\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?feedly\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?feeds\\.fileforum\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?feedx\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?feelssh\\.com\$" type=FWD forward-to=$FWDgfw
@@ -3313,6 +3314,7 @@ add regexp="^(.*\\.)?mofos\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mog\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mohu\\.club\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mohu\\.rocks\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?moj\\.gov\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mojim\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mol\\.gov\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?molihua\\.org\$" type=FWD forward-to=$FWDgfw
