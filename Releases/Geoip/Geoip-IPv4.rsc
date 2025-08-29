@@ -5671,6 +5671,7 @@ add list=china address=165.99.42.0/23
 add list=china address=166.111.0.0/16
 add list=china address=166.118.227.88/32
 add list=china address=167.139.0.0/16
+add list=china address=167.148.46.0/24
 add list=china address=167.189.0.0/16
 add list=china address=167.220.244.0/22
 add list=china address=167.220.247.0/27
