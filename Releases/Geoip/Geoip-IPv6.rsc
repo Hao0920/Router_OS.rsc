@@ -13272,6 +13272,8 @@ add list=china address=2a14:67c1:b588::/47
 add list=china address=2a14:67c1:b590::/48
 add list=china address=2a14:67c1:b599::/48
 add list=china address=2a14:67c5:1900::/40
+add list=china address=2a14:7580:72f::/48
+add list=china address=2a14:7580:750::/47
 add list=china address=2a14:7580:9200::/40
 add list=china address=2a14:7580:9400::/39
 add list=china address=2a14:7580:9600::/46
