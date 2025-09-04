@@ -6409,6 +6409,7 @@ add list=china address=202.136.224.0/20
 add list=china address=202.136.248.0/22
 add list=china address=202.136.255.0/24
 add list=china address=202.136.48.0/20
+add list=china address=202.136.72.0/23
 add list=china address=202.136.80.0/23
 add list=china address=202.137.231.0/24
 add list=china address=202.14.104.0/23
