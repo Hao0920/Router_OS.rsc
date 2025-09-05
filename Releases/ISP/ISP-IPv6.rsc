@@ -447,10 +447,7 @@ add list=china_unicom address=2408:8409:3c00::/40
 add list=china_unicom address=2408:8409:3d00::/41
 add list=china_unicom address=2408:8409:3d80::/42
 add list=china_unicom address=2408:8409:3dc0::/43
-add list=china_unicom address=2408:8409:4800::/41
-add list=china_unicom address=2408:8409:4880::/43
-add list=china_unicom address=2408:8409:48b0::/44
-add list=china_unicom address=2408:8409:48c0::/42
+add list=china_unicom address=2408:8409:4800::/40
 add list=china_unicom address=2408:8409:4900::/41
 add list=china_unicom address=2408:8409:4980::/42
 add list=china_unicom address=2408:8409:49c0::/43
@@ -1091,8 +1088,8 @@ add list=othernet_ipv6 address=2401:d180:111::/48
 add list=othernet_ipv6 address=2401:d180:2120::/48
 add list=othernet_ipv6 address=2401:d920::/48
 add list=othernet_ipv6 address=2401:de00::/32
-add list=othernet_ipv6 address=2401:f860:c::/48
-add list=othernet_ipv6 address=2401:f860:e::/48
+add list=othernet_ipv6 address=2401:f860:a::/47
+add list=othernet_ipv6 address=2401:f860:c::/46
 add list=othernet_ipv6 address=2401:f860:86::/47
 add list=othernet_ipv6 address=2401:f860:88::/47
 add list=othernet_ipv6 address=2401:f860:90::/46
@@ -1248,7 +1245,7 @@ add list=othernet_ipv6 address=2406:840:e201::/48
 add list=othernet_ipv6 address=2406:840:e230::/44
 add list=othernet_ipv6 address=2406:840:e260::/48
 add list=othernet_ipv6 address=2406:840:e2cf::/48
-add list=othernet_ipv6 address=2406:840:e600::/47
+add list=othernet_ipv6 address=2406:840:e600::/45
 add list=othernet_ipv6 address=2406:840:e608::/46
 add list=othernet_ipv6 address=2406:840:e621::/48
 add list=othernet_ipv6 address=2406:840:e666::/47
@@ -1286,6 +1283,7 @@ add list=othernet_ipv6 address=2406:840:fd9f::/48
 add list=othernet_ipv6 address=2406:840:fda0::/43
 add list=othernet_ipv6 address=2406:840:fdc0::/44
 add list=othernet_ipv6 address=2406:840:fdd1::/48
+add list=othernet_ipv6 address=2406:840:fde2::/48
 add list=othernet_ipv6 address=2406:840:fe27::/48
 add list=othernet_ipv6 address=2406:840:fe90::/46
 add list=othernet_ipv6 address=2406:840:fe94::/48
@@ -1371,6 +1369,7 @@ add list=othernet_ipv6 address=240c:f:1::/48
 add list=othernet_ipv6 address=240c:4000::/22
 add list=othernet_ipv6 address=2602:2e0:ff::/48
 add list=othernet_ipv6 address=2602:f7ee:ee::/48
+add list=othernet_ipv6 address=2602:f92a:d1ff::/48
 add list=othernet_ipv6 address=2602:f92a:e100::/44
 add list=othernet_ipv6 address=2602:f93b:400::/38
 add list=othernet_ipv6 address=2602:f9ba:a8::/48
