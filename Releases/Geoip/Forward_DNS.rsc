@@ -738,6 +738,8 @@ add regexp="^(.*\\.)?brutaltgp\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bsky\\.app\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bsky\\.network\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bsky\\.social\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?bt4g\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?bt4gprx\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bt95\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?btaia\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?btbit\\.net\$" type=FWD forward-to=$FWDgfw
@@ -4684,6 +4686,7 @@ add regexp="^(.*\\.)?talkcc\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?talkonly\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tanc\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tangren\\.us\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?tanks\\.gg\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?taoism\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tapanwap\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tapatalk\\.com\$" type=FWD forward-to=$FWDgfw
