@@ -2711,6 +2711,7 @@ add regexp="^(.*\\.)?iphone4hongkong\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?iphonetaiwan\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?iphonix\\.fr\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ipicture\\.ru\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?ipify\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ipjetable\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ipobar\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ipoock\\.com\$" type=FWD forward-to=$FWDgfw
