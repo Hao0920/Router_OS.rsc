@@ -1625,7 +1625,7 @@ add list=china_mobile address=2a14:7583:f304::/48
 add list=china_mobile address=2a14:7583:f4fe::/48
 add list=china_mobile address=2a14:7583:f500::/48
 add list=china_mobile address=2a14:7583:f701::/48
-add list=china_mobile address=2a14:7583:f703::/48
+add list=china_mobile address=2a14:7583:f702::/47
 add list=china_mobile address=2a14:7583:f743::/48
 add list=china_mobile address=2a14:7584::/36
 /file remove china_mobile-telecom-IPv6.rsc
