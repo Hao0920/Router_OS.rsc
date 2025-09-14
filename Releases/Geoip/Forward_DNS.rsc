@@ -3188,6 +3188,7 @@ add regexp="^(.*\\.)?mcadforums\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mcaf\\.ee\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mcfog\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mcreasite\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?mcusercontent\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?md-t\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?me\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?me\\.ns\\.ci\$" type=FWD forward-to=$FWDgfw
@@ -4382,6 +4383,7 @@ add regexp="^(.*\\.)?simplecd\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?simpleproductivityblog\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?simpleswap\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?simplex\\.chat\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?sina\\.com\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sinchew\\.com\\.my\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?singaporepools\\.com\\.sg\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?singfortibet\\.com\$" type=FWD forward-to=$FWDgfw
@@ -4682,6 +4684,7 @@ add regexp="^(.*\\.)?taiwantt\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?taiwanus\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?taiwanyes\\.ning\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?talk853\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?talkatone\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?talkboxapp\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?talkcc\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?talkonly\\.net\$" type=FWD forward-to=$FWDgfw
