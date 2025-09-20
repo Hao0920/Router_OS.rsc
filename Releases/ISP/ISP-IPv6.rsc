@@ -1635,7 +1635,7 @@ add list=othernet_ipv6 address=2a14:7581:9010::/44
 add list=othernet_ipv6 address=2a14:7583:f201::/48
 add list=othernet_ipv6 address=2a14:7583:f203::/48
 add list=othernet_ipv6 address=2a14:7583:f300::/46
-add list=othernet_ipv6 address=2a14:7583:f304::/47
+add list=othernet_ipv6 address=2a14:7583:f304::/48
 add list=othernet_ipv6 address=2a14:7583:f4fe::/48
 add list=othernet_ipv6 address=2a14:7583:f500::/48
 add list=othernet_ipv6 address=2a14:7583:f701::/48
