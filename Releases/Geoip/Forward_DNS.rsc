@@ -142,6 +142,7 @@ add regexp="^(.*\\.)?abematv\\.akamaized\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?abitno\\.linpie\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ablwang\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?aboluowang\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?about\\.gitlab\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?about\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?abplive\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?abs\\.edu\$" type=FWD forward-to=$FWDgfw
@@ -1983,7 +1984,6 @@ add regexp="^(.*\\.)?github\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?githubassets\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?githubcopilot\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?githubusercontent\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?gitlab\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gitlab\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gizlen\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gjczz\\.com\$" type=FWD forward-to=$FWDgfw
