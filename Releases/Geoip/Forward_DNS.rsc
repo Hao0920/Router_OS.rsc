@@ -5163,7 +5163,6 @@ add regexp="^(.*\\.)?ubddns\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?uberproxy\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?uc-japan\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?uchicago\\.edu\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?uderzo\\.it\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?udn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?udn\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?udnbkk\\.com\$" type=FWD forward-to=$FWDgfw
