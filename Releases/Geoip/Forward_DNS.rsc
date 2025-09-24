@@ -307,6 +307,7 @@ add regexp="^(.*\\.)?apetube\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?api-secure\\.recaptcha\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?api-verify\\.recaptcha\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?api\\.ai\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?api\\.palworldgame\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?api\\.pureapk\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?api\\.recaptcha\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?api\\.steampowered\\.com\$" type=FWD forward-to=$FWDgfw
@@ -3665,6 +3666,7 @@ add regexp="^(.*\\.)?occupytiananmen\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ocreampies\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ocry\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?october-review\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?octocaptcha\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?oculus\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?oculuscdn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?odysee\\.com\$" type=FWD forward-to=$FWDgfw
