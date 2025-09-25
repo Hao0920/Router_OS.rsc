@@ -1171,6 +1171,7 @@ add regexp="^(.*\\.)?csuchen\\.de\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?csw\\.org\\.uk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ct\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ctao\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?ctinets\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ctinews\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ctitv\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ctowc\\.org\$" type=FWD forward-to=$FWDgfw
@@ -2701,6 +2702,7 @@ add regexp="^(.*\\.)?internet\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?internetdefenseleague\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?internetfreedom\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?internetpopculture\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?interseclab\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?inthenameofconfuciusmovie\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?investigating\\.wordpress\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?invidio\\.us\$" type=FWD forward-to=$FWDgfw
