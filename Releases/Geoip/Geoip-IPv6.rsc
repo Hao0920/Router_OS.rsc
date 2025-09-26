@@ -8517,9 +8517,8 @@ add list=china address=2406:840:fecf::/48
 add list=china address=2406:840:fed0::/45
 add list=china address=2406:840:fed1::/48
 add list=china address=2406:840:fed8::/46
-add list=china address=2406:840:fed8::/48
+add list=china address=2406:840:fed8::/47
 add list=china address=2406:840:fedb::/48
-add list=china address=2406:840:fedc::/47
 add list=china address=2406:840:fedc::/48
 add list=china address=2406:840:fede::/47
 add list=china address=2406:840:fedf::/48
@@ -9709,6 +9708,7 @@ add list=china address=240a:41f2::/31
 add list=china address=240a:420a::/31
 add list=china address=240a:4224:9000::/44
 add list=china address=240a:4224:a000::/44
+add list=china address=240a:4224:c000::/44
 add list=china address=240a:4224:d000::/44
 add list=china address=240a:4224:e000::/44
 add list=china address=240a:4230::/31

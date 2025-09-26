@@ -5537,6 +5537,7 @@ add regexp="^(.*\\.)?wikilivres\\.info\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wikimapia\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wikimedia\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wikinews\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?wikipedia\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wikipedia\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wikisource\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wikiversity\\.org\$" type=FWD forward-to=$FWDgfw
