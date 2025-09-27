@@ -120,6 +120,7 @@ add list=china_telecom address=240a:2001:1811::/48
 add list=china_telecom address=240a:2001:1861::/48
 add list=china_telecom address=240a:6001::/48
 add list=china_telecom address=240c:409f::/46
+add list=china_telecom address=240c:409f:2000::/46
 add list=china_telecom address=240c:409f:3000::/45
 add list=china_telecom address=240c:409f:4000::/45
 add list=china_telecom address=240e::/20
@@ -1234,8 +1235,7 @@ add list=othernet_ipv6 address=2406:840:9620::/44
 add list=othernet_ipv6 address=2406:840:9961::/48
 add list=othernet_ipv6 address=2406:840:9962::/47
 add list=othernet_ipv6 address=2406:840:996c::/48
-add list=othernet_ipv6 address=2406:840:a7fe::/48
-add list=othernet_ipv6 address=2406:840:a800::/37
+add list=othernet_ipv6 address=2406:840:a000::/36
 add list=othernet_ipv6 address=2406:840:e080::/44
 add list=othernet_ipv6 address=2406:840:e0cf::/48
 add list=othernet_ipv6 address=2406:840:e0e0::/46
@@ -1574,6 +1574,7 @@ add list=othernet_ipv6 address=2a14:67c1:b134::/47
 add list=othernet_ipv6 address=2a14:67c1:b140::/48
 add list=othernet_ipv6 address=2a14:67c1:b4a1::/48
 add list=othernet_ipv6 address=2a14:67c1:b4a2::/48
+add list=othernet_ipv6 address=2a14:67c1:b4a8::/48
 add list=othernet_ipv6 address=2a14:67c1:b4c0::/45
 add list=othernet_ipv6 address=2a14:67c1:b4d0::/44
 add list=othernet_ipv6 address=2a14:67c1:b4e0::/43
