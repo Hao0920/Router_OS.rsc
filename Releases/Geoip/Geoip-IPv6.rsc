@@ -11719,6 +11719,7 @@ add list=china address=2a0b:2542::/48
 add list=china address=2a0b:4b81:1001::/48
 add list=china address=2a0b:4e07:b8::/47
 add list=china address=2a0c:9a40:84e0::/48
+add list=china address=2a0c:9a40:8fc1::/48
 add list=china address=2a0c:9a40:8fc2::/47
 add list=china address=2a0c:9a40:8fc4::/48
 add list=china address=2a0c:9a40:95bf:7000::/54

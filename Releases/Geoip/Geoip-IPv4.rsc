@@ -1956,6 +1956,7 @@ add list=china address=103.44.56.0/22
 add list=china address=103.44.80.0/22
 add list=china address=103.45.0.0/18
 add list=china address=103.45.128.0/18
+add list=china address=103.45.128.0/20
 add list=china address=103.45.160.0/22
 add list=china address=103.45.172.0/22
 add list=china address=103.45.176.0/20
@@ -3289,6 +3290,7 @@ add list=china address=111.223.4.0/22
 add list=china address=111.223.8.0/21
 add list=china address=111.224.0.0/13
 add list=china address=111.224.0.0/14
+add list=china address=111.228.0.0/18
 add list=china address=111.229.0.0/16
 add list=china address=111.230.0.0/15
 add list=china address=111.235.156.0/22
@@ -3928,6 +3930,8 @@ add list=china address=117.72.144.0/20
 add list=china address=117.72.16.0/23
 add list=china address=117.72.160.0/19
 add list=china address=117.72.192.0/19
+add list=china address=117.72.24.0/21
+add list=china address=117.72.240.0/21
 add list=china address=117.72.248.0/22
 add list=china address=117.72.255.0/24
 add list=china address=117.72.32.0/19
@@ -5027,7 +5031,7 @@ add list=china address=124.196.66.0/24
 add list=china address=124.196.72.0/24
 add list=china address=124.196.77.0/24
 add list=china address=124.196.80.0/22
-add list=china address=124.196.84.0/24
+add list=china address=124.196.84.0/23
 add list=china address=124.197.56.0/21
 add list=china address=124.20.0.0/14
 add list=china address=124.20.0.0/16
@@ -6688,10 +6692,12 @@ add list=china address=202.181.8.0/22
 add list=china address=202.182.192.0/19
 add list=china address=202.182.32.0/20
 add list=china address=202.189.0.0/18
-add list=china address=202.189.16.0/21
+add list=china address=202.189.16.0/20
 add list=china address=202.189.184.0/21
 add list=china address=202.189.3.0/24
+add list=china address=202.189.32.0/20
 add list=china address=202.189.4.0/22
+add list=china address=202.189.48.0/22
 add list=china address=202.189.8.0/21
 add list=china address=202.189.80.0/20
 add list=china address=202.191.0.0/24
@@ -9556,7 +9562,7 @@ add list=china address=43.240.192.0/21
 add list=china address=43.240.200.0/23
 add list=china address=43.240.202.0/24
 add list=china address=43.240.204.0/22
-add list=china address=43.240.220.0/22
+add list=china address=43.240.216.0/21
 add list=china address=43.240.240.0/20
 add list=china address=43.240.56.0/21
 add list=china address=43.240.68.0/22
