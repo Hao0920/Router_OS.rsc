@@ -4699,8 +4699,10 @@ add regexp="^(.*\\.)?tanc\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tangren\\.us\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tanks\\.gg\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?taoism\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?tap\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tapanwap\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tapatalk\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?taptap\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tardigrade\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tarr\\.uspto\\.gov\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?taup\\.net\$" type=FWD forward-to=$FWDgfw
