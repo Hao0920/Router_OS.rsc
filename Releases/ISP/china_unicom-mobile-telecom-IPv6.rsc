@@ -1590,7 +1590,7 @@ add list=china_unicom address=2a14:67c1:b566::/48
 add list=china_unicom address=2a14:67c1:b578::/48
 add list=china_unicom address=2a14:67c1:b582::/48
 add list=china_unicom address=2a14:67c1:b588::/47
-add list=china_unicom address=2a14:67c1:b590::/48
+add list=china_unicom address=2a14:67c1:b590::/47
 add list=china_unicom address=2a14:67c1:b599::/48
 add list=china_unicom address=2a14:67c5:1900::/40
 add list=china_unicom address=2a14:7580:740::/44
@@ -1611,7 +1611,7 @@ add list=china_unicom address=2a14:7580:fff7::/48
 add list=china_unicom address=2a14:7580:fffa::/48
 add list=china_unicom address=2a14:7581:b10::/48
 add list=china_unicom address=2a14:7581:b12::/48
-add list=china_unicom address=2a14:7581:b15::/48
+add list=china_unicom address=2a14:7581:b14::/47
 add list=china_unicom address=2a14:7581:b20::/46
 add list=china_unicom address=2a14:7581:b32::/47
 add list=china_unicom address=2a14:7581:b44::/48
