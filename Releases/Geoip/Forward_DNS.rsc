@@ -5321,6 +5321,7 @@ add regexp="^(.*\\.)?vijayatemple\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?vilanet\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?vilavpn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?vimeo\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?vimeocdn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?vimperator\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?vincnd\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?vine\\.co\$" type=FWD forward-to=$FWDgfw

@@ -3462,7 +3462,6 @@ add list=china address=113.212.0.0/18
 add list=china address=113.212.100.0/22
 add list=china address=113.212.184.0/21
 add list=china address=113.213.0.0/17
-add list=china address=113.213.0.0/18
 add list=china address=113.213.64.0/19
 add list=china address=113.213.96.0/20
 add list=china address=113.214.0.0/15
