@@ -4479,6 +4479,7 @@ add regexp="^(.*\\.)?solana\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?solarsystem\\.nasa\\.gov\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?solidaritetibet\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?solidfiles\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?solscan\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?solv\\.finance\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?somee\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?songjianjun\\.com\$" type=FWD forward-to=$FWDgfw
