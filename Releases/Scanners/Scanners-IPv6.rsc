@@ -5,6 +5,7 @@ add list=scanners address=2001:250:80c:ffff:ffff:ffff:cace:f00b
 add list=scanners address=2001:41b8:83f:1608::25:1
 add list=scanners address=2001:41b8:83f:1610::237
 add list=scanners address=2001:41d0:304:200::42d5
+add list=scanners address=2001:41d0:ab01::2:0:100
 add list=scanners address=2001:41d0:ab03::2:0:187
 add list=scanners address=2001:4c80:40:62d::25:1
 add list=scanners address=2001:4c80:40:62d::25:2
@@ -36,11 +37,12 @@ add list=scanners address=2001:df1:e8c0::10b6
 add list=scanners address=2002:80c7:ff87::80c7:ff87
 add list=scanners address=2002:8b3b:ff05::8b3b:ff05
 add list=scanners address=2400:dd01:3011:2:1:0:c0a8:6422
+add list=scanners address=2401:b60:5:1c::a
+add list=scanners address=2404:3100:1076:8101:186c:3469:f01:c7ba
 add list=scanners address=2406:f00:1:1::178
 add list=scanners address=2406:f00:1:1::cd
 add list=scanners address=2406:f00:1:1::eb
 add list=scanners address=2407:3640:2283:2025::1
-add list=scanners address=2408:8445:7f2:7722:f459:23ff:fe18:6b7f
 add list=scanners address=2408:8606:4800:4:c600:adff:feb5:f392
 add list=scanners address=2409:8a0c:3471:7ba0:2877:f42e:57b8:a06f
 add list=scanners address=2409:8a30:6a1:7732:673a:410c:e690:4343
@@ -53,6 +55,7 @@ add list=scanners address=2600:3c03::f03c:91ff:fe6b:dbbf
 add list=scanners address=2605:6400:30:fd0b:1::
 add list=scanners address=2605:6440:4013:1001:6c46:bc6f:dbdc:49ea
 add list=scanners address=2605:6440:4015:7000:ef53:42d4:ec7b:4eca
+add list=scanners address=2607:f010:2e9:12e:8fd:1883:7447:86d5
 add list=scanners address=2607:ff28:9005:55:225:90ff:fe26:9f8
 add list=scanners address=2607:ff28:c005:b5:ec4:7aff:fe74:ee56
 add list=scanners address=2610:150:101:1000::bd02
@@ -66,7 +69,6 @@ add list=scanners address=2a05:8280:f:431f::10
 add list=scanners address=2a05:8280:f:431f::100
 add list=scanners address=2a05:8280:f:431f::11
 add list=scanners address=2a05:8280:f:431f::2
-add list=scanners address=2a0a:4cc0:c0:e464:344b:92ff:fefe:cbb7
 add list=scanners address=2a0d:5600:234:2000:3fd4:9862:2a43:3a33
 add list=scanners address=2a0f:ca80::49
 /file remove Scanners-IPv6.rsc
