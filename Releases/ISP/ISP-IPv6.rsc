@@ -1406,7 +1406,8 @@ add list=othernet_ipv6 address=2a06:1281:8000::/36
 add list=othernet_ipv6 address=2a06:3603::/32
 add list=othernet_ipv6 address=2a06:3604::/30
 add list=othernet_ipv6 address=2a06:9f81:4600::/43
-add list=othernet_ipv6 address=2a06:9f81:4640::/44
+add list=othernet_ipv6 address=2a06:9f81:4620::/44
+add list=othernet_ipv6 address=2a06:9f81:4640::/43
 add list=othernet_ipv6 address=2a06:a005:260::/43
 add list=othernet_ipv6 address=2a06:a005:280::/43
 add list=othernet_ipv6 address=2a06:a005:2a0::/44
