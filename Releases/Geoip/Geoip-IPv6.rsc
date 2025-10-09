@@ -10881,7 +10881,8 @@ add list=china address=2a06:1281:8000::/36
 add list=china address=2a06:3603::/32
 add list=china address=2a06:3604::/30
 add list=china address=2a06:9f81:4600::/43
-add list=china address=2a06:9f81:4640::/44
+add list=china address=2a06:9f81:4620::/44
+add list=china address=2a06:9f81:4640::/43
 add list=china address=2a06:a005:1c40::/44
 add list=china address=2a06:a005:260::/43
 add list=china address=2a06:a005:280::/43
