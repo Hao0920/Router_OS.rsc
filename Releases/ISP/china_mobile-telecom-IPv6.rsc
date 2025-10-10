@@ -613,7 +613,7 @@ add list=china_mobile address=2408:8426::/31
 add list=china_mobile address=2408:842a::/31
 add list=china_mobile address=2408:842c::/32
 add list=china_mobile address=2408:842e::/32
-add list=china_mobile address=2408:8431::/32
+add list=china_mobile address=2408:8430::/31
 add list=china_mobile address=2408:8434::/30
 add list=china_mobile address=2408:8438::/31
 add list=china_mobile address=2408:843c::/30
@@ -1401,7 +1401,7 @@ add list=china_mobile address=2a06:1281:8000::/36
 add list=china_mobile address=2a06:3603::/32
 add list=china_mobile address=2a06:3604::/30
 add list=china_mobile address=2a06:9f81:4600::/43
-add list=china_mobile address=2a06:9f81:4620::/44
+add list=china_mobile address=2a06:9f81:4630::/44
 add list=china_mobile address=2a06:9f81:4640::/43
 add list=china_mobile address=2a06:a005:260::/43
 add list=china_mobile address=2a06:a005:280::/43
