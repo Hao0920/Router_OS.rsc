@@ -1806,6 +1806,8 @@ add regexp="^(.*\\.)?freedominfonetweb\\.wordpress\\.com\$" type=FWD forward-to=
 add regexp="^(.*\\.)?freedomsherald\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freeforums\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freegao\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?freegpt\\.es\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?freegpt\\.tech\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freehongkong\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freeilhamtohti\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freekazakhs\\.org\$" type=FWD forward-to=$FWDgfw
