@@ -4243,7 +4243,6 @@ add list=china_mobile address=45.40.192.0/18
 add list=china_mobile address=45.59.106.0/24
 add list=china_mobile address=45.65.20.0/22
 add list=china_mobile address=45.87.101.0/24
-add list=china_mobile address=45.112.232.0/24
 add list=china_mobile address=45.113.40.0/22
 add list=china_mobile address=45.114.189.0/24
 add list=china_mobile address=45.115.200.0/22
@@ -5498,7 +5497,6 @@ add list=china_mobile address=158.140.254.0/24
 add list=china_mobile address=159.27.0.0/16
 add list=china_mobile address=159.75.0.0/16
 add list=china_mobile address=159.226.0.0/16
-add list=china_mobile address=160.19.82.0/24
 add list=china_mobile address=160.20.19.0/24
 add list=china_mobile address=160.30.148.0/22
 add list=china_mobile address=160.202.224.0/19
