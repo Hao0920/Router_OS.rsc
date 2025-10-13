@@ -5619,7 +5619,6 @@ add list=china address=160.19.212.0/22
 add list=china address=160.19.216.0/22
 add list=china address=160.19.76.0/23
 add list=china address=160.19.82.0/23
-add list=china address=160.19.82.0/24
 add list=china address=160.191.0.0/23
 add list=china address=160.191.0.0/24
 add list=china address=160.191.104.0/23
