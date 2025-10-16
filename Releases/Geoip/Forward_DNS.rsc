@@ -366,6 +366,7 @@ add regexp="^(.*\\.)?asia-gaming\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?asiaharvest\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?asianage\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?asianews\\.it\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?asianfanfics\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?asiansexdiary\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?asiaone\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?asiatgp\\.com\$" type=FWD forward-to=$FWDgfw
@@ -5016,6 +5017,7 @@ add regexp="^(.*\\.)?trt\\.net\\.tr\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?trtc\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?truebuddha-md\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?trulyergonomic\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?trustwallet\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?truthsocial\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?truveo\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tryheart\\.jp\$" type=FWD forward-to=$FWDgfw
@@ -5845,6 +5847,7 @@ add regexp="^(.*\\.)?z-lib\\.gd\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?z-lib\\.gl\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?z-lib\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?z-lib\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?z-library\\.ec\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?z-library\\.sk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zacebook\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zalmos\\.com\$" type=FWD forward-to=$FWDgfw
