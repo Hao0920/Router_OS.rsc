@@ -755,7 +755,6 @@ add regexp="^(.*\\.)?btc98\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?btcbank\\.bank\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?btctrade\\.im\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?btdig\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?btdigg\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?btguard\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?btku\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?btku\\.org\$" type=FWD forward-to=$FWDgfw
@@ -5475,6 +5474,7 @@ add regexp="^(.*\\.)?webpkgcache\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?webrtc\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?webrush\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?webs-tv\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?websdr\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?website\\.informer\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?website\\.new\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?websitepulse\\.com\$" type=FWD forward-to=$FWDgfw
@@ -5722,6 +5722,7 @@ add regexp="^(.*\\.)?xn--ngstr-lra8j\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xn--noss43i\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xn--oiq\\.cc\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xn--p8j9a0d9c9a\\.xn--q9jyb4c\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?xn--u2u927b\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xnpool\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xnxx\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xpdo\\.net\$" type=FWD forward-to=$FWDgfw
