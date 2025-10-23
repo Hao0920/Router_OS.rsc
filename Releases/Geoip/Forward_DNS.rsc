@@ -1349,6 +1349,7 @@ add regexp="^(.*\\.)?dnvod\\.tv\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?doc\\.new\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?docker\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?docker\\.io\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?dockerstatus\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?docs\\.deno\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?docs\\.new\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?doctorvoice\\.org\$" type=FWD forward-to=$FWDgfw
