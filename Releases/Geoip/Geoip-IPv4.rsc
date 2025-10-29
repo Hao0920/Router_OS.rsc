@@ -3815,6 +3815,7 @@ add list=china address=116.66.123.0/24
 add list=china address=116.66.36.0/24
 add list=china address=116.66.48.0/23
 add list=china address=116.66.53.0/24
+add list=china address=116.66.54.0/23
 add list=china address=116.66.98.0/24
 add list=china address=116.68.136.0/21
 add list=china address=116.68.176.0/21
@@ -7616,7 +7617,6 @@ add list=china address=203.25.236.0/24
 add list=china address=203.25.242.0/24
 add list=china address=203.25.46.0/24
 add list=china address=203.25.48.0/21
-add list=china address=203.25.48.0/24
 add list=china address=203.25.52.0/24
 add list=china address=203.25.64.0/23
 add list=china address=203.25.91.0/24
