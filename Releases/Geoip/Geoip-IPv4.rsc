@@ -1217,6 +1217,7 @@ add list=china address=103.21.240.0/22
 add list=china address=103.21.98.0/23
 add list=china address=103.210.156.0/22
 add list=china address=103.210.160.0/19
+add list=china address=103.210.160.0/22
 add list=china address=103.210.164.0/22
 add list=china address=103.210.168.0/21
 add list=china address=103.210.170.0/23
@@ -6413,7 +6414,6 @@ add list=china address=193.119.8.0/24
 add list=china address=193.169.8.0/23
 add list=china address=193.192.52.0/23
 add list=china address=193.200.222.160/28
-add list=china address=193.233.49.0/24
 add list=china address=193.239.172.0/23
 add list=china address=193.239.246.0/23
 add list=china address=193.3.56.73/32
@@ -6794,7 +6794,7 @@ add list=china address=202.41.196.0/22
 add list=china address=202.41.200.0/22
 add list=china address=202.41.240.0/20
 add list=china address=202.41.241.0/24
-add list=china address=202.41.242.0/24
+add list=china address=202.41.242.0/23
 add list=china address=202.41.244.0/22
 add list=china address=202.41.248.0/21
 add list=china address=202.41.8.0/23
@@ -7274,7 +7274,7 @@ add list=china address=203.166.191.0/24
 add list=china address=203.167.28.0/22
 add list=china address=203.168.0.0/19
 add list=china address=203.168.0.0/22
-add list=china address=203.168.129.0/24
+add list=china address=203.168.128.0/23
 add list=china address=203.168.16.0/23
 add list=china address=203.168.18.0/24
 add list=china address=203.168.5.0/24
@@ -9859,6 +9859,7 @@ add list=china address=44.31.216.0/24
 add list=china address=44.31.220.0/24
 add list=china address=44.31.28.0/24
 add list=china address=44.31.42.0/23
+add list=china address=44.31.42.0/24
 add list=china address=44.31.53.0/24
 add list=china address=44.31.81.0/24
 add list=china address=44.31.96.0/24
@@ -9925,6 +9926,7 @@ add list=china address=45.113.184.0/22
 add list=china address=45.113.20.0/22
 add list=china address=45.113.200.0/21
 add list=china address=45.113.200.0/22
+add list=china address=45.113.206.0/24
 add list=china address=45.113.208.0/20
 add list=china address=45.113.24.0/22
 add list=china address=45.113.240.0/22

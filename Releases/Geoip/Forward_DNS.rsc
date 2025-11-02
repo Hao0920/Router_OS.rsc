@@ -4756,6 +4756,7 @@ add regexp="^(.*\\.)?telegraph\\.co\\.uk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?telesco\\.pe\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tellapart\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tellme\\.pw\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?temu\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tenacy\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tenor\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tensorflow\\.org\$" type=FWD forward-to=$FWDgfw
