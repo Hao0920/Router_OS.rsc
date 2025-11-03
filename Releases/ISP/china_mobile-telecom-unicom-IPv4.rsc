@@ -4213,7 +4213,7 @@ add list=china_mobile address=43.240.60.0/22
 add list=china_mobile address=43.240.127.0/24
 add list=china_mobile address=43.240.133.0/24
 add list=china_mobile address=43.240.136.0/22
-add list=china_mobile address=43.240.192.0/23
+add list=china_mobile address=43.240.192.0/24
 add list=china_mobile address=43.241.76.0/22
 add list=china_mobile address=43.242.84.0/22
 add list=china_mobile address=43.242.96.0/22
