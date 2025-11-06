@@ -5208,6 +5208,7 @@ add list=china address=137.59.88.0/22
 add list=china address=138.113.216.0/24
 add list=china address=138.113.237.0/24
 add list=china address=138.252.118.0/23
+add list=china address=138.252.162.0/23
 add list=china address=138.252.72.0/23
 add list=china address=138.252.78.0/23
 add list=china address=138.252.96.0/23
