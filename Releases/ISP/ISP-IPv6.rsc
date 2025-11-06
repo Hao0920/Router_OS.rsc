@@ -39,7 +39,7 @@ add list=china_telecom address=2400:9380:9121::/48
 add list=china_telecom address=2400:9380:9201::/48
 add list=china_telecom address=2400:9380:9202::/48
 add list=china_telecom address=2400:9380:9220::/47
-add list=china_telecom address=2400:9380:9240::/47
+add list=china_telecom address=2400:9380:9240::/48
 add list=china_telecom address=2400:9380:9250::/47
 add list=china_telecom address=2400:9380:9260::/48
 add list=china_telecom address=2400:9380:9271::/48
@@ -1381,6 +1381,7 @@ add list=othernet_ipv6 address=2602:f93b:400::/38
 add list=othernet_ipv6 address=2602:f9ba:a8::/48
 add list=othernet_ipv6 address=2602:f9ba:10c::/48
 add list=othernet_ipv6 address=2602:fab0:11::/48
+add list=othernet_ipv6 address=2602:fed2:7050::/44
 add list=othernet_ipv6 address=2602:feda:1bf::/48
 add list=othernet_ipv6 address=2602:feda:1d1::/48
 add list=othernet_ipv6 address=2602:feda:1df::/48
