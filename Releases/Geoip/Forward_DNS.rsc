@@ -1736,6 +1736,7 @@ add regexp="^(.*\\.)?flagsonline\\.it\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?flecheinthepeche\\.fr\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fleshbot\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fleursdeslettres\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?flexclip\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?flexpool\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?flgjustice\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?flickr\\.com\$" type=FWD forward-to=$FWDgfw
