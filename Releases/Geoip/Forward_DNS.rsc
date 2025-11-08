@@ -2654,6 +2654,7 @@ add regexp="^(.*\\.)?imagefap\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?imageflea\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?imageglass\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?images-gaytube\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?images\\.prismic\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?imageshack\\.us\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?imagevenue\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?imagezilla\\.net\$" type=FWD forward-to=$FWDgfw
