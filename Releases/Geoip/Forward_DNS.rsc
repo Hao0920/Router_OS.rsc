@@ -1276,9 +1276,7 @@ add regexp="^(.*\\.)?deezer\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?definebabe\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?deja\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?delcamp\\.net\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?delicious\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?demo\\.unlock-music\\.dev\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?democrats\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?demosisto\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?deno\\.dev\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?depositphotos\\.com\$" type=FWD forward-to=$FWDgfw
