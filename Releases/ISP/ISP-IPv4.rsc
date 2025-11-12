@@ -3999,6 +3999,7 @@ add list=great_wall_broadband_network address=115.182.224.0/20
 add list=great_wall_broadband_network address=115.182.244.0/22
 add list=great_wall_broadband_network address=118.64.0.0/21
 add list=great_wall_broadband_network address=118.64.248.0/21
+add list=great_wall_broadband_network address=118.66.184.0/24
 add list=great_wall_broadband_network address=118.66.224.0/20
 add list=great_wall_broadband_network address=118.144.64.0/21
 add list=great_wall_broadband_network address=118.144.72.0/22
@@ -4511,7 +4512,6 @@ add list=othernet address=101.247.96.0/20
 add list=othernet address=103.2.208.0/22
 add list=othernet address=103.4.56.0/22
 add list=othernet address=103.5.192.0/24
-add list=othernet address=103.5.195.0/24
 add list=othernet address=103.7.140.0/22
 add list=othernet address=103.8.8.0/22
 add list=othernet address=103.8.52.0/22
@@ -4823,7 +4823,6 @@ add list=othernet address=103.244.64.0/22
 add list=othernet address=103.245.128.0/22
 add list=othernet address=103.247.176.0/22
 add list=othernet address=103.248.152.0/24
-add list=othernet address=103.248.155.0/24
 add list=othernet address=103.249.136.0/24
 add list=othernet address=103.249.244.0/24
 add list=othernet address=103.249.252.0/22
