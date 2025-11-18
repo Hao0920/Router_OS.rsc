@@ -169,6 +169,7 @@ add regexp="^(.*\\.)?addictedtocoffee\\.de\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?addons\\.mozilla\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?addyoutube\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?adelaidebbs\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?adguard-vpn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?admin\\.recaptcha\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?admob\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?adpl\\.org\\.hk\$" type=FWD forward-to=$FWDgfw
@@ -2376,6 +2377,7 @@ add regexp="^(.*\\.)?hautelookcdn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?have8\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hbg\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hbo\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?hbomax\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hclips\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hd\\.stheadline\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hdtvb\\.net\$" type=FWD forward-to=$FWDgfw
@@ -3318,6 +3320,7 @@ add regexp="^(.*\\.)?mixpod\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mixx\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mizzmona\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mjib\\.gov\\.tw\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?mjj\\.rip\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mjlsh\\.usc\\.cuhk\\.edu\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mlc\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mlcool\\.com\$" type=FWD forward-to=$FWDgfw
@@ -4230,6 +4233,7 @@ add regexp="^(.*\\.)?rule34video\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?rumble\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?runbtx\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?rushbee\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?rustdesk\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?rusvpn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ruten\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?rutracker\\.net\$" type=FWD forward-to=$FWDgfw
