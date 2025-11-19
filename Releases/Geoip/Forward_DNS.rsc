@@ -194,6 +194,7 @@ add regexp="^(.*\\.)?agnesb\\.fr\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?agoogleaday\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?agro\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ai\\.binwang\\.me\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?ai\\.dev\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?aiosearch\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?aiph\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?airasia\\.com\$" type=FWD forward-to=$FWDgfw
