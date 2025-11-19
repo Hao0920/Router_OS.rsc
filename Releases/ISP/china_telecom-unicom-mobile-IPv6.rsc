@@ -1242,7 +1242,7 @@ add list=china_telecom address=2406:840:e2cf::/48
 add list=china_telecom address=2406:840:e600::/46
 add list=china_telecom address=2406:840:e604::/47
 add list=china_telecom address=2406:840:e606::/48
-add list=china_telecom address=2406:840:e60c::/47
+add list=china_telecom address=2406:840:e60c::/46
 add list=china_telecom address=2406:840:e620::/47
 add list=china_telecom address=2406:840:e666::/47
 add list=china_telecom address=2406:840:e770::/48
@@ -1424,7 +1424,6 @@ add list=china_telecom address=2a0c:b641:725::/48
 add list=china_telecom address=2a0c:b641:726::/47
 add list=china_telecom address=2a0c:b641:728::/47
 add list=china_telecom address=2a0e:97c0:5ef::/48
-add list=china_telecom address=2a0e:97c0:83f::/48
 add list=china_telecom address=2a0e:9b00::/29
 add list=china_telecom address=2a0e:aa01:1fff::/48
 add list=china_telecom address=2a0e:aa06::/40
@@ -1472,7 +1471,8 @@ add list=china_telecom address=2a0e:b107:178e::/48
 add list=china_telecom address=2a0f:1cc5:10::/48
 add list=china_telecom address=2a0f:1cc5:20::/44
 add list=china_telecom address=2a0f:1cc5:600::/48
-add list=china_telecom address=2a0f:1cc5:f00::/46
+add list=china_telecom address=2a0f:1cc5:f00::/47
+add list=china_telecom address=2a0f:1cc5:f03::/48
 add list=china_telecom address=2a0f:1cc5:f05::/48
 add list=china_telecom address=2a0f:1cc6:b100::/48
 add list=china_telecom address=2a0f:1cc6:b102::/47
@@ -1532,7 +1532,6 @@ add list=china_telecom address=2a13:a5c7:2301::/48
 add list=china_telecom address=2a13:a5c7:2302::/48
 add list=china_telecom address=2a13:a5c7:23c0::/48
 add list=china_telecom address=2a13:a5c7:2801::/48
-add list=china_telecom address=2a13:a5c7:3108::/48
 add list=china_telecom address=2a13:a5c7:31a0::/44
 add list=china_telecom address=2a13:a5c7:31b0::/46
 add list=china_telecom address=2a13:a5c7:31b4::/47
@@ -1579,7 +1578,6 @@ add list=china_telecom address=2a14:67c1:b140::/48
 add list=china_telecom address=2a14:67c1:b4a1::/48
 add list=china_telecom address=2a14:67c1:b4a2::/48
 add list=china_telecom address=2a14:67c1:b4a8::/47
-add list=china_telecom address=2a14:67c1:b4aa::/48
 add list=china_telecom address=2a14:67c1:b4c0::/45
 add list=china_telecom address=2a14:67c1:b4e0::/43
 add list=china_telecom address=2a14:67c1:b500::/47
