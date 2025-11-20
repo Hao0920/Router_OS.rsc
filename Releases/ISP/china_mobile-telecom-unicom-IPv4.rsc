@@ -4415,7 +4415,6 @@ add list=china_mobile address=59.111.240.0/22
 add list=china_mobile address=59.111.244.0/24
 add list=china_mobile address=59.111.248.0/21
 add list=china_mobile address=59.151.0.0/17
-add list=china_mobile address=59.152.32.0/24
 add list=china_mobile address=59.152.36.0/24
 add list=china_mobile address=59.152.38.0/23
 add list=china_mobile address=59.153.4.0/23
@@ -4570,6 +4569,7 @@ add list=china_mobile address=103.44.168.0/23
 add list=china_mobile address=103.44.171.0/24
 add list=china_mobile address=103.45.128.0/20
 add list=china_mobile address=103.45.144.0/24
+add list=china_mobile address=103.45.169.0/24
 add list=china_mobile address=103.46.12.0/22
 add list=china_mobile address=103.46.16.0/20
 add list=china_mobile address=103.46.32.0/19
@@ -4587,6 +4587,7 @@ add list=china_mobile address=103.56.100.0/22
 add list=china_mobile address=103.56.104.0/22
 add list=china_mobile address=103.57.12.0/22
 add list=china_mobile address=103.57.136.0/23
+add list=china_mobile address=103.57.138.0/24
 add list=china_mobile address=103.60.236.0/22
 add list=china_mobile address=103.61.60.0/22
 add list=china_mobile address=103.61.104.0/23
@@ -5441,10 +5442,6 @@ add list=china_mobile address=154.208.140.0/22
 add list=china_mobile address=154.208.144.0/20
 add list=china_mobile address=154.208.160.0/21
 add list=china_mobile address=154.208.172.0/23
-add list=china_mobile address=154.223.168.0/24
-add list=china_mobile address=154.223.179.0/24
-add list=china_mobile address=154.223.180.0/24
-add list=china_mobile address=154.223.182.0/24
 add list=china_mobile address=155.117.164.0/24
 add list=china_mobile address=155.117.188.0/24
 add list=china_mobile address=156.59.202.0/23
