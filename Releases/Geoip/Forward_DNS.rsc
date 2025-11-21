@@ -2311,6 +2311,7 @@ add regexp="^(.*\\.)?gravatar\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?greasyfork\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?greatfire\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?greatfire\\.us7\\.list-manage\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?greatfirevpn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?greatfirewall\\.biz\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?greatfirewallofchina\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?greatroc\\.org\$" type=FWD forward-to=$FWDgfw
@@ -5578,6 +5579,7 @@ add regexp="^(.*\\.)?wikinews\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wikipedia\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wikipedia\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wikisource\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?wikiunblocked\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wikiversity\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wikivoyage\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wikiwand\\.com\$" type=FWD forward-to=$FWDgfw

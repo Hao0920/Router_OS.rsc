@@ -8891,6 +8891,7 @@ add list=china address=2404:edc0::/32
 add list=china address=2404:f00::/32
 add list=china address=2404:f040::/32
 add list=china address=2404:f4c0::/32
+add list=china address=2404:f4c0:f000::/44
 add list=china address=2404:f7c0::/32
 add list=china address=2404:f80::/32
 add list=china address=2405:1080::/32
@@ -9465,6 +9466,7 @@ add list=china address=2406:840:b200::/39
 add list=china address=2406:840:b400::/38
 add list=china address=2406:840:b800::/37
 add list=china address=2406:840:c000::/38
+add list=china address=2406:840:c200::/39
 add list=china address=2406:840:c400::/40
 add list=china address=2406:840:c500::/40
 add list=china address=2406:840:c600::/39
@@ -9522,7 +9524,7 @@ add list=china address=2406:840:e600::/39
 add list=china address=2406:840:e600::/46
 add list=china address=2406:840:e604::/47
 add list=china address=2406:840:e606::/48
-add list=china address=2406:840:e60c::/47
+add list=china address=2406:840:e60c::/46
 add list=china address=2406:840:e620::/47
 add list=china address=2406:840:e666::/47
 add list=china address=2406:840:e720::/44
@@ -12781,7 +12783,8 @@ add list=china address=2a0e:ec05:7b00::/42
 add list=china address=2a0f:1cc5:10::/48
 add list=china address=2a0f:1cc5:20::/44
 add list=china address=2a0f:1cc5:600::/48
-add list=china address=2a0f:1cc5:f00::/46
+add list=china address=2a0f:1cc5:f00::/47
+add list=china address=2a0f:1cc5:f03::/48
 add list=china address=2a0f:1cc5:f04::/47
 add list=china address=2a0f:1cc6:b100::/48
 add list=china address=2a0f:1cc6:b102::/47
@@ -12862,11 +12865,7 @@ add list=china address=2a13:a5c7:25ff:2f80::/58
 add list=china address=2a13:a5c7:25ff:2fd0::/60
 add list=china address=2a13:a5c7:25ff:2fe0::/59
 add list=china address=2a13:a5c7:2801::/48
-add list=china address=2a13:a5c7:31a0::/44
-add list=china address=2a13:a5c7:31b0::/46
-add list=china address=2a13:a5c7:31b4::/47
-add list=china address=2a13:a5c7:31b6::/48
-add list=china address=2a13:a5c7:31b8::/45
+add list=china address=2a13:a5c7:31a0::/43
 add list=china address=2a13:a5c7:3301::/48
 add list=china address=2a13:a5c7:3304::/48
 add list=china address=2a13:a5c7:3306::/47
