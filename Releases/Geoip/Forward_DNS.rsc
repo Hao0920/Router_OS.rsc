@@ -3150,7 +3150,6 @@ add regexp="^(.*\\.)?ly\\.gov\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lyfhk\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lzjscript\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lzmtnews\\.org\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?m-team\\.cc\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?m\\.hkgalden\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?m\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?m\\.moegirl\\.org\$" type=FWD forward-to=$FWDgfw
