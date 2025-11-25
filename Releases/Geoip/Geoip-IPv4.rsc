@@ -5120,6 +5120,7 @@ add list=china address=144.52.0.0/16
 add list=china address=144.7.0.0/16
 add list=china address=144.7.0.0/17
 add list=china address=144.79.10.0/23
+add list=china address=144.79.28.0/23
 add list=china address=144.79.4.0/23
 add list=china address=145.14.71.0/24
 add list=china address=145.14.72.0/22
