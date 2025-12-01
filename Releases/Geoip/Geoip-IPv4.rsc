@@ -8201,8 +8201,9 @@ add list=china address=211.159.64.0/21
 add list=china address=211.160.0.0/13
 add list=china address=211.160.0.0/14
 add list=china address=211.160.0.0/22
-add list=china address=211.160.112.0/22
-add list=china address=211.160.120.0/23
+add list=china address=211.160.112.0/23
+add list=china address=211.160.115.0/24
+add list=china address=211.160.120.0/24
 add list=china address=211.160.14.0/23
 add list=china address=211.160.16.0/21
 add list=china address=211.160.160.0/19

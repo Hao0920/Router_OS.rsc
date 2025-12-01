@@ -5887,6 +5887,7 @@ add regexp="^(.*\\.)?zacebook\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zalmos\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zamimg\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zaobao\\.com\\.sg\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?zaochenbao\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zapto\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zattoo\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zb\\.com\$" type=FWD forward-to=$FWDgfw
