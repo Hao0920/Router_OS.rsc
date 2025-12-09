@@ -4244,6 +4244,8 @@ add list=othernet address=43.247.196.0/22
 add list=othernet address=43.247.244.0/22
 add list=othernet address=43.248.0.0/22
 add list=othernet address=43.248.112.0/22
+add list=othernet address=43.248.117.0/24
+add list=othernet address=43.248.118.0/24
 add list=othernet address=43.248.232.0/22
 add list=othernet address=43.249.168.0/23
 add list=othernet address=43.249.192.0/22
@@ -4900,6 +4902,10 @@ add list=othernet address=110.40.13.0/24
 add list=othernet address=110.40.14.0/23
 add list=othernet address=110.40.128.0/17
 add list=othernet address=110.41.0.0/16
+add list=othernet address=110.42.2.0/24
+add list=othernet address=110.42.7.0/24
+add list=othernet address=110.42.13.0/24
+add list=othernet address=110.42.16.0/22
 add list=othernet address=110.42.128.0/17
 add list=othernet address=110.43.0.0/16
 add list=othernet address=110.51.0.0/16
@@ -4969,6 +4975,7 @@ add list=othernet address=114.28.229.0/24
 add list=othernet address=114.28.253.0/24
 add list=othernet address=114.55.0.0/16
 add list=othernet address=114.60.0.0/14
+add list=othernet address=114.66.4.0/24
 add list=othernet address=114.66.64.0/24
 add list=othernet address=114.66.72.0/21
 add list=othernet address=114.67.128.0/17
@@ -5085,8 +5092,6 @@ add list=othernet address=118.145.160.0/21
 add list=othernet address=118.145.176.0/20
 add list=othernet address=118.145.192.0/18
 add list=othernet address=118.178.0.0/16
-add list=othernet address=118.184.105.0/24
-add list=othernet address=118.184.106.0/23
 add list=othernet address=118.184.168.0/21
 add list=othernet address=118.184.176.0/20
 add list=othernet address=118.186.7.0/24
@@ -5106,8 +5111,6 @@ add list=othernet address=118.191.224.0/24
 add list=othernet address=118.191.240.0/23
 add list=othernet address=118.191.248.0/23
 add list=othernet address=118.191.250.0/24
-add list=othernet address=118.193.144.0/24
-add list=othernet address=118.193.176.0/24
 add list=othernet address=118.194.164.0/22
 add list=othernet address=118.195.128.0/17
 add list=othernet address=118.196.0.0/17
