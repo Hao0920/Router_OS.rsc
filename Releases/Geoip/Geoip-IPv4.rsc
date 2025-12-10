@@ -820,7 +820,6 @@ add list=china address=103.155.101.0/24
 add list=china address=103.155.110.0/23
 add list=china address=103.155.120.0/23
 add list=china address=103.155.14.0/23
-add list=china address=103.155.16.0/23
 add list=china address=103.155.17.0/24
 add list=china address=103.155.214.0/23
 add list=china address=103.155.248.0/23
