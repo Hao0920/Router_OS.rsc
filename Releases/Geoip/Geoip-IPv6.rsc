@@ -13050,7 +13050,7 @@ add list=china address=2a0e:ec05:4800::/41
 add list=china address=2a0e:ec05:79c0::/42
 add list=china address=2a0e:ec05:7a00::/40
 add list=china address=2a0e:ec05:7b00::/42
-add list=china address=2a0f:1cc5:100::/44
+add list=china address=2a0f:1cc5:100::/43
 add list=china address=2a0f:1cc5:10::/47
 add list=china address=2a0f:1cc5:1c00::/48
 add list=china address=2a0f:1cc5:1fc0::/47
