@@ -73,7 +73,6 @@ add list=scanners address=2a02:4780:10:ff1::1
 add list=scanners address=2a02:4780:12:24af::1
 add list=scanners address=2a02:4780:12:73bd::1
 add list=scanners address=2a02:4780:12:8938::1
-add list=scanners address=2a02:4780:12:983f::1
 add list=scanners address=2a02:4780:12:9a70::1
 add list=scanners address=2a02:4780:12:b821::1
 add list=scanners address=2a02:4780:12:c3e8::1
