@@ -92,6 +92,7 @@ add list=scanners address=2a02:4780:f:e17::1
 add list=scanners address=2a02:6ea0:c041:2248::14
 add list=scanners address=2a02:8440:6502:c584:50bf:70c5:e06f:fe3
 add list=scanners address=2a02:c206:2236:7174::1
+add list=scanners address=2a03:2880:f802:6::
 add list=scanners address=2a03:6f01:1:2::1:2272
 add list=scanners address=2a05:8280:f:431f::1
 add list=scanners address=2a05:8280:f:431f::10
