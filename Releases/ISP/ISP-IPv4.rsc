@@ -4132,6 +4132,7 @@ add list=othernet address=27.0.164.0/22
 add list=othernet address=27.106.204.0/22
 add list=othernet address=27.144.0.0/16
 add list=othernet address=31.56.66.0/24
+add list=othernet address=31.57.10.0/24
 add list=othernet address=31.57.248.0/24
 add list=othernet address=36.36.0.0/16
 add list=othernet address=36.51.224.0/23
@@ -4302,6 +4303,7 @@ add list=othernet address=45.202.64.0/22
 add list=othernet address=45.202.209.0/24
 add list=othernet address=45.202.210.0/23
 add list=othernet address=45.202.212.0/24
+add list=othernet address=45.249.188.0/24
 add list=othernet address=45.249.212.0/22
 add list=othernet address=45.250.152.0/23
 add list=othernet address=45.251.120.0/22
@@ -4466,6 +4468,7 @@ add list=othernet address=71.137.0.0/18
 add list=othernet address=74.122.24.0/24
 add list=othernet address=77.107.118.0/24
 add list=othernet address=81.68.0.0/14
+add list=othernet address=82.39.206.0/23
 add list=othernet address=82.156.0.0/15
 add list=othernet address=85.237.205.0/24
 add list=othernet address=94.191.0.0/17
@@ -5434,8 +5437,6 @@ add list=othernet address=141.11.141.0/24
 add list=othernet address=143.14.49.0/24
 add list=othernet address=143.20.147.0/24
 add list=othernet address=143.64.0.0/16
-add list=othernet address=144.48.180.0/22
-add list=othernet address=144.48.184.0/22
 add list=othernet address=144.48.252.0/22
 add list=othernet address=146.56.192.0/18
 add list=othernet address=146.196.112.0/22
@@ -5448,12 +5449,14 @@ add list=othernet address=150.242.156.0/22
 add list=othernet address=152.104.128.0/17
 add list=othernet address=152.136.0.0/16
 add list=othernet address=154.8.128.0/17
+add list=othernet address=154.19.43.0/24
 add list=othernet address=154.91.158.0/23
 add list=othernet address=154.208.140.0/22
 add list=othernet address=154.208.144.0/20
 add list=othernet address=154.208.160.0/21
 add list=othernet address=154.208.172.0/23
 add list=othernet address=155.117.164.0/24
+add list=othernet address=155.117.188.0/24
 add list=othernet address=156.59.202.0/23
 add list=othernet address=156.59.204.0/23
 add list=othernet address=156.59.206.0/24
