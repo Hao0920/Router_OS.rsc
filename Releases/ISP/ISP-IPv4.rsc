@@ -1410,6 +1410,7 @@ add list=china_telecom address=202.111.242.0/24
 add list=china_telecom address=202.111.244.0/22
 add list=china_telecom address=202.125.176.0/20
 add list=china_telecom address=202.127.48.0/23
+add list=china_telecom address=202.136.72.0/23
 add list=china_telecom address=202.136.208.0/21
 add list=china_telecom address=202.136.216.0/23
 add list=china_telecom address=202.141.160.0/20
@@ -2678,6 +2679,7 @@ add list=china_unicom address=139.9.224.0/20
 add list=china_unicom address=139.9.240.0/21
 add list=china_unicom address=139.9.248.0/22
 add list=china_unicom address=139.159.96.0/21
+add list=china_unicom address=139.159.104.0/22
 add list=china_unicom address=139.159.108.0/23
 add list=china_unicom address=139.159.110.0/24
 add list=china_unicom address=139.159.112.0/23
@@ -4303,7 +4305,6 @@ add list=othernet address=45.202.64.0/22
 add list=othernet address=45.202.209.0/24
 add list=othernet address=45.202.210.0/23
 add list=othernet address=45.202.212.0/24
-add list=othernet address=45.249.188.0/24
 add list=othernet address=45.249.212.0/22
 add list=othernet address=45.250.152.0/23
 add list=othernet address=45.251.120.0/22
@@ -4778,6 +4779,7 @@ add list=othernet address=103.212.12.0/22
 add list=othernet address=103.213.64.0/19
 add list=othernet address=103.213.160.0/19
 add list=othernet address=103.216.136.0/22
+add list=othernet address=103.217.180.0/24
 add list=othernet address=103.217.184.0/21
 add list=othernet address=103.217.192.0/20
 add list=othernet address=103.218.216.0/22
@@ -5149,7 +5151,6 @@ add list=othernet address=119.44.224.0/20
 add list=othernet address=119.44.253.0/24
 add list=othernet address=119.44.254.0/23
 add list=othernet address=119.45.0.0/16
-add list=othernet address=119.57.8.0/24
 add list=othernet address=119.75.208.0/20
 add list=othernet address=119.78.0.0/15
 add list=othernet address=119.91.0.0/16
@@ -5437,6 +5438,9 @@ add list=othernet address=141.11.141.0/24
 add list=othernet address=143.14.49.0/24
 add list=othernet address=143.20.147.0/24
 add list=othernet address=143.64.0.0/16
+add list=othernet address=144.48.180.0/23
+add list=othernet address=144.48.182.0/24
+add list=othernet address=144.48.184.0/22
 add list=othernet address=144.48.252.0/22
 add list=othernet address=146.56.192.0/18
 add list=othernet address=146.196.112.0/22
