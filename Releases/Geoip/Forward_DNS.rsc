@@ -557,6 +557,7 @@ add regexp="^(.*\\.)?bird\\.so\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bit-z\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bit\\.do\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bit\\.ly\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?bitbaby\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bitbay\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bitchute\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bitcointalk\\.org\$" type=FWD forward-to=$FWDgfw
@@ -2633,6 +2634,7 @@ add regexp="^(.*\\.)?iconpaper\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?icu-project\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?id\\.hao123\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?id\\.heroku\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?idcflare\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?idemocracy\\.asia\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?identi\\.ca\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?idiomconnection\\.com\$" type=FWD forward-to=$FWDgfw
