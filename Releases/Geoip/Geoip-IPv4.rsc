@@ -9815,6 +9815,7 @@ add list=china address=45.249.112.0/22
 add list=china address=45.249.12.0/22
 add list=china address=45.249.16.0/20
 add list=china address=45.249.188.0/22
+add list=china address=45.249.188.0/24
 add list=china address=45.249.192.0/20
 add list=china address=45.249.208.0/21
 add list=china address=45.249.208.0/23
