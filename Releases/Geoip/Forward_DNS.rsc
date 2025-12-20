@@ -3837,6 +3837,7 @@ add regexp="^(.*\\.)?parkansky\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?parler\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?parse\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?parsevideo\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?partnerstack\\.xyz\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?partycasino\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?partypoker\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?passion\\.com\$" type=FWD forward-to=$FWDgfw
