@@ -31,13 +31,13 @@ add list=scanners address=2001:da8:6005:6:b455:25c8::
 add list=scanners address=2001:da8:6005:6:b455:25c9::
 add list=scanners address=2001:da8:d800:740:ec4:7aff:fedb:9222
 add list=scanners address=2001:e68:541a:ce0b:f043:ee43:6cc8:5e57
+add list=scanners address=2002:6795:5a0b::6795:5a0b
 add list=scanners address=2400:dd01:3011:2:1:0:c0a8:6422
 add list=scanners address=2404:8300:12:27b9:4c31:d6f4:a773:d539
 add list=scanners address=2406:f00:1:1::178
 add list=scanners address=2406:f00:1:1::cd
 add list=scanners address=2406:f00:1:1::eb
 add list=scanners address=2408:8445:573:2795:d49d:b056:3c3b:306c
-add list=scanners address=2409:8931:8c4a:d7:7f1:d9e1:69fe:a7a1
 add list=scanners address=2409:8a00:dd1:a880:28d8:5cf1:fe3b:d85d
 add list=scanners address=2409:8a30:5922:e890:2a48:e7ff:fe7e:9649
 add list=scanners address=2409:8a6c:5762:bef1:f1f7:c9ca:b506:ed5f
