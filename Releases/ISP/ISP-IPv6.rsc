@@ -942,6 +942,7 @@ add list=china_education_and_research_network address=2a0e:b107:740::/44
 add list=great_wall_broadband_network address=2001:4510:400::/40
 add list=othernet_ipv6 address=2001:678:120::/48
 add list=othernet_ipv6 address=2001:678:10d0::/48
+add list=othernet_ipv6 address=2001:678:1184::/48
 add list=othernet_ipv6 address=2001:67c:ebc::/48
 add list=othernet_ipv6 address=2001:cc0::/32
 add list=othernet_ipv6 address=2001:dc7::/32
@@ -988,6 +989,7 @@ add list=othernet_ipv6 address=2400:9340::/32
 add list=othernet_ipv6 address=2400:95e0::/48
 add list=othernet_ipv6 address=2400:9620::/32
 add list=othernet_ipv6 address=2400:a040::/32
+add list=othernet_ipv6 address=2400:a860:1::/48
 add list=othernet_ipv6 address=2400:a860:2::/47
 add list=othernet_ipv6 address=2400:a860:4::/47
 add list=othernet_ipv6 address=2400:a860:6::/48
@@ -1147,6 +1149,7 @@ add list=othernet_ipv6 address=2403:6a00::/32
 add list=othernet_ipv6 address=2403:7580::/32
 add list=othernet_ipv6 address=2403:9b00::/32
 add list=othernet_ipv6 address=2403:a200::/32
+add list=othernet_ipv6 address=2403:ad80:101c::/48
 add list=othernet_ipv6 address=2403:ad80:8008::/48
 add list=othernet_ipv6 address=2403:ad80:8047::/48
 add list=othernet_ipv6 address=2403:b400::/32
@@ -1416,6 +1419,7 @@ add list=othernet_ipv6 address=2a0a:2846::/48
 add list=othernet_ipv6 address=2a0a:6040:ec00::/40
 add list=othernet_ipv6 address=2a0a:6044:6600::/39
 add list=othernet_ipv6 address=2a0a:6044:7a00::/40
+add list=othernet_ipv6 address=2a0a:d686:8000::/40
 add list=othernet_ipv6 address=2a0b:2542::/48
 add list=othernet_ipv6 address=2a0b:4e07:b8::/47
 add list=othernet_ipv6 address=2a0c:9a40:84e0::/48
@@ -1621,12 +1625,10 @@ add list=othernet_ipv6 address=2a14:7581:bbb::/48
 add list=othernet_ipv6 address=2a14:7581:bcd::/48
 add list=othernet_ipv6 address=2a14:7581:bff::/48
 add list=othernet_ipv6 address=2a14:7581:ffb::/48
-add list=othernet_ipv6 address=2a14:7581:ffd::/48
 add list=othernet_ipv6 address=2a14:7581:30b6::/48
 add list=othernet_ipv6 address=2a14:7581:3100::/40
 add list=othernet_ipv6 address=2a14:7581:3401::/48
-add list=othernet_ipv6 address=2a14:7583:f200::/47
-add list=othernet_ipv6 address=2a14:7583:f203::/48
+add list=othernet_ipv6 address=2a14:7583:f200::/46
 add list=othernet_ipv6 address=2a14:7583:f204::/48
 add list=othernet_ipv6 address=2a14:7583:f300::/46
 add list=othernet_ipv6 address=2a14:7583:f304::/47
