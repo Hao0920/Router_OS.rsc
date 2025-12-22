@@ -4603,6 +4603,7 @@ add regexp="^(.*\\.)?startpage\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?startuplivingchina\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?stat\\.gov\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?static-economist\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?static\\.pocketcasts\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?static\\.shemalez\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?static01\\.nyt\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?staticflickr\\.com\$" type=FWD forward-to=$FWDgfw
