@@ -3511,6 +3511,7 @@ add regexp="^(.*\\.)?nekoslovakia\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nemesis2\\.qx\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?neo-miracle\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?neowin\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?nephobox\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?netalert\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?netbirds\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?netcolony\\.com\$" type=FWD forward-to=$FWDgfw
