@@ -8470,6 +8470,7 @@ add list=china address=2402:33c0::/32
 add list=china address=2402:33e0::/32
 add list=china address=2402:34e0::/32
 add list=china address=2402:36e0::/32
+add list=china address=2402:36e0::/48
 add list=china address=2402:39c0::/32
 add list=china address=2402:3a40::/32
 add list=china address=2402:3ac0::/32
@@ -13480,6 +13481,7 @@ add list=china address=2a14:7580:740::/44
 add list=china address=2a14:7580:750::/47
 add list=china address=2a14:7580:775::/48
 add list=china address=2a14:7580:777::/48
+add list=china address=2a14:7580:9220::/44
 add list=china address=2a14:7580:c1c::/48
 add list=china address=2a14:7580:d000::/37
 add list=china address=2a14:7580:d800::/39
@@ -13503,8 +13505,9 @@ add list=china address=2a14:7581:bbb::/48
 add list=china address=2a14:7581:bcd::/48
 add list=china address=2a14:7581:bff::/48
 add list=china address=2a14:7581:ffb::/48
-add list=china address=2a14:7583:f200::/46
+add list=china address=2a14:7583:f203::/48
 add list=china address=2a14:7583:f204::/48
+add list=china address=2a14:7583:f2e9::/48
 add list=china address=2a14:7583:f300::/46
 add list=china address=2a14:7583:f304::/47
 add list=china address=2a14:7583:f4f1::/48
