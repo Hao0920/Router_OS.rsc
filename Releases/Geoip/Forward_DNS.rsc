@@ -1019,7 +1019,6 @@ add regexp="^(.*\\.)?chrome\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chromecast\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chromeexperiments\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chromestatus\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?chromium\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chuang-yen\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chubold\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chubun\\.com\$" type=FWD forward-to=$FWDgfw
@@ -3126,6 +3125,7 @@ add regexp="^(.*\\.)?lookpic\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?looktoronto\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lotsawahouse\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lotuslight\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?lovart\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lovetvshow\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lpsg\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lrfz\\.com\$" type=FWD forward-to=$FWDgfw
