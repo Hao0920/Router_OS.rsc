@@ -223,6 +223,7 @@ add regexp="^(.*\\.)?alicejapan\\.co\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?aliengu\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?alive\\.bar\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?aljazeera\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?aljazeera\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?alkasir\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?all4mom\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?allcoin\\.com\$" type=FWD forward-to=$FWDgfw
@@ -1289,7 +1290,6 @@ add regexp="^(.*\\.)?deja\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?delcamp\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?demo\\.unlock-music\\.dev\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?demosisto\\.hk\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?deno\\.dev\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?depositphotos\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?desc\\.se\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?desipro\\.de\$" type=FWD forward-to=$FWDgfw
@@ -1359,7 +1359,6 @@ add regexp="^(.*\\.)?doc\\.new\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?docker\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?docker\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dockerstatus\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?docs\\.deno\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?docs\\.new\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?doctorvoice\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?documentingreality\\.com\$" type=FWD forward-to=$FWDgfw
@@ -1985,6 +1984,7 @@ add regexp="^(.*\\.)?gfsale\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gfw\\.press\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gfw\\.report\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gfwatch\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?gfwbao\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ggpht\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ggssl\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ghidra-sre\\.org\$" type=FWD forward-to=$FWDgfw
@@ -2773,6 +2773,7 @@ add regexp="^(.*\\.)?ismalltits\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ismprofessional\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?isohunt\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?israbox\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?issues\\.chromium\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?issuu\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?istars\\.co\\.nz\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?istockphoto\\.com\$" type=FWD forward-to=$FWDgfw
@@ -4611,6 +4612,7 @@ add regexp="^(.*\\.)?staticflickr\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?stboy\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?stc\\.com\\.sa\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?steamcommunity\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?steamladder\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?steamstatic\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?steel-storm\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?steemit\\.com\$" type=FWD forward-to=$FWDgfw
