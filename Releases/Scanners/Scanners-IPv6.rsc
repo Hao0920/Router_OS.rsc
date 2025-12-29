@@ -72,8 +72,8 @@ add list=scanners address=2a05:8280:f:431f::10
 add list=scanners address=2a05:8280:f:431f::100
 add list=scanners address=2a05:8280:f:431f::11
 add list=scanners address=2a05:8280:f:431f::2
+add list=scanners address=2a09:bac1:6280::3d1:22
 add list=scanners address=2a09:bac1:62a0::3d2:24
-add list=scanners address=2a09:bac1:62a0::41d:1c
 add list=scanners address=2a09:bac1:62c0::27:9e
 add list=scanners address=2a09:bac5:5222:265a::3d2:3b
 add list=scanners address=2a09:bac5:5223:1496::20d:e2
