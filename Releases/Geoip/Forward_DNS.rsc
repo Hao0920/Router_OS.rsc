@@ -3868,6 +3868,7 @@ add regexp="^(.*\\.)?pct\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pdetails\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pdproxy\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pds\\.nasa\\.gov\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?pdst\\.fm\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?peace\\.ca\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?peacefire\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?peeasian\\.com\$" type=FWD forward-to=$FWDgfw
@@ -5261,6 +5262,7 @@ add regexp="^(.*\\.)?unseen\\.is\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?unstable\\.icu\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?unwire\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?uocn\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?up\\.audio\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?upbit\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?updates\\.tdesktop\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?upghsbc\\.com\$" type=FWD forward-to=$FWDgfw
