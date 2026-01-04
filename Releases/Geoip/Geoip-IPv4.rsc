@@ -6117,6 +6117,7 @@ add list=china address=192.198.116.144/28
 add list=china address=192.198.96.224/27
 add list=china address=192.198.98.64/28
 add list=china address=192.23.191.0/24
+add list=china address=192.232.34.0/23
 add list=china address=192.232.97.0/24
 add list=china address=192.241.110.224/27
 add list=china address=192.241.71.192/28
