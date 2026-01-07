@@ -1021,6 +1021,7 @@ add regexp="^(.*\\.)?chrome\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chromecast\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chromeexperiments\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chromestatus\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?chromium\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chuang-yen\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chubold\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chubun\\.com\$" type=FWD forward-to=$FWDgfw
@@ -2775,7 +2776,6 @@ add regexp="^(.*\\.)?ismalltits\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ismprofessional\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?isohunt\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?israbox\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?issues\\.chromium\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?issuu\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?istars\\.co\\.nz\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?istockphoto\\.com\$" type=FWD forward-to=$FWDgfw
