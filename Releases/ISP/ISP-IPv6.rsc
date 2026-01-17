@@ -7,7 +7,6 @@ remove [find list=china_education_and_research_network]
 remove [find list=great_wall_broadband_network]
 remove [find list=othernet_ipv6]
 add list=china_telecom address=2001:c68::/32
-add list=china_telecom address=2001:dc7:cd1a::/48
 add list=china_telecom address=2001:dd8:1::/48
 add list=china_telecom address=2400:5280:f803::/48
 add list=china_telecom address=2400:6e60:1301::/48
@@ -64,14 +63,14 @@ add list=china_telecom address=2401:1d40:2f00::/48
 add list=china_telecom address=2401:1d40:3101::/48
 add list=china_telecom address=2401:1d40:3f00::/48
 add list=china_telecom address=2401:3480::/36
-add list=china_telecom address=2401:3480:2000::/48
-add list=china_telecom address=2401:3480:3000::/36
+add list=china_telecom address=2401:3480:2000::/35
 add list=china_telecom address=2401:5c20:10::/48
 add list=china_telecom address=2401:71c0::/48
 add list=china_telecom address=2401:a140:1::/48
 add list=china_telecom address=2401:be00::/48
 add list=china_telecom address=2401:d0e0:3::/48
 add list=china_telecom address=2402:c60::/48
+add list=china_telecom address=2402:36e0::/44
 add list=china_telecom address=2402:4e00::/32
 add list=china_telecom address=2402:5ec0::/32
 add list=china_telecom address=2402:92c0::/48
@@ -79,7 +78,7 @@ add list=china_telecom address=2402:db40:5100::/48
 add list=china_telecom address=2402:db40:5f00::/46
 add list=china_telecom address=2402:f140:ff00::/46
 add list=china_telecom address=2402:f140:ff04::/48
-add list=china_telecom address=2402:f8c0:2::/48
+add list=china_telecom address=2402:f8c0::/42
 add list=china_telecom address=2403:1ec0:1200::/48
 add list=china_telecom address=2403:1ec0:1400::/48
 add list=china_telecom address=2403:1ec0:1600::/48
@@ -1477,7 +1476,6 @@ add list=othernet_ipv6 address=2a0e:b107:178d::/48
 add list=othernet_ipv6 address=2a0e:b107:178e::/48
 add list=othernet_ipv6 address=2a0f:1cc5:10::/47
 add list=othernet_ipv6 address=2a0f:1cc5:20::/44
-add list=othernet_ipv6 address=2a0f:1cc5:100::/44
 add list=othernet_ipv6 address=2a0f:1cc5:130::/44
 add list=othernet_ipv6 address=2a0f:1cc5:600::/47
 add list=othernet_ipv6 address=2a0f:1cc5:610::/48
@@ -1492,6 +1490,7 @@ add list=othernet_ipv6 address=2a0f:1cc5:1400::/48
 add list=othernet_ipv6 address=2a0f:1cc5:1c00::/47
 add list=othernet_ipv6 address=2a0f:1cc5:1d10::/47
 add list=othernet_ipv6 address=2a0f:1cc5:1d14::/47
+add list=othernet_ipv6 address=2a0f:1cc5:2600::/40
 add list=othernet_ipv6 address=2a0f:1cc5:2d01::/48
 add list=othernet_ipv6 address=2a0f:1cc5:2d02::/48
 add list=othernet_ipv6 address=2a0f:1cc5:2e01::/48
@@ -1510,6 +1509,7 @@ add list=othernet_ipv6 address=2a0f:6284:4c30::/48
 add list=othernet_ipv6 address=2a0f:6284:4c40::/43
 add list=othernet_ipv6 address=2a0f:6284:4c60::/44
 add list=othernet_ipv6 address=2a0f:6284:4c80::/43
+add list=othernet_ipv6 address=2a0f:6284:4cd0::/44
 add list=othernet_ipv6 address=2a0f:6284:4f00::/40
 add list=othernet_ipv6 address=2a0f:6284:6000::/35
 add list=othernet_ipv6 address=2a0f:6284:e000::/35
@@ -1639,7 +1639,7 @@ add list=othernet_ipv6 address=2a14:7583:f244::/47
 add list=othernet_ipv6 address=2a14:7583:f264::/48
 add list=othernet_ipv6 address=2a14:7583:f268::/48
 add list=othernet_ipv6 address=2a14:7583:f300::/46
-add list=othernet_ipv6 address=2a14:7583:f304::/47
+add list=othernet_ipv6 address=2a14:7583:f305::/48
 add list=othernet_ipv6 address=2a14:7583:f4f0::/47
 add list=othernet_ipv6 address=2a14:7583:f4f4::/48
 add list=othernet_ipv6 address=2a14:7583:f4fe::/48
@@ -1653,6 +1653,5 @@ add list=othernet_ipv6 address=2a14:7583:f743::/48
 add list=othernet_ipv6 address=2a14:7583:f744::/48
 add list=othernet_ipv6 address=2a14:7583:f764::/48
 add list=othernet_ipv6 address=2a14:7586:6100::/47
-add list=othernet_ipv6 address=2a14:7586:6103::/48
 add list=othernet_ipv6 address=2a14:7586:6105::/48
 /file remove ISP-IPv6.rsc
