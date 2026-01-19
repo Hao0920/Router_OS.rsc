@@ -870,6 +870,7 @@ add list=china address=103.160.254.0/23
 add list=china address=103.160.32.0/22
 add list=china address=103.161.102.0/23
 add list=china address=103.161.138.0/23
+add list=china address=103.161.139.0/24
 add list=china address=103.161.14.0/23
 add list=china address=103.161.208.0/23
 add list=china address=103.161.220.0/23
