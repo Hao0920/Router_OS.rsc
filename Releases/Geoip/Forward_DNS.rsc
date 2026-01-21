@@ -5557,6 +5557,7 @@ add regexp="^(.*\\.)?wefightcensorship\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wefong\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wego\\.here\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?weiboleak\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?weights\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?weihuo\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?weijingsheng\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?weiming\\.info\$" type=FWD forward-to=$FWDgfw
@@ -5878,6 +5879,7 @@ add regexp="^(.*\\.)?you\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?youdontcare\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?youjizz\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?youmaker\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?youmind\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?youngpornvideos\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?youngspiration\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?youpai\\.org\$" type=FWD forward-to=$FWDgfw
