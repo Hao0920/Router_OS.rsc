@@ -80,7 +80,6 @@ add list=scanners address=2a05:8280:f:431f::10
 add list=scanners address=2a05:8280:f:431f::100
 add list=scanners address=2a05:8280:f:431f::11
 add list=scanners address=2a05:8280:f:431f::2
-add list=scanners address=2a09:bac1:5b00:20::277:22
 add list=scanners address=2a09:bac1:6560:8::19c:296
 add list=scanners address=2a09:bac5:503c:1028::19c:296
 add list=scanners address=2a09:bac6:d698:1028::19c:296
