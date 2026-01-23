@@ -83,7 +83,6 @@ add list=scanners address=2a02:c207:2260:2713::1
 add list=scanners address=2a02:c207:2283:7153::1
 add list=scanners address=2a02:c207:2298:7367::1
 add list=scanners address=2a02:c207:2301:8777::1
-add list=scanners address=2a04:3542:1000:910:bcb3:31ff:fe76:633b
 add list=scanners address=2a05:8280:f:431f::1
 add list=scanners address=2a05:8280:f:431f::10
 add list=scanners address=2a05:8280:f:431f::100
