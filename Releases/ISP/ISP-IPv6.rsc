@@ -1342,6 +1342,7 @@ add list=othernet_ipv6 address=2407:d9c0::/32
 add list=othernet_ipv6 address=2408:4000::/22
 add list=othernet_ipv6 address=2409:2000::/31
 add list=othernet_ipv6 address=2409:2002::/32
+add list=othernet_ipv6 address=2409:2003::/47
 add list=othernet_ipv6 address=2409:27fe::/33
 add list=othernet_ipv6 address=240a:2000::/40
 add list=othernet_ipv6 address=240a:2001:100::/40
@@ -1382,7 +1383,6 @@ add list=othernet_ipv6 address=2602:f92a:a473::/48
 add list=othernet_ipv6 address=2602:f92a:dead::/48
 add list=othernet_ipv6 address=2602:f93b:400::/38
 add list=othernet_ipv6 address=2602:f93b:800::/37
-add list=othernet_ipv6 address=2602:f9ba:a8::/48
 add list=othernet_ipv6 address=2602:f9ba:10c::/48
 add list=othernet_ipv6 address=2602:fab0:11::/48
 add list=othernet_ipv6 address=2602:feda:1bf::/48
@@ -1399,6 +1399,7 @@ add list=othernet_ipv6 address=2a06:1281:8000::/36
 add list=othernet_ipv6 address=2a06:3603::/32
 add list=othernet_ipv6 address=2a06:3604::/30
 add list=othernet_ipv6 address=2a06:9f81:4600::/43
+add list=othernet_ipv6 address=2a06:9f81:4620::/44
 add list=othernet_ipv6 address=2a06:9f81:4640::/43
 add list=othernet_ipv6 address=2a06:a005:260::/43
 add list=othernet_ipv6 address=2a06:a005:280::/43
@@ -1485,7 +1486,7 @@ add list=othernet_ipv6 address=2a0f:1cc5:600::/47
 add list=othernet_ipv6 address=2a0f:1cc5:645::/48
 add list=othernet_ipv6 address=2a0f:1cc5:900::/40
 add list=othernet_ipv6 address=2a0f:1cc5:f00::/48
-add list=othernet_ipv6 address=2a0f:1cc5:f02::/48
+add list=othernet_ipv6 address=2a0f:1cc5:f02::/47
 add list=othernet_ipv6 address=2a0f:1cc5:f05::/48
 add list=othernet_ipv6 address=2a0f:1cc5:f06::/48
 add list=othernet_ipv6 address=2a0f:1cc5:fff::/48
@@ -1573,7 +1574,6 @@ add list=othernet_ipv6 address=2a14:67c1:a02f::/48
 add list=othernet_ipv6 address=2a14:67c1:a040::/47
 add list=othernet_ipv6 address=2a14:67c1:a110::/44
 add list=othernet_ipv6 address=2a14:67c1:a123::/48
-add list=othernet_ipv6 address=2a14:67c1:a124::/48
 add list=othernet_ipv6 address=2a14:67c1:a128::/48
 add list=othernet_ipv6 address=2a14:67c1:a144::/48
 add list=othernet_ipv6 address=2a14:67c1:b000::/48
@@ -1648,5 +1648,6 @@ add list=othernet_ipv6 address=2a14:7583:f743::/48
 add list=othernet_ipv6 address=2a14:7583:f744::/48
 add list=othernet_ipv6 address=2a14:7583:f764::/48
 add list=othernet_ipv6 address=2a14:7586:6100::/48
+add list=othernet_ipv6 address=2a14:7586:6103::/48
 add list=othernet_ipv6 address=2a14:7586:6105::/48
 /file remove ISP-IPv6.rsc
