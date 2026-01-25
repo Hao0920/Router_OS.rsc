@@ -1271,7 +1271,7 @@ add list=othernet_ipv6 address=2406:840:fc10::/44
 add list=othernet_ipv6 address=2406:840:fc20::/43
 add list=othernet_ipv6 address=2406:840:fc40::/42
 add list=othernet_ipv6 address=2406:840:fc80::/45
-add list=othernet_ipv6 address=2406:840:fc88::/48
+add list=othernet_ipv6 address=2406:840:fc88::/47
 add list=othernet_ipv6 address=2406:840:fc8f::/48
 add list=othernet_ipv6 address=2406:840:fc90::/44
 add list=othernet_ipv6 address=2406:840:fca0::/43
@@ -1485,10 +1485,11 @@ add list=othernet_ipv6 address=2a0f:1cc5:130::/44
 add list=othernet_ipv6 address=2a0f:1cc5:600::/47
 add list=othernet_ipv6 address=2a0f:1cc5:645::/48
 add list=othernet_ipv6 address=2a0f:1cc5:661::/48
+add list=othernet_ipv6 address=2a0f:1cc5:662::/48
 add list=othernet_ipv6 address=2a0f:1cc5:900::/40
 add list=othernet_ipv6 address=2a0f:1cc5:f00::/48
 add list=othernet_ipv6 address=2a0f:1cc5:f02::/47
-add list=othernet_ipv6 address=2a0f:1cc5:f05::/48
+add list=othernet_ipv6 address=2a0f:1cc5:f04::/47
 add list=othernet_ipv6 address=2a0f:1cc5:f06::/48
 add list=othernet_ipv6 address=2a0f:1cc5:fff::/48
 add list=othernet_ipv6 address=2a0f:1cc5:1310::/44
@@ -1613,6 +1614,7 @@ add list=othernet_ipv6 address=2a14:7580:777::/48
 add list=othernet_ipv6 address=2a14:7580:d000::/37
 add list=othernet_ipv6 address=2a14:7580:d800::/39
 add list=othernet_ipv6 address=2a14:7580:df00::/40
+add list=othernet_ipv6 address=2a14:7580:e200::/40
 add list=othernet_ipv6 address=2a14:7580:fe00::/40
 add list=othernet_ipv6 address=2a14:7580:ffe4::/48
 add list=othernet_ipv6 address=2a14:7580:fff4::/48
@@ -1648,7 +1650,7 @@ add list=othernet_ipv6 address=2a14:7583:f709::/48
 add list=othernet_ipv6 address=2a14:7583:f743::/48
 add list=othernet_ipv6 address=2a14:7583:f744::/48
 add list=othernet_ipv6 address=2a14:7583:f764::/48
-add list=othernet_ipv6 address=2a14:7586:6100::/48
+add list=othernet_ipv6 address=2a14:7586:6100::/47
 add list=othernet_ipv6 address=2a14:7586:6103::/48
 add list=othernet_ipv6 address=2a14:7586:6105::/48
 /file remove ISP-IPv6.rsc
