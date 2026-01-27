@@ -10064,7 +10064,9 @@ add list=china address=2406:840:fc00::/40
 add list=china address=2406:840:fc10::/44
 add list=china address=2406:840:fc20::/43
 add list=china address=2406:840:fc40::/42
-add list=china address=2406:840:fc80::/45
+add list=china address=2406:840:fc80::/47
+add list=china address=2406:840:fc82::/48
+add list=china address=2406:840:fc84::/46
 add list=china address=2406:840:fc88::/47
 add list=china address=2406:840:fc8f::/48
 add list=china address=2406:840:fc90::/44
@@ -10081,7 +10083,6 @@ add list=china address=2406:840:fdc0::/44
 add list=china address=2406:840:fde0::/45
 add list=china address=2406:840:fde8::/47
 add list=china address=2406:840:fdea::/48
-add list=china address=2406:840:fdeb::/48
 add list=china address=2406:840:fdec::/46
 add list=china address=2406:840:fdf0::/44
 add list=china address=2406:840:fe00::/40
@@ -10103,7 +10104,7 @@ add list=china address=2406:840:feca::/47
 add list=china address=2406:840:fecc::/47
 add list=china address=2406:840:fecf::/48
 add list=china address=2406:840:fed1::/48
-add list=china address=2406:840:fed8::/47
+add list=china address=2406:840:fed8::/48
 add list=china address=2406:840:fedb::/48
 add list=china address=2406:840:fedc::/48
 add list=china address=2406:840:fedf::/48
@@ -11770,7 +11771,7 @@ add list=china address=2602:f92a:a470::/48
 add list=china address=2602:f92a:a473::/48
 add list=china address=2602:f92a:dead::/48
 add list=china address=2602:f93b:400::/38
-add list=china address=2602:f93b:800::/37
+add list=china address=2602:f93b:c00::/38
 add list=china address=2602:f9ba:10c::/48
 add list=china address=2602:f9ba:a8::/48
 add list=china address=2602:fab0:11::/48
@@ -13402,7 +13403,9 @@ add list=china address=2a0e:ec05:4800::/41
 add list=china address=2a0e:ec05:79c0::/42
 add list=china address=2a0e:ec05:7a00::/40
 add list=china address=2a0e:ec05:7b00::/42
+add list=china address=2a0f:1cc4::/32
 add list=china address=2a0f:1cc5:10::/46
+add list=china address=2a0f:1cc5:110::/44
 add list=china address=2a0f:1cc5:1265:8621::/64
 add list=china address=2a0f:1cc5:1286::/47
 add list=china address=2a0f:1cc5:130::/44
@@ -13435,6 +13438,7 @@ add list=china address=2a0f:1cc5:f06::/48
 add list=china address=2a0f:1cc5:fff::/48
 add list=china address=2a0f:1cc5:ffff::/48
 add list=china address=2a0f:1cc6:b110::/47
+add list=china address=2a0f:1cc7::/32
 add list=china address=2a0f:6284:3000::/39
 add list=china address=2a0f:6284:300::/40
 add list=china address=2a0f:6284:400::/42
@@ -13565,6 +13569,7 @@ add list=china address=2a14:67c1:a124::/47
 add list=china address=2a14:67c1:a125::/48
 add list=china address=2a14:67c1:a128::/48
 add list=china address=2a14:67c1:a144::/48
+add list=china address=2a14:67c1:a150::/44
 add list=china address=2a14:67c1:b000::/48
 add list=china address=2a14:67c1:b065::/48
 add list=china address=2a14:67c1:b066:5555::/64
@@ -13581,16 +13586,18 @@ add list=china address=2a14:67c1:b136::/48
 add list=china address=2a14:67c1:b140::/46
 add list=china address=2a14:67c1:b140::/48
 add list=china address=2a14:67c1:b146::/48
-add list=china address=2a14:67c1:b501::/48
+add list=china address=2a14:67c1:b500::/47
 add list=china address=2a14:67c1:b514::/48
 add list=china address=2a14:67c1:b549::/48
 add list=china address=2a14:67c1:b561::/48
 add list=china address=2a14:67c1:b563::/48
+add list=china address=2a14:67c1:b578::/48
 add list=china address=2a14:67c1:b581::/48
 add list=china address=2a14:67c1:b582::/48
 add list=china address=2a14:67c1:b586::/48
 add list=china address=2a14:67c1:b588::/47
 add list=china address=2a14:67c1:b590::/48
+add list=china address=2a14:67c1:b599::/48
 add list=china address=2a14:67c1:c300::/40
 add list=china address=2a14:67c1:c600::/40
 add list=china address=2a14:67c3:30::/44
@@ -13644,6 +13651,7 @@ add list=china address=2a14:7583:f702::/48
 add list=china address=2a14:7583:f704::/48
 add list=china address=2a14:7583:f706::/48
 add list=china address=2a14:7583:f709::/48
+add list=china address=2a14:7583:f70b::/48
 add list=china address=2a14:7583:f743::/48
 add list=china address=2a14:7583:f744::/48
 add list=china address=2a14:7583:f764::/48
