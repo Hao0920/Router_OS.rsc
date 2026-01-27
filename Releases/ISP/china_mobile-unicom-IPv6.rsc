@@ -1084,6 +1084,7 @@ add list=china_mobile address=2402:1460::/32
 add list=china_mobile address=2402:20e0:f000::/48
 add list=china_mobile address=2402:3180::/46
 add list=china_mobile address=2402:3180:8000::/33
+add list=china_mobile address=2402:33e0::/32
 add list=china_mobile address=2402:34e0::/32
 add list=china_mobile address=2402:3c00::/32
 add list=china_mobile address=2402:3f80:1400::/40
@@ -1265,7 +1266,9 @@ add list=china_mobile address=2406:840:fa60::/44
 add list=china_mobile address=2406:840:fc10::/44
 add list=china_mobile address=2406:840:fc20::/43
 add list=china_mobile address=2406:840:fc40::/42
-add list=china_mobile address=2406:840:fc80::/45
+add list=china_mobile address=2406:840:fc80::/47
+add list=china_mobile address=2406:840:fc82::/48
+add list=china_mobile address=2406:840:fc84::/46
 add list=china_mobile address=2406:840:fc88::/47
 add list=china_mobile address=2406:840:fc8f::/48
 add list=china_mobile address=2406:840:fc90::/44
@@ -1277,7 +1280,6 @@ add list=china_mobile address=2406:840:fcf4::/47
 add list=china_mobile address=2406:840:fd40::/42
 add list=china_mobile address=2406:840:fd80::/42
 add list=china_mobile address=2406:840:fdc0::/44
-add list=china_mobile address=2406:840:fdeb::/48
 add list=china_mobile address=2406:840:fe27::/48
 add list=china_mobile address=2406:840:fe90::/46
 add list=china_mobile address=2406:840:fe94::/48
@@ -1296,7 +1298,7 @@ add list=china_mobile address=2406:840:feca::/47
 add list=china_mobile address=2406:840:fecc::/47
 add list=china_mobile address=2406:840:fecf::/48
 add list=china_mobile address=2406:840:fed1::/48
-add list=china_mobile address=2406:840:fed8::/47
+add list=china_mobile address=2406:840:fed8::/48
 add list=china_mobile address=2406:840:fedb::/48
 add list=china_mobile address=2406:840:fedc::/48
 add list=china_mobile address=2406:840:fedf::/48
@@ -1380,7 +1382,7 @@ add list=china_mobile address=2602:f92a:a470::/48
 add list=china_mobile address=2602:f92a:a473::/48
 add list=china_mobile address=2602:f92a:dead::/48
 add list=china_mobile address=2602:f93b:400::/38
-add list=china_mobile address=2602:f93b:800::/37
+add list=china_mobile address=2602:f93b:c00::/38
 add list=china_mobile address=2602:f9ba:a8::/48
 add list=china_mobile address=2602:f9ba:10c::/48
 add list=china_mobile address=2602:fab0:11::/48
@@ -1474,8 +1476,10 @@ add list=china_mobile address=2a0e:b107:da0::/44
 add list=china_mobile address=2a0e:b107:14a0::/44
 add list=china_mobile address=2a0e:b107:178d::/48
 add list=china_mobile address=2a0e:b107:178e::/48
+add list=china_mobile address=2a0f:1cc4::/32
 add list=china_mobile address=2a0f:1cc5:10::/46
 add list=china_mobile address=2a0f:1cc5:20::/44
+add list=china_mobile address=2a0f:1cc5:110::/44
 add list=china_mobile address=2a0f:1cc5:130::/44
 add list=china_mobile address=2a0f:1cc5:600::/47
 add list=china_mobile address=2a0f:1cc5:645::/48
@@ -1500,6 +1504,7 @@ add list=china_mobile address=2a0f:1cc5:2e01::/48
 add list=china_mobile address=2a0f:1cc5:2e02::/48
 add list=china_mobile address=2a0f:1cc5:ffff::/48
 add list=china_mobile address=2a0f:1cc6:b110::/47
+add list=china_mobile address=2a0f:1cc7::/32
 add list=china_mobile address=2a0f:6284:300::/40
 add list=china_mobile address=2a0f:6284:400::/42
 add list=china_mobile address=2a0f:6284:440::/43
@@ -1572,6 +1577,7 @@ add list=china_mobile address=2a14:67c1:a123::/48
 add list=china_mobile address=2a14:67c1:a124::/47
 add list=china_mobile address=2a14:67c1:a128::/48
 add list=china_mobile address=2a14:67c1:a144::/48
+add list=china_mobile address=2a14:67c1:a150::/44
 add list=china_mobile address=2a14:67c1:b000::/48
 add list=china_mobile address=2a14:67c1:b065::/48
 add list=china_mobile address=2a14:67c1:b066::/48
@@ -1585,16 +1591,18 @@ add list=china_mobile address=2a14:67c1:b134::/48
 add list=china_mobile address=2a14:67c1:b136::/48
 add list=china_mobile address=2a14:67c1:b140::/46
 add list=china_mobile address=2a14:67c1:b146::/48
-add list=china_mobile address=2a14:67c1:b501::/48
+add list=china_mobile address=2a14:67c1:b500::/47
 add list=china_mobile address=2a14:67c1:b514::/48
 add list=china_mobile address=2a14:67c1:b549::/48
 add list=china_mobile address=2a14:67c1:b561::/48
 add list=china_mobile address=2a14:67c1:b563::/48
+add list=china_mobile address=2a14:67c1:b578::/48
 add list=china_mobile address=2a14:67c1:b581::/48
 add list=china_mobile address=2a14:67c1:b582::/48
 add list=china_mobile address=2a14:67c1:b586::/48
 add list=china_mobile address=2a14:67c1:b588::/47
 add list=china_mobile address=2a14:67c1:b590::/48
+add list=china_mobile address=2a14:67c1:b599::/48
 add list=china_mobile address=2a14:67c1:c300::/40
 add list=china_mobile address=2a14:67c1:c600::/40
 add list=china_mobile address=2a14:67c3:30::/44
@@ -1642,6 +1650,7 @@ add list=china_mobile address=2a14:7583:f4fe::/48
 add list=china_mobile address=2a14:7583:f500::/48
 add list=china_mobile address=2a14:7583:f704::/48
 add list=china_mobile address=2a14:7583:f709::/48
+add list=china_mobile address=2a14:7583:f70b::/48
 add list=china_mobile address=2a14:7583:f743::/48
 add list=china_mobile address=2a14:7583:f744::/48
 add list=china_mobile address=2a14:7583:f764::/48
