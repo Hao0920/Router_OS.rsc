@@ -10024,7 +10024,7 @@ add list=china address=2406:840:e60c::/48
 add list=china address=2406:840:e60e::/47
 add list=china address=2406:840:e610::/44
 add list=china address=2406:840:e620::/43
-add list=china address=2406:840:e620::/47
+add list=china address=2406:840:e620::/48
 add list=china address=2406:840:e640::/42
 add list=china address=2406:840:e666::/47
 add list=china address=2406:840:e680::/41
@@ -10102,9 +10102,7 @@ add list=china address=2406:840:fc00::/40
 add list=china address=2406:840:fc10::/44
 add list=china address=2406:840:fc20::/43
 add list=china address=2406:840:fc40::/42
-add list=china address=2406:840:fc80::/47
-add list=china address=2406:840:fc82::/48
-add list=china address=2406:840:fc84::/46
+add list=china address=2406:840:fc80::/45
 add list=china address=2406:840:fc88::/47
 add list=china address=2406:840:fc8f::/48
 add list=china address=2406:840:fc90::/44
@@ -12275,7 +12273,6 @@ add list=china address=2a06:a005:8d0::/44
 add list=china address=2a06:a005:a13::/48
 add list=china address=2a07:54c1:2204::/48
 add list=china address=2a07:d887:2f00::/40
-add list=china address=2a09:54c4::/31
 add list=china address=2a09:54c6:d000::/47
 add list=china address=2a09:54c6:e000::/36
 add list=china address=2a09:b280:ff81::/48
@@ -13468,7 +13465,6 @@ add list=china address=2a0f:1cc5:1fc2::/48
 add list=china address=2a0f:1cc5:20::/44
 add list=china address=2a0f:1cc5:2600::/44
 add list=china address=2a0f:1cc5:2d01::/48
-add list=china address=2a0f:1cc5:2d02::/48
 add list=china address=2a0f:1cc5:2e01::/48
 add list=china address=2a0f:1cc5:2e02::/48
 add list=china address=2a0f:1cc5:600::/47
@@ -13678,7 +13674,7 @@ add list=china address=2a14:7581:bcd::/48
 add list=china address=2a14:7581:bff::/48
 add list=china address=2a14:7581:fe6::/48
 add list=china address=2a14:7581:ffb::/48
-add list=china address=2a14:7583:f224::/47
+add list=china address=2a14:7583:f224::/48
 add list=china address=2a14:7583:f228::/48
 add list=china address=2a14:7583:f22c::/48
 add list=china address=2a14:7583:f244::/48

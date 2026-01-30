@@ -1844,6 +1844,7 @@ add regexp="^(.*\\.)?freeoz\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freess\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freessh\\.us\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freetcp\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?freeterabox\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freetibet\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freetibet\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freetibetanheroes\\.org\$" type=FWD forward-to=$FWDgfw
