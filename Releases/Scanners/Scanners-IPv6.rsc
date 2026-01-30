@@ -41,7 +41,6 @@ add list=scanners address=2002:8cfa:ac6a::8cfa:ac6a
 add list=scanners address=2002:8cfa:acb2::8cfa:acb2
 add list=scanners address=2002:8cfa:acbf::8cfa:acbf
 add list=scanners address=2002:8cfa:ad6b::8cfa:ad6b
-add list=scanners address=2002:8cfa:ad82::8cfa:ad82
 add list=scanners address=2002:8cfa:adc2::8cfa:adc2
 add list=scanners address=2002:8cfa:addd::8cfa:addd
 add list=scanners address=2002:8cfa:b00d::8cfa:b00d
