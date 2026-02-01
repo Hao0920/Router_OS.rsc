@@ -468,6 +468,7 @@ add regexp="^(.*\\.)?bb-chat\\.tv\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bbc\\.co\\.uk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bbc\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bbc\\.in\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?bbc\\.pdn\\.tritondigital\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bbcchinese\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bbchat\\.tv\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bbci\\.co\\.uk\$" type=FWD forward-to=$FWDgfw
@@ -1274,6 +1275,7 @@ add regexp="^(.*\\.)?db\\.tt\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dbgjd\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dcard\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dcmilitary\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?dcs-spotify\\.megaphone\\.fm\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ddc\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ddex\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ddns\\.info\$" type=FWD forward-to=$FWDgfw
@@ -2404,6 +2406,7 @@ add regexp="^(.*\\.)?hegre-art\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?helloandroid\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?helloqueer\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hellouk\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?help\\.byspotify\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?helpeachpeople\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?helpster\\.de\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?helpzhuling\\.org\$" type=FWD forward-to=$FWDgfw
