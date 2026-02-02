@@ -4746,6 +4746,7 @@ add regexp="^(.*\\.)?taedp\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tafm\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tagwalk\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tahr\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?tails\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?taipei\\.gov\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?taipeisociety\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?taipeitimes\\.com\$" type=FWD forward-to=$FWDgfw
