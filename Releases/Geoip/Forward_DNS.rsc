@@ -3829,6 +3829,7 @@ add regexp="^(.*\\.)?pacopacomama\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?padmanet\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?page\\.link\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?page2rss\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?pages\\.dev\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?paimon\\.moe\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?palacemoon\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?paljorpublications\\.com\$" type=FWD forward-to=$FWDgfw
@@ -4367,6 +4368,7 @@ add regexp="^(.*\\.)?seed4\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?seesmic\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?seevpn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?seezone\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?sef\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sehuatang\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sehuatang\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sejie\\.com\$" type=FWD forward-to=$FWDgfw
@@ -5712,6 +5714,7 @@ add regexp="^(.*\\.)?www\\.dwheeler\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.eastturkistan\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.gmiddle\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.gmiddle\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?www\\.hoyolab\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.hustlercash\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.idlcoyote\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.imdb\\.com\$" type=FWD forward-to=$FWDgfw
