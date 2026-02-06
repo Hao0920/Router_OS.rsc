@@ -2335,6 +2335,7 @@ add regexp="^(.*\\.)?greenvpn\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?greenvpn\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?grindr\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?grok\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?grokipedia\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ground\\.news\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gs-discuss\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gsearch\\.media\$" type=FWD forward-to=$FWDgfw
