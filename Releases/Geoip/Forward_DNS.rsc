@@ -577,6 +577,7 @@ add regexp="^(.*\\.)?bitmex\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bitshare\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bitsnoop\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bitterwinter\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?bittorrent\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bitvise\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bitz\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bizhat\\.com\$" type=FWD forward-to=$FWDgfw
@@ -2411,6 +2412,7 @@ add regexp="^(.*\\.)?help\\.byspotify\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?helpeachpeople\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?helpster\\.de\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?helpzhuling\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?hembed\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hentai\\.to\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hentaitube\\.tv\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hentaivideoworld\\.com\$" type=FWD forward-to=$FWDgfw
@@ -5355,6 +5357,7 @@ add regexp="^(.*\\.)?uygur\\.fc2web\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?uygur\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?uymaarip\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?v2\\.help\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?v2\\.hysteria\\.network\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?v2ex\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?v2fly\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?v2ray\\.com\$" type=FWD forward-to=$FWDgfw
