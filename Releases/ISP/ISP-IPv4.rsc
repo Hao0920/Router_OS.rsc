@@ -1738,6 +1738,7 @@ add list=china_telecom address=220.113.96.0/21
 add list=china_telecom address=220.154.0.0/20
 add list=china_telecom address=220.154.16.0/22
 add list=china_telecom address=220.154.128.0/20
+add list=china_telecom address=220.154.144.0/24
 add list=china_telecom address=220.154.147.0/24
 add list=china_telecom address=220.160.0.0/12
 add list=china_telecom address=220.176.0.0/14
@@ -4601,6 +4602,7 @@ add list=othernet address=103.156.174.0/23
 add list=othernet address=103.156.186.0/24
 add list=othernet address=103.161.254.0/23
 add list=othernet address=103.169.62.0/23
+add list=othernet address=103.170.210.0/24
 add list=othernet address=103.170.212.0/23
 add list=othernet address=103.172.52.0/24
 add list=othernet address=103.172.191.0/24
@@ -4645,7 +4647,6 @@ add list=othernet address=103.216.136.0/22
 add list=othernet address=103.217.184.0/21
 add list=othernet address=103.217.192.0/20
 add list=othernet address=103.218.216.0/22
-add list=othernet address=103.219.85.0/24
 add list=othernet address=103.220.92.0/22
 add list=othernet address=103.224.220.0/22
 add list=othernet address=103.226.57.0/24
@@ -5205,7 +5206,6 @@ add list=othernet address=123.108.88.0/23
 add list=othernet address=123.206.0.0/15
 add list=othernet address=123.249.0.0/17
 add list=othernet address=123.253.226.0/24
-add list=othernet address=124.14.24.0/24
 add list=othernet address=124.16.0.0/15
 add list=othernet address=124.22.0.0/15
 add list=othernet address=124.28.192.0/18
@@ -5462,7 +5462,7 @@ add list=othernet address=202.6.202.0/23
 add list=othernet address=202.38.128.0/23
 add list=othernet address=202.41.152.0/21
 add list=othernet address=202.41.241.0/24
-add list=othernet address=202.41.242.0/24
+add list=othernet address=202.41.242.0/23
 add list=othernet address=202.41.244.0/22
 add list=othernet address=202.41.248.0/21
 add list=othernet address=202.46.39.0/24
