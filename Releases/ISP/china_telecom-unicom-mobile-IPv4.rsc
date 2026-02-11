@@ -1075,6 +1075,7 @@ add list=china_telecom address=122.240.0.0/13
 add list=china_telecom address=122.248.48.0/21
 add list=china_telecom address=122.248.56.0/22
 add list=china_telecom address=123.49.192.0/23
+add list=china_telecom address=123.49.245.0/24
 add list=china_telecom address=123.52.0.0/14
 add list=china_telecom address=123.58.0.0/19
 add list=china_telecom address=123.58.224.0/19
@@ -2470,6 +2471,7 @@ add list=china_unicom address=118.194.48.0/21
 add list=china_unicom address=118.194.240.0/21
 add list=china_unicom address=118.199.0.0/16
 add list=china_unicom address=118.212.0.0/16
+add list=china_unicom address=118.244.160.0/19
 add list=china_unicom address=118.247.0.0/16
 add list=china_unicom address=119.4.0.0/14
 add list=china_unicom address=119.32.0.0/15
@@ -3866,7 +3868,7 @@ add list=china_telecom address=118.144.77.0/24
 add list=china_telecom address=118.144.78.0/24
 add list=china_telecom address=118.144.80.0/20
 add list=china_telecom address=118.145.0.0/19
-add list=china_telecom address=118.244.128.0/18
+add list=china_telecom address=118.244.128.0/19
 add list=china_telecom address=118.244.192.0/22
 add list=china_telecom address=118.244.196.0/24
 add list=china_telecom address=118.244.202.0/23
@@ -3898,7 +3900,6 @@ add list=china_telecom address=203.207.208.0/20
 add list=china_telecom address=203.207.224.0/19
 add list=china_telecom address=210.74.0.0/22
 add list=china_telecom address=210.75.96.0/19
-add list=china_telecom address=210.76.96.0/19
 add list=china_telecom address=210.79.224.0/19
 add list=china_telecom address=211.100.224.0/19
 add list=china_telecom address=211.101.0.0/18
@@ -4138,7 +4139,7 @@ add list=china_telecom address=45.116.140.0/22
 add list=china_telecom address=45.116.152.0/22
 add list=china_telecom address=45.116.208.0/22
 add list=china_telecom address=45.117.68.0/22
-add list=china_telecom address=45.119.105.0/24
+add list=china_telecom address=45.119.104.0/23
 add list=china_telecom address=45.119.116.0/22
 add list=china_telecom address=45.120.164.0/22
 add list=china_telecom address=45.120.241.0/24
@@ -4607,7 +4608,6 @@ add list=china_telecom address=103.175.197.0/24
 add list=china_telecom address=103.177.28.0/23
 add list=china_telecom address=103.179.78.0/23
 add list=china_telecom address=103.180.108.0/23
-add list=china_telecom address=103.181.164.0/23
 add list=china_telecom address=103.183.66.0/23
 add list=china_telecom address=103.183.218.0/23
 add list=china_telecom address=103.184.46.0/23
@@ -5188,8 +5188,6 @@ add list=china_telecom address=123.49.240.0/24
 add list=china_telecom address=123.49.242.0/23
 add list=china_telecom address=123.56.0.0/15
 add list=china_telecom address=123.58.18.0/24
-add list=china_telecom address=123.58.35.0/24
-add list=china_telecom address=123.58.37.0/24
 add list=china_telecom address=123.58.160.0/20
 add list=china_telecom address=123.58.180.0/24
 add list=china_telecom address=123.58.182.0/23
@@ -5522,7 +5520,7 @@ add list=china_telecom address=203.95.4.0/22
 add list=china_telecom address=203.99.20.0/22
 add list=china_telecom address=203.99.24.0/21
 add list=china_telecom address=203.107.1.0/24
-add list=china_telecom address=203.107.2.0/23
+add list=china_telecom address=203.107.2.0/24
 add list=china_telecom address=203.107.6.0/24
 add list=china_telecom address=203.107.13.0/24
 add list=china_telecom address=203.107.20.0/22
@@ -5739,7 +5737,6 @@ add list=china_telecom address=218.244.192.0/20
 add list=china_telecom address=218.245.0.0/23
 add list=china_telecom address=218.246.0.0/19
 add list=china_telecom address=218.246.48.0/22
-add list=china_telecom address=218.246.59.0/24
 add list=china_telecom address=218.246.64.0/18
 add list=china_telecom address=218.246.160.0/19
 add list=china_telecom address=218.246.192.0/19
