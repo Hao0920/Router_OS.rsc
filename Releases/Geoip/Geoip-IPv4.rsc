@@ -732,7 +732,6 @@ add list=china address=103.147.124.0/24
 add list=china address=103.147.198.0/23
 add list=china address=103.147.206.0/23
 add list=china address=103.148.174.0/23
-add list=china address=103.149.110.0/23
 add list=china address=103.149.132.0/23
 add list=china address=103.149.144.0/23
 add list=china address=103.149.144.0/24
