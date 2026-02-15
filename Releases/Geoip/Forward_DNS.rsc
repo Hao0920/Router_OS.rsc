@@ -3847,6 +3847,7 @@ add regexp="^(.*\\.)?walletconnect\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wallmama\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wallpapercasa\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wallsttv\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?wallzhihu\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?waltermartin\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?waltermartin\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wanderinghorse\\.net\$" type=FWD forward-to=$FWDgfw
