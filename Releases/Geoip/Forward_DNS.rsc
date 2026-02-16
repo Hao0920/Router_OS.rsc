@@ -1419,6 +1419,7 @@ add regexp="^(.*\\.)?glorystar\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?glype\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gmail\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gmgard\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?gmgn\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gmodules\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gmp4\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?gnci\\.org\\.hk\$" type=FWD forward-to=$FWDgfw
@@ -3208,6 +3209,7 @@ add regexp="^(.*\\.)?southpark\\.cc\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sowers\\.org\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?soylentnews\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?spaces\\.hightail\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?spacex\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?spankbang\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sparkpool\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?spatial\\.io\$" type=FWD forward-to=$FWDgfw
@@ -3844,6 +3846,7 @@ add regexp="^(.*\\.)?w3s\\.link\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?waffle1999\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wainao\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?walletconnect\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?walletconnect\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wallmama\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wallpapercasa\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wallsttv\\.com\$" type=FWD forward-to=$FWDgfw
