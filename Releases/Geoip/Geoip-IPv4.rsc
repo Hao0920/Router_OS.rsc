@@ -6292,6 +6292,7 @@ add list=china address=193.169.8.0/23
 add list=china address=193.192.52.0/23
 add list=china address=193.200.222.160/28
 add list=china address=193.22.162.0/24
+add list=china address=193.233.49.0/24
 add list=china address=193.239.172.0/23
 add list=china address=193.239.246.0/23
 add list=china address=193.3.56.73/32
