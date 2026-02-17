@@ -5454,6 +5454,7 @@ add list=othernet address=192.144.128.0/17
 add list=othernet address=192.208.13.0/24
 add list=othernet address=193.22.162.0/24
 add list=othernet address=193.112.0.0/16
+add list=othernet address=193.233.49.0/24
 add list=othernet address=194.15.39.0/24
 add list=othernet address=194.127.229.0/24
 add list=othernet address=194.138.202.0/24
