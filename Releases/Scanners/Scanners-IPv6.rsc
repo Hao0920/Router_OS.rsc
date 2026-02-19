@@ -52,8 +52,10 @@ add list=scanners address=2620:106:6008:99:f0::114
 add list=scanners address=2620:106:6008:99:f0::117
 add list=scanners address=2803:9810:4eb9:dc10:de1f:243b:31ef:e594
 add list=scanners address=2a00:dd0:bbbb:7:caf9:f584:129d:ede3
+add list=scanners address=2a02:2f04:6307:5900:9dd5:ccd6:6a04:cf27
 add list=scanners address=2a02:c207:2301:3218::1
 add list=scanners address=2a02:c207:2308:2155::1
+add list=scanners address=2a02:c207:2308:3006::1
 add list=scanners address=2a02:c207:2308:3007::1
 add list=scanners address=2a02:c207:2308:3009::1
 add list=scanners address=2a05:8280:f:431f::1
