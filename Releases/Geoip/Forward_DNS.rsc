@@ -2404,6 +2404,7 @@ add regexp="^(.*\\.)?moptt\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?moresci\\.sale\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?morningsun\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mos\\.ru\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?mosavi\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?motherless\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?movements\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?moviefap\\.com\$" type=FWD forward-to=$FWDgfw
