@@ -5388,6 +5388,7 @@ add list=china_unicom address=175.102.188.0/23
 add list=china_unicom address=175.102.190.0/24
 add list=china_unicom address=175.178.0.0/16
 add list=china_unicom address=178.219.5.0/24
+add list=china_unicom address=178.236.38.0/23
 add list=china_unicom address=178.253.239.0/24
 add list=china_unicom address=180.76.16.0/20
 add list=china_unicom address=180.76.32.0/19
