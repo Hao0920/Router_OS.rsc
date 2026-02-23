@@ -1079,7 +1079,6 @@ add list=china_telecom address=122.240.0.0/13
 add list=china_telecom address=122.248.48.0/21
 add list=china_telecom address=122.248.56.0/22
 add list=china_telecom address=123.49.192.0/23
-add list=china_telecom address=123.49.245.0/24
 add list=china_telecom address=123.52.0.0/14
 add list=china_telecom address=123.58.0.0/19
 add list=china_telecom address=123.58.224.0/19
@@ -4157,7 +4156,6 @@ add list=othernet address=45.127.144.0/21
 add list=othernet address=45.135.149.0/24
 add list=othernet address=45.147.6.0/24
 add list=othernet address=45.151.47.0/24
-add list=othernet address=45.157.88.0/24
 add list=othernet address=45.197.131.0/24
 add list=othernet address=45.202.64.0/22
 add list=othernet address=45.202.209.0/24
