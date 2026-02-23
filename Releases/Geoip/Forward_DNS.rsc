@@ -3508,6 +3508,7 @@ add regexp="^(.*\\.)?toppornsites\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?topsy\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?toptip\\.ca\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?toptoon\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?tor\\.eff\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?torguard\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?torlock\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?torproject\\.org\$" type=FWD forward-to=$FWDgfw
@@ -3662,6 +3663,7 @@ add regexp="^(.*\\.)?uncyclopedia\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?underwoodammo\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?unholyknight\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?unirule\\.cloud\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?uniswap\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?unknownspace\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?unmineable\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?unseen\\.is\$" type=FWD forward-to=$FWDgfw
