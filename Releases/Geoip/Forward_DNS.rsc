@@ -1264,6 +1264,7 @@ add regexp="^(.*\\.)?free\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freebeacon\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freebrowser\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freechinaweibo\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?freedom\\.gov\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freedomhouse\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freedominfonetweb\\.wordpress\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?freedomsherald\\.org\$" type=FWD forward-to=$FWDgfw
