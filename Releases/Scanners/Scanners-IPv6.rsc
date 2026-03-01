@@ -36,6 +36,8 @@ add list=scanners address=2406:f00:1:1::eb
 add list=scanners address=2408:8418:2ee0:2b15:1cdb:98ff:fe99:c4d4
 add list=scanners address=2408:8421:355:8de7:8c65:9aff:fef2:9cee
 add list=scanners address=2408:844c:2d08:8e2:98dc:e3ff:feb3:e4bb
+add list=scanners address=2409:8931:88c:a99:44a6:baff:fed9:90db
+add list=scanners address=2409:8931:88c:a99:808d:b5ff:fe24:5edf
 add list=scanners address=2409:8931:ac5a:4b46:1898:86de:25fa:f2fe
 add list=scanners address=2409:8931:ae4c:270e:1898:bf6c:d05f:17c2
 add list=scanners address=2409:8931:ae5b:3a33:1898:9239:3b34:2a42
@@ -43,6 +45,7 @@ add list=scanners address=2409:8934:ae4:fca3:1898:9fb2:9ee0:2602
 add list=scanners address=2409:894d:1a47:7e04:344b:2dff:fe32:f599
 add list=scanners address=2409:8a0c:435:77e0:ba27:c5ff:fea1:90c6
 add list=scanners address=2409:8a1a:5651:d671:1d19:6374:7d9f:bc37
+add list=scanners address=2409:8a30:4a14:d724:4da0:67b6:47fb:606a
 add list=scanners address=2409:8a30:9ca2:3134:7b59:4408:5b34:3899
 add list=scanners address=2409:8a44:a39:c210:fbd4:865e:e095:c30
 add list=scanners address=240a:42b2:fc00:a50:684b:8aff:fe3d:bfcf
@@ -53,7 +56,6 @@ add list=scanners address=240e:427:d460:2c:12f7:6acf:1fa1:58ce
 add list=scanners address=240e:43d:9038:47ac:c88d:b2ff:fe9d:72a4
 add list=scanners address=240e:456:5600:453d:1898:9d32:49fe:2b84
 add list=scanners address=240e:45b:495:72:e068:d3ff:fea0:e63e
-add list=scanners address=240e:45b:c6a0:cb5f:7c0a:7dff:feec:e651
 add list=scanners address=240e:b31:1866:8501:c843:3358:6c83:1ca6
 add list=scanners address=2600:3c01::f03c:93ff:fe03:ef00
 add list=scanners address=2600:3c01::f03c:93ff:fe39:60b7
@@ -63,6 +65,7 @@ add list=scanners address=2605:6400:30:fd0b:1::
 add list=scanners address=2607:ff28:9005:55:225:90ff:fe26:9f8
 add list=scanners address=2607:ff28:9005:6b:225:90ff:fe56:582c
 add list=scanners address=2607:ff28:a005:10c:ec4:7aff:feb5:1756
+add list=scanners address=2607:ff28:a005:50:ec4:7aff:feb3:c9b8
 add list=scanners address=2607:ff28:c005:b5:ec4:7aff:fe74:ee56
 add list=scanners address=2610:150:101:1000::bd02
 add list=scanners address=2620:106:6008:99:f0::114
