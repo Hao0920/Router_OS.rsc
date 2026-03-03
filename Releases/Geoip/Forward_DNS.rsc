@@ -760,6 +760,7 @@ add regexp="^(.*\\.)?cixiaoya\\.club\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ck101\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?classicalguitarblog\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?claude\\.ai\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?claude\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cldr\\.unicode\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?clearsurance\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?clementine-player\\.org\$" type=FWD forward-to=$FWDgfw
@@ -2264,6 +2265,7 @@ add regexp="^(.*\\.)?mangafox\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mangafox\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mangmang\\.run\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?manta\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?manus\\.im\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?manyvoices\\.news\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?marc\\.info\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?martau\\.com\$" type=FWD forward-to=$FWDgfw
@@ -3980,7 +3982,6 @@ add regexp="^(.*\\.)?www\\.gmiddle\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.hoyolab\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.hustlercash\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.idlcoyote\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?www\\.imdb\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.kindleren\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.lorenzetti\\.com\\.br\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?www\\.m-sport\\.co\\.uk\$" type=FWD forward-to=$FWDgfw
