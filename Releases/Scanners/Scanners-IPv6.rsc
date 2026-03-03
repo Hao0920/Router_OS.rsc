@@ -23,6 +23,7 @@ add list=scanners address=2001:8d8:1801:740::1
 add list=scanners address=2001:8d8:847:c900::37:26cc
 add list=scanners address=2001:a18:a:c5::d
 add list=scanners address=2001:a18:a:c5::e
+add list=scanners address=2001:da8:215:3c02:79e1:e486:ea5:5af0
 add list=scanners address=2001:da8:6005:6:b455:25c8::
 add list=scanners address=2001:da8:6005:6:b455:25c9::
 add list=scanners address=2001:da8:d800:740:ec4:7aff:fedb:9222
@@ -37,15 +38,12 @@ add list=scanners address=2408:8244:1010:1362:54ca:1b5c:6af6:798e
 add list=scanners address=2408:8244:1010:1362:cc94:174:c9f9:1426
 add list=scanners address=2408:8244:1110:614:392b:6d42:fa9c:966e
 add list=scanners address=2408:8244:1110:614:49f3:392f:6f0:c54c
-add list=scanners address=2408:8352:e63:d173:2d8c:af25:ed28:f439
 add list=scanners address=2409:8924:4cbe:cc9:1c66:8b35:101b:203f
 add list=scanners address=2409:8931:100f:a73f:d486:6eff:fe87:80ac
 add list=scanners address=2409:8931:1025:2bc:b010:eeff:fe0b:5727
 add list=scanners address=2409:8931:4e4:200:ccde:8bff:feca:1473
 add list=scanners address=2409:8931:ae54:31f8:1898:d89c:d397:f21
-add list=scanners address=2409:895b:3814:d298:7481:64ff:fe0c:2b63
 add list=scanners address=2409:896d:35c:2b59:4890:aff:fe8c:8cf1
-add list=scanners address=2409:8a0c:d820:9c10:b8bf:ef57:6516:71b9
 add list=scanners address=2409:8a14:dd7:a720:a5d:18e5:1518:cd79
 add list=scanners address=2409:8a1b:162:6070:54d1:52c4:7145:d9b2
 add list=scanners address=2409:8a55:230:4600:88dc:4edc:fd46:2bc2
@@ -54,6 +52,7 @@ add list=scanners address=2409:8a55:c22:ee74:25a5:f184:f1ae:5d64
 add list=scanners address=2409:8a55:c22:ee74:b8e9:a163:77c1:b1b5
 add list=scanners address=240c:ca12:1:12fe:b924:9ec7:2974:1344
 add list=scanners address=240e:361:ae33:a900:5966:a0:be7d:26b
+add list=scanners address=240e:38d:86de:1700:41f1:5ac:dd62:e72d
 add list=scanners address=240e:43d:8638:3971:59d4:26a6:ca68:efd5
 add list=scanners address=240e:47c:c28:ee5:715c:564e:16b3:b45e
 add list=scanners address=240e:47c:c80:17e7:48aa:ab77:3f63:f035
