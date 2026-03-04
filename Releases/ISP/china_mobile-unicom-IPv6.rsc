@@ -1224,9 +1224,6 @@ add list=china_mobile address=2406:840:e0e4::/47
 add list=china_mobile address=2406:840:e0e8::/48
 add list=china_mobile address=2406:840:e10f::/48
 add list=china_mobile address=2406:840:e14f::/48
-add list=china_mobile address=2406:840:e233::/48
-add list=china_mobile address=2406:840:e234::/48
-add list=china_mobile address=2406:840:e23b::/48
 add list=china_mobile address=2406:840:e260::/47
 add list=china_mobile address=2406:840:e330::/44
 add list=china_mobile address=2406:840:e620::/47
@@ -1506,7 +1503,8 @@ add list=china_mobile address=2a0f:1cc5:1d10::/47
 add list=china_mobile address=2a0f:1cc5:1d14::/47
 add list=china_mobile address=2a0f:1cc5:2300::/40
 add list=china_mobile address=2a0f:1cc5:2600::/44
-add list=china_mobile address=2a0f:1cc5:2630::/44
+add list=china_mobile address=2a0f:1cc5:2620::/43
+add list=china_mobile address=2a0f:1cc5:2640::/44
 add list=china_mobile address=2a0f:1cc5:2d01::/48
 add list=china_mobile address=2a0f:1cc5:2d02::/48
 add list=china_mobile address=2a0f:1cc5:2e01::/48
@@ -1572,7 +1570,6 @@ add list=china_mobile address=2a14:67c1:70::/47
 add list=china_mobile address=2a14:67c1:73::/48
 add list=china_mobile address=2a14:67c1:74::/48
 add list=china_mobile address=2a14:67c1:702::/47
-add list=china_mobile address=2a14:67c1:800::/48
 add list=china_mobile address=2a14:67c1:a020::/48
 add list=china_mobile address=2a14:67c1:a023::/48
 add list=china_mobile address=2a14:67c1:a024::/48
@@ -1630,8 +1627,6 @@ add list=china_mobile address=2a14:7580:730::/44
 add list=china_mobile address=2a14:7580:740::/44
 add list=china_mobile address=2a14:7580:751::/48
 add list=china_mobile address=2a14:7580:777::/48
-add list=china_mobile address=2a14:7580:9202::/48
-add list=china_mobile address=2a14:7580:9220::/44
 add list=china_mobile address=2a14:7580:d000::/37
 add list=china_mobile address=2a14:7580:d800::/39
 add list=china_mobile address=2a14:7580:df00::/40
@@ -1676,8 +1671,7 @@ add list=china_mobile address=2a14:7583:f744::/48
 add list=china_mobile address=2a14:7583:f764::/48
 add list=china_mobile address=2a14:7586:6100::/47
 add list=china_mobile address=2a14:7586:6103::/48
-add list=china_mobile address=2a14:7586:6105::/48
-add list=china_mobile address=2a14:7586:6106::/47
+add list=china_mobile address=2a14:7586:6104::/46
 add list=china_mobile address=2a14:7dc0:510::/47
 add list=china_mobile address=2a14:7dc0:515::/48
 add list=china_mobile address=2a14:7dc0:516::/47
