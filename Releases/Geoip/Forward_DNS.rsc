@@ -251,12 +251,14 @@ add regexp="^(.*\\.)?archiveofourown\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?archives\\.gov\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?arctosia\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?areca-backup\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?arena\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?arena\\.taipei\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?arethusa\\.su\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?arlingtoncemetery\\.mil\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?arte\\.tv\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?artstation\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?arvanstorage\\.ir\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?arweave\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?asacp\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?asiaharvest\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?asianage\\.com\$" type=FWD forward-to=$FWDgfw
@@ -3929,6 +3931,7 @@ add regexp="^(.*\\.)?wiredbytes\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wiredpen\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wireguard\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wisevid\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?wispbyte\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?withgoogle\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?withyoutube\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?witopia\\.net\$" type=FWD forward-to=$FWDgfw
