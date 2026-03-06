@@ -1006,6 +1006,7 @@ add regexp="^(.*\\.)?douchi\\.space\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dougscripts\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?doujincafe\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?download\\.aircrack-ng\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?download\\.dappcdn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dpool\\.top\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dpp\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dpr\\.info\$" type=FWD forward-to=$FWDgfw
