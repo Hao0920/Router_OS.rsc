@@ -978,6 +978,7 @@ add regexp="^(.*\\.)?dmc\\.nico\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dmcdn\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dmhy\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dmm\\.co\\.jp\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?dns\\.cloudflare\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dns2go\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dnscrypt\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dnssec\\.net\$" type=FWD forward-to=$FWDgfw
@@ -1565,6 +1566,7 @@ add regexp="^(.*\\.)?google\\.com\\.vn\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?google\\.cv\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?google\\.cz\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?google\\.de\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?google\\.dev\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?google\\.dj\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?google\\.dk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?google\\.dm\$" type=FWD forward-to=$FWDgfw
@@ -1980,6 +1982,7 @@ add regexp="^(.*\\.)?internetpopculture\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?interseclab\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?inthenameofconfuciusmovie\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?investigating\\.wordpress\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?investing\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?invidio\\.us\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?inxian\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ipdefenseforum\\.com\$" type=FWD forward-to=$FWDgfw
