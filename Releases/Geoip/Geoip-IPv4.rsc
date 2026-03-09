@@ -5552,6 +5552,7 @@ add list=china address=162.62.240.0/23
 add list=china address=162.62.242.0/24
 add list=china address=163.0.0.0/16
 add list=china address=163.125.0.0/16
+add list=china address=163.128.30.0/23
 add list=china address=163.142.0.0/16
 add list=china address=163.171.222.0/24
 add list=china address=163.177.0.0/16
