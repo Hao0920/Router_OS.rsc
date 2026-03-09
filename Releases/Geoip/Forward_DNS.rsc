@@ -3099,6 +3099,7 @@ add regexp="^(.*\\.)?shenyunshop\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?shenzhoufilm\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?shenzhouzhengdao\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?shiksha\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?shitjournal\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?shixiao\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?shizhao\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?shodanhq\\.com\$" type=FWD forward-to=$FWDgfw
