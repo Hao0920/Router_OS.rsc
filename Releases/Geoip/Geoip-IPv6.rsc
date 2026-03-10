@@ -13837,8 +13837,7 @@ add list=china address=2a14:67c1:b103::/48
 add list=china address=2a14:67c1:b105::/48
 add list=china address=2a14:67c1:b107::/48
 add list=china address=2a14:67c1:b110::/48
-add list=china address=2a14:67c1:b130::/48
-add list=china address=2a14:67c1:b132::/47
+add list=china address=2a14:67c1:b130::/46
 add list=china address=2a14:67c1:b134::/48
 add list=china address=2a14:67c1:b136::/48
 add list=china address=2a14:67c1:b140::/46
