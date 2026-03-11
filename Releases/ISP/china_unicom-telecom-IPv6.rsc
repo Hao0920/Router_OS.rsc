@@ -1273,7 +1273,7 @@ add list=china_unicom address=2406:840:fcf4::/47
 add list=china_unicom address=2406:840:fd40::/42
 add list=china_unicom address=2406:840:fd80::/42
 add list=china_unicom address=2406:840:fdc0::/44
-add list=china_unicom address=2406:840:fdec::/48
+add list=china_unicom address=2406:840:fded::/48
 add list=china_unicom address=2406:840:fe27::/48
 add list=china_unicom address=2406:840:fe90::/46
 add list=china_unicom address=2406:840:fe94::/48
@@ -1504,8 +1504,7 @@ add list=china_unicom address=2a0f:1cc5:1cc0::/48
 add list=china_unicom address=2a0f:1cc5:1d10::/47
 add list=china_unicom address=2a0f:1cc5:1d14::/47
 add list=china_unicom address=2a0f:1cc5:2300::/40
-add list=china_unicom address=2a0f:1cc5:2600::/44
-add list=china_unicom address=2a0f:1cc5:2620::/43
+add list=china_unicom address=2a0f:1cc5:2600::/42
 add list=china_unicom address=2a0f:1cc5:2640::/44
 add list=china_unicom address=2a0f:1cc5:2d01::/48
 add list=china_unicom address=2a0f:1cc5:2d02::/47
