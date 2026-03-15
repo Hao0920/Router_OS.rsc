@@ -13663,8 +13663,8 @@ add list=china address=2a0e:aa07:e220::/48
 add list=china address=2a0e:aa07:e224::/46
 add list=china address=2a0e:aa07:e228::/45
 add list=china address=2a0e:aa07:e280::/45
-add list=china address=2a0e:aa07:e288::/46
-add list=china address=2a0e:aa07:e28c::/47
+add list=china address=2a0e:aa07:e288::/47
+add list=china address=2a0e:aa07:e28a::/48
 add list=china address=2a0e:aa07:e28e::/48
 add list=china address=2a0e:aa07:f0d0::/46
 add list=china address=2a0e:aa07:f0d4::/47

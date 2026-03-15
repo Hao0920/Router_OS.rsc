@@ -4024,6 +4024,7 @@ add regexp="^(.*\\.)?xbtce\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xcafe\\.in\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xcancel\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xcity\\.jp\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?xdaforums\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xerotica\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xfinity\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xfxssr\\.me\$" type=FWD forward-to=$FWDgfw

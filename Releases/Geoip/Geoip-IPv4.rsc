@@ -10232,7 +10232,6 @@ add list=china address=52.82.134.0/23
 add list=china address=52.82.136.0/24
 add list=china address=52.82.144.0/23
 add list=china address=52.82.148.0/22
-add list=china address=52.82.153.0/24
 add list=china address=52.82.160.0/21
 add list=china address=52.82.170.0/23
 add list=china address=52.82.172.0/22
