@@ -4180,7 +4180,6 @@ add list=othernet address=52.82.134.0/23
 add list=othernet address=52.82.136.0/24
 add list=othernet address=52.82.144.0/23
 add list=othernet address=52.82.148.0/22
-add list=othernet address=52.82.153.0/24
 add list=othernet address=52.82.160.0/21
 add list=othernet address=52.82.170.0/23
 add list=othernet address=52.82.172.0/22
@@ -4687,8 +4686,7 @@ add list=othernet address=103.254.76.0/22
 add list=othernet address=103.254.112.0/22
 add list=othernet address=103.254.196.0/24
 add list=othernet address=103.255.140.0/22
-add list=othernet address=103.255.200.0/23
-add list=othernet address=103.255.202.0/24
+add list=othernet address=103.255.200.0/24
 add list=othernet address=104.167.17.0/24
 add list=othernet address=104.192.108.0/23
 add list=othernet address=104.192.110.0/24
