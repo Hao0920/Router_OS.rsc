@@ -78,6 +78,7 @@ add regexp="^(.*\\.)?9news\\.com\\.au\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?a-normal-day\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?a248\\.e\\.akamai\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?aamacau\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?aave\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?abc\\.net\\.au\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?abc\\.xyz\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?abebooks\\.co\\.uk\$" type=FWD forward-to=$FWDgfw
