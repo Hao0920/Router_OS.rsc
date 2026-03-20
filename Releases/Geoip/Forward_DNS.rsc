@@ -2608,8 +2608,10 @@ add regexp="^(.*\\.)?ogate\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ohmyrss\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ok\\.ru\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?okayfreedom\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?okcoin\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?okex\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?okk\\.tw\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?oklink\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?okpool\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?okx\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?old\\.honeynet\\.org\$" type=FWD forward-to=$FWDgfw
