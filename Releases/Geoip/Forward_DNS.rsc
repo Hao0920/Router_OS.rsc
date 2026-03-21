@@ -747,6 +747,7 @@ add regexp="^(.*\\.)?chromeexperiments\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chromestatus\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chromium\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ci-en\\.jp\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?cia\\.gov\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cici\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ciciai\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cirosantilli\\.com\$" type=FWD forward-to=$FWDgfw
