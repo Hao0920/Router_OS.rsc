@@ -6253,7 +6253,6 @@ add list=china address=192.198.102.32/28
 add list=china address=192.198.116.144/28
 add list=china address=192.198.96.224/27
 add list=china address=192.198.98.64/28
-add list=china address=192.208.13.0/24
 add list=china address=192.23.191.0/24
 add list=china address=192.232.34.0/23
 add list=china address=192.232.44.0/22
@@ -10133,7 +10132,6 @@ add list=china address=45.39.249.45/32
 add list=china address=45.40.192.0/18
 add list=china address=45.40.192.0/20
 add list=china address=45.40.224.0/19
-add list=china address=45.62.168.0/24
 add list=china address=45.65.16.0/20
 add list=china address=45.65.20.0/22
 add list=china address=45.65.24.0/22
