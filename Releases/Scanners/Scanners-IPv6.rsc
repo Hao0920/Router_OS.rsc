@@ -32,6 +32,7 @@ add list=scanners address=2001:da8:9000:a436:4417:9f24:f2d1:1e64
 add list=scanners address=2001:da8:d800:740:ec4:7aff:fedb:9222
 add list=scanners address=2002:679e:250e::679e:250e
 add list=scanners address=2400:dd01:3011:2:1:0:c0a8:6422
+add list=scanners address=2402:e000:64b:a2f3:6499:ca5e:28df:a062
 add list=scanners address=2406:f00:1:1::178
 add list=scanners address=2406:f00:1:1::cd
 add list=scanners address=2406:f00:1:1::eb
@@ -40,7 +41,6 @@ add list=scanners address=2408:8418:130:c0c4:9067:f8ff:fe75:3ac5
 add list=scanners address=2408:841e:3510:573:dc15:69ff:fe6f:1f2a
 add list=scanners address=2408:8431:2f00:72c:d998:d52c:632c:5f8b
 add list=scanners address=2408:843c:2e00:5411:189f:c680:109f:13f9
-add list=scanners address=2408:8445:ab71:e587:3c3a:4cff:fe02:627d
 add list=scanners address=2408:8606:4800:4:c600:adff:feb5:f392
 add list=scanners address=2409:8907:4a7:1d25:7826:75ff:fe5f:c9d9
 add list=scanners address=2409:8931:323d:5058:b8ca:33ff:feda:ad8e
@@ -51,7 +51,6 @@ add list=scanners address=2409:8949:17a2:62:189f:1a0c:2929:6f2e
 add list=scanners address=2409:8949:8010:6af:68bc:e0b0:c1c1:d24a
 add list=scanners address=2409:8949:8010:6af:6c14:64d5:523b:b1e2
 add list=scanners address=2409:894d:904d:7589:b192:d482:54ad:663
-add list=scanners address=2409:8a28:2243:33e0:90e0:197c:aeee:e221
 add list=scanners address=2409:8a31:535:d2c0:1f80:df11:adbd:fe73
 add list=scanners address=2409:8a6a:3614:5df0:a40:f3ff:feca:51f1
 add list=scanners address=240a:42cf:6800:36fe:189e:aaa9:c3bc:d579
@@ -60,7 +59,6 @@ add list=scanners address=240c:c035:2:aa14:ddbd:2e19:39e8:b7fc
 add list=scanners address=240e:368:6c04:b15:909a:6d88:7c98:82b
 add list=scanners address=240e:36f:960:7405:62c4:b9a4:5b4d:971
 add list=scanners address=240e:3b6:3c96:f840:a470:7dba:ca90:b4ab
-add list=scanners address=240e:453:dd3f:d4b4::1
 add list=scanners address=240e:45a:b084:ced3:4875:55ed:e35f:6d86
 add list=scanners address=240e:45b:69c:ce8b:6848:67ff:fe98:a386
 add list=scanners address=240e:45c:5c60:15c3:189f:cfc1:2c62:659a
