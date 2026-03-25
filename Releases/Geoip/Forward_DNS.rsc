@@ -4050,6 +4050,7 @@ add regexp="^(.*\\.)?xjtravelguide\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xm\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xml-training-guide\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xn--11xs86f\\.icu\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?xn--1jqvh729avzfcy2d8ummib\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xn--4gq171p\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xn--9iqy04a7fi01l\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xn--9pr62r24a\\.com\$" type=FWD forward-to=$FWDgfw
