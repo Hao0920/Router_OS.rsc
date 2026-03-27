@@ -1,6 +1,5 @@
 /ipv6 firewall address-list
 remove [find list=scanners]
-add list=scanners address=2001:250:4819:308b:7a61:7c2b:883f:2799
 add list=scanners address=2001:250:80c:ffff:ffff:ffff:cace:f00b
 add list=scanners address=2001:41b8:83f:1608::25:1
 add list=scanners address=2001:41b8:83f:1610::237
@@ -53,7 +52,6 @@ add list=scanners address=2408:844d:900:68a2:4d3:ca93:f6cf:adc6
 add list=scanners address=2408:8452:da38:549:5c6:2bfb:f982:1e12
 add list=scanners address=2408:8606:4800:4:c600:adff:feb5:f392
 add list=scanners address=2409:408d:99a:1a30:6df9:2137:2d98:a610
-add list=scanners address=2409:8931:a83b:593f:955a:bef7:9b7:ef81
 add list=scanners address=2409:8949:8010:6af:9ce7:5691:21f0:27a3
 add list=scanners address=2409:8949:8010:6af:a415:38ea:13dc:fcb4
 add list=scanners address=2409:895b:823:92be:80cf:2db0:9028:ae49
@@ -61,6 +59,7 @@ add list=scanners address=2409:8a30:4ca:e3b0:eadd:a44f:a3:e454
 add list=scanners address=2409:8a3c:21ab:38d0:8598:d536:b3d0:2adb
 add list=scanners address=2409:8a3c:21ab:38d0:bdb9:81a2:6b29:25df
 add list=scanners address=240e:45b:1198:b8e2:708e:1e6f:ecf:abf6
+add list=scanners address=240e:479:4ea8:1487:980b:4fff:fe8e:5125
 add list=scanners address=2600:3c01::f03c:93ff:fe03:ef00
 add list=scanners address=2600:3c01::f03c:93ff:fe39:60b7
 add list=scanners address=2600:3c03::f03c:91ff:fe2e:586
@@ -69,7 +68,6 @@ add list=scanners address=2605:6400:30:fd0b:1::
 add list=scanners address=2607:fb92:480:9106:e5b3:dd93:81f1:59f6
 add list=scanners address=2607:ff28:9005:6b:225:90ff:fe56:582c
 add list=scanners address=2607:ff28:a005:10c:ec4:7aff:feb5:1756
-add list=scanners address=2607:ff28:a005:50:ec4:7aff:feb3:c9b8
 add list=scanners address=2607:ff28:a005:cd:ec4:7aff:feb5:1a50
 add list=scanners address=2610:150:101:1000::bd02
 add list=scanners address=2620:106:6008:99:f0::114
@@ -80,12 +78,11 @@ add list=scanners address=2804:2488:9085:df30:c09d:61be:cced:835
 add list=scanners address=2804:4b0:1259:4800:c486:f39f:b18:80be
 add list=scanners address=2804:5c:67c2:8e00:7593:ec8d:8506:a3
 add list=scanners address=2804:7184:1034:7700:c1c8:201d:5fdd:8ff4
-add list=scanners address=2804:7f0:b400:ecfd:b985:5091:7dfe:2757
 add list=scanners address=2804:7f0:b769:5a37:c58a:6da3:8f6f:ade7
 add list=scanners address=2804:d51:7a47:700:25b9:35df:f939:cc90
 add list=scanners address=2a00:23c4:d2c2:af01:50ea:194b:e19b:8b97
-add list=scanners address=2a01:4f8:191:9299::2
 add list=scanners address=2a02:c207:2314:7960::1
+add list=scanners address=2a04:3544:8000:1000:64eb:98ff:fed4:554d
 add list=scanners address=2a05:8280:f:431f::1
 add list=scanners address=2a05:8280:f:431f::10
 add list=scanners address=2a05:8280:f:431f::100
