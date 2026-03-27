@@ -4056,6 +4056,7 @@ add regexp="^(.*\\.)?xn--9iqy04a7fi01l\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xn--9pr62r24a\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xn--czq75pvv1aj5c\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xn--i2ru8q2qg\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?xn--kcrv3utim32hx9f6qe\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xn--ngstr-lra8j\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xn--noss43i\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xn--oiq\\.cc\$" type=FWD forward-to=$FWDgfw
