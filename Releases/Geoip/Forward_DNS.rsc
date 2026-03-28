@@ -3014,7 +3014,6 @@ add regexp="^(.*\\.)?rutracker\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?rutracker\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?rxhj\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?s-cute\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?s\\.rmimg\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?s\\.yimg\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?s3-ap-northeast-1\\.amazonaws\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?s3-ap-northeast-2\\.amazonaws\\.com\$" type=FWD forward-to=$FWDgfw
