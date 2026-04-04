@@ -2663,6 +2663,7 @@ add regexp="^(.*\\.)?orient-doll\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?orientaldaily\\.com\\.my\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?orn\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?osfoora\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?osmand\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?otcbtc\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?otto\\.de\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ourdearamy\\.com\$" type=FWD forward-to=$FWDgfw
