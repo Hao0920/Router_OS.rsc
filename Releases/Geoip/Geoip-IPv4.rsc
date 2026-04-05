@@ -5412,7 +5412,6 @@ add list=china address=153.45.91.0/24
 add list=china address=153.99.0.0/16
 add list=china address=154.18.7.194/32
 add list=china address=154.18.9.164/31
-add list=china address=154.19.43.0/24
 add list=china address=154.50.205.22/32
 add list=china address=154.50.208.22/32
 add list=china address=154.72.42.0/24
@@ -5488,7 +5487,6 @@ add list=china address=157.10.218.0/23
 add list=china address=157.10.220.0/23
 add list=china address=157.10.246.0/23
 add list=china address=157.10.34.0/23
-add list=china address=157.10.34.0/24
 add list=china address=157.10.36.0/23
 add list=china address=157.119.132.0/22
 add list=china address=157.119.136.0/21
