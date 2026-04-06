@@ -239,6 +239,7 @@ add regexp="^(.*\\.)?appsocks\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?appspot\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?appsto\\.re\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?aptoide\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?archive-it\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?archive\\.fo\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?archive\\.is\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?archive\\.li\$" type=FWD forward-to=$FWDgfw
@@ -981,6 +982,7 @@ add regexp="^(.*\\.)?dmcdn\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dmhy\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dmm\\.co\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dns\\.cloudflare\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?dns\\.sb\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dns2go\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dnscrypt\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dnssec\\.net\$" type=FWD forward-to=$FWDgfw
@@ -991,6 +993,7 @@ add regexp="^(.*\\.)?docker\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dockerstatus\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?docs\\.new\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?documentingreality\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?doh\\.sb\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dolc\\.de\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dolf\\.org\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dongtaiwang\\.com\$" type=FWD forward-to=$FWDgfw
@@ -998,6 +1001,7 @@ add regexp="^(.*\\.)?dongtaiwang\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?doom9\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?doosho\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?doourbest\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?dot\\.sb\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dotplane\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dotsub\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dotvpn\\.com\$" type=FWD forward-to=$FWDgfw
