@@ -3398,6 +3398,8 @@ add list=china_mobile address=211.99.160.0/22
 add list=china_mobile address=211.99.188.0/22
 add list=china_mobile address=211.103.0.0/17
 add list=china_mobile address=211.136.0.0/13
+add list=china_mobile address=211.144.143.0/24
+add list=china_mobile address=211.144.159.0/24
 add list=china_mobile address=211.148.224.0/19
 add list=china_mobile address=211.151.4.0/23
 add list=china_mobile address=211.151.32.0/19
@@ -3725,6 +3727,8 @@ add list=china_mobile address=211.99.160.0/22
 add list=china_mobile address=211.99.188.0/22
 add list=china_mobile address=211.103.0.0/17
 add list=china_mobile address=211.136.0.0/13
+add list=china_mobile address=211.144.143.0/24
+add list=china_mobile address=211.144.159.0/24
 add list=china_mobile address=211.148.224.0/19
 add list=china_mobile address=211.151.4.0/23
 add list=china_mobile address=211.151.32.0/19
