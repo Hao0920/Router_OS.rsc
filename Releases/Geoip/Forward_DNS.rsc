@@ -847,6 +847,7 @@ add regexp="^(.*\\.)?cpj\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cpu-monkey\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cq99\\.us\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?crackle\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?crashlytics\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?crazypool\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?crazyshit\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?crbug\\.com\$" type=FWD forward-to=$FWDgfw
