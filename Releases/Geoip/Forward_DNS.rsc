@@ -2315,7 +2315,6 @@ add regexp="^(.*\\.)?mediafreakcity\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mediawiki\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?medium\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?meee\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?meetup\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mega\\.co\\.nz\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mega\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mega\\.nz\$" type=FWD forward-to=$FWDgfw
@@ -2383,6 +2382,7 @@ add regexp="^(.*\\.)?mirrorbooks\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mirrormedia\\.mg\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?missav\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?missav\\.ws\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?mistral\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mitbbs\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?miuipolska\\.pl\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mixero\\.com\$" type=FWD forward-to=$FWDgfw
@@ -2889,7 +2889,6 @@ add regexp="^(.*\\.)?pursuestar\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?putty\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pximg\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?python\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?pytorch\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?qbittorrent\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?qgirl\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?qi-gong\\.me\$" type=FWD forward-to=$FWDgfw
