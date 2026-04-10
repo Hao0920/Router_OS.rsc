@@ -187,11 +187,9 @@ add regexp="^(.*\\.)?angela-merkel\\.de\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?angola\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?angularjs\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?aniscartujo\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?annas-archive\\.in\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?annas-archive\\.li\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?annas-archive\\.org\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?annas-archive\\.pm\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?annas-archive\\.se\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?annas-archive\\.gd\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?annas-archive\\.gl\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?annas-archive\\.pk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?anobii\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?anonfiles\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?anonymouse\\.org\$" type=FWD forward-to=$FWDgfw
@@ -3353,7 +3351,6 @@ add regexp="^(.*\\.)?tbsn\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tbssqh\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?teachparentstech\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?technews\\.tw\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?techspot\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?techviz\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?teck\\.in\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?teco-hk\\.org\$" type=FWD forward-to=$FWDgfw
@@ -3367,7 +3364,6 @@ add regexp="^(.*\\.)?telegram\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?telegram\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?telegram\\.space\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?telegramdownload\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?telegraph\\.co\\.uk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?telesco\\.pe\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tellapart\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?temu\\.com\$" type=FWD forward-to=$FWDgfw
