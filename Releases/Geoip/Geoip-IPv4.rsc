@@ -573,6 +573,8 @@ add list=china address=103.13.12.0/22
 add list=china address=103.13.12.0/24
 add list=china address=103.13.124.0/22
 add list=china address=103.13.144.0/22
+add list=china address=103.13.145.0/24
+add list=china address=103.13.147.0/24
 add list=china address=103.13.196.0/22
 add list=china address=103.13.244.0/22
 add list=china address=103.130.132.0/22
