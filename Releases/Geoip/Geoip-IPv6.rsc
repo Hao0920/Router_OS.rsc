@@ -12241,7 +12241,7 @@ add list=china address=2a0f:1cc5:1fc0::/47
 add list=china address=2a0f:1cc5:1fc2::/48
 add list=china address=2a0f:1cc5:2510::/44
 add list=china address=2a0f:1cc5:2600::/42
-add list=china address=2a0f:1cc5:2640::/44
+add list=china address=2a0f:1cc5:2640::/43
 add list=china address=2a0f:1cc5:2d01::/48
 add list=china address=2a0f:1cc5:2d03::/48
 add list=china address=2a0f:1cc5:314::/46

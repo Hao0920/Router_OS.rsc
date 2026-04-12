@@ -3047,6 +3047,7 @@ add regexp="^(.*\\.)?savetibet\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?savetibetstore\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?saveuighur\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sbme\\.me\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?sbti\\.unun\\.dev\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?scache\\.vzw\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?scache1\\.vzw\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?scache2\\.vzw\\.com\$" type=FWD forward-to=$FWDgfw
