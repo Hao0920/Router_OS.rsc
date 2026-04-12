@@ -1584,7 +1584,7 @@ add list=china_mobile address=2a0f:1cc5:1d11::/48
 add list=china_mobile address=2a0f:1cc5:1d14::/48
 add list=china_mobile address=2a0f:1cc5:2510::/44
 add list=china_mobile address=2a0f:1cc5:2600::/42
-add list=china_mobile address=2a0f:1cc5:2640::/44
+add list=china_mobile address=2a0f:1cc5:2640::/43
 add list=china_mobile address=2a0f:1cc5:2d01::/48
 add list=china_mobile address=2a0f:1cc5:2d03::/48
 add list=china_mobile address=2a0f:1cc6:b110::/48
