@@ -4270,14 +4270,11 @@ add list=china address=120.136.128.0/21
 add list=china address=120.136.140.0/22
 add list=china address=120.136.144.0/20
 add list=china address=120.136.16.0/21
-add list=china address=120.136.16.0/23
 add list=china address=120.136.160.0/20
 add list=china address=120.136.176.0/21
-add list=china address=120.136.18.0/24
 add list=china address=120.136.184.0/22
 add list=china address=120.136.188.0/23
 add list=china address=120.136.190.0/24
-add list=china address=120.136.20.0/22
 add list=china address=120.137.0.0/17
 add list=china address=120.143.128.0/19
 add list=china address=120.192.0.0/10
