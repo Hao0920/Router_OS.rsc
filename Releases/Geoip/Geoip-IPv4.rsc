@@ -9406,7 +9406,7 @@ add list=china address=43.180.0.0/16
 add list=china address=43.192.0.0/14
 add list=china address=43.192.0.0/16
 add list=china address=43.193.0.0/18
-add list=china address=43.193.64.0/24
+add list=china address=43.193.64.0/23
 add list=china address=43.194.0.0/20
 add list=china address=43.194.16.0/24
 add list=china address=43.195.0.0/20
