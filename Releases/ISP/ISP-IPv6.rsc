@@ -790,6 +790,7 @@ add list=china_mobile address=2401:8be0::/48
 add list=china_mobile address=2402:9a80::/32
 add list=china_mobile address=2407:37c0::/32
 add list=china_mobile address=2407:6c40:1210::/48
+add list=china_mobile address=2407:8f40:2::/48
 add list=china_mobile address=2407:c080:1800::/37
 add list=china_mobile address=2409:8000::/20
 add list=china_mobile address=240a:4020:83a::/48
@@ -855,6 +856,7 @@ add list=china_tietong address=2401:8be0::/48
 add list=china_tietong address=2402:9a80::/32
 add list=china_tietong address=2407:37c0::/32
 add list=china_tietong address=2407:6c40:1210::/48
+add list=china_tietong address=2407:8f40:2::/48
 add list=china_tietong address=2407:c080:1800::/37
 add list=china_tietong address=2409:8000::/20
 add list=china_tietong address=240a:4020:83a::/48
@@ -1342,6 +1344,7 @@ add list=othernet_ipv6 address=2406:840:480::/48
 add list=othernet_ipv6 address=2406:840:540::/48
 add list=othernet_ipv6 address=2406:840:600::/48
 add list=othernet_ipv6 address=2406:840:680::/48
+add list=othernet_ipv6 address=2406:840:6c1::/48
 add list=othernet_ipv6 address=2406:840:710::/48
 add list=othernet_ipv6 address=2406:840:800::/46
 add list=othernet_ipv6 address=2406:840:805::/48
@@ -1593,6 +1596,7 @@ add list=othernet_ipv6 address=2a0f:1cc5:2d01::/48
 add list=othernet_ipv6 address=2a0f:1cc5:2d03::/48
 add list=othernet_ipv6 address=2a0f:1cc6:b110::/48
 add list=othernet_ipv6 address=2a0f:2706::/32
+add list=othernet_ipv6 address=2a0f:6284:4c00::/44
 add list=othernet_ipv6 address=2a0f:6284:4c20::/44
 add list=othernet_ipv6 address=2a0f:6284:4c30::/48
 add list=othernet_ipv6 address=2a0f:6284:4c40::/43
