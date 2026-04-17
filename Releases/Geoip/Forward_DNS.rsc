@@ -293,6 +293,7 @@ add regexp="^(.*\\.)?avdb\\.tv\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?avg\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?avgle\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?avidemux\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?avistaz\\.to\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?avmo\\.pw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?avmoo\\.pw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?avoision\\.com\$" type=FWD forward-to=$FWDgfw
