@@ -9328,11 +9328,12 @@ add list=china address=43.109.100.0/23
 add list=china address=43.109.102.0/24
 add list=china address=43.109.105.0/24
 add list=china address=43.109.107.0/24
+add list=china address=43.109.111.0/24
 add list=china address=43.109.112.0/24
 add list=china address=43.109.114.0/23
 add list=china address=43.109.116.0/23
 add list=china address=43.109.12.0/22
-add list=china address=43.109.135.0/24
+add list=china address=43.109.134.0/23
 add list=china address=43.109.16.0/22
 add list=china address=43.109.21.0/24
 add list=china address=43.109.22.0/24
