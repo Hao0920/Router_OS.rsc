@@ -131,7 +131,6 @@ add list=china address=2001:470:19:1200::/64
 add list=china address=2001:470:19:1203::/64
 add list=china address=2001:470:19:1206::/64
 add list=china address=2001:470:19:120::/64
-add list=china address=2001:470:19:1211::/64
 add list=china address=2001:470:19:121f::/64
 add list=china address=2001:470:19:122d::/64
 add list=china address=2001:470:19:1232::/64
@@ -206,13 +205,16 @@ add list=china address=2001:470:19:176::/64
 add list=china address=2001:470:19:17bd::/64
 add list=china address=2001:470:19:182::/64
 add list=china address=2001:470:19:185::/64
-add list=china address=2001:470:19:18a::/64
 add list=china address=2001:470:19:18d7::/64
 add list=china address=2001:470:19:18ee::/64
 add list=china address=2001:470:19:1904::/64
+add list=china address=2001:470:19:193::/64
+add list=china address=2001:470:19:196::/64
 add list=china address=2001:470:19:1977::/64
+add list=china address=2001:470:19:199::/64
 add list=china address=2001:470:19:19f5::/64
-add list=china address=2001:470:19:1a4::/64
+add list=china address=2001:470:19:1a0::/64
+add list=china address=2001:470:19:1a4::/63
 add list=china address=2001:470:19:1aa::/64
 add list=china address=2001:470:19:1ac::/64
 add list=china address=2001:470:19:1ada::/64
@@ -1082,7 +1084,6 @@ add list=china address=2001:470:1f05:85e::/64
 add list=china address=2001:470:1f05:88d::/64
 add list=china address=2001:470:1f05:8b0::/64
 add list=china address=2001:470:1f05:8b5::/64
-add list=china address=2001:470:1f05:8b::/64
 add list=china address=2001:470:1f05:8d8::/64
 add list=china address=2001:470:1f05:8e2::/64
 add list=china address=2001:470:1f05:8ec::/64
@@ -1248,9 +1249,12 @@ add list=china address=2001:470:1f07:a2e::/64
 add list=china address=2001:470:1f07:a38::/64
 add list=china address=2001:470:1f07:a62::/64
 add list=china address=2001:470:1f07:a6a::/64
+add list=china address=2001:470:1f07:a7::/64
 add list=china address=2001:470:1f07:a8e::/64
 add list=china address=2001:470:1f07:a9d::/64
 add list=china address=2001:470:1f07:b60::/64
+add list=china address=2001:470:1f07:b7::/64
+add list=china address=2001:470:1f07:b8::/64
 add list=china address=2001:470:1f07:b8f::/64
 add list=china address=2001:470:1f07:b93::/64
 add list=china address=2001:470:1f07:bbc::/64
@@ -1647,7 +1651,6 @@ add list=china address=2001:470:1f19:290::/64
 add list=china address=2001:470:1f19:292::/64
 add list=china address=2001:470:1f19:29e::/64
 add list=china address=2001:470:1f19:2a2::/64
-add list=china address=2001:470:1f19:2a6::/64
 add list=china address=2001:470:1f19:2a8::/64
 add list=china address=2001:470:1f19:2a::/64
 add list=china address=2001:470:1f19:2be::/64
@@ -1837,6 +1840,7 @@ add list=china address=2001:470:1f29:392::/64
 add list=china address=2001:470:1f29:3e7::/64
 add list=china address=2001:470:1f29:3ee::/64
 add list=china address=2001:470:1f29:460::/64
+add list=china address=2001:470:1f29:5a::/64
 add list=china address=2001:470:1f29:78::/64
 add list=china address=2001:470:1f29:bb::/64
 add list=china address=2001:470:1f29:cc::/64
@@ -2011,7 +2015,7 @@ add list=china address=2001:470:24:193::/64
 add list=china address=2001:470:24:19c::/64
 add list=china address=2001:470:24:1a7::/64
 add list=china address=2001:470:24:1ac::/64
-add list=china address=2001:470:24:1b6::/63
+add list=china address=2001:470:24:1b6::/64
 add list=china address=2001:470:24:1b9::/64
 add list=china address=2001:470:24:1bd::/64
 add list=china address=2001:470:24:1c1::/64
@@ -2124,7 +2128,6 @@ add list=china address=2001:470:24:372::/64
 add list=china address=2001:470:24:379::/64
 add list=china address=2001:470:24:37a::/64
 add list=china address=2001:470:24:382::/64
-add list=china address=2001:470:24:386::/64
 add list=china address=2001:470:24:38c::/64
 add list=china address=2001:470:24:390::/63
 add list=china address=2001:470:24:396::/63
@@ -2171,7 +2174,6 @@ add list=china address=2001:470:24:43d::/64
 add list=china address=2001:470:24:43e::/63
 add list=china address=2001:470:24:441::/64
 add list=china address=2001:470:24:442::/63
-add list=china address=2001:470:24:447::/64
 add list=china address=2001:470:24:448::/64
 add list=china address=2001:470:24:450::/64
 add list=china address=2001:470:24:452::/64
@@ -2278,9 +2280,10 @@ add list=china address=2001:470:24:5e3::/64
 add list=china address=2001:470:24:5f6::/64
 add list=china address=2001:470:24:5f9::/64
 add list=china address=2001:470:24:5fa::/64
+add list=china address=2001:470:24:5fc::/64
 add list=china address=2001:470:24:5ff::/64
 add list=china address=2001:470:24:607::/64
-add list=china address=2001:470:24:609::/64
+add list=china address=2001:470:24:608::/63
 add list=china address=2001:470:24:60::/63
 add list=china address=2001:470:24:60b::/64
 add list=china address=2001:470:24:60d::/64
@@ -2636,12 +2639,14 @@ add list=china address=2001:470:36:3c3::/64
 add list=china address=2001:470:36:3c5::/64
 add list=china address=2001:470:36:3c::/64
 add list=china address=2001:470:36:3d6::/64
+add list=china address=2001:470:36:3fd::/64
 add list=china address=2001:470:36:3fe::/63
 add list=china address=2001:470:36:403::/64
 add list=china address=2001:470:36:40c::/64
 add list=china address=2001:470:36:40f::/64
 add list=china address=2001:470:36:411::/64
 add list=china address=2001:470:36:414::/64
+add list=china address=2001:470:36:419::/64
 add list=china address=2001:470:36:41b::/64
 add list=china address=2001:470:36:41f::/64
 add list=china address=2001:470:36:42::/63
@@ -2688,6 +2693,7 @@ add list=china address=2001:470:36:545::/64
 add list=china address=2001:470:36:552::/64
 add list=china address=2001:470:36:56c::/64
 add list=china address=2001:470:36:571::/64
+add list=china address=2001:470:36:57::/64
 add list=china address=2001:470:36:57b::/64
 add list=china address=2001:470:36:580::/64
 add list=china address=2001:470:36:59c::/64
@@ -2916,7 +2922,9 @@ add list=china address=2001:470:414f::/48
 add list=china address=2001:470:4154::/47
 add list=china address=2001:470:4801::/48
 add list=china address=2001:470:4809::/48
+add list=china address=2001:470:4815::/48
 add list=china address=2001:470:4817::/48
+add list=china address=2001:470:481d::/48
 add list=china address=2001:470:4821::/48
 add list=china address=2001:470:4826::/48
 add list=china address=2001:470:482b::/48
@@ -3182,6 +3190,7 @@ add list=china address=2001:470:67:34::/63
 add list=china address=2001:470:67:34f::/64
 add list=china address=2001:470:67:358::/64
 add list=china address=2001:470:67:363::/64
+add list=china address=2001:470:67:36::/64
 add list=china address=2001:470:67:379::/64
 add list=china address=2001:470:67:38c::/64
 add list=china address=2001:470:67:3::/64
@@ -3362,7 +3371,6 @@ add list=china address=2001:470:7c:25c::/63
 add list=china address=2001:470:7c:267::/64
 add list=china address=2001:470:7c:26a::/64
 add list=china address=2001:470:7c:2d7::/64
-add list=china address=2001:470:7c:2e5::/64
 add list=china address=2001:470:7c:35::/64
 add list=china address=2001:470:7c:36::/64
 add list=china address=2001:470:7c:3d::/64
@@ -3550,7 +3558,8 @@ add list=china address=2001:470:8812::/48
 add list=china address=2001:470:881e::/48
 add list=china address=2001:470:8833::/48
 add list=china address=2001:470:8849::/48
-add list=china address=2001:470:885f::/48
+add list=china address=2001:470:885d::/48
+add list=china address=2001:470:885e::/47
 add list=china address=2001:470:887e::/48
 add list=china address=2001:470:8889::/48
 add list=china address=2001:470:88b2::/48
@@ -3623,7 +3632,6 @@ add list=china address=2001:470:8:4ef::/64
 add list=china address=2001:470:8:4f1::/64
 add list=china address=2001:470:8:4f2::/64
 add list=china address=2001:470:8:50f::/64
-add list=china address=2001:470:8:51d::/64
 add list=china address=2001:470:8:523::/64
 add list=china address=2001:470:8:527::/64
 add list=china address=2001:470:8:52c::/64
@@ -3632,7 +3640,6 @@ add list=china address=2001:470:8:547::/64
 add list=china address=2001:470:8:559::/64
 add list=china address=2001:470:8:564::/64
 add list=china address=2001:470:8:575::/64
-add list=china address=2001:470:8:577::/64
 add list=china address=2001:470:8:579::/64
 add list=china address=2001:470:8:598::/64
 add list=china address=2001:470:8:59e::/64
@@ -4815,7 +4822,7 @@ add list=china address=2001:470:d:7dc::/64
 add list=china address=2001:470:d:7e2::/64
 add list=china address=2001:470:d:7e4::/64
 add list=china address=2001:470:d:7e6::/64
-add list=china address=2001:470:d:7e9::/64
+add list=china address=2001:470:d:7e8::/63
 add list=china address=2001:470:d:7ec::/63
 add list=china address=2001:470:d:7f2::/64
 add list=china address=2001:470:d:7f4::/62
@@ -4863,6 +4870,7 @@ add list=china address=2001:470:d:86c::/64
 add list=china address=2001:470:d:873::/64
 add list=china address=2001:470:d:874::/64
 add list=china address=2001:470:d:876::/63
+add list=china address=2001:470:d:879::/64
 add list=china address=2001:470:d:87a::/64
 add list=china address=2001:470:d:87e::/64
 add list=china address=2001:470:d:883::/64
@@ -4984,7 +4992,6 @@ add list=china address=2001:470:d:a14::/64
 add list=china address=2001:470:d:a16::/63
 add list=china address=2001:470:d:a1a::/63
 add list=china address=2001:470:d:a1e::/64
-add list=china address=2001:470:d:a20::/64
 add list=china address=2001:470:d:a24::/62
 add list=china address=2001:470:d:a28::/63
 add list=china address=2001:470:d:a2f::/64
@@ -5182,7 +5189,6 @@ add list=china address=2001:470:d:d93::/64
 add list=china address=2001:470:d:d99::/64
 add list=china address=2001:470:d:d9e::/64
 add list=china address=2001:470:d:da8::/64
-add list=china address=2001:470:d:db1::/64
 add list=china address=2001:470:d:db2::/64
 add list=china address=2001:470:d:dba::/63
 add list=china address=2001:470:d:dc3::/64
@@ -5382,7 +5388,6 @@ add list=china address=2001:470:e1a1::/48
 add list=china address=2001:470:e1b1::/48
 add list=china address=2001:470:e1ef::/48
 add list=china address=2001:470:e208::/48
-add list=china address=2001:470:e22c::/48
 add list=china address=2001:470:e259::/48
 add list=china address=2001:470:e2f0::/47
 add list=china address=2001:470:e2f4::/48
@@ -5769,6 +5774,7 @@ add list=china address=2001:470:f3eb::/48
 add list=china address=2001:470:f3ed::/48
 add list=china address=2001:470:f3f3::/48
 add list=china address=2001:470:f3fc::/47
+add list=china address=2001:470:f405::/48
 add list=china address=2001:470:f42e::/48
 add list=china address=2001:470:f43a::/48
 add list=china address=2001:470:f43d::/48
@@ -5911,10 +5917,10 @@ add list=china address=2001:470:f8d0::/47
 add list=china address=2001:470:f8d6::/48
 add list=china address=2001:470:f8da::/47
 add list=china address=2001:470:f8de::/48
-add list=china address=2001:470:f8e2::/48
 add list=china address=2001:470:f8e4::/48
 add list=china address=2001:470:f8e6::/48
 add list=china address=2001:470:f8e8::/48
+add list=china address=2001:470:f8f3::/48
 add list=china address=2001:470:f8fb::/48
 add list=china address=2001:470:f91b::/48
 add list=china address=2001:470:f91e::/48
@@ -6149,6 +6155,7 @@ add list=china address=2001:470:fe39::/48
 add list=china address=2001:470:fe40::/48
 add list=china address=2001:470:fe4f::/48
 add list=china address=2001:470:fe52::/48
+add list=china address=2001:470:fe56::/48
 add list=china address=2001:470:fe58::/47
 add list=china address=2001:470:fe5d::/48
 add list=china address=2001:470:fe60::/48
@@ -6165,7 +6172,6 @@ add list=china address=2001:470:fea7::/48
 add list=china address=2001:470:fea8::/48
 add list=china address=2001:470:feab::/48
 add list=china address=2001:470:feb4::/47
-add list=china address=2001:470:fec7::/48
 add list=china address=2001:470:fecc::/48
 add list=china address=2001:470:fed2::/48
 add list=china address=2001:470:fed6::/48
@@ -6176,11 +6182,13 @@ add list=china address=2001:470:fee4::/48
 add list=china address=2001:470:fee8::/48
 add list=china address=2001:470:fef0::/48
 add list=china address=2001:470:fef3::/48
+add list=china address=2001:470:fefd::/48
 add list=china address=2001:470:ff05::/48
 add list=china address=2001:470:ff08::/48
 add list=china address=2001:470:ff0a::/47
 add list=china address=2001:470:ff0d::/48
 add list=china address=2001:470:ff14::/48
+add list=china address=2001:470:ff1c::/48
 add list=china address=2001:470:ff2f::/48
 add list=china address=2001:470:ff34::/48
 add list=china address=2001:470:ff3f::/48
@@ -7069,6 +7077,7 @@ add list=china address=2402:2ca0::/32
 add list=china address=2402:2d00::/32
 add list=china address=2402:2d80::/32
 add list=china address=2402:2e60::/32
+add list=china address=2402:2e60::/39
 add list=china address=2402:2e80::/32
 add list=china address=2402:2f40::/32
 add list=china address=2402:3040::/32
@@ -7150,6 +7159,7 @@ add list=china address=2402:5180::/32
 add list=china address=2402:51a0::/32
 add list=china address=2402:52c0::/32
 add list=china address=2402:5340::/32
+add list=china address=2402:5820::/32
 add list=china address=2402:5880::/32
 add list=china address=2402:5940::/32
 add list=china address=2402:59c0::/32
@@ -8807,9 +8817,9 @@ add list=china address=2406:840:fda0::/43
 add list=china address=2406:840:fdc0::/43
 add list=china address=2406:840:fdc0::/44
 add list=china address=2406:840:fde0::/44
-add list=china address=2406:840:fdf0::/47
-add list=china address=2406:840:fdf2::/48
-add list=china address=2406:840:fdf4::/46
+add list=china address=2406:840:fdf0::/46
+add list=china address=2406:840:fdf5::/48
+add list=china address=2406:840:fdf6::/47
 add list=china address=2406:840:fdf8::/45
 add list=china address=2406:840:fe00::/41
 add list=china address=2406:840:fe50::/47
@@ -9781,7 +9791,29 @@ add list=china address=2409:2000:f000::/37
 add list=china address=2409:2000:f800::/38
 add list=china address=2409:2000:fc00::/39
 add list=china address=2409:2000:fe00::/40
-add list=china address=2409:2000:ff00::/41
+add list=china address=2409:2000:ff00::/44
+add list=china address=2409:2000:ff10:1000::/52
+add list=china address=2409:2000:ff10:100::/56
+add list=china address=2409:2000:ff10:10::/60
+add list=china address=2409:2000:ff10:1::/64
+add list=china address=2409:2000:ff10:2000::/51
+add list=china address=2409:2000:ff10:200::/55
+add list=china address=2409:2000:ff10:20::/59
+add list=china address=2409:2000:ff10:2::/63
+add list=china address=2409:2000:ff10:4000::/50
+add list=china address=2409:2000:ff10:400::/54
+add list=china address=2409:2000:ff10:40::/58
+add list=china address=2409:2000:ff10:4::/62
+add list=china address=2409:2000:ff10:8000::/49
+add list=china address=2409:2000:ff10:800::/53
+add list=china address=2409:2000:ff10:80::/57
+add list=china address=2409:2000:ff10:8::/61
+add list=china address=2409:2000:ff11::/48
+add list=china address=2409:2000:ff12::/47
+add list=china address=2409:2000:ff14::/46
+add list=china address=2409:2000:ff18::/45
+add list=china address=2409:2000:ff20::/43
+add list=china address=2409:2000:ff40::/42
 add list=china address=2409:2000:ff80::/43
 add list=china address=2409:2000:ffa0:1000::/52
 add list=china address=2409:2000:ffa0:2000::/51
@@ -11965,7 +11997,6 @@ add list=china address=2a0f:7802:e104::/47
 add list=china address=2a0f:7802:e108::/48
 add list=china address=2a0f:7802:e111::/48
 add list=china address=2a0f:7802:e138::/48
-add list=china address=2a0f:7803:f891::/48
 add list=china address=2a0f:7803:fc00::/39
 add list=china address=2a0f:7803:fd00::/44
 add list=china address=2a0f:7803:fd20::/43
