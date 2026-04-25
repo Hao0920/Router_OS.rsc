@@ -3348,6 +3348,7 @@ add regexp="^(.*\\.)?tbsec\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tbsn\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tbssqh\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?teachparentstech\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?techbang\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?technews\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?techviz\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?teck\\.in\$" type=FWD forward-to=$FWDgfw
