@@ -3693,6 +3693,7 @@ add regexp="^(.*\\.)?upghsbc\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?upmedia\\.mg\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?upornia\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?uproxy\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?upsangel\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?uptodown\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?uraban\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?urbandictionary\\.com\$" type=FWD forward-to=$FWDgfw
