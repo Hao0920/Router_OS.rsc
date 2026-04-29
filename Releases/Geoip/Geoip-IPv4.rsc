@@ -5563,6 +5563,7 @@ add list=china address=162.14.128.0/17
 add list=china address=162.14.14.11/32
 add list=china address=162.14.16.0/22
 add list=china address=162.14.64.0/18
+add list=china address=162.4.54.0/23
 add list=china address=162.62.240.0/23
 add list=china address=162.62.242.0/24
 add list=china address=163.0.0.0/16
