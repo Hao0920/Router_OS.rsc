@@ -12015,6 +12015,9 @@ add list=china address=2a0f:7802:e104::/47
 add list=china address=2a0f:7802:e108::/48
 add list=china address=2a0f:7802:e111::/48
 add list=china address=2a0f:7802:e138::/48
+add list=china address=2a0f:7803:fa21::/48
+add list=china address=2a0f:7803:fa22::/47
+add list=china address=2a0f:7803:fa24::/46
 add list=china address=2a0f:7803:faf3::/48
 add list=china address=2a0f:7803:fc00::/39
 add list=china address=2a0f:7803:fd00::/44
