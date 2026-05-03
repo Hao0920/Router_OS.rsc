@@ -3170,6 +3170,7 @@ add regexp="^(.*\\.)?socks-proxy\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sockslist\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?socrec\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?softether-download\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?softether\\.co\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?softether\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?softfamous\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?softwarebychuck\\.com\$" type=FWD forward-to=$FWDgfw
