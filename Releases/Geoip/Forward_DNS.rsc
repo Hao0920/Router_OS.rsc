@@ -3046,9 +3046,6 @@ add regexp="^(.*\\.)?savetibetstore\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?saveuighur\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sbme\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sbti\\.unun\\.dev\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?scache\\.vzw\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?scache1\\.vzw\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?scache2\\.vzw\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?schema\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?scmp\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?scramble\\.io\$" type=FWD forward-to=$FWDgfw
@@ -3229,7 +3226,6 @@ add regexp="^(.*\\.)?springwood\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sproutcore\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?squirrelvpn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ss-link\\.com\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?ss7\\.vzw\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ssglobal\\.co\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ssl\\.webpack\\.de\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sspanel\\.net\$" type=FWD forward-to=$FWDgfw
