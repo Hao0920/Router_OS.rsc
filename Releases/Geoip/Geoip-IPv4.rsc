@@ -5251,6 +5251,7 @@ add list=china address=157.10.218.0/23
 add list=china address=157.10.220.0/23
 add list=china address=157.10.246.0/23
 add list=china address=157.10.34.0/23
+add list=china address=157.10.34.0/24
 add list=china address=157.10.36.0/23
 add list=china address=157.119.132.0/22
 add list=china address=157.119.136.0/21
