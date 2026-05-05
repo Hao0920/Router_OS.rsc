@@ -1486,7 +1486,7 @@ add list=china_unicom address=2a0e:b107:2440::/44
 add list=china_unicom address=2a0f:1cc5:10::/44
 add list=china_unicom address=2a0f:1cc5:110::/44
 add list=china_unicom address=2a0f:1cc5:130::/44
-add list=china_unicom address=2a0f:1cc5:140::/44
+add list=china_unicom address=2a0f:1cc5:140::/43
 add list=china_unicom address=2a0f:1cc5:600::/47
 add list=china_unicom address=2a0f:1cc5:603::/48
 add list=china_unicom address=2a0f:1cc5:642::/48
@@ -1508,12 +1508,10 @@ add list=china_unicom address=2a0f:1cc5:1d10::/47
 add list=china_unicom address=2a0f:1cc5:1d14::/48
 add list=china_unicom address=2a0f:1cc5:2510::/44
 add list=china_unicom address=2a0f:1cc5:2520::/44
-add list=china_unicom address=2a0f:1cc5:2600::/40
+add list=china_unicom address=2a0f:1cc5:2600::/41
+add list=china_unicom address=2a0f:1cc5:2680::/42
 add list=china_unicom address=2a0f:1cc5:2d01::/48
 add list=china_unicom address=2a0f:1cc5:2d03::/48
-add list=china_unicom address=2a0f:1cc5:3200::/45
-add list=china_unicom address=2a0f:1cc5:3208::/47
-add list=china_unicom address=2a0f:1cc5:3222::/48
 add list=china_unicom address=2a0f:1cc6:b110::/47
 add list=china_unicom address=2a0f:2706::/32
 add list=china_unicom address=2a0f:6284:4c00::/44
@@ -1554,7 +1552,6 @@ add list=china_unicom address=2a14:67c1:b599::/48
 add list=china_unicom address=2a14:67c1:b5e0::/44
 add list=china_unicom address=2a14:67c2:519::/48
 add list=china_unicom address=2a14:67c3:30::/44
-add list=china_unicom address=2a14:67c3:1100::/47
 add list=china_unicom address=2a14:67c3:6668::/45
 add list=china_unicom address=2a14:7580:740::/44
 add list=china_unicom address=2a14:7580:d00::/43
