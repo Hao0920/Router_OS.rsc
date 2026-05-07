@@ -909,6 +909,7 @@ add list=china_unicom address=2400:ae00:1981::/48
 add list=china_unicom address=2400:b200::/32
 add list=china_unicom address=2400:da00::/32
 add list=china_unicom address=2400:dd00::/28
+add list=china_unicom address=2400:e3e0:aa00::/39
 add list=china_unicom address=2400:e680::/32
 add list=china_unicom address=2400:ee00::/32
 add list=china_unicom address=2400:f6e0::/32
@@ -985,7 +986,7 @@ add list=china_unicom address=2401:f860:88::/47
 add list=china_unicom address=2401:f860:90::/48
 add list=china_unicom address=2401:f860:92::/47
 add list=china_unicom address=2401:f860:94::/48
-add list=china_unicom address=2401:f860:96::/47
+add list=china_unicom address=2401:f860:97::/48
 add list=china_unicom address=2401:f860:f6::/48
 add list=china_unicom address=2401:f860:100::/40
 add list=china_unicom address=2401:fa00:40::/43
@@ -1023,8 +1024,6 @@ add list=china_unicom address=2402:7040::/32
 add list=china_unicom address=2402:7d80::/48
 add list=china_unicom address=2402:7d80:8888::/48
 add list=china_unicom address=2402:8bc0::/32
-add list=china_unicom address=2402:8cc0::/40
-add list=china_unicom address=2402:8cc0:200::/40
 add list=china_unicom address=2402:93c0::/48
 add list=china_unicom address=2402:93c0:20::/48
 add list=china_unicom address=2402:93c0:100::/48
@@ -1357,9 +1356,15 @@ add list=china_unicom address=2406:840:fd70::/48
 add list=china_unicom address=2406:840:fd76::/47
 add list=china_unicom address=2406:840:fd80::/48
 add list=china_unicom address=2406:840:fd86::/47
-add list=china_unicom address=2406:840:fd90::/44
-add list=china_unicom address=2406:840:fda0::/43
-add list=china_unicom address=2406:840:fdc0::/44
+add list=china_unicom address=2406:840:fd90::/47
+add list=china_unicom address=2406:840:fd92::/48
+add list=china_unicom address=2406:840:fd9f::/48
+add list=china_unicom address=2406:840:fda0::/48
+add list=china_unicom address=2406:840:fda6::/47
+add list=china_unicom address=2406:840:fdb0::/48
+add list=china_unicom address=2406:840:fdb6::/47
+add list=china_unicom address=2406:840:fdc0::/48
+add list=china_unicom address=2406:840:fdc6::/47
 add list=china_unicom address=2406:840:fe51::/48
 add list=china_unicom address=2406:840:fe73::/48
 add list=china_unicom address=2406:840:fe90::/46
@@ -1381,6 +1386,7 @@ add list=china_unicom address=2406:840:fece::/47
 add list=china_unicom address=2406:840:fed1::/48
 add list=china_unicom address=2406:840:fed3::/48
 add list=china_unicom address=2406:840:fed4::/48
+add list=china_unicom address=2406:840:fed7::/48
 add list=china_unicom address=2406:840:fed8::/48
 add list=china_unicom address=2406:840:fedb::/48
 add list=china_unicom address=2406:840:fedc::/48
@@ -1628,4 +1634,5 @@ add list=china_unicom address=2a14:7586:6107::/48
 add list=china_unicom address=2a14:7586:6110::/48
 add list=china_unicom address=2a14:7586:6300::/44
 add list=china_unicom address=2a14:7dc0:506::/48
+add list=china_unicom address=2a14:c380:21::/48
 /file remove china_unicom-mobile-IPv6.rsc
