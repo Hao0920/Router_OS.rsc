@@ -91,6 +91,7 @@ add regexp="^(.*\\.)?abplive\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?acast\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?accountkit\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?acevpn\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?acg\\.mn\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?acg\\.rip\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?acg18\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?acgbox\\.org\$" type=FWD forward-to=$FWDgfw
@@ -416,6 +417,7 @@ add regexp="^(.*\\.)?bl-doujinsouko\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?blacked\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?blackmagicdesign\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?blackvpn\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?bleepingcomputer\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?blinkx\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?blip\\.tv\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?blockcast\\.it\$" type=FWD forward-to=$FWDgfw
@@ -528,6 +530,7 @@ add regexp="^(.*\\.)?bookdepository\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?books\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?booktopia\\.com\\.au\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bookwalker\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?boomplay\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bootstrapcdn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?borgenmagazine\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?botanwang\\.com\$" type=FWD forward-to=$FWDgfw
@@ -795,6 +798,7 @@ add regexp="^(.*\\.)?cn\\.theaustralian\\.com\\.au\$" type=FWD forward-to=$FWDgf
 add regexp="^(.*\\.)?cn\\.uptodown\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cna\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cnbbnews\\.wordpress\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?cnbc\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cnbeta\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cnd\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cnnews\\.chosun\\.com\$" type=FWD forward-to=$FWDgfw
@@ -874,6 +878,7 @@ add regexp="^(.*\\.)?csw\\.org\\.uk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ct\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ctinets\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ctinews\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?ctinsider\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ctitv\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ctowc\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cts\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
@@ -1068,6 +1073,7 @@ add regexp="^(.*\\.)?ecfa\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ecimg\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?economist\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?edgecastcdn\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?edigest\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?edubridge\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?edx-cdn\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?eesti\\.ee\$" type=FWD forward-to=$FWDgfw
@@ -1793,6 +1799,7 @@ add regexp="^(.*\\.)?hindustantimes\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hinet\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hitbtc\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hitomi\\.la\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?hive\\.blog\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hiveon\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hk-pub\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hk\\.gradconnection\\.com\$" type=FWD forward-to=$FWDgfw
@@ -1967,6 +1974,7 @@ add regexp="^(.*\\.)?indiatoday\\.in\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?indiemerch\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?inews-api\\.tvb\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?info-graf\\.fr\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?infosec\\.exchange\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?infura\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?inherit\\.live\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?initiativesforchina\\.org\$" type=FWD forward-to=$FWDgfw
@@ -2105,6 +2113,7 @@ add regexp="^(.*\\.)?kanshifang\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?kantie\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?kaotic\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?karayou\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?kathmandupost\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?kawaiikawaii\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?kawase\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?kb\\.monitorware\\.com\$" type=FWD forward-to=$FWDgfw
@@ -2179,6 +2188,7 @@ add regexp="^(.*\\.)?left21\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?legra\\.ph\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?leisurepro\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lematin\\.ch\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?lemonde\\.fr\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lenwhite\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lesoir\\.be\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?letscorp\\.net\$" type=FWD forward-to=$FWDgfw
@@ -2191,6 +2201,7 @@ add regexp="^(.*\\.)?liaowangxizang\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?liberal\\.org\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?libertysculpturepark\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?libertytimes\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?libgen\\.is\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?library-access\\.sk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?library\\.usc\\.cuhk\\.edu\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?libredd\\.it\$" type=FWD forward-to=$FWDgfw
@@ -2312,6 +2323,7 @@ add regexp="^(.*\\.)?meansys\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?media\\.nu\\.nl\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mediachinese\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mediafreakcity\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?mediamatters\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mediawiki\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?medium\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?meee\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
@@ -2391,6 +2403,7 @@ add regexp="^(.*\\.)?mixx\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mizzmona\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mji\\.rip\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mjj\\.rip\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?mjj\\.today\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mjlsh\\.usc\\.cuhk\\.edu\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mlc\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mlzs\\.work\$" type=FWD forward-to=$FWDgfw
@@ -2440,6 +2453,7 @@ add regexp="^(.*\\.)?mthruf\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mubi\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mullvad\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?multiply\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?music\\.amazon\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?musixmatch\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?muzi\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?muzi\\.net\$" type=FWD forward-to=$FWDgfw
@@ -2513,10 +2527,12 @@ add regexp="^(.*\\.)?news1\\.kr\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?news18\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?newsancai\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?newsblur\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?newshub\\.co\\.nz\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?newsmax\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?newstamago\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?newstapa\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?newstatesman\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?newstimes\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?newsweek\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?newtalk\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?newthuhole\\.com\$" type=FWD forward-to=$FWDgfw
@@ -2531,6 +2547,8 @@ add regexp="^(.*\\.)?nflximg\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nflximg\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nflxso\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nflxvideo\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?nfsc\\.press\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?nfscofficial\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nftstorage\\.link\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nga\\.mil\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nhentai\\.net\$" type=FWD forward-to=$FWDgfw
@@ -2676,6 +2694,7 @@ add regexp="^(.*\\.)?oursteps\\.com\\.au\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ourtv\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?overcast\\.fm\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?overdaily\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?overdrive\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?overplay\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?oversea\\.istarshine\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ovpn\\.com\$" type=FWD forward-to=$FWDgfw
@@ -2727,6 +2746,7 @@ add regexp="^(.*\\.)?pekingduck\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pemulihan\\.or\\.id\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pen\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pendrivelinux\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?penguin\\.com\\.au\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pentoy\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?peoplenews\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?peopo\\.org\$" type=FWD forward-to=$FWDgfw
@@ -3012,6 +3032,7 @@ add regexp="^(.*\\.)?rthk\\.org\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?rti\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?rti\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?rtm\\.tnt-ea\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?rts\\.ch\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?rule34\\.xxx\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?rule34video\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?rumble\\.com\$" type=FWD forward-to=$FWDgfw
@@ -3123,6 +3144,7 @@ add regexp="^(.*\\.)?simplecd\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?simpleswap\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?simplex\\.chat\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sina\\.com\\.hk\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?sinchew\\.com\\.my\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?singaporepools\\.com\\.sg\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?singlelogin\\.se\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?singtao\\.com\$" type=FWD forward-to=$FWDgfw
@@ -3376,6 +3398,8 @@ add regexp="^(.*\\.)?tfhub\\.dev\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tfiflve\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tg-me\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tg\\.dev\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?tgstat\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?the-sun\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?theatlantic\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?theatrum-belli\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?thebcomplex\\.com\$" type=FWD forward-to=$FWDgfw
@@ -3408,6 +3432,7 @@ add regexp="^(.*\\.)?thestandnews\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?thetatoken\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?thetibetpost\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?thetvdb\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?theweek\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?thewgo\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?thewirechina\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?theync\\.com\$" type=FWD forward-to=$FWDgfw
@@ -3581,6 +3606,7 @@ add regexp="^(.*\\.)?tv\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tv\\.jtbc\\.joins\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tvbanywhere\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tvboxnow\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?tvdy1\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tvunetworks\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tw-blog\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tw\\.jiepang\\.com\$" type=FWD forward-to=$FWDgfw
@@ -3789,6 +3815,7 @@ add regexp="^(.*\\.)?vod\\.wwe\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?voicettank\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?vot\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?vovo2000\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?vox\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?voxer\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?vpl\\.bibliocommons\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?vpn\\.ac\$" type=FWD forward-to=$FWDgfw
@@ -3964,6 +3991,7 @@ add regexp="^(.*\\.)?work2icu\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?workatruna\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?workerempowerment\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?workers\\.dev\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?worldjournal\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?worldvpn\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wowgirls\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wowhead\\.com\$" type=FWD forward-to=$FWDgfw

@@ -4550,7 +4550,6 @@ add list=china address=122.72.16.0/24
 add list=china address=122.72.3.0/24
 add list=china address=122.72.38.0/24
 add list=china address=122.72.57.0/24
-add list=china address=122.77.240.0/24
 add list=china address=122.8.0.0/17
 add list=china address=122.8.0.0/21
 add list=china address=122.8.100.0/22
@@ -10423,8 +10422,6 @@ add list=china address=61.160.0.0/11
 add list=china address=61.232.0.0/14
 add list=china address=61.236.0.0/15
 add list=china address=61.236.112.0/21
-add list=china address=61.236.248.0/24
-add list=china address=61.236.251.0/24
 add list=china address=61.236.80.0/20
 add list=china address=61.236.96.0/20
 add list=china address=61.237.0.0/16
