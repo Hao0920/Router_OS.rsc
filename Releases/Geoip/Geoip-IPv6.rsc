@@ -42,10 +42,8 @@ add list=china address=2001:256::/32
 add list=china address=2001:3786:3373:300::/56
 add list=china address=2001:3786:5002:200::/56
 add list=china address=2001:4438::/32
-add list=china address=2001:4510:1480::/41
 add list=china address=2001:4510:400::/40
 add list=china address=2001:4510::/29
-add list=china address=2001:4511:1480::/41
 add list=china address=2001:470:18:723::/64
 add list=china address=2001:470:199d::/48
 add list=china address=2001:470:19:1001::/64
@@ -7918,6 +7916,7 @@ add list=china address=2404:2280:2c9::/48
 add list=china address=2404:2280:2ca::/47
 add list=china address=2404:2280:2cd::/48
 add list=china address=2404:2280:2cf::/48
+add list=china address=2404:2280:2df::/48
 add list=china address=2404:2280:2f1::/48
 add list=china address=2404:2280:2f8::/48
 add list=china address=2404:240::/32
@@ -8846,7 +8845,7 @@ add list=china address=2406:840:fdb6::/47
 add list=china address=2406:840:fdc0::/48
 add list=china address=2406:840:fdc6::/47
 add list=china address=2406:840:fe00::/41
-add list=china address=2406:840:fe51::/48
+add list=china address=2406:840:fe50::/47
 add list=china address=2406:840:fe73::/48
 add list=china address=2406:840:fe80::/42
 add list=china address=2406:840:fe90::/46
@@ -10301,6 +10300,7 @@ add list=china address=2602:f92a:a448:6000::/51
 add list=china address=2602:f92a:a46d::/48
 add list=china address=2602:f92a:a46f::/48
 add list=china address=2602:f92a:a474::/48
+add list=china address=2602:f92a:a47d::/48
 add list=china address=2602:f9ba:10c::/48
 add list=china address=2602:f9f6:400::/47
 add list=china address=2602:f9f6:450::/48
@@ -12077,7 +12077,7 @@ add list=china address=2a14:7583:e0e0:fc70::/60
 add list=china address=2a14:7583:e0e0:fc80::/57
 add list=china address=2a14:7583:e0e0:fd00::/56
 add list=china address=2a14:7583:e0e0:fe00::/55
-add list=china address=2a14:7583:f224::/48
+add list=china address=2a14:7583:f224::/47
 add list=china address=2a14:7583:f228::/48
 add list=china address=2a14:7583:f22c::/48
 add list=china address=2a14:7583:f244::/48

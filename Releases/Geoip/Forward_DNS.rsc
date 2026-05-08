@@ -3693,6 +3693,7 @@ add regexp="^(.*\\.)?ulop\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ultrasurf\\.us\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ultravpn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ultravpn\\.fr\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?umap\\.openstreetmap\\.fr\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?unblock-us\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?unblock\\.cn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?unblockdmm\\.com\$" type=FWD forward-to=$FWDgfw
