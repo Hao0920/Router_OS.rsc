@@ -921,6 +921,7 @@ add regexp="^(.*\\.)?darpa\\.mil\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?darrenliuwei\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dashlane\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?data-vocabulary\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?data18\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?daum\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?david-kilgour\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dawangidc\\.com\$" type=FWD forward-to=$FWDgfw
@@ -1032,6 +1033,7 @@ add regexp="^(.*\\.)?dropboxapi\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dropboxusercontent\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dscn\\.info\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dstk\\.dk\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?dt18\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dtiblog\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dtic\\.mil\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dubox\\.com\$" type=FWD forward-to=$FWDgfw

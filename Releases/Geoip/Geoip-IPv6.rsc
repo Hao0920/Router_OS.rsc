@@ -8603,7 +8603,6 @@ add list=china address=2406:840:880::/47
 add list=china address=2406:840:882::/48
 add list=china address=2406:840:9000::/38
 add list=china address=2406:840:90::/48
-add list=china address=2406:840:9178::/48
 add list=china address=2406:840:9200::/40
 add list=china address=2406:840:9400::/39
 add list=china address=2406:840:9600::/42
@@ -10784,7 +10783,8 @@ add list=china address=2a06:9f81:4640::/43
 add list=china address=2a06:a005:260::/43
 add list=china address=2a06:a005:280::/43
 add list=china address=2a06:a005:2a0::/44
-add list=china address=2a07:54c1:2200::/46
+add list=china address=2a07:54c1:2200::/47
+add list=china address=2a07:54c1:2203::/48
 add list=china address=2a07:54c1:2205::/48
 add list=china address=2a07:d887:2f00::/40
 add list=china address=2a09:bac0:1000:5dc::/64
@@ -11893,7 +11893,7 @@ add list=china address=2a0f:1cc5:110::/44
 add list=china address=2a0f:1cc5:1265:8621::/64
 add list=china address=2a0f:1cc5:1286::/47
 add list=china address=2a0f:1cc5:130::/44
-add list=china address=2a0f:1cc5:140::/43
+add list=china address=2a0f:1cc5:140::/44
 add list=china address=2a0f:1cc5:14::/46
 add list=china address=2a0f:1cc5:1600:156::/64
 add list=china address=2a0f:1cc5:1600::/44
@@ -11927,7 +11927,7 @@ add list=china address=2a0f:1cc5:a00::/48
 add list=china address=2a0f:1cc5:f00::/46
 add list=china address=2a0f:1cc5:f04::/47
 add list=china address=2a0f:1cc5:f06::/48
-add list=china address=2a0f:1cc5:f08::/47
+add list=china address=2a0f:1cc5:f09::/48
 add list=china address=2a0f:1cc5:fff::/48
 add list=china address=2a0f:1cc6:b110::/47
 add list=china address=2a0f:1cc6:b210::/47
@@ -12135,7 +12135,7 @@ add list=china address=2a14:7583:f743::/48
 add list=china address=2a14:7583:f744::/48
 add list=china address=2a14:7583:f764::/48
 add list=china address=2a14:7583:ff84::/47
-add list=china address=2a14:7586:6100::/48
+add list=china address=2a14:7586:6100::/47
 add list=china address=2a14:7586:6103::/48
 add list=china address=2a14:7586:6104::/48
 add list=china address=2a14:7586:6107::/48
