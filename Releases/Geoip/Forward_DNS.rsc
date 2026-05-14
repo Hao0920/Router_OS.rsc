@@ -742,6 +742,7 @@ add regexp="^(.*\\.)?chineseupress\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chingcheong\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chinman\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chobit\\.cc\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?chonglangtv\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chrdnet\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?christianfreedom\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?christianstudy\\.com\$" type=FWD forward-to=$FWDgfw
