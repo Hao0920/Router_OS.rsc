@@ -3138,6 +3138,7 @@ add regexp="^(.*\\.)?shutterstock\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?shwchurch\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?shwchurch3\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sidelinesnews\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?sider\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?signal\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?silvergatebank\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?simbolostwitter\\.com\$" type=FWD forward-to=$FWDgfw
@@ -4199,6 +4200,7 @@ add regexp="^(.*\\.)?zh\\.ecdm\\.wikia\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zh\\.pokerstrategy\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zh\\.wikiquote\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zhangtianliang\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?zhangzhehan\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zhanlve\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zhao\\.1984\\.city\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zhengjian\\.org\$" type=FWD forward-to=$FWDgfw
