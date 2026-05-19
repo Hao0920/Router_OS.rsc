@@ -1478,6 +1478,7 @@ add list=china_telecom address=2a06:3600:fb00::/40
 add list=china_telecom address=2a06:3600:fc00::/38
 add list=china_telecom address=2a06:3605::/32
 add list=china_telecom address=2a06:3606::/31
+add list=china_telecom address=2a06:9801:2b3::/48
 add list=china_telecom address=2a06:a005:260::/43
 add list=china_telecom address=2a06:a005:280::/43
 add list=china_telecom address=2a06:a005:2a0::/44
