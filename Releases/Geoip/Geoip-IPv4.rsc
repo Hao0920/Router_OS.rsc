@@ -9678,6 +9678,7 @@ add list=china address=44.30.36.0/24
 add list=china address=44.30.55.0/24
 add list=china address=44.30.63.0/24
 add list=china address=44.30.8.0/24
+add list=china address=44.31.212.0/24
 add list=china address=44.31.212.0/31
 add list=china address=44.31.212.12/31
 add list=china address=44.31.212.128/25
@@ -9686,7 +9687,6 @@ add list=china address=44.31.212.32/27
 add list=china address=44.31.212.64/26
 add list=china address=44.31.216.0/24
 add list=china address=44.31.220.0/24
-add list=china address=44.31.231.0/24
 add list=china address=44.31.28.0/24
 add list=china address=44.31.42.0/23
 add list=china address=44.31.43.0/24
