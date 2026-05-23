@@ -28,6 +28,7 @@ add regexp="^(.*\\.)?2047\\.name\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?2047\\.one\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?2049bbs\\.xyz\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?233abc\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?24hbook\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?24hrs\\.ca\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?32red\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?36rain\\.com\$" type=FWD forward-to=$FWDgfw
@@ -2303,6 +2304,7 @@ add regexp="^(.*\\.)?martau\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?martsangkagyuofficial\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?marxist\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?marxists\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?mas\\.to\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mash\\.to\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mastodon\\.cloud\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mastodon\\.host\$" type=FWD forward-to=$FWDgfw
@@ -2510,6 +2512,7 @@ add regexp="^(.*\\.)?ncn\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ndi\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nekoslovakia\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?neo-miracle\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?neodb\\.social\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?neowin\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nephobox\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?netalert\\.me\$" type=FWD forward-to=$FWDgfw
