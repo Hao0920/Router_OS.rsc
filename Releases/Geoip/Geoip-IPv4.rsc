@@ -10487,7 +10487,6 @@ add list=china address=71.136.64.0/18
 add list=china address=71.137.0.0/18
 add list=china address=72.163.240.0/23
 add list=china address=72.163.248.0/22
-add list=china address=74.122.24.0/24
 add list=china address=74.122.26.0/23
 add list=china address=78.105.182.0/23
 add list=china address=79.133.176.0/24
