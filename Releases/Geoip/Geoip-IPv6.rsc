@@ -12256,7 +12256,6 @@ add list=china address=2a14:7586:6107::/48
 add list=china address=2a14:7586:6110::/48
 add list=china address=2a14:7586:6300::/44
 add list=china address=2a14:7dc0:506::/48
-add list=china address=2a14:ae00:50::/44
 add list=china address=2a14:c380:21::/48
 add list=china address=2c0f:f7a8:8011::/48
 add list=china address=2c0f:f7a8:8050::/48
