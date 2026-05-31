@@ -300,6 +300,7 @@ add list=china address=103.102.168.0/21
 add list=china address=103.102.180.0/22
 add list=china address=103.102.184.0/21
 add list=china address=103.102.192.0/21
+add list=china address=103.102.196.0/22
 add list=china address=103.102.200.0/22
 add list=china address=103.102.208.0/21
 add list=china address=103.102.213.0/24
@@ -5533,7 +5534,7 @@ add list=china address=163.53.188.0/22
 add list=china address=163.53.240.0/22
 add list=china address=163.53.36.0/22
 add list=china address=163.53.40.0/21
-add list=china address=163.53.44.0/23
+add list=china address=163.53.44.0/22
 add list=china address=163.53.48.0/20
 add list=china address=163.53.60.0/22
 add list=china address=163.53.64.0/22
