@@ -10779,6 +10779,7 @@ add list=china address=2a01:ce9e:8000::/33
 add list=china address=2a01:e281:a400::/48
 add list=china address=2a01:e281:a410::/44
 add list=china address=2a01:e300:5000::/36
+add list=china address=2a01:f100:1f8::/48
 add list=china address=2a02:26f7:c400:4000::/64
 add list=china address=2a02:26f7:c400:f400::/55
 add list=china address=2a02:26f7:c400:f600::/61
