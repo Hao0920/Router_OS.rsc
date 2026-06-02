@@ -1472,6 +1472,7 @@ add list=china_unicom address=2602:fbda:620::/48
 add list=china_unicom address=2602:fbda:660::/44
 add list=china_unicom address=2a01:e281:a400::/48
 add list=china_unicom address=2a01:e281:a410::/44
+add list=china_unicom address=2a01:f100:1f8::/48
 add list=china_unicom address=2a04:3e00:1002::/48
 add list=china_unicom address=2a05:1085::/32
 add list=china_unicom address=2a05:1087::/32
