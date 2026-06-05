@@ -1532,7 +1532,6 @@ add list=china_mobile address=2a0f:1cc5:645::/48
 add list=china_mobile address=2a0f:1cc5:661::/48
 add list=china_mobile address=2a0f:1cc5:662::/48
 add list=china_mobile address=2a0f:1cc5:6a0::/48
-add list=china_mobile address=2a0f:1cc5:a00::/48
 add list=china_mobile address=2a0f:1cc5:f00::/46
 add list=china_mobile address=2a0f:1cc5:f04::/47
 add list=china_mobile address=2a0f:1cc5:f06::/48

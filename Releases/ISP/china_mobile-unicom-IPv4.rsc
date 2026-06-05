@@ -4753,10 +4753,6 @@ add list=china_mobile address=110.40.13.0/24
 add list=china_mobile address=110.40.14.0/23
 add list=china_mobile address=110.40.128.0/17
 add list=china_mobile address=110.41.0.0/16
-add list=china_mobile address=110.42.2.0/24
-add list=china_mobile address=110.42.7.0/24
-add list=china_mobile address=110.42.13.0/24
-add list=china_mobile address=110.42.16.0/24
 add list=china_mobile address=110.42.128.0/17
 add list=china_mobile address=110.43.0.0/16
 add list=china_mobile address=110.51.0.0/16
