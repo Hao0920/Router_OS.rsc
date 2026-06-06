@@ -2723,7 +2723,6 @@ add regexp="^(.*\\.)?pachosting\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pacom\\.mil\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pacopacomama\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?page\\.link\$" type=FWD forward-to=$FWDgfw
-add regexp="^(.*\\.)?pages\\.dev\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?paimon\\.moe\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pancakeswap\\.finance\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?pandafan\\.pub\$" type=FWD forward-to=$FWDgfw
@@ -3336,6 +3335,7 @@ add regexp="^(.*\\.)?surfeasy\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?surfeasy\\.com\\.au\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?surfshark\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?surrenderat20\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?suyingtv\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?swagbucks\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?swapspace\\.co\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?swissinfo\\.ch\$" type=FWD forward-to=$FWDgfw
@@ -4019,6 +4019,7 @@ add regexp="^(.*\\.)?wowhead\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wowporn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?woyaolian\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wp\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?wplace\\.live\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wpoforum\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?writesonic\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wsj\\.com\$" type=FWD forward-to=$FWDgfw
