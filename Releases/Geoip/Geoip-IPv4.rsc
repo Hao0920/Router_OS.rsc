@@ -9200,7 +9200,7 @@ add list=china address=43.109.116.0/23
 add list=china address=43.109.118.0/24
 add list=china address=43.109.12.0/22
 add list=china address=43.109.134.0/23
-add list=china address=43.109.136.0/24
+add list=china address=43.109.136.0/22
 add list=china address=43.109.145.0/24
 add list=china address=43.109.146.0/24
 add list=china address=43.109.148.0/24
@@ -9723,6 +9723,7 @@ add list=china address=44.30.120.0/24
 add list=china address=44.30.121.0/24
 add list=china address=44.30.130.0/23
 add list=china address=44.30.133.0/24
+add list=china address=44.30.152.0/24
 add list=china address=44.30.35.0/24
 add list=china address=44.30.36.0/24
 add list=china address=44.30.55.0/24
