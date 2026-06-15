@@ -2303,6 +2303,7 @@ add list=china address=103.79.192.0/20
 add list=china address=103.79.200.0/22
 add list=china address=103.79.208.0/21
 add list=china address=103.79.228.0/23
+add list=china address=103.79.228.0/24
 add list=china address=103.79.24.0/21
 add list=china address=103.79.24.0/22
 add list=china address=103.79.36.0/22
