@@ -3171,6 +3171,7 @@ add regexp="^(.*\\.)?sinoants\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sinoca\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sinocast\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sinoinsider\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?sinyalee\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sipml5\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sis001\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?site\\.new\$" type=FWD forward-to=$FWDgfw
