@@ -16,6 +16,7 @@ add regexp="^(.*\\.)?1688\\.com\\.au\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?173ng\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?18board\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?18comic\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?18mh\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?1984bbs\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?1991way\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?1e100\\.net\$" type=FWD forward-to=$FWDgfw
@@ -401,6 +402,7 @@ add regexp="^(.*\\.)?bigjapanesesex\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bignews\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bigone\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bild\\.de\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?bilinovel\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?biliworld\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?binance\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?binance\\.org\$" type=FWD forward-to=$FWDgfw
