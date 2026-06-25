@@ -1426,6 +1426,7 @@ add regexp="^(.*\\.)?generated\\.photos\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?genius\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?geph\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?get\\.app\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?get\\.dappcdn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?get\\.dev\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?get\\.how\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?get\\.page\$" type=FWD forward-to=$FWDgfw
