@@ -873,6 +873,7 @@ add regexp="^(.*\\.)?crazypool\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?crazyshit\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?crbug\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?crchina\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?creader\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?creaders\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?creativelab5\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cristyli\\.com\$" type=FWD forward-to=$FWDgfw
