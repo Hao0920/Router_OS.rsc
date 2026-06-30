@@ -1166,6 +1166,7 @@ add regexp="^(.*\\.)?expatshield\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?expecthim\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?expekt\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?exploader\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?expressnews\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?expressvpn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?exrates\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?extmatrix\\.com\$" type=FWD forward-to=$FWDgfw
