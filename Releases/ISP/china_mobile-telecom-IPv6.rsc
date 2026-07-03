@@ -876,6 +876,7 @@ add list=china_mobile address=2001:df6:40::/48
 add list=china_mobile address=2400:1160::/32
 add list=china_mobile address=2400:3200::/32
 add list=china_mobile address=2400:5a00::/32
+add list=china_mobile address=2400:5a60:2::/48
 add list=china_mobile address=2400:6600::/32
 add list=china_mobile address=2400:73e0::/32
 add list=china_mobile address=2400:7fc0::/40
@@ -1502,7 +1503,6 @@ add list=china_mobile address=2a0a:d681:fb00::/40
 add list=china_mobile address=2a0a:d681:fc00::/38
 add list=china_mobile address=2a0a:d685:1ff::/48
 add list=china_mobile address=2a0a:d685:200::/47
-add list=china_mobile address=2a0a:d685:300::/48
 add list=china_mobile address=2a0a:d687:f001::/48
 add list=china_mobile address=2a0a:d687:f004::/47
 add list=china_mobile address=2a0a:d687:f007::/48
@@ -1514,6 +1514,7 @@ add list=china_mobile address=2a0c:b641:573::/48
 add list=china_mobile address=2a0d:c7c7:400::/38
 add list=china_mobile address=2a0e:4005:ff12::/47
 add list=china_mobile address=2a0e:4005:ff20::/48
+add list=china_mobile address=2a0e:4005:ff41::/48
 add list=china_mobile address=2a0e:aa06::/40
 add list=china_mobile address=2a0e:aa06:400::/44
 add list=china_mobile address=2a0e:aa06:440::/48
@@ -1564,8 +1565,6 @@ add list=china_mobile address=2a0f:1cc5:1cc0::/48
 add list=china_mobile address=2a0f:1cc5:2000::/40
 add list=china_mobile address=2a0f:1cc5:2510::/44
 add list=china_mobile address=2a0f:1cc5:2520::/44
-add list=china_mobile address=2a0f:1cc5:2600::/41
-add list=china_mobile address=2a0f:1cc5:2680::/42
 add list=china_mobile address=2a0f:1cc5:2d01::/48
 add list=china_mobile address=2a0f:1cc5:2d03::/48
 add list=china_mobile address=2a0f:1cc5:3200::/46
@@ -1579,7 +1578,6 @@ add list=china_mobile address=2a10:ccc0:cc1::/48
 add list=china_mobile address=2a10:ccc0:cc2::/48
 add list=china_mobile address=2a10:ccc0:ccc::/48
 add list=china_mobile address=2a12:3fc2:aa40::/44
-add list=china_mobile address=2a12:bec0:1a0::/44
 add list=china_mobile address=2a12:cb41::/44
 add list=china_mobile address=2a12:cb41:1200::/44
 add list=china_mobile address=2a12:cb41:1300::/43
