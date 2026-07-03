@@ -4018,6 +4018,7 @@ add regexp="^(.*\\.)?webmproject\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?webpkgcache\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?webrtc\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?websdr\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?webshare\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?website\\.new\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?webwarper\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wechatlawsuit\\.com\$" type=FWD forward-to=$FWDgfw
