@@ -917,7 +917,6 @@ add list=china_mobile address=2400:ae00:1981::/48
 add list=china_mobile address=2400:b200::/32
 add list=china_mobile address=2400:da00::/32
 add list=china_mobile address=2400:dd00::/28
-add list=china_mobile address=2400:e3e0:aa00::/39
 add list=china_mobile address=2400:e680::/32
 add list=china_mobile address=2400:ee00::/32
 add list=china_mobile address=2400:f6e0::/32
@@ -1024,6 +1023,7 @@ add list=china_mobile address=2402:5ec0::/32
 add list=china_mobile address=2402:6e80::/32
 add list=china_mobile address=2402:6f40::/48
 add list=china_mobile address=2402:6f40:2::/47
+add list=china_mobile address=2402:6fc0::/48
 add list=china_mobile address=2402:7040::/32
 add list=china_mobile address=2402:7d80::/48
 add list=china_mobile address=2402:7d80:8888::/48
@@ -1328,7 +1328,6 @@ add list=china_mobile address=2406:840:e080::/44
 add list=china_mobile address=2406:840:e0cf::/48
 add list=china_mobile address=2406:840:e0e0::/46
 add list=china_mobile address=2406:840:e0e4::/47
-add list=china_mobile address=2406:840:e0e8::/48
 add list=china_mobile address=2406:840:e10f::/48
 add list=china_mobile address=2406:840:e14f::/48
 add list=china_mobile address=2406:840:e280::/44
@@ -1337,7 +1336,6 @@ add list=china_mobile address=2406:840:e302::/47
 add list=china_mobile address=2406:840:e304::/48
 add list=china_mobile address=2406:840:e306::/48
 add list=china_mobile address=2406:840:e330::/44
-add list=china_mobile address=2406:840:e57e::/48
 add list=china_mobile address=2406:840:e600::/44
 add list=china_mobile address=2406:840:e620::/47
 add list=china_mobile address=2406:840:e80f::/48
@@ -1407,7 +1405,6 @@ add list=china_mobile address=2406:840:fece::/47
 add list=china_mobile address=2406:840:fed1::/48
 add list=china_mobile address=2406:840:fed3::/48
 add list=china_mobile address=2406:840:fed4::/48
-add list=china_mobile address=2406:840:fed7::/48
 add list=china_mobile address=2406:840:fed8::/48
 add list=china_mobile address=2406:840:fedb::/48
 add list=china_mobile address=2406:840:fedc::/47
@@ -1630,7 +1627,10 @@ add list=china_mobile address=2a0f:1cc6:b210::/47
 add list=china_mobile address=2a0f:1cc6:b212::/48
 add list=china_mobile address=2a0f:2706::/32
 add list=china_mobile address=2a0f:6280:1400::/44
+add list=china_mobile address=2a0f:6280:1430::/44
+add list=china_mobile address=2a0f:6280:1440::/44
 add list=china_mobile address=2a0f:6280:1460::/44
+add list=china_mobile address=2a0f:6280:1480::/44
 add list=china_mobile address=2a0f:6284:4c00::/43
 add list=china_mobile address=2a0f:6284:4c20::/44
 add list=china_mobile address=2a0f:6284:4c30::/48
@@ -1770,5 +1770,4 @@ add list=china_mobile address=2a14:7dc0:506::/48
 add list=china_mobile address=2a14:7dc0:520::/48
 add list=china_mobile address=2a14:7dc0:52f::/48
 add list=china_mobile address=2a14:ae00:50::/44
-add list=china_mobile address=2a14:c380:21::/48
 /file remove china_mobile-telecom-unicom-IPv6.rsc
