@@ -16,6 +16,7 @@ add regexp="^(.*\\.)?1688\\.com\\.au\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?173ng\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?18board\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?18comic\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?18comic\\.vip\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?18mh\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?1984bbs\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?1991way\\.com\$" type=FWD forward-to=$FWDgfw
