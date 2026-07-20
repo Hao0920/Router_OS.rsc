@@ -9045,13 +9045,12 @@ add list=china address=2406:840:e340::/42
 add list=china address=2406:840:e380::/41
 add list=china address=2406:840:e400::/38
 add list=china address=2406:840:e600::/44
-add list=china address=2406:840:e620::/47
+add list=china address=2406:840:e621::/48
 add list=china address=2406:840:e800::/39
 add list=china address=2406:840:e80f::/48
 add list=china address=2406:840:ea00::/40
+add list=china address=2406:840:eb00::/46
 add list=china address=2406:840:eb00::/47
-add list=china address=2406:840:eb01::/48
-add list=china address=2406:840:eb02::/47
 add list=china address=2406:840:eb04::/47
 add list=china address=2406:840:eb06::/48
 add list=china address=2406:840:eb07::/48
@@ -9060,6 +9059,7 @@ add list=china address=2406:840:eb09::/48
 add list=china address=2406:840:eb0a::/47
 add list=china address=2406:840:eb0b::/48
 add list=china address=2406:840:eb0c::/46
+add list=china address=2406:840:eb0f::/48
 add list=china address=2406:840:eb10::/44
 add list=china address=2406:840:eb20::/43
 add list=china address=2406:840:eb40::/42
