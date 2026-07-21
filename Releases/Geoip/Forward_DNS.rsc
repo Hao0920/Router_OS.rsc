@@ -786,6 +786,7 @@ add regexp="^(.*\\.)?civilmedia\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?civitai\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cixiaoya\\.club\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ck101\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?clashyun\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?classicalguitarblog\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?claude\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?claude\\.com\$" type=FWD forward-to=$FWDgfw
@@ -3439,6 +3440,7 @@ add regexp="^(.*\\.)?synapse\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?syncback\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?synergyse\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?syosetu\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?sysub\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?t-g\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?t\\.co\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?t\\.me\$" type=FWD forward-to=$FWDgfw
