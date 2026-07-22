@@ -4319,6 +4319,7 @@ add regexp="^(.*\\.)?zdnet\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zello\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zenmate\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zenmate\\.com\\.ru\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?zenmux\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zerohedge\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zeronet\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?zh-hans\\.cfsh99\\.com\$" type=FWD forward-to=$FWDgfw
