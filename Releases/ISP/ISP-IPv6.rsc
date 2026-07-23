@@ -1065,7 +1065,6 @@ add list=othernet_ipv6 address=2404:bc0:4200::/43
 add list=othernet_ipv6 address=2404:bc0:4300::/44
 add list=othernet_ipv6 address=2404:bc0:4400::/43
 add list=othernet_ipv6 address=2404:bc0:4500::/43
-add list=othernet_ipv6 address=2404:bc0:4620::/44
 add list=othernet_ipv6 address=2404:bc0:4f00::/43
 add list=othernet_ipv6 address=2404:1c40:503::/48
 add list=othernet_ipv6 address=2404:2280:105::/48
@@ -1326,6 +1325,7 @@ add list=othernet_ipv6 address=2406:840:9804::/46
 add list=othernet_ipv6 address=2406:840:981a::/48
 add list=othernet_ipv6 address=2406:840:981c::/46
 add list=othernet_ipv6 address=2406:840:9962::/47
+add list=othernet_ipv6 address=2406:840:9964::/48
 add list=othernet_ipv6 address=2406:840:9966::/47
 add list=othernet_ipv6 address=2406:840:996c::/48
 add list=othernet_ipv6 address=2406:840:9970::/44
@@ -1748,7 +1748,9 @@ add list=othernet_ipv6 address=2a14:7581:3814::/48
 add list=othernet_ipv6 address=2a14:7581:3818::/48
 add list=othernet_ipv6 address=2a14:7583:f220::/43
 add list=othernet_ipv6 address=2a14:7583:f240::/42
-add list=othernet_ipv6 address=2a14:7583:f300::/45
+add list=othernet_ipv6 address=2a14:7583:f300::/46
+add list=othernet_ipv6 address=2a14:7583:f304::/47
+add list=othernet_ipv6 address=2a14:7583:f306::/48
 add list=othernet_ipv6 address=2a14:7583:f411::/48
 add list=othernet_ipv6 address=2a14:7583:f4f0::/47
 add list=othernet_ipv6 address=2a14:7583:f4f4::/48
