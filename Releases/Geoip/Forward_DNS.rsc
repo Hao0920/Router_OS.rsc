@@ -3654,6 +3654,7 @@ add regexp="^(.*\\.)?to-porno\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?togetter\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?token\\.im\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tokenlon\\.im\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?tokenplus\\.app\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tokyo-porn-tube\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tokyocn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tomp3\\.cc\$" type=FWD forward-to=$FWDgfw
