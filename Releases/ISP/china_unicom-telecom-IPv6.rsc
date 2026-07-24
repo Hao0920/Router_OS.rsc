@@ -26,6 +26,7 @@ add list=china_telecom address=2400:9380:9080::/47
 add list=china_telecom address=2400:9380:90b1::/48
 add list=china_telecom address=2400:9380:90b2::/47
 add list=china_telecom address=2400:9380:90b4::/46
+add list=china_telecom address=2400:9380:9109::/48
 add list=china_telecom address=2400:9380:9121::/48
 add list=china_telecom address=2400:9380:9220::/47
 add list=china_telecom address=2400:9380:9250::/47
@@ -1519,6 +1520,7 @@ add list=china_unicom address=2a06:a005:e70::/44
 add list=china_unicom address=2a06:a005:2040::/44
 add list=china_unicom address=2a07:54c1:2200::/46
 add list=china_unicom address=2a07:54c1:2205::/48
+add list=china_unicom address=2a09:3f00:6100::/40
 add list=china_unicom address=2a0a:6040:6c40::/44
 add list=china_unicom address=2a0a:6040:c700::/42
 add list=china_unicom address=2a0a:6040:c770::/44
@@ -1581,7 +1583,6 @@ add list=china_unicom address=2a0e:b107:1522::/48
 add list=china_unicom address=2a0e:b107:1a40::/46
 add list=china_unicom address=2a0e:b107:2440::/44
 add list=china_unicom address=2a0f:1cc5:14::/46
-add list=china_unicom address=2a0f:1cc5:1f::/48
 add list=china_unicom address=2a0f:1cc5:40::/48
 add list=china_unicom address=2a0f:1cc5:110::/44
 add list=china_unicom address=2a0f:1cc5:130::/44
@@ -1628,8 +1629,7 @@ add list=china_unicom address=2a0f:1cc6:b212::/48
 add list=china_unicom address=2a0f:2706::/32
 add list=china_unicom address=2a0f:6280:1400::/44
 add list=china_unicom address=2a0f:6280:1430::/44
-add list=china_unicom address=2a0f:6280:1440::/43
-add list=china_unicom address=2a0f:6280:1460::/44
+add list=china_unicom address=2a0f:6280:1440::/42
 add list=china_unicom address=2a0f:6280:1480::/44
 add list=china_unicom address=2a0f:6284:4c00::/43
 add list=china_unicom address=2a0f:6284:4c20::/44
