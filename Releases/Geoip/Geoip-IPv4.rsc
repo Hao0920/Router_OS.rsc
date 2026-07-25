@@ -5063,6 +5063,7 @@ add list=china address=140.75.0.0/16
 add list=china address=141.11.219.0/24
 add list=china address=142.70.0.0/16
 add list=china address=142.86.0.0/16
+add list=china address=143.109.55.0/24
 add list=china address=143.191.188.0/22
 add list=china address=143.191.64.0/19
 add list=china address=143.191.96.0/21
@@ -5076,6 +5077,7 @@ add list=china address=144.178.30.48/28
 add list=china address=144.2.238.68/30
 add list=china address=144.2.238.72/31
 add list=china address=144.225.186.0/24
+add list=china address=144.225.41.0/24
 add list=china address=144.255.0.0/16
 add list=china address=144.36.146.0/23
 add list=china address=144.36.147.0/24
@@ -9072,6 +9074,7 @@ add list=china address=27.98.224.0/19
 add list=china address=27.99.128.0/17
 add list=china address=31.56.124.0/24
 add list=china address=31.77.184.0/22
+add list=china address=31.77.215.0/24
 add list=china address=36.0.0.0/22
 add list=china address=36.0.128.0/17
 add list=china address=36.0.16.0/20
@@ -9347,7 +9350,7 @@ add list=china address=43.109.192.0/21
 add list=china address=43.109.2.0/24
 add list=china address=43.109.200.0/23
 add list=china address=43.109.202.0/24
-add list=china address=43.109.206.0/24
+add list=china address=43.109.206.0/23
 add list=china address=43.109.208.0/23
 add list=china address=43.109.21.0/24
 add list=china address=43.109.22.0/24
@@ -10267,6 +10270,8 @@ add list=china address=45.87.52.0/24
 add list=china address=45.9.11.0/24
 add list=china address=46.248.24.0/23
 add list=china address=46.37.112.0/24
+add list=china address=47.112.0.0/13
+add list=china address=47.120.0.0/14
 add list=china address=47.246.0.0/22
 add list=china address=47.246.12.0/23
 add list=china address=47.246.15.0/24
@@ -10295,6 +10300,7 @@ add list=china address=47.89.121.0/24
 add list=china address=47.89.91.0/24
 add list=china address=47.92.0.0/14
 add list=china address=47.96.0.0/11
+add list=china address=47.96.0.0/12
 add list=china address=49.112.0.0/13
 add list=china address=49.120.0.0/14
 add list=china address=49.128.0.0/24
@@ -10794,9 +10800,11 @@ add list=china address=82.110.234.0/23
 add list=china address=82.110.98.0/24
 add list=china address=82.156.0.0/15
 add list=china address=82.22.30.0/23
+add list=china address=82.29.98.0/24
 add list=china address=82.38.7.0/24
 add list=china address=82.38.92.0/24
 add list=china address=85.209.217.0/24
+add list=china address=85.239.154.0/24
 add list=china address=86.38.235.0/24
 add list=china address=87.254.207.0/24
 add list=china address=87.76.221.0/24

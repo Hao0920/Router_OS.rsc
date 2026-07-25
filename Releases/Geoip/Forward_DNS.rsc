@@ -774,6 +774,7 @@ add regexp="^(.*\\.)?ci-en\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cia\\.gov\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cici\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ciciai\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?circle19\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?cirosantilli\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?citizencn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?citizenlab\\.ca\$" type=FWD forward-to=$FWDgfw
@@ -2176,6 +2177,7 @@ add regexp="^(.*\\.)?kanshifang\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?kantie\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?kaotic\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?karayou\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?kards\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?kathmandupost\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?kawaiikawaii\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?kawase\\.com\$" type=FWD forward-to=$FWDgfw
