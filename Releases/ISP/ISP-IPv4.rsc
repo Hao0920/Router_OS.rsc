@@ -5600,6 +5600,7 @@ add list=othernet address=183.84.0.0/19
 add list=othernet address=183.91.144.0/20
 add list=othernet address=185.39.51.0/24
 add list=othernet address=185.116.90.0/24
+add list=othernet address=186.241.179.0/24
 add list=othernet address=186.241.181.0/24
 add list=othernet address=188.131.128.0/17
 add list=othernet address=188.220.7.0/24
