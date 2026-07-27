@@ -6253,6 +6253,7 @@ add list=china address=185.39.51.0/24
 add list=china address=185.75.173.0/24
 add list=china address=185.75.174.0/24
 add list=china address=185.95.100.0/22
+add list=china address=186.241.179.0/24
 add list=china address=186.241.181.0/24
 add list=china address=188.131.128.0/17
 add list=china address=188.214.89.0/24
