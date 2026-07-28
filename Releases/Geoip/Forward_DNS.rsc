@@ -3698,6 +3698,7 @@ add regexp="^(.*\\.)?trtworld\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?truebuddha-md\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?trustwallet\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?truthsocial\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?tryai\\.dev\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tryheart\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tsdr\\.uspto\\.gov\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?tt1069\\.com\$" type=FWD forward-to=$FWDgfw
