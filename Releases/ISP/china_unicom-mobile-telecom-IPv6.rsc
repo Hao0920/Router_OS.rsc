@@ -877,6 +877,7 @@ add list=china_unicom address=2001:678:10d0::/48
 add list=china_unicom address=2001:67c:c28::/48
 add list=china_unicom address=2001:cc0::/32
 add list=china_unicom address=2001:dc7::/32
+add list=china_unicom address=2001:df3:d0c0::/48
 add list=china_unicom address=2001:df6:40::/48
 add list=china_unicom address=2400:1160::/32
 add list=china_unicom address=2400:3200::/32
