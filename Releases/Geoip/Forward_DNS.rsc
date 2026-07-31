@@ -2262,6 +2262,7 @@ add regexp="^(.*\\.)?lenwhite\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?leonardo\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lesoir\\.be\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?letscorp\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?level-plus\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lexica\\.art\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lhakar\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?li\\.taipei\$" type=FWD forward-to=$FWDgfw
@@ -3880,6 +3881,7 @@ add regexp="^(.*\\.)?uyghurstudies\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?uyghurtribunal\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?uygur\\.fc2web\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?uymaarip\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?v\\.recipes\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?v2\\.help\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?v2\\.hysteria\\.network\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?v2ex\\.com\$" type=FWD forward-to=$FWDgfw
