@@ -2681,6 +2681,7 @@ add regexp="^(.*\\.)?ntd\\.tv\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ntdtv\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ntdtv\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ntdtv\\.cz\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?nthlink\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nuexpo\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nurgo-software\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nusatrip\\.com\$" type=FWD forward-to=$FWDgfw
