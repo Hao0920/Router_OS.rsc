@@ -367,7 +367,7 @@ add list=china_unicom address=2408:8406:a900::/41
 add list=china_unicom address=2408:8406:a980::/42
 add list=china_unicom address=2408:8406:b500::/41
 add list=china_unicom address=2408:8406:b580::/42
-add list=china_unicom address=2408:8407:500::/42
+add list=china_unicom address=2408:8407:520::/43
 add list=china_unicom address=2408:8409::/40
 add list=china_unicom address=2408:8409:100::/41
 add list=china_unicom address=2408:8409:1a0::/43
@@ -1297,11 +1297,9 @@ add list=othernet_ipv6 address=2406:840:6c1::/48
 add list=othernet_ipv6 address=2406:840:710::/48
 add list=othernet_ipv6 address=2406:840:800::/46
 add list=othernet_ipv6 address=2406:840:806::/48
-add list=othernet_ipv6 address=2406:840:841::/48
 add list=othernet_ipv6 address=2406:840:842::/48
 add list=othernet_ipv6 address=2406:840:860::/48
 add list=othernet_ipv6 address=2406:840:880::/46
-add list=othernet_ipv6 address=2406:840:a10::/48
 add list=othernet_ipv6 address=2406:840:a31::/48
 add list=othernet_ipv6 address=2406:840:c02::/48
 add list=othernet_ipv6 address=2406:840:c60::/48
@@ -1646,7 +1644,6 @@ add list=othernet_ipv6 address=2a0f:1cc5:2520::/44
 add list=othernet_ipv6 address=2a0f:1cc5:2600::/41
 add list=othernet_ipv6 address=2a0f:1cc5:2680::/42
 add list=othernet_ipv6 address=2a0f:1cc5:2d01::/48
-add list=othernet_ipv6 address=2a0f:1cc5:2d03::/48
 add list=othernet_ipv6 address=2a0f:1cc5:3700::/43
 add list=othernet_ipv6 address=2a0f:1cc5:4700::/40
 add list=othernet_ipv6 address=2a0f:1cc6:b110::/47
