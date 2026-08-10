@@ -131,6 +131,7 @@ add regexp="^(.*\\.)?agoogleaday\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?agro\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ai\\.dev\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ai\\.studio\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?aihub\\.top\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?aiosearch\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?aiph\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?airconsole\\.com\$" type=FWD forward-to=$FWDgfw
@@ -345,6 +346,7 @@ add regexp="^(.*\\.)?baramangaonline\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?barnabu\\.co\\.uk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bartender\\.dowjones\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?barton\\.de\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?basemaps\\.arcgis\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bastillepost\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bayvoice\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?bb-chat\\.tv\$" type=FWD forward-to=$FWDgfw
@@ -1147,6 +1149,7 @@ add regexp="^(.*\\.)?eromanga-kingdom\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?eromangadouzin\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?eromon\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?esg\\.t91y\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?esim\\.redteago\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?eslite\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?esurance\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?etherdelta\\.com\$" type=FWD forward-to=$FWDgfw
@@ -1169,6 +1172,7 @@ add regexp="^(.*\\.)?exmormon\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?expatshield\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?expecthim\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?expekt\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?experience\\.arcgis\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?exploader\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?expressnews\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?expressvpn\\.com\$" type=FWD forward-to=$FWDgfw

@@ -10370,7 +10370,6 @@ add list=china address=45.82.239.0/24
 add list=china address=45.86.73.0/24
 add list=china address=45.87.52.0/24
 add list=china address=45.89.104.0/24
-add list=china address=45.95.207.0/24
 add list=china address=46.248.24.0/23
 add list=china address=46.37.112.0/24
 add list=china address=47.112.0.0/13
