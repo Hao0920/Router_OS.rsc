@@ -1000,6 +1000,7 @@ add regexp="^(.*\\.)?disneyplus\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?disp\\.cc\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?disqus\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dit-inc\\.us\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?divdyn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?diyin\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dizhuzhishang\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?dl-laby\\.jp\$" type=FWD forward-to=$FWDgfw
