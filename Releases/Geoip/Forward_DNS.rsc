@@ -2315,6 +2315,7 @@ add regexp="^(.*\\.)?liveleak\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?livemint\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?livestream\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?livevideo\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?livingatlas\\.arcgis\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?livingstream\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?lmarena\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?localbitcoins\\.com\$" type=FWD forward-to=$FWDgfw
