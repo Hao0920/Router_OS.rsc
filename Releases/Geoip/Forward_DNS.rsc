@@ -3151,6 +3151,7 @@ add regexp="^(.*\\.)?rxhj\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?s-cute\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?s\\.yimg\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?s3-ap-northeast-1\\.amazonaws\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?s3\\.dualstack\\.us-west-2\\.amazonaws\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sacks\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sacom\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sadistic-v\\.com\$" type=FWD forward-to=$FWDgfw
@@ -4096,6 +4097,7 @@ add regexp="^(.*\\.)?wiktionary\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?willw\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wilsoncenter\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?windscribe\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?windy\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wingamestore\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wingy\\.site\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wionews\\.com\$" type=FWD forward-to=$FWDgfw
