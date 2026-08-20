@@ -2732,6 +2732,7 @@ add regexp="^(.*\\.)?oklink\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?okpool\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?okx\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?old\\.honeynet\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?oldmapsonline\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?olehdtv\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?olelive\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?olevod\\.com\$" type=FWD forward-to=$FWDgfw
