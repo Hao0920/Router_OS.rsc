@@ -565,6 +565,7 @@ add regexp="^(.*\\.)?break\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?breakgfw\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?breakingtweets\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?breakwall\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?briarproject\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?brill\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?brizzly\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?broadpressinc\\.com\$" type=FWD forward-to=$FWDgfw
@@ -707,6 +708,7 @@ add regexp="^(.*\\.)?character\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chat\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chat\\.lmsys\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chatgpt\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?chatgpt\\.site\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chatpdf\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chaturbate\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?checkgfw\\.com\$" type=FWD forward-to=$FWDgfw
