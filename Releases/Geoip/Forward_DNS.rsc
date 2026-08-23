@@ -1868,6 +1868,7 @@ add regexp="^(.*\\.)?himalayan-foundation\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?himemix\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hindustantimes\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hinet\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?historylines\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hitbtc\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hitomi\\.la\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hive\\.blog\$" type=FWD forward-to=$FWDgfw
@@ -2210,6 +2211,7 @@ add regexp="^(.*\\.)?kinmen\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?kinmen\\.travel\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?kinokuniya\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?kiwi\\.kz\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?kiwix\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?kk-whys\\.co\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?kkbox\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?kknews\\.cc\$" type=FWD forward-to=$FWDgfw
@@ -2405,6 +2407,7 @@ add regexp="^(.*\\.)?mattwilcox\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?maven\\.neoforged\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mcadforums\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mcaf\\.ee\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?mceindex\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mcusercontent\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?md-t\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?me\\.me\$" type=FWD forward-to=$FWDgfw
@@ -3174,6 +3177,7 @@ add regexp="^(.*\\.)?savetibet\\.de\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?savetibet\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?savetibetstore\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?saveuighur\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?sb\\.sb\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sbme\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sbti\\.unun\\.dev\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?schema\\.org\$" type=FWD forward-to=$FWDgfw
