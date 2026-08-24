@@ -4920,6 +4920,8 @@ add list=china address=125.208.49.0/24
 add list=china address=125.210.0.0/15
 add list=china address=125.213.0.0/17
 add list=china address=125.213.32.0/20
+add list=china address=125.214.104.0/21
+add list=china address=125.214.112.0/20
 add list=china address=125.214.96.0/19
 add list=china address=125.215.0.0/18
 add list=china address=125.215.36.0/23
@@ -8579,7 +8581,7 @@ add list=china address=218.244.58.0/24
 add list=china address=218.245.0.0/17
 add list=china address=218.246.0.0/19
 add list=china address=218.246.160.0/19
-add list=china address=218.246.192.0/19
+add list=china address=218.246.208.0/20
 add list=china address=218.246.32.0/22
 add list=china address=218.246.48.0/22
 add list=china address=218.246.64.0/18

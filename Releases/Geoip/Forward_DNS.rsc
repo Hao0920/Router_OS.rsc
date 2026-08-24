@@ -226,6 +226,7 @@ add regexp="^(.*\\.)?api\\.moomoobull\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?api\\.palworldgame\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?api\\.pureapk\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?api\\.recaptcha\\.net\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?api\\.shuaiapi\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?api\\.steampowered\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?api5\\.futunn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?apiary\\.io\$" type=FWD forward-to=$FWDgfw
@@ -4195,6 +4196,7 @@ add regexp="^(.*\\.)?x\\.co\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?x\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?x\\.company\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?x3guide\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?x86\\.fr\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xbabe\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xbookcn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?xbtce\\.com\$" type=FWD forward-to=$FWDgfw
