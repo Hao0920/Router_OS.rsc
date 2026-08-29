@@ -4148,6 +4148,7 @@ add regexp="^(.*\\.)?woyaolian\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wp\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wplace\\.live\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wpoforum\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?write\\.as\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?writesonic\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wsj\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wsj\\.net\$" type=FWD forward-to=$FWDgfw
