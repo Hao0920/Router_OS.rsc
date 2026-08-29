@@ -135,7 +135,6 @@ add list=china_telecom address=2605:9d80:9033::/48
 add list=china_telecom address=2605:9d80:9042::/48
 add list=china_telecom address=2605:9d80:9071::/48
 add list=china_telecom address=2605:9d80:9092::/48
-add list=china_telecom address=2804:1e48:9001::/48
 add list=china_telecom address=2804:1e48:9002::/48
 add list=china_telecom address=2a04:f580:8010::/47
 add list=china_telecom address=2a04:f580:8090::/48
@@ -774,6 +773,7 @@ add list=china_unicom address=2409:27fc::/48
 add list=china_mobile address=2401:1320::/32
 add list=china_mobile address=2401:8be0::/48
 add list=china_mobile address=2402:9a80::/32
+add list=china_mobile address=2402:f140:ff24::/48
 add list=china_mobile address=2407:37c0::/32
 add list=china_mobile address=2407:6c40:1210::/48
 add list=china_mobile address=2407:8f40:2::/48
@@ -1525,6 +1525,7 @@ add list=othernet_ipv6 address=2a05:1086::/31
 add list=othernet_ipv6 address=2a06:3600:e000::/40
 add list=othernet_ipv6 address=2a06:9801:2ba::/48
 add list=othernet_ipv6 address=2a06:9801:f95::/48
+add list=othernet_ipv6 address=2a06:9801:1300::/40
 add list=othernet_ipv6 address=2a06:9f81:4600::/44
 add list=othernet_ipv6 address=2a06:9f81:4620::/44
 add list=othernet_ipv6 address=2a06:9f81:4640::/43
@@ -1600,6 +1601,7 @@ add list=othernet_ipv6 address=2a0f:1cc5:4510::/45
 add list=othernet_ipv6 address=2a0f:1cc5:451c::/46
 add list=othernet_ipv6 address=2a0f:1cc5:45ff::/48
 add list=othernet_ipv6 address=2a0f:1cc5:4600::/39
+add list=othernet_ipv6 address=2a0f:1cc5:49f0::/48
 add list=othernet_ipv6 address=2a0f:1cc6:b110::/47
 add list=othernet_ipv6 address=2a0f:1cc6:b210::/48
 add list=othernet_ipv6 address=2a0f:1cc6:b212::/48
@@ -1609,7 +1611,6 @@ add list=othernet_ipv6 address=2a0f:6280:1400::/43
 add list=othernet_ipv6 address=2a0f:6280:1440::/42
 add list=othernet_ipv6 address=2a0f:6280:1480::/44
 add list=othernet_ipv6 address=2a0f:6281::/32
-add list=othernet_ipv6 address=2a0f:6284:4c00::/44
 add list=othernet_ipv6 address=2a0f:6284:4c20::/44
 add list=othernet_ipv6 address=2a0f:6284:4c30::/48
 add list=othernet_ipv6 address=2a0f:6284:4c40::/43
