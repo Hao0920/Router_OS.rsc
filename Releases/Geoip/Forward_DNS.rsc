@@ -1455,6 +1455,7 @@ add regexp="^(.*\\.)?geti2p\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?getlantern\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?getmalus\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?getmdl\\.io\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?getmonero\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?getoutline\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?getsession\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?getsync\\.com\$" type=FWD forward-to=$FWDgfw
@@ -2653,6 +2654,7 @@ add regexp="^(.*\\.)?nga\\.mil\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nhentai\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nic\\.cz\\.cc\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nic\\.gov\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?nicoseiga\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nicovideo\\.jp\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nightswatch\\.top\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nikke-en\\.com\$" type=FWD forward-to=$FWDgfw
