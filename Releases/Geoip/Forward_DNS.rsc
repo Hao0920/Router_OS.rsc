@@ -903,6 +903,7 @@ add regexp="^(.*\\.)?css\\.pixnet\\.in\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?csuchen\\.de\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?csw\\.org\\.uk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ct\\.org\\.tw\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?ctee\\.com\\.tw\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ctinets\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ctinews\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?ctinsider\\.com\$" type=FWD forward-to=$FWDgfw
@@ -1887,6 +1888,7 @@ add regexp="^(.*\\.)?hkcnews\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hkcoc\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hkcoc\\.weather\\.com\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hkdc\\.us\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?hkej\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hket\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hkfaa\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?hkgalden\\.com\$" type=FWD forward-to=$FWDgfw
@@ -2309,6 +2311,7 @@ add regexp="^(.*\\.)?linkedin\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?linktr\\.ee\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?linux\\.do\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?linux\\.org\\.hk\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?linux\\.sb\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?liquiditytp\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?liquidvpn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?listennotes\\.com\$" type=FWD forward-to=$FWDgfw
