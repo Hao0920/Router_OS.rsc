@@ -5323,7 +5323,7 @@ add list=china address=155.102.43.0/24
 add list=china address=155.102.44.0/22
 add list=china address=155.102.48.0/20
 add list=china address=155.102.64.0/23
-add list=china address=155.102.68.0/23
+add list=china address=155.102.68.0/24
 add list=china address=155.102.70.0/24
 add list=china address=155.102.72.0/21
 add list=china address=155.102.8.0/22
@@ -9193,7 +9193,10 @@ add list=china address=38.247.36.0/24
 add list=china address=38.247.38.0/23
 add list=china address=38.45.117.54/32
 add list=china address=38.84.220.0/24
-add list=china address=38.95.112.0/20
+add list=china address=38.95.112.0/22
+add list=china address=38.95.117.0/24
+add list=china address=38.95.118.0/23
+add list=china address=38.95.120.0/21
 add list=china address=38.95.232.0/23
 add list=china address=39.0.0.0/24
 add list=china address=39.0.128.0/17
