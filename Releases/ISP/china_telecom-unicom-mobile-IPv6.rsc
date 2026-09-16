@@ -753,7 +753,7 @@ add list=china_unicom address=2408:8a05:8000::/36
 add list=china_unicom address=2408:8a06::/47
 add list=china_unicom address=2408:8a06:100::/47
 add list=china_unicom address=2408:8a07::/40
-add list=china_unicom address=2408:8a21:4000::/35
+add list=china_unicom address=2408:8a21:5000::/36
 add list=china_unicom address=2408:8a22::/35
 add list=china_unicom address=2408:8a23:4000::/34
 add list=china_unicom address=2408:8a24:4000::/34
@@ -875,6 +875,7 @@ add list=china_telecom address=2001:678:53c::/48
 add list=china_telecom address=2001:678:970::/48
 add list=china_telecom address=2001:cc0::/32
 add list=china_telecom address=2001:dc7::/32
+add list=china_telecom address=2001:df1:61c0::/48
 add list=china_telecom address=2001:df6:40::/48
 add list=china_telecom address=2400:1160::/32
 add list=china_telecom address=2400:3200::/32
@@ -1070,7 +1071,8 @@ add list=china_telecom address=2404:2280:11c::/46
 add list=china_telecom address=2404:2280:123::/48
 add list=china_telecom address=2404:2280:125::/48
 add list=china_telecom address=2404:2280:126::/47
-add list=china_telecom address=2404:2280:128::/46
+add list=china_telecom address=2404:2280:128::/47
+add list=china_telecom address=2404:2280:12b::/48
 add list=china_telecom address=2404:2280:12e::/48
 add list=china_telecom address=2404:2280:130::/48
 add list=china_telecom address=2404:2280:134::/48
@@ -1493,11 +1495,13 @@ add list=china_telecom address=240a:4225:3000::/44
 add list=china_telecom address=240a:c000::/20
 add list=china_telecom address=240c:4000::/22
 add list=china_telecom address=240d:c000:f1e0::/47
+add list=china_telecom address=240d:c000:f1e3::/48
 add list=china_telecom address=240d:c000:f1ef::/48
 add list=china_telecom address=2602:f46d:1::/48
 add list=china_telecom address=2602:f486:f0::/48
 add list=china_telecom address=2602:f92a:1300::/48
 add list=china_telecom address=2602:f92a:1303::/48
+add list=china_telecom address=2602:f92a:1305::/48
 add list=china_telecom address=2602:f92a:1310::/48
 add list=china_telecom address=2602:f92a:a460::/48
 add list=china_telecom address=2602:f92a:a462::/47
@@ -1680,6 +1684,7 @@ add list=china_telecom address=2a14:7580:ff64::/48
 add list=china_telecom address=2a14:7580:ffee::/48
 add list=china_telecom address=2a14:7580:fff3::/48
 add list=china_telecom address=2a14:7580:fffa::/48
+add list=china_telecom address=2a14:7581:fe1::/48
 add list=china_telecom address=2a14:7581:3810::/48
 add list=china_telecom address=2a14:7581:3814::/48
 add list=china_telecom address=2a14:7582:7000::/36
