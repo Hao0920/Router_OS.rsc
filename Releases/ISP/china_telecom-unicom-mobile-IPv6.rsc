@@ -859,7 +859,18 @@ add list=china_telecom address=2403:a200:9999::/48
 add list=china_telecom address=2403:ac00::/32
 add list=china_telecom address=2403:d400::/32
 add list=china_telecom address=2406:280::/32
-add list=china_telecom address=240a:a000::/20
+add list=china_telecom address=240a:a000::/21
+add list=china_telecom address=240a:a800::/24
+add list=china_telecom address=240a:a900::/25
+add list=china_telecom address=240a:a980::/28
+add list=china_telecom address=240a:a990::/29
+add list=china_telecom address=240a:a998::/32
+add list=china_telecom address=240a:a99a::/31
+add list=china_telecom address=240a:a99c::/30
+add list=china_telecom address=240a:a9a0::/27
+add list=china_telecom address=240a:a9c0::/26
+add list=china_telecom address=240a:aa00::/23
+add list=china_telecom address=240a:ac00::/22
 add list=china_telecom address=240b:e001::/32
 add list=china_telecom address=240b:e002::/31
 add list=china_telecom address=240b:e004::/30
@@ -910,6 +921,7 @@ add list=china_telecom address=2400:9620::/32
 add list=china_telecom address=2400:a860:1::/48
 add list=china_telecom address=2400:a860:2::/47
 add list=china_telecom address=2400:a860:4::/46
+add list=china_telecom address=2400:a860:8::/48
 add list=china_telecom address=2400:ae00:1981::/48
 add list=china_telecom address=2400:b200::/32
 add list=china_telecom address=2400:da00::/32
@@ -1073,7 +1085,6 @@ add list=china_telecom address=2404:2280:123::/48
 add list=china_telecom address=2404:2280:125::/48
 add list=china_telecom address=2404:2280:126::/47
 add list=china_telecom address=2404:2280:128::/47
-add list=china_telecom address=2404:2280:12b::/48
 add list=china_telecom address=2404:2280:12e::/48
 add list=china_telecom address=2404:2280:130::/48
 add list=china_telecom address=2404:2280:134::/48
@@ -1496,6 +1507,7 @@ add list=china_telecom address=240a:c000::/20
 add list=china_telecom address=240c:4000::/22
 add list=china_telecom address=240d:c000:f1e0::/47
 add list=china_telecom address=240d:c000:f1e3::/48
+add list=china_telecom address=240d:c000:f1e4::/48
 add list=china_telecom address=240d:c000:f1ef::/48
 add list=china_telecom address=2602:f46d:1::/48
 add list=china_telecom address=2602:f486:f0::/48
