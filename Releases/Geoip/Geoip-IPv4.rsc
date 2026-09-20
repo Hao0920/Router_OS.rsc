@@ -2558,6 +2558,7 @@ add list=china address=103.99.53.0/24
 add list=china address=103.99.54.0/23
 add list=china address=103.99.56.0/21
 add list=china address=103.99.56.0/22
+add list=china address=103.99.62.0/24
 add list=china address=103.99.76.0/22
 add list=china address=103.99.77.0/24
 add list=china address=103.99.78.0/23
@@ -3828,8 +3829,7 @@ add list=china address=117.48.128.0/19
 add list=china address=117.48.160.0/20
 add list=china address=117.48.192.0/20
 add list=china address=117.48.192.0/24
-add list=china address=117.48.194.46/32
-add list=china address=117.48.195.0/24
+add list=china address=117.48.194.0/23
 add list=china address=117.48.196.0/22
 add list=china address=117.48.200.0/21
 add list=china address=117.48.208.0/21
@@ -5409,6 +5409,7 @@ add list=china address=155.102.208.0/21
 add list=china address=155.102.216.0/22
 add list=china address=155.102.22.0/23
 add list=china address=155.102.220.0/23
+add list=china address=155.102.223.0/24
 add list=china address=155.102.224.0/19
 add list=china address=155.102.24.0/24
 add list=china address=155.102.26.0/23
@@ -5425,11 +5426,14 @@ add list=china address=155.102.50.0/23
 add list=china address=155.102.52.0/22
 add list=china address=155.102.56.0/21
 add list=china address=155.102.64.0/24
+add list=china address=155.102.69.0/24
+add list=china address=155.102.70.0/24
 add list=china address=155.102.72.0/21
 add list=china address=155.102.8.0/22
 add list=china address=155.102.80.0/24
 add list=china address=155.102.82.0/23
 add list=china address=155.102.84.0/22
+add list=china address=155.102.91.0/24
 add list=china address=155.102.94.0/24
 add list=china address=155.102.98.0/23
 add list=china address=155.126.176.0/23
@@ -11016,7 +11020,6 @@ add list=china address=61.45.128.0/18
 add list=china address=61.45.224.0/20
 add list=china address=61.47.128.0/18
 add list=china address=61.48.0.0/13
-add list=china address=61.61.69.0/24
 add list=china address=61.8.160.0/20
 add list=china address=61.87.192.0/18
 add list=china address=62.234.0.0/16
