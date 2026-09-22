@@ -757,6 +757,7 @@ add regexp="^(.*\\.)?chinesedemocracy\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chinesegay\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chinesen\\.de\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chinesenews\\.net\\.au\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?chineseposters\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chineseradioseattle\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chineseupress\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?chingcheong\\.com\$" type=FWD forward-to=$FWDgfw
@@ -2679,6 +2680,7 @@ add regexp="^(.*\\.)?nordstromimage\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nordstromrack\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nordvpn\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nos\\.nl\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?note\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?notepad-plus-plus\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?nottinghampost\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?now\\.com\$" type=FWD forward-to=$FWDgfw
