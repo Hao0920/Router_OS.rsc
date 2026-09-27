@@ -1278,6 +1278,7 @@ add list=china_telecom address=2406:840:90::/48
 add list=china_telecom address=2406:840:100::/47
 add list=china_telecom address=2406:840:103::/48
 add list=china_telecom address=2406:840:110::/48
+add list=china_telecom address=2406:840:180::/48
 add list=china_telecom address=2406:840:200::/48
 add list=china_telecom address=2406:840:2e0::/48
 add list=china_telecom address=2406:840:380::/47
@@ -1621,11 +1622,11 @@ add list=china_telecom address=2a0f:1cc6:b240::/43
 add list=china_telecom address=2a0f:2380::/29
 add list=china_telecom address=2a0f:2706::/32
 add list=china_telecom address=2a0f:4680::/29
-add list=china_telecom address=2a0f:6280:1400::/44
-add list=china_telecom address=2a0f:6280:1440::/43
-add list=china_telecom address=2a0f:6280:1460::/44
+add list=china_telecom address=2a0f:6280:1400::/43
+add list=china_telecom address=2a0f:6280:1440::/42
 add list=china_telecom address=2a0f:6280:1480::/44
 add list=china_telecom address=2a0f:6281::/32
+add list=china_telecom address=2a0f:6284:4c00::/44
 add list=china_telecom address=2a0f:6284:4c20::/44
 add list=china_telecom address=2a0f:6284:4c30::/48
 add list=china_telecom address=2a0f:6284:4c40::/43
