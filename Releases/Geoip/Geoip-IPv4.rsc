@@ -1643,7 +1643,7 @@ add list=china address=103.251.131.0/24
 add list=china address=103.251.160.0/22
 add list=china address=103.251.192.0/22
 add list=china address=103.251.204.0/22
-add list=china address=103.251.205.0/24
+add list=china address=103.251.204.0/23
 add list=china address=103.251.207.0/24
 add list=china address=103.251.240.0/22
 add list=china address=103.251.32.0/22
