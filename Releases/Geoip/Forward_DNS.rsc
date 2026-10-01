@@ -1398,6 +1398,7 @@ add regexp="^(.*\\.)?futuremessage\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?futustatic\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fututrade\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fututrustee\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?fuyin116\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fw\\.cm\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fxcm-chinese\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?fxnetworks\\.com\$" type=FWD forward-to=$FWDgfw
@@ -2552,6 +2553,7 @@ add regexp="^(.*\\.)?mthruf\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mubi\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?mullvad\\.net\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?multiply\\.com\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?muse\\.ai\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?music\\.amazon\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?musixmatch\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?muzi\\.com\$" type=FWD forward-to=$FWDgfw
@@ -4008,6 +4010,7 @@ add regexp="^(.*\\.)?waffle1999\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wainao\\.me\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?walletconnect\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?walletconnect\\.org\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?wallhaven\\.cc\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wallmama\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wallpapercasa\\.com\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?wallsttv\\.com\$" type=FWD forward-to=$FWDgfw
