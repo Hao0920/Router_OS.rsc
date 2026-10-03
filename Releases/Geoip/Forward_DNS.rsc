@@ -3269,6 +3269,7 @@ add regexp="^(.*\\.)?simpleswap\\.io\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?simplex\\.chat\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sina\\.com\\.hk\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?sinchew\\.com\\.my\$" type=FWD forward-to=$FWDgfw
+add regexp="^(.*\\.)?sing-box\\.sagernet\\.org\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?singaporepools\\.com\\.sg\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?singlelogin\\.se\$" type=FWD forward-to=$FWDgfw
 add regexp="^(.*\\.)?singtao\\.com\$" type=FWD forward-to=$FWDgfw
