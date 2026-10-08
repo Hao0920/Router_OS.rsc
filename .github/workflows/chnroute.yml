@@ -16,26 +16,44 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # 确保 workflow 能用默认 token 推送
+          persist-credentials: true
 
-      - name: Clean old .rsc files
+      - name: Ensure clean chnroute folder (remove tracked & untracked)
         run: |
-          rm -f output/chnroute/*.rsc || true
-          git rm --ignore-unmatch -f output/chnroute/*.rsc || true
+          # 从 git 索引中删除任何已跟踪的旧文件（不会报错）
+          git rm -r --ignore-unmatch output/chnroute || true
+          # 删除工作区中的所有文件/子目录，保证干净
+          rm -rf output/chnroute
+          mkdir -p output/chnroute
+          # 显示当前状态，便于调试运行日志
+          git status --porcelain || true
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
       - name: Generate chnroute .rsc files
-        run: python generators/chnroute/generate.py
-
-      - name: Commit and push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/chnroute/
+          # 若 generate.py 支持参数指定输出目录，建议使用；这里假定默认写到 output/chnroute
+          python generators/chnroute/generate.py
+
+      - name: Commit and push (replace old files with newly generated)
+        env:
+          GIT_AUTHOR_NAME: "github-actions[bot]"
+          GIT_AUTHOR_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
+        run: |
+          git config user.name "${GIT_AUTHOR_NAME}"
+          git config user.email "${GIT_AUTHOR_EMAIL}"
+          # 把删除和新增都加入索引，确保旧文件在 commit 中被移除
+          git add -A output/chnroute
+          # 若没有变化则跳过提交
           git diff --quiet && git diff --staged --quiet || git commit -m "Update chnroute [skip ci]"
+          # 推送到默认分支（actions/checkout 默认会使用 GITHUB_TOKEN）
           git push
 
       - name: Delete old workflow runs
