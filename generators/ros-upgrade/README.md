@@ -14,7 +14,7 @@
         name="upgrade-ros" \
         source={
             # 配置变量（请修改为你的实际需求）
-            :local channel "stable"      # 升级通道: stable, long-term, testing, development
+            :local channel "long-term"      # 升级通道: stable, long-term, testing, development
 
             :log info "Checking for RouterOS updates..."
 
@@ -55,7 +55,7 @@
                 :log info "RouterOS is up to date."
             }
         } \
-        comment="ispconf: upgrade-ros - Auto upgrade RouterOS system version"
+        comment="sysconf: upgrade-ros - Auto upgrade RouterOS system version"
 }
 ```
 
@@ -68,7 +68,7 @@
         start-time=03:00:00 \
         interval=7d \
         on-event="/system script run upgrade-ros" \
-        comment="ispconf: upgrade-ros - Auto upgrade RouterOS system version"
+        comment="sysconf: upgrade-ros - Auto upgrade RouterOS system version"
 }
 ```
 
