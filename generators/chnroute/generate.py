@@ -290,7 +290,7 @@ def main():
 
     # 1. 生成 all_cn.rsc -> Firewall Address List
     all_cn_name, all_cn_desc = ALL_CN
-    generate_address_list_rsc("all_cn", all_cn_name, all_cn_desc)
+    generate_address_list_rsc("all_cn_ipv4", all_cn_name, all_cn_desc)
 
     # 2. 生成单个 ISP Route Rules (IPv4)
     for isp, (src_file, description) in ISPS.items():
@@ -310,11 +310,11 @@ def main():
 
     # 4. 生成 all_cn_ipv6.rsc -> Firewall Address List (IPv6)
     all_cn_v6_name, all_cn_v6_desc = ALL_CN_IPV6
-    generate_address_list_v6_rsc("all_cn", all_cn_v6_name, all_cn_v6_desc)
+    generate_address_list_v6_rsc("all_cn_ipv6", all_cn_v6_name, all_cn_v6_desc)
 
     # 5. 生成单个 ISP Route Rules (IPv6)
     for isp, (src_file, description) in ISPS_IPV6.items():
-        generate_single_route_v6_rsc(isp.replace("_ipv6", ""), src_file, description)
+        generate_single_route_v6_rsc(isp, src_file, description)
 
     # 6. 生成所有组合 Route Rules (IPv6)
     isp_names_v6 = list(ISPS_IPV6.keys())
