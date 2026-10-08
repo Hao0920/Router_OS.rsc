@@ -303,12 +303,12 @@ def main():
 
     # 6. 生成所有组合 Route Rules (IPv6)
     isp_names_v6 = list(ISPS_IPV6.keys())
-    non_othernet_v6 = [isp for isp in isp_names_v6 if isp != "othernet"]
+    non_othernet_v6 = [isp for isp in isp_names_v6 if isp != "othernet_ipv6"]
 
-    # 从 non_othernet_v6 中选 1-4 个，加上 othernet
+    # 从 non_othernet_v6 中选 1-4 个，加上 othernet_ipv6
     for i in range(1, len(non_othernet_v6) + 1):
         for combo in combinations(non_othernet_v6, i):
-            isp_list = list(combo) + ["othernet"]
+            isp_list = list(combo) + ["othernet_ipv6"]
             generate_combo_route_v6_rsc(isp_list)
 
     print("\nDone!")
