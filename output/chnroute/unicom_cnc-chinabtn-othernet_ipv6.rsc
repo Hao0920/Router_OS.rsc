@@ -1,7 +1,7 @@
-# unicom_cnc_ipv6-othernet_ipv6_ipv4 PBR rules (IPv6)
+# unicom_cnc-chinabtn-othernet_ipv6 PBR rules (IPv6)
 # Generated from https://ispip.clang.cn
-# Description: China Unicom + Other ISPs
-# Total: 1443 entries
+# Description: China Unicom + China Broadcast Network + Other ISPs
+# Total: 1462 entries
 
 /ipv6 route rule add dst-address=2001:4510:1480::/41 action=lookup table=unicom_cnc_ipv6 comment="ispconf: unicom_cnc_ipv6 - China Unicom"
 /ipv6 route rule add dst-address=2001:4511:1480::/41 action=lookup table=unicom_cnc_ipv6 comment="ispconf: unicom_cnc_ipv6 - China Unicom"
@@ -604,6 +604,25 @@
 /ipv6 route rule add dst-address=2409:27fa:f000::/48 action=lookup table=unicom_cnc_ipv6 comment="ispconf: unicom_cnc_ipv6 - China Unicom"
 /ipv6 route rule add dst-address=2409:27fb::/48 action=lookup table=unicom_cnc_ipv6 comment="ispconf: unicom_cnc_ipv6 - China Unicom"
 /ipv6 route rule add dst-address=2409:27fc::/48 action=lookup table=unicom_cnc_ipv6 comment="ispconf: unicom_cnc_ipv6 - China Unicom"
+/ipv6 route rule add dst-address=2400:7100::/32 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
+/ipv6 route rule add dst-address=2401:ca00::/32 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
+/ipv6 route rule add dst-address=2403:600::/32 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
+/ipv6 route rule add dst-address=240a:4010:8000::/33 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
+/ipv6 route rule add dst-address=240a:4084:2000::/35 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
+/ipv6 route rule add dst-address=240a:4088:a000::/35 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
+/ipv6 route rule add dst-address=240a:408c:2000::/35 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
+/ipv6 route rule add dst-address=240a:4090:a000::/35 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
+/ipv6 route rule add dst-address=240a:4093::/35 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
+/ipv6 route rule add dst-address=240a:4094:2000::/35 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
+/ipv6 route rule add dst-address=240a:409c:2000::/35 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
+/ipv6 route rule add dst-address=240a:40a4:2000::/35 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
+/ipv6 route rule add dst-address=240a:40ac:2000::/35 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
+/ipv6 route rule add dst-address=240a:4172::/31 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
+/ipv6 route rule add dst-address=240a:41d6::/31 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
+/ipv6 route rule add dst-address=240a:41f2::/31 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
+/ipv6 route rule add dst-address=240a:420a::/31 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
+/ipv6 route rule add dst-address=240a:4230::/31 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
+/ipv6 route rule add dst-address=240a:4242::/31 action=lookup table=chinabtn_ipv6 comment="ispconf: chinabtn_ipv6 - China Broadcast Network"
 /ipv6 route rule add dst-address=2001:550:1601::/48 action=lookup table=othernet_ipv6 comment="ispconf: othernet_ipv6 - Other ISPs"
 /ipv6 route rule add dst-address=2001:678:53c::/48 action=lookup table=othernet_ipv6 comment="ispconf: othernet_ipv6 - Other ISPs"
 /ipv6 route rule add dst-address=2001:678:970::/48 action=lookup table=othernet_ipv6 comment="ispconf: othernet_ipv6 - Other ISPs"

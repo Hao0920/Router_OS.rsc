@@ -1,4 +1,4 @@
-# chinatelecom_ipv6-othernet_ipv6_ipv4 PBR rules (IPv6)
+# chinatelecom-othernet_ipv6 PBR rules (IPv6)
 # Generated from https://ispip.clang.cn
 # Description: China Telecom + Other ISPs
 # Total: 1002 entries
