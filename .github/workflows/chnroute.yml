@@ -1,4 +1,5 @@
 name: Build chnroute
+
 on:
   schedule:
     - cron: '0 2 * * *'
@@ -6,21 +7,27 @@ on:
   push:
     paths:
       - 'generators/chnroute/**'
+
 permissions:
   contents: write
   actions: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
       - name: Clean old .rsc files
         run: rm -f output/chnroute/*.rsc
+
       - name: Generate chnroute .rsc files
         run: python generators/chnroute/generate.py
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
