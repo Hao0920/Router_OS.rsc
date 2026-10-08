@@ -37,15 +37,15 @@ ALL_CN = ("all_cn.txt", "All China Networks")
 
 # ISP IPv6 配置：路由表名 -> (源文件, 描述)
 ISPS_IPV6 = {
-    "chinatelecom": ("chinatelecom_ipv6.txt", "China Telecom IPv6"),
-    "unicom_cnc": ("unicom_cnc_ipv6.txt", "China Unicom IPv6"),
-    "cmcc": ("cmcc_ipv6.txt", "China Mobile IPv6"),
-    "chinabtn": ("chinabtn_ipv6.txt", "China Broadcast Network IPv6"),
-    "othernet": ("othernet_ipv6.txt", "Other ISPs IPv6"),
+    "chinatelecom_ipv6": ("chinatelecom_ipv6.txt", "China Telecom"),
+    "unicom_cnc_ipv6": ("unicom_cnc_ipv6.txt", "China Unicom"),
+    "cmcc_ipv6": ("cmcc_ipv6.txt", "China Mobile"),
+    "chinabtn_ipv6": ("chinabtn_ipv6.txt", "China Broadcast Network"),
+    "othernet_ipv6": ("othernet_ipv6.txt", "Other ISPs"),
 }
 
 # all_cn IPv6 单独处理 -> Firewall Address List
-ALL_CN_IPV6 = ("all_cn_ipv6.txt", "All China Networks IPv6")
+ALL_CN_IPV6 = ("all_cn_ipv6.txt", "All China Networks")
 
 
 def fetch_ip_list(filename):
@@ -135,7 +135,7 @@ def generate_combo_route_rsc(isp_list):
         for ip in ip_list:
             all_ips.append((ip, isp, description))
 
-    combo_name = "-".join(isp_list)
+    combo_name = "-".join(isp_list) + "_ipv4"
     desc_parts = [ISPS[isp][1] for isp in isp_list]
     combo_desc = " + ".join(desc_parts)
 
@@ -236,7 +236,7 @@ def generate_combo_route_v6_rsc(isp_list):
         for ip in ip_list:
             all_ips.append((ip, isp, description))
 
-    combo_name = "-".join(isp_list) + "_ipv6"
+    combo_name = "-".join(isp_list) + "_ipv4"
     desc_parts = [ISPS_IPV6[isp][1] for isp in isp_list]
     combo_desc = " + ".join(desc_parts)
 
@@ -275,11 +275,11 @@ def main():
 
     # 1. 生成 all_cn.rsc -> Firewall Address List
     all_cn_name, all_cn_desc = ALL_CN
-    generate_address_list_rsc("all_cn", all_cn_name, all_cn_desc)
+    generate_address_list_rsc("all_cn_ipv4", all_cn_name, all_cn_desc)
 
     # 2. 生成单个 ISP Route Rules (IPv4)
     for isp, (src_file, description) in ISPS.items():
-        generate_single_route_rsc(isp, src_file, description)
+        generate_single_route_rsc(f"{isp}_ipv4", src_file, description)
 
     # 3. 生成所有组合 Route Rules (IPv4)
     isp_names = list(ISPS.keys())
@@ -295,11 +295,11 @@ def main():
 
     # 4. 生成 all_cn_ipv6.rsc -> Firewall Address List (IPv6)
     all_cn_v6_name, all_cn_v6_desc = ALL_CN_IPV6
-    generate_address_list_v6_rsc("all_cn_ipv6", all_cn_v6_name, all_cn_v6_desc)
+    generate_address_list_v6_rsc("all_cn", all_cn_v6_name, all_cn_v6_desc)
 
     # 5. 生成单个 ISP Route Rules (IPv6)
     for isp, (src_file, description) in ISPS_IPV6.items():
-        generate_single_route_v6_rsc(f"{isp}_ipv6", src_file, description)
+        generate_single_route_v6_rsc(isp, src_file, description)
 
     # 6. 生成所有组合 Route Rules (IPv6)
     isp_names_v6 = list(ISPS_IPV6.keys())
