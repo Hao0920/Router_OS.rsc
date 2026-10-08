@@ -299,6 +299,9 @@ def main():
     generate_address_list_rsc("all_cn", all_cn_name, all_cn_desc, "_ipv4")
 
     # 2. 生成单个 ISP Route Rules (IPv4)
+    for isp, (src_file, description) in ISPS.items():
+        generate_single_route_rsc(isp, src_file, description, "_ipv4")
+
     #    文件名: chinatelecom_ipv4.rsc, table=chinatelecom
     for isp, (src_file, description) in ISPS.items():
         generate_single_route_rsc(isp, src_file, description, "_ipv4")
@@ -321,6 +324,10 @@ def main():
     generate_address_list_v6_rsc("all_cn", all_cn_v6_name, all_cn_v6_desc, "_ipv6")
 
     # 5. 生成单个 ISP Route Rules (IPv6)
+    for isp, (src_file, description) in ISPS_IPV6.items():
+        table_name = isp.replace("_ipv6", "")
+        generate_single_route_v6_rsc(table_name, src_file, description, "_ipv6")
+
     #    文件名: chinatelecom_ipv6.rsc, table=chinatelecom
     for isp, (src_file, description) in ISPS_IPV6.items():
         table_name = isp.replace("_ipv6", "")
