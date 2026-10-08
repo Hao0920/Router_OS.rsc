@@ -78,6 +78,14 @@ RouterOS 脚本生成器集合
     /ip route rule add src-address=$OTHERNET_IP/32 action=lookup table=othernet
     /import chinatelecom-unicom_cnc-cmcc-chinabtn-cernet-gwbn-othernet_ipv4.rsc
 }
+
+# 创建定时任务（每天 08:35 自动更新）
+:if ([:len [/system scheduler find name="update-chnroute-ipv4"]] = 0) do={
+    /system scheduler add name="update-chnroute-ipv4" start-time=08:35:00 interval=1d on-event="/system script run update-chnroute-ipv4"
+}
+:if ([:len [/system script find name="update-chnroute-ipv4"]] = 0) do={
+    /system script add name="update-chnroute-ipv4" source=":local MAIN_IP \"10.0.0.14\"; :local CHINATELECOM_IP \"10.0.101.2\"; :local UNICOM_IP \"10.0.102.2\"; :local CMCC_IP \"10.0.2.2\"; :local CHINABTN_IP \"10.0.3.2\"; :local CERNET_IP \"10.0.4.2\"; :local GWBN_IP \"10.0.5.2\"; :local OTHERNET_IP \"10.0.6.2\"; :local addr \"https://raw.githubusercontent.com/Hao0920/Router_OS.rsc/main/output/chnroute/chinatelecom-unicom_cnc-cmcc-chinabtn-cernet-gwbn-othernet_ipv4.rsc\"; :local result ([/tool fetch mode=https output=user url=\$addr as-value]); :if (\$result->\"status\" = \"finished\") do={ /file remove [find name=\"chinatelecom-unicom_cnc-cmcc-chinabtn-cernet-gwbn-othernet_ipv4.rsc\"]; /tool fetch url=\$addr; /ip route rule remove [find table=main]; /ip route rule remove [find table=chinatelecom]; /ip route rule remove [find table=unicom_cnc]; /ip route rule remove [find table=cmcc]; /ip route rule remove [find table=chinabtn]; /ip route rule remove [find table=cernet]; /ip route rule remove [find table=gwbn]; /ip route rule remove [find table=othernet]; /ip route rule add src-address=\$MAIN_IP/32 action=lookup table=main; /ip route rule add src-address=\$CHINATELECOM_IP/32 action=lookup table=chinatelecom; /ip route rule add src-address=\$UNICOM_IP/32 action=lookup table=unicom_cnc; /ip route rule add src-address=\$CMCC_IP/32 action=lookup table=cmcc; /ip route rule add src-address=\$CHINABTN_IP/32 action=lookup table=chinabtn; /ip route rule add src-address=\$CERNET_IP/32 action=lookup table=cernet; /ip route rule add src-address=\$GWBN_IP/32 action=lookup table=gwbn; /ip route rule add src-address=\$OTHERNET_IP/32 action=lookup table=othernet; /import chinatelecom-unicom_cnc-cmcc-chinabtn-cernet-gwbn-othernet_ipv4.rsc; }"
+}
 ```
 
 ### 2. IPv4 地址列表
@@ -94,6 +102,14 @@ RouterOS 脚本生成器集合
     /tool fetch url=$addr
     /ip firewall address-list remove [find list="all_cn"]
     /import all_cn_ipv4.rsc
+}
+
+# 创建定时任务（每天 08:35 自动更新）
+:if ([:len [/system scheduler find name="update-chnroute-addr-ipv4"]] = 0) do={
+    /system scheduler add name="update-chnroute-addr-ipv4" start-time=08:35:00 interval=1d on-event="/system script run update-chnroute-addr-ipv4"
+}
+:if ([:len [/system script find name="update-chnroute-addr-ipv4"]] = 0) do={
+    /system script add name="update-chnroute-addr-ipv4" source=":local addr \"https://raw.githubusercontent.com/Hao0920/Router_OS.rsc/main/output/chnroute/all_cn_ipv4.rsc\"; :local result ([/tool fetch mode=https output=user url=\$addr as-value]); :if (\$result->\"status\" = \"finished\") do={ /file remove [find name=\"all_cn_ipv4.rsc\"]; /tool fetch url=\$addr; /ip firewall address-list remove [find list=\"all_cn\"]; /import all_cn_ipv4.rsc; }"
 }
 ```
 
@@ -138,6 +154,14 @@ RouterOS 脚本生成器集合
     /ipv6 route rule add src-address=$OTHERNET_IPV6/128 action=lookup table=othernet
     /import chinatelecom-unicom_cnc-cmcc-chinabtn-cernet-gwbn-othernet_ipv6.rsc
 }
+
+# 创建定时任务（每天 08:35 自动更新）
+:if ([:len [/system scheduler find name="update-chnroute-ipv6"]] = 0) do={
+    /system scheduler add name="update-chnroute-ipv6" start-time=08:35:00 interval=1d on-event="/system script run update-chnroute-ipv6"
+}
+:if ([:len [/system script find name="update-chnroute-ipv6"]] = 0) do={
+    /system script add name="update-chnroute-ipv6" source=":local MAIN_IPV6 \"2001:db8::1\"; :local CHINATELECOM_IPV6 \"2001:db8::101\"; :local UNICOM_IPV6 \"2001:db8::102\"; :local CMCC_IPV6 \"2001:db8::2\"; :local CHINABTN_IPV6 \"2001:db8::3\"; :local CERNET_IPV6 \"2001:db8::4\"; :local GWBN_IPV6 \"2001:db8::5\"; :local OTHERNET_IPV6 \"2001:db8::6\"; :local addr \"https://raw.githubusercontent.com/Hao0920/Router_OS.rsc/main/output/chnroute/chinatelecom-unicom_cnc-cmcc-chinabtn-cernet-gwbn-othernet_ipv6.rsc\"; :local result ([/tool fetch mode=https output=user url=\$addr as-value]); :if (\$result->\"status\" = \"finished\") do={ /file remove [find name=\"chinatelecom-unicom_cnc-cmcc-chinabtn-cernet-gwbn-othernet_ipv6.rsc\"]; /tool fetch url=\$addr; /ipv6 route rule remove [find table=main]; /ipv6 route rule remove [find table=chinatelecom]; /ipv6 route rule remove [find table=unicom_cnc]; /ipv6 route rule remove [find table=cmcc]; /ipv6 route rule remove [find table=chinabtn]; /ipv6 route rule remove [find table=cernet]; /ipv6 route rule remove [find table=gwbn]; /ipv6 route rule remove [find table=othernet]; /ipv6 route rule add src-address=\$MAIN_IPV6/128 action=lookup table=main; /ipv6 route rule add src-address=\$CHINATELECOM_IPV6/128 action=lookup table=chinatelecom; /ipv6 route rule add src-address=\$UNICOM_IPV6/128 action=lookup table=unicom_cnc; /ipv6 route rule add src-address=\$CMCC_IPV6/128 action=lookup table=cmcc; /ipv6 route rule add src-address=\$CHINABTN_IPV6/128 action=lookup table=chinabtn; /ipv6 route rule add src-address=\$CERNET_IPV6/128 action=lookup table=cernet; /ipv6 route rule add src-address=\$GWBN_IPV6/128 action=lookup table=gwbn; /ipv6 route rule add src-address=\$OTHERNET_IPV6/128 action=lookup table=othernet; /import chinatelecom-unicom_cnc-cmcc-chinabtn-cernet-gwbn-othernet_ipv6.rsc; }"
+}
 ```
 
 ### 4. IPv6 地址列表
@@ -154,6 +178,14 @@ RouterOS 脚本生成器集合
     /tool fetch url=$addr
     /ipv6 firewall address-list remove [find list="all_cn"]
     /import all_cn_ipv6.rsc
+}
+
+# 创建定时任务（每天 08:35 自动更新）
+:if ([:len [/system scheduler find name="update-chnroute-addr-ipv6"]] = 0) do={
+    /system scheduler add name="update-chnroute-addr-ipv6" start-time=08:35:00 interval=1d on-event="/system script run update-chnroute-addr-ipv6"
+}
+:if ([:len [/system script find name="update-chnroute-addr-ipv6"]] = 0) do={
+    /system script add name="update-chnroute-addr-ipv6" source=":local addr \"https://raw.githubusercontent.com/Hao0920/Router_OS.rsc/main/output/chnroute/all_cn_ipv6.rsc\"; :local result ([/tool fetch mode=https output=user url=\$addr as-value]); :if (\$result->\"status\" = \"finished\") do={ /file remove [find name=\"all_cn_ipv6.rsc\"]; /tool fetch url=\$addr; /ipv6 firewall address-list remove [find list=\"all_cn\"]; /import all_cn_ipv6.rsc; }"
 }
 ```
 
