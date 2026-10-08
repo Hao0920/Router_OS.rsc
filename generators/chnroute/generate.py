@@ -62,8 +62,7 @@ def fetch_ip_list(filename):
         print(f"Error fetching {filename}: {e}")
         return []
 
-
-# ==================== IPv4 生成函数 ====================
+# ===================== IPv4 生成函数 ====================
 
 def generate_address_list_rsc(list_name, src_file, description):
     """生成 Firewall Address List .rsc 文件 (IPv4)"""
@@ -295,7 +294,7 @@ def main():
 
     # 2. 生成单个 ISP Route Rules (IPv4)
     for isp, (src_file, description) in ISPS.items():
-        generate_single_route_rsc(isp, src_file, description)
+        generate_single_route_rsc(f"{isp}_ipv4", src_file, description)
 
     # 3. 生成所有组合 Route Rules (IPv4)
     isp_names = list(ISPS.keys())
