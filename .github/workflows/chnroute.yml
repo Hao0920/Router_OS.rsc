@@ -23,7 +23,9 @@ jobs:
           python-version: '3.12'
 
       - name: Clean old .rsc files
-        run: rm -f output/chnroute/*.rsc
+        run: |
+          rm -f output/chnroute/*.rsc
+          git rm -rf output/chnroute/*.rsc 2>/dev/null || true
 
       - name: Generate chnroute .rsc files
         run: python generators/chnroute/generate.py
