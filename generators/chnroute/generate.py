@@ -135,9 +135,7 @@ def generate_combo_route_rsc(isp_list):
         for ip in ip_list:
             all_ips.append((ip, isp, description))
 
-    # 移除键名中的 _ipv6 后缀用于文件名
-    name_parts = [isp.replace("_ipv6", "") for isp in isp_list]
-    combo_name = "-".join(name_parts) + "_ipv6"
+    combo_name = "-".join(isp_list) + "_ipv4"
     desc_parts = [ISPS[isp][1] for isp in isp_list]
     combo_desc = " + ".join(desc_parts)
 
