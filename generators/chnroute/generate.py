@@ -311,7 +311,7 @@ def main():
 
     # 4. 生成 all_cn_ipv6.rsc -> Firewall Address List (IPv6)
     all_cn_v6_name, all_cn_v6_desc = ALL_CN_IPV6
-    generate_address_list_v6_rsc("all_cn", all_cn_v6_name, all_cn_v6_desc)
+    generate_address_list_v6_rsc("all_cn_ipv6", all_cn_v6_name, all_cn_v6_desc)
 
     # 5. 生成单个 ISP Route Rules (IPv6)
     for isp, (src_file, description) in ISPS_IPV6.items():
