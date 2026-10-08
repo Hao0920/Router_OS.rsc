@@ -267,9 +267,23 @@ def generate_combo_route_v6_rsc(isp_list):
 
 # ==================== 主函数 ====================
 
+def clean_output_dir():
+    """清空输出目录中的旧文件"""
+    if os.path.exists(OUTPUT_DIR):
+        for file in os.listdir(OUTPUT_DIR):
+            if file.endswith('.rsc'):
+                filepath = os.path.join(OUTPUT_DIR, file)
+                os.remove(filepath)
+                print(f"Removed: {filepath}")
+    print(f"Cleaned {OUTPUT_DIR}\n")
+
+
 def main():
     # 确保输出目录存在
     os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+    # 清空旧文件
+    clean_output_dir()
 
     # ==================== IPv4 ====================
 
