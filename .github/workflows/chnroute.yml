@@ -24,8 +24,10 @@ jobs:
 
       - name: Clean old .rsc files
         run: |
-          rm -f output/chnroute/*.rsc
+          # 删除所有已跟踪的 .rsc 文件
           git rm -rf output/chnroute/*.rsc 2>/dev/null || true
+          # 确保目录存在但为空
+          mkdir -p output/chnroute
 
       - name: Generate chnroute .rsc files
         run: python generators/chnroute/generate.py
