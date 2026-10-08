@@ -57,7 +57,7 @@ RouterOS 系统自动升级脚本
                 :log info "RouterOS is up to date."
             }
         } \
-        comment="ispconf: upgrade-ros - Auto upgrade RouterOS system version"
+        comment="sysconf: upgrade-ros - Auto upgrade RouterOS system version"
 }
 ```
 
@@ -70,7 +70,7 @@ RouterOS 系统自动升级脚本
         start-time=03:00:00 \
         interval=7d \
         on-event="/system script run upgrade-ros" \
-        comment="ispconf: upgrade-ros - Auto upgrade RouterOS system version"
+        comment="sysconf: upgrade-ros - Auto upgrade RouterOS system version"
 }
 ```
 
