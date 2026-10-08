@@ -65,7 +65,7 @@
 :if ([:len [/system scheduler find name="upgrade-ros"]] = 0) do={
     /system scheduler add \
         name="upgrade-ros" \
-        start-time=03:00:00 \
+        start-time=02:55:00 \
         interval=7d \
         on-event="/system script run upgrade-ros" \
         comment="sysconf: upgrade-ros - Auto upgrade RouterOS system version"
