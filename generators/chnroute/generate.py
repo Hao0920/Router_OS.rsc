@@ -62,9 +62,10 @@ def fetch_ip_list(filename):
         print(f"Error fetching {filename}: {e}")
         return []
 
-# ===================== IPv4 生成函数 ====================
 
-def generate_address_list_rsc(list_name, src_file, description):
+# ==================== IPv4 生成函数 ====================
+
+def generate_address_list_rsc(list_name, src_file, description, filename_suffix=""):
     """生成 Firewall Address List .rsc 文件 (IPv4)"""
     ip_list = fetch_ip_list(src_file)
 
@@ -80,12 +81,13 @@ def generate_address_list_rsc(list_name, src_file, description):
         lines.append(
             f'/ip firewall address-list add list={list_name} '
             f'address={ip} '
-            f'comment="ispconf: {list_name} - {description}"'
+            f'comment="ispconf: {list_name}{filename_suffix} - {description}"'
         )
 
     lines.append("")
 
-    filepath = os.path.join(OUTPUT_DIR, f"{list_name}.rsc")
+    filename = f"{list_name}{filename_suffix}.rsc"
+    filepath = os.path.join(OUTPUT_DIR, filename)
     with open(filepath, 'w') as f:
         f.write('\n'.join(lines))
 
@@ -93,7 +95,7 @@ def generate_address_list_rsc(list_name, src_file, description):
     return len(ip_list)
 
 
-def generate_single_route_rsc(table_name, src_file, description):
+def generate_single_route_rsc(table_name, src_file, description, filename_suffix=""):
     """生成单个 ISP 的 Route Rule .rsc 文件 (IPv4)"""
     ip_list = fetch_ip_list(src_file)
 
@@ -109,12 +111,13 @@ def generate_single_route_rsc(table_name, src_file, description):
         lines.append(
             f'/ip route rule add dst-address={ip} '
             f'action=lookup table={table_name} '
-            f'comment="ispconf: {table_name} - {description}"'
+            f'comment="ispconf: {table_name}{filename_suffix} - {description}"'
         )
 
     lines.append("")
 
-    filepath = os.path.join(OUTPUT_DIR, f"{table_name}.rsc")
+    filename = f"{table_name}{filename_suffix}.rsc"
+    filepath = os.path.join(OUTPUT_DIR, filename)
     with open(filepath, 'w') as f:
         f.write('\n'.join(lines))
 
@@ -149,8 +152,8 @@ def generate_combo_route_rsc(isp_list):
     for ip, isp, description in all_ips:
         lines.append(
             f'/ip route rule add dst-address={ip} '
-            f'action=lookup table={isp.replace("_ipv4", "")} '
-            f'comment="ispconf: {isp} - {description}"'
+            f'action=lookup table={isp} '
+            f'comment="ispconf: {isp}_ipv4 - {description}"'
         )
 
     lines.append("")
@@ -165,7 +168,7 @@ def generate_combo_route_rsc(isp_list):
 
 # ==================== IPv6 生成函数 ====================
 
-def generate_address_list_v6_rsc(list_name, src_file, description):
+def generate_address_list_v6_rsc(list_name, src_file, description, filename_suffix=""):
     """生成 Firewall Address List .rsc 文件 (IPv6)"""
     ip_list = fetch_ip_list(src_file)
 
@@ -181,12 +184,13 @@ def generate_address_list_v6_rsc(list_name, src_file, description):
         lines.append(
             f'/ipv6 firewall address-list add list={list_name} '
             f'address={ip} '
-            f'comment="ispconf: {list_name} - {description}"'
+            f'comment="ispconf: {list_name}{filename_suffix} - {description}"'
         )
 
     lines.append("")
 
-    filepath = os.path.join(OUTPUT_DIR, f"{list_name}.rsc")
+    filename = f"{list_name}{filename_suffix}.rsc"
+    filepath = os.path.join(OUTPUT_DIR, filename)
     with open(filepath, 'w') as f:
         f.write('\n'.join(lines))
 
@@ -194,7 +198,7 @@ def generate_address_list_v6_rsc(list_name, src_file, description):
     return len(ip_list)
 
 
-def generate_single_route_v6_rsc(table_name, src_file, description):
+def generate_single_route_v6_rsc(table_name, src_file, description, filename_suffix=""):
     """生成单个 ISP 的 Route Rule .rsc 文件 (IPv6)"""
     ip_list = fetch_ip_list(src_file)
 
@@ -210,12 +214,13 @@ def generate_single_route_v6_rsc(table_name, src_file, description):
         lines.append(
             f'/ipv6 route rule add dst-address={ip} '
             f'action=lookup table={table_name} '
-            f'comment="ispconf: {table_name} - {description}"'
+            f'comment="ispconf: {table_name}{filename_suffix} - {description}"'
         )
 
     lines.append("")
 
-    filepath = os.path.join(OUTPUT_DIR, f"{table_name}.rsc")
+    filename = f"{table_name}{filename_suffix}.rsc"
+    filepath = os.path.join(OUTPUT_DIR, filename)
     with open(filepath, 'w') as f:
         f.write('\n'.join(lines))
 
@@ -288,13 +293,15 @@ def main():
 
     # ==================== IPv4 ====================
 
-    # 1. 生成 all_cn.rsc -> Firewall Address List
+    # 1. 生成 all_cn_ipv4.rsc -> Firewall Address List
+    #    文件名: all_cn_ipv4.rsc, list=all_cn
     all_cn_name, all_cn_desc = ALL_CN
-    generate_address_list_rsc("all_cn_ipv4", all_cn_name, all_cn_desc)
+    generate_address_list_rsc("all_cn", all_cn_name, all_cn_desc, "_ipv4")
 
     # 2. 生成单个 ISP Route Rules (IPv4)
+    #    文件名: chinatelecom_ipv4.rsc, table=chinatelecom
     for isp, (src_file, description) in ISPS.items():
-        generate_single_route_rsc(f"{isp}_ipv4", src_file, description)
+        generate_single_route_rsc(isp, src_file, description, "_ipv4")
 
     # 3. 生成所有组合 Route Rules (IPv4)
     isp_names = list(ISPS.keys())
@@ -309,12 +316,15 @@ def main():
     # ==================== IPv6 ====================
 
     # 4. 生成 all_cn_ipv6.rsc -> Firewall Address List (IPv6)
+    #    文件名: all_cn_ipv6.rsc, list=all_cn
     all_cn_v6_name, all_cn_v6_desc = ALL_CN_IPV6
-    generate_address_list_v6_rsc("all_cn_ipv6", all_cn_v6_name, all_cn_v6_desc)
+    generate_address_list_v6_rsc("all_cn", all_cn_v6_name, all_cn_v6_desc, "_ipv6")
 
     # 5. 生成单个 ISP Route Rules (IPv6)
+    #    文件名: chinatelecom_ipv6.rsc, table=chinatelecom
     for isp, (src_file, description) in ISPS_IPV6.items():
-        generate_single_route_v6_rsc(isp, src_file, description)
+        table_name = isp.replace("_ipv6", "")
+        generate_single_route_v6_rsc(table_name, src_file, description, "_ipv6")
 
     # 6. 生成所有组合 Route Rules (IPv6)
     isp_names_v6 = list(ISPS_IPV6.keys())
