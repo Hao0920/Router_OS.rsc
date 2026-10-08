@@ -2,7 +2,7 @@ name: Build chnroute
 
 "on":
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '30 0 * * *'  # 每天 00:30 UTC（北京时间 08:30），ispip.clang.cn 数据更新后
   workflow_dispatch:
   push:
     paths:
@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 获取完整历史，避免推送冲突
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -26,9 +26,7 @@ jobs:
 
       - name: Clean old .rsc files
         run: |
-          # 删除所有已跟踪的 .rsc 文件
           git rm -rf output/chnroute/*.rsc 2>/dev/null || true
-          # 确保目录存在但为空
           mkdir -p output/chnroute
 
       - name: Generate chnroute .rsc files
@@ -40,7 +38,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add output/chnroute/
           git diff --quiet && git diff --staged --quiet || git commit -m "Update chnroute [skip ci]"
-          # 先拉取远程更改，允许不相关历史合并
           git pull origin main --allow-unrelated-histories --no-rebase || true
           git push
 
