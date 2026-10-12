@@ -9,6 +9,7 @@ RouterOS 脚本生成器集合
 | 名称 | 说明 | 目录 |
 | --- | --- | --- |
 | [chnroute](generators/chnroute/) | 中国大陆运营商策略路由 | [文档](generators/chnroute/README.md) |
+| [adlist](generators/adlist/) | 广告过滤列表 | [文档](generators/adlist/README.md) |
 | [ros-upgrade](generators/ros-upgrade/) | RouterOS 系统自动升级 | [文档](generators/ros-upgrade/README.md) |
 
 ## 仓库结构
@@ -20,11 +21,15 @@ Router_OS.rsc/
 │   ├── chnroute/               # 数据路由生成器
 │   │   ├── generate.py
 │   │   └── README.md           # chnroute 文档
+│   ├── adlist/                 # 广告过滤生成器
+│   │   ├── generate.py
+│   │   └── README.md           # adlist 文档
 │   └── ros-upgrade/            # 系统升级
 │       ├── ros-upgrade.txt     # 升级脚本
 │       └── README.md           # ros-upgrade 文档
 ├── output/
-│   └── chnroute/               # 生成的 .rsc 文件
+│   ├── chnroute/               # 生成的 .rsc 文件
+│   └── adlist/                 # 生成的广告过滤文件
 └── .github/workflows/          # GitHub Actions
 ```
 
