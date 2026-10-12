@@ -53,8 +53,18 @@ Router_OS.rsc/
 # 生成 chnroute
 python generators/chnroute/generate.py
 
+# 生成 adlist
+python generators/adlist/generate.py
+
 # ros-upgrade 无需生成，直接使用
 ```
+
+## GitHub Actions
+
+| Workflow | 说明 | 定时 |
+| --- | --- | --- |
+| [chnroute](.github/workflows/chnroute.yml) | 生成 IP 路由数据 | 每天 08:30 |
+| [adlist](.github/workflows/adlist.yml) | 生成广告过滤列表 | 每天 08:30 |
 
 ## 添加新版生成器
 
