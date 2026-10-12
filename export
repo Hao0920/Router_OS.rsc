@@ -1,0 +1,573 @@
+[MikroTik@CHR] > export 
+# 2026-10-12 22:35:23 by RouterOS 7.23.8
+# system id = ABCDEFGHIJK
+#
+/interface bridge
+add comment="defconf: local Bridge" name=bridge1 vlan-filtering=yes
+/interface ethernet
+set [ find default-name=ether1 ] comment="defconf: local WAN" \
+    disable-running-check=no
+set [ find default-name=ether2 ] comment="defconf: local WAN" \
+    disable-running-check=no
+set [ find default-name=ether3 ] comment="defconf: local WAN" \
+    disable-running-check=no
+set [ find default-name=ether4 ] comment="defconf: local WAN" \
+    disable-running-check=no
+set [ find default-name=ether5 ] comment="defconf: local LAN" \
+    disable-running-check=no
+set [ find default-name=ether6 ] comment="defconf: local LAN" \
+    disable-running-check=no
+set [ find default-name=ether7 ] comment="defconf: local LAN for VMs" \
+    disable-running-check=no
+/interface pppoe-client
+add add-default-route=yes comment="defconf: local PPPoE Client" disabled=no \
+    interface=ether1 name=pppoe-out1 user=pppoe-out1
+add comment="defconf: local PPPoE Client" interface=ether2 name=pppoe-out2 \
+    user=pppoe-out2
+add comment="defconf: local PPPoE Client" interface=ether3 name=pppoe-out3 \
+    user=pppoe-out3
+add comment="defconf: local PPPoE Client" interface=ether4 name=pppoe-out4 \
+    user=pppoe-out4
+/interface wireguard
+add listen-port=52828 mtu=1420 name=wg1
+/interface vlan
+add interface=bridge1 name=vlan10 vlan-id=10
+add interface=bridge1 name=vlan20 vlan-id=20
+add interface=bridge1 name=vlan30 vlan-id=30
+/interface list
+add comment="defconf: WAN list" name=WAN
+add comment="defconf: LAN list" name=LAN
+add comment="onuconf: ONU list" name=ONU
+/ip pool
+add comment="defconf: local LAN DHCPv4 pool" name=dhcpv4-pool1 ranges=\
+    172.16.1.100-172.16.1.200
+add comment="defconf: local LAN DHCPv4 pool" name=dhcpv4-pool10 ranges=\
+    172.16.10.100-172.16.10.200
+add comment="defconf: local LAN DHCPv4 pool" name=dhcpv4-pool20 ranges=\
+    172.16.20.100-172.16.20.200
+add comment="defconf: local LAN DHCPv4 pool" name=dhcpv4-pool30 ranges=\
+    172.16.30.100-172.16.30.200
+/ip dhcp-server
+add address-pool=dhcpv4-pool1 bootp-support=none comment=\
+    "defconf: local LAN DHCPv4 server" interface=bridge1 lease-time=1d name=\
+    dhcpv4-server1
+add address-pool=dhcpv4-pool10 bootp-support=none comment=\
+    "defconf: local LAN DHCPv4 server" interface=vlan10 lease-time=1d name=\
+    dhcpv4-server10
+add address-pool=dhcpv4-pool20 bootp-support=none comment=\
+    "defconf: local LAN DHCPv4 server" interface=vlan20 lease-time=1d name=\
+    dhcpv4-server20
+add address-pool=dhcpv4-pool30 bootp-support=none comment=\
+    "defconf: local LAN DHCPv4 server" interface=vlan30 name=dhcpv4-server30
+/queue type
+add cake-diffserv=diffserv4 cake-flowmode=dual-dsthost cake-memlimit=32.0MiB \
+    cake-mpu=84 cake-nat=yes cake-overhead=38 cake-overhead-scheme=ethernet \
+    cake-rtt=60ms kind=cake name=cake-rx
+add cake-ack-filter=filter cake-diffserv=diffserv4 cake-flowmode=dual-srchost \
+    cake-memlimit=32.0MiB cake-mpu=84 cake-nat=yes cake-overhead=38 \
+    cake-overhead-scheme=ethernet cake-rtt=60ms kind=cake name=cake-tx
+/queue simple
+add bucket-size=0.05/0.03 comment="qosconf: simple queue with CAKE" max-limit=\
+    950M/38M name=cake-qos queue=cake-rx/cake-tx target=bridge1
+/system script
+add comment="sysconf: auto backup to files" dont-require-permissions=no name=\
+    auto-backup-worker owner=MikroTik policy=read,write,test source="\
+    \n    :local ts [/system clock get date];\
+    \n    /system backup save name=(\"auto-backup-\" . \$ts) password=<>;\
+    \n    /export file=(\"auto-export-\" . \$ts);\
+    \n    :local cutoff ([/system clock get date] - 30d);\
+    \n    :foreach f in=[/file find name~\"^auto-\"] do={\
+    \n        :if ([/file get \$f creation-time] < \$cutoff) do={ /file remove \
+    \$f }\
+    \n    }\
+    \n"
+add comment="ddnsconf: cloudflare ddns" dont-require-permissions=no name=\
+    cf-ddns owner=MikroTik policy=read,write,test source="\
+    \n    :local zone \"<CF_ZONE_ID>\";\
+    \n    :local token \"<CF_API_TOKEN>\";\
+    \n    :local name \"home.example.com\";\
+    \n    :local wanip \"\";\
+    \n    :foreach a in=[/ip address find interface=pppoe-out1] do={\
+    \n        :local v [/ip address get \$a address];\
+    \n        :set wanip [:pick \$v 0 [:find \$v \"/\"]];\
+    \n    }\
+    \n    :if ([:len \$wanip] = 0) do={ :error \"cf-ddns: no wan ip\" }\
+    \n    :local r [/tool/fetch url=(\"https://api.cloudflare.com/client/v4/zon\
+    es/\" . \$zone . \"/dns_records\?type=A&name=\" . \$name) http-header-field\
+    =(\"Authorization: Bearer \" . \$token) output=user as-value];\
+    \n    :local data (\$r->\"data\");\
+    \n    :local id \"\"; :local cur \"\";\
+    \n    :local p1 [:find \$data \"\\\"id\\\":\\\"\"];\
+    \n    :if ([:typeof \$p1] != \"nil\") do={ :local s1 (\$p1 + 6); :set id [:\
+    pick \$data \$s1 [:find \$data \"\\\"\" \$s1]] }\
+    \n    :local p2 [:find \$data \"\\\"content\\\":\\\"\"];\
+    \n    :if ([:typeof \$p2] != \"nil\") do={ :local s2 (\$p2 + 10); :set cur \
+    [:pick \$data \$s2 [:find \$data \"\\\"\" \$s2]] }\
+    \n    :if (\$id = \"\") do={ :log warning \"cf-ddns: record not found\"; :e\
+    rror \"cf-ddns: record not found\" }\
+    \n    :if (\$cur != \$wanip) do={\
+    \n        /tool/fetch url=(\"https://api.cloudflare.com/client/v4/zones/\" \
+    . \$zone . \"/dns_records/\" . \$id) http-header-field=(\"Authorization: Be\
+    arer \" . \$token,\"Content-Type: application/json\") http-method=put outpu\
+    t=none data=(\"{\\\"type\\\":\\\"A\\\",\\\"name\\\":\\\"\" . \$name . \"\\\
+    \",\\\"content\\\":\\\"\" . \$wanip . \"\\\",\\\"ttl\\\":300,\\\"proxied\\\
+    \":false}\");\
+    \n        :log info (\"cf-ddns: updated to \" . \$wanip);\
+    \n    }\
+    \n"
+add comment="sysconf: system auto upgrade" dont-require-permissions=no name=\
+    sys-upgrade-worker owner=MikroTik policy=reboot,read,write,policy source="\
+    \n    :if ([/system package update get channel] != \"long-term\") do={ /sys\
+    tem package update set channel=long-term }\
+    \n    /system package update check-for-updates;\
+    \n    :if ([/system package update get status] = \"New version is available\
+    \") do={\
+    \n        :log info \"sys-upgrade: installing updates\";\
+    \n        /system package update install;\
+    \n    }\
+    \n"
+/user group
+set read policy="read,winbox,web,!local,!telnet,!ssh,!ftp,!reboot,!write,!polic\
+    y,!test,!password,!sniff,!sensitive,!api,!romon,!rest-api"
+/ip smb
+set enabled=no interfaces=bridge1
+/interface bridge port
+add bridge=bridge1 interface=ether5
+add bridge=bridge1 interface=ether6
+add bridge=bridge1 interface=ether7
+/ip neighbor discovery-settings
+set discover-interface-list=LAN
+/ip settings
+set max-neighbor-entries=2048 rp-filter=loose tcp-syncookies=yes
+/interface bridge vlan
+add bridge=bridge1 untagged=bridge1,ether5,ether6,ether7 vlan-ids=1
+add bridge=bridge1 tagged=bridge1,ether5,ether6,ether7 vlan-ids=10
+add bridge=bridge1 tagged=bridge1,ether5,ether6,ether7 vlan-ids=20
+add bridge=bridge1 tagged=bridge1,ether5,ether6,ether7 vlan-ids=30
+/interface list member
+add comment="defconf: WAN member" interface=pppoe-out1 list=WAN
+add comment="defconf: LAN member" interface=bridge1 list=LAN
+add comment="onuconf: ONU member" interface=ether1 list=ONU
+add comment="defconf: WAN member" disabled=yes interface=pppoe-out2 list=WAN
+add comment="defconf: WAN member" disabled=yes interface=pppoe-out3 list=WAN
+add comment="defconf: WAN member" disabled=yes interface=pppoe-out4 list=WAN
+add comment="defconf: WAN member" disabled=yes interface=ether1 list=WAN
+add comment="defconf: WAN member" disabled=yes interface=ether2 list=WAN
+add comment="defconf: WAN member" disabled=yes interface=ether3 list=WAN
+add comment="defconf: WAN member" disabled=yes interface=ether4 list=WAN
+add comment="onuconf: ONU member" disabled=yes interface=ether2 list=ONU
+add comment="onuconf: ONU member" disabled=yes interface=ether3 list=ONU
+add comment="onuconf: ONU member" disabled=yes interface=ether4 list=ONU
+add comment="defconf: LAN member" interface=vlan10 list=LAN
+add comment="defconf: LAN member" interface=vlan20 list=LAN
+add comment="defconf: LAN member" interface=vlan30 list=LAN
+/ip address
+add address=172.16.1.1/24 comment="defconf: local LAN IPv4" interface=bridge1 \
+    network=172.16.1.0
+add address=172.16.10.1/24 comment="defconf: local LAN IPv4" interface=vlan10 \
+    network=172.16.10.0
+add address=172.16.20.1/24 comment="defconf: local LAN IPv4" interface=vlan20 \
+    network=172.16.20.0
+add address=172.16.30.1/24 comment="defconf: local LAN IPv4" interface=vlan30 \
+    network=172.16.30.0
+add address=192.168.1.2/24 comment="onuconf: link IPv4 for ONU" interface=\
+    ether1 network=192.168.1.0
+add address=192.168.2.2/24 comment="onuconf: link IPv4 for ONU" disabled=yes \
+    interface=ether2 network=192.168.2.0
+add address=192.168.3.2/24 comment="onuconf: link IPv4 for ONU" disabled=yes \
+    interface=ether3 network=192.168.3.0
+add address=192.168.4.2/24 comment="onuconf: link IPv4 for ONU" disabled=yes \
+    interface=ether4 network=192.168.4.0
+/ip dhcp-client
+add comment="defconf: DHCPv4 for WAN" disabled=yes interface=ether1 name=\
+    client1
+add comment="defconf: DHCPv4 for WAN" disabled=yes interface=ether2 name=\
+    client2 use-peer-dns=no use-peer-ntp=no
+add comment="defconf: DHCPv4 for WAN" disabled=yes interface=ether3 name=\
+    client3 use-peer-dns=no use-peer-ntp=no
+add comment="defconf: DHCPv4 for WAN" disabled=yes interface=ether4 name=\
+    client4 use-peer-dns=no use-peer-ntp=no
+/ip dhcp-server network
+add address=172.16.1.0/24 comment="defconf: local LAN DHCPv4 network" \
+    dns-server=172.16.1.1 domain=home.internal gateway=172.16.1.1 netmask=24 \
+    ntp-server=172.16.1.1
+add address=172.16.10.0/24 comment="defconf: local LAN DHCPv4 network" \
+    dns-server=172.16.10.1 domain=users.internal gateway=172.16.10.1 netmask=\
+    24 ntp-server=172.16.10.1
+add address=172.16.20.0/24 comment="defconf: local LAN DHCPv4 network" \
+    dns-server=172.16.20.1 domain=iot.internal gateway=172.16.20.1 netmask=24 \
+    ntp-server=172.16.20.1
+add address=172.16.30.0/24 comment="defconf: local LAN DHCPv4 network" \
+    dns-server=172.16.30.1 domain=guests.internal gateway=172.16.30.1 netmask=\
+    24 ntp-server=172.16.30.1
+/ip dns
+set allow-remote-requests=yes cache-max-ttl=6h cache-size=40960KiB \
+    max-concurrent-queries=150 max-udp-packet-size=1232 mdns-repeat-ifaces=\
+    vlan10,vlan20 servers=\
+    1.2.4.8,114.114.114.114,223.5.5.5,119.29.29.29,180.76.76.76
+/ip dns adlist
+add url="https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/ref\
+    s/heads/master/discretion/dns.txt"
+add url=https://neodev.team/host
+add url="https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/mas\
+    ter/anti-ad-domains.txt"
+add url=\
+    https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts.txt
+add url="https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/ref\
+    s/heads/master/discretion/pcdn.txt"
+/ip dns static
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    alt type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    bind type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    example type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    home.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    internal type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    invalid type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    lan type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    local type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    localhost type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    onion type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    test type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    10.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    16.172.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    17.172.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    18.172.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    19.172.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    20.172.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    21.172.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    22.172.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    23.172.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    24.172.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    25.172.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    26.172.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    27.172.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    28.172.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    29.172.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    30.172.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    31.172.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    168.192.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    0.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    127.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    254.169.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    2.0.192.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    100.51.198.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    113.0.203.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    255.255.255.255.in-addr.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa \
+    type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa \
+    type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    d.f.ip6.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    8.e.f.ip6.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    9.e.f.ip6.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    a.e.f.ip6.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    b.e.f.ip6.arpa type=NXDOMAIN
+add comment="defconf: suppress special-use domains" match-subdomain=yes name=\
+    8.b.d.0.1.0.0.2.ip6.arpa type=NXDOMAIN
+/ip firewall address-list
+add address=192.168.1.1 comment="onuconf: local ONU IPv4" list=local_onu_ipv4
+add address=172.16.1.0/24 comment="defconf: local LAN IPv4 subnet" list=\
+    local_subnet_ipv4
+add address=172.16.10.0/24 comment="lanconf: VLAN10 users subnet" list=\
+    local_subnet_ipv4
+add address=172.16.20.0/24 comment="lanconf: VLAN20 IoT subnet" list=\
+    local_subnet_ipv4
+add address=172.16.30.0/24 comment="lanconf: VLAN30 guests subnet" list=\
+    local_subnet_ipv4
+add address=0.0.0.0/8 comment="defconf: RFC6890 - this network" list=\
+    no_forward_ipv4
+add address=169.254.0.0/16 comment="defconf: RFC6890 - link local" list=\
+    no_forward_ipv4
+add address=224.0.0.0/4 comment="defconf: RFC5771 - multicast" list=\
+    no_forward_ipv4
+add address=255.255.255.255 comment="defconf: RFC6890 - limited broadcast" \
+    list=no_forward_ipv4
+add address=127.0.0.0/8 comment="defconf: RFC6890 - Loopback" list=bad_ipv4
+add address=192.0.0.0/24 comment="defconf: RFC6890 - reserved" list=bad_ipv4
+add address=192.0.2.0/24 comment="defconf: RFC6890 - TEST-NET-1" list=bad_ipv4
+add address=198.51.100.0/24 comment="defconf: RFC6890 - TEST-NET-2" list=\
+    bad_ipv4
+add address=203.0.113.0/24 comment="defconf: RFC6890 - TEST-NET-3" list=\
+    bad_ipv4
+add address=240.0.0.0/4 comment="defconf: RFC6890 - reserved" list=bad_ipv4
+add address=0.0.0.0/8 comment="defconf: RFC6890 - this network" list=\
+    not_global_ipv4
+add address=10.0.0.0/8 comment="defconf: RFC6890 - private networks" list=\
+    not_global_ipv4
+add address=100.64.0.0/10 comment="defconf: RFC6890 - shared address" list=\
+    not_global_ipv4
+add address=169.254.0.0/16 comment="defconf: RFC6890 - link local" list=\
+    not_global_ipv4
+add address=172.16.0.0/12 comment="defconf: RFC6890 - private networks" list=\
+    not_global_ipv4
+add address=192.0.0.0/29 comment="defconf: RFC6890 - DS-Lite" list=\
+    not_global_ipv4
+add address=192.168.0.0/16 comment="defconf: RFC6890 - private networks" list=\
+    not_global_ipv4
+add address=198.18.0.0/15 comment="defconf: RFC6890 - benchmarking" list=\
+    not_global_ipv4
+add address=255.255.255.255 comment="defconf: RFC6890 - limited broadcast" \
+    list=not_global_ipv4
+add address=224.0.0.0/4 comment="defconf: RFC5771 - multicast" list=\
+    bad_src_ipv4
+add address=255.255.255.255 comment="defconf: RFC6890 - limited broadcast" \
+    list=bad_src_ipv4
+add address=0.0.0.0/8 comment="defconf: RFC6890 - this network" list=\
+    bad_dst_ipv4
+add comment="ddosconf: DDoS" list=ddos_targets_ipv4
+add comment="ddosconf: DDoS" list=ddos_attackers_ipv4
+/ip firewall filter
+add action=accept chain=input comment="defconf: accept ICMP after RAW" \
+    protocol=icmp
+add action=accept chain=input comment=\
+    "defconf: accept established,related,untracked" connection-state=\
+    established,related,untracked
+add action=drop chain=input comment="defconf: drop invalid" connection-state=\
+    invalid
+add action=accept chain=input comment="guestconf: guests DNS udp only" \
+    dst-port=53 protocol=udp src-address=172.16.30.0/24
+add action=accept chain=input comment="guestconf: guests DNS tcp only" \
+    dst-port=53 protocol=tcp src-address=172.16.30.0/24
+add action=drop chain=input comment="guestconf: guests block to router" \
+    src-address=172.16.30.0/24
+add action=drop chain=input comment="defconf: drop all not from LAN" \
+    in-interface-list=!LAN
+add action=fasttrack-connection chain=forward comment="defconf: fasttrack" \
+    connection-state=established,related disabled=yes
+add action=accept chain=forward comment=\
+    "defconf: accept established,related,untracked" connection-state=\
+    established,related,untracked
+add action=drop chain=forward comment="defconf: drop invalid" \
+    connection-state=invalid
+add action=drop chain=forward comment=\
+    "defconf: drop all from WAN not DSTNATed" connection-nat-state=!dstnat \
+    in-interface-list=WAN log=yes log-prefix="[wan-not-dnat]"
+add action=drop chain=forward comment=\
+    "onuconf: drop all from ONU not DSTNATed" connection-nat-state=!dstnat \
+    in-interface-list=ONU log=yes log-prefix="[onu-not-dnat]"
+add action=drop chain=forward comment="defconf: drop bad forward IPs" \
+    src-address-list=no_forward_ipv4
+add action=drop chain=forward comment="defconf: drop bad forward IPs" \
+    dst-address-list=no_forward_ipv4
+add action=jump chain=forward comment="ddosconf: DDoS SYN-ACK" jump-target=\
+    detect-syn-ack protocol=tcp tcp-flags=syn,ack
+add action=return chain=detect-syn-ack comment="ddosconf: DDoS SYN-ACK" \
+    dst-limit=128,128,src-and-dst-addresses/10s
+add action=add-dst-to-address-list address-list=ddos_targets_ipv4 \
+    address-list-timeout=10m chain=detect-syn-ack comment=\
+    "ddosconf: DDoS SYN-ACK"
+add action=add-src-to-address-list address-list=ddos_attackers_ipv4 \
+    address-list-timeout=10m chain=detect-syn-ack comment=\
+    "ddosconf: DDoS SYN-ACK" log=yes log-prefix="[sa-flood-ipv4]"
+add action=jump chain=forward comment="ddosconf: DDoS" connection-state=new \
+    jump-target=detect-ddos
+add action=return chain=detect-ddos comment="ddosconf: DDoS" dst-limit=\
+    640,640,src-and-dst-addresses/10s
+add action=add-dst-to-address-list address-list=ddos_targets_ipv4 \
+    address-list-timeout=10m chain=detect-ddos comment="ddosconf: DDoS"
+add action=add-src-to-address-list address-list=ddos_attackers_ipv4 \
+    address-list-timeout=10m chain=detect-ddos comment="ddosconf: DDoS" log=\
+    yes log-prefix="[ddos-ipv4]"
+add action=accept chain=forward comment="iotconf: allow LAN to IoT" \
+    connection-state=new dst-address=172.16.20.0/24 src-address=172.16.1.0/24
+add action=accept chain=forward comment="iotconf: allow users to IoT" \
+    connection-state=new dst-address=172.16.20.0/24 src-address=172.16.10.0/24
+add action=accept chain=forward comment="iotconf: camera allow IoT net" \
+    connection-state=new dst-address=172.16.20.0/24 src-mac-address=\
+    00:00:00:00:00:00
+add action=drop chain=forward comment="iotconf: camera block WAN" \
+    out-interface-list=WAN src-mac-address=00:00:00:00:00:00
+add action=drop chain=forward comment="iotconf: camera block the rest" \
+    src-mac-address=00:00:00:00:00:00
+add action=drop chain=forward comment=\
+    "guestconf: guests block to local networks" dst-address=172.16.0.0/12 \
+    src-address=172.16.30.0/24
+add action=drop chain=forward comment="iotconf: IoT block to LAN" dst-address=\
+    172.16.0.0/12 src-address=172.16.20.0/24
+/ip firewall mangle
+add action=change-mss chain=forward comment="defconf: fix IPv4 mss for WAN" \
+    new-mss=clamp-to-pmtu protocol=tcp tcp-flags=syn
+add action=accept chain=prerouting comment="onuconf: access to ONU" \
+    dst-address-list=local_onu_ipv4 src-address-list=local_subnet_ipv4
+/ip firewall nat
+add action=redirect chain=dstnat comment="dnsconf: force DNS udp" \
+    dst-address-type=!local dst-port=53 protocol=udp to-ports=53
+add action=redirect chain=dstnat comment="dnsconf: force DNS tcp" \
+    dst-address-type=!local dst-port=53 protocol=tcp to-ports=53
+add action=masquerade chain=srcnat comment="defconf: masquerade IPv4" \
+    out-interface-list=WAN
+add action=masquerade chain=srcnat comment="onuconf: access to ONU" \
+    dst-address-list=local_onu_ipv4 out-interface-list=ONU src-address-list=\
+    local_subnet_ipv4
+/ip firewall raw
+add action=accept chain=prerouting comment=\
+    "defconf: enable for transparent firewall" disabled=yes
+add action=drop chain=prerouting comment="ddosconf: DDoS" dst-address-list=\
+    ddos_targets_ipv4 src-address-list=ddos_attackers_ipv4
+add action=accept chain=prerouting comment="defconf: accept local Loopback" \
+    in-interface=lo
+add action=accept chain=prerouting comment="defconf: accept DHCPv4 discover" \
+    dst-address=255.255.255.255 dst-port=67 in-interface-list=LAN protocol=udp \
+    src-address=0.0.0.0 src-port=68
+add action=drop chain=prerouting comment="defconf: drop bogon IPs" \
+    src-address-list=bad_ipv4
+add action=drop chain=prerouting comment="defconf: drop bogon IPs" \
+    dst-address-list=bad_ipv4
+add action=drop chain=prerouting comment="defconf: drop bad SRC IPv4" \
+    src-address-list=bad_src_ipv4
+add action=drop chain=prerouting comment="defconf: drop bad DST IPv4" \
+    dst-address-list=bad_dst_ipv4
+add action=drop chain=prerouting comment="defconf: drop non global from WAN" \
+    in-interface-list=WAN src-address-list=not_global_ipv4
+add action=drop chain=prerouting comment=\
+    "defconf: drop forward to local LAN from WAN" dst-address-list=\
+    local_subnet_ipv4 in-interface-list=WAN log=yes log-prefix="[wan-to-lan]"
+add action=drop chain=prerouting comment=\
+    "onuconf: drop if not from ONU address" in-interface-list=ONU \
+    src-address-list=!local_onu_ipv4
+add action=drop chain=prerouting comment=\
+    "onuconf: drop forward to local LAN from ONU" dst-address-list=\
+    local_subnet_ipv4 in-interface-list=ONU log=yes log-prefix="[onu-to-lan]"
+add action=drop chain=prerouting comment=\
+    "defconf: drop if not from local IPv4 subnets" in-interface-list=LAN \
+    src-address-list=!local_subnet_ipv4
+add action=drop chain=prerouting comment="defconf: drop UDP port 0" log=yes \
+    log-prefix="[udp-port-0]" port=0 protocol=udp
+add action=jump chain=prerouting comment="defconf: jump to TCP chain" \
+    jump-target=bad-tcp protocol=tcp
+add action=jump chain=prerouting comment="defconf: jump to ICMP chain" \
+    jump-target=icmp4 protocol=icmp
+add action=accept chain=prerouting comment=\
+    "defconf: accept everything else from LAN" in-interface-list=LAN
+add action=accept chain=prerouting comment=\
+    "defconf: accept everything else from WAN" in-interface-list=WAN
+add action=accept chain=prerouting comment=\
+    "onuconf: accept everything else from ONU" in-interface-list=ONU
+add action=accept chain=prerouting comment=\
+    "defconf: accept inter-interface router traffic" src-address-type=local
+add action=drop chain=prerouting comment="defconf: drop the rest"
+add action=drop chain=bad-tcp comment="defconf: drop TCP port 0" log=yes \
+    log-prefix="[tcp-port-0]" port=0 protocol=tcp
+add action=drop chain=bad-tcp comment="defconf: TCP flag filter" protocol=tcp \
+    tcp-flags=!fin,!syn,!rst,!ack
+add action=drop chain=bad-tcp comment="defconf: drop flags fin,syn" protocol=\
+    tcp tcp-flags=fin,syn
+add action=drop chain=bad-tcp comment="defconf: drop flags fin,rst" protocol=\
+    tcp tcp-flags=fin,rst
+add action=drop chain=bad-tcp comment="defconf: drop flags fin,!ack" protocol=\
+    tcp tcp-flags=fin,!ack
+add action=drop chain=bad-tcp comment="defconf: drop flags fin,urg" protocol=\
+    tcp tcp-flags=fin,urg
+add action=drop chain=bad-tcp comment="defconf: drop flags syn,rst" protocol=\
+    tcp tcp-flags=syn,rst
+add action=drop chain=bad-tcp comment="defconf: drop flags rst,urg" protocol=\
+    tcp tcp-flags=rst,urg
+add action=accept chain=icmp4 comment="defconf: rfc4884 echo reply" \
+    icmp-options=0:0 protocol=icmp
+add action=accept chain=icmp4 comment="defconf: rfc4884 host unreachable" \
+    icmp-options=3:1 protocol=icmp
+add action=accept chain=icmp4 comment="defconf: rfc4884 port unreachable" \
+    icmp-options=3:3 protocol=icmp
+add action=accept chain=icmp4 comment="defconf: rfc4884 fragmentation needed" \
+    icmp-options=3:4 protocol=icmp
+add action=accept chain=icmp4 comment="defconf: rfc4884 echo request" \
+    icmp-options=8:0 protocol=icmp
+add action=accept chain=icmp4 comment="defconf: rfc4884 time exceeded" \
+    icmp-options=11:0-255 protocol=icmp
+add action=drop chain=icmp4 comment="defconf: drop the rest"
+/ip service
+set ftp disabled=yes
+set ssh disabled=yes
+set telnet disabled=yes
+set www disabled=yes
+set reverse-proxy disabled=yes
+set winbox address=172.16.1.0/24,172.16.10.0/24
+set api disabled=yes
+set api-ssl disabled=yes
+/ip ssh
+set strong-crypto=yes
+/system clock
+set time-zone-name=Asia/Shanghai
+/system ntp client
+set enabled=yes
+/system ntp server
+set enabled=yes
+/system ntp client servers
+add address=ntp.aliyun.com
+add address=ntp.tencent.com
+add address=cn.pool.ntp.org
+add address=ntp.ntsc.ac.cn
+add address=asia.pool.ntp.org
+add address=pool.ntp.org
+add address=time.apple.com
+add address=time.windows.com
+add address=time.google.com
+add address=time.cloudflare.com
+/system package update
+set channel=long-term
+/system scheduler
+add comment="sysconf: auto backup weekly" interval=1w name=auto-backup-timer \
+    on-event="/system script run auto-backup-worker" policy=read,write,test \
+    start-date=2026-09-28 start-time=04:30:00
+add comment="ddnsconf: cf ddns 5min" interval=5m name=cf-ddns-timer on-event=\
+    "/system script run cf-ddns" policy=read,write,test start-date=2026-09-28 \
+    start-time=00:00:00
+add comment="sysconf: system auto upgrade" interval=1d name=\
+    system-upgrade-timer on-event="/system script run sys-upgrade-worker" \
+    policy=reboot,read,write,policy start-date=2026-09-28 start-time=02:55:00
+add comment="pppoeconf: disable pppoe-out1" interval=3d name=\
+    disable-pppoe-timer on-event="/interface disable pppoe-out1" policy=write \
+    start-date=2026-09-28 start-time=04:00:00
+add comment="pppoeconf: enable pppoe-out1" interval=3d name=enable-pppoe-timer \
+    on-event="/interface enable pppoe-out1" policy=write start-date=2026-09-28 \
+    start-time=04:00:10
+/tool bandwidth-server
+set enabled=no
+/tool mac-server
+set allowed-interface-list=none
+/tool mac-server mac-winbox
+set allowed-interface-list=LAN
+/tool mac-server ping
+set enabled=no
