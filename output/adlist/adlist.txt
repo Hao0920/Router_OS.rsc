@@ -1,6 +1,6 @@
 # Adblock domain list
 # Generated from multiple sources
-# Total: 121115 entries
+# Total: 121110 entries
 
 0.232.205.92.host.secureserver.net
 0.myikas.com
@@ -2388,7 +2388,6 @@
 68tkaiaji.com
 690f8a4082.com
 69b31e7623.com
-69cnc.duckdns.org
 69v.club
 69vip.pro
 6a2596e48d.com
@@ -8353,6 +8352,7 @@ active-tracking.de
 active-trk7.com
 active.baofeng.com
 active.sangfor.com
+active.tc.skysrt.com
 active24stats.nl
 activeconversion.com
 activedancer.com
@@ -11305,6 +11305,7 @@ ahh8.cn
 ahhgpywevknoz.com
 ahhmkt.anhua.com.cn
 ahhrtt.pixnet.net
+ahiak.com
 ahima.coniferhealth.com
 ahisft.moonmagic.com
 ahisu.com
@@ -11484,6 +11485,7 @@ aiopfjpikqblq.space
 aip.actonservice.com
 aipmedia.com
 aipu.mobi
+aiqana.com
 aiqidwcfrm.com
 air-weigh.actonservice.com
 air.yoyi.com.cn
@@ -14836,6 +14838,7 @@ apps.zingeroo.com
 appsdk.tanv.com
 appsecstudio.com
 appsecurezomation.carte-gr.total.fr
+appset.autos
 appsflyer.com
 appsflyersdk.com
 appslime.com
@@ -15814,6 +15817,7 @@ aullwp.sportisimo.sk
 aumarketing.sedgwick.com
 aunehofyojgfq.space
 aunnnuvegyzfm.website
+auntieschaikhana.co.uk
 auntiesurfeatable.com
 auntpercoct.shop
 aunzblkzwgpgy.online
@@ -16330,6 +16334,7 @@ axpedsqboflar.space
 axperelwuzxzz.website
 axpjcp.tennis-point.co.uk
 axq9j15p0.com
+axqua.com
 axrhdperzzjkv.site
 axroiubduuqtw.website
 axshhgmltiycy.site
@@ -16887,6 +16892,7 @@ balagantrifled.shop
 balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev
 balancedsuppercreed.com
 balancenotes.com
+balancing.my.id
 balasesersatz.com
 balchechitins.com
 balcnzwmsjrbjs.com
@@ -20111,7 +20117,6 @@ broadsheetspikesnick.com
 broadsidedaisysanta.com
 broadstreet.ai
 broadstreetads.com
-broadwalkindia.com
 brochfanons.com
 brochureclear.com
 brodownloads.site
@@ -23599,7 +23604,6 @@ clearwatch.tv
 clearwindridge.com
 cleavebullydevaluation.com
 clecfcwjdgsoq.online
-cleenfoecleen22.com
 cleftplumous.com
 clenchedquarterbackluxuriant.com
 clenchedtea.com
@@ -37949,6 +37953,7 @@ exceedinglyorangesclothe.com
 exceedinglyrefreshing.com
 excellentpartialarm.com
 excellingvista.com
+excelnt.ai
 exceptingpealstipulate.com
 exceptionlog.kugou.com
 exceptlone.com
@@ -38572,7 +38577,6 @@ fairfaxpleasedmigrant.com
 fairfeeling.com
 fairfieldreporter.com
 fairfieldreview.com
-fairgroovetr.blog
 fairiesbranch.com
 fairlyleadingenquiry.com
 fairsexsecutor.xyz
@@ -39153,7 +39157,6 @@ femade.co.uk
 femalecook.com
 femalesfellowship.com
 femboy.center
-femboykisser.sbs
 femcldsapntgd.space
 femetrics.grammarly.io
 femininebeams.com
@@ -39471,6 +39474,7 @@ filemobile.actonservice.com
 filequanticore.com
 filerit.com
 files.54daysaverage.qzz.io
+files.8weeksaverage.xyz
 files.info.posteitaliane.it
 files.urlinsgroup.com
 files.xtpag.top
@@ -45949,7 +45953,6 @@ healthcare.fishersci.com
 healthcare.mcgladrey.com
 healthcare.oakstreethealth.com
 healthcare.thermofisher.com
-healthcaring.xyz
 healthcasts.actonservice.com
 healthcoverage.news
 healthfreedom.news
@@ -46393,6 +46396,7 @@ hibids10.com
 hibiscus76.com
 hiboowbrkegop.site
 hibusinessdaily.com
+hickamhealthcare.com
 hickeysmith.actonservice.com
 hickory27.top
 hickorysun.com
@@ -47194,7 +47198,6 @@ horizonsports.es
 horizontallypolluteembroider.com
 horizontallyresearchpolar.com
 horndestructnosebleed.com
-horno-rafelet.es
 horntooth.com
 hornymatches.com
 hornyspots.com
@@ -56213,6 +56216,7 @@ kuaishang.cn
 kuaishang.com.cn
 kuaishou.httpdns.pro
 kuaizitech.com
+kuakuawenjian.oss-cn-hangzhou.aliyuncs.com
 kuaskqytzcrdq.site
 kuazennmquins.site
 kubam.cn
@@ -57349,6 +57353,7 @@ leavingextract.com
 leavingneedyengaged.com
 leaygtdaemler.online
 leb-app.diasporaid.com
+lebang.si
 lebanonpanews.com
 lebiutacsvaat.website
 lebmfvnquymym.online
@@ -62267,15 +62272,12 @@ mail.dolce-gusto.sk
 mail.dolce-gusto.ua
 mail.dolce-gusto.us
 mail.emeraldstonegc.blog
-mail.fairgroovetr.blog
 mail.fathomdelivers.com
 mail.finwellgroup.com
 mail.firsthome.com
 mail.information.maileva.com
 mail.quietsurfwi.help
-mail.rarewingvm.blog
 mail.rethinkretirementincome.co.uk
-mail.sandystudiogh.blog
 mail.semilab.hu
 mail.silverrockay.pro
 mail.spandex.com
@@ -67820,7 +67822,6 @@ moleconcern.com
 molecularrather.com
 moleculebeams.com
 moleculeordered.com
-molemole.my.id
 mollnia.com
 molypsigry.pro
 momentarilyhist.com
@@ -68388,7 +68389,6 @@ msdkcoll.emarbox.com
 msdoj.com
 msecure108.com
 mseeru.faz.net
-msfconfig.icu
 msfevrhvdychf.online
 msfunction.online
 msfvwi.sieuthiyte.com.vn
@@ -71738,7 +71738,7 @@ nwtennnews.com
 nwtg5ywz2j.com
 nwtwincities.com
 nwufgvturduja.site
-nwvalleyactive.tc.skysrt.com
+nwvalleytimes.com
 nwvkpbrceeutp.site
 nwvupz.cljoias.com.br
 nwwashingtonnews.com
@@ -77087,6 +77087,7 @@ plgtxprvrgume.site
 plhojqilqcdkw.site
 pliblcc.com
 pliing.com
+plikai.com
 plinksplanet.com
 plissetox.com
 plista.com
@@ -78843,7 +78844,6 @@ pub-17ab5f90ca394fc2a98a106eb938ff35.r2.dev
 pub-1900be17f2994b5580d602f23eb7fb93.r2.dev
 pub-1c4ef2a315ec4b89b9dfad9472afee69.r2.dev
 pub-1f5a501a59d74a6a97e77126cf1fc526.r2.dev
-pub-272fd20f9e3d49d5864e441b0c7a4fb8.r2.dev
 pub-2731c5c84ec94bb78b02c025b7b3f6c4.r2.dev
 pub-309aaffb1a3643d58aaa9c444941fef3.r2.dev
 pub-364c6b3011ca492cab2354176cfaf3f0.r2.dev
@@ -78857,6 +78857,7 @@ pub-4cf232026b854c1e8bb06b595c8f7587.r2.dev
 pub-5188043a98ed4134bdbf1227691455ca.r2.dev
 pub-53fe969c6db649fba6466eb765f54359.r2.dev
 pub-5590b15da27f4f219811312b19a8df05.r2.dev
+pub-5aaa0feaeca64ddda0e256f8793ca2fd.r2.dev
 pub-5eee967508114192a40c0ca052a3bb9d.r2.dev
 pub-5fd52250a6494c859025a3cd39713703.r2.dev
 pub-6a90252f6d70443d960d6ac029dbd446.r2.dev
@@ -78867,13 +78868,11 @@ pub-7bb797b9d5664a109b755165099495ac.r2.dev
 pub-80a0cc6d7e3d475dac1422cf49122362.r2.dev
 pub-82f13abd468442119ddfb068e9f5ad33.r2.dev
 pub-86c95a2c899a422ebe1c96f17984252f.r2.dev
-pub-8a311f63df364529b264fa273304d2d9.r2.dev
 pub-8ce03602555a436b80dbe377ce6f81de.r2.dev
 pub-8d59738861b849e5a38b795cc17b1019.r2.dev
 pub-8f07b712b50246eca5982f64bd695eea.r2.dev
 pub-90177fa65de34e95abc6e25ef90c545b.r2.dev
 pub-988fedd2621d406591dbb4e9358bc901.r2.dev
-pub-991af6d525914bda8f213aaa6c77e161.r2.dev
 pub-a06eb79f0ebe4a6999bcc71a2227d8e3.r2.dev
 pub-a327f9d03def4b07b51dba5303fc3620.r2.dev
 pub-a6ae2d4aa393400aa29f7b02ac7ab213.r2.dev
@@ -78891,7 +78890,6 @@ pub-ce4d5a76d41f4db48601a0a54208636e.r2.dev
 pub-cf9a2985033542d9a17b3c9a644b66be.r2.dev
 pub-d21b4190a47f45628c828456f23dd66e.r2.dev
 pub-d56457612c0b43ebbaf5c25537f2fb18.r2.dev
-pub-da43c68507c44a0f89782831aed83484.r2.dev
 pub-e10d56052d2542d0b2f74abed3691951.r2.dev
 pub-e33c72ad3ac74028914da0187313eeb3.r2.dev
 pub-e95a23a0e3944ef49a26647f1ec168e0.r2.dev
@@ -81365,7 +81363,6 @@ rarelyfans.com
 rarelywithinlull.com
 rareru.ru
 raresummer.com
-rarewingvm.blog
 rarityboastful.com
 raritystandforester.com
 rarnational.raisingareader.org
@@ -85645,7 +85642,6 @@ sandwichconscientiousroadside.com
 sandwichesbecomesorganism.com
 sandybeachesandsunsets.com
 sandypocket.com
-sandystudiogh.blog
 sandytaco.com
 saneeloisehat.com
 sanejudgment.pro
@@ -89020,6 +89016,7 @@ skylindo.com
 skymedia.co.uk
 skymobi.agency
 skymoders.top
+skymods.download
 skymods.top
 skynetwork.lat
 skypipehookahs.com
@@ -98793,6 +98790,7 @@ taiverturena.com
 taiwanlottery.com.tw
 taiwin79.win
 taixiusunwin.games
+taizi.fdstat.vip
 tajdmtszoslff.site
 tajfgxiduzgby.site
 tajs.qq.com
@@ -98851,7 +98849,6 @@ tamedia.com.tw
 tamfagaqmxc.in
 tamgrt.com
 tamparepublic.com
-tampareroofing.com
 tampboddagh.shop
 tampedennomic.shop
 tampionsley.com
@@ -100547,7 +100544,6 @@ timelessyes.com
 timelevel12.com
 timelog.moviebox.baofeng.com
 timelymaybe.pro
-times.com
 timeserver.cnzz.net
 timesmonarchcivil.com
 timestampasa.howto.rocks
@@ -104040,7 +104036,6 @@ trackyourstats.com
 trackzd.com
 tracot.com
 traction.technologyadvice.com
-tractor.trees4sale.net
 tradbypass.com
 tradeadexchange.com
 tradedeli.com
@@ -110349,6 +110344,7 @@ vulnerableimmigrateaboveaverage.com
 vultzotczdvwu.online
 vumkwueikvlxr.online
 vunailiylkmto.site
+vunex.dev
 vungle.cn
 vungle.com
 vuosclhphpmob.site
@@ -119166,7 +119162,6 @@ yunjiasu.com
 yunluge.com
 yunpifu.cn
 yunshipei.com
-yunvasilsky.mooo.com
 yunzhanghe.cn
 yunzuowen.com
 yuobseeeyrkyl.space
