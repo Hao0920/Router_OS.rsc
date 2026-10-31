@@ -1,8 +1,22 @@
 # fwd - 指定域名 DNS 转发
 
-从 MetaCubeX 的 `geosite/gfw.json` 生成 RouterOS DNS Static FWD 规则，将名单内域名及其子域名的 DNS 查询转发到 `172.16.1.2`。
+从多个域名源生成 RouterOS DNS Static FWD 规则，将名单内域名的 DNS 查询转发到 `172.16.1.2`。
 
 生成文件：`output/fwd/gfw.rsc`
+
+## 数据源
+
+- MetaCubeX `geosite/gfw.json`：读取 `domain` 和 `domain_suffix`。
+- Loyalsoldier `cn-blocked-domain/domains.txt`：按纯域名列表读取，包含子域名。
+- gfwlist `gfwlist.txt`：Base64 解码后提取可明确转换的域名规则。
+
+三个源会合并并跨源去重。同一域名同时出现时，“包含子域名”的规则优先。
+
+gfwlist 中的 `@@` 白名单不会加入转发名单；复杂 URL 正则、IP 地址和无法安全转换的通配符规则会跳过并输出数量。单个 `|` 锚定的 URL 规则只转换为主机本身，`||` 和普通域名规则包含子域名。
+
+## 普通 FWD 模式
+
+每个去重后的源域名都生成一条普通 `name` 类型 Static FWD，不生成正则，也不删除被父域名覆盖的子域名。该模式规则更容易排查，并避免正则匹配的额外开销。
 
 ## 规则格式
 
@@ -77,7 +91,9 @@
 python generators/fwd/generate.py
 ```
 
-生成器只接受 `domain` 和 `domain_suffix` 两类规则；如果上游以后加入 `domain_keyword` 或 `domain_regex`，会明确报错，而不是静默生成不完整名单。
+每个源独立下载和解析：至少一个源成功就会合并并发布名单，失败的源会跳过；只有三个源全部失败时才停止生成。成品脚本头部会记录 `Build status`、成功源和失败源，部分成功时状态为 `partial`。
+
+MetaCubeX 源只接受 `domain` 和 `domain_suffix` 两类规则；如果上游以后加入 `domain_keyword` 或 `domain_regex`，会明确报错，而不是静默生成不完整名单。
 
 ## 删除组件规则
 
