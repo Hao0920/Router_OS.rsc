@@ -10,11 +10,12 @@ RouterOS 脚本生成器集合
 | --- | --- | --- |
 | [chnroute](generators/chnroute/) | 中国大陆运营商策略路由 | [文档](generators/chnroute/README.md) |
 | [adlist](generators/adlist/) | 广告过滤列表 | [文档](generators/adlist/README.md) |
+| [fwd](generators/fwd/) | 指定域名 DNS Static FWD 转发 | [文档](generators/fwd/README.md) |
 | [ros-upgrade](generators/ros-upgrade/) | RouterOS 系统自动升级 | [文档](generators/ros-upgrade/README.md) |
 
 ## 仓库结构
 
-```javascript
+```text
 Router_OS.rsc/
 ├── README.md                    # 本文件
 ├── generators/
@@ -24,12 +25,16 @@ Router_OS.rsc/
 │   ├── adlist/                 # 广告过滤生成器
 │   │   ├── generate.py
 │   │   └── README.md           # adlist 文档
+│   ├── fwd/                    # DNS Static FWD 生成器
+│   │   ├── generate.py
+│   │   └── README.md           # fwd 文档
 │   └── ros-upgrade/            # 系统升级
 │       ├── ros-upgrade.txt     # 升级脚本
 │       └── README.md           # ros-upgrade 文档
 ├── output/
 │   ├── chnroute/               # 生成的 .rsc 文件
-│   └── adlist/                 # 生成的广告过滤文件
+│   ├── adlist/                 # 生成的广告过滤文件
+│   └── fwd/                    # 生成的 Static FWD 文件
 └── .github/workflows/          # GitHub Actions
 ```
 
@@ -40,6 +45,12 @@ Router_OS.rsc/
 每天 08:35 自动更新中国大陆 IP 路由数据
 
 详见 [chnroute 文档](generators/chnroute/README.md)
+
+### fwd - 指定域名 DNS 转发
+
+每天 08:30 从 MetaCubeX `gfw.json` 生成 Static FWD 规则，默认转发至 `172.16.1.2`。
+
+详见 [fwd 文档](generators/fwd/README.md)
 
 ### ros-upgrade - 系统版本升级
 
@@ -56,6 +67,9 @@ python generators/chnroute/generate.py
 # 生成 adlist
 python generators/adlist/generate.py
 
+# 生成 fwd
+python generators/fwd/generate.py
+
 # ros-upgrade 无需生成，直接使用
 ```
 
@@ -65,6 +79,7 @@ python generators/adlist/generate.py
 | --- | --- | --- |
 | [chnroute](.github/workflows/chnroute.yml) | 生成 IP 路由数据 | 每天 08:30 |
 | [adlist](.github/workflows/adlist.yml) | 生成广告过滤列表 | 每天 08:30 |
+| [fwd](.github/workflows/fwd.yml) | 生成 DNS Static FWD 数据 | 每天 08:30 |
 
 ## 添加新版生成器
 
