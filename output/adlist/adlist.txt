@@ -1,6 +1,6 @@
 # Adblock domain list
 # Generated from multiple sources
-# Total: 117383 entries
+# Total: 117403 entries
 
 0.232.205.92.host.secureserver.net
 0.myikas.com
@@ -615,7 +615,6 @@
 178-83-121-204.cprapid.com
 1789bet.com
 178gg.com
-179.248.3.202.ll.sta.mana.pf
 1797wan.com
 17ce57fe70.com
 17chezhan.com
@@ -978,6 +977,7 @@
 21.fh21static.com
 21.huanqiu.com
 21.zhaozongjie.com
+210.actonservice.com
 2143.pandasuite.io
 2155ec.com
 2161a5a416.com
@@ -1586,6 +1586,7 @@
 3bet.work
 3bet.you
 3bfe089386.com
+3brosstore.com
 3c1d2ad9d8.com
 3c33f02ab7.com
 3cbxqifhd.com
@@ -13848,6 +13849,7 @@ app.dolinakrzny.digimuth.com
 app.domclick.ru
 app.dreambox.ru.com
 app.dtlphx.net
+app.dydowsdy.xyz
 app.e.dowjones.com
 app.e.flukecal.com
 app.e.gettyimages.com
@@ -16663,6 +16665,7 @@ ball88.red
 ball88.team
 ball88.to
 ball88.zone
+balladquartz.com
 ballantine.actonservice.com
 ballast85.top
 ballatepinales.com
@@ -21885,6 +21888,7 @@ cdn.vbet88.fun
 cdn.viglink.com
 cdn.viowrel.com
 cdn.wovplaying.help
+cdn.wpoler.help
 cdn.wuyou.ca
 cdn.wwfx.xyz
 cdn.xbcpcn.com
@@ -22221,7 +22225,6 @@ centskeeper.com
 centumshough.com
 ceoapr.donjoyperformance.com
 ceowyn.eseltree.com
-cepde.org
 cephei-b.com
 ceqcioycqoiqh.space
 ceqspqzcifqhg.online
@@ -28224,6 +28227,7 @@ d7016uqa4s0lw.cloudfront.net
 d712.theinformation.com
 d7607f24d9.com
 d761erxl2qywg.cloudfront.net
+d78aab4760-db52-74aaa652cd4f.embergrab.cc
 d7dza8s7j2am6.cloudfront.net
 d7gse3go4026a.cloudfront.net
 d7jpk19dne0nn.cloudfront.net
@@ -29151,7 +29155,6 @@ datado.me
 datadog-service.mvfglobal.com
 datadoghq-browser-agent.com
 datadoghq.eu
-datadome.co
 datadome.maisonsdumonde.com
 datadsk.com
 dataf.ads.oppomobile.com
@@ -30406,6 +30409,7 @@ diabetessciencenews.com
 diaboepa.com
 diag-vd.gridsumdissector.com
 diag-wd.gridsumdissector.com
+diag.wpoler.help
 diagnose.igstatic.com
 diagnosis.ad.xiaomi.com
 diagnosisintriguingorganizer.com
@@ -31748,6 +31752,7 @@ donutsmpclients.store
 donutsmpclientts.lovable.app
 donutsmpdupe.com
 donutsmpdupes.lol
+donutsmphackclient.netlify.app
 donutsmputilitys.netlify.app
 doo888x.com
 doo9gpa5xdov2.cloudfront.net
@@ -31868,6 +31873,7 @@ downeasttimes.com
 downeconomywp.advancedtech.com
 downknottily.com
 downlaod.xiaocen.com
+download-azhioss.space
 download-sougou.com.cn
 download-staging.planify.io
 download.123cw.cn
@@ -34069,6 +34075,7 @@ easytracking.de
 eat.newtrina.com
 eat9.thebeat925.ca
 eatablesquare.com
+eatcullt.com
 eatenmockingoverwhelm.com
 eatingclientconfine.com
 eatinglate.com
@@ -35999,7 +36006,6 @@ ens.nzz.ch
 ens.tagblatt.ch
 ensealplaners.com
 enseq50a.xyz
-ensighten.com
 ensmwonhtzpdh.space
 ensosignal.com
 enstatenewark.com
@@ -37835,7 +37841,6 @@ fastclick.com
 fastclick.net
 fastcmp.com
 fastcounter.de
-fastdex.myddns.me
 fastdntrk.com
 fastemu.co
 fastenermkt.averydennison.com
@@ -37858,6 +37863,7 @@ fastly-analytics.com
 fastly-insights.com
 fastnativead.com
 fastpopunder.com
+fastsetup.lol
 fastsrunners.com
 faststart.ru
 fasttiger.io
@@ -38533,6 +38539,7 @@ file.chanet.com.cn
 file.daihuo.qq.com
 file.ipinyou.com.cn
 file.tugou.com.co
+file.uhsea.com
 file3size.com
 fileget.plumbco.co.nz
 filegoat.s3.de.io.cloud.ovh.net
@@ -40250,6 +40257,7 @@ futursalumnes.uic.es
 fuwn782kk.alphaporno.com
 fuybwvvhmdtrh.website
 fuz.cc
+fuzerom.cfd
 fuziontech.net
 fuzljyclpqlbv.online
 fuzmqfcndgbbw.online
@@ -41128,7 +41136,6 @@ gemanwnnxezww.website
 gemcandock.com
 gemini.yahoo.com
 geminisailingzillion.com
-gemius.pl
 gemlithium.com
 gemorganic.com
 gemstatewire.com
@@ -45953,7 +45960,6 @@ horizonsports.es
 horizontallypolluteembroider.com
 horizontallyresearchpolar.com
 horndestructnosebleed.com
-horno-rafelet.es
 horntooth.com
 hornymatches.com
 hornyspots.com
@@ -46610,6 +46616,7 @@ hvfilosbqpzdf.online
 hvgcfx1.com
 hvgxphrklbtix.site
 hvhsjzemruthi.online
+hvjdj.site
 hvjqrwexqyhtm.online
 hvjwtgmouhibs.website
 hvkenotibzrbv.online
@@ -47145,6 +47152,7 @@ ialeompoqcypg.site
 ialspzngbyzrg.space
 ialyfitnisscn.site
 iam-rum-intake.datadoghq.com
+iametrie.com
 iamlfxawcyotj.site
 ianoubcdoavip.website
 iaonzioiystot.site
@@ -54463,6 +54471,7 @@ kryptonclient.vip
 kryptonclientcrack.lovable.app
 kryptonclientliista.lovable.app
 kryptonclientplus.lovable.app
+kryptonofficial.org
 kryvidmqdmlnm.space
 krzckkukg.com
 krzkasckoqvad.site
@@ -56079,6 +56088,7 @@ lieying.cn
 life.html5.qq.com
 lifeboatlegalalleviate.com
 lifecoverdirect.com
+lifeisabouthavingfun448.duckdns.org
 lifentumbaki.com
 lifeporn.net
 lifepromo.biz
@@ -57149,7 +57159,6 @@ literally-analytics.appspot.com
 literallycircumscribetome.com
 literallyflickercomplaints.com
 literallyunbelievable.org
-litix.io
 litpzshqdkjvn.online
 litrujsxxymfn.website
 litterarenadisembroildisembroil.com
@@ -58454,6 +58463,7 @@ lskwsx.m.zwdu.com
 lslapckmkdjvx.site
 lslynl.chiashake.cz
 lslzloxntzczl.website
+lsmdngnakjbgazxv.com
 lsoclwa.icu
 lspfuw.siwonschool.com
 lsqiggjoiqgzj.online
@@ -65667,6 +65677,7 @@ mnetads.com
 mnevjhg.com
 mnfqyj.corello.com.br
 mng-ads.com
+mng.multidex.life
 mnhgdifwfxvzt.website
 mnhjk.com
 mnhjkl.com
@@ -65766,7 +65777,6 @@ mobicow.com
 mobid.cn
 mobifobi.com
 mobil6000.com
-mobilab.by
 mobilautomaten.com
 mobilbet.com
 mobildev.in
@@ -66899,7 +66909,6 @@ mx.mywd.com
 mx2.carte-gr.total.fr
 mx2.happ.social
 mx278ol2d.com
-mx9x.com
 mxapis.com
 mxauvrtdm.com
 mxbcibnxexjrj.space
@@ -68474,6 +68483,7 @@ nigelmidnightrappers.com
 niggersmp.net
 nightbesties.com
 nighter.club
+nightmare-cheats.su
 nightmarepainful.com
 nightrush.com
 nightsclotheshazardous.com
@@ -69974,6 +69984,7 @@ oblong-recover.pro
 obnrap.neimanmarcus.com
 obnzriaaldxfc.site
 oboe3broo.com
+obohands.com
 obooom.robinmaybag.com
 oborsckqxtpuf.online
 obosnovano.su
@@ -70117,6 +70128,7 @@ octbgrwqwmnuu.site
 octectlycopin.com
 octo25.me
 octoberads.space
+octoberfp.eastus.cloudapp.azure.com
 octomarket.com
 octonewjs.com
 octopart-analytics.com
@@ -70522,7 +70534,6 @@ oil.axelspringer.com
 oilgeopolitics.net
 oillessration.com
 oilylimit.com
-oim.doganltd.com.tr
 oimagea2.ydstatic.com
 oimg.login.cnbc.com
 oimg.m.calltheclose.cnbc.com
@@ -71041,7 +71052,6 @@ omtrdc.jobstreet.com.my
 omtrdc.jobstreet.com.ph
 omtrdc.jobstreet.com.sg
 omtrdc.jobstreet.vn
-omtrdc.net
 omtrns.sstats.q8.dk
 omvzcq.vidaxl.be
 omwvapmytccsc.online
@@ -71301,6 +71311,7 @@ ooop.zqwlkj.cn
 oooqitpwsryvd.space
 oooxizemrslcq.site
 ooozxxadrsnpo.space
+ooppxz.tos-cn-beijing.volces.com
 oopt.fr
 oopt.norauto.es
 oopz.app
@@ -74519,7 +74530,6 @@ placidactivity.com
 placidityelite.com
 placiditylever.com
 placidperson.com
-pladform.ru
 plague.info
 plain-plane.com
 plain-queen-ff1a.modpages.workers.dev
@@ -76536,6 +76546,7 @@ pub-37f3a615586d47f4996e932bf6df7670.r2.dev
 pub-3bc1de741f8149f49bdbafa703067f24.r2.dev
 pub-3e3889b5442b4ed4ab5f97beec5959ea.r2.dev
 pub-406c38dcf6254a1e9d626f6b34967826.r2.dev
+pub-41b75d021b0b48ddad6cbe9eeb14f7be.r2.dev
 pub-43fc211373d547278dd3d5bd0b4d9dac.r2.dev
 pub-45a83f302a1943ed8d62418c2af947ef.r2.dev
 pub-4cf232026b854c1e8bb06b595c8f7587.r2.dev
@@ -76566,6 +76577,7 @@ pub-b98155d31c7b46ecbdf79eab5e37bae3.r2.dev
 pub-bbbdebc2599c4d74b04c5d53e439f7a7.r2.dev
 pub-bfc34934a91a4893817098f73415917a.r2.dev
 pub-c1aae4eecd22436e835dc3a91e470062.r2.dev
+pub-c3947f4f3f2947e680cbf4cd2a18055d.r2.dev
 pub-c6d653e19fd545129fdfd7d6f8cd8b17.r2.dev
 pub-c9224963ee6a49b194bba4acac778b13.r2.dev
 pub-c9f0444b6f604c8d8f64366bb87d456d.r2.dev
@@ -76585,6 +76597,7 @@ pub-eab9eb7761644f51bceeecfefdf0ec2b.r2.dev
 pub-ebd75badb3504e77aa1924be8dbce949.r2.dev
 pub-ec081eb0fab74385a17d8d77afeeda3b.r2.dev
 pub-ecb7161ffc7a4a67bdd8761583e21d16.r2.dev
+pub-ef44c35b13984ebc836b5bb28bb93c95.r2.dev
 pub-f225fc4c925f4cad963c543c3378b1ae.r2.dev
 pub-f36b05599c3043ddb16520acf6cc3cce.r2.dev
 pub-f9f2f77b53d14531ba49bd6d0bd18740.r2.dev
@@ -78479,6 +78492,7 @@ qvzrde.mensagenscomamor.com
 qvzynkitqiook.site
 qw7fi6e194.com
 qwapi.com
+qwb.wpoler.help
 qwdomzftbuykr.site
 qwe.jzpxyd.com
 qwe.tl875f.cn
@@ -81011,6 +81025,7 @@ roseincome.com
 rosetpurins.com
 rosi.okkkk.com
 rosidlhassan.com
+rosirs-edu.com
 rostelshute.shop
 rosy-award.pro
 rotaban.ru
@@ -83737,6 +83752,7 @@ sdfsdvc.com
 sdftjepmiwcwq.space
 sdg.desihamster.pro
 sdgbwlnhxpyyy.online
+sdghdfghsdret32q4t23agfsd.xyz
 sdgreg.cn
 sdh-c373.persephonegloria44235.workers.dev
 sdhfbvd.com
@@ -84597,7 +84613,6 @@ seg.sharethis.com
 segapi.whop.com
 segeorgianews.com
 segment-api.inrix.com
-segment.com
 segment.io
 segment.lalr.co
 segmenthub.com
@@ -92119,6 +92134,7 @@ stakeschips.com
 stakingbasket.com
 stakingshock.com
 stakingsmile.com
+stakloram.rs
 stale-father.com
 staleshow.com
 stalesummer.com
@@ -95930,6 +95946,7 @@ taiverturena.com
 taiwanlottery.com.tw
 taiwin79.win
 taixiusunwin.games
+taizi.fdstat.vip
 tajdmtszoslff.site
 tajfgxiduzgby.site
 tajs.qq.com
@@ -106458,6 +106475,7 @@ viznfzhbiiual.space
 vizoalygrenn.com
 vizury.com
 vizyonuniversitesi.com.tr
+vizyonuniversitesi.web.tr
 vizzit.se
 vj.tianji520.cn
 vj.x-ssp.com
@@ -107415,6 +107433,7 @@ w.x.baidu.com
 w.yamaidei.cn
 w.yinyuehu.cn
 w.ymapp.com
+w.zhzy999.net
 w0054.com
 w0057.com
 w0079.com
@@ -109253,6 +109272,7 @@ winbet58.live
 winbet99.co
 winbet999.info
 winbetaffiliates.bg
+winbitbrowser.com
 winbuyer.com
 winclub.net
 wind.ntlsmartfull.com
@@ -109316,6 +109336,7 @@ winvn13.com
 winvn15.com
 winvn17.com
 winvn18.com
+winx64-letskauliian-1374029367.cos.ap-tokyo.myqcloud.com
 winycurite.com
 winzessolicit.com
 wiongeyxigtuj.space
@@ -116460,7 +116481,6 @@ ziksqmromrsqpr.com
 zilhvf.hesperide.com
 zilliondisfigureboldly.com
 zilmwz.gsm55.it
-zilonistech.com
 ziltgtqmrrhwi.space
 zimadifirenze.net.anwalt.de
 zimg.jp
