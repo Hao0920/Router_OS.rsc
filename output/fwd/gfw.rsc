@@ -6,7 +6,7 @@
 # Sources succeeded: MetaCubeX gfw, Loyalsoldier cn-blocked-domain, gfwlist
 # Sources failed: none
 # Forward to: 172.16.1.2
-# RouterOS rules: 36733
+# RouterOS rules: 36734
 # Compression: none
 # Re-importing replaces entries carrying the same comment.
 /ip dns static remove [find comment="proxyconf: gfw to proxy"]
@@ -5183,6 +5183,7 @@
 /ip dns static add name="bilaxy.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="bild.de" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="bildung-rp.de" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
+/ip dns static add name="bilibili.tv" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="bililibi.net" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="bilinovel.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="biliworld.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
