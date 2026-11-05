@@ -1,0 +1,54 @@
+name: Geph 节点列表监控
+
+on:
+  schedule:
+    # UTC 每 6 小时第 17 分（避开整点高峰，GitHub 延迟更小）
+    # 北京时间约 02:17 / 08:17 / 14:17 / 20:17
+    - cron: "17 */6 * * *"
+  workflow_dispatch: {}   # 允许手动触发
+
+permissions:
+  contents: write          # 需要推送 data 分支
+
+env:
+  DATA_BRANCH: data        # 结果推送的目标分支（不存在会自动创建）
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 安装依赖
+        run: pip install requests pynacl blake3
+
+      - name: 抓取并验签
+        env:
+          # 首次运行不设此变量；看日志拿到 broker 公钥指纹后，
+          # 到 Settings -> Secrets and variables -> Actions -> Variables 添加 GEPH_PIN
+          GEPH_PIN: ${{ vars.GEPH_PIN }}
+        run: |
+          if [ -n "$GEPH_PIN" ]; then
+            python3 geph_节点列表.py --pin "$GEPH_PIN" --json net_status.json
+          else
+            python3 geph_节点列表.py --json net_status.json
+          fi
+
+      - name: 推送到 data 分支
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin "$DATA_BRANCH" 2>/dev/null || true
+          git checkout -B "$DATA_BRANCH" "origin/$DATA_BRANCH" 2>/dev/null || git checkout --orphan "$DATA_BRANCH"
+          mkdir -p net
+          mv net_status.json net/net_status.json
+          cp net/net_status.json "net/$(date -u +%Y%m%d_%H%M%S).json"
+          # 历史快照只保留最近 200 份，避免仓库无限膨胀
+          ls -1t net/2*.json 2>/dev/null | tail -n +201 | xargs -r rm -f
+          git add net/
+          git commit -m "节点状态 $(date -u +%Y-%m-%dT%H:%M:%SZ)" || exit 0
+          git push -u origin "$DATA_BRANCH"
