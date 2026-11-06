@@ -6,7 +6,7 @@
 # Sources succeeded: MetaCubeX gfw, Loyalsoldier cn-blocked-domain, gfwlist
 # Sources failed: none
 # Forward to: 172.16.1.2
-# RouterOS rules: 36734
+# RouterOS rules: 36733
 # Compression: none
 # Re-importing replaces entries carrying the same comment.
 /ip dns static remove [find comment="proxyconf: gfw to proxy"]
@@ -20480,7 +20480,6 @@
 /ip dns static add name="maturetubehere.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="maturetubeporn.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="matwin.ca" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
-/ip dns static add name="maven.neoforged.net" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="mawcheay.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="max-a.co.jp" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="max72pro.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
