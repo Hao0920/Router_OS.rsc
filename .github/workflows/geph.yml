@@ -1,0 +1,60 @@
+name: Build Geph5 Binaries
+
+on:
+  workflow_dispatch:        # 手动触发
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout geph5 source
+        uses: actions/checkout@v4
+        with:
+          repository: geph-official/geph5
+          path: geph5
+          # 如需固定版本，取消下面注释并填入 commit/tag
+          # ref: main
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            build-essential pkg-config libssl-dev \
+            libsqlite3-dev perl cmake
+
+      - name: Setup Rust
+        run: |
+          rustup toolchain install stable --profile minimal
+          rustup default stable
+          rustc --version
+
+      - name: Cache Cargo
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: geph5
+
+      - name: Build release binaries
+        working-directory: geph5
+        run: cargo build --release --locked
+
+      - name: Collect binaries
+        run: |
+          mkdir -p /tmp/geph5-out
+          for bin in geph5 geph5-client; do
+            if [ -f "geph5/target/release/$bin" ]; then
+              cp "geph5/target/release/$bin" /tmp/geph5-out/
+              echo "✓ $bin"
+            else
+              echo "✗ $bin 未找到"
+            fi
+          done
+          ls -la /tmp/geph5-out/
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: geph5-binaries
+          path: /tmp/geph5-out/*
+          if-no-files-found: error
