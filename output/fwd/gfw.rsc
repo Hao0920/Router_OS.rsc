@@ -6,7 +6,7 @@
 # Sources succeeded: MetaCubeX gfw, Loyalsoldier cn-blocked-domain, gfwlist
 # Sources failed: none
 # Forward to: 172.16.1.2
-# RouterOS rules: 36775
+# RouterOS rules: 36776
 # Compression: none
 # Re-importing replaces entries carrying the same comment.
 /ip dns static remove [find comment="proxyconf: gfw to proxy"]
@@ -1277,6 +1277,7 @@
 /ip dns static add name="51kejiao.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="51luoben.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="51ms.life" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
+/ip dns static add name="51papaya.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="51sec.org" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="51voa.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="51wanqiu.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
