@@ -6,7 +6,7 @@
 # Sources succeeded: MetaCubeX gfw, Loyalsoldier cn-blocked-domain, gfwlist
 # Sources failed: none
 # Forward to: 172.16.1.2
-# RouterOS rules: 36880
+# RouterOS rules: 36882
 # Compression: none
 # Re-importing replaces entries carrying the same comment.
 /ip dns static remove [find comment="proxyconf: gfw to proxy"]
@@ -9951,6 +9951,7 @@
 /ip dns static add name="dubox.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="dubya.net" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="duc-tran.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
+/ip dns static add name="duck.ai" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="duck.co" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="duck.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="duckdns.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
@@ -28940,6 +28941,7 @@
 /ip dns static add name="souka.me" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="soulcaliburhentai.net" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="soulforce.org" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
+/ip dns static add name="soulogic.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="soundalerts.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="soundcloud.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="soundnodeapp.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
