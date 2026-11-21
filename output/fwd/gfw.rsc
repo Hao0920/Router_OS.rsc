@@ -6,7 +6,7 @@
 # Sources succeeded: MetaCubeX gfw, Loyalsoldier cn-blocked-domain, gfwlist
 # Sources failed: none
 # Forward to: 172.16.1.2
-# RouterOS rules: 36882
+# RouterOS rules: 36883
 # Compression: none
 # Re-importing replaces entries carrying the same comment.
 /ip dns static remove [find comment="proxyconf: gfw to proxy"]
@@ -12974,7 +12974,6 @@
 /ip dns static add name="game.com.cn" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="game2000.xyz" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="game312.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
-/ip dns static add name="game735.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="game88city.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="game88city.net" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="gamealiyun.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
@@ -14285,6 +14284,7 @@
 /ip dns static add name="green-living.com.tw" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="green960.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="greenandlight.net" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
+/ip dns static add name="greenbean.media" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="greenbed.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="greencubes.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="greengelato.ro" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
@@ -20635,6 +20635,7 @@
 /ip dns static add name="mbtrx.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="mbuf.net" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="mc.gov.lk" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
+/ip dns static add name="mc.yandex.ru" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="mc2828.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="mca.gov.in" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
 /ip dns static add name="mcadforums.com" type=FWD forward-to=172.16.1.2 match-subdomain=yes disabled=no comment="proxyconf: gfw to proxy"
